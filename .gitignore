@@ -65,3 +65,5 @@ videos/*/test_v3/mk/scenes/
 videos/*/test_v3/mk/assets/*.jpg
 **/node_modules/
 videos/*/test_v3/chapter/render.log
+# Epidemic Sound SFX: licensed to the subscription, NEVER commit (catalog: assets/sfx/EPIDEMIC_SFX.md)
+assets/sfx/epidemic/
