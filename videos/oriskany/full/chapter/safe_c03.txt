@@ -23,5 +23,11 @@ safe_area.js adjusted:
   lift 15px: IN THE COMMENTSTELL US THEIR S
   lift 15px: VA-163LCDR JOHN McCAIN
   lift 15px: POWs WHO FLEW FROM HER DECKSTO
-FAIL: 1 text problems
-  bottom 90% | "TELL US THEIR STORY"  @ 131.5
+  lift 12px: 13 OCTOBER 1945LAUNCH · NEW YO
+  lift 12px: USS ORISKANY (CV-34)LAST ESSEX
+  lift 12px: HER NICKNAMETHE MIGHTY O
+  lift 12px: CDRJAMES STOCKDALE
+  lift 12px: IN THE COMMENTSTELL US THEIR S
+  lift 12px: VA-163LCDR JOHN McCAIN
+  lift 12px: POWs WHO FLEW FROM HER DECKSTO
+PASS: no text breaks the size / safe-area / font rules (168.2 s checked every 0.5 s)

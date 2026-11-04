@@ -21,7 +21,10 @@
       const r = b.getBoundingClientRect(), rr = root.getBoundingClientRect(); if (!r.height) return;
       const top = (r.top - rr.top) / k, bot = (r.bottom - rr.top) / k, right = (r.right - rr.left) / k, left = (r.left - rr.left) / k;
       const cur = parseFloat(getComputedStyle(b).top) || 0;
-      if (bot > SAFE_B) { b.style.top = (cur - (bot - SAFE_B) - 6) + 'px'; log.push(`lift ${(bot - SAFE_B + 6).toFixed(0)}px: ${b.textContent.trim().slice(0, 30)}`); }
+      // DROP = runtime.js drop() entry offset (y: 12): the block rises from 12 px lower, so lift it far enough that it stays
+      // out of the bottom 10 % during its entry too (Oriskany full c03 "TELL US THEIR STORY" sat 1 px in the zone while fading in)
+      const DROP = 12;
+      if (bot + DROP > SAFE_B) { b.style.top = (cur - (bot + DROP - SAFE_B) - 6) + 'px'; log.push(`lift ${(bot + DROP - SAFE_B + 6).toFixed(0)}px: ${b.textContent.trim().slice(0, 30)}`); }
       else if (right > TR_X && top < TR_Y && left > W * 0.5) { b.style.top = (cur + (TR_Y - top) + 6) + 'px'; log.push(`down ${(TR_Y - top + 6).toFixed(0)}px: ${b.textContent.trim().slice(0, 30)}`); }
     });
     window.__safeLog = (window.__safeLog || []).concat(log);

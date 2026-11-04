@@ -102,3 +102,8 @@ videos/oriskany/full/mk/assets/grain.png
 videos/oriskany/full/hero/render.log
 videos/*/*/chapter/build_*.log
 videos/*/*/chapter/render_*.log
+
+# chapter build/render logs (ship-channel full videos)
+videos/*/full/chapter/*.log
+videos/*/full/chapter/*.stamp
+videos/*/full/chapter/join_list.txt
