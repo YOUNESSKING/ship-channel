@@ -1,0 +1,30 @@
+safe_area.js adjusted:
+  size 22->25.4: WARSHIP OFFERED
+  size 19->25.4: THE PLAN
+  size 19->25.4: IT TOOK
+  size 24->25.4: 0
+  size 24->25.4: 5
+  size 24->25.4: 10
+  size 24->25.4: 15
+  size 24->25.4: 20
+  size 24->25.4: 25
+  size 19->25.4: THE CLEANUP RULE
+  size 24->25.4: 0
+  size 24->25.4: 5
+  size 24->25.4: 10
+  size 24->25.4: 15
+  size 24->25.4: 20
+  size 24->25.4: 25
+  size 25->25.4: ORIGINAL 2.1
+  size 19->25.4: SPENT ON THE DECK
+  size 19->25.4: A COMPUTER MODEL
+  size 19->25.4: ONE MORE TOW
+  size 24->25.4: 0
+  size 24->25.4: 5
+  size 24->25.4: 10
+  size 24->25.4: 15
+  size 24->25.4: 20
+  size 24->25.4: 25
+  size 19->25.4: PRESS, SINKING DAY
+  size 19->25.4: FLORIDA SENATE
+PASS: no text breaks the size / safe-area / font rules (128.5 s checked every 0.5 s)

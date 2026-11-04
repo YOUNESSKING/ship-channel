@@ -1,0 +1,18 @@
+safe_area.js adjusted:
+  size 19->25.4: FLORIDA FWC
+  size 19->25.4: FIRST YEAR
+  size 19->25.4: ECONOMIC IMPACT
+  size 19->25.4: THE NAVY’S SUMS
+  size 19->25.4: MARAD · REPORT TO CONGRESS · J
+  size 19->25.4: THE WARNING
+  size 19->25.4: 10 A.M. · WEATHER PERMITTING
+  size 19->25.4: OKALOOSA COUNTY’S SHARE
+  lift 15px: FLORIDA FWCNEVER GO INSIDE
+  lift 15px: MARAD · REPORT TO CONGRESS · J
+  lift 11px: 990 ftSS UNITED STATES · 2012 
+  lift 56px: OKALOOSA COUNTY’S SHARE$50,000
+  lift 12px: FLORIDA FWCNEVER GO INSIDE
+  lift 12px: MARAD · REPORT TO CONGRESS · J
+  lift 12px: 990 ftSS UNITED STATES · 2012 
+  lift 12px: OKALOOSA COUNTY’S SHARE$50,000
+PASS: no text breaks the size / safe-area / font rules (198.3 s checked every 0.5 s)

@@ -29,7 +29,15 @@ EOF
   node "$ROOT/templates/check_safe_text.js" "$W/index.html" 0.5 > "$FULL/chapter/safe_$k.txt" 2>&1; echo "  safe-text exit $? ($(tail -1 "$FULL/chapter/safe_$k.txt"))"
   echo "$(date +%T) render $k"
   rm -f "$OUT.part.mp4"
-  (cd "$W" && npx -y hyperframes@0.8.188 render --fps 30 --quality standard --output "$OUT.part.mp4" > "$FULL/chapter/render_$k.log" 2>&1) || { echo "RENDER FAILED $k (see chapter/render_$k.log)"; exit 1; }
+  # the HyperFrames frame-extract cache grows ~1 GB per chapter and filled the disk once (c07 died at 36 %, "Target closed"):
+  # clear it before every render, and retry a failed render once
+  rm -rf /tmp/hyperframes-extract-cache-*
+  ok=0; for try in 1 2; do
+    (cd "$W" && npx -y hyperframes@0.8.188 render --fps 30 --quality standard --output "$OUT.part.mp4" > "$FULL/chapter/render_$k.log" 2>&1) && { ok=1; break; }
+    echo "  render $k try $try failed: $(grep -m1 -E 'Low disk|Failed|Error' "$FULL/chapter/render_$k.log")"; rm -rf /tmp/hyperframes-extract-cache-* "$OUT.part.mp4"
+  done
+  [ $ok = 1 ] || { echo "RENDER FAILED $k (see chapter/render_$k.log)"; exit 1; }
+  rm -rf "$W/assets/clips"   # conformed clip copies: rebuilt by build_chapter.py when needed (disk)
   mv "$OUT.part.mp4" "$OUT" && echo "$STAMP" > "$OUT.stamp"
   echo "$(date +%T) done $k $(ffprobe -v error -show_entries format=duration -of csv=p=0 "$OUT") s"
 done

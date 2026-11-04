@@ -1,0 +1,18 @@
+safe_area.js adjusted:
+  size 19->25.4: PCBs LEFT ABOARD
+  size 19->25.4: REMOVED
+  size 19->25.4: EPA RULING · 15 FEB 2006
+  size 22->25.4: APPROVAL OF ITS KIND
+  size 19->25.4: EPA
+  size 22->25.4: FROM THE WRECK
+  size 19->25.4: 2012 PETITION · FROM FWC DATA
+  size 19->25.4: FLORIDA
+  lift 7px: REMOVEDALL LIQUID PCBs
+  lift 7px: EPAFOR HER ALONE
+  lift 7px: 2012 PETITION · FROM FWC DATAE
+  lift 7px: FLORIDANO ADVISORY ISSUED
+  lift 20px: REMOVEDALL LIQUID PCBs
+  lift 20px: EPAFOR HER ALONE
+  lift 20px: 2012 PETITION · FROM FWC DATAE
+  lift 20px: FLORIDANO ADVISORY ISSUED
+PASS: no text breaks the size / safe-area / font rules (124.8 s checked every 0.5 s)
