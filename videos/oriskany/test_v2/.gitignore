@@ -6,3 +6,5 @@ hero.done
 mk/scenes/maps.done
 mk/tools/.tiles/
 build/*.log
+assets/clips/*.mp4
+segments/*.txt
