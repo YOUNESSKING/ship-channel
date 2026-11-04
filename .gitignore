@@ -48,3 +48,6 @@ videos/oriskany/test_v2/mk/.tiles/
 videos/oriskany/test_v2/audio/*.wav
 # downloaded music candidates (licensed audio, kept local)
 assets/music/candidates/
+# rendered segments and copied source photos (rebuildable, kept local)
+videos/*/test_v2/segments/
+videos/*/test_v2/assets/photos/
