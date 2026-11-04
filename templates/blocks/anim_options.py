@@ -10,7 +10,9 @@ META = dict(name='anim_options', about='"What would you do?" spine: title + rows
   variants=['list', 'side'],
   params={'title': 'caps title, *word* = gold italic (default "What would you do?")', 'title_at': 'default 0.25',
           'items': '[{"text":"Run","at":T,"box_at":T,"strike_at":T,"scene":{"type":"run|climb|hide|swim|stand","at":T,"dur":3,"label":"TIGERS RUN 60 KM/H","animal":{"image":"tiger.png"} | {"shape":"croc"}}}]',
-          'numbered': 'true = "1. Run" (default true)', 'verdict': 'italic line at the end (e.g. "Bad plan.")', 'verdict_at': 'when the verdict shows'})
+          'numbered': 'true = "1. Run" (default true)',
+          'chosen': 'item field: true = the final answer; ONLY this row gets the gold box (after the last strike, held to the shot end, >= 1.5 s). Struck rows never get a box.',
+          'hair': 'true = gold hairline under the title (default false: it read as a stray underline)', 'scrim': 'dark ellipse behind the list for a moving bg_clip (default: on when the shot has bg_clip)', 'verdict': 'italic line at the end (e.g. "Bad plan.")', 'verdict_at': 'when the verdict shows'})
 
 LEFT = {'list': 400, 'side': 90}
 
@@ -116,19 +118,41 @@ def build(ctx):
                 f'<line id="{p}-st{i}" x1="{L - 10}" y1="{y + size * .58:.0f}" x2="{L + tw[i] + 6:.0f}" y2="{y + size * .54:.0f}" stroke="{GOLD}" stroke-width="5" stroke-linecap="round" pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/>')
     tx = None if v == 'list' else 90
     head = (f'<div id="{p}-q" class="an-a an-k" style="left:{0 if v == "list" else 90}px;width:{1280 if v == "list" else 560}px;top:{132 if v == "list" else 120}px;text-align:{"center" if v == "list" else "left"};font-size:28px;opacity:0">{kick_html(title)}</div>'
-            f'<div id="{p}-qh" class="an-hair" style="left:{560 if v == "list" else 90}px;width:160px;top:{178 if v == "list" else 166}px;opacity:0"></div>')
-    sc.add_html(f'<div id="{p}-head">{head}</div><div id="{p}-lst" class="an-a" style="left:0;top:0;width:1280px;height:720px">{rows}<svg class="an-ly" width="1280" height="720" viewBox="0 0 1280 720">{svg}</svg></div>')
+            + (f'<div id="{p}-qh" class="an-hair" style="left:{560 if v == "list" else 90}px;width:160px;top:{196 if v == "list" else 184}px;opacity:0"></div>' if ctx.p('hair', False) else ''))
+    scrim = ''
+    if ctx.p('scrim', bool(ctx.shot.get('bg_clip'))):   # readable over a moving clip: soft dark ellipse behind title + rows
+        sh = top0 + len(texts) * gap + 40
+        scrim = f'<div class="an-a" style="left:{(L - 140) if v == "list" else 0}px;top:90px;width:{(bw + 280) if v == "list" else 720}px;height:{sh - 60}px;background:radial-gradient(ellipse closest-side at 50% 50%,rgba(4,8,12,.74) 0%,rgba(4,8,12,.5) 55%,rgba(4,8,12,0) 100%)"></div>'
+    sc.add_html(f'{scrim}<div id="{p}-head">{head}</div><div id="{p}-lst" class="an-a" style="left:0;top:0;width:1280px;height:720px">{rows}<svg class="an-ly" width="1280" height="720" viewBox="0 0 1280 720">{svg}</svg></div>')
     sc.J(f"tl.fromTo('#{p}-q',{{opacity:0,y:10}},{{opacity:1,y:0,duration:.45,ease:'power2.out',immediateRender:false}},{tat:.3f});"
-         f"tl.fromTo('#{p}-qh',{{scaleX:0,opacity:1,transformOrigin:'{'50% 50%' if v == 'list' else '0 50%'}'}},{{scaleX:1,duration:.5,ease:'power2.out',immediateRender:false}},{tat + .15:.3f});")
+         + (f"tl.fromTo('#{p}-qh',{{scaleX:0,opacity:1,transformOrigin:'{'50% 50%' if v == 'list' else '0 50%'}'}},{{scaleX:1,duration:.5,ease:'power2.out',immediateRender:false}},{tat + .15:.3f});" if ctx.p('hair', False) else ''))
     sc.sfx('swoosh', tat, .25)
     # ---- events per row
-    struck = set(); boxes = []
+    struck = set(); boxes = []; strikes = []
+    chosen = [i for i, it in enumerate(items) if it.get('chosen')]
+    for i, it in enumerate(items):
+        if it.get('strike_at') is not None: strikes.append(ctx.t(it['strike_at']))
+    last_strike = max(strikes) if strikes else None
     for i, it in enumerate(items):
         at = ctx.t(it.get('at'), .9 + i * .45)
         sc.J(f"tl.fromTo('#{p}-o{i}',{{opacity:0,x:-24}},{{opacity:1,x:0,duration:.3,ease:'power3.out',immediateRender:false}},{at:.3f});"); sc.sfx('click', at, .5)
         scn = it.get('scene'); s_at = ctx.t(scn.get('at'), (at - a) + 1.0) if scn else None
         box = it.get('box_at'); st = it.get('strike_at')
-        bat = ctx.t(box) if box is not None else (s_at - .6 if scn else (ctx.t(st) - .8 if st is not None else None))
+        # gold box rules (ship test v3 fix): a struck row NEVER gets a box; a "chosen" row gets it after the last strike and holds it;
+        # an explicit box_at still works for unstruck rows; mini-scene rows keep their implicit box (prehistory look)
+        if st is not None:
+            bat = None
+            if box is not None: ctx.B.warn.append(f'{p}: row "{it["text"]}" has strike_at AND box_at: the box is dropped (struck rows never get a box)')
+        elif it.get('chosen'):
+            bat = ctx.t(box) if box is not None else max(at + .3, (last_strike + .4) if last_strike is not None else at + .3)
+            if b - bat < 1.5:
+                early = max(at + .2, b - 1.5)
+                ctx.B.warn.append(f'{p}: chosen row "{it["text"]}" box would hold only {b - bat:.2f}s (< 1.5 s); moved to {early:.2f}s' + ('' if early <= b - 1.5 + 1e-6 else ' - still short: lengthen the shot'))
+                bat = early
+        elif chosen:
+            bat = None                       # another row is the answer: no box here
+        else:
+            bat = ctx.t(box) if box is not None else (s_at - .6 if scn else None)
         if bat is not None: boxes.append((bat, i))
         if st is not None:
             sat = ctx.t(st)

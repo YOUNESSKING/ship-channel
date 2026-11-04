@@ -1,0 +1,50 @@
+{
+ "key": "options",
+ "title": "Oriskany test v3 (hook)",
+ "words": "../../../../videos/oriskany/test_v3/build/words.json",
+ "audio_offset": 0,
+ "clips_dir": "../../../../videos/oriskany/test_v3/segments",
+ "fade_out": 0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "a17",
+   "template": "anim_options",
+   "variant": "list",
+   "start": "t36.4",
+   "params": {
+    "title": "Keep her? Scrap her?",
+    "title_at": "t36.5",
+    "numbered": false,
+    "items": [
+     {
+      "text": "Sink her",
+      "at": "@bottom",
+      "chosen": true
+     },
+     {
+      "text": "Keep her",
+      "at": "@keeping",
+      "strike_at": "t40.15"
+     },
+     {
+      "text": "Scrap her",
+      "at": "@cutting",
+      "strike_at": "t40.4"
+     }
+    ]
+   },
+   "sfx": false,
+   "bg_clip": {
+    "file": "f20_bg.mp4",
+    "show": 0.6
+   },
+   "end": "t42.4"
+  }
+ ]
+}
