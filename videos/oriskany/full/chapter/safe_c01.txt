@@ -1,0 +1,12 @@
+safe_area.js adjusted:
+  size 19->25.4: MAY 2006
+  size 19->25.4: 17 MAY 2006
+  size 19->25.4: About
+  size 19->25.4: 1968 FILM
+  lift 7px: MAY 2006NAVY EOD TEAM
+  lift 7px: 17 MAY 2006USS ORISKANY
+  lift 7px: 1968 FILMSS UNITED STATES
+  lift 20px: MAY 2006NAVY EOD TEAM
+  lift 20px: 17 MAY 2006USS ORISKANY
+  lift 20px: 1968 FILMSS UNITED STATES
+PASS: no text breaks the size / safe-area / font rules (43.6 s checked every 0.5 s)

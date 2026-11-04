@@ -77,7 +77,8 @@
    "params": {
     "kicker": "AUGUST 1947",
     "text": "WORK STOPPED",
-    "at": "@stopped"
+    "at": "@stopped",
+    "kicker_at": 0.15
    }
   },
   {
@@ -220,7 +221,8 @@
    "params": {
     "kicker": "ROYCE WILLIAMS · 2023",
     "text": "NAVY CROSS",
-    "at": "@navy cross"
+    "at": "@navy cross",
+    "kicker_at": 0.15
    }
   },
   {
@@ -338,7 +340,8 @@
     "kicker": "PRISONER OF WAR",
     "number": "7½",
     "unit": "years",
-    "number_at": "@seven"
+    "number_at": "@seven",
+    "kicker_at": 0.15
    }
   },
   {
@@ -620,7 +623,8 @@
    "params": {
     "kicker": "26 OCT 1966 → 26 OCT 1967",
     "text": "ONE YEAR TO THE DAY",
-    "at": "@one year"
+    "at": "@one year",
+    "kicker_at": 0.15
    }
   },
   {
@@ -674,7 +678,8 @@
     "kicker": "RELEASED · MARCH 1973",
     "number": "5½",
     "unit": "years",
-    "number_at": "@five"
+    "number_at": "@five",
+    "kicker_at": 0.15
    }
   },
   {

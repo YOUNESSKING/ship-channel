@@ -180,7 +180,8 @@
     "kicker": "17 MAY 2006",
     "number": "10:25",
     "unit": "a.m.",
-    "number_at": "@ten"
+    "number_at": "@ten",
+    "kicker_at": 0.15
    }
   },
   {
@@ -325,7 +326,8 @@
    "params": {
     "kicker": "GUINNESS WORLD RECORDS",
     "text": "LARGEST ARTIFICIAL REEF IN THE WORLD",
-    "at": "@largest"
+    "at": "@largest",
+    "kicker_at": 0.15
    }
   },
   {

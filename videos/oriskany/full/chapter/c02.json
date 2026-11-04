@@ -175,7 +175,8 @@
    "params": {
     "text": "“CITY OF AMERICA”",
     "kicker": "THE PLAN",
-    "at": "@city"
+    "at": "@city",
+    "kicker_at": 0.15
    }
   },
   {
@@ -307,7 +308,8 @@
    "params": {
     "kicker": "NAVY APPRAISAL",
     "number": "$600,000",
-    "number_at": "@six"
+    "number_at": "@six",
+    "kicker_at": 0.15
    }
   },
   {
@@ -350,7 +352,8 @@
    "params": {
     "kicker": "A PROTEST",
     "text": "WORK HELD UP UNTIL DECEMBER",
-    "at": "@december"
+    "at": "@december",
+    "kicker_at": 0.15
    }
   },
   {

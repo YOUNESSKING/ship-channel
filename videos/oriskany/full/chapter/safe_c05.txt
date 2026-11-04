@@ -5,7 +5,10 @@ safe_area.js adjusted:
   size 19->25.4: 17 MAY 2006
   size 22->25.4: SHIP EVER SUNK AS A REEF
   size 19->25.4: GUINNESS WORLD RECORDS
-  lift 15px: PENSACOLA · 2006THE TEST CASE
+  lift 7px: PENSACOLA · 2006THE TEST CASE
   lift 11px: 500+ lbOF EXPLOSIVES
-  lift 15px: 17 MAY 2006NOW FLORIDA’S REEF
+  lift 7px: 17 MAY 2006NOW FLORIDA’S REEF
+  lift 20px: PENSACOLA · 2006THE TEST CASE
+  lift 12px: 500+ lbOF EXPLOSIVES
+  lift 20px: 17 MAY 2006NOW FLORIDA’S REEF
 PASS: no text breaks the size / safe-area / font rules (74.7 s checked every 0.5 s)

@@ -237,7 +237,8 @@
    "params": {
     "kicker": "THE CLEANUP RULE",
     "text": "CONTAMINATED MATERIAL COMES OUT",
-    "at": "@material"
+    "at": "@material",
+    "kicker_at": 0.15
    }
   },
   {
@@ -298,7 +299,8 @@
    "params": {
     "kicker": "SPENT ON THE DECK",
     "number": "½+",
-    "number_at": "@half"
+    "number_at": "@half",
+    "kicker_at": 0.15
    }
   },
   {
@@ -312,7 +314,8 @@
     "kicker": "A COMPUTER MODEL",
     "number": "$3.7",
     "unit": "million",
-    "number_at": "@three point"
+    "number_at": "@three point",
+    "kicker_at": 0.15
    }
   },
   {
@@ -428,7 +431,8 @@
     "kicker": "PRESS, SINKING DAY",
     "number": "≈ $20",
     "unit": "million",
-    "number_at": "@twenty"
+    "number_at": "@twenty",
+    "kicker_at": 0.15
    }
   },
   {
@@ -442,7 +446,8 @@
     "kicker": "FLORIDA SENATE",
     "number": "≈ $21",
     "unit": "million",
-    "number_at": "@twenty one"
+    "number_at": "@twenty one",
+    "kicker_at": 0.15
    }
   },
   {

@@ -140,7 +140,8 @@
    "params": {
     "kicker": "EPA RULING · 15 FEB 2006",
     "text": "“NOT AN UNREASONABLE RISK”",
-    "at": "@unreasonable"
+    "at": "@unreasonable",
+    "kicker_at": 0.15
    }
   },
   {

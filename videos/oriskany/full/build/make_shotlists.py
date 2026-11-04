@@ -433,6 +433,8 @@ for ck in ["c02", "c03", "c04", "c05", "c06", "c07"]:
                 c = dict(b["card"]); var = c.pop("variant")
                 shot.update(template="text_card", variant=var, card=True, params=c)
                 if bgfile: shot["clip"] = {"file": bgfile, "push": None}
+                elif var in ("line", "number") and c.get("kicker") and "kicker_at" not in c:
+                    shot["params"]["kicker_at"] = 0.15   # step 3: a card on a dark picture never sits empty until its word (blackdetect found 3.3 s)
             elif kd == "A":
                 tpl = src[2:]; p = dict(b["params"]); var = p.pop("variant", None) or {"anim_options": "list", "anim_xray": "animal", "anim_gauge": "bars"}[tpl]
                 shot.update(template=tpl, variant=var, params=p)

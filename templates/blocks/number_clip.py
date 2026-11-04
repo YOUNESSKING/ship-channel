@@ -3,7 +3,7 @@ from .common import *
 META = dict(name='number_clip',
   about='Big number over a clip: kicker + number + hairline + italic subline (rule 15a). Number can count or be struck out and replaced.',
   variants=['right', 'center_bars', 'left_stack', 'strike_swap'],
-  params={'kicker': 'small caps line above the number, e.g. "Near the ice"',
+  params={'kicker': 'small caps line above the number, e.g. "Near the ice"', 'kicker_at': 'center_bars / text_card number: the kicker appears on its own at this time (before the number)',
           'number': 'the big number text, e.g. "0°C" or "15-30" (use ° for degrees)', 'unit': 'italic word after the number, e.g. "minutes"',
           'subline': 'small line under the number', 'number_at': 'when the number appears (time spec; default 0.6 s after shot start)',
           'subline_at': 'when the subline appears', 'size': 'number size in px',
@@ -46,11 +46,15 @@ def build(ctx):
         ctx.sfx('click', at, .4)
     elif v == 'center_bars':
         size = ctx.p('size', 124); dk = 'shade dk' if ctx.p('dim', 'dk') == 'dk' else 'shade'
+        kat = ctx.p('kicker_at')   # optional: the kicker lands on its own word before the number (a card never sits empty)
+        kat = ctx.t(kat) if kat is not None else None
         inner = f'<div class="{dk}"></div>' + bars() + block(f'{p}-blk', 0, 250, 1280,
-            (f'<div class="jo gold" style="margin-bottom:14px">{rich(kick)}</div>' if kick else '') + num(f'{p}-n', shown, unit, size, size)
+            (f'<div id="{p}-k" class="jo gold{" op0" if kat is not None else ""}" style="margin-bottom:14px">{rich(kick)}</div>' if kick else '')
+            + num(f'{p}-n', shown, unit, size, size) .replace('class="cg"', 'class="cg op0"' if kat is not None else 'class="cg"')
             + (f'<div id="{p}-u" class="gr"></div><div id="{p}-sub" class="jo" style="font-size:22px">{rich(sub)}</div>' if sub else ''))
         h = ctx.video((1.0, 1.1, '50% 50%')) + ctx.overlay(inner)
-        js.append(f"drop('#{p}-blk',{at - .12:.3f});")
+        if kat is not None and kick: js.append(f"tl.set('#{p}-blk',{{opacity:1}},{min(kat, at) - .12:.3f});drop('#{p}-k',{kat - .1:.3f});drop('#{p}-n',{at - .12:.3f});")
+        else: js.append(f"drop('#{p}-blk',{at - .12:.3f});")
         if sub: js.append(f"write('#{p}-sub',{sat:.3f},.8);underline('#{p}-u',{at + .18:.3f},.8);")
         ctx.sfx('thud', at - .02, .9)
     else:  # left_stack

@@ -347,7 +347,8 @@
    "params": {
     "kicker": "THE NAVY'S SUMS",
     "text": "REEF vs. SCRAP",
-    "at": "@reefing"
+    "at": "@reefing",
+    "kicker_at": 0.15
    }
   },
   {
@@ -477,7 +478,8 @@
    "params": {
     "kicker": "THE WARNING",
     "text": "CLEAN TO THE NEW STANDARD",
-    "at": "@standard"
+    "at": "@standard",
+    "kicker_at": 0.15
    }
   },
   {
