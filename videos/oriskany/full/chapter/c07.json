@@ -32,7 +32,7 @@
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c07_s02.mp4",
+    "file": "h_c07_wreck2008.mp4",
     "push": null
    },
    "params": {}
@@ -116,7 +116,7 @@
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c07_s09.mp4",
+    "file": "h_c07_depths_c.mp4",
     "push": null
    },
    "params": {}
@@ -157,7 +157,7 @@
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c07_s12.mp4",
+    "file": "h_c07_divers.mp4",
     "push": null
    },
    "params": {}

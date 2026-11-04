@@ -112,7 +112,7 @@
      "chapter_t": 67.528,
      "abs_t": 116.153,
      "kind": "impact",
-     "note": "$1.2 MILLION stamp lands",
+     "note": "OVER $1 MILLION stamp lands",
      "main": true
     }
    ],
@@ -323,12 +323,12 @@
    "narration": "She settled upright on the bottom, her bow pointing due south.",
    "beats": [
     {
-     "t": 0.05,
-     "frame": 2,
-     "chapter_t": 54.598,
-     "abs_t": 539.081,
-     "kind": "whoosh",
-     "note": "hull already sinking, stern first",
+     "t": 0.62,
+     "frame": 19,
+     "chapter_t": 55.168,
+     "abs_t": 539.651,
+     "kind": "pop",
+     "note": "UPRIGHT ON THE SEABED tag (wreck already at rest)",
      "main": false
     },
     {
@@ -337,45 +337,12 @@
      "chapter_t": 57.948,
      "abs_t": 542.431,
      "kind": "pop",
-     "note": "compass tag BOW \u2192 DUE SOUTH",
+     "note": "BOW \u2192 DUE SOUTH tag + arrow to the bow",
      "main": true
     }
    ],
    "missing_words": [],
-   "sound_hint": [
-    {
-     "t": 0,
-     "kind": "swell_bed_1"
-    },
-    {
-     "t": 0,
-     "kind": "underwater_bed_2"
-    },
-    {
-     "t": 0.36,
-     "kind": "hull_groan_1"
-    },
-    {
-     "t": 0.96,
-     "kind": "sonar_ping_3"
-    },
-    {
-     "t": 1.06,
-     "kind": "sink_whoomp_1"
-    },
-    {
-     "t": 2.56,
-     "kind": "sonar_ping_3"
-    },
-    {
-     "t": 3.769,
-     "kind": "metal_creak_2"
-    },
-    {
-     "t": 4.16,
-     "kind": "sonar_ping_3"
-    }
-   ]
+   "sound_hint": []
   },
   "c05_hero_b": {
    "file": "h_c05_hero_b.mp4",

@@ -59,7 +59,7 @@ def scenes():
     chap = {c['key']: c for c in (load(f'chapter/c0{i}.json') for i in range(1, 8))}
     out = []
     for s in segs:
-        if s['kind'] != 'hero': continue
+        if s['kind'] != 'hero' or s.get('replaces'): continue     # wiki fallbacks swapped in by make_shotlists: handled below
         out.append(dict(scene=s['scene'], file=s['file'], chapter=s['chapter'], shot=s['shot'], dur=s['dur'],
                         t0_abs=s['t0_abs'], narration=s['narration'], shows=s['shows'], replaces=None))
     for fb in FALLBACKS:

@@ -157,8 +157,8 @@
     const tSep = b ? -9 : S.w("september", 0.3), tScrap = b ? -9 : S.w("scrap firm", 2.9), tPeg = b ? -9 : S.w("pegasus", 3.99);
     const tMil = b ? S.w("million", 1.09) : 99;
     const type = (txt, t, t0, cps) => txt.slice(0, Math.max(0, Math.min(txt.length, Math.floor((t - t0) * cps))));
-    const stamp = S.el("div", `position:absolute;left:300px;top:418px;padding:2px 22px;border:7px solid ${RUST};color:${RUST};font-size:76px;font-weight:700;letter-spacing:.04em;
-      white-space:nowrap;opacity:0;mix-blend-mode:multiply;transform-origin:50% 50%`, "$1.2 MILLION", doc);
+    const stamp = S.el("div", `position:absolute;left:280px;top:424px;padding:2px 20px;border:7px solid ${RUST};color:${RUST};font-size:64px;font-weight:700;letter-spacing:.04em;
+      white-space:nowrap;opacity:0;mix-blend-mode:multiply;transform-origin:50% 50%`, "OVER $1 MILLION", doc);   // narration: "just over a million" (GAO95 high bid >$1.2M)
     S.on((t) => {
       if (b) { ls.innerHTML = "SALE &middot; SEPTEMBER 1995"; lb.innerHTML = `BUYER: PEGASUS <span style="color:#7a6a55;font-weight:500">(START-UP)</span>`; }
       else {
@@ -176,7 +176,7 @@
       cam.style.transform = `translate(0px,${(b ? -10 : 0) + jolt}px) scale(${z.toFixed(4)})`;
     });
     if (!b) { S.beat(tSep, "pop", "SALE · SEPTEMBER 1995 types in"); S.beat(tPeg, "pop", "PEGASUS types in", true); }
-    else S.beat(tMil, "impact", "$1.2 MILLION stamp lands", true);
+    else S.beat(tMil, "impact", "OVER $1 MILLION stamp lands", true);
     S.kicker("THE SCRAP SALE", 0.05, null);
   }
 
@@ -631,7 +631,57 @@
   }
 
   // ======================================================== c05 ShipSink (kit/ship/sinking): a = wide descent + bow due south, b = touchdown 212 ft
+  // c05 hero a (re-cut, step 3): the narration says she has ALREADY settled ("She settled upright on the bottom, her bow pointing
+  // due south"), so this shot is a plan view of the wreck at rest on the sand, seen from above: no descent on screen. The side-view
+  // descent + touchdown on "twelve" stays in stage b.
+  function sinkPlan(S) {
+    const R = rnd(17), tUp = S.w("upright", 0.28), tS = S.w("south", 3.4);
+    S.el("div", `position:absolute;inset:0;background:radial-gradient(ellipse at 52% 46%,#5b6a62 0%,#3c4a47 38%,#1e2a2d 72%,#0b1418 100%)`);
+    const cam = S.el("div", `position:absolute;left:0;top:0;width:${W}px;height:${H}px;transform-origin:56% 50%`);
+    // sand ripples + specks
+    let rip = ""; for (let k = 0; k < 26; k++) { const y = -60 + k * 46 + R() * 10; rip += `<path d="M-100 ${y} Q 300 ${y - 18} 700 ${y} T 1500 ${y} T 2300 ${y}" stroke="rgba(214,205,170,${(.05 + R() * .05).toFixed(3)})" stroke-width="${(3 + R() * 5).toFixed(1)}" fill="none"/>`; }
+    for (let k = 0; k < 260; k++) rip += `<circle cx="${(R() * W).toFixed(0)}" cy="${(R() * H).toFixed(0)}" r="${(1 + R() * 3).toFixed(1)}" fill="rgba(${R() < .5 ? "20,26,24" : "190,184,150"},${(.15 + R() * .25).toFixed(2)})"/>`;
+    S.el("div", `position:absolute;inset:-40px`, `<svg width="${W + 80}" height="${H + 80}" style="display:block">${rip}</svg>`, cam);
+    // the hull, bow DOWN (= south, north up): side view's +x (bow) rotated 90 deg clockwise; port side faces east
+    const SL = 860, CX = 1080, CY = 520;
+    const shadow = S.el("div", `position:absolute;left:${CX - 95}px;top:${CY - SL / 2 + 30}px;width:190px;height:${SL}px;border-radius:40%;background:rgba(5,10,10,.55);filter:blur(26px)`, null, cam);
+    const hull = S.el("div", `position:absolute;left:${CX}px;top:${CY}px;transform:translate(-50%,-50%) rotate(90deg)`,
+      root.ShipKit.svg("carrier", "top", { w: SL, paint: "livery", keyline: 2 }), cam);
+    hull.style.filter = "saturate(.75) brightness(.92)";
+    // silt still hanging round the hull after she settled (fades), caustic light over everything
+    const silt = []; for (let k = 0; k < 18; k++) { const a = R() * Math.PI * 2, rr = 0.5 + R() * 0.5;
+      silt.push({ e: S.el("div", `position:absolute;left:0;top:0;width:${160 + R() * 160}px;height:${160 + R() * 160}px;border-radius:50%;background:radial-gradient(circle,rgba(200,192,160,.32),rgba(200,192,160,0) 70%);filter:blur(8px)`, null, cam),
+        x: CX + Math.cos(a) * 150 * rr - 120, y: CY + Math.sin(a) * (SL / 2) * rr - 120, ph: R() * 6 }); }
+    const caus = []; for (let k = 0; k < 9; k++) caus.push({ e: S.el("div", `position:absolute;left:0;top:0;width:520px;height:340px;border-radius:50%;mix-blend-mode:screen;filter:blur(30px);
+      background:radial-gradient(ellipse,rgba(190,235,225,.16),rgba(190,235,225,0) 70%)`), x: R() * W - 260, y: R() * H - 170, ph: R() * 6 });
+    S.el("div", `position:absolute;inset:0;background:rgba(10,40,48,.28);mix-blend-mode:multiply`);
+    // compass (north up), left side, clear of the top-right corner and the bottom 10 %
+    const cmp = S.el("div", `position:absolute;left:150px;top:300px;width:300px;height:300px;opacity:0;transform-origin:50% 50%`,
+      `<svg width="300" height="300" viewBox="-150 -150 300 300"><circle r="118" fill="rgba(14,13,10,.72)" stroke="${CREAM}" stroke-width="4" opacity=".9"/>
+       <path d="M0 -104 L16 -10 L0 0 L-16 -10 Z" fill="rgba(247,243,234,.55)"/><path d="M0 104 L16 10 L0 0 L-16 10 Z" fill="${GOLD2}"/>
+       <path d="M-104 0 L-10 -10 L0 0 L-10 10 Z M104 0 L10 -10 L0 0 L10 10 Z" fill="rgba(247,243,234,.3)"/>
+       <text x="0" y="-122" fill="${CREAM}" font-size="40" font-weight="700" text-anchor="middle" dominant-baseline="auto" font-family="Oswald">N</text>
+       <text x="0" y="150" fill="${GOLD2}" font-size="40" font-weight="700" text-anchor="middle" font-family="Oswald">S</text></svg>`);
+    S.pop(cmp, Math.max(0.15, tUp - 0.1), {});
+    // arrow along the hull to the bow, then the tag
+    const arr = S.el("div", `position:absolute;left:${CX + 190}px;top:${CY - 300}px;width:12px;height:0;background:${GOLD2};box-shadow:0 0 18px rgba(230,211,163,.6)`);
+    const head = S.el("div", `position:absolute;left:${CX + 172}px;top:0;width:0;height:0;border-left:24px solid transparent;border-right:24px solid transparent;border-top:36px solid ${GOLD2};opacity:0`);
+    S.on((t) => { const k = oCub(ramp(t, tS - 0.7, 0.6)); arr.style.height = (k * 640).toFixed(0) + "px"; head.style.top = (CY - 300 + k * 640).toFixed(0) + "px"; head.style.opacity = k > 0.02 ? 1 : 0; });
+    S.tag("UPRIGHT ON THE SEABED", 1330, 360, tUp + 0.1, {});
+    S.tag(`BOW <span style="color:${GOLD2}">→ DUE SOUTH</span>`, 1330, 700, tS, {});
+    S.on((t) => {
+      cam.style.transform = `scale(${lerp(1.0, 1.06, sm(t / S.D)).toFixed(4)})`;
+      silt.forEach((p) => { p.e.style.opacity = (0.9 * (1 - sm(ramp(t, 0, S.D * 0.9)))).toFixed(3);
+        p.e.style.transform = `translate(${(p.x + 14 * Math.sin(t * .5 + p.ph)).toFixed(1)}px,${(p.y + 10 * Math.cos(t * .4 + p.ph)).toFixed(1)}px) scale(${(1 + t * 0.08).toFixed(3)})`; });
+      caus.forEach((c) => { c.e.style.transform = `translate(${(c.x + 60 * Math.sin(t * .7 + c.ph)).toFixed(1)}px,${(c.y + 40 * Math.cos(t * .6 + c.ph)).toFixed(1)}px)`; });
+    });
+    S.kicker("17 MAY 2006 · SEEN FROM ABOVE", 0.05, "THE WRECK AT REST", 0.25);
+    S.beat(tUp + 0.1, "pop", "UPRIGHT ON THE SEABED tag (wreck already at rest)");
+    S.beat(tS, "pop", "BOW → DUE SOUTH tag + arrow to the bow", true);
+    return finish(S, { vig: 48 });
+  }
   function sink(S, stage) {
+    if (stage === "a") return sinkPlan(S);
     const SC = root.SCENES, A = SC["c05_hero_a"], B = SC["c05_hero_b"];
     const wB = (p, d) => { const x = B.words.find((w) => norm(w.w) === p && w.t > -0.1); return x ? x.t : d; };
     const off = stage === "b" ? A.shot_dur : 0, D = A.shot_dur + B.dur, tLand = A.shot_dur + wB("twelve", 0.94);

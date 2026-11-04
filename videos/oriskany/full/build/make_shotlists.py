@@ -44,6 +44,20 @@ GEN = {
 for _k, _v in GEN.items():
     _r, _w, _t = _v[:3]
     FW["g_" + _k + ".mp4"] = {"reel": _r, "clip_in": 0.0, "windows": _w, "tag": _t, "slow": _v[3] if len(_v) > 3 else None}
+# Switch for the three owner-download Wikimedia photos in c07 (RENDER_PLAN "Owner downloads"). While a photo is missing from
+# footage/src/photos/, its shot uses the kit/hero fallback scene (rendered by make_anims.py). Drop the .jpg in and re-run
+# make_shotlists.py + make_segments.py (+ the c07 chapter render) to put the real photo back. WIKI_FALLBACK=1 forces the fallbacks,
+# WIKI_FALLBACK=0 forces the photos.
+PHOTO_DIR = os.path.join(ROOT, "videos/oriskany/footage/src/photos")
+WIKI = {"P:wiki_oriskany_2008_a": ("H:c07_wreck2008", "Fallback for the Wikimedia wreck photo: kit hulk on the seabed, marine growth 2006 -> JULY 2008, fish, light shafts"),
+        "P:wiki_grimes_island": ("H:c07_depths_c", "Fallback for Greg Grimes' island photo: cross-section close on the island, 'ISLAND TOP 84 FT' on 'eighty'"),
+        "P:wiki_oriskany_2008_b": ("H:c07_divers", "Fallback for the Wikimedia divers photo: diver icons descend to the island top, bubbles rise")}
+def wiki_src(src):
+    if src not in WIKI: return src, None
+    have = os.path.exists(os.path.join(PHOTO_DIR, src[2:] + ".jpg"))
+    sw = os.environ.get("WIKI_FALLBACK")
+    use_fb = (sw == "1") or (sw != "0" and not have)
+    return (WIKI[src][0], WIKI[src][1]) if use_fb else (src, None)
 END_SCREEN = 18.0          # end-screen hold after the last word (music bed + end map)
 SPLIT_AT = 4.2             # beats longer than this get split across their sources
 norm = lambda s: re.sub(r"[^a-z0-9]", "", s.lower())
@@ -379,6 +393,7 @@ for ck in ["c02", "c03", "c04", "c05", "c06", "c07"]:
         bounds = pts + [t1]
         for k in range(len(pts)):
             a, z = bounds[k], bounds[k + 1]; src = srcs[k % len(srcs)]; n += 1
+            src, fb_shows = wiki_src(src)
             sid = f"s{n:02d}"; kd = kind(src); dur = round(z - a, 3)
             shot = {"id": sid, "start": f"t{a - c0:.2f}", "sfx": False}
             clipfile = None
@@ -403,7 +418,8 @@ for ck in ["c02", "c03", "c04", "c05", "c06", "c07"]:
             elif kd == "H":
                 clipfile = f"h_{src[2:]}.mp4"
                 seg = dict(file=clipfile, kind="hero", scene=src[2:], dur=round(dur + 0.35, 2), t0_abs=round(a, 3),
-                           narration=" ".join(x["w"] for x in W if a <= x["start"] < z), shows=b.get("hero"))
+                           narration=" ".join(x["w"] for x in W if a <= x["start"] < z), shows=fb_shows or b.get("hero"))
+                if fb_shows: seg.update(dur=round(dur, 3), replaces=f"p_{ck}_{sid}.mp4")
             if seg: segments.append(dict(chapter=ck, shot=sid, **seg))
             bgfile = None
             if b.get("bg") and k == 0:   # generic US-Gov film UNDER a card (card -> its lower-third / number layout over the film) or an anim (bg_clip)

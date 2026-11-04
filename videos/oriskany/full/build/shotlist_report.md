@@ -7,8 +7,8 @@
 | c04 | 124.5 | 32 | 5 | 9 | 28 | 9 | 29 | 20 | 0 | 5 | 0 | **5** | 5.7 s (s18) | 13.5 |
 | c05 | 81.4 | 25 | 0 | 64 | 12 | 8 | 6 | 9 | 0 | 0 | 0 | **0** | 5.7 s (s22) | 14.7 |
 | c06 | 120.7 | 32 | 15 | 11 | 15 | 41 | 13 | 4 | 0 | 15 | 0 | **15** | 5.9 s (s11) | 13.4 |
-| c07 | 198.3 | 50 | 22 | 17 | 14 | 19 | 24 | 5 | 7 | 14 | 9 | **31** | 5.9 s (s04) | 13.6 |
-| **c02-c07** | | | **22** | **18** | **22** | **14** | **14** | **10** | **14** | **8** | **3** | **25** | | |
+| c07 | 198.3 | 50 | 22 | 12 | 14 | 23 | 24 | 5 | 7 | 14 | 9 | **31** | 5.9 s (s04) | 13.6 |
+| **c02-c07** | | | **22** | **17** | **22** | **16** | **14** | **10** | **14** | **8** | **3** | **25** | | |
 
 ## Pacing flags (shots > 6.0 s or < 1.2 s; end screen excluded)
 
@@ -202,17 +202,17 @@
 | c06 | s31 | 678.15 | 3.27 | anim_xray | A:anim_xray | So here is the question |
 | c06 | s32 | 681.43 | 5.12 | anim_xray | A:anim_xray | If the Navy knew |
 | c07 | s01 | 686.54 | 2.99 | map_clip | M:c07_dive | To answer that |
-| c07 | s02 | 689.53 | 3.52 | clip_plain | P:wiki_oriskany_2008_a | She does not sit |
+| c07 | s02 | 689.53 | 3.52 | clip_plain | H:c07_wreck2008 | She does not sit |
 | c07 | s03 | 693.05 | 1.91 | clip_plain | G:gustav | The storms saw |
 | c07 | s04 | 694.96 | 5.86 | clip_plain | H:c07_settle | Within about two and a half |
 | c07 | s05 | 700.81 | 3.81 | map_clip | M:c07_gustav | Among them was Hurricane |
 | c07 | s06 | 704.63 | 5.37 | clip_plain | H:c07_funnel | In late two thousand nine |
 | c07 | s07 | 710.0 | 3.9 | clip_plain | H:c07_depths_a | Today her flight deck |
 | c07 | s08 | 713.9 | 2.85 | clip_plain | H:c07_depths_b | to one hundred and fifty |
-| c07 | s09 | 716.75 | 3.34 | clip_plain | P:wiki_grimes_island | The top of her island |
+| c07 | s09 | 716.75 | 3.34 | clip_plain | H:c07_depths_c | The top of her island |
 | c07 | s10 | 720.09 | 3.25 | clip_plain | H:c07_depths_d | The deck is beyond |
 | c07 | s11 | 723.34 | 3.66 | text_card | CARD + bg G:navy_wreck_b | Florida warns divers |
-| c07 | s12 | 727.0 | 1.81 | clip_plain | P:wiki_oriskany_2008_b | The divers came anyway |
+| c07 | s12 | 727.0 | 1.81 | clip_plain | H:c07_divers | The divers came anyway |
 | c07 | s13 | 728.81 | 5.0 | text_card | CARD + bg G:keys_diver | In her first year |
 | c07 | s14 | 733.81 | 4.22 | text_card | CARD + bg G:recfish_b | They brought about |
 | c07 | s15 | 738.03 | 1.72 | map_clip | M:c07_counties_a | to two counties |
