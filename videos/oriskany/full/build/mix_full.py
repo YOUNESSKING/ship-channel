@@ -24,10 +24,14 @@ def frames(p):
 
 
 def join():
-    renders = [os.path.join(FULL, "chapter", f"render_{k}.mp4") for k in KEYS]
+    # c01 = the owner-approved test v4 hook PICTURE, exactly as approved (its first 1459 frames = 0-48.625 s; same voice recording,
+    # word times equal to 1 ms). HOOK_SRC=render overrides with this build's own render_c01.mp4.
+    hook = os.path.join(ROOT, "videos/oriskany/test_v4/oriskany_test_v4.mp4")
+    renders = [hook if (k == "c01" and os.environ.get("HOOK_SRC") != "render") else os.path.join(FULL, "chapter", f"render_{k}.mp4") for k in KEYS]
     for r in renders:
         if not os.path.exists(r): sys.exit(f"missing {r}: run build/render_all.sh first")
-    if os.path.exists(JOIN) and all(os.path.getmtime(JOIN) > os.path.getmtime(r) for r in renders):
+    if os.path.exists(JOIN) and all(os.path.getmtime(JOIN) > os.path.getmtime(r) for r in renders) and \
+            os.path.exists(os.path.join(FULL, "chapter", "join_report.json")) and json.load(open(os.path.join(FULL, "chapter", "join_report.json")))[0].get("source") == renders[0]:
         print("join up to date"); return
     lst, rep = [], []
     for k, r in zip(KEYS, renders):
@@ -40,7 +44,7 @@ def join():
             subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", r, "-vf", vf, "-an", "-c:v", "libx264", "-preset", "medium", "-crf", "16",
                             "-pix_fmt", "yuv420p", "-r", str(FPS), fixed], check=True)
             assert frames(fixed) == need, (k, frames(fixed), need); lst.append(fixed)
-        rep.append(dict(chapter=k, start=round(a, 3), frames_rendered=have, frames_wanted=need))
+        rep.append(dict(chapter=k, start=round(a, 3), frames_rendered=have, frames_wanted=need, source=r))
         print(rep[-1], flush=True)
     L = os.path.join(FULL, "chapter", "join_list.txt")
     open(L, "w").write("".join(f"file '{p}'\n" for p in lst))
