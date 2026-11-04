@@ -13,16 +13,28 @@ import numpy as np
 from PIL import Image, ImageDraw, ImageFilter, ImageFont
 
 FPS = 30
+# One colour grade for all archive sources (tools/grade/ship_grade.py): shot key "grade": "ship" | "none", default env ARCHIVE_GRADE
+# (default "none", so older channels are unchanged). "ship" = per-source normalisation (no sepia cast on 2006 photos, neutral B&W)
+# + the fixed ship LOOK that sits with the maps; the photo vignette drops to a light one.
+import sys as _sys
+_sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "grade"))
+
+
+def _grade(sh, src, ss=0.0, dur=None):
+    g = sh.get("grade", os.environ.get("ARCHIVE_GRADE", "none"))
+    if g in (None, False, "none"): return ""
+    from ship_grade import grade_filter
+    return grade_filter(src, ss, dur)
 FONT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "oswald-latin-700-normal.ttf")
 _vig = {}
 
 
-def vignette(W, H):
-    if (W, H) not in _vig:
+def vignette(W, H, amt=0.32):
+    if (W, H, amt) not in _vig:
         y, x = np.mgrid[0:H, 0:W]
         r = np.sqrt(((x - W / 2) / (W / 2)) ** 2 + ((y - H / 2) / (H / 2)) ** 2)
-        _vig[(W, H)] = np.clip(1.0 - 0.32 * np.clip(r - 0.55, 0, 1) ** 1.5, 0, 1)[..., None]
-    return _vig[(W, H)]
+        _vig[(W, H, amt)] = np.clip(1.0 - amt * np.clip(r - 0.55, 0, 1) ** 1.5, 0, 1)[..., None]
+    return _vig[(W, H, amt)]
 
 
 def label_layer(text, W, H):
@@ -119,9 +131,10 @@ def photo_shot(sh, dur, out, W, H, enc):
     dep = depth_map(src) if sh.get("depth") else None
     GY, GX = np.mgrid[0:H, 0:W].astype(np.float32)
     n = max(2, int(round(dur * FPS)))
-    vig = vignette(W, H)
+    gvf = _grade(sh, sh["photo"])
+    vig = vignette(W, H, 0.14 if gvf else 0.32)
     p = subprocess.Popen(["ffmpeg", "-v", "error", "-y", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
-                          "-frames:v", str(n), *enc, out], stdin=subprocess.PIPE)
+                          "-frames:v", str(n), *(["-vf", gvf] if gvf else []), *enc, out], stdin=subprocess.PIPE)
     for k in range(n):
         t = ease(k / (n - 1))
         x0, y0, w, h = b0 + (b1 - b0) * t
@@ -153,8 +166,40 @@ def film_crop(path):
     return m[-1] if m else None
 
 
+def scene_cuts(path, ss=0.0, dur=None, crop=None, thr=0.28):
+    """times (s, from the file start) of hard cuts / dissolve starts inside [ss, ss+dur]: ffmpeg scene score on the content crop"""
+    vf = (f"crop={crop}," if crop else "") + f"scale=320:-2,select='gt(scene,{thr})',metadata=print"
+    args = ["ffmpeg", "-v", "info", "-ss", f"{ss:.3f}", "-i", path] + (["-t", f"{dur:.3f}"] if dur else []) + ["-an", "-vf", vf, "-f", "null", "-"]
+    err = subprocess.run(args, capture_output=True, text=True).stderr
+    ts = [ss + float(l.split("pts_time:")[1].split()[0]) for l in err.splitlines() if "pts_time:" in l]
+    out = []
+    for t in sorted(ts):   # merge a dissolve (several consecutive high-score frames) into one event
+        if out and t - out[-1][1] < 0.2: out[-1][1] = t
+        else: out.append([t, t])
+    return out   # [[start, end], ...]
+
+
+def cut_free_window(path, ss, dur, crop=None, margin=0.12):
+    """the longest cut-free stretch of [ss-1.5, ss+dur+1.5] that overlaps the requested in-point best -> (new ss, usable seconds)"""
+    lo = max(0.0, ss - 1.5)
+    try: total = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", path]).decode())
+    except Exception: total = ss + dur
+    hi = min(total, ss + dur + 1.5)
+    cuts = scene_cuts(path, lo, hi - lo, crop)
+    if not any(ss - margin < c1 and c0 < ss + dur + margin for c0, c1 in cuts): return ss, dur
+    edges = [lo] + [x for c0, c1 in cuts for x in (c0 - margin, c1 + margin)] + [hi]
+    wins = [(edges[i], edges[i + 1]) for i in range(0, len(edges) - 1, 2) if edges[i + 1] - edges[i] > 0.3]
+    def score(w):   # prefer windows that keep the asked-for in-point, then the longest
+        a = max(w[0], ss); b = min(w[1], ss + dur); return (min(w[1] - w[0], dur), max(0, b - a))
+    w = max(wins, key=score)
+    new_ss = min(max(ss, w[0]), max(w[0], w[1] - dur))
+    return round(new_ss, 3), round(min(dur, w[1] - new_ss), 3)
+
+
 def film_shot(sh, dur, out, W, H, enc):
-    """film fills the whole 16:9 frame (4:3 film is cropped top/bottom, never shown with black side bars).
+    """film fills the whole 16:9 frame (4:3 film is cropped top/bottom, never shown with black side bars); "fit": "pillar" = clean
+    pillarbox on a blurred copy of the same crop. Internal film cuts are detected and skipped ("allow_cuts": true to keep them).
+    "grade": "ship" = the shared ship grade (tools/grade/ship_grade.py).
     "restored": true / "tint": true use the restore_film.py pass (cached in build/frontlines/); "headline": [year, text]."""
     if sh.get("restored") or sh.get("tint"):
         name = os.path.basename(sh["film"])[:-4]
@@ -164,11 +209,31 @@ def film_shot(sh, dur, out, W, H, enc):
             os.makedirs("build/frontlines", exist_ok=True); restore(sh["film"], rp, tint=bool(sh.get("tint")))
         sh = dict(sh, film=rp)
     c = film_crop(sh["film"])
-    vf = ([f"crop={c}"] if c else []) + [f"scale={W}:{H}:force_original_aspect_ratio=increase", f"crop={W}:{H}",
-          f"tpad=stop_mode=clone:stop_duration={dur:.2f}"]
+    ss = float(sh.get("ss", 0))
+    if not sh.get("allow_cuts"):   # never let an internal film cut (or dissolve) into a shot: it reads as a ghosting glitch
+        ss2, avail = cut_free_window(sh["film"], ss, dur, c)
+        if (ss2, avail) != (ss, dur):
+            print(f"  [film_shot] {os.path.basename(sh['film'])}: internal cut -> ss {ss:.2f} -> {ss2:.2f}, {avail:.2f}s cut-free of {dur:.2f}s"
+                  + (" (last frame held)" if avail < dur - 0.05 else ""), flush=True)
+        ss, use = ss2, min(dur, avail)
+    else:
+        use = dur
+    g = _grade(sh, sh["film"], ss, use)
+    fit = sh.get("fit", "fill")
     tmp = out + ".tmp.mp4"
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{sh.get('ss', 0):.2f}", "-i", sh["film"], "-t", f"{dur:.3f}", "-vf", ",".join(vf),
-                    "-t", f"{dur:.3f}", *enc, tmp], check=True)
+    if fit == "pillar":
+        # clean pillarbox: the sharp picture (content crop, no black bars) centred at full height on a blurred, darkened copy of the
+        # SAME crop scaled to cover. Both layers come from one split of one crop -> no offset, no edge seam; even sizes only.
+        fc = (f"[0:v]{'crop=' + c + ',' if c else ''}setsar=1,split[a][b];"
+              f"[b]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},gblur=sigma=38,eq=brightness=-0.22:saturation=0.6[bg];"
+              f"[a]scale=-2:{H}[fg];[bg][fg]overlay=(W-w)/2:0" + (f",{g}" if g else "") + f",tpad=stop_mode=clone:stop_duration={dur:.2f}[v]")
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{ss:.2f}", "-t", f"{use:.3f}", "-i", sh["film"], "-filter_complex", fc, "-map", "[v]",
+                        "-t", f"{dur:.3f}", *enc, tmp], check=True)
+    else:
+        vf = ([f"crop={c}"] if c else []) + [f"scale={W}:{H}:force_original_aspect_ratio=increase", f"crop={W}:{H}"] + ([g] if g else []) + [
+              f"tpad=stop_mode=clone:stop_duration={dur:.2f}"]
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{ss:.2f}", "-t", f"{use:.3f}", "-i", sh["film"], "-vf", ",".join(vf),
+                        "-t", f"{dur:.3f}", *enc, tmp], check=True)
     if sh.get("frame"):  # merged-style test: film inside a rounded projector frame on a dark blurred copy, teal-orange grade
         from PIL import Image as _I, ImageDraw as _D, ImageFilter as _F
         fw, fh = int(W * 0.78) // 2 * 2, int(H * 0.78) // 2 * 2
