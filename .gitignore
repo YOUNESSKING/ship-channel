@@ -101,3 +101,4 @@ videos/oriskany/full/segments/
 videos/oriskany/full/mk/assets/grain.png
 videos/oriskany/full/hero/render.log
 videos/*/*/chapter/build_*.log
+videos/*/*/chapter/render_*.log
