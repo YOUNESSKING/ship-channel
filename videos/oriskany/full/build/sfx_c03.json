@@ -1,0 +1,272 @@
+{
+ "chapter": "c03",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_brooklyn)"
+  },
+  {
+   "shot": "s02",
+   "at": "@thirteenth",
+   "role": "tick",
+   "note": "label: LAUNCH · NEW YORK NAVY YARD"
+  },
+  {
+   "shot": "s02",
+   "at": 0.2,
+   "role": "jet",
+   "note": "aircraft launches on screen (b1_launch_hull.mp4)",
+   "end_shot": "s02"
+  },
+  {
+   "shot": "s03",
+   "at": "@six",
+   "role": "pop",
+   "note": "card number lands: 6"
+  },
+  {
+   "shot": "s04",
+   "at": 0.2,
+   "role": "jet",
+   "note": "aircraft launches on screen (b1_launch_bow.mp4)",
+   "end_shot": "s04"
+  },
+  {
+   "shot": "s05",
+   "at": "@stopped",
+   "role": "pop",
+   "note": "card: WORK STOPPED"
+  },
+  {
+   "shot": "s06",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_korea)"
+  },
+  {
+   "shot": "s08",
+   "at": "@last",
+   "role": "tick",
+   "note": "label: LAST ESSEX-CLASS CARRIER FINISHED"
+  },
+  {
+   "shot": "s09",
+   "at": "@mighty",
+   "role": "tick",
+   "note": "label: THE MIGHTY O"
+  },
+  {
+   "shot": "s10",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_mig_a)"
+  },
+  {
+   "shot": "s12",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_mig_b)"
+  },
+  {
+   "shot": "s13",
+   "at": "@one mig",
+   "role": "pop",
+   "note": "number lands: 1"
+  },
+  {
+   "shot": "s15",
+   "at": "@navy cross",
+   "role": "pop",
+   "note": "card: NAVY CROSS"
+  },
+  {
+   "shot": "s17",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_tonkin)"
+  },
+  {
+   "shot": "s18",
+   "at": "@twelve",
+   "role": "pop",
+   "note": "number lands: 12,000"
+  },
+  {
+   "shot": "s18",
+   "at": 0.2,
+   "role": "jet",
+   "note": "aircraft launches on screen (b3_a4_catapult_1966.mp4)",
+   "end_shot": "s18"
+  },
+  {
+   "shot": "s19",
+   "at": 0.2,
+   "role": "jet",
+   "note": "aircraft launches on screen (b3_f8_launch_1966.mp4)",
+   "end_shot": "s19"
+  },
+  {
+   "shot": "s20",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_stockdale_a)"
+  },
+  {
+   "shot": "s21",
+   "at": 0.2,
+   "role": "jet",
+   "note": "aircraft launches on screen (b3_aerial_launching.mp4)",
+   "end_shot": "s21"
+  },
+  {
+   "shot": "s22",
+   "at": "@james",
+   "role": "tick",
+   "note": "label: JAMES STOCKDALE"
+  },
+  {
+   "shot": "s23",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_stockdale_b)"
+  },
+  {
+   "shot": "s24",
+   "at": "@seven",
+   "role": "pop",
+   "note": "card number lands: 7½"
+  },
+  {
+   "shot": "s26",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_yankee)"
+  },
+  {
+   "shot": "s28",
+   "at": 0.0,
+   "role": "riser",
+   "note": "reverse riser INTO the x-ray",
+   "lead": true
+  },
+  {
+   "shot": "s28",
+   "at": "@flares",
+   "role": "tick",
+   "note": "x-ray mark: FLARES"
+  },
+  {
+   "shot": "s30",
+   "at": "@seven",
+   "role": "pop",
+   "note": "number lands: ≈700"
+  },
+  {
+   "shot": "s31",
+   "at": "@five",
+   "role": "pop",
+   "note": "number lands: 5,400"
+  },
+  {
+   "shot": "s32",
+   "at": "@seven",
+   "role": "pop",
+   "note": "number lands: 7"
+  },
+  {
+   "shot": "s41",
+   "at": "@tell",
+   "role": "tick",
+   "note": "label: TELL US THEIR STORY"
+  },
+  {
+   "shot": "s42",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_sf_tonkin)"
+  },
+  {
+   "shot": "s45",
+   "at": "@one year",
+   "role": "pop",
+   "note": "card: ONE YEAR TO THE DAY"
+  },
+  {
+   "shot": "s46",
+   "at": "@lieutenant",
+   "role": "tick",
+   "note": "label: LCDR JOHN McCAIN"
+  },
+  {
+   "shot": "s46",
+   "at": 0.2,
+   "role": "jet",
+   "note": "aircraft launches on screen (b3_a4e_launch_1968.mp4)",
+   "end_shot": "s46"
+  },
+  {
+   "shot": "s47",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_hanoi_a)"
+  },
+  {
+   "shot": "s48",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c03_hanoi_b)"
+  },
+  {
+   "shot": "s49",
+   "at": "@five",
+   "role": "pop",
+   "note": "card number lands: 5½"
+  },
+  {
+   "shot": "s50",
+   "at": "@prisoners",
+   "role": "tick",
+   "note": "label: STOCKDALE · McCAIN"
+  },
+  {
+   "shot": "s53",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_dc)"
+  }
+ ],
+ "film_shots": [
+  "s02",
+  "s04",
+  "s09",
+  "s11",
+  "s16",
+  "s18",
+  "s19",
+  "s21",
+  "s22",
+  "s25",
+  "s27",
+  "s29",
+  "s30",
+  "s31",
+  "s32",
+  "s33",
+  "s34",
+  "s35",
+  "s36",
+  "s37",
+  "s38",
+  "s39",
+  "s40",
+  "s41",
+  "s43",
+  "s44",
+  "s46",
+  "s50",
+  "s51"
+ ],
+ "beds_hint": "projector loop under consecutive film shots (-27); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

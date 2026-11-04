@@ -84,3 +84,10 @@ videos/*/test_v*/mk/vendor/
 videos/*/test_v*/mk/assets/*.png
 videos/*/*/chapter/work-*/
 videos/*/*/chapter/.render_*
+# full-video media (rebuildable, kept local)
+videos/*/full/audio/
+videos/*/full/segments/
+videos/*/full/chapter/work/
+videos/*/full/chapter/media_cache/
+videos/*/full/chapter/render*.mp4
+videos/*/full/build/*.log

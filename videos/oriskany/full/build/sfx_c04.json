@@ -1,0 +1,181 @@
+{
+ "chapter": "c04",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c04_dc_gulf)"
+  },
+  {
+   "shot": "s03",
+   "at": "@first",
+   "role": "pop",
+   "note": "number lands: FIRST"
+  },
+  {
+   "shot": "s04",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c04_states_a)"
+  },
+  {
+   "shot": "s05",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c04_states_b)"
+  },
+  {
+   "shot": "s06",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c04_states_c)"
+  },
+  {
+   "shot": "s08",
+   "at": 0.0,
+   "role": "riser",
+   "note": "reverse riser INTO the x-ray",
+   "lead": true
+  },
+  {
+   "shot": "s08",
+   "at": "@cleaned",
+   "role": "tick",
+   "note": "x-ray mark: CLEANUP"
+  },
+  {
+   "shot": "s09",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c04_corpus)"
+  },
+  {
+   "shot": "s10",
+   "at": "@two point",
+   "role": "pop",
+   "note": "gauge counts: COMMITTED BY CONGRESS"
+  },
+  {
+   "shot": "s11",
+   "at": "@two point one",
+   "role": "hit",
+   "note": "gauge hero bar lands: FOR CONTAMINANTS",
+   "offset_after": 1.0
+  },
+  {
+   "shot": "s15",
+   "at": "@material",
+   "role": "pop",
+   "note": "card: CONTAMINATED MATERIAL COMES OUT"
+  },
+  {
+   "shot": "s16",
+   "at": "@unless",
+   "role": "pop",
+   "note": "card: UNLESS THE EPA AGREES"
+  },
+  {
+   "shot": "s18",
+   "at": "@seven point",
+   "role": "pop",
+   "note": "gauge counts: REMOVING CONTAMINANTS"
+  },
+  {
+   "shot": "s19",
+   "at": "@half",
+   "role": "pop",
+   "note": "card number lands: ½+"
+  },
+  {
+   "shot": "s20",
+   "at": "@three point",
+   "role": "pop",
+   "note": "card number lands: $3.7"
+  },
+  {
+   "shot": "s21",
+   "at": 0.0,
+   "role": "riser",
+   "note": "reverse riser INTO the x-ray",
+   "lead": true
+  },
+  {
+   "shot": "s21",
+   "at": "@safe",
+   "role": "tick",
+   "note": "x-ray mark: SAFE?"
+  },
+  {
+   "shot": "s22",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c04_tow_pens)"
+  },
+  {
+   "shot": "s23",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c04_hurricane)"
+  },
+  {
+   "shot": "s24",
+   "at": "@eight",
+   "role": "pop",
+   "note": "number lands: $800,000"
+  },
+  {
+   "shot": "s25",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c04_rita)"
+  },
+  {
+   "shot": "s27",
+   "at": "@twelve point",
+   "role": "pop",
+   "note": "gauge counts: NAVY SPENDING, SPRING 2006"
+  },
+  {
+   "shot": "s28",
+   "at": "@twenty",
+   "role": "pop",
+   "note": "card number lands: ≈ $20"
+  },
+  {
+   "shot": "s29",
+   "at": "@twenty one",
+   "role": "pop",
+   "note": "card number lands: ≈ $21"
+  },
+  {
+   "shot": "s30",
+   "at": 0.1,
+   "role": "hit",
+   "note": "gauge hero bar lands: NAVY",
+   "offset_after": 0.9
+  },
+  {
+   "shot": "s31",
+   "at": 0.4,
+   "role": "hit",
+   "note": "gauge hero bar lands: FINAL",
+   "offset_after": 1.0
+  },
+  {
+   "shot": "s32",
+   "at": 0.0,
+   "role": "riser",
+   "note": "reverse riser INTO the x-ray",
+   "lead": true
+  },
+  {
+   "shot": "s32",
+   "at": "@hiding",
+   "role": "tick",
+   "note": "x-ray mark: ?"
+  }
+ ],
+ "film_shots": [],
+ "beds_hint": "projector loop under consecutive film shots (-27); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

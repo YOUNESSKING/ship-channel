@@ -1,0 +1,642 @@
+{
+ "b1_launch_crowd.mp4": {
+  "reel": "39085",
+  "clip_in": 42.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    40.43,
+    48.57
+   ]
+  ],
+  "longest": 8.14
+ },
+ "b1_launch_bow.mp4": {
+  "reel": "39085",
+  "clip_in": 53.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    48.8,
+    69.0
+   ]
+  ],
+  "longest": 20.2
+ },
+ "b1_launch_hull.mp4": {
+  "reel": "39085",
+  "clip_in": 62.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    52.0,
+    77.27
+   ]
+  ],
+  "longest": 25.27
+ },
+ "b2_f9f_panther_deck.mp4": {
+  "reel": "78776",
+  "clip_in": 11.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    12.03,
+    27.0
+   ]
+  ],
+  "longest": 14.97
+ },
+ "b2_f4u_corsair_landing.mp4": {
+  "reel": "78776",
+  "clip_in": 17.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    12.03,
+    33.0
+   ]
+  ],
+  "longest": 20.97
+ },
+ "b2_bomb_rolls_explodes.mp4": {
+  "reel": "78776",
+  "clip_in": 35.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    33.43,
+    35.9
+   ],
+   [
+    37.23,
+    39.2
+   ],
+   [
+    40.6,
+    49.0
+   ]
+  ],
+  "longest": 8.4
+ },
+ "b2_aj1_savage_taxi_1952.mp4": {
+  "reel": "80446",
+  "clip_in": 80.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    70.0,
+    96.0
+   ]
+  ],
+  "longest": 26.0
+ },
+ "b2_aj1_savage_landing_1952.mp4": {
+  "reel": "80446",
+  "clip_in": 150.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    140.0,
+    156.77
+   ]
+  ],
+  "longest": 16.77
+ },
+ "b2_oriskany_at_anchor_1952.mp4": {
+  "reel": "80446",
+  "clip_in": 197.0,
+  "clip_dur": 5.0,
+  "windows": [
+   [
+    196.43,
+    201.2
+   ],
+   [
+    201.43,
+    204.87
+   ]
+  ],
+  "longest": 4.77
+ },
+ "b3_a4_catapult_1966.mp4": {
+  "reel": "85461",
+  "clip_in": 118.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    113.43,
+    134.0
+   ]
+  ],
+  "longest": 20.57
+ },
+ "b3_f8_launch_1966.mp4": {
+  "reel": "85461",
+  "clip_in": 184.0,
+  "clip_dur": 5.0,
+  "windows": [
+   [
+    184.33,
+    191.97
+   ]
+  ],
+  "longest": 7.64
+ },
+ "b3_f8_vf162_trap_1966.mp4": {
+  "reel": "85461",
+  "clip_in": 328.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    318.0,
+    330.47
+   ],
+   [
+    330.73,
+    344.0
+   ]
+  ],
+  "longest": 13.27
+ },
+ "b3_unrep_oiler_1966.mp4": {
+  "reel": "85461",
+  "clip_in": 500.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    490.0,
+    516.0
+   ]
+  ],
+  "longest": 26.0
+ },
+ "b3_bow_on_underway_1966.mp4": {
+  "reel": "85461",
+  "clip_in": 600.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    595.4,
+    613.27
+   ]
+  ],
+  "longest": 17.87
+ },
+ "b3_island_34_1966.mp4": {
+  "reel": "85446",
+  "clip_in": 340.0,
+  "clip_dur": 4.0,
+  "windows": [
+   [
+    339.53,
+    347.4
+   ]
+  ],
+  "longest": 7.87
+ },
+ "b3_carrier_aerial_1966.mp4": {
+  "reel": "85446",
+  "clip_in": 540.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    530.0,
+    542.3
+   ],
+   [
+    542.53,
+    556.0
+   ]
+  ],
+  "longest": 13.47
+ },
+ "b3_island_a4e_parked_1968.mp4": {
+  "reel": "86313",
+  "clip_in": 15.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    14.63,
+    31.0
+   ]
+  ],
+  "longest": 16.37
+ },
+ "b3_a4e_bombs_wing_1968.mp4": {
+  "reel": "86313",
+  "clip_in": 212.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    202.0,
+    228.0
+   ]
+  ],
+  "longest": 26.0
+ },
+ "b3_deck_parked_1968.mp4": {
+  "reel": "86313",
+  "clip_in": 344.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    341.33,
+    349.2
+   ],
+   [
+    349.43,
+    356.2
+   ]
+  ],
+  "longest": 7.87
+ },
+ "b3_a4e_launch_1968.mp4": {
+  "reel": "86313",
+  "clip_in": 448.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    444.43,
+    449.7
+   ],
+   [
+    449.87,
+    457.9
+   ]
+  ],
+  "longest": 8.03
+ },
+ "b3_a4e_formation_1968.mp4": {
+  "reel": "86638",
+  "clip_in": 10.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    8.8,
+    26.0
+   ]
+  ],
+  "longest": 17.2
+ },
+ "b3_strike_smoke_1968.mp4": {
+  "reel": "86638",
+  "clip_in": 198.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    188.0,
+    214.0
+   ]
+  ],
+  "longest": 26.0
+ },
+ "b3_strike_fire_1968.mp4": {
+  "reel": "86638",
+  "clip_in": 470.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    467.3,
+    486.0
+   ]
+  ],
+  "longest": 18.7
+ },
+ "b3_aerial_launching.mp4": {
+  "reel": "86031",
+  "clip_in": 8.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    6.53,
+    24.0
+   ]
+  ],
+  "longest": 17.47
+ },
+ "b3_side_launch.mp4": {
+  "reel": "86031",
+  "clip_in": 40.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    30.0,
+    56.0
+   ]
+  ],
+  "longest": 26.0
+ },
+ "b3_aerial_underway_1969.mp4": {
+  "reel": "87411",
+  "clip_in": 8.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    7.6,
+    22.57
+   ]
+  ],
+  "longest": 14.97
+ },
+ "b3_helo_deck_1969.mp4": {
+  "reel": "87411",
+  "clip_in": 24.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    22.83,
+    38.7
+   ]
+  ],
+  "longest": 15.87
+ },
+ "b3_aerial_underway2_1969.mp4": {
+  "reel": "87411",
+  "clip_in": 60.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    50.9,
+    64.8
+   ],
+   [
+    65.2,
+    68.97
+   ]
+  ],
+  "longest": 13.9
+ },
+ "b4_fire_hose_lines.mp4": {
+  "reel": "85477",
+  "clip_in": 100.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    90.0,
+    100.97
+   ],
+   [
+    101.2,
+    116.0
+   ]
+  ],
+  "longest": 14.8
+ },
+ "b4_fire_burned_a4.mp4": {
+  "reel": "85477",
+  "clip_in": 170.0,
+  "clip_dur": 5.0,
+  "windows": [
+   [
+    163.4,
+    173.5
+   ],
+   [
+    173.73,
+    185.0
+   ]
+  ],
+  "longest": 11.27
+ },
+ "b4_fire_destroyer_alongside.mp4": {
+  "reel": "85477",
+  "clip_in": 230.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    224.33,
+    246.0
+   ]
+  ],
+  "longest": 21.67
+ },
+ "b4_fire_island_smoke.mp4": {
+  "reel": "85477",
+  "clip_in": 250.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    247.23,
+    258.9
+   ]
+  ],
+  "longest": 11.67
+ },
+ "b4_fire_deck_smoke.mp4": {
+  "reel": "85477",
+  "clip_in": 280.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    270.0,
+    283.27
+   ],
+   [
+    283.5,
+    296.0
+   ]
+  ],
+  "longest": 13.27
+ },
+ "b4_fire_damaged_a4_316.mp4": {
+  "reel": "85477",
+  "clip_in": 440.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    440.23,
+    455.8
+   ]
+  ],
+  "longest": 15.57
+ },
+ "b4_fire_hangar_sprinkler.mp4": {
+  "reel": "85479",
+  "clip_in": 40.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    36.33,
+    50.63
+   ]
+  ],
+  "longest": 14.3
+ },
+ "b4_fire_hangar_hoses.mp4": {
+  "reel": "85479",
+  "clip_in": 140.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    130.0,
+    151.37
+   ]
+  ],
+  "longest": 21.37
+ },
+ "b4_fire_sponson_hoses.mp4": {
+  "reel": "85479",
+  "clip_in": 240.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    230.0,
+    256.0
+   ]
+  ],
+  "longest": 26.0
+ },
+ "b4_fire_oba_team.mp4": {
+  "reel": "85479",
+  "clip_in": 440.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    430.0,
+    440.8
+   ],
+   [
+    441.03,
+    456.0
+   ]
+  ],
+  "longest": 14.97
+ },
+ "b4_burial_color_guard.mp4": {
+  "reel": "85493",
+  "clip_in": 120.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    113.83,
+    135.6
+   ]
+  ],
+  "longest": 21.77
+ },
+ "b4_burial_formation.mp4": {
+  "reel": "85493",
+  "clip_in": 200.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    190.0,
+    203.6
+   ],
+   [
+    204.73,
+    211.47
+   ]
+  ],
+  "longest": 13.6
+ },
+ "b4_burial_escorts.mp4": {
+  "reel": "85493",
+  "clip_in": 440.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    430.0,
+    448.67
+   ]
+  ],
+  "longest": 18.67
+ },
+ "b10_ssus_crane_river.mp4": {
+  "reel": "86032",
+  "clip_in": 9.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    6.9,
+    12.23
+   ],
+   [
+    12.6,
+    18.1
+   ]
+  ],
+  "longest": 5.5
+ },
+ "b10_ssus_stacks.mp4": {
+  "reel": "86032",
+  "clip_in": 19.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    18.33,
+    29.3
+   ]
+  ],
+  "longest": 10.97
+ },
+ "b10_ssus_bow_letters.mp4": {
+  "reel": "86032",
+  "clip_in": 59.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    53.03,
+    62.3
+   ],
+   [
+    62.53,
+    67.1
+   ]
+  ],
+  "longest": 9.27
+ },
+ "b10_ssus_underway_side.mp4": {
+  "reel": "86032",
+  "clip_in": 65.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    62.53,
+    67.1
+   ],
+   [
+    67.33,
+    71.7
+   ]
+  ],
+  "longest": 4.57
+ },
+ "b10_ssus_bow_wave.mp4": {
+  "reel": "86032",
+  "clip_in": 110.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    102.73,
+    125.3
+   ]
+  ],
+  "longest": 22.57
+ },
+ "b10_ssus_passing_carrier.mp4": {
+  "reel": "86032",
+  "clip_in": 130.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    128.3,
+    138.3
+   ]
+  ],
+  "longest": 10.0
+ },
+ "b10_ssus_profile.mp4": {
+  "reel": "86032",
+  "clip_in": 150.0,
+  "clip_dur": 6.0,
+  "windows": [
+   [
+    140.0,
+    162.1
+   ]
+  ],
+  "longest": 22.1
+ }
+}

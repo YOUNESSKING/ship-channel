@@ -1,0 +1,185 @@
+{
+ "chapter": "c02",
+ "cues": [
+  {
+   "shot": "s02",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c02_bremerton)"
+  },
+  {
+   "shot": "s06",
+   "at": "@struck",
+   "role": "pop",
+   "note": "number lands: STRUCK"
+  },
+  {
+   "shot": "s08",
+   "at": "@museum",
+   "role": "tick",
+   "note": "option appears: A museum?"
+  },
+  {
+   "shot": "s08",
+   "at": "@scrapyard",
+   "role": "tick",
+   "note": "option appears: A scrapyard?"
+  },
+  {
+   "shot": "s10",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c02_pacific_a)"
+  },
+  {
+   "shot": "s11",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c02_pacific_b)"
+  },
+  {
+   "shot": "s12",
+   "at": "@city",
+   "role": "pop",
+   "note": "card: “CITY OF AMERICA”"
+  },
+  {
+   "shot": "s13",
+   "at": "@theme",
+   "role": "tick",
+   "note": "label: A WARSHIP AS A THEME PARK"
+  },
+  {
+   "shot": "s14",
+   "at": 0.05,
+   "role": "tick",
+   "note": "option appears: A museum?"
+  },
+  {
+   "shot": "s14",
+   "at": "@never",
+   "role": "tick",
+   "note": "option struck: A museum?"
+  },
+  {
+   "shot": "s14",
+   "at": 0.05,
+   "role": "tick",
+   "note": "option appears: A scrapyard?"
+  },
+  {
+   "shot": "s15",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c02_scrap_a)"
+  },
+  {
+   "shot": "s16",
+   "at": "@scrap",
+   "role": "pop",
+   "note": "card: SOLD FOR SCRAP"
+  },
+  {
+   "shot": "s17",
+   "at": "@defaulted",
+   "role": "hit",
+   "note": "stamp: DEFAULTED."
+  },
+  {
+   "shot": "s18",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c02_scrap_b)"
+  },
+  {
+   "shot": "s20",
+   "at": 0.6,
+   "role": "pop",
+   "note": "c02_ledger_b: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "shot": "s21",
+   "at": "@six",
+   "role": "pop",
+   "note": "card number lands: $600,000"
+  },
+  {
+   "shot": "s22",
+   "at": "@three",
+   "role": "pop",
+   "note": "card number lands: 3"
+  },
+  {
+   "shot": "s23",
+   "at": "@united",
+   "role": "pop",
+   "note": "card: SCRAP HER IN THE U.S."
+  },
+  {
+   "shot": "s24",
+   "at": "@december",
+   "role": "pop",
+   "note": "card: WORK HELD UP UNTIL DECEMBER"
+  },
+  {
+   "shot": "s25",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c02_tow_sf)"
+  },
+  {
+   "shot": "s26",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c02_mare)"
+  },
+  {
+   "shot": "s27",
+   "at": "@almost",
+   "role": "pop",
+   "note": "card: ALMOST NOTHING CUT"
+  },
+  {
+   "shot": "s28",
+   "at": "@default",
+   "role": "hit",
+   "note": "stamp: DEFAULTED."
+  },
+  {
+   "shot": "s29",
+   "at": 0.6,
+   "role": "pop",
+   "note": "c02_tally: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "shot": "s30",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c02_horn_a)"
+  },
+  {
+   "shot": "s31",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c02_horn_b)"
+  },
+  {
+   "shot": "s32",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c02_horn_c)"
+  },
+  {
+   "shot": "s35",
+   "at": 0.2,
+   "role": "jet",
+   "note": "aircraft launches on screen (b1_launch_crowd.mp4)",
+   "end_shot": "s35"
+  }
+ ],
+ "film_shots": [
+  "s01",
+  "s35"
+ ],
+ "beds_hint": "projector loop under consecutive film shots (-27); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

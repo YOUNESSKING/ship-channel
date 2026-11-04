@@ -1,0 +1,172 @@
+{
+ "chapter": "c06",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": 0.0,
+   "role": "riser",
+   "note": "reverse riser INTO the x-ray",
+   "lead": true
+  },
+  {
+   "shot": "s01",
+   "at": "@pcbs",
+   "role": "tick",
+   "note": "x-ray mark: PCBs"
+  },
+  {
+   "shot": "s02",
+   "at": "@seven",
+   "role": "pop",
+   "note": "number lands: ≈700"
+  },
+  {
+   "shot": "s03",
+   "at": 0.0,
+   "role": "riser",
+   "note": "reverse riser INTO the x-ray",
+   "lead": true
+  },
+  {
+   "shot": "s03",
+   "at": "@electrical",
+   "role": "tick",
+   "note": "readout: CABLE"
+  },
+  {
+   "shot": "s03",
+   "at": "@gaskets",
+   "role": "tick",
+   "note": "readout: GASKETS"
+  },
+  {
+   "shot": "s03",
+   "at": "@insulation",
+   "role": "tick",
+   "note": "readout: INSULATION"
+  },
+  {
+   "shot": "s03",
+   "at": "@paint",
+   "role": "tick",
+   "note": "readout: PAINT"
+  },
+  {
+   "shot": "s04",
+   "at": "@liquid",
+   "role": "tick",
+   "note": "label: ALL LIQUID PCBs"
+  },
+  {
+   "shot": "s05",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c06_epa_a)"
+  },
+  {
+   "shot": "s06",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c06_epa_b)"
+  },
+  {
+   "shot": "s07",
+   "at": "@unreasonable",
+   "role": "pop",
+   "note": "card: “NOT AN UNREASONABLE RISK”"
+  },
+  {
+   "shot": "s08",
+   "at": "@first",
+   "role": "pop",
+   "note": "number lands: FIRST"
+  },
+  {
+   "shot": "s09",
+   "at": "@alone",
+   "role": "tick",
+   "note": "label: FOR HER ALONE"
+  },
+  {
+   "shot": "s10",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c06_fishmap)"
+  },
+  {
+   "shot": "s12",
+   "at": 0.6,
+   "role": "pop",
+   "note": "c06_rounds_b: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "shot": "s13",
+   "at": "@two hundred",
+   "role": "pop",
+   "note": "card number lands: 254"
+  },
+  {
+   "shot": "s15",
+   "at": 0.6,
+   "role": "pop",
+   "note": "c06_lines_b: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "shot": "s21",
+   "at": "@environmental",
+   "role": "pop",
+   "note": "card: ENVIRONMENTAL GROUPS"
+  },
+  {
+   "shot": "s23",
+   "at": 0.6,
+   "role": "pop",
+   "note": "c06_snapper_b: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "shot": "s24",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c06_rubble)"
+  },
+  {
+   "shot": "s25",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c06_tag)"
+  },
+  {
+   "shot": "s27",
+   "at": 0.6,
+   "role": "pop",
+   "note": "c06_down_b: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "shot": "s28",
+   "at": 0.6,
+   "role": "pop",
+   "note": "c06_down_c: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "shot": "s29",
+   "at": "@no fish",
+   "role": "pop",
+   "note": "card: NO ADVISORY ISSUED"
+  },
+  {
+   "shot": "s31",
+   "at": 0.0,
+   "role": "riser",
+   "note": "reverse riser INTO the x-ray",
+   "lead": true
+  },
+  {
+   "shot": "s32",
+   "at": "@take",
+   "role": "tick",
+   "note": "x-ray mark: ?"
+  }
+ ],
+ "film_shots": [],
+ "beds_hint": "projector loop under consecutive film shots (-27); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

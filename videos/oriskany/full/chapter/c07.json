@@ -1,0 +1,775 @@
+{
+ "key": "c07",
+ "title": "Oriskany full · The Real Reason + Ending",
+ "words": "../build/words.json",
+ "audio_offset": 686.542,
+ "clips_dir": "../segments",
+ "duration": 198.27,
+ "fade_out": 0.6,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_dive.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t2.99",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s02.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t6.51",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_storm.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s04",
+   "start": "t8.42",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c07_settle.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t14.27",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_gustav.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s06",
+   "start": "t18.08",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c07_funnel.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t23.46",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c07_depths_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s08",
+   "start": "t27.36",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c07_depths_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s09",
+   "start": "t30.21",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s09.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
+   "start": "t33.55",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c07_depths_d.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
+   "start": "t36.80",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "FLORIDA FWC",
+    "text": "NEVER GO INSIDE",
+    "at": "@never"
+   }
+  },
+  {
+   "id": "s12",
+   "start": "t40.46",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s12.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s13",
+   "start": "t42.27",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "FIRST YEAR",
+    "number": "4,200",
+    "unit": "dive trips",
+    "number_at": "@four thousand"
+   }
+  },
+  {
+   "id": "s14",
+   "start": "t47.27",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "ECONOMIC IMPACT",
+    "number": "$3.6",
+    "unit": "million",
+    "number_at": "@three point"
+   }
+  },
+  {
+   "id": "s15",
+   "start": "t51.49",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_counties_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s16",
+   "start": "t53.20",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_counties_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s17",
+   "start": "t56.73",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "number": "67",
+    "unit": "jobs",
+    "number_at": "@sixty"
+   }
+  },
+  {
+   "id": "s18",
+   "start": "t58.91",
+   "sfx": false,
+   "template": "anim_xray",
+   "variant": "animal",
+   "params": {
+    "image": "../../test_v4/assets/carrier_hero_side.png",
+    "animal_w": 1180,
+    "organ": "dot",
+    "organ_pos": [
+     0.5,
+     0.4
+    ],
+    "organ_label": "?",
+    "organ_at": "@pcbs",
+    "kicker": "Why leave *the PCBs in?*",
+    "kicker_at": "@why",
+    "first_frame": "full"
+   }
+  },
+  {
+   "id": "s19",
+   "start": "t62.66",
+   "sfx": false,
+   "template": "anim_xray",
+   "variant": "animal",
+   "params": {
+    "image": "../../test_v4/assets/carrier_hero_side.png",
+    "animal_w": 1180,
+    "organ": "dot",
+    "organ_pos": [
+     0.5,
+     0.4
+    ],
+    "organ_label": "97 %",
+    "organ_at": "@ninety",
+    "kicker": "In her *wiring*",
+    "kicker_at": "@wiring",
+    "first_frame": "full"
+   }
+  },
+  {
+   "id": "s20",
+   "start": "t67.53",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c07_apart.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s21",
+   "start": "t71.87",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s21.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s22",
+   "start": "t76.26",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c07_tally.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s23",
+   "start": "t80.26",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s23.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s24",
+   "start": "t85.24",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_reefpin.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s25",
+   "start": "t86.84",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "THE NAVY'S SUMS",
+    "text": "REEF vs. SCRAP",
+    "at": "@reefing"
+   }
+  },
+  {
+   "id": "s26",
+   "start": "t88.58",
+   "sfx": false,
+   "template": "anim_gauge",
+   "variant": "bars",
+   "params": {
+    "kicker": "About *a quarter*",
+    "unit": "",
+    "max": 4,
+    "items": [
+     {
+      "label": "SCRAP + RECYCLE",
+      "value": 4,
+      "at": 0.1,
+      "count_at": 0.1,
+      "dur": 0.5
+     },
+     {
+      "label": "REEF + CLEANUP",
+      "value": 1,
+      "at": "@quarter",
+      "count_at": "@quarter",
+      "dur": 0.6,
+      "hero": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s27",
+   "start": "t92.95",
+   "sfx": false,
+   "template": "anim_gauge",
+   "variant": "bars",
+   "params": {
+    "kicker": "Still a *bargain?*",
+    "unit": "$M",
+    "max": 25,
+    "items": [
+     {
+      "label": "REEF (FINAL)",
+      "value": 20,
+      "at": 0.1,
+      "count_at": "@bill",
+      "dur": 1.0,
+      "hero": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s28",
+   "start": "t97.09",
+   "sfx": false,
+   "template": "anim_gauge",
+   "variant": "bars",
+   "params": {
+    "kicker": "Still a *bargain?*",
+    "unit": "$M",
+    "max": 25,
+    "items": [
+     {
+      "label": "REEF",
+      "value": 20,
+      "at": 0.05,
+      "count_at": 0.05,
+      "dur": 0.3
+     },
+     {
+      "label": "SCRAP (USNI 2006 EST.)",
+      "value": 24,
+      "at": "@twenty four",
+      "count_at": "@twenty four",
+      "dur": 1.0,
+      "hero": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s29",
+   "start": "t101.59",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s29.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s30",
+   "start": "t103.97",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "MARAD · REPORT TO CONGRESS · JAN 2008",
+    "text": "A WARNING",
+    "at": "@warning"
+   }
+  },
+  {
+   "id": "s31",
+   "start": "t109.15",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "THE WARNING",
+    "text": "CLEAN TO THE NEW STANDARD",
+    "at": "@standard"
+   }
+  },
+  {
+   "id": "s32",
+   "start": "t110.77",
+   "sfx": false,
+   "template": "anim_gauge",
+   "variant": "bars",
+   "params": {
+    "kicker": "Savings *wiped out?*",
+    "unit": "$M",
+    "max": 25,
+    "items": [
+     {
+      "label": "SCRAP",
+      "value": 24,
+      "at": 0.05,
+      "count_at": 0.05,
+      "dur": 0.3
+     },
+     {
+      "label": "REEF, NEW STANDARD",
+      "value": 24,
+      "at": "@wipe",
+      "count_at": "@wipe",
+      "dur": 1.2,
+      "hero": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s33",
+   "start": "t115.27",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s33.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s34",
+   "start": "t118.77",
+   "sfx": false,
+   "template": "anim_options",
+   "variant": "list",
+   "params": {
+    "title": "What do you do with *a carrier?*",
+    "numbered": false,
+    "items": [
+     {
+      "text": "A museum?",
+      "at": 0.05,
+      "strike_at": "@whole"
+     },
+     {
+      "text": "A scrapyard?",
+      "at": 0.05,
+      "strike_at": "@stick"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s35",
+   "start": "t123.03",
+   "sfx": false,
+   "template": "anim_xray",
+   "variant": "animal",
+   "params": {
+    "image": "../../test_v4/assets/carrier_hero_side.png",
+    "animal_w": 1180,
+    "organ": "dot",
+    "organ_pos": [
+     0.5,
+     0.4
+    ],
+    "organ_label": "WIRING",
+    "organ_at": "@wiring",
+    "kicker": "Only by *taking her apart*",
+    "kicker_at": "@only",
+    "first_frame": "full"
+   }
+  },
+  {
+   "id": "s36",
+   "start": "t128.40",
+   "sfx": false,
+   "template": "anim_options",
+   "variant": "list",
+   "params": {
+    "title": "What do you do with *a carrier?*",
+    "numbered": false,
+    "items": [
+     {
+      "text": "A museum?",
+      "at": 0.02,
+      "strike_at": 0.05
+     },
+     {
+      "text": "A scrapyard?",
+      "at": 0.02,
+      "strike_at": 0.1
+     },
+     {
+      "text": "The bottom of the Gulf",
+      "at": "@bottom",
+      "chosen": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s37",
+   "start": "t131.44",
+   "sfx": false,
+   "template": "anim_gauge",
+   "variant": "bars",
+   "params": {
+    "kicker": "The cheapest, *by its own sums*",
+    "unit": "$M",
+    "max": 25,
+    "items": [
+     {
+      "label": "SCRAP (EST.)",
+      "value": 24,
+      "at": 0.05,
+      "count_at": 0.05,
+      "dur": 0.4
+     },
+     {
+      "label": "REEF",
+      "value": 20,
+      "at": 0.3,
+      "count_at": 0.3,
+      "dur": 0.8,
+      "hero": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s38",
+   "start": "t135.39",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c07_today.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s39",
+   "start": "t139.32",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s39.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s40",
+   "start": "t141.76",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "f_c07_s40.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "10 A.M. · WEATHER PERMITTING",
+    "number": "NOV 12",
+    "number_at": "@november"
+   }
+  },
+  {
+   "id": "s41",
+   "start": "t146.02",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_okaloosa.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s42",
+   "start": "t150.26",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c07_s42.mp4",
+    "push": null
+   },
+   "params": {
+    "number": "990",
+    "unit": "ft",
+    "subline": "SS UNITED STATES · 2012 LAYUP",
+    "number_at": "@nine hundred"
+   }
+  },
+  {
+   "id": "s43",
+   "start": "t152.91",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "pair",
+   "card": true,
+   "params": {
+    "text": "NO EXPLOSIVES.",
+    "aside": "They will flood her.",
+    "at": "@no explosives",
+    "aside_at": "@they will",
+    "joke_sound": false
+   }
+  },
+  {
+   "id": "s44",
+   "start": "t156.19",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_endmap.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s45",
+   "start": "t160.35",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s45.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s46",
+   "start": "t161.97",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c07_s46.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "OKALOOSA COUNTY'S SHARE",
+    "number": "$50,000",
+    "number_at": "@fifty",
+    "subline": "TOWARD SINKING THE ORISKANY"
+   }
+  },
+  {
+   "id": "s47",
+   "start": "t167.40",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_title.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s48",
+   "start": "t170.18",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s48.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s49",
+   "start": "t175.30",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s49.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s50",
+   "start": "t177.86",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_endscreen.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

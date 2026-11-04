@@ -1,0 +1,69 @@
+videos/oriskany/footage/src/clips/b10_ssus_bow_letters.mp4: BLOB    3.43-  6.00s  dark blob up to 41% of the frame
+videos/oriskany/footage/src/clips/b10_ssus_bow_letters.mp4: CUT     3.40s       internal cut / dissolve inside the segment
+videos/oriskany/footage/src/clips/b10_ssus_bow_wave.mp4: BLOB    0.00-  1.90s  dark blob up to 30% of the frame
+videos/oriskany/footage/src/clips/b10_ssus_bow_wave.mp4: FLASH   1.93-  1.97s  brightness spike / burn (1 frames)
+videos/oriskany/footage/src/clips/b10_ssus_crane_river.mp4: OK
+videos/oriskany/footage/src/clips/b10_ssus_passing_carrier.mp4: FLASH   4.73-  4.77s  brightness spike / burn (1 frames)
+videos/oriskany/footage/src/clips/b10_ssus_profile.mp4: OK
+videos/oriskany/footage/src/clips/b10_ssus_stacks.mp4: OK
+videos/oriskany/footage/src/clips/b10_ssus_underway_side.mp4: BLOB    0.00-  2.20s  dark blob up to 39% of the frame
+videos/oriskany/footage/src/clips/b10_ssus_underway_side.mp4: FLASH   2.20-  2.23s  brightness spike / burn (1 frames)
+videos/oriskany/footage/src/clips/b10_ssus_underway_side.mp4: CUT     2.20s       internal cut / dissolve inside the segment
+videos/oriskany/footage/src/clips/b1_launch_bow.mp4: BLOB    0.00-  0.80s  dark blob up to 37% of the frame
+videos/oriskany/footage/src/clips/b1_launch_bow.mp4: BLOB    5.30-  6.00s  dark blob up to 50% of the frame
+videos/oriskany/footage/src/clips/b1_launch_crowd.mp4: BLOB    0.00-  3.83s  dark blob up to 68% of the frame
+videos/oriskany/footage/src/clips/b1_launch_hull.mp4: BLOB    4.83-  6.00s  dark blob up to 47% of the frame
+videos/oriskany/footage/src/clips/b2_aj1_savage_landing_1952.mp4: OK
+videos/oriskany/footage/src/clips/b2_aj1_savage_taxi_1952.mp4: OK
+videos/oriskany/footage/src/clips/b2_bomb_rolls_explodes.mp4: FLASH   5.47-  5.50s  brightness spike / burn (1 frames)
+videos/oriskany/footage/src/clips/b2_bomb_rolls_explodes.mp4: CUT     1.03s       internal cut / dissolve inside the segment
+videos/oriskany/footage/src/clips/b2_bomb_rolls_explodes.mp4: CUT     1.83s       internal cut / dissolve inside the segment
+videos/oriskany/footage/src/clips/b2_bomb_rolls_explodes.mp4: CUT     2.13s       internal cut / dissolve inside the segment
+videos/oriskany/footage/src/clips/b2_bomb_rolls_explodes.mp4: CUT     4.30s       internal cut / dissolve inside the segment
+videos/oriskany/footage/src/clips/b2_bomb_rolls_explodes.mp4: CUT     4.60s       internal cut / dissolve inside the segment
+videos/oriskany/footage/src/clips/b2_bomb_rolls_explodes.mp4: CUT     5.47s       internal cut / dissolve inside the segment
+videos/oriskany/footage/src/clips/b2_f4u_corsair_landing.mp4: OK
+videos/oriskany/footage/src/clips/b2_f9f_panther_deck.mp4: CUT     0.87s       internal cut / dissolve inside the segment
+videos/oriskany/footage/src/clips/b2_oriskany_at_anchor_1952.mp4: CUT     4.33s       internal cut / dissolve inside the segment
+videos/oriskany/footage/src/clips/b3_a4_catapult_1966.mp4: OK
+videos/oriskany/footage/src/clips/b3_a4e_bombs_wing_1968.mp4: BLOB    0.33-  0.77s  dark blob up to 49% of the frame
+videos/oriskany/footage/src/clips/b3_a4e_bombs_wing_1968.mp4: BLOB    1.37-  1.57s  dark blob up to 26% of the frame
+videos/oriskany/footage/src/clips/b3_a4e_bombs_wing_1968.mp4: BLOB    1.87-  6.00s  dark blob up to 41% of the frame
+videos/oriskany/footage/src/clips/b3_a4e_formation_1968.mp4: OK
+videos/oriskany/footage/src/clips/b3_a4e_launch_1968.mp4: BLOB    1.50-  2.00s  dark blob up to 88% of the frame
+videos/oriskany/footage/src/clips/b3_aerial_launching.mp4: OK
+videos/oriskany/footage/src/clips/b3_aerial_underway2_1969.mp4: OK
+videos/oriskany/footage/src/clips/b3_aerial_underway_1969.mp4: OK
+videos/oriskany/footage/src/clips/b3_bow_on_underway_1966.mp4: BLOB    0.00-  0.60s  dark blob up to 46% of the frame
+videos/oriskany/footage/src/clips/b3_carrier_aerial_1966.mp4: CUT     2.43s       internal cut / dissolve inside the segment
+videos/oriskany/footage/src/clips/b3_deck_parked_1968.mp4: BLOB    5.33-  6.00s  dark blob up to 46% of the frame
+videos/oriskany/footage/src/clips/b3_deck_parked_1968.mp4: CUT     5.33s       internal cut / dissolve inside the segment
+videos/oriskany/footage/src/clips/b3_f8_launch_1966.mp4: FLASH   0.17-  0.23s  brightness spike / burn (2 frames)
+videos/oriskany/footage/src/clips/b3_f8_launch_1966.mp4: CUT     0.17s       internal cut / dissolve inside the segment
+videos/oriskany/footage/src/clips/b3_f8_vf162_trap_1966.mp4: FLASH   2.57-  2.63s  brightness spike / burn (2 frames)
+videos/oriskany/footage/src/clips/b3_f8_vf162_trap_1966.mp4: CUT     2.57s       internal cut / dissolve inside the segment
+videos/oriskany/footage/src/clips/b3_helo_deck_1969.mp4: OK
+videos/oriskany/footage/src/clips/b3_island_34_1966.mp4: BLOB    0.00-  2.43s  dark blob up to 44% of the frame
+videos/oriskany/footage/src/clips/b3_island_a4e_parked_1968.mp4: OK
+videos/oriskany/footage/src/clips/b3_side_launch.mp4: OK
+videos/oriskany/footage/src/clips/b3_strike_fire_1968.mp4: OK
+videos/oriskany/footage/src/clips/b3_strike_smoke_1968.mp4: OK
+videos/oriskany/footage/src/clips/b3_unrep_oiler_1966.mp4: OK
+videos/oriskany/footage/src/clips/b4_burial_color_guard.mp4: BLOB    3.00-  6.00s  dark blob up to 57% of the frame
+videos/oriskany/footage/src/clips/b4_burial_escorts.mp4: OK
+videos/oriskany/footage/src/clips/b4_burial_formation.mp4: FLASH   4.57-  4.67s  brightness spike / burn (3 frames)
+videos/oriskany/footage/src/clips/b4_burial_formation.mp4: CUT     3.70s       internal cut / dissolve inside the segment
+videos/oriskany/footage/src/clips/b4_burial_formation.mp4: CUT     4.57s       internal cut / dissolve inside the segment
+videos/oriskany/footage/src/clips/b4_fire_burned_a4.mp4: FLASH   3.60-  3.63s  brightness spike / burn (1 frames)
+videos/oriskany/footage/src/clips/b4_fire_burned_a4.mp4: CUT     3.63s       internal cut / dissolve inside the segment
+videos/oriskany/footage/src/clips/b4_fire_damaged_a4_316.mp4: FLASH   0.10-  0.13s  brightness spike / burn (1 frames)
+videos/oriskany/footage/src/clips/b4_fire_damaged_a4_316.mp4: CUT     0.10s       internal cut / dissolve inside the segment
+videos/oriskany/footage/src/clips/b4_fire_deck_smoke.mp4: OK
+videos/oriskany/footage/src/clips/b4_fire_destroyer_alongside.mp4: OK
+videos/oriskany/footage/src/clips/b4_fire_hangar_hoses.mp4: OK
+videos/oriskany/footage/src/clips/b4_fire_hangar_sprinkler.mp4: BLOB    1.00-  2.53s  dark blob up to 32% of the frame
+videos/oriskany/footage/src/clips/b4_fire_hose_lines.mp4: CUT     1.07s       internal cut / dissolve inside the segment
+videos/oriskany/footage/src/clips/b4_fire_island_smoke.mp4: BLOB    0.00-  0.90s  dark blob up to 40% of the frame
+videos/oriskany/footage/src/clips/b4_fire_oba_team.mp4: FLASH   0.83-  0.90s  brightness spike / burn (2 frames)
+videos/oriskany/footage/src/clips/b4_fire_oba_team.mp4: CUT     0.90s       internal cut / dissolve inside the segment
+videos/oriskany/footage/src/clips/b4_fire_sponson_hoses.mp4: OK

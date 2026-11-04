@@ -1,0 +1,474 @@
+{
+ "key": "c02",
+ "title": "Oriskany full · Nobody Wanted Her",
+ "words": "../build/words.json",
+ "audio_offset": 48.625,
+ "clips_dir": "../segments",
+ "duration": 128.117,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c02_s01.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t2.66",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_bremerton.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t6.99",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s03.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s04",
+   "start": "t9.55",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s04.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t12.39",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s05.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s06",
+   "start": "t14.72",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "center_bars",
+   "clip": {
+    "file": "p_c02_s06.mp4",
+    "push": null
+   },
+   "params": {
+    "number": "STRUCK",
+    "subline": "FROM THE NAVY LIST · JULY 1989",
+    "number_at": "@struck",
+    "dim": "dk"
+   }
+  },
+  {
+   "id": "s07",
+   "start": "t19.10",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s07.mp4",
+    "push": null
+   },
+   "params": {
+    "dim": 0.35
+   }
+  },
+  {
+   "id": "s08",
+   "start": "t22.30",
+   "sfx": false,
+   "template": "anim_options",
+   "variant": "list",
+   "params": {
+    "title": "How it *ends*",
+    "numbered": false,
+    "items": [
+     {
+      "text": "A museum?",
+      "at": "@museum"
+     },
+     {
+      "text": "A scrapyard?",
+      "at": "@scrapyard"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s09",
+   "start": "t27.54",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c02_sisters.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
+   "start": "t30.64",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_pacific_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
+   "start": "t35.81",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_pacific_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s12",
+   "start": "t41.73",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "text": "“CITY OF AMERICA”",
+    "kicker": "THE PLAN",
+    "at": "@city"
+   }
+  },
+  {
+   "id": "s13",
+   "start": "t43.79",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c02_s13.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "THE PLAN",
+    "text": "A WARSHIP AS A THEME PARK",
+    "at": "@theme"
+   }
+  },
+  {
+   "id": "s14",
+   "start": "t47.36",
+   "sfx": false,
+   "template": "anim_options",
+   "variant": "list",
+   "params": {
+    "title": "How it *ends*",
+    "numbered": false,
+    "items": [
+     {
+      "text": "A museum?",
+      "at": 0.05,
+      "strike_at": "@never"
+     },
+     {
+      "text": "A scrapyard?",
+      "at": 0.05
+     }
+    ]
+   }
+  },
+  {
+   "id": "s15",
+   "start": "t51.27",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_scrap_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s16",
+   "start": "t53.48",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "text": "SOLD FOR SCRAP",
+    "kicker": "EARLY 1990s",
+    "at": "@scrap"
+   }
+  },
+  {
+   "id": "s17",
+   "start": "t57.10",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "word",
+   "card": true,
+   "params": {
+    "text": "DEFAULTED.",
+    "at": "@defaulted"
+   }
+  },
+  {
+   "id": "s18",
+   "start": "t58.64",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_scrap_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s19",
+   "start": "t61.42",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c02_ledger_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s20",
+   "start": "t66.44",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c02_ledger_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s21",
+   "start": "t69.05",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "NAVY APPRAISAL",
+    "number": "$600,000",
+    "number_at": "@six"
+   }
+  },
+  {
+   "id": "s22",
+   "start": "t72.31",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "number": "3",
+    "unit": "bids",
+    "number_at": "@three"
+   }
+  },
+  {
+   "id": "s23",
+   "start": "t74.13",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "THE CONDITION",
+    "text": "SCRAP HER IN THE U.S.",
+    "at": "@united"
+   }
+  },
+  {
+   "id": "s24",
+   "start": "t77.56",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "A PROTEST",
+    "text": "WORK HELD UP UNTIL DECEMBER",
+    "at": "@december"
+   }
+  },
+  {
+   "id": "s25",
+   "start": "t82.66",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_tow_sf.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s26",
+   "start": "t88.16",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_mare.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s27",
+   "start": "t92.04",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "1997",
+    "text": "ALMOST NOTHING CUT",
+    "at": "@almost"
+   }
+  },
+  {
+   "id": "s28",
+   "start": "t94.81",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "word",
+   "card": true,
+   "params": {
+    "text": "DEFAULTED.",
+    "at": "@default"
+   }
+  },
+  {
+   "id": "s29",
+   "start": "t98.88",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c02_tally.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s30",
+   "start": "t104.74",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_horn_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s31",
+   "start": "t109.02",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_horn_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s32",
+   "start": "t113.86",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_horn_c.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s33",
+   "start": "t118.80",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s33.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s34",
+   "start": "t121.26",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s34.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s35",
+   "start": "t124.08",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c02_s35.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

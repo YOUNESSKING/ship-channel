@@ -1,0 +1,478 @@
+{
+ "key": "c06",
+ "title": "Oriskany full · The Fish Test",
+ "words": "../build/words.json",
+ "audio_offset": 565.877,
+ "clips_dir": "../segments",
+ "duration": 120.665,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "anim_xray",
+   "variant": "animal",
+   "params": {
+    "image": "../../test_v4/assets/carrier_hero_side.png",
+    "animal_w": 1180,
+    "organ": "dot",
+    "organ_pos": [
+     0.5,
+     0.4
+    ],
+    "organ_label": "PCBs",
+    "organ_at": "@pcbs",
+    "kicker": "Still *inside her*",
+    "kicker_at": 0.1,
+    "first_frame": "full"
+   }
+  },
+  {
+   "id": "s02",
+   "start": "t2.80",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c06_s02.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "PCBs LEFT ABOARD",
+    "number": "≈700",
+    "unit": "lb",
+    "number_at": "@seven"
+   }
+  },
+  {
+   "id": "s03",
+   "start": "t6.03",
+   "sfx": false,
+   "template": "anim_xray",
+   "variant": "animal",
+   "params": {
+    "image": "../../test_v4/assets/carrier_hero_side.png",
+    "animal_w": 1180,
+    "organ": "dot",
+    "organ_pos": [
+     0.5,
+     0.4
+    ],
+    "organ_label": "",
+    "organ_at": 0.1,
+    "kicker": "Where *they were*",
+    "kicker_at": 0.1,
+    "first_frame": "full",
+    "readouts": [
+     {
+      "text": "CABLE",
+      "at": "@electrical"
+     },
+     {
+      "text": "GASKETS",
+      "at": "@gaskets"
+     },
+     {
+      "text": "INSULATION",
+      "at": "@insulation"
+     },
+     {
+      "text": "PAINT",
+      "at": "@paint"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s04",
+   "start": "t10.76",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c06_s04.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "REMOVED",
+    "text": "ALL LIQUID PCBs",
+    "at": "@liquid"
+   }
+  },
+  {
+   "id": "s05",
+   "start": "t14.11",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c06_epa_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s06",
+   "start": "t16.95",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c06_epa_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t20.74",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "EPA RULING · 15 FEB 2006",
+    "text": "“NOT AN UNREASONABLE RISK”",
+    "at": "@unreasonable"
+   }
+  },
+  {
+   "id": "s08",
+   "start": "t26.07",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "center_bars",
+   "clip": {
+    "file": "p_c06_s08.mp4",
+    "push": null
+   },
+   "params": {
+    "number": "FIRST",
+    "subline": "APPROVAL OF ITS KIND",
+    "number_at": "@first",
+    "dim": "dk"
+   }
+  },
+  {
+   "id": "s09",
+   "start": "t30.02",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c06_s09.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "EPA",
+    "text": "FOR HER ALONE",
+    "at": "@alone"
+   }
+  },
+  {
+   "id": "s10",
+   "start": "t33.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c06_fishmap.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
+   "start": "t38.47",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c06_rounds_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s12",
+   "start": "t44.35",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c06_rounds_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s13",
+   "start": "t47.76",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "number": "254",
+    "unit": "fish",
+    "subline": "FROM THE WRECK",
+    "number_at": "@two hundred"
+   }
+  },
+  {
+   "id": "s14",
+   "start": "t50.12",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c06_lines_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s15",
+   "start": "t53.27",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c06_lines_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s16",
+   "start": "t59.10",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c06_lines_c.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s17",
+   "start": "t62.83",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c06_lines_d.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s18",
+   "start": "t65.56",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c06_lines_e.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s19",
+   "start": "t69.58",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c06_species_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s20",
+   "start": "t72.96",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c06_species_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s21",
+   "start": "t76.92",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "2012 PETITION · FROM FWC DATA",
+    "text": "ENVIRONMENTAL GROUPS",
+    "at": "@environmental"
+   }
+  },
+  {
+   "id": "s22",
+   "start": "t81.17",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c06_snapper_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s23",
+   "start": "t83.12",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c06_snapper_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s24",
+   "start": "t88.28",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c06_rubble.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s25",
+   "start": "t90.46",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c06_tag.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s26",
+   "start": "t94.38",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c06_down_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s27",
+   "start": "t96.20",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c06_down_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s28",
+   "start": "t100.46",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c06_down_c.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s29",
+   "start": "t103.29",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "FLORIDA",
+    "text": "NO ADVISORY ISSUED",
+    "at": "@no fish"
+   }
+  },
+  {
+   "id": "s30",
+   "start": "t107.44",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c06_down_d.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s31",
+   "start": "t112.28",
+   "sfx": false,
+   "template": "anim_xray",
+   "variant": "animal",
+   "params": {
+    "image": "../../test_v4/assets/carrier_hero_side.png",
+    "animal_w": 1180,
+    "organ": "dot",
+    "organ_pos": [
+     0.5,
+     0.4
+    ],
+    "organ_label": "",
+    "organ_at": 0.1,
+    "kicker": "The *question*",
+    "kicker_at": 0.1,
+    "first_frame": "full"
+   }
+  },
+  {
+   "id": "s32",
+   "start": "t115.55",
+   "sfx": false,
+   "template": "anim_xray",
+   "variant": "animal",
+   "params": {
+    "image": "../../test_v4/assets/carrier_hero_side.png",
+    "animal_w": 1180,
+    "organ": "dot",
+    "organ_pos": [
+     0.5,
+     0.4
+    ],
+    "organ_label": "?",
+    "organ_at": "@take",
+    "kicker": "Why not *take them out?*",
+    "kicker_at": "@why",
+    "first_frame": "full"
+   }
+  }
+ ]
+}

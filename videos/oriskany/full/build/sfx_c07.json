@@ -1,0 +1,304 @@
+{
+ "chapter": "c07",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_dive)"
+  },
+  {
+   "shot": "s03",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_storm)"
+  },
+  {
+   "shot": "s04",
+   "at": 0.6,
+   "role": "pop",
+   "note": "c07_settle: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "shot": "s05",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_gustav)"
+  },
+  {
+   "shot": "s06",
+   "at": 0.6,
+   "role": "pop",
+   "note": "c07_funnel: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "shot": "s11",
+   "at": "@never",
+   "role": "pop",
+   "note": "card: NEVER GO INSIDE"
+  },
+  {
+   "shot": "s13",
+   "at": "@four thousand",
+   "role": "pop",
+   "note": "card number lands: 4,200"
+  },
+  {
+   "shot": "s14",
+   "at": "@three point",
+   "role": "pop",
+   "note": "card number lands: $3.6"
+  },
+  {
+   "shot": "s15",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_counties_a)"
+  },
+  {
+   "shot": "s16",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c07_counties_b)"
+  },
+  {
+   "shot": "s17",
+   "at": "@sixty",
+   "role": "pop",
+   "note": "card number lands: 67"
+  },
+  {
+   "shot": "s18",
+   "at": 0.0,
+   "role": "riser",
+   "note": "reverse riser INTO the x-ray",
+   "lead": true
+  },
+  {
+   "shot": "s18",
+   "at": "@pcbs",
+   "role": "tick",
+   "note": "x-ray mark: ?"
+  },
+  {
+   "shot": "s19",
+   "at": "@ninety",
+   "role": "tick",
+   "note": "x-ray mark: 97 %"
+  },
+  {
+   "shot": "s20",
+   "at": 0.6,
+   "role": "pop",
+   "note": "c07_apart: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "shot": "s22",
+   "at": 0.6,
+   "role": "pop",
+   "note": "c07_tally: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "shot": "s24",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_reefpin)"
+  },
+  {
+   "shot": "s25",
+   "at": "@reefing",
+   "role": "pop",
+   "note": "card: REEF vs. SCRAP"
+  },
+  {
+   "shot": "s26",
+   "at": "@quarter",
+   "role": "hit",
+   "note": "gauge hero bar lands: REEF + CLEANUP",
+   "offset_after": 0.6
+  },
+  {
+   "shot": "s27",
+   "at": "@bill",
+   "role": "hit",
+   "note": "gauge hero bar lands: REEF (FINAL)",
+   "offset_after": 1.0
+  },
+  {
+   "shot": "s28",
+   "at": "@twenty four",
+   "role": "hit",
+   "note": "gauge hero bar lands: SCRAP (USNI 2006 EST.)",
+   "offset_after": 1.0
+  },
+  {
+   "shot": "s30",
+   "at": "@warning",
+   "role": "pop",
+   "note": "card: A WARNING"
+  },
+  {
+   "shot": "s31",
+   "at": "@standard",
+   "role": "pop",
+   "note": "card: CLEAN TO THE NEW STANDARD"
+  },
+  {
+   "shot": "s32",
+   "at": "@wipe",
+   "role": "hit",
+   "note": "gauge hero bar lands: REEF, NEW STANDARD",
+   "offset_after": 1.2
+  },
+  {
+   "shot": "s34",
+   "at": 0.05,
+   "role": "tick",
+   "note": "option appears: A museum?"
+  },
+  {
+   "shot": "s34",
+   "at": "@whole",
+   "role": "tick",
+   "note": "option struck: A museum?"
+  },
+  {
+   "shot": "s34",
+   "at": 0.05,
+   "role": "tick",
+   "note": "option appears: A scrapyard?"
+  },
+  {
+   "shot": "s34",
+   "at": "@stick",
+   "role": "tick",
+   "note": "option struck: A scrapyard?"
+  },
+  {
+   "shot": "s35",
+   "at": 0.0,
+   "role": "riser",
+   "note": "reverse riser INTO the x-ray",
+   "lead": true
+  },
+  {
+   "shot": "s35",
+   "at": "@wiring",
+   "role": "tick",
+   "note": "x-ray mark: WIRING"
+  },
+  {
+   "shot": "s36",
+   "at": 0.02,
+   "role": "tick",
+   "note": "option appears: A museum?"
+  },
+  {
+   "shot": "s36",
+   "at": 0.05,
+   "role": "tick",
+   "note": "option struck: A museum?"
+  },
+  {
+   "shot": "s36",
+   "at": 0.02,
+   "role": "tick",
+   "note": "option appears: A scrapyard?"
+  },
+  {
+   "shot": "s36",
+   "at": 0.1,
+   "role": "tick",
+   "note": "option struck: A scrapyard?"
+  },
+  {
+   "shot": "s36",
+   "at": "@bottom",
+   "role": "tick",
+   "note": "option appears: The bottom of the Gulf"
+  },
+  {
+   "shot": "s36",
+   "at": "@bottom",
+   "role": "boom",
+   "note": "the answer: The bottom of the Gulf"
+  },
+  {
+   "shot": "s37",
+   "at": 0.3,
+   "role": "hit",
+   "note": "gauge hero bar lands: REEF",
+   "offset_after": 0.8
+  },
+  {
+   "shot": "s39",
+   "at": 0.0,
+   "role": "horn",
+   "note": "SS United States on screen: liner horn (signature sound, -14)",
+   "end_shot": "s39"
+  },
+  {
+   "shot": "s40",
+   "at": "@november",
+   "role": "pop",
+   "note": "number lands: NOV 12"
+  },
+  {
+   "shot": "s41",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_okaloosa)"
+  },
+  {
+   "shot": "s42",
+   "at": "@nine hundred",
+   "role": "pop",
+   "note": "number lands: 990"
+  },
+  {
+   "shot": "s43",
+   "at": "@no explosives",
+   "role": "pop",
+   "note": "card: NO EXPLOSIVES."
+  },
+  {
+   "shot": "s44",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_endmap)"
+  },
+  {
+   "shot": "s46",
+   "at": "@fifty",
+   "role": "pop",
+   "note": "number lands: $50,000"
+  },
+  {
+   "shot": "s47",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_title)"
+  },
+  {
+   "shot": "s49",
+   "at": 0.05,
+   "role": "ship",
+   "note": "water closes over the hull: flood",
+   "file": "flood_a__db95b348.wav",
+   "end_shot": "s49"
+  },
+  {
+   "shot": "s50",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_endscreen)"
+  }
+ ],
+ "film_shots": [
+  "s39",
+  "s40",
+  "s45",
+  "s48"
+ ],
+ "beds_hint": "projector loop under consecutive film shots (-27); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

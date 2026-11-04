@@ -1,0 +1,368 @@
+{
+ "key": "c05",
+ "title": "Oriskany full · Thirty-Seven Minutes",
+ "words": "../build/words.json",
+ "audio_offset": 484.483,
+ "clips_dir": "../segments",
+ "duration": 81.394,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c05_pensacola.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t5.15",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s02.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t6.86",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c05_s03.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "PENSACOLA · 2006",
+    "text": "THE TEST CASE",
+    "at": "@test"
+   }
+  },
+  {
+   "id": "s04",
+   "start": "t12.17",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s04.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t16.37",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s05.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s06",
+   "start": "t19.64",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s06.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t23.00",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s07.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s08",
+   "start": "t26.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c05_reef.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s09",
+   "start": "t28.30",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s09.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
+   "start": "t32.10",
+   "sfx": false,
+   "template": "anim_xray",
+   "variant": "animal",
+   "params": {
+    "image": "../../test_v4/assets/carrier_hero_side.png",
+    "animal_w": 1180,
+    "organ": "dot",
+    "organ_pos": [
+     0.5,
+     0.15
+    ],
+    "organ_label": "22 CHARGES",
+    "organ_at": "@twenty",
+    "kicker": "Pipes and *valves*",
+    "kicker_at": 0.1,
+    "first_frame": "full",
+    "readouts": [
+     {
+      "text": "DEEP IN THE HULL",
+      "at": "@deep"
+     }
+    ]
+   }
+  },
+  {
+   "id": "s11",
+   "start": "t36.91",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c05_s11.mp4",
+    "push": null
+   },
+   "params": {
+    "number": "500+",
+    "unit": "lb",
+    "subline": "OF EXPLOSIVES",
+    "number_at": "@five"
+   }
+  },
+  {
+   "id": "s12",
+   "start": "t40.21",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "17 MAY 2006",
+    "number": "10:25",
+    "unit": "a.m.",
+    "number_at": "@ten"
+   }
+  },
+  {
+   "id": "s13",
+   "start": "t41.79",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s13.mp4",
+    "push": null
+   },
+   "params": {},
+   "flash": true
+  },
+  {
+   "id": "s14",
+   "start": "t43.03",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c05_s14.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "THE NAVY EXPECTED",
+    "number": "≈5",
+    "unit": "hours",
+    "number_at": "@five"
+   }
+  },
+  {
+   "id": "s15",
+   "start": "t46.72",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c05_s15.mp4",
+    "push": null
+   },
+   "params": {
+    "number": "37",
+    "unit": "minutes",
+    "count": {
+     "from": 0,
+     "to": 37,
+     "dur": 0.7,
+     "land_at": "@minutes"
+    }
+   }
+  },
+  {
+   "id": "s16",
+   "start": "t49.07",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s16.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s17",
+   "start": "t53.16",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s17.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s18",
+   "start": "t54.55",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c05_hero_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s19",
+   "start": "t58.85",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c05_hero_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s20",
+   "start": "t61.45",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c05_s20.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "17 MAY 2006",
+    "text": "NOW FLORIDA'S REEF",
+    "at": "@florida"
+   }
+  },
+  {
+   "id": "s21",
+   "start": "t64.94",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "center_bars",
+   "clip": {
+    "file": "p_c05_s21.mp4",
+    "push": null
+   },
+   "params": {
+    "number": "LARGEST",
+    "subline": "SHIP EVER SUNK AS A REEF",
+    "number_at": "@largest",
+    "dim": "dk"
+   }
+  },
+  {
+   "id": "s22",
+   "start": "t68.93",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "GUINNESS WORLD RECORDS",
+    "text": "LARGEST ARTIFICIAL REEF IN THE WORLD",
+    "at": "@largest"
+   }
+  },
+  {
+   "id": "s23",
+   "start": "t74.66",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s23.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s24",
+   "start": "t76.67",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s24.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s25",
+   "start": "t78.89",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c05_fishpin.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

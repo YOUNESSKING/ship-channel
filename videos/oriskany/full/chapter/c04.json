@@ -1,0 +1,529 @@
+{
+ "key": "c04",
+ "title": "Oriskany full · The Bargain",
+ "words": "../build/words.json",
+ "audio_offset": 359.968,
+ "clips_dir": "../segments",
+ "duration": 124.515,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c04_dc_gulf.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t4.98",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s02.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t7.73",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "center_bars",
+   "clip": {
+    "file": "p_c04_s03.mp4",
+    "push": null
+   },
+   "params": {
+    "number": "FIRST",
+    "subline": "WARSHIP OFFERED",
+    "number_at": "@first",
+    "dim": "dk"
+   }
+  },
+  {
+   "id": "s04",
+   "start": "t11.70",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c04_states_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t14.29",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c04_states_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s06",
+   "start": "t18.85",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c04_states_c.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t23.87",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "strike_swap",
+   "clip": {
+    "file": "p_c04_s07.mp4",
+    "push": null
+   },
+   "params": {
+    "lead1": "THE PLAN",
+    "old": "SUMMER 2004",
+    "lead2": "IT TOOK",
+    "new": "2 MORE YEARS",
+    "show_at": "@summer",
+    "swap_at": "@two more",
+    "strike_at": "@two more",
+    "dim": "dk"
+   }
+  },
+  {
+   "id": "s08",
+   "start": "t29.45",
+   "sfx": false,
+   "template": "anim_xray",
+   "variant": "animal",
+   "params": {
+    "image": "../../test_v4/assets/carrier_hero_side.png",
+    "animal_w": 1180,
+    "organ": "dot",
+    "organ_pos": [
+     0.5,
+     0.5
+    ],
+    "organ_label": "CLEANUP",
+    "organ_at": "@cleaned",
+    "kicker": "BEFORE THE *reef*",
+    "kicker_at": 0.1,
+    "first_frame": "full"
+   }
+  },
+  {
+   "id": "s09",
+   "start": "t31.24",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c04_corpus.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
+   "start": "t35.75",
+   "sfx": false,
+   "template": "anim_gauge",
+   "variant": "meter",
+   "params": {
+    "kicker": "Cost of *cleanup*",
+    "value": 2.8,
+    "label": "COMMITTED BY CONGRESS",
+    "unit": "$ million",
+    "decimals": 1,
+    "max": 25,
+    "count_at": "@two point",
+    "dur": 1.2
+   }
+  },
+  {
+   "id": "s11",
+   "start": "t39.92",
+   "sfx": false,
+   "template": "anim_gauge",
+   "variant": "bars",
+   "params": {
+    "kicker": "Cost of *cleanup*",
+    "unit": "$M",
+    "decimals": 1,
+    "max": 25,
+    "items": [
+     {
+      "label": "COMMITTED",
+      "value": 2.8,
+      "at": 0.1,
+      "count_at": 0.1,
+      "dur": 0.6
+     },
+     {
+      "label": "FOR CONTAMINANTS",
+      "value": 2.1,
+      "at": "@two point one",
+      "count_at": "@two point one",
+      "dur": 1.0,
+      "hero": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s12",
+   "start": "t44.27",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c04_deck_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s13",
+   "start": "t47.32",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c04_deck_a2.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s14",
+   "start": "t50.38",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c04_deck_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s15",
+   "start": "t53.19",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "THE CLEANUP RULE",
+    "text": "CONTAMINATED MATERIAL COMES OUT",
+    "at": "@material"
+   }
+  },
+  {
+   "id": "s16",
+   "start": "t57.47",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "text": "UNLESS THE EPA AGREES",
+    "at": "@unless"
+   }
+  },
+  {
+   "id": "s17",
+   "start": "t60.94",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "h_c04_deck_c.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s18",
+   "start": "t63.43",
+   "sfx": false,
+   "template": "anim_gauge",
+   "variant": "meter",
+   "params": {
+    "kicker": "Cost of *cleanup*",
+    "value": 7.6,
+    "label": "REMOVING CONTAMINANTS",
+    "unit": "$ million",
+    "decimals": 1,
+    "max": 25,
+    "count_at": "@seven point",
+    "dur": 1.2,
+    "marks": [
+     {
+      "value": 2.1,
+      "label": "ORIGINAL",
+      "at": 0.2
+     }
+    ]
+   }
+  },
+  {
+   "id": "s19",
+   "start": "t69.16",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "SPENT ON THE DECK",
+    "number": "½+",
+    "number_at": "@half"
+   }
+  },
+  {
+   "id": "s20",
+   "start": "t71.38",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "A COMPUTER MODEL",
+    "number": "$3.7",
+    "unit": "million",
+    "number_at": "@three point"
+   }
+  },
+  {
+   "id": "s21",
+   "start": "t76.47",
+   "sfx": false,
+   "template": "anim_xray",
+   "variant": "animal",
+   "params": {
+    "image": "../../test_v4/assets/carrier_hero_side.png",
+    "animal_w": 1180,
+    "organ": "dot",
+    "organ_pos": [
+     0.45,
+     0.35
+    ],
+    "organ_label": "SAFE?",
+    "organ_at": "@safe",
+    "kicker": "The *model*",
+    "kicker_at": 0.1,
+    "first_frame": "full"
+   }
+  },
+  {
+   "id": "s22",
+   "start": "t80.94",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c04_tow_pens.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s23",
+   "start": "t85.92",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c04_hurricane.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s24",
+   "start": "t90.70",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c04_s24.mp4",
+    "push": null
+   },
+   "params": {
+    "number": "$800,000",
+    "kicker": "ONE MORE TOW",
+    "number_at": "@eight"
+   }
+  },
+  {
+   "id": "s25",
+   "start": "t94.06",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c04_rita.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s26",
+   "start": "t97.11",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s26.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s27",
+   "start": "t99.27",
+   "sfx": false,
+   "template": "anim_gauge",
+   "variant": "meter",
+   "params": {
+    "kicker": "The *Navy's* bill",
+    "value": 12.7,
+    "label": "NAVY SPENDING, SPRING 2006",
+    "unit": "$ million",
+    "decimals": 1,
+    "max": 25,
+    "count_at": "@twelve point",
+    "dur": 1.2
+   }
+  },
+  {
+   "id": "s28",
+   "start": "t104.14",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "PRESS, SINKING DAY",
+    "number": "≈ $20",
+    "unit": "million",
+    "number_at": "@twenty"
+   }
+  },
+  {
+   "id": "s29",
+   "start": "t108.76",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "FLORIDA SENATE",
+    "number": "≈ $21",
+    "unit": "million",
+    "number_at": "@twenty one"
+   }
+  },
+  {
+   "id": "s30",
+   "start": "t113.45",
+   "sfx": false,
+   "template": "anim_gauge",
+   "variant": "bars",
+   "params": {
+    "kicker": "Almost all *Navy money*",
+    "unit": "",
+    "max": 21,
+    "items": [
+     {
+      "label": "NAVY",
+      "value": 20,
+      "at": 0.1,
+      "count_at": 0.1,
+      "dur": 0.9,
+      "hero": true
+     },
+     {
+      "label": "FLORIDA COUNTIES",
+      "value": 1,
+      "at": 0.6,
+      "count_at": 0.6,
+      "dur": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "s31",
+   "start": "t116.26",
+   "sfx": false,
+   "template": "anim_gauge",
+   "variant": "bars",
+   "params": {
+    "kicker": "About *seven times*",
+    "unit": "$M",
+    "decimals": 1,
+    "max": 21,
+    "items": [
+     {
+      "label": "COMMITTED",
+      "value": 2.8,
+      "at": 0.1,
+      "count_at": 0.1,
+      "dur": 0.5
+     },
+     {
+      "label": "FINAL",
+      "value": 20,
+      "at": 0.4,
+      "count_at": 0.4,
+      "dur": 1.0,
+      "hero": true
+     }
+    ]
+   }
+  },
+  {
+   "id": "s32",
+   "start": "t119.69",
+   "sfx": false,
+   "template": "anim_xray",
+   "variant": "animal",
+   "params": {
+    "image": "../../test_v4/assets/carrier_hero_side.png",
+    "animal_w": 1180,
+    "organ": "dot",
+    "organ_pos": [
+     0.5,
+     0.45
+    ],
+    "organ_label": "?",
+    "organ_at": "@hiding",
+    "kicker": "Not the *only place*",
+    "kicker_at": 0.1,
+    "first_frame": "full"
+   }
+  }
+ ]
+}

@@ -1,0 +1,733 @@
+{
+ "key": "c03",
+ "title": "Oriskany full · The Mighty O",
+ "words": "../build/words.json",
+ "audio_offset": 176.742,
+ "clips_dir": "../segments",
+ "duration": 183.226,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_brooklyn.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t4.47",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "f_c03_s02.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "13 OCTOBER 1945",
+    "text": "LAUNCH · NEW YORK NAVY YARD",
+    "at": "@thirteenth"
+   }
+  },
+  {
+   "id": "s03",
+   "start": "t8.83",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "number": "6",
+    "unit": "weeks",
+    "subline": "AFTER JAPAN SURRENDERED",
+    "number_at": "@six"
+   }
+  },
+  {
+   "id": "s04",
+   "start": "t11.23",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s04.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t15.79",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "AUGUST 1947",
+    "text": "WORK STOPPED",
+    "at": "@stopped"
+   }
+  },
+  {
+   "id": "s06",
+   "start": "t19.15",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_korea.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t22.56",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s07.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s08",
+   "start": "t25.75",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c03_s08.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "USS ORISKANY (CV-34)",
+    "text": "LAST ESSEX-CLASS CARRIER FINISHED",
+    "at": "@last"
+   }
+  },
+  {
+   "id": "s09",
+   "start": "t28.91",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "f_c03_s09.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "HER NICKNAME",
+    "text": "THE MIGHTY O",
+    "at": "@mighty"
+   }
+  },
+  {
+   "id": "s10",
+   "start": "t31.49",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_mig_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
+   "start": "t34.79",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s11.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s12",
+   "start": "t36.41",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_mig_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s13",
+   "start": "t40.62",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c03_s13.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "CREDITED IN 1952",
+    "number": "1",
+    "unit": "MiG",
+    "number_at": "@one mig"
+   }
+  },
+  {
+   "id": "s14",
+   "start": "t42.96",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "strike_swap",
+   "clip": {
+    "file": "p_c03_s14.mp4",
+    "push": null
+   },
+   "params": {
+    "lead1": "CREDITED IN 1952",
+    "old": "1",
+    "lead2": "NAVY CITATION, 2023",
+    "new": "4",
+    "show_at": 0.05,
+    "swap_at": "@cited",
+    "strike_at": "@four",
+    "dim": "dk"
+   }
+  },
+  {
+   "id": "s15",
+   "start": "t47.07",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "ROYCE WILLIAMS · 2023",
+    "text": "NAVY CROSS",
+    "at": "@navy cross"
+   }
+  },
+  {
+   "id": "s16",
+   "start": "t50.49",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s16.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s17",
+   "start": "t52.15",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_tonkin.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s18",
+   "start": "t55.17",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "f_c03_s18.mp4",
+    "push": null
+   },
+   "params": {
+    "number": "12,000",
+    "unit": "sorties",
+    "number_at": "@twelve"
+   }
+  },
+  {
+   "id": "s19",
+   "start": "t58.95",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s19.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s20",
+   "start": "t62.21",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_stockdale_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s21",
+   "start": "t65.30",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s21.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s22",
+   "start": "t68.66",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "f_c03_s22.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "CDR",
+    "text": "JAMES STOCKDALE",
+    "at": "@james"
+   }
+  },
+  {
+   "id": "s23",
+   "start": "t70.64",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_stockdale_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s24",
+   "start": "t74.95",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "PRISONER OF WAR",
+    "number": "7½",
+    "unit": "years",
+    "number_at": "@seven"
+   }
+  },
+  {
+   "id": "s25",
+   "start": "t78.12",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s25.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s26",
+   "start": "t81.48",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_yankee.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s27",
+   "start": "t85.82",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s27.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s28",
+   "start": "t89.43",
+   "sfx": false,
+   "template": "anim_xray",
+   "variant": "animal",
+   "params": {
+    "image": "../../test_v4/assets/carrier_hero_side.png",
+    "animal_w": 1180,
+    "organ": "dot",
+    "organ_pos": [
+     0.5,
+     0.3
+    ],
+    "organ_label": "FLARES",
+    "organ_at": "@flares",
+    "kicker": "26 OCT *1966*",
+    "kicker_at": 0.15,
+    "first_frame": "full"
+   }
+  },
+  {
+   "id": "s29",
+   "start": "t95.17",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s29.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s30",
+   "start": "t98.74",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "f_c03_s30.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "FLARES IN THE LOCKER",
+    "number": "≈700",
+    "number_at": "@seven"
+   }
+  },
+  {
+   "id": "s31",
+   "start": "t101.56",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "f_c03_s31.mp4",
+    "push": null
+   },
+   "params": {
+    "number": "5,400",
+    "unit": "°F",
+    "number_at": "@five"
+   }
+  },
+  {
+   "id": "s32",
+   "start": "t105.97",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "f_c03_s32.mp4",
+    "push": null
+   },
+   "params": {
+    "number": "7",
+    "unit": "hours",
+    "number_at": "@seven"
+   }
+  },
+  {
+   "id": "s33",
+   "start": "t108.91",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s33.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s34",
+   "start": "t112.08",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s34.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s35",
+   "start": "t115.15",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "center_bars",
+   "clip": {
+    "file": "f_c03_s35.mp4",
+    "push": null
+   },
+   "params": {
+    "number": "44",
+    "number_at": "@forty",
+    "dim": "dk"
+   }
+  },
+  {
+   "id": "s36",
+   "start": "t117.35",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s36.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s37",
+   "start": "t119.31",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s37.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s38",
+   "start": "t121.55",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s38.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s39",
+   "start": "t124.15",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s39.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s40",
+   "start": "t128.61",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s40.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s41",
+   "start": "t131.25",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "f_c03_s41.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "IN THE COMMENTS",
+    "text": "TELL US THEIR STORY",
+    "at": "@tell"
+   }
+  },
+  {
+   "id": "s42",
+   "start": "t135.27",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_sf_tonkin.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s43",
+   "start": "t140.53",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s43.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s44",
+   "start": "t143.23",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s44.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s45",
+   "start": "t146.43",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "26 OCT 1966 → 26 OCT 1967",
+    "text": "ONE YEAR TO THE DAY",
+    "at": "@one year"
+   }
+  },
+  {
+   "id": "s46",
+   "start": "t149.00",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "f_c03_s46.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "VA-163",
+    "text": "LCDR JOHN McCAIN",
+    "at": "@lieutenant"
+   }
+  },
+  {
+   "id": "s47",
+   "start": "t152.92",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_hanoi_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s48",
+   "start": "t156.95",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_hanoi_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s49",
+   "start": "t159.83",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "RELEASED · MARCH 1973",
+    "number": "5½",
+    "unit": "years",
+    "number_at": "@five"
+   }
+  },
+  {
+   "id": "s50",
+   "start": "t165.38",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "f_c03_s50.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "POWs WHO FLEW FROM HER DECK",
+    "text": "STOCKDALE · McCAIN",
+    "at": "@prisoners"
+   }
+  },
+  {
+   "id": "s51",
+   "start": "t169.86",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s51.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s52",
+   "start": "t173.30",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s52.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s53",
+   "start": "t179.23",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_dc.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

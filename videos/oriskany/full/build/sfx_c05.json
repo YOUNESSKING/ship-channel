@@ -1,0 +1,143 @@
+{
+ "chapter": "c05",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c05_pensacola)"
+  },
+  {
+   "shot": "s03",
+   "at": "@test",
+   "role": "tick",
+   "note": "label: THE TEST CASE"
+  },
+  {
+   "shot": "s08",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c05_reef)"
+  },
+  {
+   "shot": "s10",
+   "at": 0.0,
+   "role": "riser",
+   "note": "reverse riser INTO the x-ray",
+   "lead": true
+  },
+  {
+   "shot": "s10",
+   "at": "@twenty",
+   "role": "tick",
+   "note": "x-ray mark: 22 CHARGES"
+  },
+  {
+   "shot": "s10",
+   "at": "@deep",
+   "role": "tick",
+   "note": "readout: DEEP IN THE HULL"
+  },
+  {
+   "shot": "s11",
+   "at": "@five",
+   "role": "pop",
+   "note": "number lands: 500+"
+  },
+  {
+   "shot": "s12",
+   "at": "@ten",
+   "role": "pop",
+   "note": "card number lands: 10:25"
+  },
+  {
+   "shot": "s13",
+   "at": 0.0,
+   "role": "explosion",
+   "note": "charges fire: blast photo + flash (2nd use of the hook blast, 8 min later)",
+   "file": "charges_c__f6f10ea4.wav",
+   "src": 1.76,
+   "len": 1.0,
+   "tail": 0.3
+  },
+  {
+   "shot": "s14",
+   "at": "@five",
+   "role": "pop",
+   "note": "number lands: ≈5"
+  },
+  {
+   "shot": "s15",
+   "at": 0.0,
+   "role": "ship",
+   "note": "hull settling: groan",
+   "file": "groan_a__7c63fd7c.wav",
+   "end_shot": "s15"
+  },
+  {
+   "shot": "s16",
+   "at": 0.0,
+   "role": "ship",
+   "note": "hull settling: groan",
+   "file": "groan_a__7c63fd7c.wav",
+   "end_shot": "s16"
+  },
+  {
+   "shot": "s17",
+   "at": 0.05,
+   "role": "ship",
+   "note": "water closes over the hull: flood",
+   "file": "flood_a__db95b348.wav",
+   "end_shot": "s17"
+  },
+  {
+   "shot": "s18",
+   "at": 0.2,
+   "role": "ship",
+   "note": "drawn carrier going down: hull groan",
+   "file": "groan_a__7c63fd7c.wav",
+   "end_shot": "s18"
+  },
+  {
+   "shot": "s19",
+   "at": "@two hundred",
+   "role": "impact",
+   "note": "hull touches the seabed (underwater thump)",
+   "file": "charges_b__0ecb5c38.wav"
+  },
+  {
+   "shot": "s20",
+   "at": "@florida",
+   "role": "tick",
+   "note": "label: NOW FLORIDA'S REEF"
+  },
+  {
+   "shot": "s21",
+   "at": "@largest",
+   "role": "pop",
+   "note": "number lands: LARGEST"
+  },
+  {
+   "shot": "s22",
+   "at": "@largest",
+   "role": "pop",
+   "note": "card: LARGEST ARTIFICIAL REEF IN THE WORLD"
+  },
+  {
+   "shot": "s23",
+   "at": 0.0,
+   "role": "ship",
+   "note": "foam: air bursting out",
+   "file": "bubbles_a__e58b390c.wav",
+   "end_shot": "s23"
+  },
+  {
+   "shot": "s25",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c05_fishpin)"
+  }
+ ],
+ "film_shots": [],
+ "beds_hint": "projector loop under consecutive film shots (-27); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}
