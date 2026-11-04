@@ -282,7 +282,8 @@ class Builder:
             css += ("@font-face{font-family:'Oswald';font-weight:500;src:url('assets/fonts/oswald-latin-500-normal.woff2') format('woff2')}"
                     "@font-face{font-family:'Oswald';font-weight:700;src:url('assets/fonts/oswald-latin-700-normal.woff2') format('woff2')}"
                     "#root *{font-family:'Oswald',sans-serif !important;font-style:normal !important}"
-                    "#root svg text,#root svg tspan{font-family:'Oswald',sans-serif !important;font-style:normal !important}")
+                    "#root svg text,#root svg tspan{font-family:'Oswald',sans-serif !important;font-style:normal !important}"
+                    ".jo:not(.abs){display:inline-block;background:rgba(8,10,12,.58);padding:3px 12px 5px;letter-spacing:.2em}")   # kicker on a dark scrim (readable over busy footage)
         rt = open(os.path.join(HERE, 'lib', 'runtime.js')).read()
         if ch.get('safe', ch.get('font') == 'oswald'):   # (ship channel) labels >= 3.5 % of frame height, out of the bottom 10 % and the top-right corner
             rt = open(os.path.join(HERE, 'lib', 'safe_area.js')).read() + '\n' + rt

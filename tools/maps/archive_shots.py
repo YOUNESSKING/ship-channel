@@ -29,7 +29,7 @@ def label_layer(text, W, H):
     s = H / 1080
     f = ImageFont.truetype(FONT, int(40 * s))
     im = Image.new("RGBA", (W, H), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
-    tw = d.textlength(text, font=f); x, y = int(70 * s), int(H - 150 * s)
+    tw = d.textlength(text, font=f); x, y = int(70 * s), int(H * 0.9 - 70 * s - 12 * s)   # box ends above the bottom 10 % (YouTube player bar)
     d.rectangle([x - 18 * s, y - 12 * s, x + tw + 22 * s, y + 58 * s], fill=(18, 16, 12, 205))
     d.rectangle([x - 18 * s, y - 12 * s, x - 10 * s, y + 58 * s], fill=(201, 180, 138, 255))
     d.text((x, y - 2 * s), text, font=f, fill=(247, 243, 234, 255))

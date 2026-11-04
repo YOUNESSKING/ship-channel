@@ -1,0 +1,22 @@
+== test_v3 chapter c01 WITHOUT the safe pass
+FAIL: 7 text problems
+  size 29px | "FINAL CHECK · GULF OF MEXICO"  @ 0.5,1.0,1.5,2.0,2.5
+  size 29px | "DECOMMISSIONED 1976"  @ 9.5,10.0,10.5
+  bottom 90% | "from the first charge"  @ 13.5
+  size 29px | "USS Oriskany · 1969 · about"  @ 15.5,16.0,16.5,17.0
+  size 29px | "Preparing her to sink"  @ 26.5,27.0,27.5
+  size 29px | "About"  @ 28.0,28.5,29.0
+  bottom 94% | "budgeted at under $3 million"  @ 28.5,29.0
+
+== WITH templates/lib/safe_area.js (default for font=oswald)
+safe_area.js adjusted:
+  size 19->25.4: FINAL CHECK · GULF OF MEXICO
+  size 19->25.4: DECOMMISSIONED 1976
+  size 19->25.4: USS Oriskany · 1969 · about
+  size 19->25.4: Preparing her to sink
+  size 19->25.4: About
+  lift 36px: About$20 millionbudgeted at un
+  lift 15px: DECOMMISSIONED 1976USS Oriskan
+  lift 11px: 0 minutesfrom the first charge
+  lift 20px: About$20 millionbudgeted at un
+PASS: no text breaks the size / safe-area / font rules (53.6 s checked every 0.5 s)
