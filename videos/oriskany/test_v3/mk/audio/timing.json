@@ -1,0 +1,43 @@
+{
+ "voice": "am_michael",
+ "speed": 0.95,
+ "duration": 53.6,
+ "paragraphs": [
+  {
+   "section": "HOOK",
+   "tag": "MAP: dive | Gulf wide -> fast dive to the reef off Pensacola",
+   "start": 2.9,
+   "end": 4.55,
+   "text": "Off the coast of Florida,",
+   "sents": [
+    [
+     0,
+     2.9,
+     4.55
+    ]
+   ]
+  },
+  {
+   "section": "HOOK",
+   "tag": "ARCHIVE: x1",
+   "start": 5.1,
+   "end": 49.2,
+   "text": "",
+   "sents": []
+  },
+  {
+   "section": "END",
+   "tag": "MAP: endmap | reef -> Destin, SS United States, same reason",
+   "start": 49.3,
+   "end": 53.43,
+   "text": "And this month, a second famous American ship is scheduled to go down off the same coast, for the very same reason.",
+   "sents": [
+    [
+     0,
+     44.5,
+     53.43
+    ]
+   ]
+  }
+ ]
+}

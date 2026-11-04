@@ -51,3 +51,17 @@ assets/music/candidates/
 # rendered segments and copied source photos (rebuildable, kept local)
 videos/*/test_v2/segments/
 videos/*/test_v2/assets/photos/
+# test v3 local media (rebuildable)
+videos/*/test_v3/segments/
+videos/*/test_v3/audio/
+videos/*/test_v3/chapter/work/
+videos/*/test_v3/chapter/media_cache/
+videos/*/test_v3/chapter/render*.mp4
+videos/*/test_v3/assets/photos/
+videos/*/test_v3/assets/clips/
+videos/*/test_v3/hero/renders/
+videos/*/test_v3/hero/.hyperframes/
+videos/*/test_v3/mk/scenes/
+videos/*/test_v3/mk/assets/*.jpg
+**/node_modules/
+videos/*/test_v3/chapter/render.log

@@ -246,6 +246,10 @@ class Builder:
             th = ch.get('anim_theme')
             if th and (name.startswith('anim_') or name.startswith('v02_anim')):
                 r = {k: (retint(v, th) if isinstance(v, str) else v) for k, v in r.items()}; ctx.js = [retint(x, th) for x in ctx.js]
+            if s.get('bg_clip'):   # (ship channel v3) an animation shot over a darkened MOVING clip: the clip plays underneath, the block's ink background turns translucent
+                _bc = s['bg_clip']; _keep = s.get('clip'); s['clip'] = {'file': _bc['file'], 'push': _bc.get('push', [1.0, 1.06, '50% 50%'])}
+                _bg = ctx.video(track=0); s['clip'] = _keep; css_extra['bgclip_' + ctx.id] = f'#{ctx.id}{{background:transparent !important}}'
+                r['html'] = _bg + r['html'].replace('class="an-bg" style="background:', f'class="an-bg" style="opacity:{1 - float(_bc.get("show", 0.45)):.2f};background:', 1)
             body.append(r['html']); js.append(f'// ---- {ctx.id}: {name}/{s["variant"]}\n' + '\n'.join(ctx.js) + '\n' + r.get('js', ''))
             if r.get('css'): css_extra[name] = r['css']
             defs_extra.update(r.get('defs') or {})
@@ -274,6 +278,11 @@ class Builder:
         if fo: body.append(f'<div id="fade" class="clip" data-start="{total-fo:.3f}" data-duration="{fo:.3f}" data-track-index="9"></div>'); js.append(f"gsap.set('#fade',{{opacity:0}});tl.to('#fade',{{opacity:1,duration:{fo},ease:'none'}},{total-fo:.3f});")
         if fi: body.append(f'<div id="fadein" class="clip" data-start="0" data-duration="{fi:.3f}" data-track-index="9" style="position:absolute;left:0;top:0;width:1280px;height:720px;background:#000;z-index:60"></div>'); js.append(f"tl.fromTo('#fadein',{{opacity:1}},{{opacity:0,duration:{fi},ease:'none'}},0);")
         css = open(os.path.join(HERE, 'lib', 'fonts_face.css')).read() + open(os.path.join(HERE, 'lib', 'style.css')).read() + open(os.path.join(HERE, 'lib', 'blocks.css')).read() + ''.join(css_extra.values())
+        if ch.get('font') == 'oswald':   # (ship channel v3) one font family for the whole chapter: Oswald (map/label font), gold stays the accent colour
+            css += ("@font-face{font-family:'Oswald';font-weight:500;src:url('assets/fonts/oswald-latin-500-normal.woff2') format('woff2')}"
+                    "@font-face{font-family:'Oswald';font-weight:700;src:url('assets/fonts/oswald-latin-700-normal.woff2') format('woff2')}"
+                    "#root *{font-family:'Oswald',sans-serif !important;font-style:normal !important}"
+                    "#root svg text,#root svg tspan{font-family:'Oswald',sans-serif !important;font-style:normal !important}")
         rt = open(os.path.join(HERE, 'lib', 'runtime.js')).read()
         title = _html.escape(ch.get('title', self.key))
         RW, RH = (1920, 1080) if self.res == 1080 else (1280, 720)
@@ -300,6 +309,8 @@ window.__timelines = window.__timelines || {{}}; window.__timelines['main'] = tl
         if os.path.isdir(old): shutil.rmtree(old)
         open(os.path.join(self.out, 'index.html'), 'w').write(page)
         for f in os.listdir(os.path.join(HERE, 'lib', 'fonts')): shutil.copy2(os.path.join(HERE, 'lib', 'fonts', f), os.path.join(self.out, 'assets', 'fonts', f))
+        if ch.get('font') == 'oswald':
+            for f in ('oswald-latin-500-normal.woff2', 'oswald-latin-700-normal.woff2'): shutil.copy2(os.path.join(HERE, '..', 'map-kit', 'assets', 'fonts', f), os.path.join(self.out, 'assets', 'fonts', f))
         for f in ('hyperframes.json', 'package.json', 'meta.json'): shutil.copy2(os.path.join(HERE, 'lib', 'hf_template', f), os.path.join(self.out, f))
         shutil.copy2(os.path.join(HERE, 'lib', 'icy_sea.jpg'), os.path.join(self.out, 'assets', 'icy_sea.jpg'))
         for rel, src in self.assets.items():
