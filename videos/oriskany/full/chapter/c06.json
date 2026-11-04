@@ -224,6 +224,10 @@
     "unit": "fish",
     "subline": "FROM THE WRECK",
     "number_at": "@two hundred"
+   },
+   "clip": {
+    "file": "b_c06_s13.mp4",
+    "push": null
    }
   },
   {
@@ -233,7 +237,7 @@
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "h_c06_lines_a.mp4",
+    "file": "f_c06_s14.mp4",
     "push": null
    },
    "params": {}
@@ -281,7 +285,7 @@
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "h_c06_lines_e.mp4",
+    "file": "f_c06_s18.mp4",
     "push": null
    },
    "params": {}
@@ -321,6 +325,10 @@
     "kicker": "2012 PETITION · FROM FWC DATA",
     "text": "ENVIRONMENTAL GROUPS",
     "at": "@environmental"
+   },
+   "clip": {
+    "file": "b_c06_s21.mp4",
+    "push": null
    }
   },
   {
@@ -418,6 +426,10 @@
     "kicker": "FLORIDA",
     "text": "NO ADVISORY ISSUED",
     "at": "@no fish"
+   },
+   "clip": {
+    "file": "b_c06_s29.mp4",
+    "push": null
    }
   },
   {

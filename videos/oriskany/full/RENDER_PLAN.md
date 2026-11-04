@@ -22,37 +22,42 @@ Mid-video reversal (c06 'Not all of the PCBs came out') starts at 566 s = 65.3 %
 
 ## Screen-time mix per chapter (c02-c07, from the shot lists)
 
-| chapter | dur s | shots | film % | photo % | map % | hero % | anim % | card % | longest shot | cues/min |
-|---|---|---|---|---|---|---|---|---|---|---|
-| c02 | 128.1 | 35 | 5 | 19 | 34 | 13 | 7 | 22 | 5.9 s (s11) | 13.6 |
-| c03 | 183.2 | 53 | 50 | 10 | 25 | 0 | 3 | 11 | 5.9 s (s52) | 12.4 |
-| c04 | 124.5 | 32 | 0 | 14 | 28 | 9 | 29 | 20 | 5.7 s (s18) | 13.5 |
-| c05 | 81.4 | 25 | 0 | 64 | 12 | 8 | 6 | 9 | 5.7 s (s22) | 14.7 |
-| c06 | 120.7 | 32 | 0 | 11 | 15 | 47 | 13 | 13 | 5.9 s (s11) | 13.4 |
-| c07 | 198.3 | 50 | 7 | 19 | 16 | 19 | 24 | 15 | 5.9 s (s04) | 14.2 |
-| **c02-c07** | | | **14** | **20** | **22** | **15** | **14** | **15** | | |
+| chapter | dur s | shots | film % | photo % | map % | hero % | anim % | card % | of which NARA film % | generic US-Gov film % | anim over moving film % | **moving video total %** | longest shot | cues/min |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| c02 | 128.1 | 35 | 20 | 15 | 34 | 13 | 7 | 11 | 5 | 15 | 7 | **27** | 5.9 s (s11) | 13.6 |
+| c03 | 183.2 | 53 | 50 | 10 | 25 | 0 | 3 | 11 | 50 | 0 | 0 | **50** | 5.9 s (s52) | 12.4 |
+| c04 | 124.5 | 32 | 5 | 9 | 28 | 9 | 29 | 20 | 0 | 5 | 0 | **5** | 5.7 s (s18) | 13.5 |
+| c05 | 81.4 | 25 | 0 | 64 | 12 | 8 | 6 | 9 | 0 | 0 | 0 | **0** | 5.7 s (s22) | 14.7 |
+| c06 | 120.7 | 32 | 15 | 11 | 15 | 41 | 13 | 4 | 0 | 15 | 0 | **15** | 5.9 s (s11) | 13.4 |
+| c07 | 198.3 | 50 | 22 | 17 | 14 | 19 | 24 | 5 | 7 | 14 | 9 | **31** | 5.9 s (s04) | 13.6 |
+| **c02-c07** | | | **22** | **18** | **22** | **14** | **14** | **10** | **14** | **8** | **3** | **25** | | |
 
-c01 (test v4 hook, 48.6 s): 24 % film, 36 % photos, 40 % maps/animation. Film is the majority only where honest film exists
-(c03: Korea/Vietnam/1966 fire/burial NARA reels = 50 %). Every 2006 event exists only as Navy photos; 1976-2005 and the
-PCB/fish story have no footage, so they are maps, cards and kit animations. No wrong-era film is used to raise the number.
+c01 (test v4 hook, 48.6 s): 24 % film, 36 % photos, 40 % maps/animation. Real Oriskany film exists only for 1945-1969 (c03 = 50 %).
+Step 2C added GENERIC US Government b-roll (DVIDS / NOAA Fisheries / NASA, public domain, footage/FOOTAGE_LIST.md section
+'Generic US Government b-roll') where the narration is general: a dead carrier under tow, storms, fish testing, reef fish, divers.
+It replaces stills, plays under cards (the card text becomes its lower-third / number layout over the film) and under some
+animations (`bg_clip`, show 0.5). Every such segment carries a burned-in top-left tag 'ILLUSTRATIVE · AGENCY · WHAT, WHERE, YEAR'
+for the whole shot: never presented as the Oriskany. Maps, hero scenes and animations that carry information were kept; only
+four information-free scenes were dropped (m_c07_storm, m_c07_reefpin, h_c06_lines_a, h_c06_lines_e). 2006 events keep the
+real 2006 Navy photos (c05): no generic film replaces a real event picture.
 
 ## What step 2 has to make
 
 | kind | count | est. render time (serial) | made with |
 |---|---|---|---|
-| film segments | 35 | 6 min | `tools/maps/archive_shots.py` film_shot from the NARA reel at `reel_in` (fit pillar or fill), grade `ship` |
-| photo segments | 49 | 33 min | archive_shots photo_shot (2.5D depth move, grade `ship`), label baked when given |
-| map scenes | 48 | 48 min | map-kit (test_v4/mk: bake_sea.py sea-floor look, scenes-src/*.js like dive/gulfpin/endmap), HyperFrames render |
-| hero scenes | 33 | 66 min | kit/ship (ships.js, carrier_hero.js, sinking/), HyperFrames render |
+| film segments | 61 | 10 min | `tools/maps/archive_shots.py` film_shot from the NARA reel at `reel_in` (fit pillar or fill), grade `ship` |
+| photo segments | 44 | 29 min | archive_shots photo_shot (2.5D depth move, grade `ship`), label baked when given |
+| map scenes | 46 | 46 min | map-kit (test_v4/mk: bake_sea.py sea-floor look, scenes-src/*.js like dive/gulfpin/endmap), HyperFrames render |
+| hero scenes | 31 | 62 min | kit/ship (ships.js, carrier_hero.js, sinking/), HyperFrames render |
 
 Chapter renders (build_chapter.py + HyperFrames): ~52 min serial. Mix + checks: ~10 min.
-**Serial total ≈ 3.6 h. With 3 parallel workers ≈ 1.4 h** (4 CPU: run at most 3 HyperFrames renders at once).
+**Serial total ≈ 3.5 h. With 3 parallel workers ≈ 1.4 h** (4 CPU: run at most 3 HyperFrames renders at once).
 
 ## Parallel plan
 
-1. **Worker A, maps** (48 scenes): bake the sea-floor tiles once (Gulf, Pacific, North Pacific/Japan, Korea, Gulf of Tonkin, New York, US South-East, South America for the Cape Horn tow), then write the scene JS per row below (copy `test_v4/mk/scenes-src/*.js` patterns; labels >= 38 px; timings from `t0_abs` + the narration words in `build/words.json`).
-2. **Worker B, heroes** (33 scenes): kit/ship scenes per row below. Families: c02 ledger/sisters/tally, c04 deck cutaway (a, a2, b, c), c05 sinking (a/b from kit/ship/sinking), c06 PCB gauge set (rounds, lines a-e, species, snapper, down a-d: one HTML scene with a `?beat=` parameter), c07 cross-sections (settle, funnel, depths a/b/d, apart, today) + tally callback.
-3. **Worker C, film + photo segments** (84): `build/make_segments.py` (to write: loop over `segments.json`, kind film/photo, call archive_shots exactly as `test_v4/build/films.py` / `shots.py` do, ARCHIVE_GRADE=ship). Then run `python3 tools/film/check_clips.py segments/f_*.mp4 segments/p_*.mp4` and **eyeball a contact sheet of every film segment** (the film windows were found automatically: a soft dissolve can slip past the scene detector).
+1. **Worker A, maps** (46 scenes): bake the sea-floor tiles once (Gulf, Pacific, North Pacific/Japan, Korea, Gulf of Tonkin, New York, US South-East, South America for the Cape Horn tow), then write the scene JS per row below (copy `test_v4/mk/scenes-src/*.js` patterns; labels >= 38 px; timings from `t0_abs` + the narration words in `build/words.json`).
+2. **Worker B, heroes** (31 scenes): kit/ship scenes per row below. Families: c02 ledger/sisters/tally, c04 deck cutaway (a, a2, b, c), c05 sinking (a/b from kit/ship/sinking), c06 PCB gauge set (rounds, lines b, c, d (a and e dropped in 2C), species, snapper, down a-d: one HTML scene with a `?beat=` parameter), c07 cross-sections (settle, funnel, depths a/b/d, apart, today) + tally callback.
+3. **Worker C, film + photo segments** (105): `build/make_segments.py` (DONE in step 2C: loops over `segments.json`, kind film/photo, archive_shots as `test_v4/build/films.py` / `shots.py`, ARCHIVE_GRADE=ship; generic b-roll gets its ILLUSTRATIVE tag). Then run `python3 tools/film/check_clips.py segments/f_*.mp4 segments/p_*.mp4` and **eyeball a contact sheet of every film segment** (the film windows were found automatically: a soft dissolve can slip past the scene detector).
 4. **Step 3 (after A-C)**: render chapters c02-c07 (c01 already exists = test v4 chapter render, re-render only if its duration must change: it now ends at 48.6 s instead of 50.2 s), each `node templates/check_safe_text.js` (all PASS in step 1 on the plain build), concat c01-c07, one full mix (below), `tools/film/make_paperwork.py`, two critics.
 
 Chapters c02/c04/c06 depend mostly on maps + heroes; c03 on film; c05 on photos + hero; c07 on all three. Render each chapter as soon as its segments exist.
@@ -70,7 +75,6 @@ Chapters c02/c04/c06 depend mostly on maps + heroes; c03 on film; c05 on photos 
 | segment | what | if not available |
 |---|---|---|
 | p_c02_s33.mp4 | 6698587 | CIV photographer (Gary Nichols?): if rights not confirmed use P:6698588 (crowd on the shore path) |
-| p_c04_s24.mp4 | 6695615 | CIV photographer (Jeff Doty): if rights not confirmed use a text_card number |
 | p_c05_s02.mp4 | 6695614 | CIV photographer (Megan Kohr): if rights not confirmed use P:6696903 |
 | p_c05_s07.mp4 | 6698587 | CIV photographer: if rights not confirmed use P:6698590 (couple on the seawall; caption nobody) |
 | p_c07_s02.mp4 | wiki_oriskany_2008_a | OWNER DOWNLOAD (Wikimedia 'Oriskany July 2008', Gareth Richards, CC BY-SA 3.0); fallback H:c07_today (kit hulk on the seabed, light shafts) |
@@ -78,7 +82,8 @@ Chapters c02/c04/c06 depend mostly on maps + heroes; c03 on film; c05 on photos 
 | p_c07_s12.mp4 | wiki_oriskany_2008_b | OWNER DOWNLOAD (Wikimedia 'Oriskany July 2008' #2); fallback H:c07_divers (diver icons descend to the island) |
 
 - Also worth downloading (FOOTAGE_LIST): NHHC 'USN 1121683/1121718/1121685' fire photos (c03 fire section could swap a film shot for a still), NH 97408 (1950 off New York, c03 'rushed her to completion' could use it instead of 7578420).
-- Rights to confirm before render: the four 'CIV' 2006 stills above (DoD civilian staff photographers are usually federal works, but the NARA record must say so).
+- More honest moving video the owner can fetch (cloud blocks or none found): see footage/FOOTAGE_LIST.md 'Generic US Government b-roll' and the step 2C report (MARAD / NAVSEA ship recycling at Brownsville, a 2006 Navy video of the sinking if one exists on DVIDS/NARA).
+- Rights to confirm before render: the 'CIV' 2006 stills above (DoD civilian staff photographers are usually federal works, but the NARA record must say so).
 
 ## Map scenes
 
@@ -123,11 +128,9 @@ Chapters c02/c04/c06 depend mostly on maps + heroes; c03 on film; c05 on photos 
 | m_c06_rubble.mp4 | 654.15 | 2.53 | Wreck pin + rubble reef pin; dashed line '8 MI' on 'eight miles' | That reef was eight miles away. |
 | m_c06_tag.mp4 | 656.33 | 4.27 | A tag icon circles the wreck pin on 'stay on the wreck' | And tagging suggested the snapper tend to stay on the wreck. |
 | m_c07_dive.mp4 | 686.54 | 3.34 | Dive from the sea surface down to the wreck pin off Pensacola (like the hook dive, slower, from the east) | To answer that, go back down to the wreck. |
-| m_c07_storm.mp4 | 693.05 | 2.26 | Wreck pin; generic storm swirl passes over it (no name, no date) | The storms saw to that. |
 | m_c07_gustav.mp4 | 700.82 | 4.16 | Hurricane Gustav track (Sept 2008) over the Gulf near the wreck pin; tag 'GUSTAV · 2008' | Among them was Hurricane Gustav, in two thousand eight. |
 | m_c07_counties_a.mp4 | 738.03 | 2.06 | Pensacola area; two county outlines appear on 'two counties' | to two counties. |
 | m_c07_counties_b.mp4 | 739.74 | 3.88 | ESCAMBIA (FL) lights on 'Escambia', BALDWIN (AL) on 'Baldwin' | Escambia, in Florida, and Baldwin, in Alabama. |
-| m_c07_reefpin.mp4 | 771.78 | 1.95 | Wreck pin glows gold, small fish icons around it | A reef was different. |
 | m_c07_okaloosa.mp4 | 832.56 | 4.59 | Florida panhandle; Okaloosa County outline + DESTIN pin on 'Okaloosa'; liner icon (kit liner_top) appears off Destin on 'SS United States' | Okaloosa County plans to sink the SS United States. |
 | m_c07_endmap.mp4 | 842.73 | 4.51 | test v4 endmap.js re-timed: both pins (USS ORISKANY reef + SS UNITED STATES · NOV 12), dashed '13 NAUTICAL MILES' on 'thirteen' | She will lie about thirteen nautical miles from the Oriskany. |
 | m_c07_title.mp4 | 853.94 | 3.13 | End map again: a gold 'WORLD'S LARGEST REEF' tag slides from the Oriskany pin to the SS United States pin on 'take her title' | Now it is about to take her title. |
@@ -149,11 +152,9 @@ Chapters c02/c04/c06 depend mostly on maps + heroes; c03 on film; c05 on photos 
 | h_c05_hero_b.mp4 | 543.33 | 2.95 | Same ShipSink, closer: touchdown, silt puff, gauge lands 'ON THE SEABED 212 FT' on 'two hundred and twelve' | Two hundred and twelve feet down. |
 | h_c06_rounds_a.mp4 | 604.35 | 6.23 | Sampling timeline DEC 2006 -> NOV 2010 draws on its dates; fish icons drop into a tray on the wreck pin | From December two thousand six to November two thousand ten, the state and Escambia County |
 | h_c06_rounds_b.mp4 | 610.23 | 3.76 | Round counter 1 -> 8 ticks (lands on 'eight'); 'ESCAMBIA COUNTY + FWC' credit line | sampled eight rounds of fish. |
-| h_c06_lines_a.mp4 | 616.00 | 3.49 | PCB gauge appears (years 1-4 on the x axis), empty; two horizontal lines not yet labelled | The first results were not what anyone wanted. |
 | h_c06_lines_b.mp4 | 619.14 | 6.18 | Average bar for years 1-2 rises above both lines on 'above two lines' (music dip 0.8 s before) | For the first two years, the average PCB level in those fish was above two lines. |
 | h_c06_lines_c.mp4 | 624.98 | 4.08 | Lines get labels on their words: 'FLORIDA' (50 ppb) and 'EPA' (20 ppb) | Florida's screening value. And the EPA's. |
 | h_c06_lines_d.mp4 | 628.70 | 3.08 | Line labels change to 'SCREENING VALUE' on 'screening values' | Screening values are not poison limits. |
-| h_c06_lines_e.mp4 | 631.44 | 4.37 | Magnifier icon over the lines on 'closer look' | They are the levels at which health officials take a closer look. |
 | h_c06_species_a.mp4 | 635.46 | 3.73 | Species bars: RED SNAPPER, PORGIES above the lines (on their names) | The highest readings were in red snapper and porgies. |
 | h_c06_species_b.mp4 | 638.84 | 4.31 | VERMILION SNAPPER, SCAMP bars below both lines (on their names) | Vermilion snapper and scamp never crossed either line. |
 | h_c06_snapper_a.mp4 | 647.04 | 2.31 | Two snapper icons: 'ON THE CARRIER' vs 'ON A RUBBLE REEF'; attribution plate 'ENVIRONMENTAL GROUPS' stays on | They said snapper on the carrier carried |
@@ -173,12 +174,22 @@ Chapters c02/c04/c06 depend mostly on maps + heroes; c03 on film; c05 on photos 
 
 ## Film segments (real NARA film; reel seconds inside one vetted continuous shot)
 
-| file | clip (footage list) | NARA reel | reel in (s) | dur | baked label |
+Built by `build/make_segments.py` (ARCHIVE_GRADE=ship; resumable). `f_` = full-frame shot, `b_` = film under a card or animation.
+
+| file | clip (footage list) | source reel | reel in (s) | dur | baked label / ILLUSTRATIVE tag |
 |---|---|---|---|---|---|
 | f_c02_s01.mp4 | b3_aerial_underway_1969.mp4 | 87411 | 7.75 | 3.06 |  |
+| f_c02_s04.mp4 | g_kh_a.mp4 | dvids_828554 | 1.15 | 3.24 | ILLUSTRATIVE · U.S. NAVY · EX-KITTY HAWK, BREMERTON, 2022 |
+| f_c02_s05.mp4 | g_kh_b.mp4 | dvids_828554 | 82.15 | 2.73 | ILLUSTRATIVE · U.S. NAVY · EX-KITTY HAWK, BREMERTON, 2022 |
+| b_c02_s08.mp4 | g_kh_c.mp4 | dvids_828554 | 138.15 | 5.64 | ILLUSTRATIVE · U.S. NAVY · EX-KITTY HAWK TOWED TO A SCRAPYARD, 2022 |
+| b_c02_s14.mp4 | g_fm_tow.mp4 | dvids_791060 | 128.15 | 4.31 | ILLUSTRATIVE · U.S. NAVY · RETIRED SHIP UNDER TOW, MAYPORT, 2021 |
+| b_c02_s16.mp4 | g_fm_tow.mp4 | dvids_791060 | 132.56 | 4.02 | ILLUSTRATIVE · U.S. NAVY · RETIRED SHIP UNDER TOW, MAYPORT, 2021 |
+| b_c02_s23.mp4 | g_kh_c.mp4 | dvids_828554 | 143.89 | 3.83 | ILLUSTRATIVE · U.S. NAVY · EX-KITTY HAWK TOWED TO A SCRAPYARD, 2022 |
+| b_c02_s27.mp4 | g_kh_a.mp4 | dvids_828554 | 4.49 | 3.18 | ILLUSTRATIVE · U.S. NAVY · EX-KITTY HAWK, BREMERTON, 2022 |
+| b_c02_s28.mp4 | g_fm_tow.mp4 | dvids_791060 | 136.68 | 4.47 | ILLUSTRATIVE · U.S. NAVY · RETIRED SHIP UNDER TOW, MAYPORT, 2021 |
 | f_c02_s35.mp4 | b1_launch_crowd.mp4 | 39085 | 40.58 | 4.43 |  |
-| f_c03_s02.mp4 | b1_launch_hull.mp4 | 39085 | 52.15 | 4.76 |  |
-| f_c03_s04.mp4 | b1_launch_bow.mp4 | 39085 | 56.95 | 4.96 |  |
+| f_c03_s02.mp4 | b1_launch_hull.mp4 | 39085 | 61.6 | 4.76 |  |
+| f_c03_s04.mp4 | b1_launch_bow.mp4 | 39085 | 52.1 | 4.96 |  |
 | f_c03_s09.mp4 | b2_f4u_corsair_landing.mp4 | 78776 | 12.18 | 2.98 |  |
 | f_c03_s11.mp4 | b2_f9f_panther_deck.mp4 | 78776 | 15.18 | 2.02 |  |
 | f_c03_s16.mp4 | b3_unrep_oiler_1966.mp4 | 85461 | 490.15 | 2.06 |  |
@@ -198,7 +209,7 @@ Chapters c02/c04/c06 depend mostly on maps + heroes; c03 on film; c05 on photos 
 | f_c03_s36.mp4 | b4_fire_burned_a4.mp4 | 85477 | 173.88 | 2.36 |  |
 | f_c03_s37.mp4 | b4_burial_color_guard.mp4 | 85493 | 113.98 | 2.64 |  |
 | f_c03_s38.mp4 | b4_burial_formation.mp4 | 85493 | 190.15 | 3.0 |  |
-| f_c03_s39.mp4 | b4_burial_escorts.mp4 | 85493 | 430.15 | 4.87 |  |
+| f_c03_s39.mp4 | b4_burial_escorts.mp4 | 85493 | 440.45 | 4.87 |  |
 | f_c03_s40.mp4 | b3_aerial_underway_1969.mp4 | 87411 | 10.91 | 3.03 |  |
 | f_c03_s41.mp4 | b3_aerial_underway2_1969.mp4 | 87411 | 51.05 | 4.42 |  |
 | f_c03_s43.mp4 | b3_island_a4e_parked_1968.mp4 | 86313 | 14.78 | 3.1 |  |
@@ -206,32 +217,46 @@ Chapters c02/c04/c06 depend mostly on maps + heroes; c03 on film; c05 on photos 
 | f_c03_s46.mp4 | b3_a4e_launch_1968.mp4 | 86313 | 450.02 | 4.32 |  |
 | f_c03_s50.mp4 | b3_bow_on_underway_1966.mp4 | 85461 | 595.55 | 4.88 |  |
 | f_c03_s51.mp4 | b4_fire_damaged_a4_316.mp4 | 85477 | 440.38 | 3.84 |  |
+| f_c04_s02.mp4 | g_kh_b.mp4 | dvids_828554 | 84.98 | 3.15 | ILLUSTRATIVE · U.S. NAVY · EX-KITTY HAWK, BREMERTON, 2022 |
+| f_c04_s24.mp4 | g_rita.mp4 | nasa_rita_3438 | 0.35 | 3.76 | NASA · HURRICANE RITA, SEPT 2005 (GOES) |
+| b_c06_s13.mp4 | g_lab_a.mp4 | noaa_dwh_sampleprep | 19.15 | 2.77 | ILLUSTRATIVE · NOAA · FISH SAMPLES FOR TESTING, 2010 |
+| f_c06_s14.mp4 | g_lab_b.mp4 | noaa_dwh_sampleprep | 40.15 | 3.54 | ILLUSTRATIVE · NOAA · FISH SAMPLES FOR TESTING, 2010 |
+| f_c06_s18.mp4 | g_lab_c.mp4 | noaa_dwh_sampleprep | 64.15 | 4.42 | ILLUSTRATIVE · NOAA · FISH SAMPLES FOR TESTING, 2010 |
+| b_c06_s21.mp4 | g_snap_b.mp4 | noaa_snapper_school | 39.15 | 4.64 | ILLUSTRATIVE · NOAA · RED SNAPPER, GULF OF MEXICO |
+| b_c06_s29.mp4 | g_recfish_a.mp4 | noaa_snapper_recfish | 8.65 | 4.55 | ILLUSTRATIVE · NOAA · RED SNAPPER FISHING, GULF OF MEXICO |
+| f_c07_s03.mp4 | g_gustav.mp4 | nasa_gustav_3545 | 0.35 | 2.31 | NASA · HURRICANE GUSTAV, AUG 2008 |
+| b_c07_s11.mp4 | g_navy_wreck_b.mp4 | dvids_358436 | 64.15 | 4.06 | ILLUSTRATIVE · U.S. NAVY DIVERS ON A WRECK, COLOMBIA, 2014 |
+| b_c07_s13.mp4 | g_keys_diver.mp4 | noaa_corals_gulf | 110.15 | 5.4 | ILLUSTRATIVE · NOAA · DIVER ON A REEF, FLORIDA KEYS |
+| b_c07_s14.mp4 | g_recfish_b.mp4 | noaa_snapper_recfish | 30.15 | 4.62 | ILLUSTRATIVE · NOAA · FISHING, GULF OF MEXICO |
+| f_c07_s21.mp4 | g_kh_c.mp4 | dvids_828554 | 147.82 | 4.79 | ILLUSTRATIVE · U.S. NAVY · EX-KITTY HAWK TOWED TO A SCRAPYARD, 2022 |
+| f_c07_s24.mp4 | g_snap_c.mp4 | noaa_snapper_school | 52.15 | 2.0 | ILLUSTRATIVE · NOAA · RED SNAPPER, GULF OF MEXICO |
+| b_c07_s26.mp4 | g_fm_tow.mp4 | dvids_791060 | 141.25 | 4.78 | ILLUSTRATIVE · U.S. NAVY · RETIRED SHIP UNDER TOW, MAYPORT, 2021 |
+| b_c07_s28.mp4 | g_kh_a.mp4 | dvids_828554 | 7.76 | 4.9 | ILLUSTRATIVE · U.S. NAVY · EX-KITTY HAWK, BREMERTON, 2022 |
+| b_c07_s30.mp4 | g_fm_tow.mp4 | dvids_791060 | 146.12 | 5.59 | ILLUSTRATIVE · U.S. NAVY · RETIRED SHIP UNDER TOW, MAYPORT, 2021 |
+| b_c07_s34.mp4 | g_kh_b.mp4 | dvids_828554 | 88.23 | 4.66 | ILLUSTRATIVE · U.S. NAVY · EX-KITTY HAWK, BREMERTON, 2022 |
+| b_c07_s36.mp4 | g_reef_fish.mp4 | noaa_coral_fgb | 8.15 | 3.43 | ILLUSTRATIVE · NOAA · REEF FISH |
 | f_c07_s39.mp4 | b10_ssus_profile.mp4 | 86032 | 140.15 | 2.84 |  |
 | f_c07_s40.mp4 | b10_ssus_crane_river.mp4 | 86032 | 12.75 | 4.66 |  |
 | f_c07_s45.mp4 | b10_ssus_stacks.mp4 | 86032 | 18.48 | 2.02 |  |
-| f_c07_s48.mp4 | b3_aerial_underway2_1969.mp4 | 87411 | 55.57 | 5.52 |  |
+| f_c07_s48.mp4 | b3_aerial_underway2_1969.mp4 | 87411 | 57.5 | 5.52 |  |
 
 ## Photo segments
 
 | file | photo | dur | move | baked label |
 |---|---|---|---|---|
 | p_c02_s03.mp4 | 6450776 | 2.91 | in | BREMERTON, WASHINGTON |
-| p_c02_s04.mp4 | 6450773 | 3.19 | out |  |
-| p_c02_s05.mp4 | 6450777 | 2.68 | in |  |
-| p_c02_s06.mp4 | 7578429 | 4.72 | right |  |
-| p_c02_s07.mp4 | 7578430 | 3.55 | in |  |
-| p_c02_s13.mp4 | 7578432 | 3.92 | out |  |
-| p_c02_s33.mp4 | 6698587 | 2.81 | left |  |
+| p_c02_s06.mp4 | 7578429 | 4.72 | out |  |
+| p_c02_s07.mp4 | 7578430 | 3.55 | left |  |
+| p_c02_s13.mp4 | 7578432 | 3.92 | right |  |
+| p_c02_s33.mp4 | 6698587 | 2.81 | in |  |
 | p_c02_s34.mp4 | 7578428 | 3.17 | in |  |
-| p_c03_s07.mp4 | 7578420 | 3.55 | in | USS ORISKANY · EARLY 1950s |
-| p_c03_s08.mp4 | 7578422 | 3.51 | out |  |
-| p_c03_s13.mp4 | 7578424 | 2.69 | left |  |
-| p_c03_s14.mp4 | 7578425 | 4.45 | right |  |
+| p_c03_s07.mp4 | 7578420 | 3.55 | left | USS ORISKANY · EARLY 1950s |
+| p_c03_s08.mp4 | 7578422 | 3.51 | right |  |
+| p_c03_s13.mp4 | 7578424 | 2.69 | in |  |
+| p_c03_s14.mp4 | 7578425 | 4.45 | out |  |
 | p_c03_s52.mp4 | 6450773 | 6.28 | in |  |
-| p_c04_s02.mp4 | 6450777 | 3.1 | left |  |
-| p_c04_s03.mp4 | 6695641 | 4.32 | left |  |
-| p_c04_s07.mp4 | 6695642 | 5.93 | right |  |
-| p_c04_s24.mp4 | 6695615 | 3.71 | in |  |
+| p_c04_s03.mp4 | 6695641 | 4.32 | right |  |
+| p_c04_s07.mp4 | 6695642 | 5.93 | in |  |
 | p_c04_s26.mp4 | 6696606 | 2.51 | out | PENSACOLA · 2006 |
 | p_c05_s02.mp4 | 6695614 | 2.06 | left |  |
 | p_c05_s03.mp4 | 6696903 | 5.66 | right |  |
@@ -257,10 +282,9 @@ Chapters c02/c04/c06 depend mostly on maps + heroes; c03 on film; c05 on photos 
 | p_c07_s02.mp4 | wiki_oriskany_2008_a | 3.87 | right | THE WRECK · JULY 2008 |
 | p_c07_s09.mp4 | wiki_grimes_island | 3.69 | in | ISLAND TOP · 2009 |
 | p_c07_s12.mp4 | wiki_oriskany_2008_b | 2.16 | out | DIVERS · JULY 2008 |
-| p_c07_s21.mp4 | 6698561 | 4.74 | left |  |
 | p_c07_s23.mp4 | 6698554 | 5.33 | out |  |
 | p_c07_s29.mp4 | 6695641 | 2.73 | out |  |
 | p_c07_s33.mp4 | 6698624 | 3.85 | in |  |
-| p_c07_s42.mp4 | loc_haer_pa647_582545 | 3.0 | left |  |
-| p_c07_s46.mp4 | 6698606 | 5.77 | right |  |
+| p_c07_s42.mp4 | loc_haer_pa647_582545 | 3.0 | out |  |
+| p_c07_s46.mp4 | 6698606 | 5.77 | left |  |
 | p_c07_s49.mp4 | 6698625 | 2.91 | out |  |

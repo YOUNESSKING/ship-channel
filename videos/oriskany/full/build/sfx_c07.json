@@ -8,12 +8,6 @@
    "note": "map move starts (c07_dive)"
   },
   {
-   "shot": "s03",
-   "at": 0.3,
-   "role": "whoosh",
-   "note": "map move starts (c07_storm)"
-  },
-  {
    "shot": "s04",
    "at": 0.6,
    "role": "pop",
@@ -97,12 +91,6 @@
    "at": 0.6,
    "role": "pop",
    "note": "c07_tally: its main graphic beat (step 2: retime to the scene's event frame)"
-  },
-  {
-   "shot": "s24",
-   "at": 0.3,
-   "role": "whoosh",
-   "note": "map move starts (c07_reefpin)"
   },
   {
    "shot": "s25",
@@ -300,5 +288,18 @@
   "s45",
   "s48"
  ],
- "beds_hint": "projector loop under consecutive film shots (-27); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+ "generic_video_shots": [
+  "s03",
+  "s11",
+  "s13",
+  "s14",
+  "s21",
+  "s24",
+  "s26",
+  "s28",
+  "s30",
+  "s34",
+  "s36"
+ ],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
 }

@@ -41,10 +41,10 @@
    "id": "s03",
    "start": "t6.51",
    "sfx": false,
-   "template": "map_clip",
-   "variant": "baked",
+   "template": "clip_plain",
+   "variant": "push",
    "clip": {
-    "file": "m_c07_storm.mp4",
+    "file": "f_c07_s03.mp4",
     "push": null
    },
    "params": {}
@@ -144,6 +144,10 @@
     "kicker": "FLORIDA FWC",
     "text": "NEVER GO INSIDE",
     "at": "@never"
+   },
+   "clip": {
+    "file": "b_c07_s11.mp4",
+    "push": null
    }
   },
   {
@@ -170,6 +174,10 @@
     "number": "4,200",
     "unit": "dive trips",
     "number_at": "@four thousand"
+   },
+   "clip": {
+    "file": "b_c07_s13.mp4",
+    "push": null
    }
   },
   {
@@ -184,6 +192,10 @@
     "number": "$3.6",
     "unit": "million",
     "number_at": "@three point"
+   },
+   "clip": {
+    "file": "b_c07_s14.mp4",
+    "push": null
    }
   },
   {
@@ -284,7 +296,7 @@
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c07_s21.mp4",
+    "file": "f_c07_s21.mp4",
     "push": null
    },
    "params": {}
@@ -317,10 +329,10 @@
    "id": "s24",
    "start": "t85.24",
    "sfx": false,
-   "template": "map_clip",
-   "variant": "baked",
+   "template": "clip_plain",
+   "variant": "push",
    "clip": {
-    "file": "m_c07_reefpin.mp4",
+    "file": "f_c07_s24.mp4",
     "push": null
    },
    "params": {}
@@ -365,6 +377,10 @@
       "hero": true
      }
     ]
+   },
+   "bg_clip": {
+    "file": "b_c07_s26.mp4",
+    "show": 0.5
    }
   },
   {
@@ -416,6 +432,10 @@
       "hero": true
      }
     ]
+   },
+   "bg_clip": {
+    "file": "b_c07_s28.mp4",
+    "show": 0.5
    }
   },
   {
@@ -441,6 +461,10 @@
     "kicker": "MARAD · REPORT TO CONGRESS · JAN 2008",
     "text": "A WARNING",
     "at": "@warning"
+   },
+   "clip": {
+    "file": "b_c07_s30.mp4",
+    "push": null
    }
   },
   {
@@ -518,6 +542,10 @@
       "strike_at": "@stick"
      }
     ]
+   },
+   "bg_clip": {
+    "file": "b_c07_s34.mp4",
+    "show": 0.5
    }
   },
   {
@@ -567,6 +595,10 @@
       "chosen": true
      }
     ]
+   },
+   "bg_clip": {
+    "file": "b_c07_s36.mp4",
+    "show": 0.5
    }
   },
   {

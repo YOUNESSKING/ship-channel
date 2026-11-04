@@ -21,9 +21,14 @@ L += ["", "Mid-video reversal (c06 'Not all of the PCBs came out') starts at "
       f"{CH['chapters'][5]['start']:.0f} s = {100 * CH['chapters'][5]['start'] / CH['duration']:.1f} % (v1 script: ~67 %); the turn line "
       "'It looked like the perfect ending' is ~10 s earlier (64 %).", "",
      "## Screen-time mix per chapter (c02-c07, from the shot lists)", "", table, "",
-     "c01 (test v4 hook, 48.6 s): 24 % film, 36 % photos, 40 % maps/animation. Film is the majority only where honest film exists",
-     "(c03: Korea/Vietnam/1966 fire/burial NARA reels = 50 %). Every 2006 event exists only as Navy photos; 1976-2005 and the",
-     "PCB/fish story have no footage, so they are maps, cards and kit animations. No wrong-era film is used to raise the number.", ""]
+     "c01 (test v4 hook, 48.6 s): 24 % film, 36 % photos, 40 % maps/animation. Real Oriskany film exists only for 1945-1969 (c03 = 50 %).",
+     "Step 2C added GENERIC US Government b-roll (DVIDS / NOAA Fisheries / NASA, public domain, footage/FOOTAGE_LIST.md section",
+     "'Generic US Government b-roll') where the narration is general: a dead carrier under tow, storms, fish testing, reef fish, divers.",
+     "It replaces stills, plays under cards (the card text becomes its lower-third / number layout over the film) and under some",
+     "animations (`bg_clip`, show 0.5). Every such segment carries a burned-in top-left tag 'ILLUSTRATIVE · AGENCY · WHAT, WHERE, YEAR'",
+     "for the whole shot: never presented as the Oriskany. Maps, hero scenes and animations that carry information were kept; only",
+     "four information-free scenes were dropped (m_c07_storm, m_c07_reefpin, h_c06_lines_a, h_c06_lines_e). 2006 events keep the",
+     "real 2006 Navy photos (c05): no generic film replaces a real event picture.", ""]
 by = collections.defaultdict(list)
 for s in S: by[s["kind"]].append(s)
 tot = {k: sum(EST[k] for _ in v) for k, v in by.items()}
@@ -38,9 +43,9 @@ L += [f"Chapter renders (build_chapter.py + HyperFrames): ~{chap_min:.0f} min se
       f"**Serial total ≈ {(sum(tot.values()) / 60 + chap_min + 10) / 60:.1f} h. With 3 parallel workers ≈ {((sum(tot.values()) / 60) / 3 + chap_min / 3 + 15) / 60:.1f} h** "
       "(4 CPU: run at most 3 HyperFrames renders at once).", "",
       "## Parallel plan", "",
-      "1. **Worker A, maps** (48 scenes): bake the sea-floor tiles once (Gulf, Pacific, North Pacific/Japan, Korea, Gulf of Tonkin, New York, US South-East, South America for the Cape Horn tow), then write the scene JS per row below (copy `test_v4/mk/scenes-src/*.js` patterns; labels >= 38 px; timings from `t0_abs` + the narration words in `build/words.json`).",
-      "2. **Worker B, heroes** (33 scenes): kit/ship scenes per row below. Families: c02 ledger/sisters/tally, c04 deck cutaway (a, a2, b, c), c05 sinking (a/b from kit/ship/sinking), c06 PCB gauge set (rounds, lines a-e, species, snapper, down a-d: one HTML scene with a `?beat=` parameter), c07 cross-sections (settle, funnel, depths a/b/d, apart, today) + tally callback.",
-      "3. **Worker C, film + photo segments** (84): `build/make_segments.py` (to write: loop over `segments.json`, kind film/photo, call archive_shots exactly as `test_v4/build/films.py` / `shots.py` do, ARCHIVE_GRADE=ship). Then run `python3 tools/film/check_clips.py segments/f_*.mp4 segments/p_*.mp4` and **eyeball a contact sheet of every film segment** (the film windows were found automatically: a soft dissolve can slip past the scene detector).",
+      f"1. **Worker A, maps** ({len(by['map'])} scenes): bake the sea-floor tiles once (Gulf, Pacific, North Pacific/Japan, Korea, Gulf of Tonkin, New York, US South-East, South America for the Cape Horn tow), then write the scene JS per row below (copy `test_v4/mk/scenes-src/*.js` patterns; labels >= 38 px; timings from `t0_abs` + the narration words in `build/words.json`).",
+      f"2. **Worker B, heroes** ({len(by['hero'])} scenes): kit/ship scenes per row below. Families: c02 ledger/sisters/tally, c04 deck cutaway (a, a2, b, c), c05 sinking (a/b from kit/ship/sinking), c06 PCB gauge set (rounds, lines b, c, d (a and e dropped in 2C), species, snapper, down a-d: one HTML scene with a `?beat=` parameter), c07 cross-sections (settle, funnel, depths a/b/d, apart, today) + tally callback.",
+      f"3. **Worker C, film + photo segments** ({len(by['film']) + len(by['photo'])}): `build/make_segments.py` (DONE in step 2C: loops over `segments.json`, kind film/photo, archive_shots as `test_v4/build/films.py` / `shots.py`, ARCHIVE_GRADE=ship; generic b-roll gets its ILLUSTRATIVE tag). Then run `python3 tools/film/check_clips.py segments/f_*.mp4 segments/p_*.mp4` and **eyeball a contact sheet of every film segment** (the film windows were found automatically: a soft dissolve can slip past the scene detector).",
       "4. **Step 3 (after A-C)**: render chapters c02-c07 (c01 already exists = test v4 chapter render, re-render only if its duration must change: it now ends at 48.6 s instead of 50.2 s), each `node templates/check_safe_text.js` (all PASS in step 1 on the plain build), concat c01-c07, one full mix (below), `tools/film/make_paperwork.py`, two critics.", "",
       "Chapters c02/c04/c06 depend mostly on maps + heroes; c03 on film; c05 on photos + hero; c07 on all three. Render each chapter as soon as its segments exist.", "",
       "## Sound (step 3)", "",
@@ -54,7 +59,8 @@ L += [f"Chapter renders (build_chapter.py + HyperFrames): ~{chap_min:.0f} min se
 for s in S:
     if s.get("fallback"): L.append(f"| {s['file']} | {s['photo']} | {s['fallback']} |")
 L += ["", "- Also worth downloading (FOOTAGE_LIST): NHHC 'USN 1121683/1121718/1121685' fire photos (c03 fire section could swap a film shot for a still), NH 97408 (1950 off New York, c03 'rushed her to completion' could use it instead of 7578420).",
-      "- Rights to confirm before render: the four 'CIV' 2006 stills above (DoD civilian staff photographers are usually federal works, but the NARA record must say so).", "",
+      "- More honest moving video the owner can fetch (cloud blocks or none found): see footage/FOOTAGE_LIST.md 'Generic US Government b-roll' and the step 2C report (MARAD / NAVSEA ship recycling at Brownsville, a 2006 Navy video of the sinking if one exists on DVIDS/NARA).",
+      "- Rights to confirm before render: the 'CIV' 2006 stills above (DoD civilian staff photographers are usually federal works, but the NARA record must say so).", "",
       "## Map scenes", "", "| file | chapter time (abs s) | dur | shows | narration |", "|---|---|---|---|---|"]
 for s in by["map"]:
     L.append(f"| {s['file']} | {s['t0_abs']:.2f} | {s['dur']} | {s['shows']} | {s['narration'][:110]} |")
@@ -62,9 +68,10 @@ L += ["", "## Hero scenes", "", "| file | t0 (abs s) | dur | shows | narration |
 for s in by["hero"]:
     L.append(f"| {s['file']} | {s['t0_abs']:.2f} | {s['dur']} | {s['shows']} | {s['narration'][:110]} |")
 L += ["", "## Film segments (real NARA film; reel seconds inside one vetted continuous shot)", "",
-      "| file | clip (footage list) | NARA reel | reel in (s) | dur | baked label |", "|---|---|---|---|---|---|"]
+      "Built by `build/make_segments.py` (ARCHIVE_GRADE=ship; resumable). `f_` = full-frame shot, `b_` = film under a card or animation.", "",
+      "| file | clip (footage list) | source reel | reel in (s) | dur | baked label / ILLUSTRATIVE tag |", "|---|---|---|---|---|---|"]
 for s in by["film"]:
-    L.append(f"| {s['file']} | {s['clip']} | {s['reel']} | {s['reel_in']} | {s['dur']} | {s.get('label') or ''} |")
+    L.append(f"| {s['file']} | {s['clip']} | {s['reel']} | {s['reel_in']} | {s['dur']} | {s.get('label') or s.get('tag') or ''} |")
 L += ["", "## Photo segments", "", "| file | photo | dur | move | baked label |", "|---|---|---|---|---|"]
 for s in by["photo"]:
     L.append(f"| {s['file']} | {s['photo']} | {s['dur']} | {s['move']} | {s.get('label') or ''} |")

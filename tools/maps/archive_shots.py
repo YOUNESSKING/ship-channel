@@ -159,9 +159,10 @@ def photo_shot(sh, dur, out, W, H, enc):
     p.stdin.close(); p.wait()
 
 
-def film_crop(path):
-    """content box of a clip (drops the black pillar/letterbox bars the clips were padded with)"""
-    r = subprocess.run(["ffmpeg", "-ss", "1", "-t", "2", "-i", path, "-vf", "cropdetect=24:2:0", "-f", "null", "-"], capture_output=True, text=True).stderr
+def film_crop(path, ss=1.0):
+    """content box of a clip (drops the black pillar/letterbox bars the clips were padded with). Sampled at the shot's own in-point
+    (a full NARA reel can start with a small title card / leader, which would give a wrong, tiny crop)."""
+    r = subprocess.run(["ffmpeg", "-ss", f"{max(0.0, ss):.2f}", "-t", "2", "-i", path, "-vf", "cropdetect=24:2:0", "-f", "null", "-"], capture_output=True, text=True).stderr
     m = [l.split("crop=")[1].split()[0] for l in r.splitlines() if "crop=" in l]
     return m[-1] if m else None
 
@@ -208,8 +209,8 @@ def film_shot(sh, dur, out, W, H, enc):
             from restore_film import restore
             os.makedirs("build/frontlines", exist_ok=True); restore(sh["film"], rp, tint=bool(sh.get("tint")))
         sh = dict(sh, film=rp)
-    c = film_crop(sh["film"])
     ss = float(sh.get("ss", 0))
+    c = sh.get("crop") or film_crop(sh["film"], max(1.0, ss))   # "crop": fixed content box (a reel with its own baked-in pillarbox)
     if not sh.get("allow_cuts"):   # never let an internal film cut (or dissolve) into a shot: it reads as a ghosting glitch
         ss2, avail = cut_free_window(sh["film"], ss, dur, c)
         if (ss2, avail) != (ss, dur):
@@ -224,13 +225,13 @@ def film_shot(sh, dur, out, W, H, enc):
     if fit == "pillar":
         # clean pillarbox: the sharp picture (content crop, no black bars) centred at full height on a blurred, darkened copy of the
         # SAME crop scaled to cover. Both layers come from one split of one crop -> no offset, no edge seam; even sizes only.
-        fc = (f"[0:v]{'crop=' + c + ',' if c else ''}setsar=1,split[a][b];"
+        fc = (f"[0:v]{'crop=' + c + ',' if c else ''}scale='trunc(iw*sar/2)*2':ih,setsar=1,split[a][b];"
               f"[b]scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},gblur=sigma=38,eq=brightness=-0.22:saturation=0.6[bg];"
               f"[a]scale=-2:{H}[fg];[bg][fg]overlay=(W-w)/2:0" + (f",{g}" if g else "") + f",tpad=stop_mode=clone:stop_duration={dur:.2f}[v]")
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{ss:.2f}", "-t", f"{use:.3f}", "-i", sh["film"], "-filter_complex", fc, "-map", "[v]",
                         "-t", f"{dur:.3f}", *enc, tmp], check=True)
     else:
-        vf = ([f"crop={c}"] if c else []) + [f"scale={W}:{H}:force_original_aspect_ratio=increase", f"crop={W}:{H}"] + ([g] if g else []) + [
+        vf = ([f"crop={c}"] if c else []) + ["scale='trunc(iw*sar/2)*2':ih", "setsar=1", f"scale={W}:{H}:force_original_aspect_ratio=increase", f"crop={W}:{H}"] + ([g] if g else []) + [
               f"tpad=stop_mode=clone:stop_duration={dur:.2f}"]
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{ss:.2f}", "-t", f"{use:.3f}", "-i", sh["film"], "-vf", ",".join(vf),
                         "-t", f"{dur:.3f}", *enc, tmp], check=True)

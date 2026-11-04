@@ -71,6 +71,7 @@ def normalise_filter(st, strength=0.75):
     mono = st["sat"] < 0.085
     b, w = min(st["black"], 0.25), max(st["white"], st["black"] + 0.3)
     if (WHITE - BLACK) / (w - b) > 1.2: w = b + (WHITE - BLACK) / 1.2       # never stretch a flat source more than 1.2x (blown skies)
+    w = min(w, 1.0)   # colorlevels rejects > 1 (flat, bright film windows)
     lv = (f"colorlevels=rimin={b:.3f}:gimin={b:.3f}:bimin={b:.3f}:rimax={w:.3f}:gimax={w:.3f}:bimax={w:.3f}"
           f":romin={BLACK}:gomin={BLACK}:bomin={BLACK}:romax={WHITE}:gomax={WHITE}:bomax={WHITE}")
     if mono:   # B&W film / sepia print: neutral grey, no tint

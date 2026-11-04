@@ -32,7 +32,7 @@
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c04_s02.mp4",
+    "file": "f_c04_s02.mp4",
     "push": null
    },
    "params": {}
@@ -367,7 +367,7 @@
    "template": "number_clip",
    "variant": "right",
    "clip": {
-    "file": "p_c04_s24.mp4",
+    "file": "f_c04_s24.mp4",
     "push": null
    },
    "params": {

@@ -1,0 +1,110 @@
+segments/f_c02_s01.mp4: BLOB    0.00-  3.07s  dark blob up to 42% of the frame
+segments/f_c02_s04.mp4: OK
+segments/f_c02_s05.mp4: OK
+segments/f_c02_s35.mp4: BLOB    0.00-  4.43s  dark blob up to 74% of the frame
+segments/f_c03_s02.mp4: BLOB    0.00-  1.73s  dark blob up to 43% of the frame
+segments/f_c03_s02.mp4: BLOB    2.07-  2.37s  dark blob up to 37% of the frame
+segments/f_c03_s02.mp4: BLOB    2.97-  3.40s  dark blob up to 37% of the frame
+segments/f_c03_s02.mp4: BLOB    3.43-  4.20s  dark blob up to 35% of the frame
+segments/f_c03_s04.mp4: BLOB    0.00-  4.97s  dark blob up to 70% of the frame
+segments/f_c03_s09.mp4: OK
+segments/f_c03_s11.mp4: OK
+segments/f_c03_s16.mp4: OK
+segments/f_c03_s18.mp4: OK
+segments/f_c03_s19.mp4: BLOB    0.00-  0.30s  dark blob up to 28% of the frame
+segments/f_c03_s21.mp4: BLOB    0.00-  3.77s  dark blob up to 39% of the frame
+segments/f_c03_s22.mp4: OK
+segments/f_c03_s25.mp4: BLOB    0.00-  3.10s  dark blob up to 43% of the frame
+segments/f_c03_s27.mp4: OK
+segments/f_c03_s29.mp4: BLOB    0.00-  4.00s  dark blob up to 87% of the frame
+segments/f_c03_s30.mp4: BLOB    0.37-  0.63s  dark blob up to 35% of the frame
+segments/f_c03_s30.mp4: BLOB    0.70-  3.23s  dark blob up to 38% of the frame
+segments/f_c03_s31.mp4: OK
+segments/f_c03_s32.mp4: OK
+segments/f_c03_s33.mp4: OK
+segments/f_c03_s34.mp4: OK
+segments/f_c03_s35.mp4: OK
+segments/f_c03_s36.mp4: OK
+segments/f_c03_s37.mp4: BLOB    0.00-  2.67s  dark blob up to 28% of the frame
+segments/f_c03_s38.mp4: OK
+segments/f_c03_s39.mp4: OK
+segments/f_c03_s40.mp4: BLOB    0.00-  3.03s  dark blob up to 38% of the frame
+segments/f_c03_s41.mp4: OK
+segments/f_c03_s43.mp4: OK
+segments/f_c03_s44.mp4: BLOB    2.87-  3.60s  dark blob up to 38% of the frame
+segments/f_c03_s46.mp4: BLOB    3.53-  3.87s  dark blob up to 27% of the frame
+segments/f_c03_s50.mp4: BLOB    0.00-  4.77s  dark blob up to 59% of the frame
+segments/f_c03_s51.mp4: OK
+segments/f_c04_s02.mp4: OK
+segments/f_c04_s24.mp4: BLOB    0.00-  3.77s  dark blob up to 57% of the frame
+segments/f_c06_s14.mp4: OK
+segments/f_c06_s18.mp4: OK
+segments/f_c07_s03.mp4: BLOB    0.00-  0.63s  dark blob up to 30% of the frame
+segments/f_c07_s21.mp4: OK
+segments/f_c07_s24.mp4: BLOB    0.00-  0.23s  dark blob up to 28% of the frame
+segments/f_c07_s24.mp4: BLOB    1.30-  2.00s  dark blob up to 30% of the frame
+segments/f_c07_s39.mp4: BLOB    0.00-  2.87s  dark blob up to 42% of the frame
+segments/f_c07_s40.mp4: BLOB    1.83-  4.67s  dark blob up to 29% of the frame
+segments/f_c07_s45.mp4: OK
+segments/f_c07_s48.mp4: OK
+segments/b_c02_s08.mp4: OK
+segments/b_c02_s14.mp4: OK
+segments/b_c02_s16.mp4: OK
+segments/b_c02_s23.mp4: OK
+segments/b_c02_s27.mp4: OK
+segments/b_c02_s28.mp4: OK
+segments/b_c06_s13.mp4: OK
+segments/b_c06_s21.mp4: OK
+segments/b_c06_s29.mp4: BLOB    1.27-  1.63s  dark blob up to 26% of the frame
+segments/b_c06_s29.mp4: BLOB    3.07-  4.57s  dark blob up to 42% of the frame
+segments/b_c07_s11.mp4: BLOB    0.00-  4.07s  dark blob up to 72% of the frame
+segments/b_c07_s13.mp4: OK
+segments/b_c07_s14.mp4: BLOB    0.50-  1.60s  dark blob up to 32% of the frame
+segments/b_c07_s14.mp4: BLOB    3.00-  4.63s  dark blob up to 38% of the frame
+segments/b_c07_s26.mp4: OK
+segments/b_c07_s28.mp4: OK
+segments/b_c07_s30.mp4: OK
+segments/b_c07_s34.mp4: OK
+segments/b_c07_s36.mp4: BLOB    0.00-  3.43s  dark blob up to 42% of the frame
+segments/p_c02_s03.mp4: OK
+segments/p_c02_s06.mp4: OK
+segments/p_c02_s07.mp4: OK
+segments/p_c02_s13.mp4: OK
+segments/p_c02_s33.mp4: OK
+segments/p_c02_s34.mp4: OK
+segments/p_c03_s07.mp4: OK
+segments/p_c03_s08.mp4: OK
+segments/p_c03_s13.mp4: OK
+segments/p_c03_s14.mp4: BLOB    0.00-  4.47s  dark blob up to 34% of the frame
+segments/p_c03_s52.mp4: OK
+segments/p_c04_s03.mp4: OK
+segments/p_c04_s07.mp4: OK
+segments/p_c04_s26.mp4: OK
+segments/p_c05_s02.mp4: OK
+segments/p_c05_s03.mp4: OK
+segments/p_c05_s04.mp4: BLOB    0.00-  4.53s  dark blob up to 51% of the frame
+segments/p_c05_s05.mp4: OK
+segments/p_c05_s06.mp4: BLOB    0.00-  3.70s  dark blob up to 40% of the frame
+segments/p_c05_s07.mp4: OK
+segments/p_c05_s09.mp4: BLOB    0.40-  4.17s  dark blob up to 37% of the frame
+segments/p_c05_s11.mp4: BLOB    2.93-  3.67s  dark blob up to 25% of the frame
+segments/p_c05_s13.mp4: OK
+segments/p_c05_s14.mp4: OK
+segments/p_c05_s15.mp4: OK
+segments/p_c05_s16.mp4: OK
+segments/p_c05_s17.mp4: BLOB    0.00-  0.70s  dark blob up to 37% of the frame
+segments/p_c05_s20.mp4: OK
+segments/p_c05_s21.mp4: OK
+segments/p_c05_s23.mp4: BLOB    1.80-  2.37s  dark blob up to 27% of the frame
+segments/p_c05_s24.mp4: OK
+segments/p_c06_s02.mp4: OK
+segments/p_c06_s04.mp4: OK
+segments/p_c06_s08.mp4: OK
+segments/p_c06_s09.mp4: OK
+segments/p_c07_s23.mp4: OK
+segments/p_c07_s29.mp4: OK
+segments/p_c07_s33.mp4: OK
+segments/p_c07_s42.mp4: OK
+segments/p_c07_s46.mp4: BLOB    0.00-  5.77s  dark blob up to 34% of the frame
+segments/p_c07_s49.mp4: BLOB    0.00-  1.60s  dark blob up to 39% of the frame
+segments/p_c07_s49.mp4: BLOB    1.63-  2.90s  dark blob up to 36% of the frame

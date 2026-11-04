@@ -56,7 +56,7 @@
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c02_s04.mp4",
+    "file": "f_c02_s04.mp4",
     "push": null
    },
    "params": {}
@@ -68,7 +68,7 @@
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c02_s05.mp4",
+    "file": "f_c02_s05.mp4",
     "push": null
    },
    "params": {}
@@ -123,6 +123,10 @@
       "at": "@scrapyard"
      }
     ]
+   },
+   "bg_clip": {
+    "file": "b_c02_s08.mp4",
+    "show": 0.5
    }
   },
   {
@@ -210,6 +214,10 @@
       "at": 0.05
      }
     ]
+   },
+   "bg_clip": {
+    "file": "b_c02_s14.mp4",
+    "show": 0.5
    }
   },
   {
@@ -235,6 +243,10 @@
     "text": "SOLD FOR SCRAP",
     "kicker": "EARLY 1990s",
     "at": "@scrap"
+   },
+   "clip": {
+    "file": "b_c02_s16.mp4",
+    "push": null
    }
   },
   {
@@ -322,6 +334,10 @@
     "kicker": "THE CONDITION",
     "text": "SCRAP HER IN THE U.S.",
     "at": "@united"
+   },
+   "clip": {
+    "file": "b_c02_s23.mp4",
+    "push": null
    }
   },
   {
@@ -372,6 +388,10 @@
     "kicker": "1997",
     "text": "ALMOST NOTHING CUT",
     "at": "@almost"
+   },
+   "clip": {
+    "file": "b_c02_s27.mp4",
+    "push": null
    }
   },
   {
@@ -384,6 +404,10 @@
    "params": {
     "text": "DEFAULTED.",
     "at": "@default"
+   },
+   "clip": {
+    "file": "b_c02_s28.mp4",
+    "push": null
    }
   },
   {
