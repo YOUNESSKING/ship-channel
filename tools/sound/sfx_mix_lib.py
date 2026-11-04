@@ -29,6 +29,10 @@ D = os.path.join(ROOT, "assets", "sfx", "epidemic")
 PEAK_NORM_DB = -3.0     # battle-maps kit convention (every locked kit file peaks at -3 dBFS)
 BED_RMS_DB = -20.0      # beds: RMS-normalised, then their role level
 TAIL_DEFAULT = 0.12
+# Big beats (blasts, impacts, key booms) go to their own "punch" stem that the voice does NOT duck, so they read
+# momentarily louder than speech (target: momentary max >= +3 LU over speech). Every other cue stays on the SFX stem,
+# ducked lightly under the voice (STYLE_LOCK 5). A cue can opt out with "punch": False.
+PUNCH_ROLES = ("explosion", "impact", "boom")
 
 # kind: (default files, level dB, min gap s, sync type)
 # Levels: battle-maps STYLE_LOCK section 3 (explosion -4, impact -7, hit -8, jet -11, whoosh -12, tick -20) and the
@@ -39,8 +43,8 @@ KINDS = {
     "explosion": (["charges_c__f6f10ea4.wav", "charges_a__955e7371.wav", "charges_b__0ecb5c38.wav"], -4, 0.20, "peak"),
     "impact":    (["splash_a__1d6949d6.wav", "charges_b__0ecb5c38.wav", "splash_b__3ba7bd2a.wav"], -7, 0.25, "peak"),
     "hit":       (["boom_a__2f0a40ab.wav"], -8, 0.50, "peak"),
-    "boom":      (["boom_a__2f0a40ab.wav", "boom_b__240e5b47.wav"], -11, 0.50, "peak"),
-    "pop":       (["pop_b__844f57e0.wav", "pop_a__9da883ac.wav"], -20, 0.12, "peak"),
+    "boom":      (["boom_a__2f0a40ab.wav"], -11, 0.50, "peak"),
+    "pop":       (["pop_b__844f57e0.wav"], -20, 0.12, "peak"),
     "whoosh":    (["whoosh_a__689b1489.wav", "whoosh_b__8d9712d2.wav"], -12, 0.50, "onset"),
     "riser":     (["riser_a__fd98cb0b.wav", "riser_b__dbd5c65b.wav"], -17, 2.0, "peak"),
     "jet":       (["jet_a__9fc48bf0.wav", "jet_b__da6a1527.wav", "jet_c__d47bee57.wav"], -11, 1.2, "peak"),
@@ -127,14 +131,15 @@ def shot_table(chapter, words):
     return out
 
 
-def render(cues, shots, total, out, beds=(), beds_out=None, check=True, seed=7):
-    """cues -> stereo SFX stem; beds -> stereo bed stem. Returns (placed, placed_beds)."""
+def render(cues, shots, total, out, beds=(), beds_out=None, check=True, seed=7, punch_out=None):
+    """cues -> stereo SFX stem (+ the unducked punch stem when punch_out is given); beds -> stereo bed stem.
+    Returns (placed, placed_beds)."""
     if check:
         import check_sound_lock
         check_sound_lock.check(KINDS, BEDS)
     S = {sid: (a, b) for sid, a, b in shots}
     rng = np.random.default_rng(seed)
-    buf = np.zeros((int((total + 2) * SR), 2), "float32")
+    buf = np.zeros((int((total + 2) * SR), 2), "float32"); pbuf = np.zeros_like(buf)
     last, placed, used = {}, [], {}
     for c in sorted(cues, key=lambda c: S[c["shot"]][0] + c["at"]):
         kind = c["role"]; files, db, gap, stype = KINDS[kind]
@@ -157,24 +162,28 @@ def render(cues, shots, total, out, beds=(), beds_out=None, check=True, seed=7):
         seg = reg[: int(L * SR)].copy()
         fi = min(int(0.005 * SR), len(seg) // 4) if stype == "peak" else min(int(0.02 * SR), len(seg) // 4)
         fo = min(int(0.25 * SR), int(len(seg) * 0.35))
+        if stype == "peak":   # the fade-out never touches the sync point (a riser ends ON its peak)
+            fo = max(int(0.01 * SR), min(fo, len(seg) - int((rel + 0.04) * SR)))
         if fi: seg[:fi] *= np.linspace(0, 1, fi)[:, None]
         if fo: seg[-fo:] *= np.linspace(1, 0, fo)[:, None]
         pk = np.abs(seg).max() or 1.0
         seg *= 10 ** (PEAK_NORM_DB / 20) / pk
         lev = db + rng.uniform(-1.0, 0.5)        # small level jitter (battle-maps keeps one, narrower here)
         seg *= 10 ** (lev / 20)
+        punch = bool(punch_out) and c.get("punch", kind in PUNCH_ROLES)
         i = int(round(start * SR)); n = min(len(seg), len(buf) - i)
-        buf[i:i + n] += seg[:n]
+        (pbuf if punch else buf)[i:i + n] += seg[:n]
         meas = start + sync_point(seg, stype)
         placed.append({"event": round(event, 3), "shot": c["shot"], "at": c["at"], "role": kind, "file": f,
                        "src": round(src, 3), "start": round(start, 3), "end": round(start + L, 3),
-                       "end_allowed": round(end_allowed, 3), "level_db": round(lev, 1), "sync": stype,
+                       "end_allowed": round(end_allowed, 3), "level_db": round(lev, 1), "sync": stype, "punch": punch,
                        "measured": round(meas, 3), "offset_frames": round((meas - event) * FPS, 2),
                        "note": c.get("note", "")})
-    pk = np.abs(buf).max()
+    pk = np.abs(buf + pbuf).max()
     if pk > 0.89:
         raise SystemExit(f"SFX stem peaks at {20*np.log10(pk):.1f} dBFS: too many stacked cues (> -1 dBFS); thin them out")
     sf.write(out, buf[: int(total * SR)], SR, subtype="FLOAT")
+    if punch_out: sf.write(punch_out, pbuf[: int(total * SR)], SR, subtype="FLOAT")
     pb = []
     if beds_out:
         bb = np.zeros_like(buf)

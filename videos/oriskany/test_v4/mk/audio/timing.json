@@ -1,41 +1,63 @@
 {
  "voice": "am_michael",
  "speed": 0.95,
- "duration": 53.6,
+ "duration": 50.2,
  "paragraphs": [
   {
    "section": "HOOK",
-   "tag": "MAP: dive | Gulf wide -> fast dive to the reef off Pensacola",
-   "start": 2.9,
-   "end": 4.55,
-   "text": "Off the coast of Florida,",
+   "tag": "MAP: dive | Gulf wide -> dive to the Oriskany wreck",
+   "start": 0.0,
+   "end": 4.3,
+   "text": "Right now, two hundred and twelve feet under the Gulf of Mexico,",
    "sents": [
     [
      0,
-     2.9,
-     4.55
+     0.35,
+     4.3
     ]
    ]
   },
   {
    "section": "HOOK",
    "tag": "ARCHIVE: x1",
-   "start": 5.1,
-   "end": 49.2,
+   "start": 4.3,
+   "end": 37.8,
+   "text": "",
+   "sents": []
+  },
+  {
+   "section": "HOOK",
+   "tag": "MAP: gulfpin | Gulf, Oriskany pin glowing",
+   "start": 37.8,
+   "end": 39.55,
+   "text": "And it matters right now.",
+   "sents": [
+    [
+     0,
+     37.84,
+     38.95
+    ]
+   ]
+  },
+  {
+   "section": "HOOK",
+   "tag": "ARCHIVE: x2",
+   "start": 39.55,
+   "end": 45.8,
    "text": "",
    "sents": []
   },
   {
    "section": "END",
-   "tag": "MAP: endmap | reef -> Destin, SS United States, same reason",
-   "start": 49.3,
-   "end": 53.43,
-   "text": "And this month, a second famous American ship is scheduled to go down off the same coast, for the very same reason.",
+   "tag": "MAP: endmap | Oriskany -> SS United States site, 13 nmi",
+   "start": 45.8,
+   "end": 50.2,
+   "text": "About thirteen nautical miles away.",
    "sents": [
     [
      0,
-     44.5,
-     53.43
+     45.9,
+     48.0
     ]
    ]
   }

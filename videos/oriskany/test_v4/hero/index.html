@@ -8,6 +8,7 @@
      Kit ShipSink (kit/ship/sinking) + a timed length ruler. Gauge lands on "feet" (narration 19.31 = scene 4.01). -->
 <script src="vendor/gsap.min.js"></script>
 <script src="ships.js"></script>
+<script src="carrier_hero.js"></script>
 <script src="sinking.js"></script>
 <style>
 @font-face { font-family: "Oswald"; font-weight: 500; src: url("fonts/oswald-latin-500-normal.woff2") format("woff2"); }
@@ -20,18 +21,18 @@ html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; backgro
 <body>
 <div id="root" data-composition-id="main" data-start="0" data-width="1920" data-height="1080">
   <div id="stage"></div>
-  <div id="ruler"></div>
+  
 </div>
 <script>
-  // v3: narration 17.50 -> 20.55 ("now sitting two hundred and twelve feet down"). The 900 FT card is on the film shot before.
-  const T0 = 17.50, DUR = 3.05, T_NOW = 17.59 - T0, T_FEET = 19.31 - T0;
+  // v4: narration 26.00 -> 32.70. "So why pay millions to put a carrier on the sea floor?" touchdown on "floor" (28.72 = scene 2.72);
+  // 3.60 -> 6.70 is the dimmed background for the KEEP HER? / SCRAP HER? options (cut in the chapter).
+  const T0 = 26.00, DUR = 6.70, T_FLOOR = 28.72 - T0;
   const S = ShipSink(document.getElementById("stage"), { ship: "carrier", depthFt: 212, duration: DUR, mode: "stern", pitch: 9,
-    charges: false, sinkStart: 0.04, landAt: (T_FEET - 0.05) / DUR, sonar: true, gaugeWorld: true, gaugeMax: 240 });
+    charges: false, sinkStart: 0.03, landAt: (T_FLOOR - 0.05) / DUR, sonar: true, markers: false, settleFt: 0 });
   document.getElementById("root").dataset.duration = DUR;
-  const tl = S.tl;
-  window.__timelines = window.__timelines || {}; window.__timelines["main"] = tl;
-  window.__sink = { duration: DUR, landT: S.landT, cues: S.cues };
-  tl.seek(0);
+  window.__timelines = window.__timelines || {}; window.__timelines["main"] = S.tl;
+  window.__sink = { duration: DUR, landT: S.landT, tUnder: S.tUnder, facts: S.facts, cues: S.cues };
+  S.tl.seek(0);
 </script>
 </body>
 </html>

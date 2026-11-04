@@ -6,9 +6,11 @@ videos/oriskany/test_v3/CRITIQUE_SOUND_ACCURACY.md). Every video uses this.
    limiter at -9 dBFS (VOICE_CEIL), padded to the video length, centred in stereo.
 2. MIX (locked section 5): music at MUSIC_VOL 0.08 (2 s in / 3 s out) ducked under the voice (sidechain 0.03 / 6 /
    20 / 400); SFX at FULL level ducked lightly (0.03 / 3 / 10 / 300); beds (projector, drone, waves, underwater)
-   ducked like the SFX. Music and beds high-passed at BED_HPF Hz, SFX at 35 Hz. amix (stereo), bus limiter 0.5,
+   ducked like the SFX; big beats (blasts, impacts, key booms) on an UNDUCKED punch stem so they read momentarily
+   louder than speech. Music and beds high-passed at BED_HPF Hz, SFX at 35 Hz. amix (stereo), bus limiter 0.5,
    0.6 s fade-out on the last 0.6 s (the video's fade).
-3. MASTER (2c-9): measure I, ONE linear gain + alimiter (MASTER_LIMIT, 0.84 first) to -14 LUFS, then the two-pass
+3. MASTER (2c-9): measure I, ONE linear gain + alimiter (MASTER_LIMITS, 0.84 first; run 4x oversampled so
+   inter-sample peaks are caught) to -14 LUFS, then the two-pass
    loudnorm I=-14 / TP=-1.5 / LRA=11 linear=true with the measured_* values. The build FAILS if loudnorm reports
    normalization_type != linear, if the predicted TP (input_tp + offset) is above -1.5, or if the encoded AAC 192k
    master is outside -14 +/- 0.5 LUFS or above -1.5 dBTP. The limiter is lowered in steps (0.84 -> 0.76) until the
@@ -17,7 +19,7 @@ Writes OUT.mp4 (video stream copied, stereo AAC 192k, audio = video length) and 
 sfx_bus,beds_bus}.wav + WORK/master.json (every number, for measure_mix.py / check_sound_lock.py).
 
 usage: python3 mix_clip.py --video V.mp4 --voice voice.wav --chunks chunks.json --sfx sfx.wav --music bed.wav
-                           [--beds beds.wav] --out OUT.mp4 --work DIR
+                           [--beds beds.wav] [--punch punch.wav] --out OUT.mp4 --work DIR
 """
 import argparse, json, os, re, subprocess, sys
 import numpy as np, soundfile as sf
@@ -67,8 +69,10 @@ def prep_voice(voice, chunks, out):
 def main():
     ap = argparse.ArgumentParser()
     for k in ("video", "voice", "chunks", "sfx", "music", "out", "work"): ap.add_argument("--" + k, required=True)
-    ap.add_argument("--beds")
+    ap.add_argument("--beds"); ap.add_argument("--punch")
     A = ap.parse_args(); W = A.work; os.makedirs(W, exist_ok=True)
+    global VOICE_LUFS, MUSIC_TRIM_DB   # calibration runs only (the defaults above are what the lock checks)
+    VOICE_LUFS = float(os.environ.get("CAL_VOICE_LUFS", VOICE_LUFS)); MUSIC_TRIM_DB = float(os.environ.get("CAL_MUSIC_TRIM_DB", MUSIC_TRIM_DB))
     total = float(subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=duration",
                                   "-of", "csv=p=0", A.video], capture_output=True, text=True).stdout)   # audio = video length
     vp = os.path.join(W, "voice_prep.wav"); prep_voice(A.voice, A.chunks, vp)
@@ -79,6 +83,8 @@ def main():
                    f"atrim=0:{total:.3f},pan=stereo|c0=c0|c1=c0")
     beds = A.beds or os.path.join(W, "_silence.wav")
     if not A.beds: sf.write(beds, np.zeros((int(total * SR), 2), "float32"), SR, subtype="FLOAT")
+    punch = A.punch or os.path.join(W, "_silence.wav")
+    if not A.punch and not os.path.exists(punch): sf.write(punch, np.zeros((int(total * SR), 2), "float32"), SR, subtype="FLOAT")
     mus_gain = MUSIC_VOL * 10 ** (MUSIC_TRIM_DB / 20)
     f = [f"[0:a]{voice_chain},asplit=5[vo][k1][k2][k3][vs]",
          f"[1:a]aresample=48000,aformat=channel_layouts=stereo,highpass=f=35,apad=whole_dur={total:.3f},atrim=0:{total:.3f}[sfxin]",
@@ -88,24 +94,29 @@ def main():
          "[mus][k2]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=400,asplit=2[musd][ms]",
          f"[3:a]aresample=48000,aformat=channel_layouts=stereo,highpass=f={BED_HPF},apad=whole_dur={total:.3f},atrim=0:{total:.3f}[bd]",
          "[bd][k3]sidechaincompress=threshold=0.03:ratio=3:attack=10:release=300,asplit=2[bedd][bs]",
-         f"[vo][musd][sfx][bedd]amix=inputs=4:normalize=0,alimiter=limit=0.5:level=false,afade=t=out:st={total - 0.6:.3f}:d=0.6,"
+         f"[4:a]aresample=48000,aformat=channel_layouts=stereo,highpass=f=35,apad=whole_dur={total:.3f},atrim=0:{total:.3f},asplit=2[pun][ps]",
+         f"[vo][musd][sfx][bedd][pun]amix=inputs=5:normalize=0,alimiter=limit=0.5:level=false,afade=t=out:st={total - 0.6:.3f}:d=0.6,"
          "aformat=channel_layouts=stereo[aout]"]
-    stems = {k: os.path.join(W, k + ".wav") for k in ("mix", "voice_bus", "music_bus", "sfx_bus", "beds_bus")}
-    run(["ffmpeg", "-v", "error", "-y", "-i", vp, "-i", A.sfx, "-i", A.music, "-i", beds, "-filter_complex", ";".join(f),
+    stems = {k: os.path.join(W, k + ".wav") for k in ("mix", "voice_bus", "music_bus", "sfx_bus", "beds_bus", "punch_bus")}
+    run(["ffmpeg", "-v", "error", "-y", "-i", vp, "-i", A.sfx, "-i", A.music, "-i", beds, "-i", punch, "-filter_complex", ";".join(f),
          "-map", "[aout]", "-c:a", "pcm_f32le", stems["mix"], "-map", "[vs]", "-c:a", "pcm_f32le", stems["voice_bus"],
          "-map", "[ms]", "-c:a", "pcm_f32le", stems["music_bus"], "-map", "[ss]", "-c:a", "pcm_f32le", stems["sfx_bus"],
-         "-map", "[bs]", "-c:a", "pcm_f32le", stems["beds_bus"]])
+         "-map", "[bs]", "-c:a", "pcm_f32le", stems["beds_bus"], "-map", "[ps]", "-c:a", "pcm_f32le", stems["punch_bus"]])
     I0 = ebur(stems["mix"])
     master = os.path.join(W, "master.wav"); rep = {"total": total, "voice_gain_db": round(vg, 2), "mix": I0, "tries": []}
     gain = TARGET_I - I0["I"]
     for lim in MASTER_LIMITS:
         for _ in range(3):   # gain + limiter -> measure -> one correction (the limiter takes a little loudness)
             run(["ffmpeg", "-v", "error", "-y", "-i", stems["mix"], "-af",
-                 f"volume={gain:.2f}dB,alimiter=limit={lim}:level=disabled,aresample=48000", "-c:a", "pcm_f32le", master])
+                 f"volume={gain:.2f}dB,aresample=192000,alimiter=limit={lim}:level=disabled,aresample=48000", "-c:a", "pcm_f32le", master])
             m1 = loudnorm_json(master, LN + ":print_format=json")
             if abs(float(m1["input_i"]) - TARGET_I) <= 0.2: break
             gain += TARGET_I - float(m1["input_i"])
         offset = TARGET_I - float(m1["input_i"]); pred_tp = float(m1["input_tp"]) + offset
+        if pred_tp > TARGET_TP:   # a linear loudnorm cannot reach -14 under -1.5 dBTP here: lower the ceiling
+            rep["tries"].append({"limit": lim, "gain_db": round(gain, 2), "loudnorm_pass1": m1,
+                                 "predicted_tp": round(pred_tp, 2), "skipped": "predicted TP > -1.5 (would go dynamic)"})
+            continue
         af = (f"{LN}:measured_I={m1['input_i']}:measured_TP={m1['input_tp']}:measured_LRA={m1['input_lra']}"
               f":measured_thresh={m1['input_thresh']}:offset={m1['target_offset']}:linear=true:print_format=json")
         m2 = loudnorm_json(master, af)
@@ -122,7 +133,7 @@ def main():
             break
     else:
         json.dump(rep, open(os.path.join(W, "master.json"), "w"), indent=1)
-        sys.exit(f"LOUDNESS FAIL: no limiter setting met -14 LUFS / TP <= -1.5 (last {fin})")
+        sys.exit(f"LOUDNESS FAIL: no limiter setting met -14 LUFS / TP <= -1.5 linearly (last try {rep['tries'][-1]})")
     p = json.loads(subprocess.run(["ffprobe", "-v", "error", "-show_entries", "stream=codec_type,channels,duration",
                                    "-of", "json", A.out], capture_output=True, text=True).stdout)["streams"]
     rep.update({"master_gain_db": round(gain, 2), "master_limit": lim, "normalization_type": m2["normalization_type"],
