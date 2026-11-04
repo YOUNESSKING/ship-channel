@@ -1,149 +1,442 @@
-[
- [
-  0.35,
-  "hit",
-  "number_land_1.wav",
-  -8.1,
-  "MAY 17, 2006 card lands (number_at w0)"
+{
+ "cues": [
+  {
+   "event": 0.35,
+   "shot": "s01",
+   "at": 0.35,
+   "role": "whoosh",
+   "file": "whoosh_a__689b1489.wav",
+   "src": 0.15,
+   "start": 0.11,
+   "end": 2.397,
+   "end_allowed": 4.42,
+   "level_db": -12.1,
+   "sync": "onset",
+   "punch": false,
+   "measured": 0.35,
+   "offset_frames": 0.0,
+   "note": "map dive starts moving (biggest move #1)"
+  },
+  {
+   "event": 2.223,
+   "shot": "s01",
+   "at": 2.223,
+   "role": "hit",
+   "file": "boom_a__2f0a40ab.wav",
+   "src": 0.0,
+   "start": 2.108,
+   "end": 3.308,
+   "end_allowed": 4.42,
+   "level_db": -7.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 2.223,
+   "offset_frames": 0.0,
+   "note": "212 FT card lands on 'feet'"
+  },
+  {
+   "event": 4.3,
+   "shot": "s02",
+   "at": 0.0,
+   "role": "explosion",
+   "file": "charges_c__f6f10ea4.wav",
+   "src": 1.76,
+   "start": 4.3,
+   "end": 5.445,
+   "end_allowed": 6.68,
+   "level_db": -3.8,
+   "sync": "peak",
+   "punch": true,
+   "measured": 4.325,
+   "offset_frames": 0.75,
+   "note": "WOW 1: blast photo cut + white flash + shake"
+  },
+  {
+   "event": 10.237,
+   "shot": "s05",
+   "at": 0.257,
+   "role": "boom",
+   "file": "boom_a__2f0a40ab.wav",
+   "src": 0.0,
+   "start": 10.122,
+   "end": 11.422,
+   "end_allowed": 11.62,
+   "level_db": -11.7,
+   "sync": "peak",
+   "punch": true,
+   "measured": 10.237,
+   "offset_frames": 0.0,
+   "note": "ON PURPOSE. lands on 'purpose'"
+  },
+  {
+   "event": 17.65,
+   "shot": "s09",
+   "at": 0.0,
+   "role": "explosion",
+   "file": "charges_a__955e7371.wav",
+   "src": 17.24,
+   "start": 17.65,
+   "end": 17.915,
+   "end_allowed": 18.23,
+   "level_db": -4.5,
+   "sync": "peak",
+   "punch": true,
+   "measured": 17.675,
+   "offset_frames": 0.75,
+   "note": "second blast photo + flash (smoke, in the voice gap)"
+  },
+  {
+   "event": 18.692,
+   "shot": "s10",
+   "at": 0.712,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 18.667,
+   "end": 18.917,
+   "end_allowed": 19.97,
+   "level_db": -19.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 18.692,
+   "offset_frames": 0.0,
+   "note": "37 lands (count ends on 'thirty-seven')"
+  },
+  {
+   "event": 19.85,
+   "shot": "s11",
+   "at": 0.0,
+   "role": "impact",
+   "file": "splash_a__1d6949d6.wav",
+   "src": 0.0,
+   "start": 19.85,
+   "end": 20.7,
+   "end_allowed": 20.7,
+   "level_db": -8.0,
+   "sync": "peak",
+   "punch": true,
+   "measured": 19.885,
+   "offset_frames": 1.05,
+   "note": "bow standing vertical: water closing over the hull"
+  },
+  {
+   "event": 19.9,
+   "shot": "s11",
+   "at": 0.05,
+   "role": "ship",
+   "file": "flood_a__db95b348.wav",
+   "src": 0.7,
+   "start": 19.9,
+   "end": 20.65,
+   "end_allowed": 20.65,
+   "level_db": -12.8,
+   "sync": "onset",
+   "punch": false,
+   "measured": 19.9,
+   "offset_frames": 0.0,
+   "note": "flood rush as the bow slips under (to the foam cut)"
+  },
+  {
+   "event": 20.55,
+   "shot": "s11b",
+   "at": 0.0,
+   "role": "ship",
+   "file": "bubbles_a__e58b390c.wav",
+   "src": 2.95,
+   "start": 20.55,
+   "end": 21.4,
+   "end_allowed": 21.4,
+   "level_db": -12.8,
+   "sync": "onset",
+   "punch": false,
+   "measured": 20.55,
+   "offset_frames": 0.0,
+   "note": "only foam left: air bursting out"
+  },
+  {
+   "event": 22.791,
+   "shot": "s12",
+   "at": 1.541,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 22.766,
+   "end": 23.016,
+   "end_allowed": 23.96,
+   "level_db": -20.3,
+   "sync": "peak",
+   "punch": false,
+   "measured": 22.791,
+   "offset_frames": 0.0,
+   "note": "3+ YEARS lands on 'three'"
+  },
+  {
+   "event": 26.25,
+   "shot": "s14",
+   "at": 0.25,
+   "role": "ship",
+   "file": "groan_a__7c63fd7c.wav",
+   "src": 7.55,
+   "start": 26.19,
+   "end": 28.59,
+   "end_allowed": 29.6,
+   "level_db": -13.5,
+   "sync": "onset",
+   "punch": false,
+   "measured": 26.25,
+   "offset_frames": 0.0,
+   "note": "drawn carrier going down: hull groan (until touchdown)"
+  },
+  {
+   "event": 28.7,
+   "shot": "s14",
+   "at": 2.7,
+   "role": "impact",
+   "file": "charges_b__0ecb5c38.wav",
+   "src": 17.45,
+   "start": 28.555,
+   "end": 29.555,
+   "end_allowed": 29.72,
+   "level_db": -7.6,
+   "sync": "peak",
+   "punch": true,
+   "measured": 28.7,
+   "offset_frames": 0.0,
+   "note": "hull touches the seabed on 'floor' (underwater thump)"
+  },
+  {
+   "event": 34.9,
+   "shot": "s17",
+   "at": 0.0,
+   "role": "riser",
+   "file": "riser_a__fd98cb0b.wav",
+   "src": 0.0,
+   "start": 32.705,
+   "end": 34.965,
+   "end_allowed": 37.92,
+   "level_db": -17.6,
+   "sync": "peak",
+   "punch": false,
+   "measured": 34.9,
+   "offset_frames": 0.0,
+   "note": "reverse riser INTO the x-ray reveal (peaks on the cut)"
+  },
+  {
+   "event": 39.55,
+   "shot": "s19",
+   "at": 0.0,
+   "role": "horn",
+   "file": "horn_a__463af07a.wav",
+   "src": 0.2,
+   "start": 39.55,
+   "end": 44.65,
+   "end_allowed": 44.65,
+   "level_db": -10.3,
+   "sync": "onset",
+   "punch": false,
+   "measured": 39.55,
+   "offset_frames": 0.0,
+   "note": "SS United States on screen: liner horn (signature sound)"
+  },
+  {
+   "event": 45.8,
+   "shot": "s21",
+   "at": 0.0,
+   "role": "whoosh",
+   "file": "whoosh_b__8d9712d2.wav",
+   "src": 0.2,
+   "start": 45.8,
+   "end": 48.86,
+   "end_allowed": 50.32,
+   "level_db": -12.2,
+   "sync": "onset",
+   "punch": false,
+   "measured": 45.81,
+   "offset_frames": 0.3,
+   "note": "end map pull-back (biggest move #2)"
+  }
  ],
- [
-  2.927,
-  "whoosh",
-  "dive_whoosh_2.wav",
-  -11.3,
-  "map dive from the Gulf to the reef (biggest move #1)"
+ "beds": [
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 0.0,
+   "end": 4.3,
+   "level_db": -30,
+   "note": "Gulf of Mexico: sea under the map dive"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 9.98,
+   "end": 21.25,
+   "level_db": -30,
+   "note": "foam / sea photos of the sinking day"
+  },
+  {
+   "role": "underwater",
+   "file": "underwater_a__127d88ce.wav",
+   "start": 26.0,
+   "end": 32.7,
+   "level_db": -30,
+   "note": "drawn sinking: underwater ambience"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 29.6,
+   "end": 39.55,
+   "level_db": -30,
+   "note": "the question block: low tension drone"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 45.8,
+   "end": 50.2,
+   "level_db": -30,
+   "note": "end map: sea"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 6.38,
+   "end": 9.98,
+   "level_db": -27,
+   "note": "projector loop under archive film"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 32.7,
+   "end": 34.9,
+   "level_db": -27,
+   "note": "projector loop under archive film"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 39.55,
+   "end": 45.8,
+   "level_db": -27,
+   "note": "projector loop under archive film"
+  }
  ],
- [
-  7.4,
-  "explosion",
-  "charges_seq_3.wav",
-  -3.7,
-  "photo of the charges going off: flash + shake frame"
- ],
- [
-  13.361,
-  "hit",
-  "number_land_2.wav",
-  -9.3,
-  "37 MINUTES count lands"
- ],
- [
-  13.8,
-  "impact",
-  "sink_whoomp_1.wav",
-  -8.1,
-  "bow-high photo: hull going under"
- ],
- [
-  14.1,
-  "ship",
-  "flood_rush_1.wav",
-  -12.4,
-  "flood rush as she slips under"
- ],
- [
-  15.658,
-  "hit",
-  "number_land_3.wav",
-  -10.0,
-  "ABOUT 900 FT card lands"
- ],
- [
-  17.65,
-  "ship",
-  "hull_groan_1.wav",
-  -12.5,
-  "hero: hull groan as the drawn carrier goes down"
- ],
- [
-  19.26,
-  "impact",
-  "sink_whoomp_2.wav",
-  -6.6,
-  "hero: hull touches the seabed (silt + shake)"
- ],
- [
-  19.306,
-  "hit",
-  "number_land_1.wav",
-  -8.6,
-  "depth gauge lands on 212 FT"
- ],
- [
-  21.0,
-  "jet",
-  "catapult_launch_1.wav",
-  -12.1,
-  "A-4 catapult launch passes the camera"
- ],
- [
-  24.512,
-  "slam",
-  "text_slam_1.wav",
-  -9.2,
-  "ON PURPOSE. slam (flash cut)"
- ],
- [
-  26.246,
-  "hit",
-  "number_land_2.wav",
-  -9.2,
-  "3 YEARS card lands"
- ],
- [
-  27.575,
-  "hit",
-  "number_land_3.wav",
-  -8.7,
-  "$20 MILLION card lands"
- ],
- [
-  40.15,
-  "tick",
-  "strike_scrape_1.wav",
-  -20.5,
-  "KEEP HER struck through"
- ],
- [
-  40.4,
-  "tick",
-  "strike_scrape_2.wav",
-  -20.3,
-  "SCRAP HER struck through"
- ],
- [
-  40.65,
-  "hit",
-  "number_land_1.wav",
-  -7.0,
-  "gold box lands on SINK HER"
- ],
- [
-  42.623,
-  "tick",
-  "sonar_ping_1.wav",
-  -19.6,
-  "x-ray: ??? glows inside the hull"
- ],
- [
-  45.017,
-  "ship",
-  "horn_distant_1.wav",
-  -13.1,
-  "SS United States on screen: liner horn (funnels smoking)"
- ],
- [
-  49.3,
-  "whoosh",
-  "dive_whoosh_3.wav",
-  -11.0,
-  "end map pull-back (biggest move #2)"
- ],
- [
-  51.318,
-  "hit",
-  "number_land_2.wav",
-  -9.4,
-  "THE SAME REASON stamp lands"
+ "shots": [
+  [
+   "s01",
+   0.0,
+   4.3
+  ],
+  [
+   "s02",
+   4.3,
+   6.38
+  ],
+  [
+   "s03",
+   6.38,
+   7.98
+  ],
+  [
+   "s04",
+   7.98,
+   9.98
+  ],
+  [
+   "s05",
+   9.98,
+   11.5
+  ],
+  [
+   "s06",
+   11.5,
+   13.75
+  ],
+  [
+   "s07",
+   13.75,
+   15.95
+  ],
+  [
+   "s08",
+   15.95,
+   17.65
+  ],
+  [
+   "s09",
+   17.65,
+   17.98
+  ],
+  [
+   "s10",
+   17.98,
+   19.85
+  ],
+  [
+   "s11",
+   19.85,
+   20.55
+  ],
+  [
+   "s11b",
+   20.55,
+   21.25
+  ],
+  [
+   "s12",
+   21.25,
+   23.84
+  ],
+  [
+   "s13",
+   23.84,
+   26.0
+  ],
+  [
+   "s14",
+   26.0,
+   29.6
+  ],
+  [
+   "s15",
+   29.6,
+   32.7
+  ],
+  [
+   "s16",
+   32.7,
+   34.9
+  ],
+  [
+   "s17",
+   34.9,
+   37.8
+  ],
+  [
+   "s18",
+   37.8,
+   39.55
+  ],
+  [
+   "s19",
+   39.55,
+   41.55
+  ],
+  [
+   "s20",
+   41.55,
+   44.65
+  ],
+  [
+   "s20b",
+   44.65,
+   45.8
+  ],
+  [
+   "s21",
+   45.8,
+   50.2
+  ]
  ]
-]
+}

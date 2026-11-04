@@ -28,7 +28,7 @@ html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; backgro
   // 3.60 -> 6.70 is the dimmed background for the KEEP HER? / SCRAP HER? options (cut in the chapter).
   const T0 = 26.00, DUR = 6.70, T_FLOOR = 28.72 - T0;
   const S = ShipSink(document.getElementById("stage"), { ship: "carrier", depthFt: 212, duration: DUR, mode: "stern", pitch: 9,
-    charges: false, sinkStart: 0.03, landAt: (T_FLOOR - 0.05) / DUR, sonar: true, markers: false, settleFt: 0 });
+    charges: false, sinkStart: 0.03, landAt: 0.522,   /* physics lands ~0.6 s before tL: tuned so the hull touches at scene 2.70 = "floor" */ sonar: true, markers: false, settleFt: 0 });
   document.getElementById("root").dataset.duration = DUR;
   window.__timelines = window.__timelines || {}; window.__timelines["main"] = S.tl;
   window.__sink = { duration: DUR, landT: S.landT, tUnder: S.tUnder, facts: S.facts, cues: S.cues };

@@ -1,10 +1,10 @@
 {
  "key": "c01",
- "title": "Oriskany test v3 (hook)",
+ "title": "Oriskany test v4 (HOOK_v1)",
  "words": "../build/words.json",
  "audio_offset": 0,
  "clips_dir": "../segments",
- "duration": 53.6,
+ "duration": 50.2,
  "fade_out": 0.6,
  "res": 1080,
  "anim_theme": {
@@ -13,116 +13,141 @@
  },
  "shots": [
   {
-   "id": "a01",
+   "id": "s01",
    "template": "number_clip",
-   "variant": "left_stack",
+   "variant": "right",
    "start": 0,
-   "clip": {
-    "file": "p01_helo.mp4",
-    "push": null
-   },
-   "params": {
-    "kicker": "FINAL CHECK \u00b7 GULF OF MEXICO",
-    "number": "MAY 17, 2006",
-    "number_at": "w0",
-    "size": 96,
-    "subline": "OFF PENSACOLA, FLORIDA",
-    "subline_at": "@two thousand"
-   },
-   "sfx": false
-  },
-  {
-   "id": "a02",
-   "template": "map_clip",
-   "variant": "baked",
-   "start": "w5",
    "clip": {
     "file": "dive.mp4",
     "push": null
    },
-   "params": {},
-   "sfx": false
-  },
-  {
-   "id": "a03",
-   "template": "clip_plain",
-   "variant": "push",
-   "start": "t4.60",
-   "clip": {
-    "file": "p03_detcord.mp4",
-    "push": null
+   "params": {
+    "number": "212",
+    "unit": "ft",
+    "number_at": "@feet"
    },
-   "params": {},
    "sfx": false
   },
   {
-   "id": "a03b",
+   "id": "s02",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t6.85",
-   "clip": {
-    "file": "p03b_plume.mp4",
-    "push": null
-   },
-   "params": {},
-   "sfx": false
-  },
-  {
-   "id": "a04",
-   "template": "clip_plain",
-   "variant": "push",
-   "start": "t7.40",
+   "start": "t4.30",
    "flash": true,
    "clip": {
-    "file": "p04_blast.mp4",
-    "push": null,
-    "jumps": [
-     {
-      "at": "@charges+0.1",
-      "scale": 1.12
-     }
-    ]
-   },
-   "params": {},
-   "sfx": false
-  },
-  {
-   "id": "v06",
-   "template": "lower_third",
-   "variant": "kicker_line",
-   "start": "t8.10",
-   "clip": {
-    "file": "f06_service.mp4",
-    "push": [
-     1.0,
-     1.05,
-     "50% 50%"
-    ]
-   },
-   "params": {
-    "kicker": "DECOMMISSIONED 1976",
-    "text": "USS Oriskany",
-    "at": "@retired"
-   },
-   "sfx": false
-  },
-  {
-   "id": "v07",
-   "template": "clip_plain",
-   "variant": "push",
-   "start": "t10.60",
-   "clip": {
-    "file": "f07_bow.mp4",
+    "file": "p02_blast.mp4",
     "push": null
    },
    "params": {},
    "sfx": false
   },
   {
-   "id": "a06",
+   "id": "s03",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t6.38",
+   "clip": {
+    "file": "f03_catapult.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "s04",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t7.98",
+   "clip": {
+    "file": "f04_island.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "s05",
+   "template": "number_clip",
+   "variant": "center_bars",
+   "start": "t9.98",
+   "clip": {
+    "file": "p05_foam.mp4",
+    "push": null
+   },
+   "params": {
+    "number": "ON PURPOSE.",
+    "number_at": "@purpose",
+    "size": 150,
+    "dim": "dk"
+   },
+   "sfx": false
+  },
+  {
+   "id": "s06",
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "start": "t11.50",
+   "clip": {
+    "file": "p06_detcord.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "MAY 2006",
+    "text": "NAVY EOD TEAM",
+    "at": "t11.95"
+   },
+   "sfx": false
+  },
+  {
+   "id": "s07",
    "template": "number_clip",
    "variant": "right",
-   "start": "w23",
+   "start": "t13.75",
+   "clip": {
+    "file": "p07_inside.mp4",
+    "push": null
+   },
+   "params": {
+    "number": "22",
+    "unit": "charges",
+    "number_at": "@twenty"
+   },
+   "sfx": false
+  },
+  {
+   "id": "s08",
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "start": "t15.95",
+   "clip": {
+    "file": "p08_helo.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "17 MAY 2006",
+    "text": "USS ORISKANY",
+    "at": "t16.70"
+   },
+   "sfx": false
+  },
+  {
+   "id": "s09",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t17.65",
+   "flash": true,
+   "clip": {
+    "file": "p09_smoke.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "s10",
+   "template": "number_clip",
+   "variant": "right",
+   "start": "t17.98",
    "clip": {
     "file": "m37_sequence.mp4",
     "push": null
@@ -130,321 +155,216 @@
    "params": {
     "number": "37",
     "unit": "minutes",
-    "number_at": "w23",
     "count": {
      "from": 0,
      "to": 37,
      "decimals": 0,
-     "dur": 1.15
-    },
-    "subline": "from the first charge",
-    "subline_at": "@later"
+     "dur": 0.55,
+     "land_at": "@seven+0.15",
+     "unit_mode": "hide"
+    }
    },
    "sfx": false
   },
   {
-   "id": "a07",
+   "id": "s11",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t13.80",
+   "start": "t19.85",
    "clip": {
-    "file": "p07_bowhigh.mp4",
+    "file": "p11_bow.mp4",
     "push": null
    },
    "params": {},
    "sfx": false
   },
   {
-   "id": "a08",
-   "template": "clip_plain",
-   "variant": "push",
-   "start": "t14.10",
-   "clip": {
-    "file": "p08_slip.mp4",
-    "push": null
-   },
-   "params": {},
-   "sfx": false
-  },
-  {
-   "id": "a08b",
-   "template": "clip_plain",
-   "variant": "push",
-   "start": "t14.70",
-   "clip": {
-    "file": "p08b_boil.mp4",
-    "push": null
-   },
-   "params": {},
-   "sfx": false
-  },
-  {
-   "id": "v10",
-   "template": "number_clip",
-   "variant": "right",
-   "start": "t15.30",
-   "clip": {
-    "file": "f10_aerial.mp4",
-    "push": [
-     1.0,
-     1.06,
-     "50% 50%"
-    ]
-   },
-   "params": {
-    "kicker": "USS Oriskany \u00b7 1969 \u00b7 about",
-    "number": "900",
-    "unit": "ft",
-    "number_at": "@nine"
-   },
-   "sfx": false
-  },
-  {
-   "id": "a09",
-   "template": "clip_plain",
-   "variant": "push",
-   "start": "t17.50",
-   "clip": {
-    "file": "hero.mp4",
-    "push": null
-   },
-   "params": {},
-   "sfx": false
-  },
-  {
-   "id": "v12",
+   "id": "s11b",
    "template": "clip_plain",
    "variant": "push",
    "start": "t20.55",
    "clip": {
-    "file": "f12_launch.mp4",
+    "file": "p11b_foam.mp4",
     "push": null
    },
    "params": {},
    "sfx": false
   },
   {
-   "id": "v13",
-   "template": "clip_plain",
-   "variant": "push",
-   "start": "t22.24",
-   "clip": {
-    "file": "f13_island.mp4",
-    "push": null
-   },
-   "params": {},
-   "sfx": false
-  },
-  {
-   "id": "a12",
-   "template": "number_clip",
-   "variant": "center_bars",
-   "start": "w53",
-   "flash": true,
-   "params": {
-    "number": "ON PURPOSE.",
-    "number_at": "@purpose",
-    "size": 150,
-    "dim": "dk"
-   },
-   "sfx": false,
-   "clip": {
-    "file": "p12_slam.mp4",
-    "push": null
-   }
-  },
-  {
-   "id": "a13",
+   "id": "s12",
    "template": "number_clip",
    "variant": "right",
-   "start": "w55",
+   "start": "t21.25",
    "clip": {
-    "file": "f15_anchor.mp4",
-    "push": [
-     1.0,
-     1.06,
-     "50% 50%"
-    ]
+    "file": "p12_cut.mp4",
+    "push": null
    },
    "params": {
-    "kicker": "Preparing her to sink",
-    "number": "3",
+    "number": "3+",
     "unit": "years",
     "number_at": "@three"
    },
    "sfx": false
   },
   {
-   "id": "a14",
+   "id": "s13",
    "template": "number_clip",
    "variant": "right",
-   "start": "t27.55",
+   "start": "t23.84",
    "clip": {
-    "file": "p14_weld.mp4",
+    "file": "p13_weld.mp4",
     "push": null
    },
    "params": {
     "kicker": "About",
     "number": "$20",
     "unit": "million",
-    "number_at": "@twenty",
-    "subline": "budgeted at under $3 million",
-    "subline_at": "@dollars"
+    "number_at": "@twenty"
    },
    "sfx": false
   },
   {
-   "id": "a15",
+   "id": "s14",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t29.40",
+   "start": "t26.00",
    "clip": {
-    "file": "p15_tow.mp4",
+    "file": "hero_a.mp4",
     "push": null
    },
    "params": {},
    "sfx": false
   },
   {
-   "id": "v18",
-   "template": "clip_plain",
-   "variant": "push",
-   "start": "w71",
-   "clip": {
-    "file": "f18_catapult.mp4",
-    "push": null
-   },
-   "params": {},
-   "sfx": false
-  },
-  {
-   "id": "v19",
-   "template": "clip_plain",
-   "variant": "push",
-   "start": "t33.80",
-   "clip": {
-    "file": "f19_aerial_launch.mp4",
-    "push": null
-   },
-   "params": {},
-   "sfx": false
-  },
-  {
-   "id": "a17",
+   "id": "s15",
    "template": "anim_options",
    "variant": "list",
-   "start": "t35.88",
+   "start": "t29.60",
    "params": {
-    "title": "What do you do with *a carrier?*",
-    "title_at": "t36.0",
+    "title": "Why *not?*",
+    "title_at": "@why",
     "numbered": false,
     "items": [
      {
-      "text": "Sink her",
-      "at": "@bottom",
-      "box_at": "t40.65"
+      "text": "Keep her?",
+      "at": "@keep"
      },
      {
-      "text": "Keep her",
-      "at": "@keeping",
-      "strike_at": "t40.15"
-     },
-     {
-      "text": "Scrap her",
-      "at": "@cutting",
-      "strike_at": "t40.4"
+      "text": "Scrap her?",
+      "at": "@scrap"
      }
     ]
    },
    "sfx": false,
    "bg_clip": {
-    "file": "f20_bg.mp4",
-    "show": 0.6
+    "file": "hero_b.mp4",
+    "show": 0.55
    }
   },
   {
-   "id": "v21",
+   "id": "s16",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t41.14",
+   "start": "t32.70",
    "clip": {
-    "file": "f21_deck.mp4",
-    "push": null
-   },
-   "params": {},
-   "sfx": false
-  },
-  {
-   "id": "a19",
-   "template": "anim_xray",
-   "variant": "animal",
-   "start": "w108",
-   "params": {
-    "image": "../assets/carrier_side.png",
-    "animal_w": 1060,
-    "organ": "dot",
-    "organ_pos": [
-     0.45,
-     0.35
-    ],
-    "organ_label": "???",
-    "organ_at": "@hidden",
-    "kicker": "Inside *Oriskany*",
-    "readouts": [
-     {
-      "text": "HIDDEN *inside*",
-      "at": "@inside"
-     }
+    "file": "f16_anchor.mp4",
+    "push": [
+     1.0,
+     1.05,
+     "50% 50%"
     ]
    },
-   "sfx": false
-  },
-  {
-   "id": "v23a",
-   "template": "clip_plain",
-   "variant": "push",
-   "start": "w111",
-   "clip": {
-    "file": "f23_ss1.mp4",
-    "push": null
-   },
    "params": {},
    "sfx": false
   },
   {
-   "id": "v23b",
-   "template": "clip_plain",
-   "variant": "push",
-   "start": "t46.86",
-   "clip": {
-    "file": "f23_ss2.mp4",
-    "push": null
+   "id": "s17",
+   "template": "anim_xray",
+   "variant": "animal",
+   "start": "t34.90",
+   "params": {
+    "image": "../assets/carrier_hero_side.png",
+    "animal_w": 1180,
+    "organ": "dot",
+    "organ_pos": [
+     0.47,
+     0.38
+    ],
+    "organ_label": "?",
+    "organ_at": "@inside",
+    "kicker": "Still *inside her*",
+    "kicker_at": "@still",
+    "first_frame": "full"
    },
-   "params": {},
    "sfx": false
   },
   {
-   "id": "v23c",
-   "template": "clip_plain",
-   "variant": "push",
-   "start": "t48.42",
-   "clip": {
-    "file": "f23_ss3.mp4",
-    "push": null
-   },
-   "params": {},
-   "sfx": false
-  },
-  {
-   "id": "a20",
+   "id": "s18",
    "template": "map_clip",
    "variant": "baked",
-   "start": "t49.30",
+   "start": "t37.80",
+   "clip": {
+    "file": "gulfpin.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "s19",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t39.55",
+   "clip": {
+    "file": "f19_stacks.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "s20",
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "start": "t41.55",
+   "clip": {
+    "file": "f20_bow.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "1968 FILM",
+    "text": "SS UNITED STATES",
+    "at": "@united"
+   },
+   "sfx": false
+  },
+  {
+   "id": "s20b",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t44.65",
+   "clip": {
+    "file": "f20b_side.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "s21",
+   "template": "number_clip",
+   "variant": "right",
+   "start": "t45.80",
    "clip": {
     "file": "endmap.mp4",
     "push": null
    },
-   "params": {},
+   "params": {
+    "number": "13",
+    "unit": "nautical miles",
+    "number_at": "@thirteen",
+    "side": "left"
+   },
    "sfx": false
   }
  ],
