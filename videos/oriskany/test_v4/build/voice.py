@@ -5,31 +5,38 @@ import json, os, re, numpy as np, soundfile as sf
 from kokoro_onnx import Kokoro
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.abspath(os.path.join(HERE, "../../../.."))
 VOICE, SPEED, LEAD = "am_michael", 0.95, 0.35
-CHUNKS = [  # (text, pause after)
- ("May seventeenth, two thousand six.", 0.35),
- ("Off the coast of Florida,", 0.12),
- ("Navy demolition divers set off explosive charges inside a retired American aircraft carrier.", 0.45),
- ("Thirty-seven minutes later,", 0.12),
- ("she was gone.", 0.55),
- ("About nine hundred feet of warship,", 0.15),
- ("now sitting two hundred and twelve feet down.", 0.5),
- ("No enemy sank her.", 0.35),
- ("The United States Navy did.", 0.3),
- ("On purpose.", 0.75),
- ("It took three years", 0.1),
- ("and about twenty million dollars", 0.1),
- ("just to get her ready to sink.", 0.55),
- ("So why would the Navy pay millions to send one of its own carriers to the bottom of the sea,", 0.15),
- ("instead of keeping her,", 0.15),
- ("or simply cutting her up for scrap?", 0.6),
- ("The answer starts with what was hidden inside her.", 0.6),
- ("And this month, a second famous American ship is scheduled to go down off the same coast,", 0.15),
- ("for the very same reason.", 1.4),
+CHUNKS = [  # (text, pause after, speed or None)  -- HOOK_v1.md, tags stripped
+ ("Right now, two hundred and twelve feet under the Gulf of Mexico,", 0.08, None),
+ ("lies an aircraft carrier.", 0.45, None),
+ ("No enemy sank her.", 0.3, None),
+ ("The United States Navy did.", 0.25, None),
+ ("On purpose.", 0.6, None),
+ ("Navy demolition divers set off twenty-two charges inside the USS Oriskany.", 0.55, None),
+ ("Thirty-seven minutes later,", 0.1, None),
+ ("she was gone.", 0.5, None),
+ ("Getting her ready to sink took over three years", 0.08, None),
+ ("and about twenty million dollars.", 0.5, None),
+ ("So why pay millions to put a carrier on the sea floor?", 0.35, 0.88),
+ ("Why not keep her?", 0.2, 0.88),
+ ("Why not scrap her?", 0.5, 0.88),
+ ("The answer is buried in her past.", 0.3, None),
+ ("And in what was still inside her when she sank.", 0.5, None),
+ ("And it matters right now.", 0.4, None),
+ ("On November twelfth, the ocean liner SS United States is scheduled to follow her down.", 0.2, None),
+ ("About thirteen nautical miles away.", 1.2, None),
 ]
+PHON_FIX = {"ˈɔːɹɪskəni": "ɔːɹˈɪskəni"}   # Oriskany: or-ISS-kuh-nee (tts/PRONUNCIATION.md)
 k = Kokoro(os.path.join(ROOT, "tts/kokoro-v1.0.onnx"), os.path.join(ROOT, "tts/voices-v1.0.bin"))
 sr = 24000; parts = [np.zeros(int(sr * LEAD), np.float32)]; t = LEAD; spans = []
-for text, gap in CHUNKS:
-    a, sr = k.create(text, voice=VOICE, speed=SPEED, lang="en-us"); a = a.astype(np.float32)
+for text, gap, spd in CHUNKS:
+    ph = k.tokenizer.phonemize(text, "en-us"); fixed = ph
+    for a_, b_ in PHON_FIX.items(): fixed = fixed.replace(a_, b_)
+    if fixed != ph:
+        print("phoneme fix:", ph, "->", fixed)
+        a, sr = k.create(fixed, voice=VOICE, speed=spd or SPEED, lang="en-us", is_phonemes=True)
+    else:
+        a, sr = k.create(text, voice=VOICE, speed=spd or SPEED, lang="en-us")
+    a = a.astype(np.float32)
     # trim Kokoro's leading/trailing near-silence so pauses are exactly ours
     nz = np.where(np.abs(a) > 0.01)[0]; a = a[max(0, nz[0] - 240): nz[-1] + 480]
     d = len(a) / sr; spans.append((text, t, t + d))

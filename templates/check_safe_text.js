@@ -31,10 +31,12 @@ const { chromium } = require("playwright"), fs = require("fs"), path = require("
         let op = 1, x = e, hidden = false;
         while (x && x !== document) { const cs = getComputedStyle(x); op *= +cs.opacity; if (cs.visibility === "hidden" || cs.display === "none") hidden = true; x = x.parentElement; }
         if (hidden || op < 0.1) continue;
-        const r = e.getBoundingClientRect(); if (!r.width || !r.height) continue;
+        const box = e.getBoundingClientRect(); if (!box.width || !box.height) continue;
+        const rg = document.createRange(); rg.selectNodeContents(e); const rt = rg.getBoundingClientRect();   // the TEXT's own box, not a wide container
+        const r = rt.width && rt.height ? rt : box;
         const cs = getComputedStyle(e), fsz = parseFloat(cs.fontSize);
         // rendered size: font-size times the accumulated scale (box height / layout height)
-        const scale = e.offsetHeight ? r.height / e.offsetHeight : (e.getBBox ? r.height / Math.max(1, e.getBBox().height) : 1);
+        const scale = e.offsetHeight ? box.height / e.offsetHeight : (e.getBBox ? box.height / Math.max(1, e.getBBox().height) : 1);
         const px = fsz * scale * (1080 / H), txt = e.textContent.trim().replace(/\s+/g, " ").slice(0, 40);
         const top = (r.top - rr.top) / H, bot = (r.bottom - rr.top) / H, right = (r.right - rr.left) / W, left = (r.left - rr.left) / W;
         if (bot <= 0 || top >= 1 || right <= 0 || left >= 1) continue;
