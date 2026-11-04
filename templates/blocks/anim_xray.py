@@ -11,10 +11,11 @@ META = dict(name='anim_xray', about='Gold X-ray mode: "human" = the stick figure
   params={'organ': 'heart | lungs | brain | gut | gland | dot (default heart)', 'organ_pos': 'animal: [fx, fy] = share of the length from the tail end, share of the height above the belly',
           'organ_size': 'organ radius px (default by variant)', 'organ_label': 'caps label next to the organ (e.g. "SALT GLANDS")', 'organ_at': 'when the organ lights up (default xray_at + 0.5)',
           'xray_at': 'human: when the normal figure turns into the X-ray (default 0.6; 0 = X-ray from the start)', 'who': 'human: the role before the switch (you | scientist | ...)',
-          'shape': 'animal: croc_gfx shape (default croc)', 'image': 'animal: optional image path drawn gold-tinted instead of the shape', 'animal_w': 'animal: length px (default 980)',
+          'shape': 'animal: croc_gfx shape (default croc)', 'image': 'animal: optional image path drawn gold-tinted instead of the shape', 'image_opacity': 'animal image opacity (default .42)', 'animal_w': 'animal: length px (default 980)',
           'bpm': 'heart beat rate (default 70; beats get the heart sound)', 'heart_sound': 'false = no heart sound', 'scan': 'false = no scan line',
           'readouts': '[{"text":"HEART RATE *40 bpm*","at":T}] labels with leader lines', 'kicker': 'caps title top left, *word* = italic', 'kicker_at': 'default 0.2',
-          'line': 'italic line at the bottom', 'line_at': 'when the line shows'})
+          'line': 'italic line at the bottom', 'line_at': 'when the line shows',
+          'hair': 'true = gold hairline under the kicker (default false)', 'first_frame': 'animal: "full" (default) = the X-ray body is on screen from frame 1 (no empty opening frame); "fade" = old fade-in'})
 
 ANIMAL_ORGANS = {'heart': (.40, .42), 'lungs': (.45, .58), 'brain': (.84, .78), 'gut': (.52, .32), 'gland': (.90, .45), 'dot': (.5, .5)}
 
@@ -32,13 +33,16 @@ def build(ctx):
         img = ctx.p('image')
         if img:
             src = ctx.asset(img); asp = img_aspect(ctx.B.resolve(img)); H = W * asp
-            body = (f'<g id="{p}-xb"><image href="{src}" x="{x0:.0f}" y="{gy - H:.0f}" width="{W:.0f}" height="{H:.0f}" opacity=".42" style="filter:sepia(1) saturate(1.6) brightness(1.15) hue-rotate(-8deg)"/></g>')
+            body = (f'<g id="{p}-xb"><image href="{src}" x="{x0:.0f}" y="{gy - H:.0f}" width="{W:.0f}" height="{H:.0f}" opacity="{ctx.p("image_opacity", .42)}" style="filter:sepia(1) saturate(1.6) brightness(1.15) hue-rotate(-8deg)"/></g>')
         else:
             H = SHAPES[sh][1] * W; body = xray_shape(p, sh, x0, gy, W)
         fx, fy = ctx.p('organ_pos') or ANIMAL_ORGANS.get(organ, (.5, .5))
         ox, oy = x0 + fx * W, gy - fy * H; orr = float(ctx.p('organ_size', max(18, H * .16)))
         top, bot, left, right = gy - H - 30, gy + 20, x0 - 20, x0 + W + 20
-    sc = Scene(ctx, push=(1.0, 1.07, f'{ox / 12.8:.0f}% {oy / 7.2:.0f}%')); sc.dust(36, 17)
+    # (ship test v3 fix) no empty opening frame: the animal / ship X-ray is fully on screen from the first frame (no scene fade-in);
+    # "first_frame": "fade" restores the old fade-in
+    full = v == 'animal' and ctx.p('first_frame', 'full') == 'full'
+    sc = Scene(ctx, push=(1.0, 1.07, f'{ox / 12.8:.0f}% {oy / 7.2:.0f}%'), fade=0 if full else .3); sc.dust(36, 17)
     # ---- before: plain figure, then the switch
     if v == 'human' and xat > a + .25:
         svgf, fxx, fyy, fs = person(f'{p}n', ctx.p('who', 'you'), hx, hy, s)
@@ -51,7 +55,8 @@ def build(ctx):
     scan = (f'<g id="{p}-scan" opacity="0"><rect x="{left:.0f}" y="{top - 60:.0f}" width="{right - left:.0f}" height="60" fill="url(#{p}-scg)"/>'
             f'<line x1="{left:.0f}" y1="{top:.0f}" x2="{right:.0f}" y2="{top:.0f}" stroke="{GOLD}" stroke-width="2.5" opacity=".85"/></g>')
     sc.svg(f'<g id="{p}-xr" opacity="0">{body}</g>{glow}{org}' + (scan if ctx.p('scan', True) else ''))
-    sc.J(f"tl.fromTo('#{p}-xr',{{opacity:0,y:{12 if v == 'human' else 0}}},{{opacity:1,y:0,duration:.45,ease:'power3.out',immediateRender:false}},{xat:.3f});")
+    if full: sc.J(f"gsap.set('#{p}-xr',{{opacity:1}});tl.set('#{p}-xr',{{opacity:1}},{a:.3f});")
+    else: sc.J(f"tl.fromTo('#{p}-xr',{{opacity:0,y:{12 if v == 'human' else 0}}},{{opacity:1,y:0,duration:.45,ease:'power3.out',immediateRender:false}},{xat:.3f});")
     if xat > a + .25: sc.flash(xat, .14)
     sc.sfx('shimmer', xat, .45); sc.sfx('swoosh', xat, .25)
     if ctx.p('scan', True):
@@ -96,7 +101,7 @@ def build(ctx):
         sc.sfx('tick', at + .2, .45)
     if lines: sc.svg(lines)
     kick = ctx.p('kicker', '')
-    if kick: sc.kicker(kick, ctx.t(ctx.p('kicker_at'), .2), y=56, x=90, w=1100, align='left', size=28)
+    if kick: sc.kicker(kick, ctx.t(ctx.p('kicker_at'), .2), y=56, x=90, w=1100, align='left', size=28, hair=ctx.p('hair', False))
     ln = ctx.p('line', '')
     if ln: sc.line(ln, ctx.t(ctx.p('line_at'), max(.6, ctx.dur - 1.8)), y=630 if v == 'animal' else 640, size=42, x=None if v == 'animal' else 560, w=700, align='center' if v == 'animal' else 'left')
     return sc.done()

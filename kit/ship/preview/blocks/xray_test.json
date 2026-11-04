@@ -1,0 +1,37 @@
+{
+ "key": "xray",
+ "title": "Oriskany test v3 (hook)",
+ "words": "../../../../videos/oriskany/test_v3/build/words.json",
+ "audio_offset": 0,
+ "clips_dir": "../../../../videos/oriskany/test_v3/segments",
+ "fade_out": 0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "a19",
+   "template": "anim_xray",
+   "variant": "animal",
+   "start": "w108",
+   "params": {
+    "image": "../png/carrier_hero_side.png",
+    "animal_w": 1060,
+    "organ": "dot",
+    "organ_pos": [
+     0.45,
+     0.35
+    ],
+    "organ_label": "?",
+    "organ_at": "@hidden",
+    "kicker": "Inside *Oriskany*",
+    "image_opacity": 0.55
+   },
+   "sfx": false,
+   "end": "t44.5"
+  }
+ ]
+}

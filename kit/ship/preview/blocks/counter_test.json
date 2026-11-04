@@ -1,0 +1,42 @@
+{
+ "key": "counter",
+ "title": "Oriskany test v3 (hook)",
+ "words": "../../../../videos/oriskany/test_v3/build/words.json",
+ "audio_offset": 0,
+ "clips_dir": "../../../../videos/oriskany/test_v3/segments",
+ "fade_out": 0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "a06",
+   "template": "number_clip",
+   "variant": "right",
+   "start": "t11.4",
+   "clip": {
+    "file": "m37_sequence.mp4",
+    "push": null
+   },
+   "params": {
+    "number": "37",
+    "unit": "minutes",
+    "number_at": "t11.45",
+    "count": {
+     "from": 0,
+     "to": 37,
+     "decimals": 0,
+     "dur": 0.7,
+     "land_at": "@thirty"
+    },
+    "subline": "from the first charge",
+    "subline_at": "@later"
+   },
+   "sfx": false,
+   "end": "t15.3"
+  }
+ ]
+}

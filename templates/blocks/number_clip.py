@@ -8,7 +8,10 @@ META = dict(name='number_clip',
           'subline': 'small line under the number', 'number_at': 'when the number appears (time spec; default 0.6 s after shot start)',
           'subline_at': 'when the subline appears', 'size': 'number size in px',
           'side': 'variant right: "right" (default) or "left"',
-          'count': '{"from":0,"to":-1.8,"decimals":1,"dur":1.2,"suffix":"°C"} - animate the number instead of showing it fixed',
+          'count': '{"from":0,"to":-1.8,"decimals":1,"dur":1.2,"suffix":"°C"} - animate the number instead of showing it fixed. '
+                   'Extra keys: "land_at": time spec (e.g. "@minutes") = the count ENDS exactly there (starts land_at - dur); '
+                   '"unit_mode": "plural" (default: the unit follows the shown number, "1 minute" / "2 minutes"; "unit_one" overrides the singular) '
+                   'or "hide" (unit hidden until the shown number is >= 2)',
           'jump_at': 'time of an instant zoom step on the clip', 'jump_scale': 'zoom after the step (default 1.2)',
           'dim': 'variant center_bars/strike_swap: dark shade strength "dk" (default) or "lt"',
           'lead1': 'strike_swap: first small line ("The water")', 'lead2': 'strike_swap: second small line ("Salt water freezes at")',
@@ -59,8 +62,15 @@ def build(ctx):
         js.append(f"drop('#{p}-blk',{at - .05:.3f});write('#{p}-sub',{sat:.3f},.8);")
         ctx.sfx('click', at, .5)
     if cnt:
-        t0 = ctx.t(cnt.get('at'), at - ctx.a)
-        js.append(f"counter('#{p}-n span',{t0:.3f},{cnt.get('dur', 1.2)},{cnt['from']},{cnt['to']},{_fmt_js(cnt)});")
+        cd = float(cnt.get('dur', 1.2))
+        t0 = (ctx.t(cnt['land_at']) - cd) if cnt.get('land_at') is not None else ctx.t(cnt.get('at'), at - ctx.a)
+        js.append(f"counter('#{p}-n span',{t0:.3f},{cd},{cnt['from']},{cnt['to']},{_fmt_js(cnt)});")
+        if unit:   # the unit follows the SHOWN number: never "1 minutes" (or hidden below 2 with unit_mode "hide")
+            many = rich(unit).replace("'", "\\'"); one = rich(cnt.get('unit_one', unit[:-1] if unit.endswith('s') and not unit.endswith('ss') else unit)).replace("'", "\\'")
+            d = int(cnt.get('decimals', 0)); hide = 'true' if cnt.get('unit_mode') == 'hide' else 'false'
+            js.append(f"(function(){{const u=document.querySelector('#{p}-n i');if(!u)return;const o={{v:{cnt['from']}}};"
+                      f"const up=()=>{{const r=Math.abs(parseFloat(o.v.toFixed({d})));u.innerHTML=' '+(r===1?'{one}':'{many}');u.style.visibility=({hide}&&r<2)?'hidden':'visible';}};up();"
+                      f"tl.fromTo(o,{{v:{cnt['from']}}},{{v:{cnt['to']},duration:{cd},ease:'power2.inOut',immediateRender:false,onUpdate:up}},{t0:.3f});}})();")
     if ctx.p('jump_at') is not None:
         js.append(f"jump('#{p}_v',{ctx.t(ctx.p('jump_at')):.3f},{ctx.p('jump_scale', 1.2)});")
     ctx.js.append('\n'.join(js))

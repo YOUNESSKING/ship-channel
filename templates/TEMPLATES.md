@@ -27,7 +27,7 @@ Variants: `right`, `center_bars`, `left_stack`, `strike_swap`
 | `subline_at` | when the subline appears |
 | `size` | number size in px |
 | `side` | variant right: "right" (default) or "left" |
-| `count` | {"from":0,"to":-1.8,"decimals":1,"dur":1.2,"suffix":"°C"} - animate the number instead of showing it fixed |
+| `count` | {"from":0,"to":-1.8,"decimals":1,"dur":1.2,"suffix":"°C"} - animate the number instead of showing it fixed. Extra keys: "land_at": time spec (e.g. "@minutes") = the count ENDS exactly there (starts land_at - dur); "unit_mode": "plural" (default: the unit follows the shown number, "1 minute" / "2 minutes"; "unit_one" overrides the singular) or "hide" (unit hidden until the shown number is >= 2) |
 | `jump_at` | time of an instant zoom step on the clip |
 | `jump_scale` | zoom after the step (default 1.2) |
 | `dim` | variant center_bars/strike_swap: dark shade strength "dk" (default) or "lt" |
@@ -445,6 +445,7 @@ Variants: `human`, `animal`
 | `who` | human: the role before the switch (you / scientist / ...) |
 | `shape` | animal: croc_gfx shape (default croc) |
 | `image` | animal: optional image path drawn gold-tinted instead of the shape |
+| `image_opacity` | animal image opacity (default .42) |
 | `animal_w` | animal: length px (default 980) |
 | `bpm` | heart beat rate (default 70; beats get the heart sound) |
 | `heart_sound` | false = no heart sound |
@@ -454,6 +455,8 @@ Variants: `human`, `animal`
 | `kicker_at` | default 0.2 |
 | `line` | italic line at the bottom |
 | `line_at` | when the line shows |
+| `hair` | true = gold hairline under the kicker (default false) |
+| `first_frame` | animal: "full" (default) = the X-ray body is on screen from frame 1 (no empty opening frame); "fade" = old fade-in |
 
 ## croc_gfx
 
