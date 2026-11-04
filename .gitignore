@@ -82,3 +82,5 @@ videos/*/test_v*/mk/assets/*.jpg
 videos/*/test_v*/chapter/render.log
 videos/*/test_v*/mk/vendor/
 videos/*/test_v*/mk/assets/*.png
+videos/*/*/chapter/work-*/
+videos/*/*/chapter/.render_*
