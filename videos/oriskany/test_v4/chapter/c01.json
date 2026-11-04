@@ -1,0 +1,452 @@
+{
+ "key": "c01",
+ "title": "Oriskany test v3 (hook)",
+ "words": "../build/words.json",
+ "audio_offset": 0,
+ "clips_dir": "../segments",
+ "duration": 53.6,
+ "fade_out": 0.6,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "shots": [
+  {
+   "id": "a01",
+   "template": "number_clip",
+   "variant": "left_stack",
+   "start": 0,
+   "clip": {
+    "file": "p01_helo.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "FINAL CHECK \u00b7 GULF OF MEXICO",
+    "number": "MAY 17, 2006",
+    "number_at": "w0",
+    "size": 96,
+    "subline": "OFF PENSACOLA, FLORIDA",
+    "subline_at": "@two thousand"
+   },
+   "sfx": false
+  },
+  {
+   "id": "a02",
+   "template": "map_clip",
+   "variant": "baked",
+   "start": "w5",
+   "clip": {
+    "file": "dive.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a03",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t4.60",
+   "clip": {
+    "file": "p03_detcord.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a03b",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t6.85",
+   "clip": {
+    "file": "p03b_plume.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a04",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t7.40",
+   "flash": true,
+   "clip": {
+    "file": "p04_blast.mp4",
+    "push": null,
+    "jumps": [
+     {
+      "at": "@charges+0.1",
+      "scale": 1.12
+     }
+    ]
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "v06",
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "start": "t8.10",
+   "clip": {
+    "file": "f06_service.mp4",
+    "push": [
+     1.0,
+     1.05,
+     "50% 50%"
+    ]
+   },
+   "params": {
+    "kicker": "DECOMMISSIONED 1976",
+    "text": "USS Oriskany",
+    "at": "@retired"
+   },
+   "sfx": false
+  },
+  {
+   "id": "v07",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t10.60",
+   "clip": {
+    "file": "f07_bow.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a06",
+   "template": "number_clip",
+   "variant": "right",
+   "start": "w23",
+   "clip": {
+    "file": "m37_sequence.mp4",
+    "push": null
+   },
+   "params": {
+    "number": "37",
+    "unit": "minutes",
+    "number_at": "w23",
+    "count": {
+     "from": 0,
+     "to": 37,
+     "decimals": 0,
+     "dur": 1.15
+    },
+    "subline": "from the first charge",
+    "subline_at": "@later"
+   },
+   "sfx": false
+  },
+  {
+   "id": "a07",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t13.80",
+   "clip": {
+    "file": "p07_bowhigh.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a08",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t14.10",
+   "clip": {
+    "file": "p08_slip.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a08b",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t14.70",
+   "clip": {
+    "file": "p08b_boil.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "v10",
+   "template": "number_clip",
+   "variant": "right",
+   "start": "t15.30",
+   "clip": {
+    "file": "f10_aerial.mp4",
+    "push": [
+     1.0,
+     1.06,
+     "50% 50%"
+    ]
+   },
+   "params": {
+    "kicker": "USS Oriskany \u00b7 1969 \u00b7 about",
+    "number": "900",
+    "unit": "ft",
+    "number_at": "@nine"
+   },
+   "sfx": false
+  },
+  {
+   "id": "a09",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t17.50",
+   "clip": {
+    "file": "hero.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "v12",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t20.55",
+   "clip": {
+    "file": "f12_launch.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "v13",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t22.24",
+   "clip": {
+    "file": "f13_island.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a12",
+   "template": "number_clip",
+   "variant": "center_bars",
+   "start": "w53",
+   "flash": true,
+   "params": {
+    "number": "ON PURPOSE.",
+    "number_at": "@purpose",
+    "size": 150,
+    "dim": "dk"
+   },
+   "sfx": false,
+   "clip": {
+    "file": "p12_slam.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "a13",
+   "template": "number_clip",
+   "variant": "right",
+   "start": "w55",
+   "clip": {
+    "file": "f15_anchor.mp4",
+    "push": [
+     1.0,
+     1.06,
+     "50% 50%"
+    ]
+   },
+   "params": {
+    "kicker": "Preparing her to sink",
+    "number": "3",
+    "unit": "years",
+    "number_at": "@three"
+   },
+   "sfx": false
+  },
+  {
+   "id": "a14",
+   "template": "number_clip",
+   "variant": "right",
+   "start": "t27.55",
+   "clip": {
+    "file": "p14_weld.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "About",
+    "number": "$20",
+    "unit": "million",
+    "number_at": "@twenty",
+    "subline": "budgeted at under $3 million",
+    "subline_at": "@dollars"
+   },
+   "sfx": false
+  },
+  {
+   "id": "a15",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t29.40",
+   "clip": {
+    "file": "p15_tow.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "v18",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "w71",
+   "clip": {
+    "file": "f18_catapult.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "v19",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t33.80",
+   "clip": {
+    "file": "f19_aerial_launch.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a17",
+   "template": "anim_options",
+   "variant": "list",
+   "start": "t35.88",
+   "params": {
+    "title": "What do you do with *a carrier?*",
+    "title_at": "t36.0",
+    "numbered": false,
+    "items": [
+     {
+      "text": "Sink her",
+      "at": "@bottom",
+      "box_at": "t40.65"
+     },
+     {
+      "text": "Keep her",
+      "at": "@keeping",
+      "strike_at": "t40.15"
+     },
+     {
+      "text": "Scrap her",
+      "at": "@cutting",
+      "strike_at": "t40.4"
+     }
+    ]
+   },
+   "sfx": false,
+   "bg_clip": {
+    "file": "f20_bg.mp4",
+    "show": 0.6
+   }
+  },
+  {
+   "id": "v21",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t41.14",
+   "clip": {
+    "file": "f21_deck.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a19",
+   "template": "anim_xray",
+   "variant": "animal",
+   "start": "w108",
+   "params": {
+    "image": "../assets/carrier_side.png",
+    "animal_w": 1060,
+    "organ": "dot",
+    "organ_pos": [
+     0.45,
+     0.35
+    ],
+    "organ_label": "???",
+    "organ_at": "@hidden",
+    "kicker": "Inside *Oriskany*",
+    "readouts": [
+     {
+      "text": "HIDDEN *inside*",
+      "at": "@inside"
+     }
+    ]
+   },
+   "sfx": false
+  },
+  {
+   "id": "v23a",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "w111",
+   "clip": {
+    "file": "f23_ss1.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "v23b",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t46.86",
+   "clip": {
+    "file": "f23_ss2.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "v23c",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t48.42",
+   "clip": {
+    "file": "f23_ss3.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a20",
+   "template": "map_clip",
+   "variant": "baked",
+   "start": "t49.30",
+   "clip": {
+    "file": "endmap.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  }
+ ],
+ "font": "oswald"
+}

@@ -67,3 +67,18 @@ videos/*/test_v3/mk/assets/*.jpg
 videos/*/test_v3/chapter/render.log
 # Epidemic Sound SFX: licensed to the subscription, NEVER commit (catalog: assets/sfx/EPIDEMIC_SFX.md)
 assets/sfx/epidemic/
+videos/*/test_v*/segments/
+videos/*/test_v*/audio/
+videos/*/test_v*/chapter/work/
+videos/*/test_v*/chapter/media_cache/
+videos/*/test_v*/chapter/render*.mp4
+videos/*/test_v*/assets/photos/
+videos/*/test_v*/assets/clips/
+videos/*/test_v*/hero/renders/
+videos/*/test_v*/hero/.hyperframes/
+videos/*/test_v*/mk/scenes/
+videos/*/test_v*/mk/assets/*.jpg
+**/node_modules/
+videos/*/test_v*/chapter/render.log
+videos/*/test_v*/mk/vendor/
+videos/*/test_v*/mk/assets/*.png

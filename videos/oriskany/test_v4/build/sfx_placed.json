@@ -1,0 +1,149 @@
+[
+ [
+  0.35,
+  "hit",
+  "number_land_1.wav",
+  -8.1,
+  "MAY 17, 2006 card lands (number_at w0)"
+ ],
+ [
+  2.927,
+  "whoosh",
+  "dive_whoosh_2.wav",
+  -11.3,
+  "map dive from the Gulf to the reef (biggest move #1)"
+ ],
+ [
+  7.4,
+  "explosion",
+  "charges_seq_3.wav",
+  -3.7,
+  "photo of the charges going off: flash + shake frame"
+ ],
+ [
+  13.361,
+  "hit",
+  "number_land_2.wav",
+  -9.3,
+  "37 MINUTES count lands"
+ ],
+ [
+  13.8,
+  "impact",
+  "sink_whoomp_1.wav",
+  -8.1,
+  "bow-high photo: hull going under"
+ ],
+ [
+  14.1,
+  "ship",
+  "flood_rush_1.wav",
+  -12.4,
+  "flood rush as she slips under"
+ ],
+ [
+  15.658,
+  "hit",
+  "number_land_3.wav",
+  -10.0,
+  "ABOUT 900 FT card lands"
+ ],
+ [
+  17.65,
+  "ship",
+  "hull_groan_1.wav",
+  -12.5,
+  "hero: hull groan as the drawn carrier goes down"
+ ],
+ [
+  19.26,
+  "impact",
+  "sink_whoomp_2.wav",
+  -6.6,
+  "hero: hull touches the seabed (silt + shake)"
+ ],
+ [
+  19.306,
+  "hit",
+  "number_land_1.wav",
+  -8.6,
+  "depth gauge lands on 212 FT"
+ ],
+ [
+  21.0,
+  "jet",
+  "catapult_launch_1.wav",
+  -12.1,
+  "A-4 catapult launch passes the camera"
+ ],
+ [
+  24.512,
+  "slam",
+  "text_slam_1.wav",
+  -9.2,
+  "ON PURPOSE. slam (flash cut)"
+ ],
+ [
+  26.246,
+  "hit",
+  "number_land_2.wav",
+  -9.2,
+  "3 YEARS card lands"
+ ],
+ [
+  27.575,
+  "hit",
+  "number_land_3.wav",
+  -8.7,
+  "$20 MILLION card lands"
+ ],
+ [
+  40.15,
+  "tick",
+  "strike_scrape_1.wav",
+  -20.5,
+  "KEEP HER struck through"
+ ],
+ [
+  40.4,
+  "tick",
+  "strike_scrape_2.wav",
+  -20.3,
+  "SCRAP HER struck through"
+ ],
+ [
+  40.65,
+  "hit",
+  "number_land_1.wav",
+  -7.0,
+  "gold box lands on SINK HER"
+ ],
+ [
+  42.623,
+  "tick",
+  "sonar_ping_1.wav",
+  -19.6,
+  "x-ray: ??? glows inside the hull"
+ ],
+ [
+  45.017,
+  "ship",
+  "horn_distant_1.wav",
+  -13.1,
+  "SS United States on screen: liner horn (funnels smoking)"
+ ],
+ [
+  49.3,
+  "whoosh",
+  "dive_whoosh_3.wav",
+  -11.0,
+  "end map pull-back (biggest move #2)"
+ ],
+ [
+  51.318,
+  "hit",
+  "number_land_2.wav",
+  -9.4,
+  "THE SAME REASON stamp lands"
+ ]
+]

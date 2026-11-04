@@ -284,6 +284,8 @@ class Builder:
                     "#root *{font-family:'Oswald',sans-serif !important;font-style:normal !important}"
                     "#root svg text,#root svg tspan{font-family:'Oswald',sans-serif !important;font-style:normal !important}")
         rt = open(os.path.join(HERE, 'lib', 'runtime.js')).read()
+        if ch.get('safe', ch.get('font') == 'oswald'):   # (ship channel) labels >= 3.5 % of frame height, out of the bottom 10 % and the top-right corner
+            rt = open(os.path.join(HERE, 'lib', 'safe_area.js')).read() + '\n' + rt
         title = _html.escape(ch.get('title', self.key))
         RW, RH = (1920, 1080) if self.res == 1080 else (1280, 720)
         STAGE0 = STAGE1 = ''
