@@ -21,7 +21,7 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
 LEVELS = {"explosion": (-4, 0.20), "impact": (-7, 0.25), "hit": (-8, 0.50), "whoosh": (-12, 0.50), "jet": (-11, 1.2),
           "tick": (-20, 0.12), "boom": (-11, 0.50), "pop": (-20, 0.12), "riser": (-17, 2.0),
-          "ship": (-13, 0.5), "horn": (-10, 3.0)}
+          "ship": (-13, 0.5), "horn": (-14, 3.0)}
 BED_LEVELS = {"projector": -27, "drone": -30, "waves": -30, "underwater": -30}
 CHAIN = ["MUSIC_VOL = 0.08", "afade=t=in:d=2", "afade=t=out:st={total - 3:.3f}:d=3",
          "sidechaincompress=threshold=0.03:ratio=6:attack=20:release=400",

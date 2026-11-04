@@ -38,7 +38,7 @@ PUNCH_ROLES = ("explosion", "impact", "boom")
 # Levels: battle-maps STYLE_LOCK section 3 (explosion -4, impact -7, hit -8, jet -11, whoosh -12, tick -20) and the
 # section 2a sound-design table (pop -20, boom -11, riser -17, projector -27, drone bed -30). "ship" and "horn" are
 # ship-channel roles (no battle-maps equivalent): ship = the on-screen vehicle level (prop flyby, -13); horn = the
-# signature horn, -10 in a voice gap (critic CRITIQUE_SOUND_ACCURACY 6). Both still need the owner's sign-off.
+# signature horn, -14 in a voice gap (owner 2026-11-04: 4 dB quieter than the -10 test). Owner-approved.
 KINDS = {
     "explosion": (["charges_c__f6f10ea4.wav", "charges_a__955e7371.wav", "charges_b__0ecb5c38.wav"], -4, 0.20, "peak"),
     "impact":    (["splash_a__1d6949d6.wav", "charges_b__0ecb5c38.wav", "splash_b__3ba7bd2a.wav"], -7, 0.25, "peak"),
@@ -50,7 +50,7 @@ KINDS = {
     "jet":       (["jet_a__9fc48bf0.wav", "jet_b__da6a1527.wav", "jet_c__d47bee57.wav"], -11, 1.2, "peak"),
     "ship":      (["groan_a__7c63fd7c.wav", "flood_a__db95b348.wav", "bubbles_a__e58b390c.wav", "groan_b__2bc7c5e1.wav",
                    "groan_c__87dfc4bf.wav", "flood_b__3e14e767.wav", "bubbles_b__18fdc570.wav"], -13, 0.5, "onset"),
-    "horn":      (["horn_a__463af07a.wav"], -10, 3.0, "onset"),
+    "horn":      (["horn_a__463af07a.wav"], -14, 3.0, "onset"),
     "tick":      (["pop_a__9da883ac.wav"], -20, 0.12, "peak"),
 }
 BEDS = {  # bed role: (default files, level dB)   (STYLE_LOCK 2a: projector loop under film -27, low drone bed -30)
