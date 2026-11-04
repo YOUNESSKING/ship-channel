@@ -1,0 +1,18 @@
+{
+ "name": "nyc",
+ "center": [
+  40.68,
+  -73.98
+ ],
+ "zoom": 10,
+ "origin_world_px": [
+  75761,
+  97782
+ ],
+ "size": [
+  2880,
+  1620
+ ],
+ "meters_per_px": 115.93,
+ "credit": "Terrain & bathymetry: Mapzen / AWS Terrain Tiles (open data)"
+}

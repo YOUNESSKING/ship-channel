@@ -1,0 +1,18 @@
+{
+ "name": "usse",
+ "center": [
+  33.0,
+  -87.0
+ ],
+ "zoom": 6,
+ "origin_world_px": [
+  2792,
+  5789
+ ],
+ "size": [
+  2880,
+  1620
+ ],
+ "meters_per_px": 2051.38,
+ "credit": "Terrain & bathymetry: Mapzen / AWS Terrain Tiles (open data)"
+}

@@ -1,0 +1,18 @@
+{
+ "name": "pnw",
+ "center": [
+  47.6,
+  -122.9
+ ],
+ "zoom": 8,
+ "origin_world_px": [
+  8954,
+  22079
+ ],
+ "size": [
+  2880,
+  1620
+ ],
+ "meters_per_px": 412.33,
+ "credit": "Terrain & bathymetry: Mapzen / AWS Terrain Tiles (open data)"
+}

@@ -1,0 +1,18 @@
+{
+ "name": "americas",
+ "center": [
+  -8.0,
+  -85.0
+ ],
+ "zoom": 4,
+ "origin_world_px": [
+  -359,
+  1329
+ ],
+ "size": [
+  2880,
+  1620
+ ],
+ "meters_per_px": 9688.72,
+ "credit": "Terrain & bathymetry: Mapzen / AWS Terrain Tiles (open data)"
+}
