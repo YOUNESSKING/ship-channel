@@ -4,11 +4,12 @@
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=1920, height=1080" />
 <title>Ship sinking</title>
-<!-- HyperFrames composition: copy kit/ship/{ships.js,sinking/sinking.js}, vendor/gsap.min.js and the Oswald fonts next to it
-     and fix the three paths below. Config comes from the URL (?ship=carrier&depth=212&dur=7.5&mode=stern&title=...)
+<!-- HyperFrames composition: copy kit/ship/{ships.js,sinking/carrier_hero.js,sinking/sinking.js}, vendor/gsap.min.js and the Oswald fonts next to it
+     and fix the four paths below. Config comes from the URL (?ship=carrier&depth=212&dur=7.5&mode=stern&title=...)
      or from window.SINK_CFG set before sinking.js runs. -->
 <script src="../../../map-kit/vendor/gsap.min.js"></script>
 <script src="../ships.js"></script>
+<script src="carrier_hero.js"></script>
 <script src="sinking.js"></script>
 <style>
 @font-face { font-family: "Oswald"; font-weight: 500; src: url("../../../map-kit/assets/fonts/oswald-latin-500-normal.woff2") format("woff2"); }
@@ -24,12 +25,12 @@ html, body { margin: 0; width: 1920px; height: 1080px; overflow: hidden; backgro
   const q = new URLSearchParams(location.search), num = (k) => (q.has(k) ? +q.get(k) : undefined);
   const cfg = Object.assign({ ship: q.get("ship") || undefined, depthFt: num("depth"), duration: num("dur"), mode: q.get("mode") || undefined,
     pitch: num("pitch"), units: q.get("units") || undefined, title: q.get("title") || undefined, sub: q.get("sub") || undefined,
-    paint: q.get("paint") || undefined, col: q.get("col") || undefined, charges: q.get("charges") !== "0" }, window.SINK_CFG || {});
+    paint: q.get("paint") || undefined, settleFt: num("settle"), settleLabel: q.get("settleLabel") || undefined, readout: q.get("readout") || undefined, col: q.get("col") || undefined, charges: q.get("charges") !== "0" }, window.SINK_CFG || {});
   Object.keys(cfg).forEach((k) => cfg[k] === undefined && delete cfg[k]);
   const S = ShipSink(document.getElementById("stage"), cfg);
   document.getElementById("root").dataset.duration = S.duration;
   window.__timelines = window.__timelines || {}; window.__timelines["main"] = S.tl;
-  window.__sink = { duration: S.duration, landT: S.landT, cues: S.cues };
+  window.__sink = { duration: S.duration, landT: S.landT, tUnder: S.tUnder, facts: S.facts, cues: S.cues };
   S.tl.seek(0);
 </script>
 </body>

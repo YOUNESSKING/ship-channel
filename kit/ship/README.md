@@ -56,6 +56,15 @@ and throw up spray. The ship settles stern-first, goes under, and lands upright 
 (flash, gold ring, number pop), and a silt cloud and bubbles rise. Everything is a pure function of time on one GSAP timeline
 (`window.__timelines.main`), so it seeks in any order, like map-kit scenes.
 
+- **v2 (after the test v3 critique)**: the carrier is the detailed `carrier_hero.js` drawing (shaded hull, plating, rust streaks,
+  hangar gallery openings, empty gun sponsons, hurricane bow, stepped island, **mast cut down** as on the 2006 hulk; reference
+  NARA 7578428 (1959) and 6698597/6698600/6698609/6698610 (2006)). It is drawn to the fact sheet: keel -> flight deck 75 ft, island
+  63 ft above the deck, so with `settle=10` (FWC: ~10 ft into the sediment) she ends with the **flight deck at ~147 ft, the island
+  top at 84 ft, the seabed at 212 ft** (`window.__sink.facts` prints them). The readout says **AT THE SURFACE 0 FT** while she floats,
+  then **FLIGHT DECK DEPTH** while she sinks, then lands on **ON THE SEABED 212 FT**; the three fact markers then appear on the ruler.
+  All labels >= 38 px, caption card top centre, nothing in the bottom 10 %. Preview frames: `preview/sinking_v2_mid_frame.jpg`,
+  `preview/sinking_v2_end_frame.jpg`; quick stills of any page: `node kit/ship/tools/snap_times.js PAGE?query OUT 1,4,8`.
+  The old notes below about "KEEL DEPTH" describe the `readout=keel` option (non-carrier ships still default to it).
 - **Gauge**: it reuses the `anim_gauge` "meter" idea (track, ticks, gold fill and dot, a count that lands with a flash and an
   expanding ring) in the channel's Oswald / cream / gold type. `anim_gauge.py` itself only runs inside the prehistory
   `build_chapter` context, so it could not be dropped in as-is. If the whole water column fits on screen (Oriskany, 212 ft),
@@ -67,7 +76,7 @@ and throw up spray. The ship settles stern-first, goes under, and lands upright 
   boom, swell then underwater beds). `make_preview.sh` mixes them on with `mix_cues.py`, as a preview mix only.
 
 ```bash
-bash kit/ship/sinking/make_preview.sh                                                   # Oriskany, 212 ft, 7.5 s (default)
+bash kit/ship/sinking/make_preview.sh                                                   # Oriskany, 212 ft, 8.5 s, settles 10 ft (default)
 bash kit/ship/sinking/make_preview.sh "ship=liner&depth=180&dur=8&mode=upright&title=SS%20UNITED%20STATES"
 ```
 Output: `sinking/out/sinking_preview.mp4` (with sound), `sinking/sinking_contact_sheet.jpg`.
