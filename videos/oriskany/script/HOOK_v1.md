@@ -20,13 +20,13 @@ tends to say or-iss-KAY-nee; add exact phonemes if the respelling fails).
 **Publish deadline:** by 11 Nov 2026. The SS United States line is in the future tense and dated "November twelfth"
 (no "this month" / "next week"), so it stays true whichever day before the 12th we publish (FC-C C2, C12).
 
-## Narration (≈106 words, ≈44–46 s at Kokoro ≈150–155 wpm with the two pauses)
+## Narration (≈108 words, ≈44–46 s at Kokoro ≈150–155 wpm with the two pauses)
 
 1. Right now, two hundred and twelve feet under the Gulf of Mexico, lies an aircraft carrier. [FC-C A9]
 2. No enemy sank her. The United States Navy did. On purpose. [FC-C A3, A16]
 3. Navy demolition divers set off twenty-two charges inside the USS Oriskany. [FC-C A2, A3, E1] *(0.5 s pause for the boom)*
 4. Thirty-seven minutes later, she was gone. [FC-C A6, E2]
-5. Getting her ready took over three years and about twenty million dollars. [FC-C E4; FC-B B15]
+5. Getting her ready to sink took over three years and about twenty million dollars. [FC-C E4; FC-B B15]
 6. So why pay millions to put a carrier on the sea floor? [FC-B B15]
 7. Why not keep her? Why not scrap her? *(speed 0.88, short gaps)*
 8. The answer is buried in her past. And in what was still inside her when she sank. [FC-B B18]
@@ -59,7 +59,7 @@ one grade (2006 photos neutral, no sepia; film `GRADE=none`); real recorded SFX 
 | 16.2–16.7 | (0.5 s pause) | [PHOTO: NARA 6698617, port side as the charges explode] | second real blast, in the clear | FOOT b8 #4 |
 | 16.7–19.5 | "Thirty-seven minutes later," | one camera series, ~0.8 s each: [PHOTO: 6698610 stern going under] → [6698611 bow rising] → [6698612 steep angle] | "37 MINUTES" lands on "minutes" (no counter roll) | FOOT b8 #9–11; FC-C A6 |
 | 19.5–21.0 | "she was gone." | [PHOTO: 6698624 bow vertical] → [6698626 only foam left] | low hull groan + water close | FOOT b8 #14, #16 |
-| 21.0–23.6 | "Getting her ready took over three years" | [PHOTO: NARA 6698569, worker cuts holes in the flight deck, 20 Apr 2006] (2006, never 1952 film: FIX 9) | "3+ YEARS" on "three" | FOOT b6 #14 |
+| 21.0–23.6 | "Getting her ready to sink took over three years" | [PHOTO: NARA 6698569, worker cuts holes in the flight deck, 20 Apr 2006] (2006, never 1952 film: FIX 9) | "3+ YEARS" on "three" | FOOT b6 #14 |
 | 23.6–25.8 | "and about twenty million dollars." | [PHOTO: NARA 6698553, Navy diver welds aboard, 18 Apr 2006], right third darkened behind the number | "≈ $20 MILLION" on "twenty" (no unspoken subline) | FOOT b6 #10 |
 | 25.8–29.0 | "So why pay millions to put a carrier on the sea floor?" | [ANIM: sinking cross-section to scale: keel 212 ft, flight deck ~145–150 ft, island top 84 ft; gauge labelled "KEEL", starts at 0] | hull touchdown on "floor": silt puff, one impact | FC-C A9, B1, B2 (FIX 10) |
 | 29.0–32.4 | "Why not keep her? Why not scrap her?" | [ANIM: options: "KEEP HER?" appears on "keep", "SCRAP HER?" on "scrap", over the dimmed cross-section; no box, no strike yet (the answer waits)] | two soft ticks | — |
