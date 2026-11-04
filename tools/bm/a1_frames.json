@@ -1,0 +1,423 @@
+{
+ "m1a": [
+  [
+   0.0,
+   "m1-1 first frame: date scroll 1775 already up, both flags on their land, territory half strength (soft border)",
+   "-"
+  ],
+  [
+   1.2,
+   "title MOVE 1 \u00b7 THE MARCH TO QUEBEC \u00b7 1775 (legend out)",
+   "boom"
+  ],
+  [
+   4.6,
+   "blue arrow up Lake Champlain, MONTREAL on its word",
+   "whoosh"
+  ],
+  [
+   8.6,
+   "Arnold badge; dotted route up the KENNEBEC",
+   "whoosh"
+  ],
+  [
+   12.2,
+   "down the Chaudiere to QUEBEC (label + ring), fortress",
+   "pop"
+  ],
+  [
+   17.4,
+   "SEPTEMBER 1775; ABOUT 1,100 MEN",
+   "ticks"
+  ],
+  [
+   19.6,
+   "dive onto the Kennebec: both flags stay in frame, colours dissolving",
+   "whoosh"
+  ],
+  [
+   21.4,
+   "mid-dive: Union Flag (Canada) + Continental Colours both inside the frame",
+   "-"
+  ],
+  [
+   23.4,
+   "bateaux upriver, rapids; THE PLAN ~180 MILES",
+   "hit"
+  ],
+  [
+   25.6,
+   "~20 DAYS",
+   "hit"
+  ],
+  [
+   30.6,
+   "m1-2 pull out: British at St. Johns watch the lake; first American army",
+   "pop"
+  ],
+  [
+   35.3,
+   "MAINE WOODS",
+   "pop"
+  ],
+  [
+   38.5,
+   "THE BACK DOOR stamp",
+   "hit"
+  ],
+  [
+   40.4,
+   "FRONT DOOR on the lake",
+   "hit"
+  ],
+  [
+   46.8,
+   "m1-3 close: boats at the carry, food spoiled",
+   "pop"
+  ],
+  [
+   50.6,
+   "GREAT CARRYING PLACE, the carry",
+   "whoosh"
+  ],
+  [
+   53.2,
+   "12 MILES",
+   "hit"
+  ],
+  [
+   56.6,
+   "night, 21 OCTOBER 1775",
+   "-"
+  ],
+  [
+   59.9,
+   "storm on the Dead River, rain, trees down",
+   "boom"
+  ],
+  [
+   63.6,
+   "river swells; 8-10 FEET",
+   "hit"
+  ],
+  [
+   65.6,
+   "boats sink, supplies wash away",
+   "pop"
+  ],
+  [
+   66.0,
+   "8-10 FEET card gone after ~3 s, legend back",
+   "-"
+  ],
+  [
+   67.8,
+   "men lost in the flooded woods",
+   "-"
+  ],
+  [
+   72.4,
+   "m1-4 three companies at the rear, council",
+   "pop"
+  ],
+  [
+   75.8,
+   "turned back (grey); ABOUT 450 MEN",
+   "hit"
+  ],
+  [
+   78.3,
+   "450 MEN gone after ~3 s",
+   "-"
+  ],
+  [
+   81.2,
+   "the rest kept going",
+   "-"
+  ],
+  [
+   85.6,
+   "Arnold's small party down the Chaudiere rapids",
+   "whoosh"
+  ],
+  [
+   88.2,
+   "SARTIGAN farms",
+   "pop"
+  ],
+  [
+   90.6,
+   "cattle + flour back up the trail",
+   "pop"
+  ],
+  [
+   93.6,
+   "Henry Dearborn (Gilbert Stuart portrait), Continental Colours ring",
+   "-"
+  ],
+  [
+   97.4,
+   "hunger card: HIS DOG, EATEN",
+   "hit"
+  ],
+  [
+   102.0,
+   "hunger card: only the last two lines (LIP SALVE, SHAVING SOAP); finished lines drop",
+   "hit"
+  ],
+  [
+   105.3,
+   "SHOE LEATHER, CARTRIDGE BOXES",
+   "hit"
+  ]
+ ],
+ "m1b": [
+  [
+   0.0,
+   "m1-5 first frame: date scroll NOVEMBER 1775 already up, both flags",
+   "-"
+  ],
+  [
+   3.4,
+   "9 NOVEMBER 1775; ~600 come out of the forest (south bank); ABOUT 600 MEN",
+   "whoosh, hit"
+  ],
+  [
+   7.3,
+   "ST. LAWRENCE, QUEBEC on the words",
+   "pop"
+  ],
+  [
+   11.4,
+   "THE MARCH card on the right (Union Flag stays in view)",
+   "hit"
+  ],
+  [
+   15.5,
+   "night 13 NOV; SOME 35 CANOES",
+   "hit"
+  ],
+  [
+   19.6,
+   "canoes slip between the two red warships",
+   "whoosh"
+  ],
+  [
+   22.2,
+   "up onto the PLAINS OF ABRAHAM",
+   "-"
+  ],
+  [
+   25.8,
+   "the walls glow; Arnold must wait",
+   "pop"
+  ],
+  [
+   31.6,
+   "DECEMBER 1775; Montgomery's column from upriver, badge",
+   "whoosh"
+  ],
+  [
+   35.0,
+   "~300 MEN",
+   "-"
+  ],
+  [
+   41.8,
+   "ENLISTMENTS RUN OUT / THE END OF THE YEAR",
+   "hit"
+  ],
+  [
+   48.6,
+   "31 DECEMBER 1775, night, blizzard",
+   "-"
+  ],
+  [
+   49.6,
+   "they attacked: two columns",
+   "whoosh"
+  ],
+  [
+   54.5,
+   "paper slip \"Liberty or death.\" (lower right, ~4 s)",
+   "hit"
+  ],
+  [
+   58.2,
+   "m1-7 close, night + snow: LOWER TOWN strip",
+   "pop"
+  ],
+  [
+   65.4,
+   "Montgomery under CAPE DIAMOND, the first barrier",
+   "-"
+  ],
+  [
+   69.8,
+   "grapeshot from the blockhouse (visible)",
+   "fire, boom"
+  ],
+  [
+   71.4,
+   "Montgomery KILLED, column falls back",
+   "hit"
+  ],
+  [
+   78.4,
+   "Arnold along the waterfront: SAULT-AU-MATELOT barricade",
+   "whoosh"
+  ],
+  [
+   81.5,
+   "hit in the leg: WOUNDED",
+   "hit"
+  ],
+  [
+   87.2,
+   "Morgan over the barricade",
+   "whoosh, mg"
+  ],
+  [
+   89.6,
+   "STALLED",
+   "hit"
+  ],
+  [
+   95.0,
+   "red sortie from the Palace Gate behind them, ring",
+   "whoosh"
+  ],
+  [
+   100.6,
+   "ABOUT 400 CAPTURED on the map, then the casualty card (lower right, over the river)",
+   "hit"
+  ],
+  [
+   103.4,
+   "BRITISH: FEWER THAN 20 LOST",
+   "hit"
+  ],
+  [
+   106.8,
+   "m1-8 grey dawn: IN THE HOSPITAL / PISTOLS LOADED",
+   "hit"
+  ],
+  [
+   108.5,
+   "A SWORD ON HIS BED (card out ~2.6 s later)",
+   "hit"
+  ],
+  [
+   115.0,
+   "THEY NEVER CAME stamp (short)",
+   "hit"
+  ],
+  [
+   118.5,
+   "the blockade line through the winter (date scroll to MAY 1776)",
+   "whoosh, ticks"
+  ],
+  [
+   121.0,
+   "RESULT: QUEBEC HELD \u00b7 THE MARCH ~350 MILES",
+   "hit"
+  ],
+  [
+   125.1,
+   "ARNOLD'S METHOD card in on 'how he fought' (line 1 dark)",
+   "-"
+  ],
+  [
+   126.3,
+   "line 1 lit on 'go where the enemy says no army can go'; lines 2-3 dim bars",
+   "pop, boom"
+  ],
+  [
+   128.4,
+   "last frame: date scroll MAY 1776 still up",
+   "-"
+  ]
+ ],
+ "ending": [
+  [
+   0.4,
+   "end-1 clean: northeast wide, territory half strength, 13-star + Union Flag, date 1775-1777 (no legend: no fronts here)",
+   "-"
+  ],
+  [
+   2.6,
+   "QUEBEC lights up on its name",
+   "pop"
+  ],
+  [
+   5.4,
+   "the march redrawn: an army where no one believed an army could go",
+   "whoosh"
+  ],
+  [
+   7.6,
+   "LAKE CHAMPLAIN glows, the channel ring",
+   "-"
+  ],
+  [
+   10.0,
+   "the wind arrow on 'the wind fought on his side'",
+   "whoosh"
+  ],
+  [
+   11.4,
+   "A WHOLE YEAR",
+   "hit"
+  ],
+  [
+   13.0,
+   "SARATOGA lights up",
+   "pop"
+  ],
+  [
+   18.8,
+   "through the one weak point",
+   "hit"
+  ],
+  [
+   22.5,
+   "push toward Saratoga (monument)",
+   "-"
+  ],
+  [
+   26.6,
+   "boot card on 'a boot' (no name)",
+   "pop"
+  ],
+  [
+   31.0,
+   "E.final: 1 QUEBEC 1775",
+   "hit"
+  ],
+  [
+   34.4,
+   "2 VALCOUR ISLAND 1776, 3 SARATOGA 1777",
+   "hit"
+  ],
+  [
+   36.2,
+   "1, 2 OR 3?",
+   "hit"
+  ],
+  [
+   39.6,
+   "which commander next line; card shrinks to the top band",
+   "pop"
+  ],
+  [
+   41.6,
+   "subscribe button",
+   "click"
+  ],
+  [
+   43.8,
+   "last frame: map clean under the band (end screen)",
+   "-"
+  ]
+ ]
+}

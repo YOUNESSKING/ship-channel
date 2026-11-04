@@ -1,0 +1,14 @@
+{
+ "C04-21": {"template": "v02_anim_b", "variant": "xray_palate", "params": {}},
+ "C05-21": {"template": "v02_anim_b", "variant": "xray_salt", "params": {}},
+ "C06-07": {"template": "v02_anim_b", "variant": "lake_lock", "params": {}},
+ "C06-15": {"template": "v02_anim_b", "variant": "scientist", "params": {}},
+ "C07-16": {"template": "v02_anim_b", "variant": "xray_hippo", "params": {}},
+ "C07-23": {"template": "v02_anim_b", "variant": "sea_options", "params": {}},
+ "C08-21": {"template": "v02_anim_b", "variant": "body_temp", "params": {}},
+ "C05-03": {"clip": {"file": "ai/C11-05.mp4", "in": 0.0}},
+ "C07-11": {"clip": {"file": "ai/C07-06.mp4", "in": 0.0}},
+ "C07-12": {"clip": {"file": "stills/C07-16.mp4", "in": 0.0}},
+ "C08-20": {"clip": {"file": "stills/C08-04.mp4", "in": 0.0}},
+ "_cut": ["C04-22", "C04-23", "C04-24", "C05-22", "C05-23", "C06-08", "C06-16", "C06-17", "C07-17", "C07-18", "C07-19", "C07-24", "C07-25", "C08-22", "C08-23"]
+}

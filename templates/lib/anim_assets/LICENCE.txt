@@ -1,0 +1,3 @@
+croc_porosus_swim.png: PhyloPic image acb7e630-7491-4caa-9717-b3d847ecb8d7, Crocodylus porosus, by Margot Michaud. CC0 1.0 (public domain). Recoloured (olive-bronze body, paler belly, warm rim).
+croc_porosus_gape.png: PhyloPic image a796420f-5158-4e96-acbe-e30ef36b26d6, Crocodylus porosus, by Steven Traver. CC0 1.0 (public domain). Recoloured the same way.
+No credit required (CC0). Source: https://www.phylopic.org/

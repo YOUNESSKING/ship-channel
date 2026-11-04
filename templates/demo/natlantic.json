@@ -1,0 +1,43 @@
+{
+  "key": "natlantic",
+  "title": "Demo - North Atlantic (v9 rebuilt from templates)",
+  "words": "../../videos/test2/audio/narration_will_words.json",
+  "audio_offset": 33.6,
+  "clips_dir": "../../videos/test2/clips",
+  "duration": 27.6,
+  "shots": [
+    { "id": "map",  "template": "map_clip", "variant": "baked", "start": 0,
+      "clip": { "file": "../../maps/out/map_natlantic_v3.mp4" }, "sfx": [ {"cue": "title", "at": "start", "gain": 1.0} ] },
+
+    { "id": "zero", "template": "number_clip", "variant": "right", "start": "w117",
+      "clip": { "file": "t2_12_pack_ice_edge.mp4" },
+      "params": { "kicker": "Near the ice", "number": "0°C", "number_at": "w123", "size": 112 } },
+
+    { "id": "minus18", "template": "number_clip", "variant": "strike_swap", "start": "w125",
+      "clip": { "file": "t2_13_frazil_ice.mp4" },
+      "params": { "lead1": "The water", "lead2": "Salt water freezes at", "old": "0°C", "new": "-1.8°C",
+                  "subline": "salt lowers the freezing point",
+                  "show_at": "w125", "swap_at": "w129", "strike_at": "w132", "subline_at": "w135" } },
+
+    { "id": "slush", "template": "lower_third", "variant": "italic_word", "start": "w136",
+      "clip": { "file": "t2_13_slush_sea.mp4", "in": 0.6, "push": [1.0, 1.05, "50% 60%"] },
+      "params": { "text": "slush", "at": "w139" }, "sfx": [ {"cue": "icecrunch", "at": "start", "gain": 0.5} ] },
+
+    { "id": "gasp", "template": "stick_timer", "variant": "gasp", "start": "w141",
+      "params": { "kicker": "Cold shock", "number": "1", "unit": "minute", "line": "can't control your breathing", "line_at": "w145" } },
+
+    { "id": "hand", "template": "stick_timer", "variant": "hand", "start": "w148",
+      "params": { "kicker": "Dexterity", "number": "10", "unit": "minutes", "line": "hands stop closing", "line_at": "w151-0.1" } },
+
+    { "id": "rope", "template": "stick_rope", "variant": "rope_slip", "start": "w154",
+      "params": { "label": "rope", "result": "can't hold it", "throw_at": "w157", "label_at": "w158", "result_at": "w163", "slip_at": "w164" } },
+
+    { "id": "mega", "template": "extinct_plate", "variant": "right", "start": "w167",
+      "clip": { "file": "t2_16_megalodon.mp4", "in": 1.0 },
+      "params": { "word": "EXTINCT", "date": "3.6 million years ago", "at": "w170+0.1" } },
+
+    { "id": "lights", "template": "stick_timer", "variant": "lights_out", "start": "w172", "end": "t27.6",
+      "params": { "kicker": "Lights out", "number": "30", "unit": "minutes", "line": "unconscious",
+                  "sink_at": "w173+0.1", "line_at": "w175", "dim_at": "w175" } }
+  ]
+}

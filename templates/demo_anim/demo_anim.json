@@ -1,0 +1,288 @@
+{
+ "key": "demo_anim",
+ "title": "Animation blocks demo",
+ "words": "words.json",
+ "res": 720,
+ "fade_out": 0.5,
+ "shots": [
+  {
+   "id": "d01_gauge_bars",
+   "template": "anim_gauge",
+   "variant": "bars",
+   "start": 0.0,
+   "dur": 8.0,
+   "params": {
+    "kicker": "Bite *force*",
+    "unit": "psi",
+    "note": "more than six times yours",
+    "circle": true,
+    "items": [
+     {
+      "label": "You",
+      "value": 160,
+      "glyph": {
+       "person": "you"
+      },
+      "at": 0.8,
+      "count_at": "@weak",
+      "glyph_w": 140
+     },
+     {
+      "label": "Tiger",
+      "value": 1050,
+      "glyph": {
+       "image": "../tests_anim/tiger_fill.png"
+      },
+      "glyph_w": 170,
+      "at": 2.6,
+      "count_at": 3.2,
+      "dur": 1.4
+     }
+    ]
+   }
+  },
+  {
+   "id": "d02_gauge_meter",
+   "template": "anim_gauge",
+   "variant": "meter",
+   "start": 8.0,
+   "dur": 7.0,
+   "params": {
+    "kicker": "How *loud*",
+    "unit": "dB",
+    "value": 180,
+    "max": 200,
+    "label": "Sperm whale click",
+    "glyph": {
+     "shape": "fish"
+    },
+    "marks": [
+     {
+      "value": 60,
+      "label": "Talk",
+      "at": 0.8
+     },
+     {
+      "value": 140,
+      "label": "Jet engine",
+      "at": 1.3
+     }
+    ],
+    "count_at": 2.2,
+    "dur": 1.4
+   }
+  },
+  {
+   "id": "d03_lock_jungle",
+   "template": "anim_lockon",
+   "variant": "jungle",
+   "start": 15.0,
+   "dur": 11.0,
+   "params": {
+    "who": "explorer",
+    "hud": "Sundarbans \u00b7 02:14 am",
+    "eyes_at": 3.0,
+    "lock_at": "@sees-0.3",
+    "distance": {
+     "from": 38,
+     "to": 12,
+     "unit": "m",
+     "at": 3.9,
+     "dur": 1.9
+    },
+    "heart": true,
+    "animal": {
+     "image": "../tests_anim/tiger_fill.png",
+     "w": 440,
+     "y": 575,
+     "x": 1010
+    },
+    "animal_at": 9.2,
+    "rain": true
+   }
+  },
+  {
+   "id": "d04_lock_river",
+   "template": "anim_lockon",
+   "variant": "river",
+   "start": 26.0,
+   "dur": 8.0,
+   "params": {
+    "who": "worker",
+    "eyes_at": 1.6,
+    "lock_at": 2.8,
+    "kicker": "The river *watches*",
+    "animal": {
+     "shape": "croc",
+     "w": 560,
+     "y": 520
+    },
+    "animal_at": 5.0
+   }
+  },
+  {
+   "id": "d05_lock_eyes",
+   "template": "anim_lockon",
+   "variant": "eyes_room",
+   "start": 34.0,
+   "dur": 6.0,
+   "params": {
+    "eyes_at": 0.6,
+    "lock_at": 3.4,
+    "kicker": "A room *already* watching you",
+    "heart": true
+   }
+  },
+  {
+   "id": "d06_options_list",
+   "template": "anim_options",
+   "variant": "list",
+   "start": 40.0,
+   "dur": 13.0,
+   "params": {
+    "verdict": "Bad plan.",
+    "verdict_at": 12.0,
+    "items": [
+     {
+      "text": "Run",
+      "at": 0.9,
+      "strike_at": 4.6,
+      "scene": {
+       "type": "run",
+       "at": 1.9,
+       "dur": 2.5,
+       "label": "Tigers run *60 km/h*",
+       "animal": {
+        "image": "../tests_anim/tiger_fill.png",
+        "w": 300
+       }
+      }
+     },
+     {
+      "text": "Climb a tree",
+      "at": 1.25,
+      "strike_at": 8.6,
+      "scene": {
+       "type": "climb",
+       "at": 5.3,
+       "dur": 3.0,
+       "label": "Tigers *climb*",
+       "animal": {
+        "image": "../tests_anim/tiger_fill.png",
+        "w": 340
+       }
+      }
+     },
+     {
+      "text": "Stare it down",
+      "at": 1.6,
+      "box_at": 9.3,
+      "strike_at": null
+     }
+    ]
+   }
+  },
+  {
+   "id": "d07_options_side",
+   "template": "anim_options",
+   "variant": "side",
+   "start": 53.0,
+   "dur": 12.0,
+   "params": {
+    "title": "In the *water*?",
+    "verdict": "Hide, then swim.",
+    "verdict_at": 10.6,
+    "items": [
+     {
+      "text": "Hide",
+      "at": 0.6,
+      "strike_at": 3.6,
+      "scene": {
+       "type": "hide",
+       "at": 1.2,
+       "label": "It smells you",
+       "animal": {
+        "shape": "croc",
+        "w": 520
+       }
+      }
+     },
+     {
+      "text": "Swim for it",
+      "at": 0.95,
+      "strike_at": 6.6,
+      "scene": {
+       "type": "swim",
+       "at": 4.0,
+       "label": "Crocs swim *faster*",
+       "animal": {
+        "shape": "croc",
+        "w": 500
+       }
+      }
+     },
+     {
+      "text": "Make yourself big",
+      "at": 1.3,
+      "scene": {
+       "type": "stand",
+       "at": 7.0,
+       "label": "Works on *cats*",
+       "animal": {
+        "image": "../tests_anim/tiger_fill.png",
+        "w": 320
+       }
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "d08_xray_human",
+   "template": "anim_xray",
+   "variant": "human",
+   "start": 65.0,
+   "dur": 7.0,
+   "params": {
+    "kicker": "Inside *you*",
+    "organ": "heart",
+    "bpm": 110,
+    "xray_at": 0.8,
+    "readouts": [
+     {
+      "text": "Heart rate *110 bpm*",
+      "at": 2.2
+     },
+     {
+      "text": "Adrenaline *up*",
+      "at": 3.6
+     }
+    ],
+    "line": "your body knows first",
+    "line_at": 5.0
+   }
+  },
+  {
+   "id": "d09_xray_croc",
+   "template": "anim_xray",
+   "variant": "animal",
+   "start": 72.0,
+   "dur": 7.0,
+   "params": {
+    "kicker": "Inside the *croc*",
+    "shape": "croc",
+    "organ": "gland",
+    "organ_label": "Salt glands",
+    "organ_at": 1.0,
+    "readouts": [
+     {
+      "text": "Pumps out *salt*",
+      "at": 2.6
+     }
+    ],
+    "line": "it can live in the sea",
+    "line_at": 4.6
+   }
+  }
+ ]
+}

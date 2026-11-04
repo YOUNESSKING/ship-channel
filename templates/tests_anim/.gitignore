@@ -1,0 +1,6 @@
+work/
+.*hf-transaction*/
+out/work-*/
+out/*.log
+out/*.silent.mp4
+work/t7/

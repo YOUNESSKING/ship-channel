@@ -1,0 +1,865 @@
+{
+ "MAP_02a": {
+  "chapter": "ch02",
+  "shot": "map_title",
+  "variant": "labeled",
+  "dur": 3.92,
+  "pin": {
+   "x": 640,
+   "y": 470
+  },
+  "name_at": 2.24,
+  "date_at": 1.28,
+  "gauge": null
+ },
+ "MAP_02b": {
+  "chapter": "ch02",
+  "shot": "map_ring",
+  "variant": "baked",
+  "dur": 3.2,
+  "pin": null,
+  "name_at": null,
+  "date_at": 1.04,
+  "gauge": null
+ },
+ "MAP_02c": {
+  "chapter": "ch02",
+  "shot": "shelf_map",
+  "variant": "gauge",
+  "dur": 2.16,
+  "pin": null,
+  "name_at": null,
+  "date_at": 1.56,
+  "gauge": {
+   "from": 0,
+   "to": -120,
+   "at": "w576",
+   "dur": 1.7,
+   "x": 930,
+   "y": 120,
+   "label_ft": "(-400 ft)",
+   "at_local": 1.28
+  }
+ },
+ "MAP_02c2": {
+  "chapter": "ch02",
+  "shot": "shelf_edge",
+  "variant": "gauge",
+  "dur": 2.72,
+  "pin": null,
+  "name_at": null,
+  "date_at": 0.72,
+  "gauge": {
+   "from": -120,
+   "to": -120,
+   "at": "start",
+   "dur": 0.1,
+   "x": 930,
+   "y": 120,
+   "label_ft": "(-400 ft)",
+   "at_local": 0.0
+  }
+ },
+ "MAP_03a": {
+  "chapter": "ch03",
+  "shot": "map_title",
+  "variant": "labeled",
+  "dur": 4.24,
+  "pin": {
+   "x": 640,
+   "y": 330
+  },
+  "name_at": 1.08,
+  "date_at": 2.48,
+  "gauge": null
+ },
+ "MAP_03b": {
+  "chapter": "ch03",
+  "shot": "no_strait",
+  "variant": "gauge",
+  "dur": 2.61,
+  "pin": null,
+  "name_at": null,
+  "date_at": 1.84,
+  "gauge": {
+   "from": 0,
+   "to": -120,
+   "at": "w742",
+   "dur": 1.7,
+   "x": 930,
+   "y": 120,
+   "label_ft": "(-400 ft)",
+   "at_local": 1.28
+  }
+ },
+ "MAP_03c": {
+  "chapter": "ch03",
+  "shot": "beringia",
+  "variant": "labeled",
+  "dur": 4.32,
+  "pin": {
+   "x": 640,
+   "y": 330
+  },
+  "name_at": 1.0,
+  "date_at": 2.64,
+  "gauge": null
+ },
+ "MAP_03d": {
+  "chapter": "ch03",
+  "shot": "shelf_edge",
+  "variant": "labeled",
+  "dur": 2.6,
+  "pin": {
+   "x": 600,
+   "y": 560
+  },
+  "name_at": 1.12,
+  "date_at": null,
+  "gauge": null
+ },
+ "MAP_03d2": {
+  "chapter": "ch03",
+  "shot": "shelf_edge2",
+  "variant": "baked",
+  "dur": 2.44,
+  "pin": null,
+  "name_at": null,
+  "date_at": 0.28,
+  "gauge": null
+ },
+ "MAP_03e": {
+  "chapter": "ch03",
+  "shot": "km1000",
+  "variant": "baked",
+  "dur": 1.52,
+  "pin": null,
+  "name_at": null,
+  "date_at": 1.04,
+  "gauge": null
+ },
+ "MAP_03e2": {
+  "chapter": "ch03",
+  "shot": "km1000_b",
+  "variant": "baked",
+  "dur": 2.96,
+  "pin": null,
+  "name_at": null,
+  "date_at": null,
+  "gauge": null
+ },
+ "MAP_03f": {
+  "chapter": "ch03",
+  "shot": "standstill",
+  "variant": "labeled",
+  "dur": 2.68,
+  "pin": {
+   "x": 600,
+   "y": 330
+  },
+  "name_at": 1.32,
+  "date_at": null,
+  "gauge": null
+ },
+ "MAP_03f2": {
+  "chapter": "ch03",
+  "shot": "standstill2",
+  "variant": "baked",
+  "dur": 2.32,
+  "pin": null,
+  "name_at": null,
+  "date_at": 0.4,
+  "gauge": null
+ },
+ "MAP_03g": {
+  "chapter": "ch03",
+  "shot": "kelp_map",
+  "variant": "labeled",
+  "dur": 3.36,
+  "pin": {
+   "x": 470,
+   "y": 250
+  },
+  "name_at": null,
+  "date_at": null,
+  "gauge": null
+ },
+ "MAP_03g2": {
+  "chapter": "ch03",
+  "shot": "kelp_coast",
+  "variant": "baked",
+  "dur": 1.92,
+  "pin": null,
+  "name_at": null,
+  "date_at": null,
+  "gauge": null
+ },
+ "MAP_04a": {
+  "chapter": "ch04",
+  "shot": "map_title",
+  "variant": "labeled",
+  "dur": 4.0,
+  "pin": {
+   "x": 640,
+   "y": 360
+  },
+  "name_at": 1.04,
+  "date_at": 2.08,
+  "gauge": null
+ },
+ "MAP_04b": {
+  "chapter": "ch04",
+  "shot": "no_north_sea",
+  "variant": "gauge",
+  "dur": 3.97,
+  "pin": null,
+  "name_at": null,
+  "date_at": 2.64,
+  "gauge": {
+   "from": 0,
+   "to": -120,
+   "at": "w1021",
+   "dur": 1.7,
+   "x": 930,
+   "y": 120,
+   "label_ft": "(-400 ft)",
+   "at_local": 1.12
+  }
+ },
+ "MAP_04c": {
+  "chapter": "ch04",
+  "shot": "doggerland",
+  "variant": "labeled",
+  "dur": 4.45,
+  "pin": {
+   "x": 640,
+   "y": 380
+  },
+  "name_at": 0.68,
+  "date_at": 2.64,
+  "gauge": null
+ },
+ "MAP_04d": {
+  "chapter": "ch04",
+  "shot": "baltic",
+  "variant": "labeled",
+  "dur": 2.69,
+  "pin": {
+   "x": 760,
+   "y": 300
+  },
+  "name_at": 1.651,
+  "date_at": null,
+  "gauge": null
+ },
+ "MAP_04d2": {
+  "chapter": "ch04",
+  "shot": "baltic2",
+  "variant": "baked",
+  "dur": 1.72,
+  "pin": null,
+  "name_at": null,
+  "date_at": 0.36,
+  "gauge": null
+ },
+ "MAP_04e": {
+  "chapter": "ch04",
+  "shot": "abandoned",
+  "variant": "labeled",
+  "dur": 4.16,
+  "pin": {
+   "x": 560,
+   "y": 360
+  },
+  "name_at": 2.133,
+  "date_at": 3.2,
+  "gauge": null
+ },
+ "MAP_04f": {
+  "chapter": "ch04",
+  "shot": "channel",
+  "variant": "gauge",
+  "dur": 2.72,
+  "pin": null,
+  "name_at": null,
+  "date_at": 1.76,
+  "gauge": {
+   "from": 0,
+   "to": -120,
+   "at": "w1192",
+   "dur": 1.5,
+   "x": 930,
+   "y": 120,
+   "label_ft": "(-400 ft)",
+   "at_local": 0.64
+  }
+ },
+ "MAP_04g": {
+  "chapter": "ch04",
+  "shot": "rivers",
+  "variant": "baked",
+  "dur": 4.63,
+  "pin": null,
+  "name_at": null,
+  "date_at": null,
+  "gauge": null
+ },
+ "MAP_05a": {
+  "chapter": "ch05",
+  "shot": "map_title",
+  "variant": "labeled",
+  "dur": 4.16,
+  "pin": {
+   "x": 640,
+   "y": 380
+  },
+  "name_at": 1.12,
+  "date_at": 2.2,
+  "gauge": null
+ },
+ "MAP_05b": {
+  "chapter": "ch05",
+  "shot": "cut_off",
+  "variant": "gauge",
+  "dur": 4.56,
+  "pin": null,
+  "name_at": null,
+  "date_at": 2.64,
+  "gauge": {
+   "from": 0,
+   "to": -120,
+   "at": "w1244",
+   "dur": 1.7,
+   "x": 930,
+   "y": 120,
+   "label_ft": "(-400 ft)",
+   "at_local": 0.24
+  }
+ },
+ "MAP_05c": {
+  "chapter": "ch05",
+  "shot": "rivers",
+  "variant": "baked",
+  "dur": 2.96,
+  "pin": null,
+  "name_at": null,
+  "date_at": 1.36,
+  "gauge": null
+ },
+ "MAP_05d": {
+  "chapter": "ch05",
+  "shot": "shores_map",
+  "variant": "baked",
+  "dur": 2.16,
+  "pin": null,
+  "name_at": null,
+  "date_at": 0.8,
+  "gauge": null
+ },
+ "MAP_05d2": {
+  "chapter": "ch05",
+  "shot": "shores_map2",
+  "variant": "baked",
+  "dur": 2.32,
+  "pin": null,
+  "name_at": null,
+  "date_at": 0.827,
+  "gauge": null
+ },
+ "MAP_05e": {
+  "chapter": "ch05",
+  "shot": "cave_pin",
+  "variant": "labeled",
+  "dur": 2.16,
+  "pin": {
+   "x": 860,
+   "y": 380
+  },
+  "name_at": 0.64,
+  "date_at": 0.64,
+  "gauge": null
+ },
+ "MAP_05f": {
+  "chapter": "ch05",
+  "shot": "refill_map",
+  "variant": "baked",
+  "dur": 3.84,
+  "pin": null,
+  "name_at": null,
+  "date_at": 2.32,
+  "gauge": null
+ },
+ "MAP_06a": {
+  "chapter": "ch06",
+  "shot": "map_title",
+  "variant": "labeled",
+  "dur": 2.68,
+  "pin": {
+   "x": 330,
+   "y": 470
+  },
+  "name_at": 0.12,
+  "date_at": 1.36,
+  "gauge": null
+ },
+ "MAP_06b": {
+  "chapter": "ch06",
+  "shot": "gibraltar",
+  "variant": "gauge",
+  "dur": 4.04,
+  "pin": null,
+  "name_at": null,
+  "date_at": 3.2,
+  "gauge": {
+   "from": 0,
+   "to": -120,
+   "at": "w1513",
+   "dur": 1.7,
+   "x": 930,
+   "y": 120,
+   "label_ft": "(-400 ft)",
+   "at_local": 2.32
+  }
+ },
+ "MAP_06c": {
+  "chapter": "ch06",
+  "shot": "adriatic",
+  "variant": "baked",
+  "dur": 2.32,
+  "pin": null,
+  "name_at": null,
+  "date_at": 0.56,
+  "gauge": null
+ },
+ "MAP_06c2": {
+  "chapter": "ch06",
+  "shot": "sardinia",
+  "variant": "baked",
+  "dur": 2.4,
+  "pin": null,
+  "name_at": null,
+  "date_at": 0.64,
+  "gauge": null
+ },
+ "MAP_06d": {
+  "chapter": "ch06",
+  "shot": "iberia",
+  "variant": "labeled",
+  "dur": 2.16,
+  "pin": {
+   "x": 300,
+   "y": 400
+  },
+  "name_at": 0.16,
+  "date_at": 1.4,
+  "gauge": null
+ },
+ "MAP_06e": {
+  "chapter": "ch06",
+  "shot": "sunk_coast",
+  "variant": "gauge",
+  "dur": 4.08,
+  "pin": null,
+  "name_at": null,
+  "date_at": 2.107,
+  "gauge": {
+   "from": -120,
+   "to": -120,
+   "at": "start",
+   "dur": 0.1,
+   "x": 930,
+   "y": 120,
+   "label_ft": "(-400 ft)",
+   "at_local": 0.0
+  }
+ },
+ "MAP_06e2": {
+  "chapter": "ch06",
+  "shot": "underwater",
+  "variant": "gauge",
+  "dur": 1.68,
+  "pin": null,
+  "name_at": null,
+  "date_at": 0.4,
+  "gauge": {
+   "from": -120,
+   "to": 0,
+   "at": "w1668",
+   "dur": 1.5,
+   "x": 930,
+   "y": 120,
+   "label_ft": "(+400 ft)",
+   "at_local": 0.16
+  }
+ },
+ "MAP_07a": {
+  "chapter": "ch07",
+  "shot": "map_title",
+  "variant": "labeled",
+  "dur": 4.24,
+  "pin": {
+   "x": 640,
+   "y": 360
+  },
+  "name_at": 0.96,
+  "date_at": 2.4,
+  "gauge": null
+ },
+ "MAP_07b2": {
+  "chapter": "ch07",
+  "shot": "red_wide",
+  "variant": "baked",
+  "dur": 2.32,
+  "pin": null,
+  "name_at": null,
+  "date_at": 0.72,
+  "gauge": null
+ },
+ "MAP_07b": {
+  "chapter": "ch07",
+  "shot": "strait",
+  "variant": "labeled",
+  "dur": 2.76,
+  "pin": {
+   "x": 700,
+   "y": 600
+  },
+  "name_at": 0.48,
+  "date_at": 0.92,
+  "gauge": null
+ },
+ "MAP_07c": {
+  "chapter": "ch07",
+  "shot": "shallow",
+  "variant": "gauge",
+  "dur": 2.72,
+  "pin": null,
+  "name_at": null,
+  "date_at": null,
+  "gauge": {
+   "from": 0,
+   "to": -120,
+   "at": "w1788",
+   "dur": 1.5,
+   "x": 930,
+   "y": 120,
+   "label_ft": "(-400 ft)",
+   "at_local": 0.72
+  }
+ },
+ "MAP_07c2": {
+  "chapter": "ch07",
+  "shot": "shallow2",
+  "variant": "baked",
+  "dur": 2.16,
+  "pin": null,
+  "name_at": null,
+  "date_at": 0.88,
+  "gauge": null
+ },
+ "MAP_08a": {
+  "chapter": "ch08",
+  "shot": "map_title",
+  "variant": "labeled",
+  "dur": 4.08,
+  "pin": {
+   "x": 640,
+   "y": 330
+  },
+  "name_at": 2.72,
+  "date_at": 0.8,
+  "gauge": null
+ },
+ "MAP_08b": {
+  "chapter": "ch08",
+  "shot": "sahul",
+  "variant": "gauge",
+  "dur": 3.44,
+  "pin": null,
+  "name_at": null,
+  "date_at": null,
+  "gauge": {
+   "from": 0,
+   "to": -120,
+   "at": "w1986",
+   "dur": 1.7,
+   "x": 930,
+   "y": 120,
+   "label_ft": "(-400 ft)",
+   "at_local": 1.04
+  }
+ },
+ "MAP_08b2": {
+  "chapter": "ch08",
+  "shot": "sahul2",
+  "variant": "baked",
+  "dur": 1.17,
+  "pin": null,
+  "name_at": null,
+  "date_at": 0.0,
+  "gauge": null
+ },
+ "MAP_08c": {
+  "chapter": "ch08",
+  "shot": "lake_map",
+  "variant": "baked",
+  "dur": 2.03,
+  "pin": null,
+  "name_at": null,
+  "date_at": null,
+  "gauge": null
+ },
+ "MAP_08c2": {
+  "chapter": "ch08",
+  "shot": "lake_map2",
+  "variant": "baked",
+  "dur": 1.92,
+  "pin": null,
+  "name_at": null,
+  "date_at": 0.72,
+  "gauge": null
+ },
+ "MAP_08d": {
+  "chapter": "ch08",
+  "shot": "broke_in",
+  "variant": "gauge",
+  "dur": 2.19,
+  "pin": null,
+  "name_at": null,
+  "date_at": null,
+  "gauge": {
+   "from": -120,
+   "to": -60,
+   "at": "w2148",
+   "dur": 1.5,
+   "x": 930,
+   "y": 120,
+   "label_ft": "(rising)",
+   "at_local": 1.147
+  }
+ },
+ "MAP_09a": {
+  "chapter": "ch09",
+  "shot": "map_title",
+  "variant": "labeled",
+  "dur": 2.64,
+  "pin": {
+   "x": 640,
+   "y": 420
+  },
+  "name_at": 1.04,
+  "date_at": 1.52,
+  "gauge": null
+ },
+ "MAP_09b": {
+  "chapter": "ch09",
+  "shot": "further_out",
+  "variant": "gauge",
+  "dur": 3.48,
+  "pin": null,
+  "name_at": null,
+  "date_at": 2.12,
+  "gauge": {
+   "from": 0,
+   "to": -120,
+   "at": "w2201",
+   "dur": 1.7,
+   "x": 930,
+   "y": 120,
+   "label_ft": "(-400 ft)",
+   "at_local": 0.92
+  }
+ },
+ "MAP_09c": {
+  "chapter": "ch09",
+  "shot": "florida",
+  "variant": "labeled",
+  "dur": 3.16,
+  "pin": {
+   "x": 760,
+   "y": 420
+  },
+  "name_at": 0.0,
+  "date_at": 1.12,
+  "gauge": null
+ },
+ "MAP_09d": {
+  "chapter": "ch09",
+  "shot": "mississippi",
+  "variant": "labeled",
+  "dur": 1.92,
+  "pin": {
+   "x": 560,
+   "y": 300
+  },
+  "name_at": 0.24,
+  "date_at": null,
+  "gauge": null
+ },
+ "MAP_09e": {
+  "chapter": "ch09",
+  "shot": "white_sands",
+  "variant": "labeled",
+  "dur": 2.04,
+  "pin": {
+   "x": 330,
+   "y": 260
+  },
+  "name_at": 0.0,
+  "date_at": 0.96,
+  "gauge": null
+ },
+ "MAP_09e2": {
+  "chapter": "ch09",
+  "shot": "white_sands2",
+  "variant": "baked",
+  "dur": 2.28,
+  "pin": null,
+  "name_at": null,
+  "date_at": 0.12,
+  "gauge": null
+ },
+ "MAP_10a": {
+  "chapter": "ch10",
+  "shot": "map_title",
+  "variant": "labeled",
+  "dur": 2.88,
+  "pin": {
+   "x": 640,
+   "y": 380
+  },
+  "name_at": 1.36,
+  "date_at": 1.92,
+  "gauge": null
+ },
+ "MAP_10a2": {
+  "chapter": "ch10",
+  "shot": "islands",
+  "variant": "baked",
+  "dur": 3.72,
+  "pin": null,
+  "name_at": null,
+  "date_at": null,
+  "gauge": null
+ },
+ "MAP_10b": {
+  "chapter": "ch10",
+  "shot": "reveal",
+  "variant": "gauge",
+  "dur": 3.32,
+  "pin": null,
+  "name_at": null,
+  "date_at": 0.92,
+  "gauge": {
+   "from": 0,
+   "to": -120,
+   "at": "w2388",
+   "dur": 1.7,
+   "x": 930,
+   "y": 120,
+   "label_ft": "(-400 ft)",
+   "at_local": 0.0
+  }
+ },
+ "MAP_10c": {
+  "chapter": "ch10",
+  "shot": "alaska",
+  "variant": "baked",
+  "dur": 1.92,
+  "pin": null,
+  "name_at": null,
+  "date_at": null,
+  "gauge": null
+ },
+ "MAP_10d": {
+  "chapter": "ch10",
+  "shot": "sundaland",
+  "variant": "labeled",
+  "dur": 2.88,
+  "pin": {
+   "x": 640,
+   "y": 380
+  },
+  "name_at": 1.96,
+  "date_at": null,
+  "gauge": null
+ },
+ "MAP_10d2": {
+  "chapter": "ch10",
+  "shot": "sundaland2",
+  "variant": "baked",
+  "dur": 2.4,
+  "pin": null,
+  "name_at": null,
+  "date_at": 0.32,
+  "gauge": null
+ },
+ "MAP_10e": {
+  "chapter": "ch10",
+  "shot": "rivers",
+  "variant": "baked",
+  "dur": 4.21,
+  "pin": null,
+  "name_at": null,
+  "date_at": 0.24,
+  "gauge": null
+ },
+ "MAP_10f": {
+  "chapter": "ch10",
+  "shot": "swallowed",
+  "variant": "gauge",
+  "dur": 4.74,
+  "pin": null,
+  "name_at": null,
+  "date_at": 3.143,
+  "gauge": {
+   "from": -120,
+   "to": 0,
+   "at": "w2504",
+   "dur": 2.0,
+   "x": 930,
+   "y": 120,
+   "label_ft": "(+400 ft)",
+   "at_local": 2.023
+  }
+ },
+ "MAP_10g": {
+  "chapter": "ch10",
+  "shot": "migrate",
+  "variant": "baked",
+  "dur": 1.81,
+  "pin": null,
+  "name_at": null,
+  "date_at": 0.933,
+  "gauge": null
+ },
+ "MAP_10g2": {
+  "chapter": "ch10",
+  "shot": "migrate2",
+  "variant": "baked",
+  "dur": 3.44,
+  "pin": null,
+  "name_at": null,
+  "date_at": 1.28,
+  "gauge": null
+ },
+ "MAP_F": {
+  "chapter": "final",
+  "shot": "world_map",
+  "variant": "gauge",
+  "dur": 2.87,
+  "pin": null,
+  "name_at": null,
+  "date_at": 1.12,
+  "gauge": {
+   "from": 0,
+   "to": -120,
+   "at": "start",
+   "dur": 1.5,
+   "x": 930,
+   "y": 120,
+   "label_ft": "(-400 ft)",
+   "at_local": 0.0
+  }
+ }
+}

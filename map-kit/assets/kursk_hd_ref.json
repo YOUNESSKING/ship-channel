@@ -1,0 +1,20 @@
+{
+ "name": "kursk_hd_ref",
+ "center": [
+  52.35,
+  36.3
+ ],
+ "zoom": 9,
+ "origin_world_px": [
+  77312,
+  42277
+ ],
+ "size": [
+  2880,
+  1620
+ ],
+ "meters_per_px": 186.76,
+ "sea_below": 0.5,
+ "credit": "Terrain: Mapzen / AWS Terrain Tiles (open data)",
+ "hd_scale": 2
+}

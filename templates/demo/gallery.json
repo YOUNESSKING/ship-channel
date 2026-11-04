@@ -1,0 +1,1240 @@
+{
+ "key": "gallery",
+ "title": "Template gallery",
+ "words": "../../videos/test2/audio/narration_will_words.json",
+ "audio_offset": 0,
+ "clips_dir": "../../videos/test2/clips",
+ "duration": 162.0,
+ "shots": [
+  {
+   "id": "g01_clip_plain_push",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": 0.0,
+   "end": "t3.6",
+   "params": {},
+   "clip": {
+    "file": "t2_01_ship_rail.mp4"
+   }
+  },
+  {
+   "id": "g02_clip_plain_pull",
+   "template": "clip_plain",
+   "variant": "pull",
+   "start": 3.6,
+   "end": "t7.2",
+   "params": {},
+   "clip": {
+    "file": "t2_02_person_in_sea.mp4"
+   }
+  },
+  {
+   "id": "g03_clip_plain_jump",
+   "template": "clip_plain",
+   "variant": "jump",
+   "start": 7.2,
+   "end": "t10.8",
+   "params": {
+    "jump_at": 1.5
+   },
+   "clip": {
+    "file": "t2_04_rescue_heli.mp4"
+   }
+  },
+  {
+   "id": "g04_number_clip_right",
+   "template": "number_clip",
+   "variant": "right",
+   "start": 10.8,
+   "end": "t14.4",
+   "params": {
+    "kicker": "Near the ice",
+    "number": "0",
+    "side": "left",
+    "size": 120,
+    "count": {
+     "from": 0,
+     "to": -1.8,
+     "decimals": 1,
+     "dur": 1.2,
+     "suffix": "\u00b0C",
+     "at": 0.5
+    },
+    "subline": "and falling",
+    "number_at": 0.4
+   },
+   "clip": {
+    "file": "t2_12_pack_ice_edge.mp4"
+   }
+  },
+  {
+   "id": "g05_number_clip_center_bars",
+   "template": "number_clip",
+   "variant": "center_bars",
+   "start": 14.4,
+   "end": "t18.0",
+   "params": {
+    "number": "15-30",
+    "unit": "minutes",
+    "subline": "until you pass out",
+    "number_at": 0.3,
+    "subline_at": 1.2
+   },
+   "clip": {
+    "file": "t2_03_cold_chin.mp4"
+   }
+  },
+  {
+   "id": "g06_number_clip_left_stack",
+   "template": "number_clip",
+   "variant": "left_stack",
+   "start": 18.0,
+   "end": "t21.6",
+   "params": {
+    "kicker": "Coast guard",
+    "number": "45",
+    "unit": "minutes",
+    "subline": "away",
+    "number_at": 0.3
+   },
+   "clip": {
+    "file": "t2_12_ice_front.mp4"
+   }
+  },
+  {
+   "id": "g07_number_clip_strike_swap",
+   "template": "number_clip",
+   "variant": "strike_swap",
+   "start": 21.6,
+   "end": "t25.2",
+   "params": {
+    "lead1": "The water",
+    "lead2": "Fresh water freezes at",
+    "old": "0\u00b0C",
+    "new": "-1.8\u00b0C",
+    "new_count": true,
+    "subline": "salt lowers the freezing point",
+    "show_at": 0.1,
+    "swap_at": 0.5,
+    "strike_at": 0.9,
+    "subline_at": 1.8
+   },
+   "clip": {
+    "file": "t2_13_frazil_ice.mp4"
+   }
+  },
+  {
+   "id": "g08_lower_third_two_part",
+   "template": "lower_third",
+   "variant": "two_part",
+   "start": 25.2,
+   "end": "t28.8",
+   "params": {
+    "text": "coast guard",
+    "aside": "(45 minutes away)",
+    "at": 0.2,
+    "aside_at": 0.8
+   },
+   "clip": {
+    "file": "t2_04_rescue_heli.mp4"
+   }
+  },
+  {
+   "id": "g09_lower_third_kicker_line",
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "start": 28.8,
+   "end": "t32.4",
+   "params": {
+    "kicker": "Meanwhile",
+    "text": "a bay full of seals",
+    "at": 0.3
+   },
+   "clip": {
+    "file": "t2_07_seal_bay.mp4",
+    "in": 0.5
+   }
+  },
+  {
+   "id": "g10_lower_third_italic_word",
+   "template": "lower_third",
+   "variant": "italic_word",
+   "start": 32.4,
+   "end": "t36.0",
+   "params": {
+    "text": "kelp",
+    "at": 0.3
+   },
+   "clip": {
+    "file": "t2_06_kelp_forest.mp4"
+   }
+  },
+  {
+   "id": "g11_extinct_plate_center",
+   "template": "extinct_plate",
+   "variant": "center",
+   "start": 36.0,
+   "end": "t39.6",
+   "params": {
+    "word": "EXTINCT",
+    "date": "3.6 million years ago",
+    "at": 0.3
+   },
+   "clip": {
+    "file": "t2_16_megalodon.mp4",
+    "in": 1.0
+   }
+  },
+  {
+   "id": "g12_extinct_plate_left",
+   "template": "extinct_plate",
+   "variant": "left",
+   "start": 39.6,
+   "end": "t43.2",
+   "params": {
+    "word": "UNKNOWN",
+    "date": "nobody has seen one alive",
+    "at": 0.3,
+    "sound": false
+   },
+   "clip": {
+    "file": "t2_16_megalodon.mp4",
+    "in": 1.0
+   }
+  },
+  {
+   "id": "g13_title_card_center_bars",
+   "template": "title_card",
+   "variant": "center_bars",
+   "start": 43.2,
+   "end": "t46.8",
+   "params": {
+    "kicker": "Chapter one",
+    "title": "North Atlantic",
+    "date": "20,000 years ago",
+    "date_at": 0.8
+   },
+   "clip": {
+    "file": "t2_10_orca_dusk.mp4",
+    "in": 0.95
+   }
+  },
+  {
+   "id": "g14_title_card_left_plate",
+   "template": "title_card",
+   "variant": "left_plate",
+   "start": 46.8,
+   "end": "t50.4",
+   "params": {
+    "kicker": "Chapter two",
+    "title": "Southern Ocean",
+    "date": "20,000 years ago",
+    "date_at": 0.8
+   },
+   "clip": {
+    "file": "t2_08_horizon_dawn.mp4"
+   }
+  },
+  {
+   "id": "g15_title_card_minimal",
+   "template": "title_card",
+   "variant": "minimal",
+   "start": 50.4,
+   "end": "t54.0",
+   "params": {
+    "kicker": "Chapter three",
+    "title": "Bering Sea",
+    "date": "20,000 years ago",
+    "date_at": 0.8
+   },
+   "clip": {
+    "file": "t2_06_kelp_forest.mp4"
+   }
+  },
+  {
+   "id": "g16_stick_water_sea",
+   "template": "stick_water",
+   "variant": "sea",
+   "start": 54.0,
+   "end": "t57.6",
+   "params": {
+    "beats": [
+     {
+      "kind": "you",
+      "label": "you"
+     },
+     {
+      "kind": "items",
+      "at": 1.2,
+      "items": [
+       {
+        "icon": "boat",
+        "label": "NO BOAT",
+        "at": 1.3
+       },
+       {
+        "icon": "wetsuit",
+        "label": "NO WETSUIT",
+        "at": 1.9
+       }
+      ]
+     },
+     {
+      "kind": "distance",
+      "at": 3.0,
+      "label": "100 yards",
+      "label_at": 3.1
+     }
+    ]
+   }
+  },
+  {
+   "id": "g17_stick_water_ice",
+   "template": "stick_water",
+   "variant": "ice",
+   "start": 57.6,
+   "end": "t61.2",
+   "params": {
+    "beats": [
+     {
+      "kind": "you",
+      "label": "you"
+     },
+     {
+      "kind": "items",
+      "at": 0.8,
+      "items": [
+       {
+        "icon": "lifering",
+        "label": "NO RING",
+        "at": 0.9
+       },
+       {
+        "icon": "phone",
+        "label": "NO PHONE",
+        "at": 1.3
+       },
+       {
+        "icon": "flame",
+        "label": "NO FIRE",
+        "at": 1.7
+       }
+      ]
+     },
+     {
+      "kind": "distance",
+      "at": 2.4,
+      "label": "2 km of ice",
+      "label_at": 2.5
+     }
+    ],
+    "shore_label": "ICE"
+   }
+  },
+  {
+   "id": "g18_stick_gag_text_right",
+   "template": "stick_gag",
+   "variant": "text_right",
+   "start": 61.2,
+   "end": "t64.8",
+   "params": {
+    "pose": "gasp",
+    "kicker": "Cold shock",
+    "number": "1",
+    "unit": "minute",
+    "line": "can't control your breathing",
+    "icon": "snowflake",
+    "icon_at": 0.5,
+    "timer": {
+     "from": 0,
+     "to": 1
+    },
+    "line_at": 1.0
+   }
+  },
+  {
+   "id": "g19_stick_gag_icon_pair",
+   "template": "stick_gag",
+   "variant": "icon_pair",
+   "start": 64.8,
+   "end": "t68.4",
+   "params": {
+    "pose": "tread",
+    "kicker": "Lifeboats",
+    "number": "0",
+    "unit": "boats",
+    "icon": "boat",
+    "icon_label": "NO BOAT",
+    "cross": true,
+    "icon_at": 0.4,
+    "line": "nobody is coming",
+    "line_at": 1.4
+   }
+  },
+  {
+   "id": "g20_scale_ruler_silhouette",
+   "template": "scale_ruler",
+   "variant": "silhouette",
+   "start": 68.4,
+   "end": "t72.0",
+   "params": {
+    "animal": "shark",
+    "length_m": 6,
+    "name": "Great white shark"
+   }
+  },
+  {
+   "id": "g21_scale_ruler_water",
+   "template": "scale_ruler",
+   "variant": "water",
+   "start": 72.0,
+   "end": "t75.6",
+   "params": {
+    "animal": "orca",
+    "length_m": 7,
+    "name": "Orca"
+   }
+  },
+  {
+   "id": "g22_scale_ruler_clip",
+   "template": "scale_ruler",
+   "variant": "clip",
+   "start": 75.6,
+   "end": "t79.2",
+   "params": {
+    "length_m": 15,
+    "name": "Megalodon",
+    "figure": {
+     "x": 150,
+     "feet_y": 650,
+     "scale": 0.9
+    },
+    "span": {
+     "x0": 150,
+     "x1": 1180,
+     "y": 120
+    },
+    "label": "15 m  *(50 ft)*"
+   },
+   "clip": {
+    "file": "t2_16_megalodon.mp4",
+    "in": 1.0
+   }
+  },
+  {
+   "id": "g23_problem_counter_corner_badge",
+   "template": "problem_counter",
+   "variant": "corner_badge",
+   "start": 79.2,
+   "end": "t82.8",
+   "params": {
+    "n": 1,
+    "title": "the cold",
+    "at": 0.3
+   },
+   "clip": {
+    "file": "t2_02_person_in_sea.mp4"
+   }
+  },
+  {
+   "id": "g24_problem_counter_center_line",
+   "template": "problem_counter",
+   "variant": "center_line",
+   "start": 82.8,
+   "end": "t86.4",
+   "params": {
+    "n": 2,
+    "title": "the food",
+    "decider": true,
+    "at": 0.3
+   },
+   "clip": {
+    "file": "t2_08_horizon_dawn.mp4"
+   }
+  },
+  {
+   "id": "g25_problem_counter_pips",
+   "template": "problem_counter",
+   "variant": "pips",
+   "start": 86.4,
+   "end": "t90.0",
+   "params": {
+    "n": 2,
+    "total": 3,
+    "title": "the sharks",
+    "at": 0.3
+   },
+   "clip": {
+    "file": "t2_07_seal_bay.mp4",
+    "in": 0.5
+   }
+  },
+  {
+   "id": "g26_tier_board_roadmap",
+   "template": "tier_board",
+   "variant": "roadmap",
+   "start": 90.0,
+   "end": "t93.6",
+   "params": {
+    "tiles": [
+     {
+      "name": "North Atlantic"
+     },
+     {
+      "name": "Southern Ocean"
+     },
+     {
+      "name": "Bering Sea"
+     },
+     {
+      "name": "North Sea"
+     },
+     {
+      "name": "Black Sea"
+     },
+     {
+      "name": "Mediterranean"
+     },
+     {
+      "name": "Red Sea"
+     },
+     {
+      "name": "Carpentaria"
+     },
+     {
+      "name": "Gulf of Mexico"
+     },
+     {
+      "name": "Sunda Shelf"
+     },
+     {
+      "name": "Baltic"
+     }
+    ],
+    "reveal_at": 0.2,
+    "stagger": 0.12
+   }
+  },
+  {
+   "id": "g27_tier_board_drop",
+   "template": "tier_board",
+   "variant": "drop",
+   "start": 93.6,
+   "end": "t97.2",
+   "params": {
+    "tile": {
+     "name": "Southern Ocean"
+    },
+    "tier": "Hours",
+    "drop_at": 2.9,
+    "n_total": 11,
+    "placed": [
+     {
+      "name": "North Atlantic",
+      "tier": "Minutes"
+     },
+     {
+      "name": "Bering Sea",
+      "tier": "Hours"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g28_map_clip_labeled",
+   "template": "map_clip",
+   "variant": "labeled",
+   "start": 97.2,
+   "end": "t100.8",
+   "params": {
+    "pin": {
+     "x": 640,
+     "y": 330
+    },
+    "name": "North Atlantic",
+    "name_at": 0.0,
+    "date": "Last glacial maximum \u00b7 sea level -120 m",
+    "date_at": 0.5
+   },
+   "clip": {
+    "file": "../../maps/out/map_natlantic_v3.mp4"
+   }
+  },
+  {
+   "id": "g29_map_clip_gauge",
+   "template": "map_clip",
+   "variant": "gauge",
+   "start": 100.8,
+   "end": "t104.4",
+   "params": {
+    "gauge": {
+     "from": 0,
+     "to": -120,
+     "at": 0.2,
+     "dur": 1.4,
+     "x": 930,
+     "y": 170,
+     "label_ft": "(-400 ft)"
+    },
+    "date": "Sea level -120 m (-400 ft)",
+    "date_at": 0.8
+   },
+   "clip": {
+    "file": "../../maps/out/map_natlantic_v3.mp4"
+   }
+  },
+  {
+   "id": "g30_tier_board_final",
+   "template": "tier_board",
+   "variant": "final",
+   "start": 104.4,
+   "end": "t108.0",
+   "params": {
+    "placed": [
+     {
+      "name": "North Atlantic",
+      "image": "work/thumbs/c01.jpg",
+      "tier": "Minutes"
+     },
+     {
+      "name": "Southern Ocean",
+      "image": "work/thumbs/c02.jpg",
+      "tier": "Minutes"
+     },
+     {
+      "name": "Bering Sea",
+      "image": "work/thumbs/c03.jpg",
+      "tier": "Minutes"
+     },
+     {
+      "name": "North Sea",
+      "image": "work/thumbs/c04.jpg",
+      "tier": "Overnight"
+     },
+     {
+      "name": "Black Sea",
+      "image": "work/thumbs/c05.jpg",
+      "tier": "An hour"
+     },
+     {
+      "name": "Mediterranean",
+      "image": "work/thumbs/c06.jpg",
+      "tier": "Hours"
+     },
+     {
+      "name": "Red Sea",
+      "image": "work/thumbs/c07.jpg",
+      "tier": "Overnight"
+     },
+     {
+      "name": "Lake Carpentaria",
+      "image": "work/thumbs/c08.jpg",
+      "tier": "Hours"
+     },
+     {
+      "name": "Gulf of Mexico",
+      "image": "work/thumbs/c09.jpg",
+      "tier": "Days"
+     },
+     {
+      "name": "Sunda Shelf",
+      "image": "work/thumbs/c10.jpg",
+      "tier": "Days"
+     }
+    ],
+    "tiers": [
+     [
+      "Days",
+      "#4f7a86"
+     ],
+     [
+      "Overnight",
+      "#5f7f6a"
+     ],
+     [
+      "Hours",
+      "#8a9a62"
+     ],
+     [
+      "An hour",
+      "#b39a55"
+     ],
+     [
+      "Minutes",
+      "#b8794d"
+     ],
+     [
+      "Seconds",
+      "#9a4f4a"
+     ]
+    ],
+    "highlight_row": "Minutes",
+    "highlight_tiles": [
+     {
+      "name": "Southern Ocean",
+      "at": 0.6
+     },
+     {
+      "name": "North Atlantic",
+      "at": 1.2
+     },
+     {
+      "name": "Bering Sea",
+      "at": 1.8
+     }
+    ]
+   }
+  },
+  {
+   "id": "g31_tier_board_final_wide",
+   "template": "tier_board",
+   "variant": "final_wide",
+   "start": 108.0,
+   "end": "t111.6",
+   "params": {
+    "placed": [
+     {
+      "name": "North Atlantic",
+      "image": "work/thumbs/c01.jpg",
+      "tier": "Minutes"
+     },
+     {
+      "name": "Southern Ocean",
+      "image": "work/thumbs/c02.jpg",
+      "tier": "Minutes"
+     },
+     {
+      "name": "Bering Sea",
+      "image": "work/thumbs/c03.jpg",
+      "tier": "Minutes"
+     },
+     {
+      "name": "North Sea",
+      "image": "work/thumbs/c04.jpg",
+      "tier": "Overnight"
+     },
+     {
+      "name": "Black Sea",
+      "image": "work/thumbs/c05.jpg",
+      "tier": "An hour"
+     },
+     {
+      "name": "Mediterranean",
+      "image": "work/thumbs/c06.jpg",
+      "tier": "Hours"
+     },
+     {
+      "name": "Red Sea",
+      "image": "work/thumbs/c07.jpg",
+      "tier": "Overnight"
+     },
+     {
+      "name": "Lake Carpentaria",
+      "image": "work/thumbs/c08.jpg",
+      "tier": "Hours"
+     },
+     {
+      "name": "Gulf of Mexico",
+      "image": "work/thumbs/c09.jpg",
+      "tier": "Days"
+     },
+     {
+      "name": "Sunda Shelf",
+      "image": "work/thumbs/c10.jpg",
+      "tier": "Days"
+     }
+    ],
+    "tiers": [
+     [
+      "Days",
+      "#4f7a86"
+     ],
+     [
+      "Overnight",
+      "#5f7f6a"
+     ],
+     [
+      "Hours",
+      "#8a9a62"
+     ],
+     [
+      "An hour",
+      "#b39a55"
+     ],
+     [
+      "Minutes",
+      "#b8794d"
+     ],
+     [
+      "Seconds",
+      "#9a4f4a"
+     ]
+    ],
+    "highlight_row": "Days",
+    "highlight_tiles": [
+     {
+      "name": "Gulf of Mexico",
+      "at": 0.8
+     }
+    ]
+   }
+  },
+  {
+   "id": "g32_tier_board_drop_newtier",
+   "template": "tier_board",
+   "variant": "drop",
+   "start": 111.6,
+   "end": "t115.2",
+   "params": {
+    "tile": {
+     "name": "Gulf of Mexico",
+     "image": "work/thumbs/c09.jpg"
+    },
+    "tier": "Days",
+    "drop_at": 2.9,
+    "n_total": 10,
+    "tiers": [
+     [
+      "Days",
+      "#4f7a86"
+     ],
+     [
+      "Overnight",
+      "#5f7f6a"
+     ],
+     [
+      "Hours",
+      "#8a9a62"
+     ],
+     [
+      "An hour",
+      "#b39a55"
+     ],
+     [
+      "Minutes",
+      "#b8794d"
+     ],
+     [
+      "Seconds",
+      "#9a4f4a"
+     ]
+    ],
+    "add_tier_at": 0.6,
+    "placed": [
+     {
+      "name": "North Atlantic",
+      "image": "work/thumbs/c01.jpg",
+      "tier": "Minutes"
+     },
+     {
+      "name": "Southern Ocean",
+      "image": "work/thumbs/c02.jpg",
+      "tier": "Minutes"
+     },
+     {
+      "name": "Bering Sea",
+      "image": "work/thumbs/c03.jpg",
+      "tier": "Minutes"
+     },
+     {
+      "name": "North Sea",
+      "image": "work/thumbs/c04.jpg",
+      "tier": "Overnight"
+     },
+     {
+      "name": "Black Sea",
+      "image": "work/thumbs/c05.jpg",
+      "tier": "An hour"
+     },
+     {
+      "name": "Mediterranean",
+      "image": "work/thumbs/c06.jpg",
+      "tier": "Hours"
+     },
+     {
+      "name": "Red Sea",
+      "image": "work/thumbs/c07.jpg",
+      "tier": "Overnight"
+     },
+     {
+      "name": "Lake Carpentaria",
+      "image": "work/thumbs/c08.jpg",
+      "tier": "Hours"
+     }
+    ]
+   }
+  },
+  {
+   "id": "g33_outro_question",
+   "template": "outro",
+   "variant": "question",
+   "start": 115.2,
+   "end": "t118.8",
+   "params": {
+    "placed": [
+     {
+      "name": "North Atlantic",
+      "image": "work/thumbs/c01.jpg",
+      "tier": "Minutes"
+     },
+     {
+      "name": "Southern Ocean",
+      "image": "work/thumbs/c02.jpg",
+      "tier": "Minutes"
+     },
+     {
+      "name": "Bering Sea",
+      "image": "work/thumbs/c03.jpg",
+      "tier": "Minutes"
+     },
+     {
+      "name": "North Sea",
+      "image": "work/thumbs/c04.jpg",
+      "tier": "Overnight"
+     },
+     {
+      "name": "Black Sea",
+      "image": "work/thumbs/c05.jpg",
+      "tier": "An hour"
+     },
+     {
+      "name": "Mediterranean",
+      "image": "work/thumbs/c06.jpg",
+      "tier": "Hours"
+     },
+     {
+      "name": "Red Sea",
+      "image": "work/thumbs/c07.jpg",
+      "tier": "Overnight"
+     },
+     {
+      "name": "Lake Carpentaria",
+      "image": "work/thumbs/c08.jpg",
+      "tier": "Hours"
+     },
+     {
+      "name": "Gulf of Mexico",
+      "image": "work/thumbs/c09.jpg",
+      "tier": "Days"
+     },
+     {
+      "name": "Sunda Shelf",
+      "image": "work/thumbs/c10.jpg",
+      "tier": "Days"
+     }
+    ],
+    "tiers": [
+     [
+      "Days",
+      "#4f7a86"
+     ],
+     [
+      "Overnight",
+      "#5f7f6a"
+     ],
+     [
+      "Hours",
+      "#8a9a62"
+     ],
+     [
+      "An hour",
+      "#b39a55"
+     ],
+     [
+      "Minutes",
+      "#b8794d"
+     ],
+     [
+      "Seconds",
+      "#9a4f4a"
+     ]
+    ],
+    "line_at": 1.0
+   }
+  },
+  {
+   "id": "g34_outro_card",
+   "template": "outro",
+   "variant": "card",
+   "start": 118.8,
+   "end": "t122.4",
+   "params": {
+    "line_at": 1.0
+   }
+  },
+  {
+   "id": "g35_outro_end_screen",
+   "template": "outro",
+   "variant": "end_screen",
+   "start": 122.4,
+   "end": "t126.0",
+   "params": {
+    "placed": [
+     {
+      "name": "North Atlantic",
+      "image": "work/thumbs/c01.jpg",
+      "tier": "Minutes"
+     },
+     {
+      "name": "Southern Ocean",
+      "image": "work/thumbs/c02.jpg",
+      "tier": "Minutes"
+     },
+     {
+      "name": "Bering Sea",
+      "image": "work/thumbs/c03.jpg",
+      "tier": "Minutes"
+     },
+     {
+      "name": "North Sea",
+      "image": "work/thumbs/c04.jpg",
+      "tier": "Overnight"
+     },
+     {
+      "name": "Black Sea",
+      "image": "work/thumbs/c05.jpg",
+      "tier": "An hour"
+     },
+     {
+      "name": "Mediterranean",
+      "image": "work/thumbs/c06.jpg",
+      "tier": "Hours"
+     },
+     {
+      "name": "Red Sea",
+      "image": "work/thumbs/c07.jpg",
+      "tier": "Overnight"
+     },
+     {
+      "name": "Lake Carpentaria",
+      "image": "work/thumbs/c08.jpg",
+      "tier": "Hours"
+     },
+     {
+      "name": "Gulf of Mexico",
+      "image": "work/thumbs/c09.jpg",
+      "tier": "Days"
+     },
+     {
+      "name": "Sunda Shelf",
+      "image": "work/thumbs/c10.jpg",
+      "tier": "Days"
+     }
+    ],
+    "tiers": [
+     [
+      "Days",
+      "#4f7a86"
+     ],
+     [
+      "Overnight",
+      "#5f7f6a"
+     ],
+     [
+      "Hours",
+      "#8a9a62"
+     ],
+     [
+      "An hour",
+      "#b39a55"
+     ],
+     [
+      "Minutes",
+      "#b8794d"
+     ],
+     [
+      "Seconds",
+      "#9a4f4a"
+     ]
+    ]
+   }
+  },
+  {
+   "id": "g36_stick_land_grass",
+   "template": "stick_land",
+   "variant": "grass",
+   "start": 126.0,
+   "end": "t129.6",
+   "params": {
+    "land_at": 1.1,
+    "label_at": 1.6
+   }
+  },
+  {
+   "id": "g37_stick_land_snow",
+   "template": "stick_land",
+   "variant": "snow",
+   "start": 129.6,
+   "end": "t133.2",
+   "params": {
+    "land_at": 1.1,
+    "label_at": 1.6,
+    "result": "dry"
+   }
+  },
+  {
+   "id": "g38_stick_walk_channel",
+   "template": "stick_walk",
+   "variant": "channel",
+   "start": 133.2,
+   "end": "t136.8",
+   "params": {
+    "label": "Channel Tunnel",
+    "label_at": 1.2,
+    "result": "walking",
+    "result_at": 2.6
+   }
+  },
+  {
+   "id": "g39_stick_walk_bridge",
+   "template": "stick_walk",
+   "variant": "bridge",
+   "start": 136.8,
+   "end": "t140.4",
+   "params": {
+    "from_label": "ASIA",
+    "to_label": "AMERICA",
+    "label": "Beringia",
+    "label_at": 1.2,
+    "result": "on foot",
+    "result_at": 2.6
+   }
+  },
+  {
+   "id": "g40_stick_gag_penguin",
+   "template": "stick_gag",
+   "variant": "icon_pair",
+   "start": 140.4,
+   "end": "t144.0",
+   "params": {
+    "pose": "tread",
+    "kicker": "Penguins he caught",
+    "number": "0",
+    "icon": "penguin",
+    "icon_label": "FREE PENGUIN",
+    "icon_at": 0.5,
+    "line": "terrible at hunting",
+    "line_at": 1.3
+   }
+  },
+  {
+   "id": "g41_stick_gag_croc",
+   "template": "stick_gag",
+   "variant": "text_right",
+   "start": 144.0,
+   "end": "t147.6",
+   "params": {
+    "pose": "float",
+    "kicker": "Crocodiles",
+    "number": "?",
+    "icon": "croc",
+    "icon_at": 0.5,
+    "cross": false,
+    "line": "permitting",
+    "line_at": 1.3
+   }
+  },
+  {
+   "id": "g42_scale_ruler_seal",
+   "template": "scale_ruler",
+   "variant": "silhouette",
+   "start": 147.6,
+   "end": "t151.2",
+   "params": {
+    "animal": "leopard_seal",
+    "length_m": 3,
+    "label": "3 m (10 ft)",
+    "name": "Leopard seal"
+   }
+  },
+  {
+   "id": "g43_scale_ruler_croc",
+   "template": "scale_ruler",
+   "variant": "water",
+   "start": 151.2,
+   "end": "t154.8",
+   "params": {
+    "animal": "crocodile",
+    "length_m": 6,
+    "label": "up to 6 m (20 ft)",
+    "name": "Saltwater crocodile"
+   }
+  },
+  {
+   "id": "g44_map_measure_inset",
+   "template": "map_clip",
+   "variant": "labeled",
+   "start": 154.8,
+   "end": "t158.4",
+   "params": {
+    "pin": {
+     "x": 640,
+     "y": 330
+    },
+    "name": "North Atlantic",
+    "name_at": 0.0,
+    "measure": {
+     "from": {
+      "x": 300,
+      "y": 210
+     },
+     "to": {
+      "x": 300,
+      "y": 520
+     },
+     "label": "1,000 km",
+     "at": 0.8
+    },
+    "inset": {
+     "pin": {
+      "lat": 55,
+      "lon": -27
+     },
+     "corner": "tr",
+     "at": 0.3
+    }
+   },
+   "clip": {
+    "file": "../../maps/out/map_natlantic_v3.mp4"
+   }
+  },
+  {
+   "id": "g45_map_polar",
+   "template": "map_clip",
+   "variant": "baked",
+   "start": 158.4,
+   "end": "t162.0",
+   "params": {
+    "polar": {
+     "center": [
+      640,
+      360
+     ],
+     "two_r": 1011,
+     "pin": {
+      "lat": -62,
+      "lon": -40
+     },
+     "pin_name": "DROP POINT",
+     "rings": [
+      {
+       "lat": -60,
+       "label": "TODAY'S WINTER EDGE",
+       "at": 0.4
+      },
+      {
+       "lat": -50,
+       "grow_from": -60,
+       "label": "ICE AGE EDGE",
+       "at": 1.0,
+       "dur": 1.6
+      }
+     ]
+    }
+   },
+   "clip": {
+    "file": "../../videos/video01/maps/v01_southern.mp4"
+   }
+  }
+ ]
+}

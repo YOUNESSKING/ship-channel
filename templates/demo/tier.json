@@ -1,0 +1,12 @@
+{
+  "key": "tier",
+  "title": "Demo - tier drop (v9 end)",
+  "words": "../../videos/test2/audio/narration_will_words.json",
+  "audio_offset": 61.2,
+  "clips_dir": "../../videos/test2/clips",
+  "duration": 5.2,
+  "shots": [
+    { "id": "board", "template": "tier_board", "variant": "drop", "start": 0,
+      "params": { "tile": { "name": "North Atlantic" }, "tier": "Minutes", "drop_at": "w182", "n_total": 5, "slot_x": 440 } }
+  ]
+}

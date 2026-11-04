@@ -1,0 +1,7 @@
+{"voice": "test", "speed": 1.0, "duration": 24.0, "paragraphs": [
+ {"section": "INTRO", "tag": "MAP: intro-1 | wide view of the region, title card", "start": 0.0, "end": 11.0,
+  "text": "In the spring, the caravan left the old city of Orel. Ahead lay two hundred kilometres of open steppe.",
+  "sents": [[0, 0.0, 4.8], [52, 5.1, 11.0]]},
+ {"section": "INTRO", "tag": "MAP: intro-2 | route draws on to Kursk, markers pulse", "start": 11.6, "end": 23.4,
+  "text": "Day after day they followed the river south. Twelve days later, they reached Kursk.",
+  "sents": [[0, 11.6, 16.9], [44, 17.2, 23.4]]}]}

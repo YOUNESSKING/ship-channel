@@ -1,0 +1,735 @@
+{
+"m3b": [
+[
+1.5,
+"7 OCT 1777: the field, both lines, flags, legend",
+"-"
+],
+[
+4.0,
+"'fifteen hundred': ABOUT 1,500 card, guns pop",
+"hit, pop"
+],
+[
+7.0,
+"'moved out into a wheat field': columns + arrows, WHEAT FIELD",
+"whoosh"
+],
+[
+8.4,
+"'probe the American left': dashed probe, ring on the left",
+"-"
+],
+[
+11.0,
+"'hit both ends of the line': blue arrows, volleys",
+"whoosh, musket"
+],
+[
+14.6,
+"'Morgan's riflemen': Morgan badge + label, volleys",
+"musket"
+],
+[
+18.5,
+"'Simon Fraser ... hold the line together': rider + badge",
+"musket"
+],
+[
+21.3,
+"'mortally wounded': MORTALLY WOUNDED on the badge",
+"hit + shake"
+],
+[
+24.2,
+"'two big log forts, their redoubts': redoubts + labels",
+"hit, whoosh"
+],
+[
+27.0,
+"'Arnold was in the middle of it': badge + marker",
+"pop"
+],
+[
+31.5,
+"ACCOUNTS DIFFER: GATES LET HIM GO? / HE SIMPLY WENT?",
+"pop"
+],
+[
+38.0,
+"'threw them at the first redoubt'",
+"whoosh, musket"
+],
+[
+41.5,
+"'It held': IT HELD, the attack recoils",
+"hit + shake"
+],
+[
+45.8,
+"'was a gap': close-up option 2, the gap ring",
+"-"
+],
+[
+48.4,
+"'Canadian troops around two log cabins'",
+"pop"
+],
+[
+53.5,
+"'Colonel Breymann': label + badge (initials)",
+"-"
+],
+[
+55.2,
+"'open at the back': the open side glows",
+"pop"
+],
+[
+59.5,
+"'galloped ... between the two firing lines' (by several accounts)",
+"whoosh, musket"
+],
+[
+64.0,
+"'cleared the cabins'",
+"musket"
+],
+[
+67.5,
+"'round the open side of the German redoubt'",
+"whoosh"
+],
+[
+71.0,
+"'A ball broke his leg': hit, marker falls, WOUNDED",
+"hit + shake"
+],
+[
+75.5,
+"'his horse was killed': horse down; THE SAME LEG / QUEBEC",
+"hit"
+],
+[
+79.5,
+"'redoubt was taken ... Breymann was dead'",
+"pop, hit"
+],
+[
+84.0,
+"(archive insert covers 'Gates himself reported ... Breast Work.'; map holds)",
+"-"
+],
+[
+91.5,
+"'the whole British camp lay open from the side'",
+"hit"
+],
+[
+97.0,
+"casualty card 7 OCT: ABOUT 150 / OVER 630",
+"hit"
+],
+[
+104.0,
+"'That night': zoom out north (hudson), Burgoyne badge",
+"whoosh"
+],
+[
+106.8,
+"'to Saratoga': SARATOGA",
+"-"
+],
+[
+109.0,
+"'closed in around him': the ring",
+"whoosh"
+],
+[
+112.6,
+"'surrendered, about six thousand': SURRENDERED card",
+"hit + shake, ticks"
+],
+[
+115.3,
+"'France': FRANCE / AN ALLIANCE",
+"hit"
+],
+[
+119.0,
+"'Arnold spent the winter in a hospital bed'",
+"-"
+],
+[
+124.8,
+"method card, line 3 lit",
+"boom"
+]
+],
+"hook-b": [
+[
+0,
+"frame 0 = hook-a's last frame: the line broken at the redoubt, '?'",
+"-"
+],
+[
+1.2,
+"'But on the afternoon': rewind, the British step back",
+"whoosh"
+],
+[
+2.6,
+"'seventh of October': 7 OCTOBER 1777",
+"ticks"
+],
+[
+4.6,
+"'did not look like a victory': red pulse",
+"pop"
+],
+[
+6.6,
+"'fifteen hundred': ABOUT 1,500 card",
+"hit"
+],
+[
+9.6,
+"'marched out of their camp': columns + arrows",
+"whoosh"
+],
+[
+11.0,
+"'with cannon': the gun pops",
+"pop"
+],
+[
+12.0,
+"'into the fields': the wheat field",
+"-"
+],
+[
+14.0,
+"'the American left': the left glows + label",
+"-"
+],
+[
+15.8,
+"'The general who had fought them hardest': '?' in the camp",
+"pop"
+],
+[
+18.6,
+"'quarrelled': red crack",
+"hit"
+],
+[
+21.2,
+"'Horatio Gates': badge + HQ",
+"-"
+],
+[
+22.6,
+"'without a command': stamp",
+"hit + shake"
+],
+[
+24.3,
+"'When the guns opened': guns fire (visible), volleys",
+"fire, musket"
+],
+[
+26.0,
+"'he rode out to the fighting': the '?' rides out",
+"whoosh"
+],
+[
+28.8,
+"'An officer was reportedly sent after him'",
+"-"
+],
+[
+31.0,
+"'did not catch up': the officer falls behind",
+"musket"
+],
+[
+33.6,
+"the map dims, the '?' to the centre",
+"whoosh"
+],
+[
+35.0,
+"'Benedict Arnold': NAME SLAM",
+"hit + shake"
+],
+[
+36.6,
+"'Three years later': 1780",
+"ticks"
+],
+[
+39.0,
+"'West Point': card",
+"pop"
+],
+[
+42.4,
+"'traitor': TRAITOR stamp",
+"hit + shake"
+],
+[
+44.6,
+"CUT 1 'marched an army ... to Quebec' (snow, walls)",
+"whoosh + hit"
+],
+[
+46.5,
+"1 QUEBEC 1775",
+"pop"
+],
+[
+48.3,
+"CUT 2 'built a fleet out of a forest'",
+"whoosh + hit"
+],
+[
+51.5,
+"'Royal Navy': shot; 2 VALCOUR ISLAND 1776",
+"fire, pop"
+],
+[
+52.8,
+"CUT 3 'And at Saratoga'",
+"whoosh + hit"
+],
+[
+54.6,
+"'he broke a British army': arrow into the redoubt, blue",
+"hit + shake"
+],
+[
+57.3,
+"title card on 'three greatest'",
+"riser + boom"
+]
+],
+"hook-a": [
+[
+0,
+"frame 0: the theatre, territory (half), both flags, boats + columns already moving south, New England glow",
+"-"
+],
+[
+1.0,
+"'seventeen seventy-seven': 1777 on the date scroll",
+"-"
+],
+[
+2.5,
+"'a British army': the red force pulses",
+"pop"
+],
+[
+4.0,
+"'came down from Canada': red arrow down the lake to Albany",
+"whoosh"
+],
+[
+5.6,
+"'to cut the colonies': the red cut line",
+"pop"
+],
+[
+6.6,
+"'in two': CUT IN TWO",
+"hit + shake"
+],
+[
+7.6,
+"ONE continuous zoom starts (no cut, no flash)",
+"zoom whoosh"
+],
+[
+8.8,
+"mid-zoom: HUDSON on its word, the hudson map fades in",
+"-"
+],
+[
+10.6,
+"lands on 'Saratoga': SARATOGA, the armies",
+"hit + shake"
+],
+[
+12.0,
+"'Within weeks': OCTOBER 1777, legend, blue closes in",
+"ticks"
+],
+[
+13.4,
+"ABOUT 6,000 slams on 'six thousand', ticks",
+"hit + shake, ticks"
+],
+[
+15.8,
+"'lay down their arms': grey + white flag",
+"pop"
+],
+[
+18.6,
+"FRANCE / INTO THE WAR",
+"hit + shake, boom"
+],
+[
+20.4,
+"'And the man': push in to the battlefield",
+"-"
+],
+[
+21.8,
+"'broke the British line': the blue arrow breaks it",
+"whoosh, hit"
+],
+[
+23.4,
+"'no command at all': the '?' badge",
+"pop"
+],
+[
+24.3,
+"last frame (= hook-b frame 0)",
+"-"
+]
+],
+"m3a": [
+[
+1.2,
+"title card MOVE 3 \u00b7 THE OPEN BACK DOOR \u00b7 1777 over the Hudson (option 1, half)",
+"boom"
+],
+[
+3.4,
+"'Burgoyne's army was on the Hudson': red down the river road, badge",
+"whoosh"
+],
+[
+5.8,
+"'twenty-five miles above Albany': ALBANY + ~25 MILES",
+"-"
+],
+[
+8.4,
+"'Gates's army dug in on Bemis Heights': line, badge, BEMIS HEIGHTS",
+"-"
+],
+[
+10.0,
+"the dive (whoosh), colours dissolve, the bluffs glow",
+"zoom whoosh"
+],
+[
+11.6,
+"'river road'",
+"-"
+],
+[
+14.0,
+"'went around, through the woods to the west'",
+"whoosh"
+],
+[
+16.6,
+"'On the nineteenth': 19 SEPTEMBER 1777",
+"-"
+],
+[
+19.6,
+"'Freeman's Farm, the two armies met'",
+"musket"
+],
+[
+22.4,
+"'Arnold commanded the American left' (option 2)",
+"-"
+],
+[
+25.6,
+"'to fight in the woods'",
+"whoosh"
+],
+[
+27.8,
+"'behind the earthworks'",
+"-"
+],
+[
+30.2,
+"'Daniel Morgan's riflemen': badge + counter",
+"musket"
+],
+[
+33.4,
+"'regiment after regiment, in waves'",
+"whoosh, musket"
+],
+[
+36.8,
+"'At dusk German reinforcements arrived'",
+"whoosh"
+],
+[
+38.6,
+"'the British kept the clearing'",
+"-"
+],
+[
+41.8,
+"casualty card NEARLY 600 vs 320",
+"hit"
+],
+[
+45.4,
+"'they were stuck': STUCK",
+"hit"
+],
+[
+48.6,
+"the camp: Gates and Arnold, the crack",
+"hit"
+],
+[
+51.6,
+"'Gates took Morgan's riflemen': the counter slides to the HQ",
+"whoosh"
+],
+[
+54.2,
+"'shouting match'",
+"hit + shake"
+],
+[
+59.5,
+"verbatim quote card",
+"pop"
+],
+[
+63.8,
+"'a pass': A PASS",
+"hit"
+],
+[
+66.4,
+"'then he stayed'",
+"pop"
+],
+[
+69.4,
+"'no command at all': NO COMMAND, lines fade",
+"hit"
+]
+],
+"hook-b-cuts": [
+[
+44.6,
+"CUT 1 Quebec: Continental Colours flag + badge",
+"whoosh + hit"
+],
+[
+46.6,
+"1 QUEBEC 1775",
+"pop"
+],
+[
+48.3,
+"CUT 2 Valcour: Continental Colours",
+"whoosh + hit"
+],
+[
+51.5,
+"2 VALCOUR ISLAND 1776",
+"fire, pop"
+],
+[
+52.9,
+"CUT 3 Saratoga: 13-star flag + badge from here",
+"whoosh + hit"
+],
+[
+54.6,
+"arrow into the redoubt",
+"hit + shake"
+]
+],
+"hook-a-p2": [
+[
+0,
+"frame 0 (northeast p2)",
+"-"
+],
+[
+6.6,
+"CUT IN TWO",
+"hit"
+],
+[
+7.6,
+"zoom starts",
+"zoom whoosh"
+],
+[
+8.8,
+"mid-zoom: hudson p2 + HUDSON",
+"-"
+],
+[
+10.6,
+"lands on Saratoga",
+"hit"
+],
+[
+12.0,
+"Within weeks",
+"ticks"
+],
+[
+20.4,
+"push in to the battlefield",
+"-"
+]
+],
+"m3a-p2": [
+[
+1.2,
+"title over hudson p2 (option 1 half)",
+"boom"
+],
+[
+5.8,
+"~25 MILES / ALBANY",
+"-"
+],
+[
+8.4,
+"BEMIS HEIGHTS",
+"-"
+],
+[
+10.0,
+"the dive",
+"zoom whoosh"
+],
+[
+11.6,
+"river road",
+"-"
+]
+],
+"m3b-p2": [
+[
+104.0,
+"That night: zoom out onto hudson p2",
+"whoosh"
+],
+[
+106.8,
+"SARATOGA",
+"-"
+],
+[
+109.0,
+"the ring",
+"whoosh"
+],
+[
+112.6,
+"surrender card ticking",
+"ticks"
+],
+[
+113.6,
+"surrender card settled: ABOUT 6,000",
+"-"
+]
+],
+"hook-a-v2": [
+[
+0,
+"frame 0: clean, units moving, flags, territory",
+"-"
+],
+[
+2,
+"'seventeen seventy-seven': 1777",
+"-"
+],
+[
+4,
+"'going badly': GOING BADLY + red pulse",
+"-"
+],
+[
+6,
+"'New York': ring, label, flag",
+"-"
+],
+[
+8,
+"'Philadelphia, the American capital': SW edge marker",
+"-"
+],
+[
+10,
+"'a second British army': the column starts down the lake",
+"-"
+],
+[
+11.6,
+"'coming down from Canada': arrow + ONE zoom starts",
+"-"
+],
+[
+13.0,
+"mid-zoom onto the hudson map",
+"-"
+],
+[
+14.3,
+"lands on 'Saratoga'",
+"-"
+],
+[
+16,
+"'Within weeks': OCTOBER 1777",
+"-"
+],
+[
+17.6,
+"ABOUT 6,000 slams, ticks",
+"-"
+],
+[
+20,
+"'lay down their arms': grey + white flag",
+"-"
+],
+[
+22,
+"FRANCE / INTO THE WAR",
+"-"
+],
+[
+24,
+"'And the man': push in to the battlefield",
+"-"
+],
+[
+25.6,
+"'broke the British line'",
+"-"
+],
+[
+27.4,
+"'no command at all': the '?' badge",
+"-"
+]
+]
+}

@@ -1,0 +1,11 @@
+{
+ "R01": {"clip": {"file": "real/R_PXB_287510.mp4", "in": 2.0}},
+ "R05": {"template": "v02_anim_a", "variant": "s01_checks", "params": {}},
+ "R09": {"template": "v02_anim_a", "variant": "s02_ladder", "params": {}},
+ "C01-11": {"clip": {"file": "real/R_PXB_112219.mp4", "in": 8.0}},
+ "C01-17": {"template": "v02_anim_a", "variant": "s03_bite", "params": {}},
+ "C01-21": {"template": "v02_anim_a", "variant": "s04_fire", "params": {}},
+ "C02-21": {"template": "v02_anim_a", "variant": "s05_mud", "params": {}},
+ "C03-14": {"template": "v02_anim_a", "variant": "s06_temp", "params": {}},
+ "_cut": ["R06", "R07", "R10", "R11", "C01-18", "C01-22", "C02-22", "C02-23", "C02-24", "C03-15", "C03-16"]
+}

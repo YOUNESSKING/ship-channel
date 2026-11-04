@@ -1,0 +1,99 @@
+{
+ "_note": "Sound design layers 1-3 + signature (fixpass/SOUND.md). Times: chapter seconds or wNNN (+/-s). Made by the sound pass (helper 3). warm Thames -> winter wind; signature x4",
+ "events": [
+  {
+   "t": 0,
+   "cue": "env:env_temperate",
+   "gain": 0.9,
+   "dur": 46.0
+  },
+  {
+   "t": "w1354-1.5",
+   "cue": "env:env_thames_cold",
+   "gain": 0.9
+  },
+  {
+   "t": "w1279",
+   "cue": "el:hippo_grunt",
+   "gain": 0.5
+  },
+  {
+   "t": "w1291",
+   "cue": "el:splash_small",
+   "gain": 0.25
+  },
+  {
+   "t": "w1294",
+   "cue": "el:lion_roar_far",
+   "gain": 0.45
+  },
+  {
+   "t": "w1297",
+   "cue": "el:steps_giant",
+   "gain": 0.3,
+   "dur": 2.0
+  },
+  {
+   "t": "w1328",
+   "cue": "el:sig_frost_b",
+   "gain": 0.75
+  },
+  {
+   "t": "w1354",
+   "cue": "el:hippo_grunt",
+   "gain": 0.45
+  },
+  {
+   "t": "w1359",
+   "cue": "heart",
+   "gain": 0.45,
+   "dur": 3.0
+  },
+  {
+   "t": "w1369",
+   "cue": "el:sig_frost",
+   "gain": 0.9
+  },
+  {
+   "t": "w1379",
+   "cue": "el:ice_crack",
+   "gain": 0.4
+  },
+  {
+   "t": "w1382",
+   "cue": "el:heartbeat",
+   "gain": 0.55
+  },
+  {
+   "t": "w1387",
+   "cue": "el:sig_frost_b",
+   "gain": 0.6
+  },
+  {
+   "t": "w1405",
+   "cue": "el:ice_crack",
+   "gain": 0.45
+  },
+  {
+   "t": "w1424",
+   "cue": "el:splash_big",
+   "gain": 0.35
+  },
+  {
+   "t": "w1426",
+   "cue": "el:sig_frost",
+   "gain": 0.85
+  },
+  {
+   "t": "w1447",
+   "cue": "el:ice_crack",
+   "gain": 0.5
+  },
+  {
+   "t": "w1461",
+   "cue": "el:heartbeat",
+   "gain": 0.4,
+   "dur": 3.0
+  }
+ ]
+}

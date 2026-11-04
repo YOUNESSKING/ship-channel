@@ -1,0 +1,18 @@
+{
+ "C09-17": {"template": "v02_anim_c", "variant": "special_move"},
+ "C10-16": {"template": "v02_anim_c", "variant": "death_roll"},
+ "C11-04": {"clip": {"file": "stills/C08-04.mp4", "in": 0.0}},
+ "C11-16": {"template": "v02_anim_c", "variant": "bite_gauge", "params": {}},
+ "C12-03": {"template": "v02_anim_c", "variant": "kemkem_quote"},
+ "C12-22": {"template": "v02_anim_c", "variant": "not_noticed"},
+ "C12-27": {"template": "v02_anim_c", "variant": "hides_eats", "params": {
+   "title": "Five-metre *ambush* predator", "title_at": "w2372", "numbered": true,
+   "subline": "in a river full of *fish*", "subline_at": "w2378", "thicken_at": "w2383", "glow_at": "w2393",
+   "items": [
+    {"text": "Hides", "at": "w2385", "box_at": "w2385"},
+    {"text": "Eats", "at": "w2387", "box_at": "w2387"},
+    {"text": "Never goes on the bank", "at": "w2389", "box_at": "w2389"}
+   ]}},
+ "F13": {"template": "v02_anim_c", "variant": "cold_enemy"},
+ "_cut": ["C09-18", "C09-19", "C10-17", "C10-18", "C11-17", "C12-04", "C12-23", "C12-24", "C12-28", "C12-29", "F14", "F15"]
+}

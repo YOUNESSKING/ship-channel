@@ -1,0 +1,2263 @@
+{
+ "video": "V02",
+ "source_final": "videos/video02/final/v02_FINAL_1080p.mp4",
+ "timeline": "videos/video02/plan/fixpass/shots_timeline.csv",
+ "note": "t = global seconds in the final; local = seconds from the chapter start in the final; wNNN = index in videos/video02/voice/words.json. keep_id keeps the scene, cut ids go into _cut.",
+ "scenes": [
+  {
+   "scene": "S01",
+   "batch": "A",
+   "chapter": "ch00",
+   "keep_id": "R05",
+   "cut": [
+    "R06",
+    "R07"
+   ],
+   "replaced": [
+    {
+     "id": "R05",
+     "template": "croc_stick",
+     "file": "",
+     "line": "For every river I'm checking the same things: the temperature, the food,",
+     "shows_croc": "lineart"
+    },
+    {
+     "id": "R06",
+     "template": "clip_plain",
+     "file": "real/R_PXB_136331.mp4",
+     "line": "who else is in the water,",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "R07",
+     "template": "clip_plain",
+     "file": "real/R_PXB_13022.mp4",
+     "line": "and the one thing our croc can do that nothing else there can.",
+     "shows_croc": "footage"
+    }
+   ],
+   "t_start": 39.83,
+   "t_end": 49.75,
+   "dur": 9.92,
+   "local_start": 39.83,
+   "local_end": 49.75,
+   "word_start": "w116",
+   "word_end": "w146",
+   "voice": "For every river I'm checking the same things: the temperature, the food, who else is in the water, and the one thing our croc can do that nothing else there can.",
+   "explains": "The four things checked in every river.",
+   "block": "anim_options",
+   "shows_croc": false,
+   "concept": [
+    {
+     "word": "For",
+     "w": "w116",
+     "t": 39.83,
+     "local": 39.83,
+     "what": "Kicker 'EVERY RIVER, SAME CHECKS' snaps in (Jost caps, gold hairline); empty list spine on deep green-ink, slow push."
+    },
+    {
+     "word": "temperature,",
+     "w": "w125",
+     "t": 42.95,
+     "local": 42.95,
+     "what": "Row 1 'Temperature' + thermometer icon snaps in; gold box on row 1."
+    },
+    {
+     "word": "food,",
+     "w": "w127",
+     "t": 43.59,
+     "local": 43.59,
+     "what": "Row 2 'Food' + fish icon; gold box moves down."
+    },
+    {
+     "word": "who",
+     "w": "w128",
+     "t": 44.31,
+     "local": 44.31,
+     "what": "Row 3 'Who else is in the water' + two eyes above the wave line (eyes blink)."
+    },
+    {
+     "word": "one",
+     "w": "w136",
+     "t": 46.07,
+     "local": 46.07,
+     "what": "Row 4 'Its one special move' + gold star with a '?'; box moves to row 4 and pulses."
+    },
+    {
+     "word": "there",
+     "w": "w145",
+     "t": 48.59,
+     "local": 48.59,
+     "what": "List settles, rows glow once together; slow drift until the board cut."
+    }
+   ],
+   "cast": "none (icons only)",
+   "props": [
+    "thermometer",
+    "fish",
+    "eyes above wave line",
+    "gold star with ?"
+   ],
+   "sound": {
+    "environment": "soft river water bed",
+    "things": [
+     "eye blink tick (tiny)"
+    ],
+    "mood": "lo-fi bed continues",
+    "graphics": [
+     "soft whoosh on build",
+     "click x4 (one per row)",
+     "box-move tick x3",
+     "gold shimmer on last row"
+    ]
+   },
+   "facts": [
+    [
+     "The four checks (temperature, food, who else is in the water, the one special move)",
+     "SCRIPT_v1.md RULES"
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "scene": "S02",
+   "batch": "A",
+   "chapter": "ch00",
+   "keep_id": "R09",
+   "cut": [
+    "R10",
+    "R11"
+   ],
+   "replaced": [
+    {
+     "id": "R09",
+     "template": "lower_third",
+     "file": "real/R_VZ_1625113.mp4",
+     "line": "Dominate means it takes over as the top predator.",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "R10",
+     "template": "lower_third",
+     "file": "real/R_VZ_3590763.mp4",
+     "line": "Establish means it settles in but someone else is still the boss.",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "R11",
+     "template": "lower_third",
+     "file": "real/R_VZ_53653190.mp4",
+     "line": "Survive means it hangs on.",
+     "shows_croc": "footage"
+    }
+   ],
+   "t_start": 51.79,
+   "t_end": 61.27,
+   "dur": 9.48,
+   "local_start": 51.79,
+   "local_end": 61.27,
+   "word_start": "w153",
+   "word_end": "w178",
+   "voice": "Dominate means it takes over as the top predator. Establish means it settles in but someone else is still the boss. Survive means it hangs on.",
+   "explains": "What Dominate, Establish and Survive mean, as a ladder.",
+   "block": "custom",
+   "shows_croc": true,
+   "concept": [
+    {
+     "word": "Dominate",
+     "w": "w153",
+     "t": 51.79,
+     "local": 51.79,
+     "what": "Four gold steps (staircase) on green-ink, each labelled small in tier colour: DOMINATE, ESTABLISH, SURVIVE, WIPED OUT (empty)."
+    },
+    {
+     "word": "Dominate",
+     "w": "w153",
+     "t": 51.79,
+     "local": 51.79,
+     "what": "Our croc (true colours, small) snaps onto the top step."
+    },
+    {
+     "word": "predator.",
+     "w": "w161",
+     "t": 53.99,
+     "local": 53.99,
+     "what": "Gold ring pulses out from it: 'top predator' italic lower line."
+    },
+    {
+     "word": "Establish",
+     "w": "w162",
+     "t": 55.03,
+     "local": 55.03,
+     "what": "Croc slides down one step."
+    },
+    {
+     "word": "someone",
+     "w": "w168",
+     "t": 57.19,
+     "local": 57.19,
+     "what": "A much bigger dark shadow shape rises onto the top step behind it."
+    },
+    {
+     "word": "boss.",
+     "w": "w173",
+     "t": 58.59,
+     "local": 58.59,
+     "what": "Shadow settles; croc looks up at it (eye turn)."
+    },
+    {
+     "word": "Survive",
+     "w": "w174",
+     "t": 59.19,
+     "local": 59.19,
+     "what": "Croc drops to step three, lands on the edge."
+    },
+    {
+     "word": "hangs",
+     "w": "w177",
+     "t": 60.23,
+     "local": 60.23,
+     "what": "Only its front claws hold the edge; it slips a little and holds. Bottom step stays empty for the board's 'wiped out'."
+    }
+   ],
+   "cast": "our croc (true colours, small line-art + fill); one unnamed big shadow",
+   "props": [
+    "4-step staircase with tier labels"
+   ],
+   "sound": {
+    "environment": "soft river water bed",
+    "things": [
+     "claw scrape on 'hangs'",
+     "small slip rustle"
+    ],
+    "mood": "low swell when the shadow rises",
+    "graphics": [
+     "thud on each step landing x3",
+     "soft whoosh for the shadow",
+     "ring shimmer on 'predator'"
+    ]
+   },
+   "facts": [
+    [
+     "Tier meanings",
+     "SCRIPT_v1.md RULES"
+    ]
+   ],
+   "notes": "Lower thirds 'Dominate/Establish/Survive' from R09-R11 are not needed; the step labels carry the words. R12 board drop stays."
+  },
+  {
+   "scene": "S03",
+   "batch": "A",
+   "chapter": "ch01",
+   "keep_id": "C01-17",
+   "cut": [
+    "C01-18"
+   ],
+   "replaced": [
+    {
+     "id": "C01-17",
+     "template": "clip_plain",
+     "file": "ai/C01-17.mp4",
+     "line": "and nobody here has a bite anywhere close.",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C01-18",
+     "template": "number_clip",
+     "file": "real/R_ia_nile-swallow-tilapia_1.mp4",
+     "line": "Our croc bites with about sixteen thousand newtons.",
+     "shows_croc": "footage"
+    }
+   ],
+   "t_start": 112.13,
+   "t_end": 118.66,
+   "dur": 6.53,
+   "local_start": 47.87,
+   "local_end": 54.4,
+   "word_start": "w316",
+   "word_end": "w331",
+   "voice": "and nobody here has a bite anywhere close. Our croc bites with about sixteen thousand newtons.",
+   "explains": "Nobody in the coal swamp bites anywhere close to our croc.",
+   "block": "anim_gauge",
+   "shows_croc": true,
+   "concept": [
+    {
+     "word": "and",
+     "w": "w316",
+     "t": 112.13,
+     "local": 47.87,
+     "what": "Kicker 'BITE FORCE' + two empty bars: top 'big amphibians' (embolomere icon), bottom 'our croc' (croc head icon)."
+    },
+    {
+     "word": "bite",
+     "w": "w321",
+     "t": 113.43,
+     "local": 49.17,
+     "what": "Amphibian bar grows a little and stops short; italic 'nowhere close' under it."
+    },
+    {
+     "word": "close.",
+     "w": "w323",
+     "t": 114.1,
+     "local": 49.84,
+     "what": "Pause: our bar sits empty (anticipation), faint tick."
+    },
+    {
+     "word": "about",
+     "w": "w328",
+     "t": 116.18,
+     "local": 51.92,
+     "what": "Count-up starts on our bar (about 1.3 s, fast in the middle)."
+    },
+    {
+     "word": "newtons.",
+     "w": "w331",
+     "t": 117.78,
+     "local": 53.52,
+     "what": "Lands on '16,000 N' with a short flash + expanding gold ring + deep hit; ring keeps pulsing softly. Cut to the car gag C01-19."
+    }
+   ],
+   "cast": "icons: embolomere amphibian, our croc head",
+   "props": [
+    "two-bar gauge"
+   ],
+   "sound": {
+    "environment": "swamp drips + insects",
+    "things": [
+     "jaw snap on the landing"
+    ],
+    "mood": "lo-fi bed",
+    "graphics": [
+     "ticks during the count",
+     "flash + deep hit on land",
+     "ring shimmer"
+    ]
+   },
+   "facts": [
+    [
+     "Our croc bites with about 16,000 N",
+     "SCRIPT_v1.md ch1"
+    ],
+    [
+     "Nobody here has a bite anywhere close (no number shown for the amphibian)",
+     "SCRIPT_v1.md ch1"
+    ]
+   ],
+   "notes": "Use '16,000 N' as the script says (the hook overlay says 16,414; keep the gauge to the spoken round number). The same gauge returns in S16."
+  },
+  {
+   "scene": "S04",
+   "batch": "A",
+   "chapter": "ch01",
+   "keep_id": "C01-21",
+   "cut": [
+    "C01-22"
+   ],
+   "replaced": [
+    {
+     "id": "C01-21",
+     "template": "clip_plain",
+     "file": "ai/C01-21.mp4",
+     "line": "Lots of them.",
+     "shows_croc": "no"
+    },
+    {
+     "id": "C01-22",
+     "template": "clip_plain",
+     "file": "real/R_PXB_210587.mp4",
+     "line": "It's a crocodile. It goes in the water.",
+     "shows_croc": "footage"
+    }
+   ],
+   "t_start": 125.3,
+   "t_end": 129.34,
+   "dur": 4.04,
+   "local_start": 61.04,
+   "local_end": 65.08,
+   "word_start": "w348",
+   "word_end": "w359",
+   "voice": "Lots of them. It's a crocodile. It goes in the water.",
+   "explains": "Joke: fires everywhere, so the croc just goes in the water.",
+   "block": "custom",
+   "shows_croc": true,
+   "concept": [
+    {
+     "word": "Lots",
+     "w": "w348",
+     "t": 125.3,
+     "local": 61.04,
+     "what": "Mini scene: layered green coal swamp (tree-fern silhouettes, far layers lighter), wave line low; one amber flame line already burning on the bank."
+    },
+    {
+     "word": "Lots",
+     "w": "w348",
+     "t": 125.3,
+     "local": 61.04,
+     "what": "Three more flame lines pop along the bank, one per beat; smoke drifts."
+    },
+    {
+     "word": "crocodile.",
+     "w": "w354",
+     "t": 126.82,
+     "local": 62.56,
+     "what": "Our croc on the bank turns its head to the fire, one slow deadpan blink."
+    },
+    {
+     "word": "goes",
+     "w": "w356",
+     "t": 127.9,
+     "local": 63.64,
+     "what": "It slides into the water: splash ring."
+    },
+    {
+     "word": "water.",
+     "w": "w359",
+     "t": 128.66,
+     "local": 64.4,
+     "what": "Only eyes and nostrils above the wave line while smoke rolls over the top. Hold."
+    }
+   ],
+   "cast": "our croc (true colours)",
+   "props": [
+    "flames (amber/gold, not red)",
+    "smoke",
+    "wave line"
+   ],
+   "sound": {
+    "environment": "fire crackle + swamp",
+    "things": [
+     "flame whoosh x3",
+     "splash",
+     "bubbles"
+    ],
+    "mood": "bed",
+    "graphics": [
+     "soft whoosh on build"
+    ]
+   },
+   "facts": [
+    [
+     "High oxygen means lots of fires; the croc escapes into water",
+     "SCRIPT_v1.md ch1"
+    ]
+   ],
+   "notes": "Also removes a second use of real clip R_PXB_210587 (H08 used it 2 min earlier, rule 61)."
+  },
+  {
+   "scene": "S05",
+   "batch": "A",
+   "chapter": "ch02",
+   "keep_id": "C02-21",
+   "cut": [
+    "C02-22",
+    "C02-23",
+    "C02-24"
+   ],
+   "replaced": [
+    {
+     "id": "C02-21",
+     "template": "clip_plain",
+     "file": "prep/C02-21.mp4",
+     "line": "It just sits in the mud and waits.",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C02-22",
+     "template": "clip_plain",
+     "file": "real/R_PXB_173061.mp4",
+     "line": "Which, honestly, is its whole personality.",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C02-23",
+     "template": "clip_plain",
+     "file": "real/R_PXB_8673.mp4",
+     "line": "So: rule the water,",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C02-24",
+     "template": "lower_third",
+     "file": "real/R_PXB_166060.mp4",
+     "line": "never go for a walk.",
+     "shows_croc": "footage"
+    }
+   ],
+   "t_start": 185.1,
+   "t_end": 193.34,
+   "dur": 8.24,
+   "local_start": 53.68,
+   "local_end": 61.92,
+   "word_start": "w502",
+   "word_end": "w524",
+   "voice": "It just sits in the mud and waits. Which, honestly, is its whole personality. So: rule the water, never go for a walk.",
+   "explains": "It waits in the mud for months; rule the water, never the bank.",
+   "block": "custom",
+   "shows_croc": true,
+   "concept": [
+    {
+     "word": "It",
+     "w": "w502",
+     "t": 185.1,
+     "local": 53.68,
+     "what": "Our croc lies in a cracked mud pool (same pool as C02-20), only its back and eyes showing."
+    },
+    {
+     "word": "waits.",
+     "w": "w509",
+     "t": 186.3,
+     "local": 54.88,
+     "what": "Sun arcs over, moon follows, sun again (2 fast day-night cycles); the pool shrinks a little."
+    },
+    {
+     "word": "honestly,",
+     "w": "w511",
+     "t": 187.58,
+     "local": 56.16,
+     "what": "A tiny gold-framed ID card pops beside it: 'HOBBIES: waiting'."
+    },
+    {
+     "word": "personality.",
+     "w": "w515",
+     "t": 188.86,
+     "local": 57.44,
+     "what": "Croc blinks once. Card stays a beat."
+    },
+    {
+     "word": "So:",
+     "w": "w516",
+     "t": 190.06,
+     "local": 58.64,
+     "what": "Frame splits with a gold hairline: left WATER, right BANK."
+    },
+    {
+     "word": "rule",
+     "w": "w517",
+     "t": 190.62,
+     "local": 59.2,
+     "what": "Left: croc in water, gold ring + tick."
+    },
+    {
+     "word": "never",
+     "w": "w520",
+     "t": 191.82,
+     "local": 60.4,
+     "what": "Right: three Allosaurus footprints stamp in on the bank, one croc footprint steps out."
+    },
+    {
+     "word": "walk.",
+     "w": "w524",
+     "t": 192.54,
+     "local": 61.12,
+     "what": "Gold X lands over the croc footprint (0.3 s after the step)."
+    }
+   ],
+   "cast": "our croc (true colours)",
+   "props": [
+    "mud pool",
+    "sun/moon",
+    "ID card",
+    "Allosaurus footprints (as C02-15)"
+   ],
+   "sound": {
+    "environment": "dry wind + cicadas, then water lap on the left half",
+    "things": [
+     "mud squelch",
+     "footstep thuds x3 (Allosaurus, low)"
+    ],
+    "mood": "bed",
+    "graphics": [
+     "day-night whoosh x2",
+     "card click",
+     "tick on 'rule'",
+     "X click on 'walk'"
+    ]
+   },
+   "facts": [
+    [
+     "A big croc can go months without eating",
+     "SCRIPT_v1.md ch2"
+    ],
+    [
+     "Allosaurus on land",
+     "SCRIPT_v1.md ch2"
+    ]
+   ],
+   "notes": "Removes 4 croc clips in a row, incl. a second use of R_PXB_166060 (also C11-10)."
+  },
+  {
+   "scene": "S06",
+   "batch": "A",
+   "chapter": "ch03",
+   "keep_id": "C03-14",
+   "cut": [
+    "C03-15",
+    "C03-16"
+   ],
+   "replaced": [
+    {
+     "id": "C03-14",
+     "template": "clip_plain",
+     "file": "real/R_PXB_109357.mp4",
+     "line": "Living crocodiles basically need an average yearly temperature of",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C03-15",
+     "template": "number_clip",
+     "file": "ai/C03-15.mp4",
+     "line": "about fourteen degrees.",
+     "shows_croc": "no"
+    },
+    {
+     "id": "C03-16",
+     "template": "clip_plain",
+     "file": "stills/C03-16.mp4",
+     "line": "Below that, you don't find them.",
+     "shows_croc": "no"
+    }
+   ],
+   "t_start": 227.87,
+   "t_end": 235.15,
+   "dur": 7.28,
+   "local_start": 32.08,
+   "local_end": 39.36,
+   "word_start": "w620",
+   "word_end": "w637",
+   "voice": "Living crocodiles basically need an average yearly temperature of about fourteen degrees. Below that, you don't find them.",
+   "explains": "Crocodiles need an average year of about 14 degrees.",
+   "block": "anim_gauge",
+   "shows_croc": false,
+   "concept": [
+    {
+     "word": "Living",
+     "w": "w620",
+     "t": 227.87,
+     "local": 32.08,
+     "what": "Kicker 'WHAT CROCODILES NEED'; tall gold thermometer, empty, on green-ink."
+    },
+    {
+     "word": "average",
+     "w": "w625",
+     "t": 229.71,
+     "local": 33.92,
+     "what": "Italic subline 'average year' slides in."
+    },
+    {
+     "word": "about",
+     "w": "w629",
+     "t": 231.23,
+     "local": 35.44,
+     "what": "Count-up 0 to 14 (about 1.3 s)."
+    },
+    {
+     "word": "fourteen",
+     "w": "w630",
+     "t": 231.47,
+     "local": 35.68,
+     "what": "Lands '14 °C' with flash + gold ring + deep hit; a gold line marks 14 across the frame."
+    },
+    {
+     "word": "Below",
+     "w": "w632",
+     "t": 232.99,
+     "local": 37.2,
+     "what": "Everything under the line frosts over (white frost crystals creep up from the bottom)."
+    },
+    {
+     "word": "find",
+     "w": "w636",
+     "t": 234.19,
+     "local": 38.4,
+     "what": "Under the line, a line-art riverbank with reeds: empty. Hold to C03-17."
+    }
+   ],
+   "cast": "none",
+   "props": [
+    "thermometer",
+    "14 degree line",
+    "frost",
+    "empty riverbank"
+   ],
+   "sound": {
+    "environment": "cold wind, light",
+    "things": [
+     "reeds rustle"
+    ],
+    "mood": "bed dips slightly",
+    "graphics": [
+     "ticks",
+     "flash + deep hit",
+     "SIGNATURE: frost crackle on 'Below'"
+    ]
+   },
+   "facts": [
+    [
+     "Living crocodiles need an average yearly temperature of about 14 °C",
+     "SCRIPT_v1.md ch3"
+    ]
+   ],
+   "notes": "Plants the '14' gauge that C03-19, C07-13 and S19 call back. Removes a second use of R_PXB_109357 (R01)."
+  },
+  {
+   "scene": "S07",
+   "batch": "B",
+   "chapter": "ch04",
+   "keep_id": "C04-21",
+   "cut": [
+    "C04-22",
+    "C04-23",
+    "C04-24"
+   ],
+   "replaced": [
+    {
+     "id": "C04-21",
+     "template": "lower_third",
+     "file": "real/R_VZ_1625113.mp4",
+     "line": "A full bony roof inside its mouth",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C04-22",
+     "template": "clip_plain",
+     "file": "real/R_VZ_28828301.mp4",
+     "line": "and a flap at the back of its throat.",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C04-23",
+     "template": "clip_plain",
+     "file": "real/R_VZ_36294467.mp4",
+     "line": "So it can hold a struggling animal underwater with its mouth open",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C04-24",
+     "template": "clip_plain",
+     "file": "real/R_VZ_79331104.mp4",
+     "line": "and still breathe through its nose.",
+     "shows_croc": "footage"
+    }
+   ],
+   "t_start": 325.42,
+   "t_end": 336.14,
+   "dur": 10.72,
+   "local_start": 54.24,
+   "local_end": 64.96,
+   "word_start": "w877",
+   "word_end": "w910",
+   "voice": "A full bony roof inside its mouth and a flap at the back of its throat. So it can hold a struggling animal underwater with its mouth open and still breathe through its nose.",
+   "explains": "How the bony palate and throat flap let it hold prey underwater and still breathe.",
+   "block": "anim_xray",
+   "shows_croc": true,
+   "concept": [
+    {
+     "word": "A",
+     "w": "w877",
+     "t": 325.42,
+     "local": 54.24,
+     "what": "Our croc head, side view, half under the wave line; switches to gold X-ray with a scan line."
+    },
+    {
+     "word": "bony",
+     "w": "w879",
+     "t": 325.98,
+     "local": 54.8,
+     "what": "The bony roof of the mouth glows gold from nostrils to throat."
+    },
+    {
+     "word": "flap",
+     "w": "w886",
+     "t": 328.06,
+     "local": 56.88,
+     "what": "A gold flap at the back of the throat swings shut."
+    },
+    {
+     "word": "hold",
+     "w": "w896",
+     "t": 330.46,
+     "local": 59.28,
+     "what": "A struggling fish/animal silhouette in the open jaws, thrashing under water."
+    },
+    {
+     "word": "open",
+     "w": "w904",
+     "t": 333.1,
+     "local": 61.92,
+     "what": "Water fills the mouth (lighter green), stops at the closed flap."
+    },
+    {
+     "word": "breathe",
+     "w": "w907",
+     "t": 334.38,
+     "local": 63.2,
+     "what": "Air dots flow in at the nostrils above the surface, along the roof, past the flap to the lungs."
+    },
+    {
+     "word": "nose.",
+     "w": "w910",
+     "t": 335.14,
+     "local": 63.96,
+     "what": "Lungs pulse gold once; prey goes still."
+    }
+   ],
+   "cast": "our croc (X-ray mode); prey silhouette",
+   "props": [
+    "wave line",
+    "air dots"
+   ],
+   "sound": {
+    "environment": "underwater muffle",
+    "things": [
+     "thrash splashes",
+     "slow inhale"
+    ],
+    "mood": "low pulse",
+    "graphics": [
+     "X-ray scan hum",
+     "soft click when the flap shuts",
+     "glow shimmer on 'bony'"
+    ]
+   },
+   "facts": [
+    [
+     "Full bony roof inside the mouth + throat flap; holds prey underwater with mouth open and breathes through the nose",
+     "SCRIPT_v1.md ch4"
+    ]
+   ],
+   "notes": "Breaks the longest croc-footage run (C04-20..C04-25, 17.9 s) and the double use of R_VZ_28828301 6 s apart."
+  },
+  {
+   "scene": "S08",
+   "batch": "B",
+   "chapter": "ch05",
+   "keep_id": "C05-21",
+   "cut": [
+    "C05-22",
+    "C05-23"
+   ],
+   "replaced": [
+    {
+     "id": "C05-21",
+     "template": "clip_plain",
+     "file": "real/R_PXB_83832.mp4",
+     "line": "But our croc can do something the giants can't: leave.",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C05-22",
+     "template": "lower_third",
+     "file": "prep/C05-22.mp4",
+     "line": "It has salt glands.",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C05-23",
+     "template": "clip_plain",
+     "file": "real/R_VZ_68699062.mp4",
+     "line": "It can go out to sea",
+     "shows_croc": "footage"
+    }
+   ],
+   "t_start": 399.41,
+   "t_end": 405.91,
+   "dur": 6.5,
+   "local_start": 56.42,
+   "local_end": 62.92,
+   "word_start": "w1067",
+   "word_end": "w1086",
+   "voice": "But our croc can do something the giants can't: leave. It has salt glands. It can go out to sea",
+   "explains": "Salt glands let our croc leave by sea; the giants can't.",
+   "block": "anim_xray",
+   "shows_croc": true,
+   "concept": [
+    {
+     "word": "But",
+     "w": "w1067",
+     "t": 399.42,
+     "local": 56.43,
+     "what": "Layered green creek, drying: cracked mud, a last pool. Backlit silhouettes of the 7 m freshwater croc and Megalania at the pool."
+    },
+    {
+     "word": "croc",
+     "w": "w1069",
+     "t": 399.79,
+     "local": 56.8,
+     "what": "Our croc (true colours) in front."
+    },
+    {
+     "word": "giants",
+     "w": "w1074",
+     "t": 400.99,
+     "local": 58.0,
+     "what": "Giant silhouettes dim."
+    },
+    {
+     "word": "leave.",
+     "w": "w1076",
+     "t": 402.35,
+     "local": 59.36,
+     "what": "A gold dotted path draws from the pool to a sea edge on the right."
+    },
+    {
+     "word": "salt",
+     "w": "w1079",
+     "t": 403.71,
+     "local": 60.72,
+     "what": "Switch to gold X-ray of our croc's head: tongue glands glow, tiny salt drops fall (scan line)."
+    },
+    {
+     "word": "sea",
+     "w": "w1086",
+     "t": 405.55,
+     "local": 62.56,
+     "what": "Back to colour: croc slides along the path into the surf; hand-off to C05-24's coastline."
+    }
+   ],
+   "cast": "our croc; Paludirex and Megalania as backlit silhouettes",
+   "props": [
+    "dry pool",
+    "dotted path",
+    "sea edge"
+   ],
+   "sound": {
+    "environment": "dry wind, then surf",
+    "things": [
+     "mud crack",
+     "croc drag rustle",
+     "splash into surf"
+    ],
+    "mood": "bed",
+    "graphics": [
+     "path-draw whoosh",
+     "X-ray hum",
+     "drip ticks x3"
+    ]
+   },
+   "facts": [
+    [
+     "Our croc has salt glands and can go out to sea and find another river; the giants can't",
+     "SCRIPT_v1.md ch5"
+    ]
+   ],
+   "notes": ""
+  },
+  {
+   "scene": "S09",
+   "batch": "B",
+   "chapter": "ch06",
+   "keep_id": "C06-07",
+   "cut": [
+    "C06-08"
+   ],
+   "replaced": [
+    {
+     "id": "C06-07",
+     "template": "clip_plain",
+     "file": "real/R_VZ_28744481.mp4",
+     "line": "So food is not a problem.",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C06-08",
+     "template": "clip_plain",
+     "file": "ai/C06-08.mp4",
+     "line": "The problem is who's already here.",
+     "shows_croc": "footage"
+    }
+   ],
+   "t_start": 425.42,
+   "t_end": 430.54,
+   "dur": 5.12,
+   "local_start": 16.4,
+   "local_end": 21.52,
+   "word_start": "w1127",
+   "word_end": "w1138",
+   "voice": "So food is not a problem. The problem is who's already here.",
+   "explains": "Food is fine; the problem is what is already in the water.",
+   "block": "anim_lockon",
+   "shows_croc": true,
+   "concept": [
+    {
+     "word": "So",
+     "w": "w1127",
+     "t": 425.42,
+     "local": 16.4,
+     "what": "Layered green lakeshore at Turkana: small herds drink (antelope, pigs, three-toed horses) and tiny early-human figures."
+    },
+    {
+     "word": "food",
+     "w": "w1128",
+     "t": 425.9,
+     "local": 16.88,
+     "what": "Gold ticks pop over each group, one by one."
+    },
+    {
+     "word": "problem.",
+     "w": "w1132",
+     "t": 427.47,
+     "local": 18.45,
+     "what": "Light dims; camera drifts down to dark water."
+    },
+    {
+     "word": "who's",
+     "w": "w1136",
+     "t": 428.82,
+     "local": 19.8,
+     "what": "Lock-on brackets search across the water."
+    },
+    {
+     "word": "here.",
+     "w": "w1138",
+     "t": 429.5,
+     "local": 20.48,
+     "what": "Brackets lock on a long dark shape under the surface: only two eye glints. Held beep. Cut to the name card C06-09."
+    }
+   ],
+   "cast": "herd icons, tiny early humans (crowd mode); the giant croc only as a shape + eye glints",
+   "props": [
+    "lock-on brackets"
+   ],
+   "sound": {
+    "environment": "lake water + birds",
+    "things": [
+     "hooves/drinking laps"
+    ],
+    "mood": "low drone rises on 'problem'",
+    "graphics": [
+     "tick x4",
+     "search blips",
+     "held lock-on beep (1.2 kHz) on 'here'"
+    ]
+   },
+   "facts": [
+    [
+     "Antelope, pigs, horses and early humans come to drink; food is not a problem",
+     "SCRIPT_v1.md ch6"
+    ]
+   ],
+   "notes": "Removes a second use of R_VZ_28744481 (C02-11)."
+  },
+  {
+   "scene": "S10",
+   "batch": "B",
+   "chapter": "ch06",
+   "keep_id": "C06-15",
+   "cut": [
+    "C06-16",
+    "C06-17"
+   ],
+   "replaced": [
+    {
+     "id": "C06-15",
+     "template": "clip_plain",
+     "file": "real/R_VZ_28596100.mp4",
+     "line": "When a scientist was asked",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C06-16",
+     "template": "clip_plain",
+     "file": "stills/C06-16.mp4",
+     "line": "what this giant crocodile ate, he said, quote,",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C06-17",
+     "template": "text_card",
+     "file": "",
+     "line": "\"it probably ate them.\"",
+     "shows_croc": "no"
+    }
+   ],
+   "t_start": 450.94,
+   "t_end": 457.74,
+   "dur": 6.8,
+   "local_start": 41.92,
+   "local_end": 48.72,
+   "word_start": "w1195",
+   "word_end": "w1211",
+   "voice": "When a scientist was asked what this giant crocodile ate, he said, quote, \"it probably ate them.\"",
+   "explains": "Joke: the scientist's answer 'it probably ate them'.",
+   "block": "custom",
+   "shows_croc": false,
+   "concept": [
+    {
+     "word": "When",
+     "w": "w1195",
+     "t": 450.94,
+     "local": 41.92,
+     "what": "Scientist (stick figure + lab coat + glasses + clipboard) in a warm light disc."
+    },
+    {
+     "word": "asked",
+     "w": "w1199",
+     "t": 451.9,
+     "local": 42.88,
+     "what": "A gold '?' card floats in from the left."
+    },
+    {
+     "word": "giant",
+     "w": "w1202",
+     "t": 452.78,
+     "local": 43.76,
+     "what": "He looks at his clipboard, which shows a big tooth sketch."
+    },
+    {
+     "word": "said,",
+     "w": "w1206",
+     "t": 454.46,
+     "local": 45.44,
+     "what": "He shrugs."
+    },
+    {
+     "word": "quote,",
+     "w": "w1207",
+     "t": 455.02,
+     "local": 46.0,
+     "what": "Gold quote marks snap in."
+    },
+    {
+     "word": "\"it",
+     "w": "w1208",
+     "t": 455.7,
+     "local": 46.68,
+     "what": "Italic words type in: 'it probably ate them.'"
+    },
+    {
+     "word": "them.\"",
+     "w": "w1211",
+     "t": 456.78,
+     "local": 47.76,
+     "what": "Pan right: a tiny crowd of early humans on a shore freezes. Hold to C06-18 ('He meant our ancestors')."
+    }
+   ],
+   "cast": "scientist (supporting cast), tiny early humans (crowd mode)",
+   "props": [
+    "clipboard",
+    "? card",
+    "quote marks"
+   ],
+   "sound": {
+    "environment": "lake birds, faint",
+    "things": [
+     "cloth rustle on the shrug"
+    ],
+    "mood": "bed drops out for 0.5 s before 'them', then one soft low boom",
+    "graphics": [
+     "card click",
+     "type ticks per word"
+    ]
+   },
+   "facts": [
+    [
+     "A scientist said the giant crocodile 'probably ate them' (our ancestors)",
+     "SCRIPT_v1.md ch6"
+    ]
+   ],
+   "notes": "Replaces the text card C06-17 and two croc clips (one is a second use of R_VZ_28596100)."
+  },
+  {
+   "scene": "S11",
+   "batch": "B",
+   "chapter": "ch07",
+   "keep_id": "C07-16",
+   "cut": [
+    "C07-17",
+    "C07-18",
+    "C07-19"
+   ],
+   "replaced": [
+    {
+     "id": "C07-16",
+     "template": "clip_plain",
+     "file": "real/R_VZ_1626367.mp4",
+     "line": "Hippos are fine, because hippos make their own heat.",
+     "shows_croc": "no"
+    },
+    {
+     "id": "C07-17",
+     "template": "clip_plain",
+     "file": "prep/C07-17.mp4",
+     "line": "A crocodile can't.",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C07-18",
+     "template": "croc_stick",
+     "file": "",
+     "line": "Once the water gets cold, it can't warm up, it can't digest,",
+     "shows_croc": "lineart"
+    },
+    {
+     "id": "C07-19",
+     "template": "clip_plain",
+     "file": "prep/C07-19.mp4",
+     "line": "it stops eating.",
+     "shows_croc": "footage"
+    }
+   ],
+   "t_start": 510.91,
+   "t_end": 521.71,
+   "dur": 10.8,
+   "local_start": 43.68,
+   "local_end": 54.48,
+   "word_start": "w1354",
+   "word_end": "w1380",
+   "voice": "Hippos are fine, because hippos make their own heat. A crocodile can't. Once the water gets cold, it can't warm up, it can't digest, it stops eating.",
+   "explains": "Hippos make their own heat; a crocodile can't, so in cold water it stops working.",
+   "block": "anim_xray",
+   "shows_croc": true,
+   "concept": [
+    {
+     "word": "Hippos",
+     "w": "w1354",
+     "t": 510.91,
+     "local": 43.68,
+     "what": "Cold Thames: pale grey-green water, frost on the banks, snow drifting. Hippo and croc side by side in gold X-ray."
+    },
+    {
+     "word": "own",
+     "w": "w1361",
+     "t": 512.99,
+     "local": 45.76,
+     "what": "Hippo's body core glows warm gold; heat ripples out; a slow heartbeat pulse."
+    },
+    {
+     "word": "crocodile",
+     "w": "w1364",
+     "t": 514.19,
+     "local": 46.96,
+     "what": "Croc X-ray: core stays dim; a small thermometer beside it."
+    },
+    {
+     "word": "cold,",
+     "w": "w1370",
+     "t": 516.75,
+     "local": 49.52,
+     "what": "Frost creeps along the water line."
+    },
+    {
+     "word": "warm",
+     "w": "w1373",
+     "t": 517.83,
+     "local": 50.6,
+     "what": "Croc thermometer tries to rise, falls back; gold X."
+    },
+    {
+     "word": "digest,",
+     "w": "w1377",
+     "t": 519.31,
+     "local": 52.08,
+     "what": "Stomach with a fish outline highlighted, stays unchanged; gold X."
+    },
+    {
+     "word": "eating.",
+     "w": "w1380",
+     "t": 520.67,
+     "local": 53.44,
+     "what": "A fish swims past its mouth; no reaction; gold X."
+    }
+   ],
+   "cast": "hippo + our croc (X-ray mode)",
+   "props": [
+    "thermometer",
+    "fish",
+    "frost"
+   ],
+   "sound": {
+    "environment": "cold wind + ice creak",
+    "things": [
+     "hippo snort",
+     "fish swish"
+    ],
+    "mood": "heartbeat (hippo) fades, low bed",
+    "graphics": [
+     "X-ray hum",
+     "X click x3",
+     "SIGNATURE: frost crackle on 'cold'"
+    ]
+   },
+   "facts": [
+    [
+     "Hippos make their own heat; a crocodile can't; in cold water it can't warm up, can't digest, stops eating",
+     "SCRIPT_v1.md ch7"
+    ]
+   ],
+   "notes": "Core idea of the midpoint reversal. Replaces the static stick croc C07-18 (it shared a rig with C07-21/22)."
+  },
+  {
+   "scene": "S12",
+   "batch": "B",
+   "chapter": "ch07",
+   "keep_id": "C07-23",
+   "cut": [
+    "C07-24",
+    "C07-25"
+   ],
+   "replaced": [
+    {
+     "id": "C07-23",
+     "template": "clip_plain",
+     "file": "ai/C07-23.mp4",
+     "line": "Could it escape by sea?",
+     "shows_croc": "no"
+    },
+    {
+     "id": "C07-24",
+     "template": "clip_plain",
+     "file": "prep/C07-24.mp4",
+     "line": "It has salt glands.",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C07-25",
+     "template": "map_clip",
+     "file": "../maps/C07-25.mp4",
+     "line": "It would be swimming into the North Sea. In winter.",
+     "shows_croc": "no"
+    }
+   ],
+   "t_start": 532.48,
+   "t_end": 539.36,
+   "dur": 6.88,
+   "local_start": 65.25,
+   "local_end": 72.13,
+   "word_start": "w1408",
+   "word_end": "w1427",
+   "voice": "Could it escape by sea? It has salt glands. It would be swimming into the North Sea. In winter.",
+   "explains": "Escape by sea fails: it would be the North Sea in winter.",
+   "block": "anim_options",
+   "shows_croc": true,
+   "concept": [
+    {
+     "word": "Could",
+     "w": "w1408",
+     "t": 532.49,
+     "local": 65.26,
+     "what": "List 'ITS WAY OUT?': 1 'Warm up' and 2 'Keep eating' already struck through (from S11); 3 'Escape by sea' gets the gold box."
+    },
+    {
+     "word": "salt",
+     "w": "w1415",
+     "t": 534.63,
+     "local": 67.4,
+     "what": "Small salt-gland icon ticks next to row 3."
+    },
+    {
+     "word": "swimming",
+     "w": "w1421",
+     "t": 536.35,
+     "local": 69.12,
+     "what": "Mini scene: croc swims out of a river mouth into choppy grey sea, label 'NORTH SEA' snaps in on the word."
+    },
+    {
+     "word": "winter.",
+     "w": "w1427",
+     "t": 538.43,
+     "local": 71.2,
+     "what": "Snow whips across; croc stops, small shiver lines. Back to the list: gold strike-through on row 3."
+    }
+   ],
+   "cast": "our croc (true colours)",
+   "props": [
+    "options list",
+    "river mouth",
+    "choppy sea",
+    "snow"
+   ],
+   "sound": {
+    "environment": "cold wind + choppy waves",
+    "things": [
+     "swim splashes"
+    ],
+    "mood": "bed",
+    "graphics": [
+     "click on row 3",
+     "tick",
+     "whoosh into mini scene",
+     "scratch on strike-through",
+     "SIGNATURE: frost crackle on 'winter'"
+    ]
+   },
+   "facts": [
+    [
+     "It has salt glands; escaping means the North Sea in winter",
+     "SCRIPT_v1.md ch7"
+    ]
+   ],
+   "notes": "Replaces the simple pin map C07-25; the scene names the North Sea itself."
+  },
+  {
+   "scene": "S13",
+   "batch": "B",
+   "chapter": "ch08",
+   "keep_id": "C08-21",
+   "cut": [
+    "C08-22",
+    "C08-23"
+   ],
+   "replaced": [
+    {
+     "id": "C08-21",
+     "template": "croc_stick",
+     "file": "",
+     "line": "Crocs start to struggle when their bodies get above about thirty-two or thirty-three degrees.",
+     "shows_croc": "lineart"
+    },
+    {
+     "id": "C08-22",
+     "template": "clip_plain",
+     "file": "real/R_VZ_34400317.mp4",
+     "line": "Shorter dives, less energy.",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C08-23",
+     "template": "clip_plain",
+     "file": "prep/C08-23.mp4",
+     "line": "It would spend the hottest hours hiding in the shade.",
+     "shows_croc": "footage"
+    }
+   ],
+   "t_start": 610.71,
+   "t_end": 620.99,
+   "dur": 10.28,
+   "local_start": 57.44,
+   "local_end": 67.72,
+   "word_start": "w1601",
+   "word_end": "w1628",
+   "voice": "Crocs start to struggle when their bodies get above about thirty-two or thirty-three degrees. Shorter dives, less energy. It would spend the hottest hours hiding in the shade.",
+   "explains": "Above about 32-33 degrees body heat a croc struggles, so it hides in the shade.",
+   "block": "anim_gauge",
+   "shows_croc": true,
+   "concept": [
+    {
+     "word": "Crocs",
+     "w": "w1601",
+     "t": 610.71,
+     "local": 57.44,
+     "what": "Our croc basking under a big sun disc, heat shimmer; kicker 'BODY TEMPERATURE', thermometer gauge empty."
+    },
+    {
+     "word": "above",
+     "w": "w1609",
+     "t": 612.71,
+     "local": 59.44,
+     "what": "Count-up starts."
+    },
+    {
+     "word": "thirty-three",
+     "w": "w1613",
+     "t": 614.11,
+     "local": 60.84,
+     "what": "Lands '32-33 °C' with flash + gold ring + deep hit; the zone above turns into a gold-hatched 'struggle' band."
+    },
+    {
+     "word": "Shorter",
+     "w": "w1615",
+     "t": 615.71,
+     "local": 62.44,
+     "what": "Small 'dive' bar shrinks with tick-down."
+    },
+    {
+     "word": "less",
+     "w": "w1617",
+     "t": 616.63,
+     "local": 63.36,
+     "what": "'Energy' bar drains."
+    },
+    {
+     "word": "hottest",
+     "w": "w1623",
+     "t": 618.47,
+     "local": 65.2,
+     "what": "Sun arcs to noon, shimmer grows."
+    },
+    {
+     "word": "shade.",
+     "w": "w1628",
+     "t": 620.27,
+     "local": 67.0,
+     "what": "Croc drags itself under a palm shadow patch (cooler green), eyes half shut."
+    }
+   ],
+   "cast": "our croc (true colours)",
+   "props": [
+    "sun",
+    "thermometer gauge",
+    "dive bar",
+    "energy bar",
+    "palm shade"
+   ],
+   "sound": {
+    "environment": "loud jungle insects",
+    "things": [
+     "croc drag rustle",
+     "slow exhale"
+    ],
+    "mood": "bed",
+    "graphics": [
+     "ticks",
+     "flash + deep hit",
+     "bar drain sweep x2"
+    ]
+   },
+   "facts": [
+    [
+     "Crocs struggle when their bodies get above about 32-33 °C: shorter dives, less energy, hide in shade",
+     "SCRIPT_v1.md ch8"
+    ]
+   ],
+   "notes": "Removes C08-23, which shows the same clip as C08-24. C08-24 ('So it's hot, it's tired') stays."
+  },
+  {
+   "scene": "S14",
+   "batch": "C",
+   "chapter": "ch09",
+   "keep_id": "C09-17",
+   "cut": [
+    "C09-18",
+    "C09-19"
+   ],
+   "replaced": [
+    {
+     "id": "C09-17",
+     "template": "clip_plain",
+     "file": "real/R_PXB_214432.mp4",
+     "line": "So our croc's special move, the salt glands, the ocean travel,",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C09-18",
+     "template": "clip_plain",
+     "file": "ai/C09-18.mp4",
+     "line": "it's not special here.",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C09-19",
+     "template": "lower_third",
+     "file": "stills/C09-19.mp4",
+     "line": "Deinosuchus already does it. Bigger.",
+     "shows_croc": "footage"
+    }
+   ],
+   "t_start": 672.5,
+   "t_end": 681.62,
+   "dur": 9.12,
+   "local_start": 42.4,
+   "local_end": 51.52,
+   "word_start": "w1757",
+   "word_end": "w1776",
+   "voice": "So our croc's special move, the salt glands, the ocean travel, it's not special here. Deinosuchus already does it. Bigger.",
+   "explains": "Our croc's special move is not special here: Deinosuchus does it bigger.",
+   "block": "custom",
+   "shows_croc": true,
+   "concept": [
+    {
+     "word": "So",
+     "w": "w1757",
+     "t": 672.5,
+     "local": 42.4,
+     "what": "Gold-framed card 'OUR CROC · SPECIAL MOVE' flips in with our croc portrait."
+    },
+    {
+     "word": "salt",
+     "w": "w1763",
+     "t": 674.46,
+     "local": 44.36,
+     "what": "Salt-gland icon glows on the card."
+    },
+    {
+     "word": "ocean",
+     "w": "w1766",
+     "t": 675.38,
+     "local": 45.28,
+     "what": "Dotted sea route draws along the card's bottom."
+    },
+    {
+     "word": "not",
+     "w": "w1769",
+     "t": 676.86,
+     "local": 46.76,
+     "what": "Second card 'DEINOSUCHUS' slides in beside it with the same icons."
+    },
+    {
+     "word": "already",
+     "w": "w1773",
+     "t": 679.26,
+     "local": 49.16,
+     "what": "Its route runs along both sides of a small seaway sketch."
+    },
+    {
+     "word": "Bigger.",
+     "w": "w1776",
+     "t": 680.42,
+     "local": 50.32,
+     "what": "Deinosuchus card scales up to twice the size and pushes ours down; deep hit."
+    }
+   ],
+   "cast": "our croc and Deinosuchus (card portraits, true colours)",
+   "props": [
+    "two cards",
+    "salt-gland icon",
+    "seaway sketch"
+   ],
+   "sound": {
+    "environment": "warm bay waves",
+    "things": [],
+    "mood": "bed",
+    "graphics": [
+     "card flip",
+     "shimmer",
+     "route-draw whoosh",
+     "slide",
+     "deep hit on 'Bigger'"
+    ]
+   },
+   "facts": [
+    [
+     "2025 study: Deinosuchus could probably handle salt water and spread along both sides of the sea",
+     "SCRIPT_v1.md ch9"
+    ]
+   ],
+   "notes": "The chapter's 'plan fails' beat. Removes the second use of R_PXB_214432 (H03)."
+  },
+  {
+   "scene": "S15",
+   "batch": "C",
+   "chapter": "ch10",
+   "keep_id": "C10-16",
+   "cut": [
+    "C10-17",
+    "C10-18"
+   ],
+   "replaced": [
+    {
+     "id": "C10-16",
+     "template": "clip_plain",
+     "file": "ai/C10-16.mp4",
+     "line": "Our croc can.",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C10-17",
+     "template": "clip_plain",
+     "file": "prep/C10-17.mp4",
+     "line": "So in a one-on-one, the death roll is our croc's only real weapon.",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C10-18",
+     "template": "croc_gfx",
+     "file": "",
+     "line": "And it's not enough against something eight times heavier.",
+     "shows_croc": "lineart"
+    }
+   ],
+   "t_start": 735.26,
+   "t_end": 744.86,
+   "dur": 9.6,
+   "local_start": 44.56,
+   "local_end": 54.16,
+   "word_start": "w1927",
+   "word_end": "w1951",
+   "voice": "Our croc can. So in a one-on-one, the death roll is our croc's only real weapon. And it's not enough against something eight times heavier.",
+   "explains": "The death roll is its only real weapon, and not enough against something eight times heavier.",
+   "block": "custom",
+   "shows_croc": true,
+   "concept": [
+    {
+     "word": "Our",
+     "w": "w1927",
+     "t": 735.26,
+     "local": 44.56,
+     "what": "Our croc (true colours) grips a branch-like prey line in water."
+    },
+    {
+     "word": "can.",
+     "w": "w1929",
+     "t": 735.98,
+     "local": 45.28,
+     "what": "It spins a full roll: gold rotation arcs, water spray (answers C10-14's '?')."
+    },
+    {
+     "word": "one-on-one,",
+     "w": "w1933",
+     "t": 737.58,
+     "local": 46.88,
+     "what": "Sarcosuchus silhouette slides in opposite, much bigger."
+    },
+    {
+     "word": "death",
+     "w": "w1935",
+     "t": 738.74,
+     "local": 48.04,
+     "what": "A single list row 'DEATH ROLL' with a gold box: 'only weapon'."
+    },
+    {
+     "word": "not",
+     "w": "w1945",
+     "t": 741.9,
+     "local": 51.2,
+     "what": "A balance beam: our croc on one pan, Sarcosuchus on the other."
+    },
+    {
+     "word": "eight",
+     "w": "w1949",
+     "t": 743.18,
+     "local": 52.48,
+     "what": "Beam slams down on the Sarcosuchus side; '8x heavier' lands; deep hit."
+    }
+   ],
+   "cast": "our croc; Sarcosuchus (silhouette)",
+   "props": [
+    "prey line",
+    "list row",
+    "balance"
+   ],
+   "sound": {
+    "environment": "river water",
+    "things": [
+     "water churn + spin whoosh",
+     "beam creak"
+    ],
+    "mood": "bed",
+    "graphics": [
+     "click on the row",
+     "thud on 'eight'"
+    ]
+   },
+   "facts": [
+    [
+     "Our croc can death-roll; it's its only real weapon; Sarcosuchus is about eight times heavier",
+     "SCRIPT_v1.md ch10"
+    ]
+   ],
+   "notes": "Replaces the size chart C10-18 too (same numbers, now acted out). Removes the second use of C10-16.mp4 (hook H02)."
+  },
+  {
+   "scene": "S16",
+   "batch": "C",
+   "chapter": "ch11",
+   "keep_id": "C11-16",
+   "cut": [
+    "C11-17"
+   ],
+   "replaced": [
+    {
+     "id": "C11-16",
+     "template": "croc_stick",
+     "file": "",
+     "line": "And one study estimated its bite at over fifty thousand newtons.",
+     "shows_croc": "no"
+    },
+    {
+     "id": "C11-17",
+     "template": "number_clip",
+     "file": "ai/C11-17.mp4",
+     "line": "At least three times ours.",
+     "shows_croc": "footage"
+    }
+   ],
+   "t_start": 797.38,
+   "t_end": 803.86,
+   "dur": 6.48,
+   "local_start": 44.32,
+   "local_end": 50.8,
+   "word_start": "w2091",
+   "word_end": "w2106",
+   "voice": "And one study estimated its bite at over fifty thousand newtons. At least three times ours.",
+   "explains": "Purussaurus's bite: over 50,000 N, at least three times ours.",
+   "block": "anim_gauge",
+   "shows_croc": true,
+   "concept": [
+    {
+     "word": "And",
+     "w": "w2091",
+     "t": 797.38,
+     "local": 44.32,
+     "what": "The S03 'BITE FORCE' gauge returns: our bar already full at '16,000 N'."
+    },
+    {
+     "word": "study",
+     "w": "w2093",
+     "t": 797.78,
+     "local": 44.72,
+     "what": "New row: Purussaurus icon, empty bar."
+    },
+    {
+     "word": "estimated",
+     "w": "w2094",
+     "t": 798.18,
+     "local": 45.12,
+     "what": "Anticipation: faint ticks."
+    },
+    {
+     "word": "over",
+     "w": "w2098",
+     "t": 799.42,
+     "local": 46.36,
+     "what": "Count-up runs past our bar's end."
+    },
+    {
+     "word": "newtons.",
+     "w": "w2101",
+     "t": 800.74,
+     "local": 47.68,
+     "what": "Lands '50,000+ N' with flash + gold ring + deep hit."
+    },
+    {
+     "word": "three",
+     "w": "w2104",
+     "t": 802.18,
+     "local": 49.12,
+     "what": "Three copies of our bar stack under it with a gold bracket '3x'."
+    }
+   ],
+   "cast": "icons: our croc, Purussaurus",
+   "props": [
+    "bite gauge (same as S03)"
+   ],
+   "sound": {
+    "environment": "swamp",
+    "things": [
+     "jaw snap on the landing"
+    ],
+    "mood": "bed",
+    "graphics": [
+     "ticks",
+     "flash + deep hit",
+     "click x3 for the stack"
+    ]
+   },
+   "facts": [
+    [
+     "One study estimated Purussaurus's bite at over 50,000 N, at least three times ours",
+     "SCRIPT_v1.md ch11"
+    ]
+   ],
+   "notes": "Callback to S03. Removes the second use of C11-17.mp4 (hook H14)."
+  },
+  {
+   "scene": "S17",
+   "batch": "C",
+   "chapter": "ch12",
+   "keep_id": "C12-22",
+   "cut": [
+    "C12-23",
+    "C12-24"
+   ],
+   "replaced": [
+    {
+     "id": "C12-22",
+     "template": "clip_plain",
+     "file": "ai/C12-22.mp4",
+     "line": "And our croc can stay underwater for a very long time.",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C12-23",
+     "template": "clip_plain",
+     "file": "real/R_PXB_13022.mp4",
+     "line": "It doesn't need to win a fight.",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C12-24",
+     "template": "croc_stick",
+     "file": "",
+     "line": "It just needs to not be noticed.",
+     "shows_croc": "no"
+    }
+   ],
+   "t_start": 885.82,
+   "t_end": 893.34,
+   "dur": 7.52,
+   "local_start": 62.08,
+   "local_end": 69.6,
+   "word_start": "w2325",
+   "word_end": "w2349",
+   "voice": "And our croc can stay underwater for a very long time. It doesn't need to win a fight. It just needs to not be noticed.",
+   "explains": "It doesn't need to win; it needs to not be noticed (lock-on fails).",
+   "block": "anim_lockon",
+   "shows_croc": true,
+   "concept": [
+    {
+     "word": "And",
+     "w": "w2325",
+     "t": 885.82,
+     "local": 62.08,
+     "what": "River cross-section in layered greens: bank above with a Spinosaurus silhouette wading; our croc lies still on the bottom."
+    },
+    {
+     "word": "underwater",
+     "w": "w2330",
+     "t": 886.98,
+     "local": 63.24,
+     "what": "A breath-timer ring around the croc starts filling slowly."
+    },
+    {
+     "word": "long",
+     "w": "w2334",
+     "t": 888.26,
+     "local": 64.52,
+     "what": "Ring keeps filling; slow heartbeat."
+    },
+    {
+     "word": "win",
+     "w": "w2340",
+     "t": 890.06,
+     "local": 66.32,
+     "what": "Lock-on brackets (the predator's view) sweep across the water."
+    },
+    {
+     "word": "not",
+     "w": "w2347",
+     "t": 891.86,
+     "local": 68.12,
+     "what": "Brackets pass over the croc, flicker, can't lock."
+    },
+    {
+     "word": "noticed.",
+     "w": "w2349",
+     "t": 892.66,
+     "local": 68.92,
+     "what": "Brackets drift away; croc blinks once."
+    }
+   ],
+   "cast": "our croc (true colours, dim); Spinosaurus (silhouette)",
+   "props": [
+    "breath ring",
+    "lock-on brackets"
+   ],
+   "sound": {
+    "environment": "underwater muffle; Spinosaurus steps above",
+    "things": [
+     "water steps",
+     "bubble"
+    ],
+    "mood": "slow heartbeat",
+    "graphics": [
+     "search blips; NO held beep (the lock fails)",
+     "soft tick on the ring"
+    ]
+   },
+   "facts": [
+    [
+     "It can stay underwater a very long time; it just needs to not be noticed",
+     "SCRIPT_v1.md ch12"
+    ]
+   ],
+   "notes": "Uses the lock-on grammar in reverse. Removes the 3rd use of C12-22.mp4 (H04, H05) and the 2nd use of R_PXB_13022 (R07)."
+  },
+  {
+   "scene": "S18",
+   "batch": "C",
+   "chapter": "ch12",
+   "keep_id": "C12-27",
+   "cut": [
+    "C12-28",
+    "C12-29"
+   ],
+   "replaced": [
+    {
+     "id": "C12-27",
+     "template": "clip_plain",
+     "file": "real/R_PXB_13024.mp4",
+     "line": "But it's a five-metre ambush predator in a river full of fish.",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C12-28",
+     "template": "clip_plain",
+     "file": "prep/C12-28.mp4",
+     "line": "It hides, it eats,",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "C12-29",
+     "template": "clip_plain",
+     "file": "prep/C12-29.mp4",
+     "line": "it never goes on the bank.",
+     "shows_croc": "footage"
+    }
+   ],
+   "t_start": 898.94,
+   "t_end": 906.94,
+   "dur": 8.0,
+   "local_start": 75.2,
+   "local_end": 83.2,
+   "word_start": "w2372",
+   "word_end": "w2393",
+   "voice": "But it's a five-metre ambush predator in a river full of fish. It hides, it eats, it never goes on the bank.",
+   "explains": "Why Survive and not Wiped out: it hides, it eats, it never goes on the bank.",
+   "block": "anim_options",
+   "shows_croc": false,
+   "concept": [
+    {
+     "word": "But",
+     "w": "w2372",
+     "t": 898.94,
+     "local": 75.2,
+     "what": "Header 'FIVE-METRE AMBUSH PREDATOR' (Jost caps, gold hairline) on green-ink; fish shoal drifts behind."
+    },
+    {
+     "word": "fish.",
+     "w": "w2383",
+     "t": 902.46,
+     "local": 78.72,
+     "what": "Fish shoal thickens: 'river full of fish'."
+    },
+    {
+     "word": "hides,",
+     "w": "w2385",
+     "t": 903.42,
+     "local": 79.68,
+     "what": "Row 1 'Hides' + reeds-and-eyes icon; gold box."
+    },
+    {
+     "word": "eats,",
+     "w": "w2387",
+     "t": 904.3,
+     "local": 80.56,
+     "what": "Row 2 'Eats' + fish icon; box moves."
+    },
+    {
+     "word": "never",
+     "w": "w2389",
+     "t": 905.34,
+     "local": 81.6,
+     "what": "Row 3 'Never goes on the bank' + bank line with big theropod footprints; gold X over a path onto the bank."
+    },
+    {
+     "word": "bank.",
+     "w": "w2393",
+     "t": 906.06,
+     "local": 82.32,
+     "what": "All three rows glow; hold into the board drop C12-30."
+    }
+   ],
+   "cast": "none (icons)",
+   "props": [
+    "list",
+    "reeds + eyes icon",
+    "fish",
+    "bank footprints"
+   ],
+   "sound": {
+    "environment": "river",
+    "things": [
+     "fish swish"
+    ],
+    "mood": "bed",
+    "graphics": [
+     "click x3",
+     "box-move ticks",
+     "X click"
+    ]
+   },
+   "facts": [
+    [
+     "Five-metre ambush predator in a river full of fish; hides, eats, never goes on the bank",
+     "SCRIPT_v1.md ch12"
+    ]
+   ],
+   "notes": "Mirrors S01's list (the 'checks' spine) for the flagged verdict."
+  },
+  {
+   "scene": "S19",
+   "batch": "C",
+   "chapter": "final",
+   "keep_id": "F13",
+   "cut": [
+    "F14",
+    "F15"
+   ],
+   "replaced": [
+    {
+     "id": "F13",
+     "template": "clip_plain",
+     "file": "real/R_PXB_10796.mp4",
+     "line": "So the crocodile's biggest enemy in all of history...",
+     "shows_croc": "footage"
+    },
+    {
+     "id": "F14",
+     "template": "croc_gfx",
+     "file": "",
+     "line": "wasn't another predator.",
+     "shows_croc": "lineart"
+    },
+    {
+     "id": "F15",
+     "template": "clip_plain",
+     "file": "stills/F15.mp4",
+     "line": "It was the cold.",
+     "shows_croc": "footage"
+    }
+   ],
+   "t_start": 946.74,
+   "t_end": 953.45,
+   "dur": 6.71,
+   "local_start": 37.84,
+   "local_end": 44.55,
+   "word_start": "w2490",
+   "word_end": "w2505",
+   "voice": "So the crocodile's biggest enemy in all of history... wasn't another predator. It was the cold.",
+   "explains": "The crocodile's biggest enemy was not a predator; it was the cold.",
+   "block": "custom",
+   "shows_croc": false,
+   "concept": [
+    {
+     "word": "So",
+     "w": "w2490",
+     "t": 946.74,
+     "local": 37.84,
+     "what": "Gold line-art line-up of the video's non-croc predators slides in: Allosaurus, T. rex, Titanoboa, Carcharodontosaurus, Spinosaurus."
+    },
+    {
+     "word": "history...",
+     "w": "w2498",
+     "t": 949.62,
+     "local": 40.72,
+     "what": "Slow push along the line-up."
+    },
+    {
+     "word": "wasn't",
+     "w": "w2499",
+     "t": 950.21,
+     "local": 41.31,
+     "what": "Each silhouette dims one by one, quick."
+    },
+    {
+     "word": "It",
+     "w": "w2502",
+     "t": 951.86,
+     "local": 42.96,
+     "what": "A single snowflake falls from the top and grows."
+    },
+    {
+     "word": "cold.",
+     "w": "w2505",
+     "t": 952.34,
+     "local": 43.44,
+     "what": "The 14 °C thermometer from S06 rises; frost spreads across the whole frame; deep hit."
+    }
+   ],
+   "cast": "none (predator silhouettes)",
+   "props": [
+    "snowflake",
+    "14 °C thermometer",
+    "frost"
+   ],
+   "sound": {
+    "environment": "winter wind rises",
+    "things": [],
+    "mood": "bed dips, deep hit on 'cold'",
+    "graphics": [
+     "dim ticks x5",
+     "SIGNATURE payoff: big frost crackle on 'cold'"
+    ]
+   },
+   "facts": [
+    [
+     "The biggest enemy was the cold, not a predator; 14 °C callback",
+     "SCRIPT_v1.md FINAL + ch3"
+    ]
+   ],
+   "notes": "Replaces F14's static line-up and two croc clips (F13 is a second use of R_PXB_10796)."
+  }
+ ],
+ "summary": {
+  "method": "One frame at the middle of every shot of v02_FINAL_1080p.mp4 (347 shots), checked by eye. croc footage = real or AI clip showing a crocodilian or crocodile-looking rival (phytosaur, Goniopholis, Deinosuchus, Sarcosuchus, Purussaurus...). any croc = footage + line-art croc in size charts / stick gags. picture shots = all shots except board, title cards, text cards, maps, black.",
+  "before": {
+   "shots": 347,
+   "croc_footage": 135,
+   "croc_footage_pct_all": 39,
+   "any_croc": 179,
+   "any_croc_pct_all": 52,
+   "picture_shots": 287,
+   "croc_footage_pct_picture": 47,
+   "any_croc_pct_picture": 62,
+   "animation_seconds": 190,
+   "longest_croc_footage_run_s": 17.9,
+   "longest_any_croc_run_s": 32.3
+  },
+  "after": {
+   "shots": 310,
+   "croc_footage": 93,
+   "croc_footage_pct_all": 30,
+   "any_croc": 146,
+   "any_croc_pct_all": 47,
+   "picture_shots": 252,
+   "croc_footage_pct_picture": 37,
+   "any_croc_pct_picture": 58,
+   "animation_seconds": 315,
+   "longest_croc_footage_run_s": 11.5,
+   "longest_any_croc_run_s": 37.4
+  },
+  "scenes": 19,
+  "shots_replaced": 56,
+  "shots_cut": 37,
+  "new_animation_seconds": 150.0,
+  "batches": {
+   "A": {
+    "chapters": [
+     "ch00",
+     "ch01",
+     "ch02",
+     "ch03"
+    ],
+    "scenes": [
+     "S01",
+     "S02",
+     "S03",
+     "S04",
+     "S05",
+     "S06"
+    ],
+    "seconds": 45.5
+   },
+   "B": {
+    "chapters": [
+     "ch04",
+     "ch05",
+     "ch06",
+     "ch07",
+     "ch08"
+    ],
+    "scenes": [
+     "S07",
+     "S08",
+     "S09",
+     "S10",
+     "S11",
+     "S12",
+     "S13"
+    ],
+    "seconds": 57.1
+   },
+   "C": {
+    "chapters": [
+     "ch09",
+     "ch10",
+     "ch11",
+     "ch12",
+     "final"
+    ],
+    "scenes": [
+     "S14",
+     "S15",
+     "S16",
+     "S17",
+     "S18",
+     "S19"
+    ],
+    "seconds": 47.4
+   }
+  },
+  "signature_sound": "frost crackle (the cold is the real enemy): plant under H13 (sound only), back in S06, S11, S12 and on C03-19 / C07-13 / C07-21-22 (sound only), paid off in S19 on \"It was the cold.\""
+ }
+}

@@ -1,0 +1,46 @@
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1280px;height:720px;overflow:hidden;background:#000}
+#root{position:relative;width:1280px;height:720px;overflow:hidden;background:#000;font-family:"Cormorant Garamond",serif;color:#f6efe0}
+.shot{position:absolute;left:0;top:0;width:1280px;height:720px;overflow:hidden;background:#050505}
+.ov{position:absolute;left:0;top:0;width:1280px;height:720px;overflow:hidden;pointer-events:none}
+.aivid{position:absolute;left:0;top:0;width:1280px;height:720px;object-fit:cover;background:#000}
+.ph{position:absolute;left:0;top:0;width:1280px;height:720px;background:linear-gradient(#56626a,#2b343b 60%,#1c2329)}
+.phlabel{position:absolute;left:0;right:0;bottom:34px;text-align:center;font:500 24px Jost;color:#fff;opacity:.85}
+.shade{position:absolute;left:0;top:0;width:1280px;height:720px;background:radial-gradient(ellipse at center,rgba(0,0,0,.15),rgba(0,0,0,.62))}
+.transp{background:transparent!important}
+.kb{position:absolute;left:0;top:0;width:1280px;height:720px}
+.kb>svg{position:absolute;left:0;top:0}
+.op0{opacity:0}
+/* ---- style C: nature-doc cinematic ---- */
+.bar{position:absolute;left:0;right:0;height:92px;background:#000;z-index:5}
+.cg{font-family:"Cormorant Garamond",serif;font-weight:600;color:#f6efe0;font-variant-numeric:lining-nums;text-shadow:0 2px 24px rgba(0,0,0,.6);white-space:nowrap;line-height:1}
+.cg i{font-style:italic;font-weight:600}
+.deg{font-family:Jost,sans-serif;font-weight:500;font-size:.62em;vertical-align:.52em;margin:0 .02em 0 .06em}
+.jo{font-family:Jost,sans-serif;font-weight:500;letter-spacing:.34em;text-transform:uppercase;color:#e9dcc0;text-shadow:0 2px 14px rgba(0,0,0,.7);white-space:nowrap;font-size:19px}
+.jo.gold{color:#c9a45c}
+.it{font-family:"Cormorant Garamond",serif;font-style:italic;font-weight:600;color:#d9bd7e;text-shadow:0 2px 16px rgba(0,0,0,.85),0 0 3px rgba(0,0,0,.5);white-space:nowrap;line-height:1.1}
+.gr{height:1.5px;width:64px;background:#c9a45c;margin:20px auto}
+.gr.l{margin-left:0}
+.blk{position:absolute;text-align:center}
+.abs{position:absolute;left:0;right:0;text-align:center}
+.scrimL{position:absolute;left:0;top:0;width:900px;height:720px;background:linear-gradient(90deg,rgba(0,0,0,.72),rgba(0,0,0,.35) 60%,rgba(0,0,0,0))}
+.scrimB{position:absolute;left:0;bottom:0;width:1280px;height:260px;background:linear-gradient(0deg,rgba(0,0,0,.75),rgba(0,0,0,0))}
+.scrimR{position:absolute;right:0;bottom:0;width:900px;height:500px;background:radial-gradient(ellipse at 80% 100%,rgba(0,0,0,.85),rgba(0,0,0,0) 75%)}
+.lblm{font-family:Jost;font-weight:500;font-size:22px;fill:#f6efe0;letter-spacing:.3em;paint-order:stroke;stroke:rgba(0,0,0,.75);stroke-width:6px;stroke-linejoin:round}
+.itsv{font-family:"Cormorant Garamond",serif;font-style:italic;font-weight:600;fill:#d9bd7e}
+.tbl{font-family:Jost;font-weight:500;font-size:14px;fill:#e9dcc0;letter-spacing:.28em;opacity:.85}
+.dimmer{position:absolute;left:0;top:0;width:1280px;height:720px;background:#000;opacity:0;z-index:30}
+#fade{position:absolute;left:0;top:0;width:1280px;height:720px;background:#000;opacity:0;z-index:60}
+/* tier board: charcoal + gold hairlines */
+.board{background:#1b1d20!important}
+.tl-title{position:absolute;left:90px;top:26px;font:500 16px Jost;letter-spacing:.32em;color:#c9a45c;text-transform:uppercase}
+.trow{position:absolute;left:90px;width:1100px;height:92px;display:flex;background:#25282c;border:1px solid rgba(201,164,92,.55)}
+.tlabel{width:190px;height:90px;display:flex;align-items:center;justify-content:center;font:600 28px "Cormorant Garamond";color:#f6efe0;text-align:center;line-height:1.05;border-right:1px solid rgba(201,164,92,.55);text-shadow:0 1px 8px rgba(0,0,0,.4)}
+.tzone{flex:1}
+.pool{position:absolute;left:90px;top:582px;width:1100px;height:116px;border:1px dashed rgba(201,164,92,.5)}
+.tile{position:absolute;left:0;top:0;width:150px;height:100px;background:#111;padding:5px 5px 0;border:1px solid #c9a45c;box-shadow:0 8px 20px rgba(0,0,0,.6)}
+.tile .ph2{width:138px;height:62px;background:url(assets/icy_sea.jpg) center/cover}
+.tile .cap{font:italic 600 19px "Cormorant Garamond";color:#f6efe0;text-align:center;line-height:1;margin-top:6px}
+.cursor{position:absolute;left:0;top:0;filter:drop-shadow(0 3px 3px rgba(0,0,0,.6))}
+.ring{position:absolute;left:-20px;top:-20px;width:40px;height:40px;border:2px solid #c9a45c;border-radius:50%;opacity:0}
+.shade.dk{background:radial-gradient(ellipse at center,rgba(0,0,0,.5),rgba(0,0,0,.78))}

@@ -1,0 +1,6 @@
+/* extra classes used by the template blocks (style C; same fonts and colours as v9) */
+.scrimBR{position:absolute;right:0;bottom:0;width:1280px;height:360px;background:linear-gradient(0deg,rgba(0,0,0,.72),rgba(0,0,0,0))}
+.scrimLB{position:absolute;left:0;bottom:0;width:1000px;height:560px;background:radial-gradient(ellipse at 15% 100%,rgba(0,0,0,.93),rgba(0,0,0,.55) 45%,rgba(0,0,0,0) 80%)}
+.plate{position:absolute;text-align:center;border:1px solid #c9a45c;padding:22px 0 20px;background:rgba(4,10,16,.62)}
+.cap1{font-family:Jost,sans-serif;font-weight:500;letter-spacing:.3em;text-transform:uppercase;color:#e9dcc0;font-size:15px}
+.card{position:absolute;left:0;top:0;width:1280px;height:720px;background:radial-gradient(ellipse at 50% 42%,#1d2830 0%,#0d1317 62%,#06080a 100%)}

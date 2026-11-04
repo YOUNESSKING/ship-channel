@@ -1,0 +1,28 @@
+# keys: never commit
+*.key
+.el_key*
+.fal_key
+.firecrawl_key
+.pixabay_key
+.rp_key
+.env
+# heavy / generated media
+*.mp4
+*.mov
+*.mkv
+*.wav
+*.npy
+**/renders/
+**/snapshots/
+**/build/seg/
+**/.tiles/
+**/.sattiles/
+**/logs/
+node_modules/
+**/venv/
+__pycache__/
+*.pyc
+# downloaded study media stays local (study only, never reused)
+tools/study_video/out/
+# licensed library media (Epidemic etc.) stays outside git
+library/licensed/
