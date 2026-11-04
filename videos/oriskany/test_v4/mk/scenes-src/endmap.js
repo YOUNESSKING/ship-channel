@@ -16,6 +16,7 @@ B.line([REEF, [REEF[0] + 160, REEF[1] - 30], SSUS], { dash: true, width: 5, t: t
 GG.pin(`<img src="assets/media/liner_top.png" style="width:170px;display:block;filter:drop-shadow(0 0 10px rgba(127,211,216,.8))">`, SSUS[0], SSUS[1] - 34, { t: t(46.9), pop: true });
 K.target(...SSUS, t(46.95), { r: 40, side: TEAL, until: END + 1 });
 GG.tagbox("SS UNITED STATES · NOV 12", SSUS[0], SSUS[1] - 118, "rgba(10,24,38,.92)", { size: 40, t: t(47.1), anchor: [-50, 0] });
+GG.lbl("13 NAUTICAL MILES", MID[0] - 150, MID[1] - 40, { size: 40, t: t(46.10), color: "#f3eee2" });   // on "thirteen", along the dashed line
 B.city("PENSACOLA", ...PENS, { size: 40, t: 0.02 });
 B.city("DESTIN", ...DESTIN, { size: 40, t: t(47.6) });
 { const d = document.getElementById("date"); if (d) d.style.display = "none"; }

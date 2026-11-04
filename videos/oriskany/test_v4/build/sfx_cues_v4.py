@@ -19,7 +19,8 @@ CUES = [
  C("s01", off("s01", word("feet", 2.0)), "hit", "212 FT card lands on 'feet'", len=1.2),
  C("s02", 0.00, "explosion", "WOW 1: blast photo cut + white flash + shake", file="charges_c__f6f10ea4.wav", src=1.76, len=1.2, tail=0.3),
  C("s05", off("s05", word("purpose", 10.0)), "boom", "ON PURPOSE. lands on 'purpose'", len=1.3),
- C("s09", 0.00, "explosion", "second blast photo + flash (smoke, in the voice gap)", file="charges_a__955e7371.wav", src=17.24, len=0.33, tail=0.25),
+ C("s09", 0.00, "explosion", "second blast photo + flash (smoke, in the voice gap); designed 0.6 s tail into the 37 montage", file="charges_c__f6f10ea4.wav", src=1.76, len=0.9, tail=0.6),
+ C("s09", 0.00, "boom", "second blast: cinematic boom layer under the charge (key beat)", len=1.0, tail=0.6),
  C("s10", off("s10", word("seven", 18.0) + 0.15), "pop", "37 lands (count ends on 'thirty-seven')"),
  C("s11", 0.00, "impact", "bow standing vertical: water closing over the hull", file="splash_a__1d6949d6.wav", tail=0.15),
  C("s11", 0.05, "ship", "flood rush as the bow slips under (to the foam cut)", file="flood_a__db95b348.wav", tail=0.1),
@@ -28,11 +29,11 @@ CUES = [
  C("s14", 0.25, "ship", "drawn carrier going down: hull groan (until touchdown)", file="groan_a__7c63fd7c.wav", len=2.4, tail=0.0),
  C("s14", 2.70, "impact", "hull touches the seabed on 'floor' (underwater thump)", file="charges_b__0ecb5c38.wav", len=1.0),
  C("s17", 0.00, "riser", "reverse riser INTO the x-ray reveal (peaks on the cut)", lead=True),
- C("s19", 0.00, "horn", "SS United States on screen: liner horn (signature sound)", end_shot="s20", tail=0.0),
+ C("s19", 0.00, "horn", "SS United States on screen: liner horn (signature sound)", end_shot="s20c", tail=0.0),
  C("s21", 0.00, "whoosh", "end map pull-back (biggest move #2)", file="whoosh_b__8d9712d2.wav"),
 ]
 # density (SOUND_DESIGN_V02 ~16/min): small pops on 22 / $20 / 13 / ? and the two option ticks are left out on purpose
-FILM = ["s03", "s04", "s16", "s19", "s20", "s20b"]
+FILM = ["s03", "s04", "s16", "s19", "s20", "s20c"]
 B = lambda role, shot, note, **k: dict(role=role, shot=shot, note=note, **k)
 BEDS = [B("waves", "s01", "Gulf of Mexico: sea under the map dive", end_shot="s01", fade=0.6),
         B("waves", "s05", "foam / sea photos of the sinking day", end_shot="s11b", fade=0.5, src=12.0),

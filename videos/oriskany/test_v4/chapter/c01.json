@@ -339,12 +339,12 @@
    "sfx": false
   },
   {
-   "id": "s20b",
+   "id": "s20c",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t44.65",
+   "start": "t43.70",
    "clip": {
-    "file": "f20b_side.mp4",
+    "file": "f20b_profile.mp4",
     "push": null
    },
    "params": {},
@@ -352,19 +352,14 @@
   },
   {
    "id": "s21",
-   "template": "number_clip",
-   "variant": "right",
+   "template": "map_clip",
+   "variant": "baked",
    "start": "t45.80",
    "clip": {
     "file": "endmap.mp4",
     "push": null
    },
-   "params": {
-    "number": "13",
-    "unit": "nautical miles",
-    "number_at": "@thirteen",
-    "side": "left"
-   },
+   "params": {},
    "sfx": false
   }
  ],

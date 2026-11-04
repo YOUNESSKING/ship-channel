@@ -4,7 +4,7 @@
 
 | item | what | author | date | licence | credit line |
 |---|---|---|---|---|---|
-| NARA 86032 (film) | S.S. UNITED STATES - (PACIFIC FRONTIERS) (59s-65s) | US Navy | 1968-02-01 | public domain (US Gov work); NARA useRestriction "Undetermined" | US Navy / US National Archives |
+| NARA 86032 (film) | S.S. UNITED STATES - (PACIFIC FRONTIERS) (150s-156s) | US Navy | 1968-02-01 | public domain (US Gov work); NARA useRestriction "Undetermined" | US Navy / US National Archives |
 | NARA 86032 (film) | S.S. UNITED STATES - (PACIFIC FRONTIERS) (19s-25s) | US Navy | 1968-02-01 | public domain (US Gov work); NARA useRestriction "Undetermined" | US Navy / US National Archives |
 | NARA 86032 (film) | S.S. UNITED STATES - (PACIFIC FRONTIERS) (65s-71s) | US Navy | 1968-02-01 | public domain (US Gov work); NARA useRestriction "Undetermined" | US Navy / US National Archives |
 | NARA 80446 (film) | VISIT OF THE KING FAISAL OF IRAQ ABOARD USS ORISKANY (CVA-34) (197s-202s) | US Navy | undated | public domain (US Gov work); NARA useRestriction "Undetermined" | US Navy / US National Archives |
