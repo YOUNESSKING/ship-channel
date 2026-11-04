@@ -1,0 +1,2233 @@
+{
+ "_about": "Animation beat frames for sound re-timing. t = seconds into the clip (= into the shot, the clip starts at the shot start, no trim); frame = round(t*30); chapter_t = shot start + t (chapter-local, as sfx_cNN.json \"at\" in shot seconds = t); abs_t = narration time. \"main\" = the beat the sfx list calls \"its main graphic beat\".",
+ "fps": 30,
+ "scenes": {
+  "c02_sisters": {
+   "file": "h_c02_sisters.mp4",
+   "chapter": "c02",
+   "shot": "s09",
+   "shot_dur": 3.45,
+   "clip_dur": 3.85,
+   "chapter_t0": 27.536,
+   "abs_t0": 76.161,
+   "replaces": null,
+   "narration": "Four of her sisters were already museums.",
+   "beats": [
+    {
+     "t": 0.1,
+     "frame": 3,
+     "chapter_t": 27.636,
+     "abs_t": 76.261,
+     "kind": "whoosh",
+     "note": "sister 1 slides in",
+     "main": false
+    },
+    {
+     "t": 0.3,
+     "frame": 9,
+     "chapter_t": 27.836,
+     "abs_t": 76.461,
+     "kind": "whoosh",
+     "note": "sister 2 slides in",
+     "main": false
+    },
+    {
+     "t": 0.52,
+     "frame": 16,
+     "chapter_t": 28.056,
+     "abs_t": 76.681,
+     "kind": "whoosh",
+     "note": "sister 3 slides in",
+     "main": false
+    },
+    {
+     "t": 0.9,
+     "frame": 27,
+     "chapter_t": 28.436,
+     "abs_t": 77.061,
+     "kind": "whoosh",
+     "note": "sister 4 slides in",
+     "main": false
+    },
+    {
+     "t": 1.66,
+     "frame": 50,
+     "chapter_t": 29.196,
+     "abs_t": 77.821,
+     "kind": "pop",
+     "note": "MUSEUM tags pop (x4, 0.09 s apart)",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c02_ledger_a": {
+   "file": "h_c02_ledger_a.mp4",
+   "chapter": "c02",
+   "shot": "s19",
+   "shot_dur": 5.37,
+   "clip_dur": 5.77,
+   "chapter_t0": 61.417,
+   "abs_t0": 110.042,
+   "replaces": null,
+   "narration": "In September nineteen ninety five, a start up scrap firm called Pegasus bought her",
+   "beats": [
+    {
+     "t": 0.301,
+     "frame": 9,
+     "chapter_t": 61.718,
+     "abs_t": 110.343,
+     "kind": "pop",
+     "note": "SALE \u00b7 SEPTEMBER 1995 types in",
+     "main": false
+    },
+    {
+     "t": 3.993,
+     "frame": 120,
+     "chapter_t": 65.41,
+     "abs_t": 114.035,
+     "kind": "pop",
+     "note": "PEGASUS types in",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c02_ledger_b": {
+   "file": "h_c02_ledger_b.mp4",
+   "chapter": "c02",
+   "shot": "s20",
+   "shot_dur": 2.96,
+   "clip_dur": 3.36,
+   "chapter_t0": 66.439,
+   "abs_t0": 115.064,
+   "replaces": null,
+   "narration": "for just over a million dollars.",
+   "beats": [
+    {
+     "t": 1.089,
+     "frame": 33,
+     "chapter_t": 67.528,
+     "abs_t": 116.153,
+     "kind": "impact",
+     "note": "$1.2 MILLION stamp lands",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c02_tally": {
+   "file": "h_c02_tally.mp4",
+   "chapter": "c02",
+   "shot": "s29",
+   "shot_dur": 6.21,
+   "clip_dur": 6.61,
+   "chapter_t0": 98.881,
+   "abs_t0": 147.506,
+   "replaces": null,
+   "narration": "Two scrap deals had collapsed. Two more attempts to sell her found no taker at all.",
+   "beats": [
+    {
+     "t": 0.12,
+     "frame": 4,
+     "chapter_t": 99.001,
+     "abs_t": 147.626,
+     "kind": "tick",
+     "note": "SCRAP DEALS: tally 1",
+     "main": false
+    },
+    {
+     "t": 0.44,
+     "frame": 13,
+     "chapter_t": 99.321,
+     "abs_t": 147.946,
+     "kind": "tick",
+     "note": "SCRAP DEALS: tally 2",
+     "main": false
+    },
+    {
+     "t": 1.08,
+     "frame": 32,
+     "chapter_t": 99.961,
+     "abs_t": 148.586,
+     "kind": "impact",
+     "note": "stamp COLLAPSED",
+     "main": true
+    },
+    {
+     "t": 2.098,
+     "frame": 63,
+     "chapter_t": 100.979,
+     "abs_t": 149.604,
+     "kind": "tick",
+     "note": "MORE ATTEMPTS: tally 1",
+     "main": false
+    },
+    {
+     "t": 2.418,
+     "frame": 73,
+     "chapter_t": 101.299,
+     "abs_t": 149.924,
+     "kind": "tick",
+     "note": "MORE ATTEMPTS: tally 2",
+     "main": false
+    },
+    {
+     "t": 4.358,
+     "frame": 131,
+     "chapter_t": 103.239,
+     "abs_t": 151.864,
+     "kind": "impact",
+     "note": "stamp NO TAKER",
+     "main": false
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c04_deck_a": {
+   "file": "h_c04_deck_a.mp4",
+   "chapter": "c04",
+   "shot": "s12",
+   "shot_dur": 3.4,
+   "clip_dur": 3.8,
+   "chapter_t0": 44.27,
+   "abs_t0": 404.238,
+   "replaces": null,
+   "narration": "Then workers stripped the asphalt off her flight deck.",
+   "beats": [
+    {
+     "t": 0.15,
+     "frame": 4,
+     "chapter_t": 44.42,
+     "abs_t": 404.388,
+     "kind": "whoosh",
+     "note": "deck layers lift off (exploded view)",
+     "main": false
+    },
+    {
+     "t": 1.16,
+     "frame": 35,
+     "chapter_t": 45.43,
+     "abs_t": 405.398,
+     "kind": "scrape",
+     "note": "asphalt starts to peel back",
+     "main": true
+    },
+    {
+     "t": 2.08,
+     "frame": 62,
+     "chapter_t": 46.35,
+     "abs_t": 406.318,
+     "kind": "pop",
+     "note": "WOOD DECK tag",
+     "main": false
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c04_deck_a2": {
+   "file": "h_c04_deck_a2.mp4",
+   "chapter": "c04",
+   "shot": "s13",
+   "shot_dur": 3.41,
+   "clip_dur": 3.81,
+   "chapter_t0": 47.32,
+   "abs_t0": 407.288,
+   "replaces": null,
+   "narration": "The wood underneath was full of PCBs.",
+   "beats": [
+    {
+     "t": 1.78,
+     "frame": 53,
+     "chapter_t": 49.1,
+     "abs_t": 409.068,
+     "kind": "pop",
+     "note": "wood glows amber, PCBs tag",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c04_deck_b": {
+   "file": "h_c04_deck_b.mp4",
+   "chapter": "c04",
+   "shot": "s14",
+   "shot_dur": 3.17,
+   "clip_dur": 3.57,
+   "chapter_t0": 50.376,
+   "abs_t0": 410.344,
+   "replaces": null,
+   "narration": "The Navy blamed fluid from her catapults.",
+   "beats": [
+    {
+     "t": 0.05,
+     "frame": 2,
+     "chapter_t": 50.426,
+     "abs_t": 410.394,
+     "kind": "whoosh",
+     "note": "camera pushes in on the bow",
+     "main": false
+    },
+    {
+     "t": 1.8,
+     "frame": 54,
+     "chapter_t": 52.176,
+     "abs_t": 412.144,
+     "kind": "pop",
+     "note": "catapult tracks light, amber seeps",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c04_deck_c": {
+   "file": "h_c04_deck_c.mp4",
+   "chapter": "c04",
+   "shot": "s17",
+   "shot_dur": 2.84,
+   "clip_dur": 3.24,
+   "chapter_t0": 60.939,
+   "abs_t0": 420.907,
+   "replaces": null,
+   "narration": "So the whole wooden deck came out.",
+   "beats": [
+    {
+     "t": 1.26,
+     "frame": 38,
+     "chapter_t": 62.199,
+     "abs_t": 422.167,
+     "kind": "whoosh",
+     "note": "whole wooden layer lifts away and dissolves",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c05_hero_a": {
+   "file": "h_c05_hero_a.mp4",
+   "chapter": "c05",
+   "shot": "s18",
+   "shot_dur": 4.65,
+   "clip_dur": 5.05,
+   "chapter_t0": 54.548,
+   "abs_t0": 539.031,
+   "replaces": null,
+   "narration": "She settled upright on the bottom, her bow pointing due south.",
+   "beats": [
+    {
+     "t": 0.05,
+     "frame": 2,
+     "chapter_t": 54.598,
+     "abs_t": 539.081,
+     "kind": "whoosh",
+     "note": "hull already sinking, stern first",
+     "main": false
+    },
+    {
+     "t": 3.4,
+     "frame": 102,
+     "chapter_t": 57.948,
+     "abs_t": 542.431,
+     "kind": "pop",
+     "note": "compass tag BOW \u2192 DUE SOUTH",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": [
+    {
+     "t": 0,
+     "kind": "swell_bed_1"
+    },
+    {
+     "t": 0,
+     "kind": "underwater_bed_2"
+    },
+    {
+     "t": 0.36,
+     "kind": "hull_groan_1"
+    },
+    {
+     "t": 0.96,
+     "kind": "sonar_ping_3"
+    },
+    {
+     "t": 1.06,
+     "kind": "sink_whoomp_1"
+    },
+    {
+     "t": 2.56,
+     "kind": "sonar_ping_3"
+    },
+    {
+     "t": 3.769,
+     "kind": "metal_creak_2"
+    },
+    {
+     "t": 4.16,
+     "kind": "sonar_ping_3"
+    }
+   ]
+  },
+  "c05_hero_b": {
+   "file": "h_c05_hero_b.mp4",
+   "chapter": "c05",
+   "shot": "s19",
+   "shot_dur": 2.95,
+   "clip_dur": 3.35,
+   "chapter_t0": 58.851,
+   "abs_t0": 543.334,
+   "replaces": null,
+   "narration": "Two hundred and twelve feet down.",
+   "beats": [
+    {
+     "t": 0.935,
+     "frame": 28,
+     "chapter_t": 59.786,
+     "abs_t": 544.269,
+     "kind": "land",
+     "note": "touchdown: gauge lands ON THE SEABED 212 FT, silt puff",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": [
+    {
+     "t": -0.49,
+     "kind": "sonar_ping_3"
+    },
+    {
+     "t": 0.935,
+     "kind": "number_land_1"
+    }
+   ]
+  },
+  "c06_rounds_a": {
+   "file": "h_c06_rounds_a.mp4",
+   "chapter": "c06",
+   "shot": "s11",
+   "shot_dur": 6.23,
+   "clip_dur": 6.63,
+   "chapter_t0": 38.469,
+   "abs_t0": 604.346,
+   "replaces": null,
+   "narration": "From December two thousand six to November two thousand ten, the state and Escambia County",
+   "beats": [
+    {
+     "t": 0.443,
+     "frame": 13,
+     "chapter_t": 38.912,
+     "abs_t": 604.789,
+     "kind": "pop",
+     "note": "DEC 2006 lands",
+     "main": false
+    },
+    {
+     "t": 2.317,
+     "frame": 70,
+     "chapter_t": 40.786,
+     "abs_t": 606.663,
+     "kind": "pop",
+     "note": "NOV 2010 lands, line complete",
+     "main": true
+    },
+    {
+     "t": 4.32,
+     "frame": 130,
+     "chapter_t": 42.789,
+     "abs_t": 608.666,
+     "kind": "whoosh",
+     "note": "fish icons drop on the 8 rounds",
+     "main": false
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c06_rounds_b": {
+   "file": "h_c06_rounds_b.mp4",
+   "chapter": "c06",
+   "shot": "s12",
+   "shot_dur": 3.76,
+   "clip_dur": 4.16,
+   "chapter_t0": 44.35,
+   "abs_t0": 610.227,
+   "replaces": null,
+   "narration": "sampled eight rounds of fish.",
+   "beats": [
+    {
+     "t": 0.637,
+     "frame": 19,
+     "chapter_t": 44.987,
+     "abs_t": 610.864,
+     "kind": "land",
+     "note": "counter lands on 8 ROUNDS",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c06_lines_b": {
+   "file": "h_c06_lines_b.mp4",
+   "chapter": "c06",
+   "shot": "s15",
+   "shot_dur": 6.18,
+   "clip_dur": 6.58,
+   "chapter_t0": 53.268,
+   "abs_t0": 619.145,
+   "replaces": null,
+   "narration": "For the first two years, the average PCB level in those fish was above two lines.",
+   "beats": [
+    {
+     "t": 0.05,
+     "frame": 2,
+     "chapter_t": 53.318,
+     "abs_t": 619.195,
+     "kind": "whoosh",
+     "note": "chart + two screening-value lines draw",
+     "main": false
+    },
+    {
+     "t": 1.88,
+     "frame": 56,
+     "chapter_t": 55.148,
+     "abs_t": 621.025,
+     "kind": "riser",
+     "note": "average bar starts to rise",
+     "main": false
+    },
+    {
+     "t": 4.36,
+     "frame": 131,
+     "chapter_t": 57.628,
+     "abs_t": 623.505,
+     "kind": "land",
+     "note": "bar lands ABOVE BOTH LINES",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c06_lines_c": {
+   "file": "h_c06_lines_c.mp4",
+   "chapter": "c06",
+   "shot": "s16",
+   "shot_dur": 4.08,
+   "clip_dur": 4.48,
+   "chapter_t0": 59.098,
+   "abs_t0": 624.975,
+   "replaces": null,
+   "narration": "Florida's screening value. And the EPA's.",
+   "beats": [
+    {
+     "t": 0.22,
+     "frame": 7,
+     "chapter_t": 59.318,
+     "abs_t": 625.195,
+     "kind": "pop",
+     "note": "label FLORIDA 50 ppb",
+     "main": false
+    },
+    {
+     "t": 2.256,
+     "frame": 68,
+     "chapter_t": 61.354,
+     "abs_t": 627.231,
+     "kind": "pop",
+     "note": "label EPA 20 ppb",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c06_lines_d": {
+   "file": "h_c06_lines_d.mp4",
+   "chapter": "c06",
+   "shot": "s17",
+   "shot_dur": 3.08,
+   "clip_dur": 3.48,
+   "chapter_t0": 62.827,
+   "abs_t0": 628.704,
+   "replaces": null,
+   "narration": "Screening values are not poison limits.",
+   "beats": [
+    {
+     "t": 0.52,
+     "frame": 16,
+     "chapter_t": 63.347,
+     "abs_t": 629.224,
+     "kind": "pop",
+     "note": "labels become SCREENING VALUE",
+     "main": true
+    },
+    {
+     "t": 1.36,
+     "frame": 41,
+     "chapter_t": 64.187,
+     "abs_t": 630.064,
+     "kind": "pop",
+     "note": "note: not poison limits",
+     "main": false
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c06_species_a": {
+   "file": "h_c06_species_a.mp4",
+   "chapter": "c06",
+   "shot": "s19",
+   "shot_dur": 3.73,
+   "clip_dur": 4.13,
+   "chapter_t0": 69.58,
+   "abs_t0": 635.457,
+   "replaces": null,
+   "narration": "The highest readings were in red snapper and porgies.",
+   "beats": [
+    {
+     "t": 1.5,
+     "frame": 45,
+     "chapter_t": 71.08,
+     "abs_t": 636.957,
+     "kind": "pop",
+     "note": "RED SNAPPER token (above)",
+     "main": true
+    },
+    {
+     "t": 2.46,
+     "frame": 74,
+     "chapter_t": 72.04,
+     "abs_t": 637.917,
+     "kind": "pop",
+     "note": "PORGIES token (above)",
+     "main": false
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c06_species_b": {
+   "file": "h_c06_species_b.mp4",
+   "chapter": "c06",
+   "shot": "s20",
+   "shot_dur": 4.31,
+   "clip_dur": 4.71,
+   "chapter_t0": 72.959,
+   "abs_t0": 638.836,
+   "replaces": null,
+   "narration": "Vermilion snapper and scamp never crossed either line.",
+   "beats": [
+    {
+     "t": 0.17,
+     "frame": 5,
+     "chapter_t": 73.129,
+     "abs_t": 639.006,
+     "kind": "pop",
+     "note": "VERMILION SNAPPER token (below)",
+     "main": true
+    },
+    {
+     "t": 1.38,
+     "frame": 41,
+     "chapter_t": 74.339,
+     "abs_t": 640.216,
+     "kind": "pop",
+     "note": "SCAMP token (below)",
+     "main": false
+    },
+    {
+     "t": 1.74,
+     "frame": 52,
+     "chapter_t": 74.699,
+     "abs_t": 640.576,
+     "kind": "pop",
+     "note": "NEVER CROSSED EITHER LINE",
+     "main": false
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c06_snapper_a": {
+   "file": "h_c06_snapper_a.mp4",
+   "chapter": "c06",
+   "shot": "s22",
+   "shot_dur": 2.31,
+   "clip_dur": 2.71,
+   "chapter_t0": 81.165,
+   "abs_t0": 647.042,
+   "replaces": null,
+   "narration": "They said snapper on the carrier carried",
+   "beats": [
+    {
+     "t": 0.46,
+     "frame": 14,
+     "chapter_t": 81.625,
+     "abs_t": 647.502,
+     "kind": "whoosh",
+     "note": "two snapper icons in",
+     "main": false
+    },
+    {
+     "t": 1.62,
+     "frame": 49,
+     "chapter_t": 82.785,
+     "abs_t": 648.662,
+     "kind": "riser",
+     "note": "carrier bar grows",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c06_snapper_b": {
+   "file": "h_c06_snapper_b.mp4",
+   "chapter": "c06",
+   "shot": "s23",
+   "shot_dur": 5.5,
+   "clip_dur": 5.9,
+   "chapter_t0": 83.125,
+   "abs_t0": 649.002,
+   "replaces": null,
+   "narration": "about seven times more PCBs than snapper on a rubble reef.",
+   "beats": [
+    {
+     "t": 0.46,
+     "frame": 14,
+     "chapter_t": 83.585,
+     "abs_t": 649.462,
+     "kind": "land",
+     "note": "\u22487\u00d7 lands on 'seven'",
+     "main": true
+    },
+    {
+     "t": 4.1,
+     "frame": 123,
+     "chapter_t": 87.225,
+     "abs_t": 653.102,
+     "kind": "pop",
+     "note": "rubble reef label highlights",
+     "main": false
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c06_down_a": {
+   "file": "h_c06_down_a.mp4",
+   "chapter": "c06",
+   "shot": "s26",
+   "shot_dur": 2.17,
+   "clip_dur": 2.57,
+   "chapter_t0": 94.377,
+   "abs_t0": 660.254,
+   "replaces": null,
+   "narration": "Then the numbers came down.",
+   "beats": [
+    {
+     "t": 1.06,
+     "frame": 32,
+     "chapter_t": 95.437,
+     "abs_t": 661.314,
+     "kind": "whoosh",
+     "note": "first bar dims, trend starts down",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c06_down_b": {
+   "file": "h_c06_down_b.mp4",
+   "chapter": "c06",
+   "shot": "s27",
+   "shot_dur": 4.61,
+   "clip_dur": 5.01,
+   "chapter_t0": 96.201,
+   "abs_t0": 662.078,
+   "replaces": null,
+   "narration": "By about three years, the average was below Florida's line.",
+   "beats": [
+    {
+     "t": 0.42,
+     "frame": 13,
+     "chapter_t": 96.621,
+     "abs_t": 662.498,
+     "kind": "riser",
+     "note": "~2.9 yr bar rises",
+     "main": false
+    },
+    {
+     "t": 2.58,
+     "frame": 77,
+     "chapter_t": 98.781,
+     "abs_t": 664.658,
+     "kind": "land",
+     "note": "bar lands below FLORIDA",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c06_down_c": {
+   "file": "h_c06_down_c.mp4",
+   "chapter": "c06",
+   "shot": "s28",
+   "shot_dur": 3.18,
+   "clip_dur": 3.58,
+   "chapter_t0": 100.461,
+   "abs_t0": 666.338,
+   "replaces": null,
+   "narration": "By about four years, it was below both.",
+   "beats": [
+    {
+     "t": 0.36,
+     "frame": 11,
+     "chapter_t": 100.821,
+     "abs_t": 666.698,
+     "kind": "riser",
+     "note": "~3.5-3.9 yr bar rises",
+     "main": false
+    },
+    {
+     "t": 1.96,
+     "frame": 59,
+     "chapter_t": 102.421,
+     "abs_t": 668.298,
+     "kind": "land",
+     "note": "bar lands BELOW BOTH",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c06_down_d": {
+   "file": "h_c06_down_d.mp4",
+   "chapter": "c06",
+   "shot": "s30",
+   "shot_dur": 5.19,
+   "clip_dur": 5.59,
+   "chapter_t0": 107.439,
+   "abs_t0": 673.316,
+   "replaces": null,
+   "narration": "The last published results stop there, about four years after the sinking.",
+   "beats": [
+    {
+     "t": 1.36,
+     "frame": 41,
+     "chapter_t": 108.799,
+     "abs_t": 674.676,
+     "kind": "pop",
+     "note": "data stops: hatched, dashed ?",
+     "main": true
+    },
+    {
+     "t": 3.78,
+     "frame": 113,
+     "chapter_t": 111.219,
+     "abs_t": 677.096,
+     "kind": "pop",
+     "note": "NO FISH ADVISORY WAS EVER ISSUED",
+     "main": false
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c07_settle": {
+   "file": "h_c07_settle.mp4",
+   "chapter": "c07",
+   "shot": "s04",
+   "shot_dur": 6.21,
+   "clip_dur": 6.61,
+   "chapter_t0": 8.417,
+   "abs_t0": 694.959,
+   "replaces": null,
+   "narration": "Within about two and a half years, storms had pushed her roughly ten feet down into the seabed.",
+   "beats": [
+    {
+     "t": 1.04,
+     "frame": 31,
+     "chapter_t": 9.457,
+     "abs_t": 695.999,
+     "kind": "pop",
+     "note": "WITHIN \u2248 2\u00bd YEARS tag",
+     "main": false
+    },
+    {
+     "t": 2.18,
+     "frame": 65,
+     "chapter_t": 10.597,
+     "abs_t": 697.139,
+     "kind": "whoosh",
+     "note": "storm surge starts, camera on the keel",
+     "main": false
+    },
+    {
+     "t": 3.58,
+     "frame": 107,
+     "chapter_t": 11.997,
+     "abs_t": 698.539,
+     "kind": "land",
+     "note": "hull settles ~10 ft into the seabed, \u2248 10 FT bracket lands",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c07_funnel": {
+   "file": "h_c07_funnel.mp4",
+   "chapter": "c07",
+   "shot": "s06",
+   "shot_dur": 5.72,
+   "clip_dur": 6.12,
+   "chapter_t0": 18.085,
+   "abs_t0": 704.627,
+   "replaces": null,
+   "narration": "In late two thousand nine, a storm tore away the casing around her funnel.",
+   "beats": [
+    {
+     "t": 0.303,
+     "frame": 9,
+     "chapter_t": 18.388,
+     "abs_t": 704.93,
+     "kind": "pop",
+     "note": "LATE 2009 tag",
+     "main": false
+    },
+    {
+     "t": 2.257,
+     "frame": 68,
+     "chapter_t": 20.342,
+     "abs_t": 706.884,
+     "kind": "impact",
+     "note": "funnel casing tears away (4 panels)",
+     "main": true
+    },
+    {
+     "t": 3.112,
+     "frame": 93,
+     "chapter_t": 21.197,
+     "abs_t": 707.739,
+     "kind": "pop",
+     "note": "FUNNEL CASING TORN AWAY tag",
+     "main": false
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c07_depths_a": {
+   "file": "h_c07_depths_a.mp4",
+   "chapter": "c07",
+   "shot": "s07",
+   "shot_dur": 4.25,
+   "clip_dur": 4.65,
+   "chapter_t0": 23.459,
+   "abs_t0": 710.001,
+   "replaces": null,
+   "narration": "Today her flight deck lies about one hundred and forty five",
+   "beats": [
+    {
+     "t": 3.305,
+     "frame": 99,
+     "chapter_t": 26.764,
+     "abs_t": 713.306,
+     "kind": "pop",
+     "note": "FLIGHT DECK \u2248145\u2013150 FT marker lands",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c07_depths_b": {
+   "file": "h_c07_depths_b.mp4",
+   "chapter": "c07",
+   "shot": "s08",
+   "shot_dur": 3.2,
+   "clip_dur": 3.6,
+   "chapter_t0": 27.359,
+   "abs_t0": 713.901,
+   "replaces": null,
+   "narration": "to one hundred and fifty feet down.",
+   "beats": [
+    {
+     "t": 1.355,
+     "frame": 41,
+     "chapter_t": 28.714,
+     "abs_t": 715.256,
+     "kind": "land",
+     "note": "145\u2013150 FT bracket lands",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c07_depths_d": {
+   "file": "h_c07_depths_d.mp4",
+   "chapter": "c07",
+   "shot": "s10",
+   "shot_dur": 3.6,
+   "clip_dur": 4.0,
+   "chapter_t0": 33.548,
+   "abs_t0": 720.09,
+   "replaces": null,
+   "narration": "The deck is beyond normal sport diving limits.",
+   "beats": [
+    {
+     "t": 2.32,
+     "frame": 70,
+     "chapter_t": 35.868,
+     "abs_t": 722.41,
+     "kind": "pop",
+     "note": "SPORT-DIVING LIMIT line + band",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c07_apart": {
+   "file": "h_c07_apart.mp4",
+   "chapter": "c07",
+   "shot": "s20",
+   "shot_dur": 4.69,
+   "clip_dur": 5.09,
+   "chapter_t0": 67.533,
+   "abs_t0": 754.075,
+   "replaces": null,
+   "narration": "The Navy said ripping it all out would mean taking the ship apart.",
+   "beats": [
+    {
+     "t": 0.1,
+     "frame": 3,
+     "chapter_t": 67.633,
+     "abs_t": 754.175,
+     "kind": "whoosh",
+     "note": "wiring draws through the hull",
+     "main": false
+    },
+    {
+     "t": 0.78,
+     "frame": 23,
+     "chapter_t": 68.313,
+     "abs_t": 754.855,
+     "kind": "pop",
+     "note": "PCBs IN THE WIRING tag, wiring pulses",
+     "main": false
+    },
+    {
+     "t": 2.5,
+     "frame": 75,
+     "chapter_t": 70.033,
+     "abs_t": 756.575,
+     "kind": "scrape",
+     "note": "cut lines draw",
+     "main": false
+    },
+    {
+     "t": 3.36,
+     "frame": 101,
+     "chapter_t": 70.893,
+     "abs_t": 757.435,
+     "kind": "impact",
+     "note": "ship splits into five sections + sparks",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c07_tally": {
+   "file": "h_c07_tally.mp4",
+   "chapter": "c07",
+   "shot": "s22",
+   "shot_dur": 4.35,
+   "clip_dur": 4.75,
+   "chapter_t0": 76.26,
+   "abs_t0": 762.802,
+   "replaces": null,
+   "narration": "Two scrap deals had collapsed. Two more had found no taker.",
+   "beats": [
+    {
+     "t": 0.12,
+     "frame": 4,
+     "chapter_t": 76.38,
+     "abs_t": 762.922,
+     "kind": "tick",
+     "note": "SCRAP DEALS: tally 1",
+     "main": false
+    },
+    {
+     "t": 0.44,
+     "frame": 13,
+     "chapter_t": 76.7,
+     "abs_t": 763.242,
+     "kind": "tick",
+     "note": "SCRAP DEALS: tally 2",
+     "main": false
+    },
+    {
+     "t": 1.08,
+     "frame": 32,
+     "chapter_t": 77.34,
+     "abs_t": 763.882,
+     "kind": "impact",
+     "note": "stamp COLLAPSED",
+     "main": true
+    },
+    {
+     "t": 2.098,
+     "frame": 63,
+     "chapter_t": 78.358,
+     "abs_t": 764.9,
+     "kind": "tick",
+     "note": "MORE TRIES: tally 1",
+     "main": false
+    },
+    {
+     "t": 2.418,
+     "frame": 73,
+     "chapter_t": 78.678,
+     "abs_t": 765.22,
+     "kind": "tick",
+     "note": "MORE TRIES: tally 2",
+     "main": false
+    },
+    {
+     "t": 3.218,
+     "frame": 97,
+     "chapter_t": 79.478,
+     "abs_t": 766.02,
+     "kind": "impact",
+     "note": "stamp NO TAKER",
+     "main": false
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c07_today": {
+   "file": "h_c07_today.mp4",
+   "chapter": "c07",
+   "shot": "s38",
+   "shot_dur": 4.28,
+   "clip_dur": 4.68,
+   "chapter_t0": 135.389,
+   "abs_t0": 821.931,
+   "replaces": null,
+   "narration": "She is still the only aircraft carrier ever sunk as a reef.",
+   "beats": [
+    {
+     "t": 0.72,
+     "frame": 22,
+     "chapter_t": 136.109,
+     "abs_t": 822.651,
+     "kind": "pop",
+     "note": "THE ONLY CARRIER EVER REEFED tag",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c07_wreck2008": {
+   "file": "h_c07_wreck2008.mp4",
+   "chapter": "c07",
+   "shot": "s02",
+   "shot_dur": 3.52,
+   "clip_dur": 3.92,
+   "chapter_t0": 2.99,
+   "abs_t0": 689.532,
+   "replaces": "p_c07_s02.mp4",
+   "narration": "She does not sit the way she did on the day she sank.",
+   "beats": [
+    {
+     "t": 2.803,
+     "frame": 84,
+     "chapter_t": 5.793,
+     "abs_t": 692.335,
+     "kind": "pop",
+     "note": "growth reaches JULY 2008, tag lands",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c07_depths_c": {
+   "file": "h_c07_depths_c.mp4",
+   "chapter": "c07",
+   "shot": "s09",
+   "shot_dur": 3.34,
+   "clip_dur": 3.74,
+   "chapter_t0": 30.21,
+   "abs_t0": 716.752,
+   "replaces": "p_c07_s09.mp4",
+   "narration": "The top of her island is eighty four feet down.",
+   "beats": [
+    {
+     "t": 1.556,
+     "frame": 47,
+     "chapter_t": 31.766,
+     "abs_t": 718.308,
+     "kind": "pop",
+     "note": "ISLAND TOP 84 FT marker lands",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  },
+  "c07_divers": {
+   "file": "h_c07_divers.mp4",
+   "chapter": "c07",
+   "shot": "s12",
+   "shot_dur": 1.81,
+   "clip_dur": 2.21,
+   "chapter_t0": 40.46,
+   "abs_t0": 727.002,
+   "replaces": "p_c07_s12.mp4",
+   "narration": "The divers came anyway.",
+   "beats": [
+    {
+     "t": 0.197,
+     "frame": 6,
+     "chapter_t": 40.657,
+     "abs_t": 727.199,
+     "kind": "whoosh",
+     "note": "divers start their descent",
+     "main": true
+    }
+   ],
+   "missing_words": [],
+   "sound_hint": []
+  }
+ },
+ "templates": {
+  "c01": [
+   {
+    "shot": "s01",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 0.0,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 2.223,
+      "t": 2.223,
+      "frame": 67,
+      "note": "number 212"
+     }
+    ]
+   },
+   {
+    "shot": "s05",
+    "template": "number_clip",
+    "variant": "center_bars",
+    "start": 9.98,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 10.237,
+      "t": 0.257,
+      "frame": 8,
+      "note": "number ON PURPOSE."
+     }
+    ]
+   },
+   {
+    "shot": "s07",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 13.75,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 13.802,
+      "t": 0.052,
+      "frame": 2,
+      "note": "number 22"
+     }
+    ]
+   },
+   {
+    "shot": "s10",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 17.98,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 18.692,
+      "t": 0.712,
+      "frame": 21,
+      "note": "count lands 37"
+     }
+    ]
+   },
+   {
+    "shot": "s12",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 21.25,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 22.791,
+      "t": 1.541,
+      "frame": 46,
+      "note": "number 3+"
+     }
+    ]
+   },
+   {
+    "shot": "s13",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 23.84,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 24.108,
+      "t": 0.268,
+      "frame": 8,
+      "note": "number $20"
+     }
+    ]
+   },
+   {
+    "shot": "s15",
+    "template": "anim_options",
+    "variant": "list",
+    "start": 29.6,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 30.075,
+      "t": 0.475,
+      "frame": 14,
+      "note": "option Keep her?"
+     },
+     {
+      "kind": "pop",
+      "chapter_t": 31.396,
+      "t": 1.796,
+      "frame": 54,
+      "note": "option Scrap her?"
+     }
+    ]
+   },
+   {
+    "shot": "s17",
+    "template": "anim_xray",
+    "variant": "animal",
+    "start": 34.9,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 35.659,
+      "t": 0.759,
+      "frame": 23,
+      "note": "organ glows ?"
+     }
+    ]
+   }
+  ],
+  "c02": [
+   {
+    "shot": "s06",
+    "template": "number_clip",
+    "variant": "center_bars",
+    "start": 14.72,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 17.05,
+      "t": 2.33,
+      "frame": 70,
+      "note": "number STRUCK"
+     }
+    ]
+   },
+   {
+    "shot": "s08",
+    "template": "anim_options",
+    "variant": "list",
+    "start": 22.3,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 25.802,
+      "t": 3.502,
+      "frame": 105,
+      "note": "option A museum?"
+     },
+     {
+      "kind": "pop",
+      "chapter_t": 26.512,
+      "t": 4.212,
+      "frame": 126,
+      "note": "option A scrapyard?"
+     }
+    ]
+   },
+   {
+    "shot": "s14",
+    "template": "anim_options",
+    "variant": "list",
+    "start": 47.36,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 47.41,
+      "t": 0.05,
+      "frame": 1,
+      "note": "option A museum?"
+     },
+     {
+      "kind": "scrape",
+      "chapter_t": 47.796,
+      "t": 0.436,
+      "frame": 13,
+      "note": "strike A museum?"
+     },
+     {
+      "kind": "pop",
+      "chapter_t": 47.41,
+      "t": 0.05,
+      "frame": 1,
+      "note": "option A scrapyard?"
+     }
+    ]
+   }
+  ],
+  "c03": [
+   {
+    "shot": "s13",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 40.62,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 41.425,
+      "t": 0.805,
+      "frame": 24,
+      "note": "number 1"
+     }
+    ]
+   },
+   {
+    "shot": "s14",
+    "template": "number_clip",
+    "variant": "strike_swap",
+    "start": 42.96,
+    "beats": [
+     {
+      "kind": "scrape",
+      "chapter_t": 46.24,
+      "t": 3.28,
+      "frame": 98,
+      "note": "strike 1 -> 4"
+     }
+    ]
+   },
+   {
+    "shot": "s18",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 55.17,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 56.534,
+      "t": 1.364,
+      "frame": 41,
+      "note": "number 12,000"
+     }
+    ]
+   },
+   {
+    "shot": "s28",
+    "template": "anim_xray",
+    "variant": "animal",
+    "start": 89.43,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 91.988,
+      "t": 2.558,
+      "frame": 77,
+      "note": "organ glows FLARES"
+     }
+    ]
+   },
+   {
+    "shot": "s30",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 98.74,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 99.955,
+      "t": 1.215,
+      "frame": 36,
+      "note": "number \u2248700"
+     }
+    ]
+   },
+   {
+    "shot": "s31",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 101.56,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 102.744,
+      "t": 1.184,
+      "frame": 36,
+      "note": "number 5,400"
+     }
+    ]
+   },
+   {
+    "shot": "s32",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 105.97,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 107.31,
+      "t": 1.34,
+      "frame": 40,
+      "note": "number 7"
+     }
+    ]
+   },
+   {
+    "shot": "s35",
+    "template": "number_clip",
+    "variant": "center_bars",
+    "start": 115.15,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 116.097,
+      "t": 0.947,
+      "frame": 28,
+      "note": "number 44"
+     }
+    ]
+   }
+  ],
+  "c04": [
+   {
+    "shot": "s03",
+    "template": "number_clip",
+    "variant": "center_bars",
+    "start": 7.73,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 8.991,
+      "t": 1.261,
+      "frame": 38,
+      "note": "number FIRST"
+     }
+    ]
+   },
+   {
+    "shot": "s07",
+    "template": "number_clip",
+    "variant": "strike_swap",
+    "start": 23.87,
+    "beats": [
+     {
+      "kind": "scrape",
+      "chapter_t": 27.843,
+      "t": 3.973,
+      "frame": 119,
+      "note": "strike SUMMER 2004 -> 2 MORE YEARS"
+     }
+    ]
+   },
+   {
+    "shot": "s08",
+    "template": "anim_xray",
+    "variant": "animal",
+    "start": 29.45,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 30.412,
+      "t": 0.962,
+      "frame": 29,
+      "note": "organ glows CLEANUP"
+     }
+    ]
+   },
+   {
+    "shot": "s10",
+    "template": "anim_gauge",
+    "variant": "meter",
+    "start": 35.75,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 38.206,
+      "t": 2.456,
+      "frame": 74,
+      "note": "meter lands 2.8 $ million"
+     }
+    ]
+   },
+   {
+    "shot": "s11",
+    "template": "anim_gauge",
+    "variant": "bars",
+    "start": 39.92,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 40.62,
+      "t": 0.7,
+      "frame": 21,
+      "note": "bar COMMITTED = 2.8"
+     },
+     {
+      "kind": "land",
+      "chapter_t": 41.042,
+      "t": 1.122,
+      "frame": 34,
+      "note": "bar FOR CONTAMINANTS = 2.1 (hero)"
+     }
+    ]
+   },
+   {
+    "shot": "s18",
+    "template": "anim_gauge",
+    "variant": "meter",
+    "start": 63.43,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 67.638,
+      "t": 4.208,
+      "frame": 126,
+      "note": "meter lands 7.6 $ million"
+     }
+    ]
+   },
+   {
+    "shot": "s21",
+    "template": "anim_xray",
+    "variant": "animal",
+    "start": 76.47,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 79.912,
+      "t": 3.442,
+      "frame": 103,
+      "note": "organ glows SAFE?"
+     }
+    ]
+   },
+   {
+    "shot": "s24",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 90.7,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 91.818,
+      "t": 1.118,
+      "frame": 34,
+      "note": "number $800,000"
+     }
+    ]
+   },
+   {
+    "shot": "s27",
+    "template": "anim_gauge",
+    "variant": "meter",
+    "start": 99.27,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 101.825,
+      "t": 2.555,
+      "frame": 77,
+      "note": "meter lands 12.7 $ million"
+     }
+    ]
+   },
+   {
+    "shot": "s30",
+    "template": "anim_gauge",
+    "variant": "bars",
+    "start": 113.45,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 114.45,
+      "t": 1.0,
+      "frame": 30,
+      "note": "bar NAVY = 20 (hero)"
+     },
+     {
+      "kind": "pop",
+      "chapter_t": 114.45,
+      "t": 1.0,
+      "frame": 30,
+      "note": "bar FLORIDA COUNTIES = 1"
+     }
+    ]
+   },
+   {
+    "shot": "s31",
+    "template": "anim_gauge",
+    "variant": "bars",
+    "start": 116.26,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 116.86,
+      "t": 0.6,
+      "frame": 18,
+      "note": "bar COMMITTED = 2.8"
+     },
+     {
+      "kind": "land",
+      "chapter_t": 117.66,
+      "t": 1.4,
+      "frame": 42,
+      "note": "bar FINAL = 20 (hero)"
+     }
+    ]
+   },
+   {
+    "shot": "s32",
+    "template": "anim_xray",
+    "variant": "animal",
+    "start": 119.69,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 123.549,
+      "t": 3.859,
+      "frame": 116,
+      "note": "organ glows ?"
+     }
+    ]
+   }
+  ],
+  "c05": [
+   {
+    "shot": "s10",
+    "template": "anim_xray",
+    "variant": "animal",
+    "start": 32.1,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 33.337,
+      "t": 1.237,
+      "frame": 37,
+      "note": "organ glows 22 CHARGES"
+     },
+     {
+      "kind": "pop",
+      "chapter_t": 35.505,
+      "t": 3.405,
+      "frame": 102,
+      "note": "readout DEEP IN THE HULL"
+     }
+    ]
+   },
+   {
+    "shot": "s11",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 36.91,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 37.509,
+      "t": 0.599,
+      "frame": 18,
+      "note": "number 500+"
+     }
+    ]
+   },
+   {
+    "shot": "s14",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 43.03,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 44.914,
+      "t": 1.884,
+      "frame": 57,
+      "note": "number \u22485"
+     }
+    ]
+   },
+   {
+    "shot": "s15",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 46.72,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 47.887,
+      "t": 1.167,
+      "frame": 35,
+      "note": "count lands 37"
+     }
+    ]
+   },
+   {
+    "shot": "s21",
+    "template": "number_clip",
+    "variant": "center_bars",
+    "start": 64.94,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 65.422,
+      "t": 0.482,
+      "frame": 14,
+      "note": "number LARGEST"
+     }
+    ]
+   }
+  ],
+  "c06": [
+   {
+    "shot": "s01",
+    "template": "anim_xray",
+    "variant": "animal",
+    "start": 0.0,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 1.17,
+      "t": 1.17,
+      "frame": 35,
+      "note": "organ glows PCBs"
+     }
+    ]
+   },
+   {
+    "shot": "s02",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 2.8,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 3.594,
+      "t": 0.794,
+      "frame": 24,
+      "note": "number \u2248700"
+     }
+    ]
+   },
+   {
+    "shot": "s03",
+    "template": "anim_xray",
+    "variant": "animal",
+    "start": 6.03,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 6.13,
+      "t": 0.1,
+      "frame": 3,
+      "note": "organ glows "
+     },
+     {
+      "kind": "pop",
+      "chapter_t": 6.885,
+      "t": 0.855,
+      "frame": 26,
+      "note": "readout CABLE"
+     },
+     {
+      "kind": "pop",
+      "chapter_t": 8.225,
+      "t": 2.195,
+      "frame": 66,
+      "note": "readout GASKETS"
+     },
+     {
+      "kind": "pop",
+      "chapter_t": 9.105,
+      "t": 3.075,
+      "frame": 92,
+      "note": "readout INSULATION"
+     },
+     {
+      "kind": "pop",
+      "chapter_t": 10.045,
+      "t": 4.015,
+      "frame": 120,
+      "note": "readout PAINT"
+     }
+    ]
+   },
+   {
+    "shot": "s08",
+    "template": "number_clip",
+    "variant": "center_bars",
+    "start": 26.07,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 26.571,
+      "t": 0.501,
+      "frame": 15,
+      "note": "number FIRST"
+     }
+    ]
+   },
+   {
+    "shot": "s31",
+    "template": "anim_xray",
+    "variant": "animal",
+    "start": 112.28,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 112.38,
+      "t": 0.1,
+      "frame": 3,
+      "note": "organ glows "
+     }
+    ]
+   },
+   {
+    "shot": "s32",
+    "template": "anim_xray",
+    "variant": "animal",
+    "start": 115.55,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 119.249,
+      "t": 3.699,
+      "frame": 111,
+      "note": "organ glows ?"
+     }
+    ]
+   }
+  ],
+  "c07": [
+   {
+    "shot": "s18",
+    "template": "anim_xray",
+    "variant": "animal",
+    "start": 58.91,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 61.311,
+      "t": 2.401,
+      "frame": 72,
+      "note": "organ glows ?"
+     }
+    ]
+   },
+   {
+    "shot": "s19",
+    "template": "anim_xray",
+    "variant": "animal",
+    "start": 62.66,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 64.501,
+      "t": 1.841,
+      "frame": 55,
+      "note": "organ glows 97 %"
+     }
+    ]
+   },
+   {
+    "shot": "s26",
+    "template": "anim_gauge",
+    "variant": "bars",
+    "start": 88.58,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 89.18,
+      "t": 0.6,
+      "frame": 18,
+      "note": "bar SCRAP + RECYCLE = 4"
+     },
+     {
+      "kind": "land",
+      "chapter_t": 90.236,
+      "t": 1.656,
+      "frame": 50,
+      "note": "bar REEF + CLEANUP = 1 (hero)"
+     }
+    ]
+   },
+   {
+    "shot": "s27",
+    "template": "anim_gauge",
+    "variant": "bars",
+    "start": 92.95,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 94.691,
+      "t": 1.741,
+      "frame": 52,
+      "note": "bar REEF (FINAL) = 20 (hero)"
+     }
+    ]
+   },
+   {
+    "shot": "s28",
+    "template": "anim_gauge",
+    "variant": "bars",
+    "start": 97.09,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 97.44,
+      "t": 0.35,
+      "frame": 10,
+      "note": "bar REEF = 20"
+     },
+     {
+      "kind": "land",
+      "chapter_t": 99.471,
+      "t": 2.381,
+      "frame": 71,
+      "note": "bar SCRAP (USNI 2006 EST.) = 24 (hero)"
+     }
+    ]
+   },
+   {
+    "shot": "s32",
+    "template": "anim_gauge",
+    "variant": "bars",
+    "start": 110.77,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 111.12,
+      "t": 0.35,
+      "frame": 11,
+      "note": "bar SCRAP = 24"
+     },
+     {
+      "kind": "land",
+      "chapter_t": 112.755,
+      "t": 1.985,
+      "frame": 60,
+      "note": "bar REEF, NEW STANDARD = 24 (hero)"
+     }
+    ]
+   },
+   {
+    "shot": "s34",
+    "template": "anim_options",
+    "variant": "list",
+    "start": 118.77,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 118.82,
+      "t": 0.05,
+      "frame": 1,
+      "note": "option A museum?"
+     },
+     {
+      "kind": "scrape",
+      "chapter_t": 119.992,
+      "t": 1.222,
+      "frame": 37,
+      "note": "strike A museum?"
+     },
+     {
+      "kind": "pop",
+      "chapter_t": 118.82,
+      "t": 0.05,
+      "frame": 1,
+      "note": "option A scrapyard?"
+     },
+     {
+      "kind": "scrape",
+      "chapter_t": 122.258,
+      "t": 3.488,
+      "frame": 105,
+      "note": "strike A scrapyard?"
+     }
+    ]
+   },
+   {
+    "shot": "s35",
+    "template": "anim_xray",
+    "variant": "animal",
+    "start": 123.03,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 124.673,
+      "t": 1.643,
+      "frame": 49,
+      "note": "organ glows WIRING"
+     }
+    ]
+   },
+   {
+    "shot": "s36",
+    "template": "anim_options",
+    "variant": "list",
+    "start": 128.4,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 128.42,
+      "t": 0.02,
+      "frame": 1,
+      "note": "option A museum?"
+     },
+     {
+      "kind": "scrape",
+      "chapter_t": 128.45,
+      "t": 0.05,
+      "frame": 1,
+      "note": "strike A museum?"
+     },
+     {
+      "kind": "pop",
+      "chapter_t": 128.42,
+      "t": 0.02,
+      "frame": 1,
+      "note": "option A scrapyard?"
+     },
+     {
+      "kind": "scrape",
+      "chapter_t": 128.5,
+      "t": 0.1,
+      "frame": 3,
+      "note": "strike A scrapyard?"
+     },
+     {
+      "kind": "pop",
+      "chapter_t": 128.585,
+      "t": 0.185,
+      "frame": 6,
+      "note": "option The bottom of the Gulf"
+     },
+     {
+      "kind": "land",
+      "chapter_t": 128.585,
+      "t": 0.185,
+      "frame": 6,
+      "note": "chosen The bottom of the Gulf (gold box after the last strike)"
+     }
+    ]
+   },
+   {
+    "shot": "s37",
+    "template": "anim_gauge",
+    "variant": "bars",
+    "start": 131.44,
+    "beats": [
+     {
+      "kind": "pop",
+      "chapter_t": 131.89,
+      "t": 0.45,
+      "frame": 13,
+      "note": "bar SCRAP (EST.) = 24"
+     },
+     {
+      "kind": "land",
+      "chapter_t": 132.54,
+      "t": 1.1,
+      "frame": 33,
+      "note": "bar REEF = 20 (hero)"
+     }
+    ]
+   },
+   {
+    "shot": "s40",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 141.76,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 141.962,
+      "t": 0.202,
+      "frame": 6,
+      "note": "number NOV 12"
+     }
+    ]
+   },
+   {
+    "shot": "s42",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 150.26,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 150.74,
+      "t": 0.48,
+      "frame": 14,
+      "note": "number 990"
+     }
+    ]
+   },
+   {
+    "shot": "s46",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 161.97,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 163.478,
+      "t": 1.508,
+      "frame": 45,
+      "note": "number $50,000"
+     }
+    ]
+   }
+  ]
+ }
+}

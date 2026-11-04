@@ -91,3 +91,12 @@ videos/*/full/chapter/work/
 videos/*/full/chapter/media_cache/
 videos/*/full/chapter/render*.mp4
 videos/*/full/build/*.log
+# full Oriskany map scenes: generated HyperFrames projects, renders, bakes (rebuild: full/mk/tools/bake_all.sh + build_full.py)
+videos/oriskany/full/mk/scenes/
+videos/oriskany/full/mk/assets/*.jpg
+# Oriskany full: animation stills / per-scene beat dumps (rebuild with build/make_anims.py)
+videos/oriskany/full/hero/snaps/
+videos/oriskany/full/hero/beats/
+videos/oriskany/full/segments/
+videos/oriskany/full/mk/assets/grain.png
+videos/oriskany/full/hero/render.log
