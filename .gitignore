@@ -36,3 +36,7 @@ voices-v1.0.bin
 *.mxf
 # raw downloaded source audio
 **/src/*.mp3
+# per-video source downloads and regenerable map bakes
+videos/**/src/
+videos/**/build/maps/*.png
+*.ogv
