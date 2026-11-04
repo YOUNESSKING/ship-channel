@@ -1,24 +1,36 @@
 # Credits: Oriskany test v2
 
-## Photos (public domain, U.S. Government works; National Archives Catalog, U.S. Navy 2006 series)
-| Shot | NARA ID | What it shows (NARA title, shortened) |
-|---|---|---|
-| p01_afloat | 6698606 | Decommissioned USS Oriskany (CV 34) before the sinking, May 2006 |
-| p03_eod | 6698615 | USN Explosive Ordnance Disposal sailors on a patrol boat before the sinking, 17 May 2006 |
-| p04_blast | 6698617 | Port side view of Oriskany as the explosive charges designed to sink her explode |
-| p05_smoke / p05b_smoke2 | 6698618 / 6698619 | Oriskany after the charges, smoke rising |
-| p06_list | 6698621 | Oriskany listing as she settles |
-| p07_stern | 6698623 | One end of the carrier lifting as she goes down |
-| p08_gone | 6698626 | The water where she went under |
-| p12_slam | 6698624 | Oriskany going under (dimmed, behind "ON PURPOSE.") |
-| p10_bw | 7578422 | "CVA 34 Oriskany" (1950s Navy photo) |
-| p11_tow | 6698598 | Aerial view of Oriskany preparing to get underway after final preparations, Pensacola |
-| p13_cut | 6698569 | Resolve Marine Group employee cutting holes in the flight deck during preparation |
-| p14_sparks | 6698580 | Resolve Marine Group employee cutting away the anchor chain |
-| p15_aerial | 6698599 | Aerial view of Oriskany under tow, May 2006 |
-| p16_crowd | 6698586 | Media along the sea wall documenting the last voyage |
-| p18_porthole | 6698555 | View inside Oriskany at NAS Pensacola during final preparations |
-Source: https://catalog.archives.gov/id/<NARA ID>. Photos downloaded by the footage agent (videos/oriskany/footage/src/photos).
+## Archive photos and film (lines copied from videos/oriskany/footage/CREDITS_DRAFT.md; files copied to test_v2/assets/)
+
+Only items from the vetted footage list are used. No CIV-credited photos, no strike-camera footage. The colour clip is labelled "off Vietnam, 1966" exactly as the NARA reel is dated; no target or place is named beyond that.
+
+| file | what | author | date | source page | licence | credit line |
+|---|---|---|---|---|---|---|
+| src/photos/nara_6698609.jpg | SH-3 Sea King circles Oriskany for a final check, 17 May 2006 | JO1 Jackey Bratt, USN | 2006-05-17 | https://catalog.archives.gov/id/6698609 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/photos/nara_6698576.jpg | EOD sailor spools out detonation cord, 13 May 2006 | JO1(Sw) Jackey Bratt, USN | 2006-05-13 | https://catalog.archives.gov/id/6698576 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/photos/nara_6698616.jpg | Smoke plume as the charges fire, 17 May 2006 | PHAN David Quillen, USN | 2006-05-17 | https://catalog.archives.gov/id/6698616 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/photos/nara_6698617.jpg | Port side as the charges explode, 17 May 2006 | PH2 (Aw/Nac) Jeffrey P. Kraus | 2006-05-17 | https://catalog.archives.gov/id/6698617 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/photos/nara_6698618.jpg | Aerial port bow as the charges explode, 17 May 2006 | PH2 (Aw/Nac) Jeffrey P. Kraus | 2006-05-17 | https://catalog.archives.gov/id/6698618 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/photos/nara_6698619.jpg | Aerial port bow as the charges explode (2), 17 May 2006 | PH2 (Aw/Nac) Jeffrey P. Kraus | 2006-05-17 | https://catalog.archives.gov/id/6698619 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/photos/nara_6698620.jpg | Starboard bow view: sinking, 17 May 2006 | PH2 (Aw/Nac) Jeffrey P. Kraus | 2006-05-17 | https://catalog.archives.gov/id/6698620 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/photos/nara_6698621.jpg | Aerial starboard bow: sinking, 17 May 2006 | PH2 (Aw/Nac) Jeffrey P. Kraus | 2006-05-17 | https://catalog.archives.gov/id/6698621 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/photos/nara_6698622.jpg | Aerial starboard stern: sinking, 17 May 2006 | PH2 (Aw/Nac) Jeffrey P. Kraus | 2006-05-17 | https://catalog.archives.gov/id/6698622 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/photos/nara_6698610.jpg | Starboard bow: sinking stern-first, 17 May 2006 | JO1 Jackey Bratt, USN | 2006-05-17 | https://catalog.archives.gov/id/6698610 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/photos/nara_6698611.jpg | Starboard bow: bow rising, 17 May 2006 | JO1 Jackey Bratt, USN | 2006-05-17 | https://catalog.archives.gov/id/6698611 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/photos/nara_6698624.jpg | Aerial stern-on: bow vertical, 17 May 2006 | PH2 (Aw/Nac) Jeffrey P. Kraus | 2006-05-17 | https://catalog.archives.gov/id/6698624 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/photos/nara_6698612.jpg | Starboard bow: steep angle, 17 May 2006 | JO1 Jackey Bratt, USN | 2006-05-17 | https://catalog.archives.gov/id/6698612 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/photos/nara_6698625.jpg | Aerial port bow: final moment, 17 May 2006 | PH2 (Aw/Nac) Jeffrey P. Kraus | 2006-05-17 | https://catalog.archives.gov/id/6698625 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/photos/nara_6698627.jpg | Aerial: bow disappears, 17 May 2006 | PH2 (Aw/Nac) Jeffrey P. Kraus | 2006-05-17 | https://catalog.archives.gov/id/6698627 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/photos/nara_6698628.jpg | Monitoring vessel on site after the sinking, 17 May 2006 | PH2 (Aw/Nac) Jeffrey P. Kraus | 2006-05-17 | https://catalog.archives.gov/id/6698628 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/photos/nara_6698597.jpg | Aerial: Oriskany leaves NAS Pensacola, 15 May 2006 | PH2 Jeffrey P. Kraus | 2006-05-15 | https://catalog.archives.gov/id/6698597 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/photos/nara_6698569.jpg | Worker cuts holes in the flight deck for anchor cables, 20 Apr 2006 | JO1(Sw) Jackey Bratt, USN | 2006-04-20 | https://catalog.archives.gov/id/6698569 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/photos/nara_6698553.jpg | Navy diver welds aboard Oriskany, 18 Apr 2006 | JO1(Sw) Jackey Bratt, USN | 2006-04-18 | https://catalog.archives.gov/id/6698553 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/photos/nara_6698600.jpg | Aerial: Oriskany under tow, 15 May 2006 | PH2 Jeffrey P. Kraus | 2006-05-15 | https://catalog.archives.gov/id/6698600 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/photos/nara_6698583.jpg | Oriskany towed out to sea, 15 May 2006 | JO1(Sw) Jackey Bratt, USN | 2006-05-15 | https://catalog.archives.gov/id/6698583 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/photos/nara_6698555.jpg | Inside the stripped Oriskany through a hatch, 18 Apr 2006 | JO1(Sw) Jackey Bratt, USN | 2006-04-18 | https://catalog.archives.gov/id/6698555 | public domain (US Gov work); NARA useRestriction "Unrestricted" | US Department of Defense / US National Archives |
+| src/clips/b3_a4_catapult_1966.mp4 | FLIGHT OPS. ABOARD USS ORISKANY (CVA-34) (118s-124s) | US Navy | 1966-10-01 | https://catalog.archives.gov/id/85461 | public domain (US Gov work); NARA useRestriction "Undetermined" | US Navy / US National Archives |
+
+Description block: Archive film: US Navy / US National Archives (RG 428). Photos: US Navy, US Department of Defense / US National Archives.
 
 ## Music
 "Stories About the World That Once Was" by Chris Zabriskie, from the album Music from Neptune Flux.

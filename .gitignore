@@ -46,3 +46,5 @@ videos/oriskany/test_v2/mk/scenes/
 videos/oriskany/test_v2/mk/.tiles/
 **/.hyperframes/
 videos/oriskany/test_v2/audio/*.wav
+# downloaded music candidates (licensed audio, kept local)
+assets/music/candidates/

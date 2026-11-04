@@ -18,11 +18,11 @@
    "variant": "left_stack",
    "start": 0,
    "clip": {
-    "file": "p01_afloat.mp4",
+    "file": "p01_helo.mp4",
     "push": null
    },
    "params": {
-    "kicker": "GULF OF MEXICO",
+    "kicker": "FINAL CHECK \u00b7 GULF OF MEXICO",
     "number": "MAY 17, 2006",
     "number_at": "w0",
     "size": 96,
@@ -49,7 +49,19 @@
    "variant": "push",
    "start": "w10",
    "clip": {
-    "file": "p03_eod.mp4",
+    "file": "p03_detcord.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a03b",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t6.85",
+   "clip": {
+    "file": "p03b_plume.mp4",
     "push": null
    },
    "params": {},
@@ -59,14 +71,14 @@
    "id": "a04",
    "template": "clip_plain",
    "variant": "push",
-   "start": "w15",
+   "start": "t7.40",
    "flash": true,
    "clip": {
     "file": "p04_blast.mp4",
     "push": null,
     "jumps": [
      {
-      "at": "@charges",
+      "at": "@charges+0.1",
       "scale": 1.12
      }
     ]
@@ -76,11 +88,23 @@
   },
   {
    "id": "a05",
-   "template": "lower_third",
-   "variant": "kicker_line",
-   "start": "w17",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t8.45",
    "clip": {
     "file": "p05_smoke.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a05b",
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "start": "t9.45",
+   "clip": {
+    "file": "p05b_smoke2.mp4",
     "push": null
    },
    "params": {
@@ -91,12 +115,12 @@
    "sfx": false
   },
   {
-   "id": "a05b",
+   "id": "a05c",
    "template": "clip_plain",
    "variant": "push",
-   "start": "w21",
+   "start": "t10.65",
    "clip": {
-    "file": "p05b_smoke2.mp4",
+    "file": "p05c_settle.mp4",
     "push": null
    },
    "params": {},
@@ -108,7 +132,7 @@
    "variant": "right",
    "start": "w23",
    "clip": {
-    "file": "p06_list.mp4",
+    "file": "m37_sequence.mp4",
     "push": null
    },
    "params": {
@@ -119,7 +143,7 @@
      "from": 0,
      "to": 37,
      "decimals": 0,
-     "dur": 0.55
+     "dur": 1.15
     },
     "subline": "from the first charge",
     "subline_at": "@later"
@@ -130,9 +154,9 @@
    "id": "a07",
    "template": "clip_plain",
    "variant": "push",
-   "start": "w27",
+   "start": "t13.80",
    "clip": {
-    "file": "p07_stern.mp4",
+    "file": "p07_bowhigh.mp4",
     "push": null
    },
    "params": {},
@@ -142,9 +166,21 @@
    "id": "a08",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t14.75",
+   "start": "t14.10",
    "clip": {
-    "file": "p08_gone.mp4",
+    "file": "p08_slip.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a08b",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t14.70",
+   "clip": {
+    "file": "p08b_boil.mp4",
     "push": null
    },
    "params": {},
@@ -169,7 +205,7 @@
    "start": "w44",
    "flash": "dip",
    "clip": {
-    "file": "p10_bw.mp4",
+    "file": "f10_vietnam.mp4",
     "push": null
    },
    "params": {},
@@ -181,7 +217,7 @@
    "variant": "push",
    "start": "w48",
    "clip": {
-    "file": "p11_tow.mp4",
+    "file": "p11_leave.mp4",
     "push": null
    },
    "params": {},
@@ -228,7 +264,7 @@
    "variant": "right",
    "start": "w59",
    "clip": {
-    "file": "p14_sparks.mp4",
+    "file": "p14_weld.mp4",
     "push": null
    },
    "params": {
@@ -247,7 +283,7 @@
    "variant": "push",
    "start": "w64",
    "clip": {
-    "file": "p15_aerial.mp4",
+    "file": "p15_tow.mp4",
     "push": null
    },
    "params": {},
@@ -259,7 +295,7 @@
    "variant": "push",
    "start": "w71",
    "clip": {
-    "file": "p16_crowd.mp4",
+    "file": "p16_seaward.mp4",
     "push": null
    },
    "params": {},
