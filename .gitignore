@@ -34,3 +34,5 @@ voices-v1.0.bin
 *.ogv
 *.webm
 *.mxf
+# raw downloaded source audio
+**/src/*.mp3
