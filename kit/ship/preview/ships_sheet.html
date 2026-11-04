@@ -1,0 +1,28 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Ship kit sheet</title>
+<script src="../ships.js"></script>
+<style>
+@font-face { font-family: "Oswald"; font-weight: 500; src: url("../../../map-kit/assets/fonts/oswald-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Oswald"; font-weight: 700; src: url("../../../map-kit/assets/fonts/oswald-latin-700-normal.woff2") format("woff2"); }
+body { margin: 0; width: 1920px; background: #12212c; font-family: Oswald; color: #f7f3ea; }
+h1 { margin: 0; padding: 26px 40px 6px; font-size: 34px; letter-spacing: .12em; }
+.sub { padding: 0 40px 10px; color: #c9b48a; letter-spacing: .2em; font-size: 16px; }
+.row { display: grid; grid-template-columns: 210px 760px 1fr; align-items: center; gap: 24px; padding: 16px 40px; border-top: 1px solid rgba(201,180,138,.25); }
+.lab { font-size: 22px; letter-spacing: .08em; line-height: 1.2; } .lab small { display: block; font-size: 13px; color: #c9b48a; letter-spacing: .15em; font-weight: 500; }
+.cell { display: flex; flex-direction: column; gap: 14px; align-items: flex-start; }
+.map { display: flex; gap: 34px; align-items: center; padding: 18px 26px; border-radius: 6px;
+  background: radial-gradient(ellipse at 40% 50%, #1d4a5a 0%, #12303f 60%, #0b1c2a 100%); }
+</style></head><body>
+<h1>SHIP KIT · SILHOUETTES</h1><div class="sub">LEFT: SIDE + TOP IN LIVERY (CUTAWAYS) · RIGHT: MAP COUNTERS (BLUE / RED / GREY) AT 140, 90 AND 50 PX</div>
+<div id="rows"></div>
+<script>
+const R = document.getElementById("rows");
+for (const kind of ShipKit.list) {
+  const m = ShipKit.meta(kind);
+  const row = document.createElement("div"); row.className = "row";
+  row.innerHTML = `<div class="lab">${m.name.replace(/ \(/, "<small>(").replace(/\)$/, ")</small>")}<small>${m.L} FT · BEAM ${m.beam} FT</small></div>
+   <div class="cell">${ShipKit.svg(kind, "side", { w: 720, paint: "livery" })}${ShipKit.svg(kind, "top", { w: 720, paint: "livery" })}</div>
+   <div class="cell"><div class="map">${ShipKit.svg(kind, "top", { w: 140 })}${ShipKit.svg(kind, "top", { w: 90, col: "red" })}${ShipKit.svg(kind, "top", { w: 50, col: "grey" })}</div>
+   <div class="map">${ShipKit.svg(kind, "side", { w: 160 })}${ShipKit.svg(kind, "side", { w: 110, col: "red" })}${ShipKit.svg(kind, "side", { w: 70, col: "grey" })}</div></div>`;
+  R.appendChild(row);
+}
+</script></body></html>

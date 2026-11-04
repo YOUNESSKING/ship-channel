@@ -1,0 +1,8 @@
+chapter/media_cache/
+chapter/work-*/
+chapter/render.*
+chapter/render_start
+hero.done
+mk/scenes/maps.done
+mk/tools/.tiles/
+build/*.log

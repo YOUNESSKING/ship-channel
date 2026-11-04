@@ -40,3 +40,9 @@ voices-v1.0.bin
 videos/**/src/
 videos/**/build/maps/*.png
 *.ogv
+# generated build folders (rebuild from sources)
+videos/oriskany/test_v2/chapter/work/
+videos/oriskany/test_v2/mk/scenes/
+videos/oriskany/test_v2/mk/.tiles/
+**/.hyperframes/
+videos/oriskany/test_v2/audio/*.wav

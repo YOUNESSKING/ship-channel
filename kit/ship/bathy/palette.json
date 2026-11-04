@@ -1,0 +1,152 @@
+{
+ "name": "ship-channel sea-floor look v1",
+ "about": "Bathymetry ramp for sea-first maps: deep navy -> teal shelf -> sand coast; land muted in the battle-maps LIFT hue. Used by bake_bathy.py. Depths in metres (positive down).",
+ "sea_stops": [
+  [
+   0,
+   [
+    132,
+    156,
+    138
+   ]
+  ],
+  [
+   3,
+   [
+    96,
+    142,
+    138
+   ]
+  ],
+  [
+   10,
+   [
+    70,
+    132,
+    138
+   ]
+  ],
+  [
+   30,
+   [
+    52,
+    116,
+    128
+   ]
+  ],
+  [
+   80,
+   [
+    40,
+    98,
+    116
+   ]
+  ],
+  [
+   150,
+   [
+    30,
+    80,
+    102
+   ]
+  ],
+  [
+   300,
+   [
+    22,
+    62,
+    88
+   ]
+  ],
+  [
+   700,
+   [
+    16,
+    46,
+    72
+   ]
+  ],
+  [
+   1500,
+   [
+    12,
+    34,
+    58
+   ]
+  ],
+  [
+   3000,
+   [
+    8,
+    23,
+    44
+   ]
+  ],
+  [
+   5000,
+   [
+    5,
+    15,
+    32
+   ]
+  ]
+ ],
+ "sea_shade": {
+  "exaggeration": 0.12,
+  "strength": 0.22,
+  "azimuth": 315,
+  "altitude": 40
+ },
+ "contours_m": [
+  20,
+  50,
+  100,
+  200,
+  500,
+  1000,
+  2000,
+  3000
+ ],
+ "contour_rgba": [
+  190,
+  230,
+  225,
+  0.22
+ ],
+ "land_ramp": {
+  "low": [
+   24,
+   31,
+   31
+  ],
+  "high": [
+   190,
+   202,
+   184
+  ],
+  "median": 0.52,
+  "note": "same hue as battle-maps LIFT=1 bake_hd.py, darker median (0.70 there) so the sea stays the hero"
+ },
+ "beach": {
+  "rgb": [
+   196,
+   184,
+   148
+  ],
+  "width_px": 3
+ },
+ "coastline": {
+  "rgb": [
+   214,
+   204,
+   168
+  ],
+  "alpha": 0.7
+ },
+ "label_css": {
+  "sea": "color:#bfe3dc;font-style:italic;letter-spacing:.3em",
+  "depth": "color:#8fc4c4;font-size:14px;letter-spacing:.12em",
+  "land": "color:#f7f3ea"
+ },
+ "credit": "Terrain + bathymetry: Mapzen / AWS Terrain Tiles (SRTM, GMTED, ETOPO1, GEBCO-derived; open data)"
+}

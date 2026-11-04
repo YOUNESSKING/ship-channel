@@ -1,0 +1,351 @@
+{
+ "key": "c01",
+ "title": "Oriskany test v2 (hook)",
+ "words": "../build/words.json",
+ "audio_offset": 0,
+ "clips_dir": "../segments",
+ "duration": 53.6,
+ "fade_out": 0.6,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "shots": [
+  {
+   "id": "a01",
+   "template": "number_clip",
+   "variant": "left_stack",
+   "start": 0,
+   "clip": {
+    "file": "p01_afloat.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "GULF OF MEXICO",
+    "number": "MAY 17, 2006",
+    "number_at": "w0",
+    "size": 96,
+    "subline": "OFF PENSACOLA, FLORIDA",
+    "subline_at": "@two thousand"
+   },
+   "sfx": false
+  },
+  {
+   "id": "a02",
+   "template": "map_clip",
+   "variant": "baked",
+   "start": "w5",
+   "clip": {
+    "file": "dive.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a03",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "w10",
+   "clip": {
+    "file": "p03_eod.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a04",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "w15",
+   "flash": true,
+   "clip": {
+    "file": "p04_blast.mp4",
+    "push": null,
+    "jumps": [
+     {
+      "at": "@charges",
+      "scale": 1.12
+     }
+    ]
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a05",
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "start": "w17",
+   "clip": {
+    "file": "p05_smoke.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "DECOMMISSIONED 1976",
+    "text": "USS Oriskany",
+    "at": "@retired"
+   },
+   "sfx": false
+  },
+  {
+   "id": "a05b",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "w21",
+   "clip": {
+    "file": "p05b_smoke2.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a06",
+   "template": "number_clip",
+   "variant": "right",
+   "start": "w23",
+   "clip": {
+    "file": "p06_list.mp4",
+    "push": null
+   },
+   "params": {
+    "number": "37",
+    "unit": "minutes",
+    "number_at": "w23",
+    "count": {
+     "from": 0,
+     "to": 37,
+     "decimals": 0,
+     "dur": 0.55
+    },
+    "subline": "from the first charge",
+    "subline_at": "@later"
+   },
+   "sfx": false
+  },
+  {
+   "id": "a07",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "w27",
+   "clip": {
+    "file": "p07_stern.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a08",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "t14.75",
+   "clip": {
+    "file": "p08_gone.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a09",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "w30",
+   "clip": {
+    "file": "hero.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a10",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "w44",
+   "flash": "dip",
+   "clip": {
+    "file": "p10_bw.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a11",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "w48",
+   "clip": {
+    "file": "p11_tow.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a12",
+   "template": "number_clip",
+   "variant": "center_bars",
+   "start": "w53",
+   "flash": true,
+   "params": {
+    "number": "ON PURPOSE.",
+    "number_at": "@purpose",
+    "size": 150,
+    "dim": "dk"
+   },
+   "sfx": false,
+   "clip": {
+    "file": "p12_slam.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "a13",
+   "template": "number_clip",
+   "variant": "right",
+   "start": "w55",
+   "clip": {
+    "file": "p13_cut.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "Preparing her to sink",
+    "number": "3",
+    "unit": "years",
+    "number_at": "@three"
+   },
+   "sfx": false
+  },
+  {
+   "id": "a14",
+   "template": "number_clip",
+   "variant": "right",
+   "start": "w59",
+   "clip": {
+    "file": "p14_sparks.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "About",
+    "number": "$20",
+    "unit": "million",
+    "number_at": "@twenty",
+    "subline": "budgeted at under $3 million",
+    "subline_at": "@dollars"
+   },
+   "sfx": false
+  },
+  {
+   "id": "a15",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "w64",
+   "clip": {
+    "file": "p15_aerial.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a16",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "w71",
+   "clip": {
+    "file": "p16_crowd.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a17",
+   "template": "anim_options",
+   "variant": "list",
+   "start": "w84",
+   "params": {
+    "title": "What do you do with *a carrier?*",
+    "title_at": "@carriers",
+    "numbered": false,
+    "items": [
+     {
+      "text": "Sink her",
+      "at": "@bottom",
+      "box_at": "t40.65"
+     },
+     {
+      "text": "Keep her",
+      "at": "@keeping",
+      "strike_at": "t40.15"
+     },
+     {
+      "text": "Scrap her",
+      "at": "@cutting",
+      "strike_at": "t40.4"
+     }
+    ]
+   },
+   "sfx": false
+  },
+  {
+   "id": "a18",
+   "template": "clip_plain",
+   "variant": "push",
+   "start": "w102",
+   "clip": {
+    "file": "p18_porthole.mp4",
+    "push": [
+     1.0,
+     1.25,
+     "50% 50%"
+    ]
+   },
+   "params": {},
+   "sfx": false
+  },
+  {
+   "id": "a19",
+   "template": "anim_xray",
+   "variant": "animal",
+   "start": "w108",
+   "params": {
+    "image": "../assets/carrier_side.png",
+    "animal_w": 1060,
+    "organ": "dot",
+    "organ_pos": [
+     0.45,
+     0.35
+    ],
+    "organ_label": "???",
+    "organ_at": "@hidden",
+    "kicker": "Inside *Oriskany*",
+    "readouts": [
+     {
+      "text": "HIDDEN *inside*",
+      "at": "@inside"
+     }
+    ]
+   },
+   "sfx": false
+  },
+  {
+   "id": "a20",
+   "template": "map_clip",
+   "variant": "baked",
+   "start": "w111",
+   "clip": {
+    "file": "endmap.mp4",
+    "push": null
+   },
+   "params": {},
+   "sfx": false
+  }
+ ]
+}

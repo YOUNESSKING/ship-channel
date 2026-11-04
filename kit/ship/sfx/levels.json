@@ -1,0 +1,346 @@
+{
+ "note": "integrated LUFS per file; beds -30, subtle cues -24, hits / one-shots -18, risers -20 (peaks <= -1 dBFS)",
+ "horn_close_1.wav": {
+  "lufs": -18.0,
+  "peak_db": -11.4,
+  "seconds": 4.99,
+  "loop": false,
+  "what": "deep ship horn, close (v1 two-tone, v2 two short blasts)"
+ },
+ "horn_close_2.wav": {
+  "lufs": -18.0,
+  "peak_db": -8.4,
+  "seconds": 4.97,
+  "loop": false,
+  "what": "deep ship horn, close (v1 two-tone, v2 two short blasts)"
+ },
+ "horn_close_3.wav": {
+  "lufs": -18.0,
+  "peak_db": -8.2,
+  "seconds": 4.84,
+  "loop": false,
+  "what": "deep ship horn, close (v1 two-tone, v2 two short blasts)"
+ },
+ "horn_distant_1.wav": {
+  "lufs": -22.0,
+  "peak_db": -12.9,
+  "seconds": 8.18,
+  "loop": false,
+  "what": "deep ship horn far across the water (air absorption, long echo)"
+ },
+ "horn_distant_2.wav": {
+  "lufs": -22.0,
+  "peak_db": -12.3,
+  "seconds": 8.07,
+  "loop": false,
+  "what": "deep ship horn far across the water (air absorption, long echo)"
+ },
+ "horn_distant_3.wav": {
+  "lufs": -22.0,
+  "peak_db": -10.4,
+  "seconds": 8.06,
+  "loop": false,
+  "what": "deep ship horn far across the water (air absorption, long echo)"
+ },
+ "hull_groan_1.wav": {
+  "lufs": -20.0,
+  "peak_db": -5.7,
+  "seconds": 8.36,
+  "loop": false,
+  "what": "underwater hull groan / metal stress"
+ },
+ "hull_groan_2.wav": {
+  "lufs": -20.0,
+  "peak_db": -5.3,
+  "seconds": 9.32,
+  "loop": false,
+  "what": "underwater hull groan / metal stress"
+ },
+ "hull_groan_3.wav": {
+  "lufs": -20.0,
+  "peak_db": -6.9,
+  "seconds": 6.83,
+  "loop": false,
+  "what": "underwater hull groan / metal stress"
+ },
+ "metal_creak_1.wav": {
+  "lufs": -22.0,
+  "peak_db": -9.7,
+  "seconds": 3.11,
+  "loop": false,
+  "what": "rivet / plate creak with rivet pops"
+ },
+ "metal_creak_2.wav": {
+  "lufs": -22.0,
+  "peak_db": -7.6,
+  "seconds": 3.83,
+  "loop": false,
+  "what": "rivet / plate creak with rivet pops"
+ },
+ "metal_creak_3.wav": {
+  "lufs": -22.0,
+  "peak_db": -9.0,
+  "seconds": 2.66,
+  "loop": false,
+  "what": "rivet / plate creak with rivet pops"
+ },
+ "sink_whoomp_1.wav": {
+  "lufs": -18.0,
+  "peak_db": -2.9,
+  "seconds": 8.29,
+  "loop": false,
+  "what": "the hull goes under: whoomp + air release + rising bubbles"
+ },
+ "sink_whoomp_2.wav": {
+  "lufs": -18.1,
+  "peak_db": -2.3,
+  "seconds": 9.38,
+  "loop": false,
+  "what": "the hull goes under: whoomp + air release + rising bubbles"
+ },
+ "sink_whoomp_3.wav": {
+  "lufs": -18.0,
+  "peak_db": -2.8,
+  "seconds": 6.99,
+  "loop": false,
+  "what": "the hull goes under: whoomp + air release + rising bubbles"
+ },
+ "charges_seq_1.wav": {
+  "lufs": -18.0,
+  "peak_db": -5.1,
+  "seconds": 7.28,
+  "loop": false,
+  "what": "demolition charges, muffled underwater thumps in sequence (v1 distant, v2 rapid cascade)"
+ },
+ "charges_seq_2.wav": {
+  "lufs": -18.0,
+  "peak_db": -3.9,
+  "seconds": 6.98,
+  "loop": false,
+  "what": "demolition charges, muffled underwater thumps in sequence (v1 distant, v2 rapid cascade)"
+ },
+ "charges_seq_3.wav": {
+  "lufs": -18.1,
+  "peak_db": -3.9,
+  "seconds": 6.53,
+  "loop": false,
+  "what": "demolition charges, muffled underwater thumps in sequence (v1 distant, v2 rapid cascade)"
+ },
+ "flood_rush_1.wav": {
+  "lufs": -20.0,
+  "peak_db": -9.1,
+  "seconds": 6.12,
+  "loop": false,
+  "what": "water rush / flooding (v0 inside the hull, v1 from underwater, v2 hatch bursts)"
+ },
+ "flood_rush_2.wav": {
+  "lufs": -20.0,
+  "peak_db": -8.6,
+  "seconds": 7.31,
+  "loop": false,
+  "what": "water rush / flooding (v0 inside the hull, v1 from underwater, v2 hatch bursts)"
+ },
+ "flood_rush_3.wav": {
+  "lufs": -20.0,
+  "peak_db": -4.3,
+  "seconds": 4.18,
+  "loop": false,
+  "what": "water rush / flooding (v0 inside the hull, v1 from underwater, v2 hatch bursts)"
+ },
+ "swell_bed_1.wav": {
+  "lufs": -30.0,
+  "peak_db": -13.6,
+  "seconds": 60.0,
+  "loop": true,
+  "what": "ocean swell bed, 60 s seamless loop (v1 calmer, water lapping the hull)"
+ },
+ "swell_bed_2.wav": {
+  "lufs": -30.0,
+  "peak_db": -14.3,
+  "seconds": 60.0,
+  "loop": true,
+  "what": "ocean swell bed, 60 s seamless loop (v1 calmer, water lapping the hull)"
+ },
+ "underwater_bed_1.wav": {
+  "lufs": -30.0,
+  "peak_db": -12.0,
+  "seconds": 60.0,
+  "loop": true,
+  "what": "underwater ambience, 60 s seamless loop, muffled pressure (v1 deeper)"
+ },
+ "underwater_bed_2.wav": {
+  "lufs": -30.0,
+  "peak_db": -12.7,
+  "seconds": 60.0,
+  "loop": true,
+  "what": "underwater ambience, 60 s seamless loop, muffled pressure (v1 deeper)"
+ },
+ "sonar_ping_1.wav": {
+  "lufs": -25.7,
+  "peak_db": -11.4,
+  "seconds": 2.85,
+  "loop": false,
+  "what": "subtle sonar ping for the depth gauge (v0/v1 with a faint return)"
+ },
+ "sonar_ping_2.wav": {
+  "lufs": -26.0,
+  "peak_db": -13.5,
+  "seconds": 3.73,
+  "loop": false,
+  "what": "subtle sonar ping for the depth gauge (v0/v1 with a faint return)"
+ },
+ "sonar_ping_3.wav": {
+  "lufs": -26.0,
+  "peak_db": -18.0,
+  "seconds": 2.45,
+  "loop": false,
+  "what": "subtle sonar ping for the depth gauge (v0/v1 with a faint return)"
+ },
+ "dive_whoosh_1.wav": {
+  "lufs": -20.0,
+  "peak_db": -4.9,
+  "seconds": 3.39,
+  "loop": false,
+  "what": "wet map / camera dive: splash in, muffled down-sweep, bubble trail"
+ },
+ "dive_whoosh_2.wav": {
+  "lufs": -20.0,
+  "peak_db": -4.3,
+  "seconds": 3.91,
+  "loop": false,
+  "what": "wet map / camera dive: splash in, muffled down-sweep, bubble trail"
+ },
+ "dive_whoosh_3.wav": {
+  "lufs": -20.0,
+  "peak_db": -5.9,
+  "seconds": 2.93,
+  "loop": false,
+  "what": "wet map / camera dive: splash in, muffled down-sweep, bubble trail"
+ },
+ "number_land_1.wav": {
+  "lufs": -18.0,
+  "peak_db": -2.8,
+  "seconds": 5.0,
+  "loop": false,
+  "what": "number-landing hit: low tonal boom (A1 / G1 / C2) with a water tail"
+ },
+ "number_land_2.wav": {
+  "lufs": -18.0,
+  "peak_db": -4.7,
+  "seconds": 5.17,
+  "loop": false,
+  "what": "number-landing hit: low tonal boom (A1 / G1 / C2) with a water tail"
+ },
+ "number_land_3.wav": {
+  "lufs": -18.0,
+  "peak_db": -3.2,
+  "seconds": 4.95,
+  "loop": false,
+  "what": "number-landing hit: low tonal boom (A1 / G1 / C2) with a water tail"
+ },
+ "text_slam_1.wav": {
+  "lufs": -18.0,
+  "peak_db": -2.2,
+  "seconds": 3.1,
+  "loop": false,
+  "what": "text slam: heavy steel impact (v1 muted, v2 double hit)"
+ },
+ "text_slam_2.wav": {
+  "lufs": -18.0,
+  "peak_db": -2.4,
+  "seconds": 2.61,
+  "loop": false,
+  "what": "text slam: heavy steel impact (v1 muted, v2 double hit)"
+ },
+ "text_slam_3.wav": {
+  "lufs": -18.0,
+  "peak_db": -2.1,
+  "seconds": 3.25,
+  "loop": false,
+  "what": "text slam: heavy steel impact (v1 muted, v2 double hit)"
+ },
+ "strike_scrape_1.wav": {
+  "lufs": -21.0,
+  "peak_db": -9.5,
+  "seconds": 2.09,
+  "loop": false,
+  "what": "strike-out: steel edge scraped across plate, small clink"
+ },
+ "strike_scrape_2.wav": {
+  "lufs": -21.0,
+  "peak_db": -9.3,
+  "seconds": 2.35,
+  "loop": false,
+  "what": "strike-out: steel edge scraped across plate, small clink"
+ },
+ "strike_scrape_3.wav": {
+  "lufs": -21.0,
+  "peak_db": -10.2,
+  "seconds": 1.84,
+  "loop": false,
+  "what": "strike-out: steel edge scraped across plate, small clink"
+ },
+ "riser_4s_1.wav": {
+  "lufs": -20.0,
+  "peak_db": -6.2,
+  "seconds": 4.0,
+  "loop": false,
+  "what": "tension riser, 4 s, hard stop (v1 with hull groan)"
+ },
+ "riser_4s_2.wav": {
+  "lufs": -20.0,
+  "peak_db": -5.3,
+  "seconds": 4.0,
+  "loop": false,
+  "what": "tension riser, 4 s, hard stop (v1 with hull groan)"
+ },
+ "riser_8s_1.wav": {
+  "lufs": -20.0,
+  "peak_db": -3.9,
+  "seconds": 8.0,
+  "loop": false,
+  "what": "tension riser, 8 s, hard stop (v1 with hull groan)"
+ },
+ "riser_8s_2.wav": {
+  "lufs": -20.0,
+  "peak_db": -5.2,
+  "seconds": 8.0,
+  "loop": false,
+  "what": "tension riser, 8 s, hard stop (v1 with hull groan)"
+ },
+ "reveal_hit_1.wav": {
+  "lufs": -17.0,
+  "peak_db": -2.1,
+  "seconds": 7.16,
+  "loop": false,
+  "what": "reveal hit: sub boom + steel clang + water tail (v2 dry)"
+ },
+ "reveal_hit_2.wav": {
+  "lufs": -17.0,
+  "peak_db": -2.0,
+  "seconds": 6.81,
+  "loop": false,
+  "what": "reveal hit: sub boom + steel clang + water tail (v2 dry)"
+ },
+ "reveal_hit_3.wav": {
+  "lufs": -17.0,
+  "peak_db": -1.1,
+  "seconds": 6.53,
+  "loop": false,
+  "what": "reveal hit: sub boom + steel clang + water tail (v2 dry)"
+ },
+ "catapult_launch_1.wav": {
+  "lufs": -18.0,
+  "peak_db": -2.5,
+  "seconds": 4.95,
+  "loop": false,
+  "what": "steam catapult launch: clank, rush, water-brake slam, hiss"
+ },
+ "catapult_launch_2.wav": {
+  "lufs": -18.0,
+  "peak_db": -3.1,
+  "seconds": 5.01,
+  "loop": false,
+  "what": "steam catapult launch: clank, rush, water-brake slam, hiss"
+ }
+}
