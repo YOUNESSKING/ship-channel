@@ -1,0 +1,17 @@
+# python3 tools/film/check_clips.py videos/oriskany/test_v3/segments/f*.mp4  (test v3, before fixes)
+segments/f06_service.mp4: CUT     2.13s       internal cut / dissolve inside the segment
+segments/f07_bow.mp4: OK
+segments/f10_aerial.mp4: OK
+segments/f10_vietnam.mp4: OK
+segments/f12_launch.mp4: BLOB    0.90-  1.40s  dark blob up to 87% of the frame
+segments/f13_island.mp4: CUT     0.13s       internal cut / dissolve inside the segment
+segments/f15_anchor.mp4: OK
+segments/f18_catapult.mp4: OK
+segments/f19_aerial_launch.mp4: OK
+segments/f20_bg.mp4: CUT     5.27s       internal cut / dissolve inside the segment
+segments/f21_deck.mp4: OK
+segments/f23_ss1.mp4: BLOB    0.00-  1.30s  dark blob up to 36% of the frame
+segments/f23_ss1.mp4: CUT     1.30s       internal cut / dissolve inside the segment
+segments/f23_ss2.mp4: OK
+segments/f23_ss3.mp4: OK
+# note: f23_ss1 BLOB = the liner's black hull filling the frame (true picture, not an obstruction): every flag needs a look
