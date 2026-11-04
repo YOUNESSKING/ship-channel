@@ -26,3 +26,11 @@ __pycache__/
 tools/study_video/out/
 # licensed library media (Epidemic etc.) stays outside git
 library/licensed/
+
+# voice model files
+*.onnx
+voices-v1.0.bin
+# raw downloaded archive film (kept local; logged in CREDITS.md / MANIFEST.md)
+*.ogv
+*.webm
+*.mxf
