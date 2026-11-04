@@ -16,10 +16,10 @@
    "id": "a17",
    "template": "anim_options",
    "variant": "list",
-   "start": "t36.4",
+   "start": "t35.9",
    "params": {
     "title": "Keep her? Scrap her?",
-    "title_at": "t36.5",
+    "title_at": "t36.0",
     "numbered": false,
     "items": [
      {
@@ -30,12 +30,12 @@
      {
       "text": "Keep her",
       "at": "@keeping",
-      "strike_at": "t40.15"
+      "strike_at": "t39.95"
      },
      {
       "text": "Scrap her",
       "at": "@cutting",
-      "strike_at": "t40.4"
+      "strike_at": "t40.2"
      }
     ]
    },
@@ -44,7 +44,7 @@
     "file": "f20_bg.mp4",
     "show": 0.6
    },
-   "end": "t42.4"
+   "end": "t41.9"
   }
  ]
 }

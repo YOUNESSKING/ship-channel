@@ -146,8 +146,8 @@ def build(ctx):
         elif it.get('chosen'):
             bat = ctx.t(box) if box is not None else max(at + .3, (last_strike + .4) if last_strike is not None else at + .3)
             if b - bat < 1.5:
-                early = max(at + .2, b - 1.5)
-                ctx.B.warn.append(f'{p}: chosen row "{it["text"]}" box would hold only {b - bat:.2f}s (< 1.5 s); moved to {early:.2f}s' + ('' if early <= b - 1.5 + 1e-6 else ' - still short: lengthen the shot'))
+                early = max(at + .2, (last_strike + .15) if last_strike is not None else 0, b - 1.5)
+                ctx.B.warn.append(f'{p}: chosen row "{it["text"]}" box would hold only {b - bat:.2f}s (< 1.5 s); moved to {early:.2f}s' + ('' if early <= b - 1.5 + 1e-6 else ' - still short: lengthen the shot or strike earlier'))
                 bat = early
         elif chosen:
             bat = None                       # another row is the answer: no box here
