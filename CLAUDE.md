@@ -33,3 +33,11 @@ patch it to use paths relative to this repo. Never delete or edit the source rep
 ## Still to build
 Sea-floor map look (re-grade `bake.py`), modern carrier silhouette, sinking animation, ship SFX
 (horn, swell, catapult, hull groan), ship `brand-style.md` for thumbnails.
+
+## Competitor lessons (Forgotten Fleet)
+Full study with the final, critic-checked DO / DON'T lists: `research/FORGOTTEN_FLEET_STUDY.md`
+(last section). Key gates for every topic:
+- The ship is famous, nobody has covered it yet, and the answer surprises. Never a "it's in a museum" answer.
+- Hold the answer until the last act; no ship résumé up front.
+- Never repeat the same harbour/cluster within ~3 months; vary title and thumbnail templates.
+- Judge a video on day 7–14 Studio data, not day 1.
