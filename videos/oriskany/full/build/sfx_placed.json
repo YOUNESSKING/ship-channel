@@ -1,0 +1,5256 @@
+{
+ "cues": [
+  {
+   "event": 0.35,
+   "shot": "c01:s01",
+   "at": 0.35,
+   "role": "whoosh",
+   "file": "whoosh_a__689b1489.wav",
+   "src": 0.15,
+   "start": 0.11,
+   "end": 2.397,
+   "end_allowed": 4.42,
+   "level_db": -12.1,
+   "sync": "onset",
+   "punch": false,
+   "measured": 0.35,
+   "offset_frames": 0.0,
+   "note": "map dive starts moving (biggest move #1)"
+  },
+  {
+   "event": 2.223,
+   "shot": "c01:s01",
+   "at": 2.223,
+   "role": "hit",
+   "file": "boom_a__2f0a40ab.wav",
+   "src": 0.0,
+   "start": 2.108,
+   "end": 3.308,
+   "end_allowed": 4.42,
+   "level_db": -7.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 2.223,
+   "offset_frames": 0.0,
+   "note": "212 FT card lands on 'feet'"
+  },
+  {
+   "event": 4.3,
+   "shot": "c01:s02",
+   "at": 0.0,
+   "role": "explosion",
+   "file": "charges_c__f6f10ea4.wav",
+   "src": 1.76,
+   "start": 4.3,
+   "end": 5.445,
+   "end_allowed": 6.68,
+   "level_db": -3.8,
+   "sync": "peak",
+   "punch": true,
+   "measured": 4.325,
+   "offset_frames": 0.75,
+   "note": "WOW 1: blast photo cut + white flash + shake"
+  },
+  {
+   "event": 10.237,
+   "shot": "c01:s05",
+   "at": 0.257,
+   "role": "boom",
+   "file": "boom_a__2f0a40ab.wav",
+   "src": 0.0,
+   "start": 10.122,
+   "end": 11.422,
+   "end_allowed": 11.62,
+   "level_db": -11.7,
+   "sync": "peak",
+   "punch": true,
+   "measured": 10.237,
+   "offset_frames": 0.0,
+   "note": "ON PURPOSE. lands on 'purpose'"
+  },
+  {
+   "event": 17.65,
+   "shot": "c01:s09",
+   "at": 0.0,
+   "role": "explosion",
+   "file": "charges_c__f6f10ea4.wav",
+   "src": 1.76,
+   "start": 17.65,
+   "end": 18.495,
+   "end_allowed": 18.58,
+   "level_db": -4.5,
+   "sync": "peak",
+   "punch": true,
+   "measured": 17.675,
+   "offset_frames": 0.75,
+   "note": "second blast photo + flash (smoke, in the voice gap); designed 0.6 s tail into the 37 montage"
+  },
+  {
+   "event": 17.65,
+   "shot": "c01:s09",
+   "at": 0.0,
+   "role": "boom",
+   "file": "boom_a__2f0a40ab.wav",
+   "src": 0.0,
+   "start": 17.65,
+   "end": 18.535,
+   "end_allowed": 18.58,
+   "level_db": -10.7,
+   "sync": "peak",
+   "punch": true,
+   "measured": 17.685,
+   "offset_frames": 1.05,
+   "note": "second blast: cinematic boom layer under the charge (key beat)"
+  },
+  {
+   "event": 18.692,
+   "shot": "c01:s10",
+   "at": 0.712,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 18.667,
+   "end": 18.917,
+   "end_allowed": 19.97,
+   "level_db": -21.0,
+   "sync": "peak",
+   "punch": false,
+   "measured": 18.692,
+   "offset_frames": 0.0,
+   "note": "37 lands (count ends on 'thirty-seven')"
+  },
+  {
+   "event": 19.85,
+   "shot": "c01:s11",
+   "at": 0.0,
+   "role": "impact",
+   "file": "splash_a__1d6949d6.wav",
+   "src": 0.0,
+   "start": 19.85,
+   "end": 20.7,
+   "end_allowed": 20.7,
+   "level_db": -6.8,
+   "sync": "peak",
+   "punch": true,
+   "measured": 19.885,
+   "offset_frames": 1.05,
+   "note": "bow standing vertical: water closing over the hull"
+  },
+  {
+   "event": 19.9,
+   "shot": "c01:s11",
+   "at": 0.05,
+   "role": "ship",
+   "file": "flood_a__db95b348.wav",
+   "src": 0.7,
+   "start": 19.9,
+   "end": 20.65,
+   "end_allowed": 20.65,
+   "level_db": -12.8,
+   "sync": "onset",
+   "punch": false,
+   "measured": 19.9,
+   "offset_frames": 0.0,
+   "note": "flood rush as the bow slips under (to the foam cut)"
+  },
+  {
+   "event": 20.55,
+   "shot": "c01:s11b",
+   "at": 0.0,
+   "role": "ship",
+   "file": "bubbles_a__e58b390c.wav",
+   "src": 2.95,
+   "start": 20.55,
+   "end": 21.4,
+   "end_allowed": 21.4,
+   "level_db": -13.3,
+   "sync": "onset",
+   "punch": false,
+   "measured": 20.55,
+   "offset_frames": 0.0,
+   "note": "only foam left: air bursting out"
+  },
+  {
+   "event": 22.791,
+   "shot": "c01:s12",
+   "at": 1.541,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 22.766,
+   "end": 23.016,
+   "end_allowed": 23.96,
+   "level_db": -20.5,
+   "sync": "peak",
+   "punch": false,
+   "measured": 22.791,
+   "offset_frames": 0.0,
+   "note": "3+ YEARS lands on 'three'"
+  },
+  {
+   "event": 26.25,
+   "shot": "c01:s14",
+   "at": 0.25,
+   "role": "ship",
+   "file": "groan_a__7c63fd7c.wav",
+   "src": 7.55,
+   "start": 26.19,
+   "end": 28.59,
+   "end_allowed": 29.6,
+   "level_db": -13.6,
+   "sync": "onset",
+   "punch": false,
+   "measured": 26.25,
+   "offset_frames": 0.0,
+   "note": "drawn carrier going down: hull groan (until touchdown)"
+  },
+  {
+   "event": 28.7,
+   "shot": "c01:s14",
+   "at": 2.7,
+   "role": "impact",
+   "file": "charges_b__0ecb5c38.wav",
+   "src": 17.45,
+   "start": 28.555,
+   "end": 29.555,
+   "end_allowed": 29.72,
+   "level_db": -7.6,
+   "sync": "peak",
+   "punch": true,
+   "measured": 28.7,
+   "offset_frames": 0.0,
+   "note": "hull touches the seabed on 'floor' (underwater thump)"
+  },
+  {
+   "event": 34.9,
+   "shot": "c01:s17",
+   "at": 0.0,
+   "role": "riser",
+   "file": "riser_a__fd98cb0b.wav",
+   "src": 0.0,
+   "start": 32.705,
+   "end": 34.965,
+   "end_allowed": 37.92,
+   "level_db": -17.3,
+   "sync": "peak",
+   "punch": false,
+   "measured": 34.9,
+   "offset_frames": 0.0,
+   "note": "reverse riser INTO the x-ray reveal (peaks on the cut)"
+  },
+  {
+   "event": 39.55,
+   "shot": "c01:s19",
+   "at": 0.0,
+   "role": "horn",
+   "file": "horn_a__463af07a.wav",
+   "src": 0.2,
+   "start": 39.55,
+   "end": 45.8,
+   "end_allowed": 45.8,
+   "level_db": -14.2,
+   "sync": "onset",
+   "punch": false,
+   "measured": 39.55,
+   "offset_frames": 0.0,
+   "note": "SS United States on screen: liner horn (signature sound)"
+  },
+  {
+   "event": 45.8,
+   "shot": "c01:s21",
+   "at": 0.0,
+   "role": "whoosh",
+   "file": "whoosh_b__8d9712d2.wav",
+   "src": 0.2,
+   "start": 45.8,
+   "end": 48.745,
+   "end_allowed": 48.745,
+   "level_db": -12.2,
+   "sync": "onset",
+   "punch": false,
+   "measured": 45.81,
+   "offset_frames": 0.3,
+   "note": "end map pull-back (biggest move #2)"
+  },
+  {
+   "event": 51.585,
+   "shot": "c02:s02",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_a__689b1489.wav",
+   "src": 0.15,
+   "start": 51.345,
+   "end": 53.632,
+   "end_allowed": 55.735,
+   "level_db": -11.5,
+   "sync": "onset",
+   "punch": false,
+   "measured": 51.585,
+   "offset_frames": 0.0,
+   "note": "map move starts (c02_bremerton)"
+  },
+  {
+   "event": 65.692,
+   "shot": "c02:s06",
+   "at": 2.3467,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 65.667,
+   "end": 65.917,
+   "end_allowed": 67.845,
+   "level_db": -19.8,
+   "sync": "peak",
+   "punch": false,
+   "measured": 65.692,
+   "offset_frames": 0.0,
+   "note": "number lands: STRUCK"
+  },
+  {
+   "event": 74.425,
+   "shot": "c02:s08",
+   "at": 3.5,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 74.26,
+   "end": 74.47,
+   "end_allowed": 76.285,
+   "level_db": -20.1,
+   "sync": "peak",
+   "punch": false,
+   "measured": 74.425,
+   "offset_frames": 0.0,
+   "note": "option appears: A museum?"
+  },
+  {
+   "event": 75.125,
+   "shot": "c02:s08",
+   "at": 4.2,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 74.96,
+   "end": 75.17,
+   "end_allowed": 76.285,
+   "level_db": -19.5,
+   "sync": "peak",
+   "punch": false,
+   "measured": 75.125,
+   "offset_frames": 0.0,
+   "note": "option appears: A scrapyard?"
+  },
+  {
+   "event": 79.565,
+   "shot": "c02:s10",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_b__8d9712d2.wav",
+   "src": 0.2,
+   "start": 79.425,
+   "end": 82.625,
+   "end_allowed": 84.555,
+   "level_db": -12.7,
+   "sync": "onset",
+   "punch": false,
+   "measured": 79.565,
+   "offset_frames": 0.0,
+   "note": "map move starts (c02_pacific_a)"
+  },
+  {
+   "event": 84.535,
+   "shot": "c02:s11",
+   "at": 0.1,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 84.435,
+   "end": 84.58,
+   "end_allowed": 90.475,
+   "level_db": -20.8,
+   "sync": "peak",
+   "punch": false,
+   "measured": 84.54,
+   "offset_frames": 0.15,
+   "note": "map beat (c02_pacific_b)"
+  },
+  {
+   "event": 90.993,
+   "shot": "c02:s12",
+   "at": 0.638,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 90.968,
+   "end": 91.218,
+   "end_allowed": 92.535,
+   "level_db": -20.1,
+   "sync": "peak",
+   "punch": false,
+   "measured": 90.993,
+   "offset_frames": 0.0,
+   "note": "card: “CITY OF AMERICA”"
+  },
+  {
+   "event": 94.255,
+   "shot": "c02:s13",
+   "at": 1.84,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 94.09,
+   "end": 94.3,
+   "end_allowed": 96.105,
+   "level_db": -20.9,
+   "sync": "peak",
+   "punch": false,
+   "measured": 94.255,
+   "offset_frames": 0.0,
+   "note": "label: A WARSHIP AS A THEME PARK"
+  },
+  {
+   "event": 96.025,
+   "shot": "c02:s14",
+   "at": 0.04,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 95.985,
+   "end": 96.07,
+   "end_allowed": 100.015,
+   "level_db": -20.9,
+   "sync": "peak",
+   "punch": false,
+   "measured": 96.03,
+   "offset_frames": 0.15,
+   "note": "option appears: A museum?"
+  },
+  {
+   "event": 96.425,
+   "shot": "c02:s14",
+   "at": 0.44,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 96.26,
+   "end": 96.47,
+   "end_allowed": 100.015,
+   "level_db": -20.2,
+   "sync": "peak",
+   "punch": false,
+   "measured": 96.425,
+   "offset_frames": 0.0,
+   "note": "option struck: A museum?"
+  },
+  {
+   "event": 100.195,
+   "shot": "c02:s15",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_a__689b1489.wav",
+   "src": 0.15,
+   "start": 99.955,
+   "end": 102.225,
+   "end_allowed": 102.225,
+   "level_db": -12.3,
+   "sync": "onset",
+   "punch": false,
+   "measured": 100.195,
+   "offset_frames": 0.0,
+   "note": "map move starts (c02_scrap_a)"
+  },
+  {
+   "event": 104.832,
+   "shot": "c02:s16",
+   "at": 2.727,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 104.807,
+   "end": 105.057,
+   "end_allowed": 105.845,
+   "level_db": -19.6,
+   "sync": "peak",
+   "punch": false,
+   "measured": 104.832,
+   "offset_frames": 0.0,
+   "note": "card: SOLD FOR SCRAP"
+  },
+  {
+   "event": 106.203,
+   "shot": "c02:s17",
+   "at": 0.478,
+   "role": "hit",
+   "file": "boom_a__2f0a40ab.wav",
+   "src": 0.0,
+   "start": 106.088,
+   "end": 107.385,
+   "end_allowed": 107.385,
+   "level_db": -8.1,
+   "sync": "peak",
+   "punch": false,
+   "measured": 106.203,
+   "offset_frames": 0.0,
+   "note": "stamp: DEFAULTED."
+  },
+  {
+   "event": 107.565,
+   "shot": "c02:s18",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_b__8d9712d2.wav",
+   "src": 0.2,
+   "start": 107.425,
+   "end": 110.165,
+   "end_allowed": 110.165,
+   "level_db": -12.2,
+   "sync": "onset",
+   "punch": false,
+   "measured": 107.565,
+   "offset_frames": 0.0,
+   "note": "map move starts (c02_scrap_b)"
+  },
+  {
+   "event": 116.158,
+   "shot": "c02:s20",
+   "at": 1.0933,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 116.133,
+   "end": 116.383,
+   "end_allowed": 117.795,
+   "level_db": -20.3,
+   "sync": "peak",
+   "punch": false,
+   "measured": 116.158,
+   "offset_frames": 0.0,
+   "note": "c02_ledger_b: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "event": 119.442,
+   "shot": "c02:s21",
+   "at": 1.767,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 119.417,
+   "end": 119.667,
+   "end_allowed": 121.055,
+   "level_db": -20.6,
+   "sync": "peak",
+   "punch": false,
+   "measured": 119.442,
+   "offset_frames": 0.0,
+   "note": "card number lands: $600,000"
+  },
+  {
+   "event": 121.054,
+   "shot": "c02:s22",
+   "at": 0.119,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 121.029,
+   "end": 121.279,
+   "end_allowed": 122.875,
+   "level_db": -21.0,
+   "sync": "peak",
+   "punch": false,
+   "measured": 121.054,
+   "offset_frames": 0.0,
+   "note": "card number lands: 3"
+  },
+  {
+   "event": 124.975,
+   "shot": "c02:s23",
+   "at": 2.22,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 124.95,
+   "end": 125.2,
+   "end_allowed": 126.305,
+   "level_db": -20.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 124.975,
+   "offset_frames": 0.0,
+   "note": "card: SCRAP HER IN THE U.S."
+  },
+  {
+   "event": 130.105,
+   "shot": "c02:s24",
+   "at": 3.92,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 130.08,
+   "end": 130.33,
+   "end_allowed": 131.405,
+   "level_db": -20.0,
+   "sync": "peak",
+   "punch": false,
+   "measured": 130.105,
+   "offset_frames": 0.0,
+   "note": "card: WORK HELD UP UNTIL DECEMBER"
+  },
+  {
+   "event": 131.585,
+   "shot": "c02:s25",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_a__689b1489.wav",
+   "src": 0.15,
+   "start": 131.345,
+   "end": 133.632,
+   "end_allowed": 136.905,
+   "level_db": -12.7,
+   "sync": "onset",
+   "punch": false,
+   "measured": 131.585,
+   "offset_frames": 0.0,
+   "note": "map move starts (c02_tow_sf)"
+  },
+  {
+   "event": 136.885,
+   "shot": "c02:s26",
+   "at": 0.1,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 136.785,
+   "end": 136.93,
+   "end_allowed": 140.785,
+   "level_db": -20.4,
+   "sync": "peak",
+   "punch": false,
+   "measured": 136.89,
+   "offset_frames": 0.15,
+   "note": "map beat (c02_mare)"
+  },
+  {
+   "event": 141.702,
+   "shot": "c02:s27",
+   "at": 1.037,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 141.677,
+   "end": 141.927,
+   "end_allowed": 143.555,
+   "level_db": -21.0,
+   "sync": "peak",
+   "punch": false,
+   "measured": 141.702,
+   "offset_frames": 0.0,
+   "note": "card: ALMOST NOTHING CUT"
+  },
+  {
+   "event": 145.299,
+   "shot": "c02:s28",
+   "at": 1.864,
+   "role": "hit",
+   "file": "boom_a__2f0a40ab.wav",
+   "src": 0.0,
+   "start": 145.184,
+   "end": 146.584,
+   "end_allowed": 147.625,
+   "level_db": -7.8,
+   "sync": "peak",
+   "punch": false,
+   "measured": 145.299,
+   "offset_frames": 0.0,
+   "note": "stamp: DEFAULTED."
+  },
+  {
+   "event": 148.592,
+   "shot": "c02:s29",
+   "at": 1.0867,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 148.567,
+   "end": 148.817,
+   "end_allowed": 153.485,
+   "level_db": -20.8,
+   "sync": "peak",
+   "punch": false,
+   "measured": 148.592,
+   "offset_frames": 0.0,
+   "note": "c02_tally: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "event": 153.665,
+   "shot": "c02:s30",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_b__8d9712d2.wav",
+   "src": 0.2,
+   "start": 153.525,
+   "end": 156.725,
+   "end_allowed": 157.765,
+   "level_db": -12.6,
+   "sync": "onset",
+   "punch": false,
+   "measured": 153.665,
+   "offset_frames": 0.0,
+   "note": "map move starts (c02_horn_a)"
+  },
+  {
+   "event": 157.745,
+   "shot": "c02:s31",
+   "at": 0.1,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 157.645,
+   "end": 157.79,
+   "end_allowed": 162.605,
+   "level_db": -19.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 157.75,
+   "offset_frames": 0.15,
+   "note": "map beat (c02_horn_b)"
+  },
+  {
+   "event": 162.585,
+   "shot": "c02:s32",
+   "at": 0.1,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 162.485,
+   "end": 162.63,
+   "end_allowed": 167.545,
+   "level_db": -20.2,
+   "sync": "peak",
+   "punch": false,
+   "measured": 162.59,
+   "offset_frames": 0.15,
+   "note": "map beat (c02_horn_c)"
+  },
+  {
+   "event": 172.905,
+   "shot": "c02:s35",
+   "at": 0.2,
+   "role": "jet",
+   "file": "jet_a__9fc48bf0.wav",
+   "src": 4.0,
+   "start": 172.705,
+   "end": 175.01,
+   "end_allowed": 176.862,
+   "level_db": -10.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 172.91,
+   "offset_frames": 0.15,
+   "note": "aircraft launches on screen (b1_launch_crowd.mp4)"
+  },
+  {
+   "event": 177.042,
+   "shot": "c03:s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_a__689b1489.wav",
+   "src": 0.15,
+   "start": 176.802,
+   "end": 179.089,
+   "end_allowed": 181.332,
+   "level_db": -12.0,
+   "sync": "onset",
+   "punch": false,
+   "measured": 177.042,
+   "offset_frames": 0.0,
+   "note": "map move starts (c03_brooklyn)"
+  },
+  {
+   "event": 181.412,
+   "shot": "c03:s02",
+   "at": 0.2,
+   "role": "jet",
+   "file": "jet_b__da6a1527.wav",
+   "src": 4.0,
+   "start": 181.212,
+   "end": 183.157,
+   "end_allowed": 185.692,
+   "level_db": -10.9,
+   "sync": "peak",
+   "punch": false,
+   "measured": 181.417,
+   "offset_frames": 0.15,
+   "note": "aircraft launches on screen (b1_launch_hull.mp4)"
+  },
+  {
+   "event": 182.561,
+   "shot": "c03:s02",
+   "at": 1.349,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 182.396,
+   "end": 182.606,
+   "end_allowed": 185.692,
+   "level_db": -20.9,
+   "sync": "peak",
+   "punch": false,
+   "measured": 182.561,
+   "offset_frames": 0.0,
+   "note": "label: LAUNCH · NEW YORK NAVY YARD"
+  },
+  {
+   "event": 185.69,
+   "shot": "c03:s03",
+   "at": 0.118,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 185.665,
+   "end": 185.915,
+   "end_allowed": 188.092,
+   "level_db": -20.2,
+   "sync": "peak",
+   "punch": false,
+   "measured": 185.69,
+   "offset_frames": 0.0,
+   "note": "card number lands: 6"
+  },
+  {
+   "event": 188.172,
+   "shot": "c03:s04",
+   "at": 0.2,
+   "role": "jet",
+   "file": "jet_c__d47bee57.wav",
+   "src": 7.0,
+   "start": 187.972,
+   "end": 188.917,
+   "end_allowed": 192.652,
+   "level_db": -11.2,
+   "sync": "peak",
+   "punch": false,
+   "measured": 188.167,
+   "offset_frames": -0.15,
+   "note": "aircraft launches on screen (b1_launch_bow.mp4)"
+  },
+  {
+   "event": 194.927,
+   "shot": "c03:s05",
+   "at": 2.395,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 194.902,
+   "end": 195.152,
+   "end_allowed": 196.012,
+   "level_db": -19.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 194.927,
+   "offset_frames": 0.0,
+   "note": "card: WORK STOPPED"
+  },
+  {
+   "event": 196.192,
+   "shot": "c03:s06",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_b__8d9712d2.wav",
+   "src": 0.2,
+   "start": 196.052,
+   "end": 199.252,
+   "end_allowed": 199.422,
+   "level_db": -12.5,
+   "sync": "onset",
+   "punch": false,
+   "measured": 196.192,
+   "offset_frames": 0.0,
+   "note": "map move starts (c03_korea)"
+  },
+  {
+   "event": 202.935,
+   "shot": "c03:s08",
+   "at": 0.443,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 202.77,
+   "end": 202.98,
+   "end_allowed": 205.772,
+   "level_db": -20.1,
+   "sync": "peak",
+   "punch": false,
+   "measured": 202.935,
+   "offset_frames": 0.0,
+   "note": "label: LAST ESSEX-CLASS CARRIER FINISHED"
+  },
+  {
+   "event": 206.851,
+   "shot": "c03:s09",
+   "at": 1.199,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 206.686,
+   "end": 206.896,
+   "end_allowed": 208.352,
+   "level_db": -20.9,
+   "sync": "peak",
+   "punch": false,
+   "measured": 206.851,
+   "offset_frames": 0.0,
+   "note": "label: THE MIGHTY O"
+  },
+  {
+   "event": 208.532,
+   "shot": "c03:s10",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_a__689b1489.wav",
+   "src": 0.15,
+   "start": 208.292,
+   "end": 210.579,
+   "end_allowed": 211.652,
+   "level_db": -12.4,
+   "sync": "onset",
+   "punch": false,
+   "measured": 208.532,
+   "offset_frames": 0.0,
+   "note": "map move starts (c03_mig_a)"
+  },
+  {
+   "event": 213.452,
+   "shot": "c03:s12",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_b__8d9712d2.wav",
+   "src": 0.2,
+   "start": 213.312,
+   "end": 216.512,
+   "end_allowed": 217.482,
+   "level_db": -12.5,
+   "sync": "onset",
+   "punch": false,
+   "measured": 213.452,
+   "offset_frames": 0.0,
+   "note": "map move starts (c03_mig_b)"
+  },
+  {
+   "event": 218.175,
+   "shot": "c03:s13",
+   "at": 0.8133,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 218.15,
+   "end": 218.4,
+   "end_allowed": 219.822,
+   "level_db": -20.8,
+   "sync": "peak",
+   "punch": false,
+   "measured": 218.175,
+   "offset_frames": 0.0,
+   "note": "number lands: 1"
+  },
+  {
+   "event": 225.929,
+   "shot": "c03:s15",
+   "at": 2.117,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 225.904,
+   "end": 226.154,
+   "end_allowed": 227.352,
+   "level_db": -19.8,
+   "sync": "peak",
+   "punch": false,
+   "measured": 225.929,
+   "offset_frames": 0.0,
+   "note": "card: NAVY CROSS"
+  },
+  {
+   "event": 229.192,
+   "shot": "c03:s17",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_a__689b1489.wav",
+   "src": 0.15,
+   "start": 228.952,
+   "end": 231.239,
+   "end_allowed": 232.032,
+   "level_db": -12.4,
+   "sync": "onset",
+   "punch": false,
+   "measured": 229.192,
+   "offset_frames": 0.0,
+   "note": "map move starts (c03_tonkin)"
+  },
+  {
+   "event": 232.112,
+   "shot": "c03:s18",
+   "at": 0.2,
+   "role": "jet",
+   "file": "jet_a__9fc48bf0.wav",
+   "src": 4.0,
+   "start": 231.912,
+   "end": 234.217,
+   "end_allowed": 235.812,
+   "level_db": -10.5,
+   "sync": "peak",
+   "punch": false,
+   "measured": 232.117,
+   "offset_frames": 0.15,
+   "note": "aircraft launches on screen (b3_a4_catapult_1966.mp4)"
+  },
+  {
+   "event": 233.275,
+   "shot": "c03:s18",
+   "at": 1.3633,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 233.25,
+   "end": 233.5,
+   "end_allowed": 235.812,
+   "level_db": -20.1,
+   "sync": "peak",
+   "punch": false,
+   "measured": 233.275,
+   "offset_frames": 0.0,
+   "note": "number lands: 12,000"
+  },
+  {
+   "event": 235.892,
+   "shot": "c03:s19",
+   "at": 0.2,
+   "role": "jet",
+   "file": "jet_b__da6a1527.wav",
+   "src": 4.0,
+   "start": 235.692,
+   "end": 237.637,
+   "end_allowed": 239.072,
+   "level_db": -11.1,
+   "sync": "peak",
+   "punch": false,
+   "measured": 235.897,
+   "offset_frames": 0.15,
+   "note": "aircraft launches on screen (b3_f8_launch_1966.mp4)"
+  },
+  {
+   "event": 239.252,
+   "shot": "c03:s20",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_b__8d9712d2.wav",
+   "src": 0.2,
+   "start": 239.112,
+   "end": 242.162,
+   "end_allowed": 242.162,
+   "level_db": -12.0,
+   "sync": "onset",
+   "punch": false,
+   "measured": 239.252,
+   "offset_frames": 0.0,
+   "note": "map move starts (c03_stockdale_a)"
+  },
+  {
+   "event": 242.242,
+   "shot": "c03:s21",
+   "at": 0.2,
+   "role": "jet",
+   "file": "jet_c__d47bee57.wav",
+   "src": 7.0,
+   "start": 242.042,
+   "end": 242.987,
+   "end_allowed": 245.522,
+   "level_db": -11.0,
+   "sync": "peak",
+   "punch": false,
+   "measured": 242.237,
+   "offset_frames": -0.15,
+   "note": "aircraft launches on screen (b3_aerial_launching.mp4)"
+  },
+  {
+   "event": 245.843,
+   "shot": "c03:s22",
+   "at": 0.441,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 245.678,
+   "end": 245.888,
+   "end_allowed": 247.502,
+   "level_db": -20.8,
+   "sync": "peak",
+   "punch": false,
+   "measured": 245.843,
+   "offset_frames": 0.0,
+   "note": "label: JAMES STOCKDALE"
+  },
+  {
+   "event": 247.682,
+   "shot": "c03:s23",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_a__689b1489.wav",
+   "src": 0.15,
+   "start": 247.442,
+   "end": 249.729,
+   "end_allowed": 251.812,
+   "level_db": -12.3,
+   "sync": "onset",
+   "punch": false,
+   "measured": 247.682,
+   "offset_frames": 0.0,
+   "note": "map move starts (c03_stockdale_b)"
+  },
+  {
+   "event": 253.009,
+   "shot": "c03:s24",
+   "at": 1.317,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 252.984,
+   "end": 253.234,
+   "end_allowed": 254.982,
+   "level_db": -20.6,
+   "sync": "peak",
+   "punch": false,
+   "measured": 253.009,
+   "offset_frames": 0.0,
+   "note": "card number lands: 7½"
+  },
+  {
+   "event": 258.522,
+   "shot": "c03:s26",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_b__8d9712d2.wav",
+   "src": 0.2,
+   "start": 258.382,
+   "end": 261.582,
+   "end_allowed": 262.682,
+   "level_db": -12.4,
+   "sync": "onset",
+   "punch": false,
+   "measured": 258.522,
+   "offset_frames": 0.0,
+   "note": "map move starts (c03_yankee)"
+  },
+  {
+   "event": 266.172,
+   "shot": "c03:s28",
+   "at": 0.0,
+   "role": "riser",
+   "file": "riser_b__dbd5c65b.wav",
+   "src": 0.0,
+   "start": 261.197,
+   "end": 266.197,
+   "end_allowed": 272.032,
+   "level_db": -17.9,
+   "sync": "peak",
+   "punch": false,
+   "measured": 266.172,
+   "offset_frames": 0.0,
+   "note": "reverse riser INTO the x-ray"
+  },
+  {
+   "event": 268.742,
+   "shot": "c03:s28",
+   "at": 2.57,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 268.577,
+   "end": 268.787,
+   "end_allowed": 272.032,
+   "level_db": -19.5,
+   "sync": "peak",
+   "punch": false,
+   "measured": 268.742,
+   "offset_frames": 0.0,
+   "note": "x-ray mark: FLARES"
+  },
+  {
+   "event": 276.709,
+   "shot": "c03:s30",
+   "at": 1.2267,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 276.684,
+   "end": 276.934,
+   "end_allowed": 278.422,
+   "level_db": -20.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 276.709,
+   "offset_frames": 0.0,
+   "note": "number lands: ≈700"
+  },
+  {
+   "event": 279.475,
+   "shot": "c03:s31",
+   "at": 1.1733,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 279.45,
+   "end": 279.7,
+   "end_allowed": 282.832,
+   "level_db": -20.0,
+   "sync": "peak",
+   "punch": false,
+   "measured": 279.475,
+   "offset_frames": 0.0,
+   "note": "number lands: 5,400"
+  },
+  {
+   "event": 284.042,
+   "shot": "c03:s32",
+   "at": 1.33,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 284.017,
+   "end": 284.267,
+   "end_allowed": 285.772,
+   "level_db": -20.5,
+   "sync": "peak",
+   "punch": false,
+   "measured": 284.042,
+   "offset_frames": 0.0,
+   "note": "number lands: 7"
+  },
+  {
+   "event": 308.11,
+   "shot": "c03:s41",
+   "at": 0.118,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 307.992,
+   "end": 308.155,
+   "end_allowed": 312.132,
+   "level_db": -19.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 308.107,
+   "offset_frames": -0.09,
+   "note": "label: TELL US THEIR STORY"
+  },
+  {
+   "event": 312.312,
+   "shot": "c03:s42",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_a__689b1489.wav",
+   "src": 0.15,
+   "start": 312.072,
+   "end": 314.359,
+   "end_allowed": 317.392,
+   "level_db": -12.0,
+   "sync": "onset",
+   "punch": false,
+   "measured": 312.312,
+   "offset_frames": 0.0,
+   "note": "map move starts (c03_sf_tonkin)"
+  },
+  {
+   "event": 323.292,
+   "shot": "c03:s45",
+   "at": 0.12,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 323.267,
+   "end": 323.517,
+   "end_allowed": 325.862,
+   "level_db": -20.8,
+   "sync": "peak",
+   "punch": false,
+   "measured": 323.292,
+   "offset_frames": 0.0,
+   "note": "card: ONE YEAR TO THE DAY"
+  },
+  {
+   "event": 325.942,
+   "shot": "c03:s46",
+   "at": 0.2,
+   "role": "jet",
+   "file": "jet_a__9fc48bf0.wav",
+   "src": 4.0,
+   "start": 325.742,
+   "end": 328.047,
+   "end_allowed": 329.782,
+   "level_db": -10.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 325.947,
+   "offset_frames": 0.15,
+   "note": "aircraft launches on screen (b3_a4e_launch_1968.mp4)"
+  },
+  {
+   "event": 327.063,
+   "shot": "c03:s46",
+   "at": 1.321,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 326.898,
+   "end": 327.108,
+   "end_allowed": 329.782,
+   "level_db": -19.6,
+   "sync": "peak",
+   "punch": false,
+   "measured": 327.063,
+   "offset_frames": 0.0,
+   "note": "label: LCDR JOHN McCAIN"
+  },
+  {
+   "event": 329.962,
+   "shot": "c03:s47",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_b__8d9712d2.wav",
+   "src": 0.2,
+   "start": 329.822,
+   "end": 333.022,
+   "end_allowed": 333.812,
+   "level_db": -11.6,
+   "sync": "onset",
+   "punch": false,
+   "measured": 329.962,
+   "offset_frames": 0.0,
+   "note": "map move starts (c03_hanoi_a)"
+  },
+  {
+   "event": 333.792,
+   "shot": "c03:s48",
+   "at": 0.1,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 333.692,
+   "end": 333.837,
+   "end_allowed": 336.692,
+   "level_db": -20.1,
+   "sync": "peak",
+   "punch": false,
+   "measured": 333.797,
+   "offset_frames": 0.15,
+   "note": "map beat (c03_hanoi_b)"
+  },
+  {
+   "event": 339.975,
+   "shot": "c03:s49",
+   "at": 3.403,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 339.95,
+   "end": 340.2,
+   "end_allowed": 342.242,
+   "level_db": -20.8,
+   "sync": "peak",
+   "punch": false,
+   "measured": 339.975,
+   "offset_frames": 0.0,
+   "note": "card number lands: 5½"
+  },
+  {
+   "event": 343.902,
+   "shot": "c03:s50",
+   "at": 1.78,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 343.737,
+   "end": 343.947,
+   "end_allowed": 346.722,
+   "level_db": -20.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 343.902,
+   "offset_frames": 0.0,
+   "note": "label: STOCKDALE · McCAIN"
+  },
+  {
+   "event": 356.272,
+   "shot": "c03:s53",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_a__689b1489.wav",
+   "src": 0.15,
+   "start": 356.032,
+   "end": 358.319,
+   "end_allowed": 360.088,
+   "level_db": -11.6,
+   "sync": "onset",
+   "punch": false,
+   "measured": 356.272,
+   "offset_frames": 0.0,
+   "note": "map move starts (c03_dc)"
+  },
+  {
+   "event": 360.268,
+   "shot": "c04:s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_b__8d9712d2.wav",
+   "src": 0.2,
+   "start": 360.128,
+   "end": 363.328,
+   "end_allowed": 365.068,
+   "level_db": -12.2,
+   "sync": "onset",
+   "punch": false,
+   "measured": 360.268,
+   "offset_frames": 0.0,
+   "note": "map move starts (c04_dc_gulf)"
+  },
+  {
+   "event": 368.968,
+   "shot": "c04:s03",
+   "at": 1.27,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 368.943,
+   "end": 369.193,
+   "end_allowed": 371.788,
+   "level_db": -20.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 368.968,
+   "offset_frames": 0.0,
+   "note": "number lands: FIRST"
+  },
+  {
+   "event": 371.968,
+   "shot": "c04:s04",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_a__689b1489.wav",
+   "src": 0.15,
+   "start": 371.728,
+   "end": 374.015,
+   "end_allowed": 374.378,
+   "level_db": -11.7,
+   "sync": "onset",
+   "punch": false,
+   "measured": 371.968,
+   "offset_frames": 0.0,
+   "note": "map move starts (c04_states_a)"
+  },
+  {
+   "event": 374.358,
+   "shot": "c04:s05",
+   "at": 0.1,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 374.258,
+   "end": 374.403,
+   "end_allowed": 378.938,
+   "level_db": -20.0,
+   "sync": "peak",
+   "punch": false,
+   "measured": 374.363,
+   "offset_frames": 0.15,
+   "note": "map beat (c04_states_b)"
+  },
+  {
+   "event": 378.918,
+   "shot": "c04:s06",
+   "at": 0.1,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 378.818,
+   "end": 378.963,
+   "end_allowed": 383.958,
+   "level_db": -20.1,
+   "sync": "peak",
+   "punch": false,
+   "measured": 378.923,
+   "offset_frames": 0.15,
+   "note": "map beat (c04_states_c)"
+  },
+  {
+   "event": 389.418,
+   "shot": "c04:s08",
+   "at": 0.0,
+   "role": "riser",
+   "file": "riser_a__fd98cb0b.wav",
+   "src": 0.0,
+   "start": 387.223,
+   "end": 389.483,
+   "end_allowed": 391.328,
+   "level_db": -17.4,
+   "sync": "peak",
+   "punch": false,
+   "measured": 389.418,
+   "offset_frames": 0.0,
+   "note": "reverse riser INTO the x-ray"
+  },
+  {
+   "event": 390.368,
+   "shot": "c04:s08",
+   "at": 0.95,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 390.203,
+   "end": 390.413,
+   "end_allowed": 391.328,
+   "level_db": -20.4,
+   "sync": "peak",
+   "punch": false,
+   "measured": 390.368,
+   "offset_frames": 0.0,
+   "note": "x-ray mark: CLEANUP"
+  },
+  {
+   "event": 391.508,
+   "shot": "c04:s09",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_b__8d9712d2.wav",
+   "src": 0.2,
+   "start": 391.368,
+   "end": 394.568,
+   "end_allowed": 395.838,
+   "level_db": -12.6,
+   "sync": "onset",
+   "punch": false,
+   "measured": 391.508,
+   "offset_frames": 0.0,
+   "note": "map move starts (c04_corpus)"
+  },
+  {
+   "event": 396.974,
+   "shot": "c04:s10",
+   "at": 1.256,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 396.949,
+   "end": 397.199,
+   "end_allowed": 400.008,
+   "level_db": -20.9,
+   "sync": "peak",
+   "punch": false,
+   "measured": 396.974,
+   "offset_frames": 0.0,
+   "note": "gauge counts: COMMITTED BY CONGRESS"
+  },
+  {
+   "event": 401.001,
+   "shot": "c04:s11",
+   "at": 1.1133,
+   "role": "hit",
+   "file": "boom_a__2f0a40ab.wav",
+   "src": 0.0,
+   "start": 400.886,
+   "end": 402.286,
+   "end_allowed": 404.358,
+   "level_db": -7.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 401.001,
+   "offset_frames": 0.0,
+   "note": "gauge hero bar lands: FOR CONTAMINANTS"
+  },
+  {
+   "event": 415.002,
+   "shot": "c04:s15",
+   "at": 1.844,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 414.977,
+   "end": 415.227,
+   "end_allowed": 417.558,
+   "level_db": -20.3,
+   "sync": "peak",
+   "punch": false,
+   "measured": 415.002,
+   "offset_frames": 0.0,
+   "note": "card: CONTAMINATED MATERIAL COMES OUT"
+  },
+  {
+   "event": 417.562,
+   "shot": "c04:s16",
+   "at": 0.124,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 417.537,
+   "end": 417.787,
+   "end_allowed": 421.028,
+   "level_db": -20.2,
+   "sync": "peak",
+   "punch": false,
+   "measured": 417.562,
+   "offset_frames": 0.0,
+   "note": "card: UNLESS THE EPA AGREES"
+  },
+  {
+   "event": 426.406,
+   "shot": "c04:s18",
+   "at": 3.008,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 426.381,
+   "end": 426.631,
+   "end_allowed": 429.248,
+   "level_db": -20.5,
+   "sync": "peak",
+   "punch": false,
+   "measured": 426.406,
+   "offset_frames": 0.0,
+   "note": "gauge counts: REMOVING CONTAMINANTS"
+  },
+  {
+   "event": 429.487,
+   "shot": "c04:s19",
+   "at": 0.359,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 429.462,
+   "end": 429.712,
+   "end_allowed": 431.468,
+   "level_db": -19.9,
+   "sync": "peak",
+   "punch": false,
+   "measured": 429.487,
+   "offset_frames": 0.0,
+   "note": "card number lands: ½+"
+  },
+  {
+   "event": 433.292,
+   "shot": "c04:s20",
+   "at": 1.944,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 433.267,
+   "end": 433.517,
+   "end_allowed": 436.558,
+   "level_db": -21.0,
+   "sync": "peak",
+   "punch": false,
+   "measured": 433.292,
+   "offset_frames": 0.0,
+   "note": "card number lands: $3.7"
+  },
+  {
+   "event": 436.438,
+   "shot": "c04:s21",
+   "at": 0.0,
+   "role": "riser",
+   "file": "riser_b__dbd5c65b.wav",
+   "src": 0.0,
+   "start": 431.463,
+   "end": 436.463,
+   "end_allowed": 441.028,
+   "level_db": -17.4,
+   "sync": "peak",
+   "punch": false,
+   "measured": 436.438,
+   "offset_frames": 0.0,
+   "note": "reverse riser INTO the x-ray"
+  },
+  {
+   "event": 439.868,
+   "shot": "c04:s21",
+   "at": 3.43,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 439.703,
+   "end": 439.913,
+   "end_allowed": 441.028,
+   "level_db": -21.0,
+   "sync": "peak",
+   "punch": false,
+   "measured": 439.868,
+   "offset_frames": 0.0,
+   "note": "x-ray mark: SAFE?"
+  },
+  {
+   "event": 441.208,
+   "shot": "c04:s22",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_a__689b1489.wav",
+   "src": 0.15,
+   "start": 440.968,
+   "end": 443.255,
+   "end_allowed": 446.008,
+   "level_db": -12.8,
+   "sync": "onset",
+   "punch": false,
+   "measured": 441.208,
+   "offset_frames": 0.0,
+   "note": "map move starts (c04_tow_pens)"
+  },
+  {
+   "event": 445.988,
+   "shot": "c04:s23",
+   "at": 0.1,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 445.888,
+   "end": 446.033,
+   "end_allowed": 450.788,
+   "level_db": -19.5,
+   "sync": "peak",
+   "punch": false,
+   "measured": 445.993,
+   "offset_frames": 0.15,
+   "note": "map beat (c04_hurricane)"
+  },
+  {
+   "event": 451.801,
+   "shot": "c04:s24",
+   "at": 1.1333,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 451.776,
+   "end": 452.026,
+   "end_allowed": 454.148,
+   "level_db": -20.0,
+   "sync": "peak",
+   "punch": false,
+   "measured": 451.801,
+   "offset_frames": 0.0,
+   "note": "number lands: $800,000"
+  },
+  {
+   "event": 454.328,
+   "shot": "c04:s25",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_b__8d9712d2.wav",
+   "src": 0.2,
+   "start": 454.188,
+   "end": 457.198,
+   "end_allowed": 457.198,
+   "level_db": -12.4,
+   "sync": "onset",
+   "punch": false,
+   "measured": 454.328,
+   "offset_frames": 0.0,
+   "note": "map move starts (c04_rita)"
+  },
+  {
+   "event": 460.593,
+   "shot": "c04:s27",
+   "at": 1.355,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 460.568,
+   "end": 460.818,
+   "end_allowed": 464.228,
+   "level_db": -20.2,
+   "sync": "peak",
+   "punch": false,
+   "measured": 460.593,
+   "offset_frames": 0.0,
+   "note": "gauge counts: NAVY SPENDING, SPRING 2006"
+  },
+  {
+   "event": 467.512,
+   "shot": "c04:s28",
+   "at": 3.404,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 467.487,
+   "end": 467.737,
+   "end_allowed": 468.848,
+   "level_db": -19.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 467.512,
+   "offset_frames": 0.0,
+   "note": "card number lands: ≈ $20"
+  },
+  {
+   "event": 472.159,
+   "shot": "c04:s29",
+   "at": 3.431,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 472.134,
+   "end": 472.384,
+   "end_allowed": 473.538,
+   "level_db": -20.5,
+   "sync": "peak",
+   "punch": false,
+   "measured": 472.159,
+   "offset_frames": 0.0,
+   "note": "card number lands: ≈ $21"
+  },
+  {
+   "event": 474.435,
+   "shot": "c04:s30",
+   "at": 1.0167,
+   "role": "hit",
+   "file": "boom_a__2f0a40ab.wav",
+   "src": 0.0,
+   "start": 474.32,
+   "end": 475.72,
+   "end_allowed": 476.348,
+   "level_db": -8.1,
+   "sync": "peak",
+   "punch": false,
+   "measured": 474.435,
+   "offset_frames": 0.0,
+   "note": "gauge hero bar lands: NAVY"
+  },
+  {
+   "event": 477.635,
+   "shot": "c04:s31",
+   "at": 1.4067,
+   "role": "hit",
+   "file": "boom_a__2f0a40ab.wav",
+   "src": 0.0,
+   "start": 477.52,
+   "end": 478.92,
+   "end_allowed": 479.778,
+   "level_db": -8.0,
+   "sync": "peak",
+   "punch": false,
+   "measured": 477.635,
+   "offset_frames": 0.0,
+   "note": "gauge hero bar lands: FINAL"
+  },
+  {
+   "event": 479.658,
+   "shot": "c04:s32",
+   "at": 0.0,
+   "role": "riser",
+   "file": "riser_a__fd98cb0b.wav",
+   "src": 0.0,
+   "start": 477.463,
+   "end": 479.723,
+   "end_allowed": 484.603,
+   "level_db": -17.5,
+   "sync": "peak",
+   "punch": false,
+   "measured": 479.658,
+   "offset_frames": 0.0,
+   "note": "reverse riser INTO the x-ray"
+  },
+  {
+   "event": 483.501,
+   "shot": "c04:s32",
+   "at": 3.8433,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 483.336,
+   "end": 483.546,
+   "end_allowed": 484.603,
+   "level_db": -20.2,
+   "sync": "peak",
+   "punch": false,
+   "measured": 483.501,
+   "offset_frames": 0.0,
+   "note": "x-ray mark: ?"
+  },
+  {
+   "event": 484.783,
+   "shot": "c05:s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_a__689b1489.wav",
+   "src": 0.15,
+   "start": 484.543,
+   "end": 486.83,
+   "end_allowed": 489.753,
+   "level_db": -11.9,
+   "sync": "onset",
+   "punch": false,
+   "measured": 484.783,
+   "offset_frames": 0.0,
+   "note": "map move starts (c05_pensacola)"
+  },
+  {
+   "event": 492.129,
+   "shot": "c05:s03",
+   "at": 0.786,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 491.964,
+   "end": 492.174,
+   "end_allowed": 496.773,
+   "level_db": -19.6,
+   "sync": "peak",
+   "punch": false,
+   "measured": 492.129,
+   "offset_frames": 0.0,
+   "note": "label: THE TEST CASE"
+  },
+  {
+   "event": 510.783,
+   "shot": "c05:s08",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_b__8d9712d2.wav",
+   "src": 0.2,
+   "start": 510.643,
+   "end": 512.903,
+   "end_allowed": 512.903,
+   "level_db": -12.8,
+   "sync": "onset",
+   "punch": false,
+   "measured": 510.783,
+   "offset_frames": 0.0,
+   "note": "map move starts (c05_reef)"
+  },
+  {
+   "event": 516.583,
+   "shot": "c05:s10",
+   "at": 0.0,
+   "role": "riser",
+   "file": "riser_b__dbd5c65b.wav",
+   "src": 0.0,
+   "start": 511.608,
+   "end": 516.608,
+   "end_allowed": 521.513,
+   "level_db": -16.6,
+   "sync": "peak",
+   "punch": false,
+   "measured": 516.583,
+   "offset_frames": 0.0,
+   "note": "reverse riser INTO the x-ray"
+  },
+  {
+   "event": 517.816,
+   "shot": "c05:s10",
+   "at": 1.2333,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 517.651,
+   "end": 517.861,
+   "end_allowed": 521.513,
+   "level_db": -21.0,
+   "sync": "peak",
+   "punch": false,
+   "measured": 517.816,
+   "offset_frames": 0.0,
+   "note": "x-ray mark: 22 CHARGES"
+  },
+  {
+   "event": 519.983,
+   "shot": "c05:s10",
+   "at": 3.4,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 519.818,
+   "end": 520.028,
+   "end_allowed": 521.513,
+   "level_db": -19.9,
+   "sync": "peak",
+   "punch": false,
+   "measured": 519.983,
+   "offset_frames": 0.0,
+   "note": "readout: DEEP IN THE HULL"
+  },
+  {
+   "event": 521.983,
+   "shot": "c05:s11",
+   "at": 0.59,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 521.958,
+   "end": 522.208,
+   "end_allowed": 524.813,
+   "level_db": -19.8,
+   "sync": "peak",
+   "punch": false,
+   "measured": 521.983,
+   "offset_frames": 0.0,
+   "note": "number lands: 500+"
+  },
+  {
+   "event": 524.952,
+   "shot": "c05:s12",
+   "at": 0.259,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 524.927,
+   "end": 525.177,
+   "end_allowed": 526.393,
+   "level_db": -20.8,
+   "sync": "peak",
+   "punch": false,
+   "measured": 524.952,
+   "offset_frames": 0.0,
+   "note": "card number lands: 10:25"
+  },
+  {
+   "event": 526.273,
+   "shot": "c05:s13",
+   "at": 0.0,
+   "role": "explosion",
+   "file": "charges_c__f6f10ea4.wav",
+   "src": 1.76,
+   "start": 526.273,
+   "end": 527.218,
+   "end_allowed": 527.813,
+   "level_db": -4.4,
+   "sync": "peak",
+   "punch": true,
+   "measured": 526.298,
+   "offset_frames": 0.75,
+   "note": "charges fire: blast photo + flash (2nd use of the hook blast, 8 min later)"
+  },
+  {
+   "event": 529.383,
+   "shot": "c05:s14",
+   "at": 1.87,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 529.358,
+   "end": 529.608,
+   "end_allowed": 531.323,
+   "level_db": -19.8,
+   "sync": "peak",
+   "punch": false,
+   "measured": 529.383,
+   "offset_frames": 0.0,
+   "note": "number lands: ≈5"
+  },
+  {
+   "event": 531.203,
+   "shot": "c05:s15",
+   "at": 0.0,
+   "role": "ship",
+   "file": "groan_a__7c63fd7c.wav",
+   "src": 7.55,
+   "start": 531.203,
+   "end": 533.673,
+   "end_allowed": 533.673,
+   "level_db": -14.0,
+   "sync": "onset",
+   "punch": false,
+   "measured": 531.213,
+   "offset_frames": 0.3,
+   "note": "hull settling: groan"
+  },
+  {
+   "event": 533.553,
+   "shot": "c05:s16",
+   "at": 0.0,
+   "role": "ship",
+   "file": "groan_a__7c63fd7c.wav",
+   "src": 7.55,
+   "start": 533.553,
+   "end": 536.493,
+   "end_allowed": 537.763,
+   "level_db": -13.1,
+   "sync": "onset",
+   "punch": false,
+   "measured": 533.563,
+   "offset_frames": 0.3,
+   "note": "hull settling: groan"
+  },
+  {
+   "event": 537.693,
+   "shot": "c05:s17",
+   "at": 0.05,
+   "role": "ship",
+   "file": "flood_a__db95b348.wav",
+   "src": 0.7,
+   "start": 537.693,
+   "end": 539.153,
+   "end_allowed": 539.153,
+   "level_db": -12.8,
+   "sync": "onset",
+   "punch": false,
+   "measured": 537.693,
+   "offset_frames": 0.0,
+   "note": "water closes over the hull: flood"
+  },
+  {
+   "event": 544.283,
+   "shot": "c05:s19",
+   "at": 0.95,
+   "role": "impact",
+   "file": "charges_b__0ecb5c38.wav",
+   "src": 17.45,
+   "start": 544.138,
+   "end": 545.738,
+   "end_allowed": 546.053,
+   "level_db": -7.2,
+   "sync": "peak",
+   "punch": true,
+   "measured": 544.283,
+   "offset_frames": 0.0,
+   "note": "hull touches the seabed (underwater thump)"
+  },
+  {
+   "event": 548.552,
+   "shot": "c05:s20",
+   "at": 2.619,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 548.387,
+   "end": 548.597,
+   "end_allowed": 549.543,
+   "level_db": -19.9,
+   "sync": "peak",
+   "punch": false,
+   "measured": 548.552,
+   "offset_frames": 0.0,
+   "note": "label: NOW FLORIDA'S REEF"
+  },
+  {
+   "event": 549.916,
+   "shot": "c05:s21",
+   "at": 0.4933,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 549.891,
+   "end": 550.141,
+   "end_allowed": 553.533,
+   "level_db": -20.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 549.916,
+   "offset_frames": 0.0,
+   "note": "number lands: LARGEST"
+  },
+  {
+   "event": 556.128,
+   "shot": "c05:s22",
+   "at": 2.715,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 556.103,
+   "end": 556.353,
+   "end_allowed": 559.263,
+   "level_db": -20.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 556.128,
+   "offset_frames": 0.0,
+   "note": "card: LARGEST ARTIFICIAL REEF IN THE WORLD"
+  },
+  {
+   "event": 559.143,
+   "shot": "c05:s23",
+   "at": 0.0,
+   "role": "ship",
+   "file": "bubbles_a__e58b390c.wav",
+   "src": 2.95,
+   "start": 559.143,
+   "end": 560.503,
+   "end_allowed": 561.273,
+   "level_db": -13.5,
+   "sync": "onset",
+   "punch": false,
+   "measured": 559.143,
+   "offset_frames": 0.0,
+   "note": "foam: air bursting out"
+  },
+  {
+   "event": 563.673,
+   "shot": "c05:s25",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_a__689b1489.wav",
+   "src": 0.15,
+   "start": 563.433,
+   "end": 565.72,
+   "end_allowed": 565.997,
+   "level_db": -12.7,
+   "sync": "onset",
+   "punch": false,
+   "measured": 563.673,
+   "offset_frames": 0.0,
+   "note": "map move starts (c05_fishpin)"
+  },
+  {
+   "event": 565.877,
+   "shot": "c06:s01",
+   "at": 0.0,
+   "role": "riser",
+   "file": "riser_a__fd98cb0b.wav",
+   "src": 0.0,
+   "start": 563.682,
+   "end": 565.942,
+   "end_allowed": 568.797,
+   "level_db": -17.5,
+   "sync": "peak",
+   "punch": false,
+   "measured": 565.877,
+   "offset_frames": 0.0,
+   "note": "reverse riser INTO the x-ray"
+  },
+  {
+   "event": 567.044,
+   "shot": "c06:s01",
+   "at": 1.1667,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 566.879,
+   "end": 567.089,
+   "end_allowed": 568.797,
+   "level_db": -19.6,
+   "sync": "peak",
+   "punch": false,
+   "measured": 567.044,
+   "offset_frames": 0.0,
+   "note": "x-ray mark: PCBs"
+  },
+  {
+   "event": 569.477,
+   "shot": "c06:s02",
+   "at": 0.8,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 569.452,
+   "end": 569.702,
+   "end_allowed": 572.027,
+   "level_db": -20.1,
+   "sync": "peak",
+   "punch": false,
+   "measured": 569.477,
+   "offset_frames": 0.0,
+   "note": "number lands: ≈700"
+  },
+  {
+   "event": 571.907,
+   "shot": "c06:s03",
+   "at": 0.0,
+   "role": "riser",
+   "file": "riser_b__dbd5c65b.wav",
+   "src": 0.0,
+   "start": 566.932,
+   "end": 571.932,
+   "end_allowed": 576.757,
+   "level_db": -17.5,
+   "sync": "peak",
+   "punch": false,
+   "measured": 571.907,
+   "offset_frames": 0.0,
+   "note": "reverse riser INTO the x-ray"
+  },
+  {
+   "event": 572.777,
+   "shot": "c06:s03",
+   "at": 0.87,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 572.612,
+   "end": 572.822,
+   "end_allowed": 576.757,
+   "level_db": -20.6,
+   "sync": "peak",
+   "punch": false,
+   "measured": 572.777,
+   "offset_frames": 0.0,
+   "note": "readout: CABLE"
+  },
+  {
+   "event": 574.11,
+   "shot": "c06:s03",
+   "at": 2.2033,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 573.945,
+   "end": 574.155,
+   "end_allowed": 576.757,
+   "level_db": -19.6,
+   "sync": "peak",
+   "punch": false,
+   "measured": 574.11,
+   "offset_frames": 0.0,
+   "note": "readout: GASKETS"
+  },
+  {
+   "event": 574.977,
+   "shot": "c06:s03",
+   "at": 3.07,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 574.812,
+   "end": 575.022,
+   "end_allowed": 576.757,
+   "level_db": -20.3,
+   "sync": "peak",
+   "punch": false,
+   "measured": 574.977,
+   "offset_frames": 0.0,
+   "note": "readout: INSULATION"
+  },
+  {
+   "event": 575.91,
+   "shot": "c06:s03",
+   "at": 4.0033,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 575.745,
+   "end": 575.955,
+   "end_allowed": 576.757,
+   "level_db": -19.5,
+   "sync": "peak",
+   "punch": false,
+   "measured": 575.91,
+   "offset_frames": 0.0,
+   "note": "readout: PAINT"
+  },
+  {
+   "event": 577.101,
+   "shot": "c06:s04",
+   "at": 0.464,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 576.936,
+   "end": 577.146,
+   "end_allowed": 580.107,
+   "level_db": -20.2,
+   "sync": "peak",
+   "punch": false,
+   "measured": 577.101,
+   "offset_frames": 0.0,
+   "note": "label: ALL LIQUID PCBs"
+  },
+  {
+   "event": 580.287,
+   "shot": "c06:s05",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_b__8d9712d2.wav",
+   "src": 0.2,
+   "start": 580.147,
+   "end": 582.947,
+   "end_allowed": 582.947,
+   "level_db": -12.2,
+   "sync": "onset",
+   "punch": false,
+   "measured": 580.287,
+   "offset_frames": 0.0,
+   "note": "map move starts (c06_epa_a)"
+  },
+  {
+   "event": 582.927,
+   "shot": "c06:s06",
+   "at": 0.1,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 582.827,
+   "end": 582.972,
+   "end_allowed": 586.737,
+   "level_db": -19.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 582.932,
+   "offset_frames": 0.15,
+   "note": "map beat (c06_epa_b)"
+  },
+  {
+   "event": 590.201,
+   "shot": "c06:s07",
+   "at": 3.584,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 590.176,
+   "end": 590.426,
+   "end_allowed": 592.067,
+   "level_db": -19.9,
+   "sync": "peak",
+   "punch": false,
+   "measured": 590.201,
+   "offset_frames": 0.0,
+   "note": "card: “NOT AN UNREASONABLE RISK”"
+  },
+  {
+   "event": 592.444,
+   "shot": "c06:s08",
+   "at": 0.4967,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 592.419,
+   "end": 592.669,
+   "end_allowed": 596.017,
+   "level_db": -20.1,
+   "sync": "peak",
+   "punch": false,
+   "measured": 592.444,
+   "offset_frames": 0.0,
+   "note": "number lands: FIRST"
+  },
+  {
+   "event": 597.92,
+   "shot": "c06:s09",
+   "at": 2.023,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 597.755,
+   "end": 597.965,
+   "end_allowed": 598.997,
+   "level_db": -20.4,
+   "sync": "peak",
+   "punch": false,
+   "measured": 597.92,
+   "offset_frames": 0.0,
+   "note": "label: FOR HER ALONE"
+  },
+  {
+   "event": 599.177,
+   "shot": "c06:s10",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_a__689b1489.wav",
+   "src": 0.15,
+   "start": 598.937,
+   "end": 601.224,
+   "end_allowed": 604.467,
+   "level_db": -11.7,
+   "sync": "onset",
+   "punch": false,
+   "measured": 599.177,
+   "offset_frames": 0.0,
+   "note": "map move starts (c06_fishmap)"
+  },
+  {
+   "event": 610.877,
+   "shot": "c06:s12",
+   "at": 0.65,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 610.852,
+   "end": 611.102,
+   "end_allowed": 613.757,
+   "level_db": -20.4,
+   "sync": "peak",
+   "punch": false,
+   "measured": 610.877,
+   "offset_frames": 0.0,
+   "note": "c06_rounds_b: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "event": 613.754,
+   "shot": "c06:s13",
+   "at": 0.117,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 613.729,
+   "end": 613.979,
+   "end_allowed": 616.117,
+   "level_db": -19.6,
+   "sync": "peak",
+   "punch": false,
+   "measured": 613.754,
+   "offset_frames": 0.0,
+   "note": "card number lands: 254"
+  },
+  {
+   "event": 623.51,
+   "shot": "c06:s15",
+   "at": 4.3633,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 623.485,
+   "end": 623.735,
+   "end_allowed": 625.097,
+   "level_db": -20.9,
+   "sync": "peak",
+   "punch": false,
+   "measured": 623.51,
+   "offset_frames": 0.0,
+   "note": "c06_lines_b: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "event": 642.919,
+   "shot": "c06:s21",
+   "at": 0.122,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 642.894,
+   "end": 643.144,
+   "end_allowed": 647.167,
+   "level_db": -20.4,
+   "sync": "peak",
+   "punch": false,
+   "measured": 642.919,
+   "offset_frames": 0.0,
+   "note": "card: ENVIRONMENTAL GROUPS"
+  },
+  {
+   "event": 649.444,
+   "shot": "c06:s23",
+   "at": 0.4467,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 649.419,
+   "end": 649.669,
+   "end_allowed": 654.277,
+   "level_db": -20.2,
+   "sync": "peak",
+   "punch": false,
+   "measured": 649.444,
+   "offset_frames": 0.0,
+   "note": "c06_snapper_b: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "event": 654.457,
+   "shot": "c06:s24",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_b__8d9712d2.wav",
+   "src": 0.2,
+   "start": 654.317,
+   "end": 656.457,
+   "end_allowed": 656.457,
+   "level_db": -11.6,
+   "sync": "onset",
+   "punch": false,
+   "measured": 654.457,
+   "offset_frames": 0.0,
+   "note": "map move starts (c06_rubble)"
+  },
+  {
+   "event": 656.437,
+   "shot": "c06:s25",
+   "at": 0.1,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 656.337,
+   "end": 656.482,
+   "end_allowed": 660.377,
+   "level_db": -20.6,
+   "sync": "peak",
+   "punch": false,
+   "measured": 656.442,
+   "offset_frames": 0.15,
+   "note": "map beat (c06_tag)"
+  },
+  {
+   "event": 664.644,
+   "shot": "c06:s27",
+   "at": 2.5667,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 664.619,
+   "end": 664.869,
+   "end_allowed": 666.457,
+   "level_db": -19.8,
+   "sync": "peak",
+   "punch": false,
+   "measured": 664.644,
+   "offset_frames": 0.0,
+   "note": "c06_down_b: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "event": 668.31,
+   "shot": "c06:s28",
+   "at": 1.9733,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 668.285,
+   "end": 668.535,
+   "end_allowed": 669.287,
+   "level_db": -20.0,
+   "sync": "peak",
+   "punch": false,
+   "measured": 668.31,
+   "offset_frames": 0.0,
+   "note": "c06_down_c: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "event": 669.286,
+   "shot": "c06:s29",
+   "at": 0.119,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 669.261,
+   "end": 669.511,
+   "end_allowed": 673.437,
+   "level_db": -19.9,
+   "sync": "peak",
+   "punch": false,
+   "measured": 669.286,
+   "offset_frames": 0.0,
+   "note": "card: NO ADVISORY ISSUED"
+  },
+  {
+   "event": 678.157,
+   "shot": "c06:s31",
+   "at": 0.0,
+   "role": "riser",
+   "file": "riser_a__fd98cb0b.wav",
+   "src": 0.0,
+   "start": 675.962,
+   "end": 678.222,
+   "end_allowed": 681.547,
+   "level_db": -17.1,
+   "sync": "peak",
+   "punch": false,
+   "measured": 678.157,
+   "offset_frames": 0.0,
+   "note": "reverse riser INTO the x-ray"
+  },
+  {
+   "event": 685.11,
+   "shot": "c06:s32",
+   "at": 3.6833,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 684.945,
+   "end": 685.155,
+   "end_allowed": 686.662,
+   "level_db": -19.5,
+   "sync": "peak",
+   "punch": false,
+   "measured": 685.11,
+   "offset_frames": 0.0,
+   "note": "x-ray mark: ?"
+  },
+  {
+   "event": 686.842,
+   "shot": "c07:s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_a__689b1489.wav",
+   "src": 0.15,
+   "start": 686.602,
+   "end": 688.889,
+   "end_allowed": 689.652,
+   "level_db": -12.5,
+   "sync": "onset",
+   "punch": false,
+   "measured": 686.842,
+   "offset_frames": 0.0,
+   "note": "map move starts (c07_dive)"
+  },
+  {
+   "event": 698.542,
+   "shot": "c07:s04",
+   "at": 3.58,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 698.517,
+   "end": 698.767,
+   "end_allowed": 700.932,
+   "level_db": -20.4,
+   "sync": "peak",
+   "punch": false,
+   "measured": 698.542,
+   "offset_frames": 0.0,
+   "note": "c07_settle: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "event": 701.112,
+   "shot": "c07:s05",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_b__8d9712d2.wav",
+   "src": 0.2,
+   "start": 700.972,
+   "end": 704.172,
+   "end_allowed": 704.742,
+   "level_db": -12.7,
+   "sync": "onset",
+   "punch": false,
+   "measured": 701.112,
+   "offset_frames": 0.0,
+   "note": "map move starts (c07_gustav)"
+  },
+  {
+   "event": 706.875,
+   "shot": "c07:s06",
+   "at": 2.2533,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 706.85,
+   "end": 707.1,
+   "end_allowed": 710.122,
+   "level_db": -20.9,
+   "sync": "peak",
+   "punch": false,
+   "measured": 706.875,
+   "offset_frames": 0.0,
+   "note": "c07_funnel: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "event": 724.602,
+   "shot": "c07:s11",
+   "at": 1.26,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 724.577,
+   "end": 724.827,
+   "end_allowed": 727.122,
+   "level_db": -20.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 724.602,
+   "offset_frames": 0.0,
+   "note": "card: NEVER GO INSIDE"
+  },
+  {
+   "event": 730.833,
+   "shot": "c07:s13",
+   "at": 2.021,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 730.808,
+   "end": 731.058,
+   "end_allowed": 733.932,
+   "level_db": -19.6,
+   "sync": "peak",
+   "punch": false,
+   "measured": 730.833,
+   "offset_frames": 0.0,
+   "note": "card number lands: 4,200"
+  },
+  {
+   "event": 735.076,
+   "shot": "c07:s14",
+   "at": 1.264,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 735.051,
+   "end": 735.301,
+   "end_allowed": 738.152,
+   "level_db": -19.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 735.076,
+   "offset_frames": 0.0,
+   "note": "card number lands: $3.6"
+  },
+  {
+   "event": 738.332,
+   "shot": "c07:s15",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_a__689b1489.wav",
+   "src": 0.15,
+   "start": 738.092,
+   "end": 739.862,
+   "end_allowed": 739.862,
+   "level_db": -12.8,
+   "sync": "onset",
+   "punch": false,
+   "measured": 738.332,
+   "offset_frames": 0.0,
+   "note": "map move starts (c07_counties_a)"
+  },
+  {
+   "event": 739.842,
+   "shot": "c07:s16",
+   "at": 0.1,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 739.742,
+   "end": 739.887,
+   "end_allowed": 743.392,
+   "level_db": -20.1,
+   "sync": "peak",
+   "punch": false,
+   "measured": 739.847,
+   "offset_frames": 0.15,
+   "note": "map beat (c07_counties_b)"
+  },
+  {
+   "event": 743.585,
+   "shot": "c07:s17",
+   "at": 0.313,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 743.56,
+   "end": 743.81,
+   "end_allowed": 745.572,
+   "level_db": -20.3,
+   "sync": "peak",
+   "punch": false,
+   "measured": 743.585,
+   "offset_frames": 0.0,
+   "note": "card number lands: 67"
+  },
+  {
+   "event": 745.452,
+   "shot": "c07:s18",
+   "at": 0.0,
+   "role": "riser",
+   "file": "riser_b__dbd5c65b.wav",
+   "src": 0.0,
+   "start": 740.477,
+   "end": 745.477,
+   "end_allowed": 749.322,
+   "level_db": -17.1,
+   "sync": "peak",
+   "punch": false,
+   "measured": 745.452,
+   "offset_frames": 0.0,
+   "note": "reverse riser INTO the x-ray"
+  },
+  {
+   "event": 747.842,
+   "shot": "c07:s18",
+   "at": 2.39,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 747.677,
+   "end": 747.887,
+   "end_allowed": 749.322,
+   "level_db": -20.0,
+   "sync": "peak",
+   "punch": false,
+   "measured": 747.842,
+   "offset_frames": 0.0,
+   "note": "x-ray mark: ?"
+  },
+  {
+   "event": 751.042,
+   "shot": "c07:s19",
+   "at": 1.84,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 750.877,
+   "end": 751.087,
+   "end_allowed": 754.192,
+   "level_db": -20.5,
+   "sync": "peak",
+   "punch": false,
+   "measured": 751.042,
+   "offset_frames": 0.0,
+   "note": "x-ray mark: 97 %"
+  },
+  {
+   "event": 757.442,
+   "shot": "c07:s20",
+   "at": 3.37,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 757.417,
+   "end": 757.667,
+   "end_allowed": 758.532,
+   "level_db": -19.6,
+   "sync": "peak",
+   "punch": false,
+   "measured": 757.442,
+   "offset_frames": 0.0,
+   "note": "c07_apart: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "event": 763.875,
+   "shot": "c07:s22",
+   "at": 1.0733,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 763.85,
+   "end": 764.1,
+   "end_allowed": 766.922,
+   "level_db": -20.3,
+   "sync": "peak",
+   "punch": false,
+   "measured": 763.875,
+   "offset_frames": 0.0,
+   "note": "c07_tally: its main graphic beat (step 2: retime to the scene's event frame)"
+  },
+  {
+   "event": 774.178,
+   "shot": "c07:s25",
+   "at": 0.796,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 774.153,
+   "end": 774.403,
+   "end_allowed": 775.242,
+   "level_db": -20.1,
+   "sync": "peak",
+   "punch": false,
+   "measured": 774.178,
+   "offset_frames": 0.0,
+   "note": "card: REEF vs. SCRAP"
+  },
+  {
+   "event": 776.775,
+   "shot": "c07:s26",
+   "at": 1.6533,
+   "role": "hit",
+   "file": "boom_a__2f0a40ab.wav",
+   "src": 0.0,
+   "start": 776.66,
+   "end": 778.06,
+   "end_allowed": 779.612,
+   "level_db": -8.0,
+   "sync": "peak",
+   "punch": false,
+   "measured": 776.775,
+   "offset_frames": 0.0,
+   "note": "gauge hero bar lands: REEF + CLEANUP"
+  },
+  {
+   "event": 781.242,
+   "shot": "c07:s27",
+   "at": 1.75,
+   "role": "hit",
+   "file": "boom_a__2f0a40ab.wav",
+   "src": 0.0,
+   "start": 781.127,
+   "end": 782.527,
+   "end_allowed": 783.752,
+   "level_db": -8.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 781.242,
+   "offset_frames": 0.0,
+   "note": "gauge hero bar lands: REEF (FINAL)"
+  },
+  {
+   "event": 786.009,
+   "shot": "c07:s28",
+   "at": 2.3767,
+   "role": "hit",
+   "file": "boom_a__2f0a40ab.wav",
+   "src": 0.0,
+   "start": 785.894,
+   "end": 787.294,
+   "end_allowed": 788.252,
+   "level_db": -8.9,
+   "sync": "peak",
+   "punch": false,
+   "measured": 786.009,
+   "offset_frames": 0.0,
+   "note": "gauge hero bar lands: SCRAP (USNI 2006 EST.)"
+  },
+  {
+   "event": 794.99,
+   "shot": "c07:s30",
+   "at": 4.478,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 794.965,
+   "end": 795.215,
+   "end_allowed": 795.812,
+   "level_db": -20.4,
+   "sync": "peak",
+   "punch": false,
+   "measured": 794.99,
+   "offset_frames": 0.0,
+   "note": "card: A WARNING"
+  },
+  {
+   "event": 796.917,
+   "shot": "c07:s31",
+   "at": 1.225,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 796.892,
+   "end": 797.142,
+   "end_allowed": 797.432,
+   "level_db": -19.9,
+   "sync": "peak",
+   "punch": false,
+   "measured": 796.917,
+   "offset_frames": 0.0,
+   "note": "card: CLEAN TO THE NEW STANDARD"
+  },
+  {
+   "event": 799.309,
+   "shot": "c07:s32",
+   "at": 1.9967,
+   "role": "hit",
+   "file": "boom_a__2f0a40ab.wav",
+   "src": 0.0,
+   "start": 799.194,
+   "end": 800.594,
+   "end_allowed": 801.932,
+   "level_db": -7.8,
+   "sync": "peak",
+   "punch": false,
+   "measured": 799.309,
+   "offset_frames": 0.0,
+   "note": "gauge hero bar lands: REEF, NEW STANDARD"
+  },
+  {
+   "event": 805.375,
+   "shot": "c07:s34",
+   "at": 0.0633,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 805.312,
+   "end": 805.42,
+   "end_allowed": 809.692,
+   "level_db": -19.9,
+   "sync": "peak",
+   "punch": false,
+   "measured": 805.377,
+   "offset_frames": 0.05,
+   "note": "option appears: A museum?"
+  },
+  {
+   "event": 806.542,
+   "shot": "c07:s34",
+   "at": 1.23,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 806.377,
+   "end": 806.587,
+   "end_allowed": 809.692,
+   "level_db": -20.8,
+   "sync": "peak",
+   "punch": false,
+   "measured": 806.542,
+   "offset_frames": 0.0,
+   "note": "option struck: A museum?"
+  },
+  {
+   "event": 808.809,
+   "shot": "c07:s34",
+   "at": 3.4967,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 808.644,
+   "end": 808.854,
+   "end_allowed": 809.692,
+   "level_db": -19.6,
+   "sync": "peak",
+   "punch": false,
+   "measured": 808.809,
+   "offset_frames": 0.0,
+   "note": "option struck: A scrapyard?"
+  },
+  {
+   "event": 809.572,
+   "shot": "c07:s35",
+   "at": 0.0,
+   "role": "riser",
+   "file": "riser_a__fd98cb0b.wav",
+   "src": 0.0,
+   "start": 807.377,
+   "end": 809.637,
+   "end_allowed": 815.062,
+   "level_db": -16.8,
+   "sync": "peak",
+   "punch": false,
+   "measured": 809.572,
+   "offset_frames": 0.0,
+   "note": "reverse riser INTO the x-ray"
+  },
+  {
+   "event": 811.209,
+   "shot": "c07:s35",
+   "at": 1.6367,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 811.044,
+   "end": 811.254,
+   "end_allowed": 815.062,
+   "level_db": -19.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 811.209,
+   "offset_frames": 0.0,
+   "note": "x-ray mark: WIRING"
+  },
+  {
+   "event": 814.975,
+   "shot": "c07:s36",
+   "at": 0.0333,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 814.942,
+   "end": 815.02,
+   "end_allowed": 818.102,
+   "level_db": -20.2,
+   "sync": "peak",
+   "punch": false,
+   "measured": 814.977,
+   "offset_frames": 0.05,
+   "note": "option appears: A museum?"
+  },
+  {
+   "event": 815.142,
+   "shot": "c07:s36",
+   "at": 0.2,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 814.977,
+   "end": 815.187,
+   "end_allowed": 818.102,
+   "level_db": -19.6,
+   "sync": "peak",
+   "punch": false,
+   "measured": 815.142,
+   "offset_frames": 0.0,
+   "note": "option appears: The bottom of the Gulf"
+  },
+  {
+   "event": 815.142,
+   "shot": "c07:s36",
+   "at": 0.2,
+   "role": "boom",
+   "file": "boom_a__2f0a40ab.wav",
+   "src": 0.0,
+   "start": 815.027,
+   "end": 816.427,
+   "end_allowed": 818.102,
+   "level_db": -11.9,
+   "sync": "peak",
+   "punch": true,
+   "measured": 815.142,
+   "offset_frames": 0.0,
+   "note": "the answer: The bottom of the Gulf"
+  },
+  {
+   "event": 819.075,
+   "shot": "c07:s37",
+   "at": 1.0933,
+   "role": "hit",
+   "file": "boom_a__2f0a40ab.wav",
+   "src": 0.0,
+   "start": 818.96,
+   "end": 820.36,
+   "end_allowed": 822.052,
+   "level_db": -9.0,
+   "sync": "peak",
+   "punch": false,
+   "measured": 819.075,
+   "offset_frames": 0.0,
+   "note": "gauge hero bar lands: REEF"
+  },
+  {
+   "event": 825.862,
+   "shot": "c07:s39",
+   "at": 0.0,
+   "role": "horn",
+   "file": "horn_a__463af07a.wav",
+   "src": 0.2,
+   "start": 825.862,
+   "end": 828.422,
+   "end_allowed": 828.422,
+   "level_db": -15.0,
+   "sync": "onset",
+   "punch": false,
+   "measured": 825.862,
+   "offset_frames": 0.0,
+   "note": "SS United States on screen: liner horn (signature sound, -14)"
+  },
+  {
+   "event": 828.509,
+   "shot": "c07:s40",
+   "at": 0.2067,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 828.484,
+   "end": 828.734,
+   "end_allowed": 832.682,
+   "level_db": -20.6,
+   "sync": "peak",
+   "punch": false,
+   "measured": 828.509,
+   "offset_frames": 0.0,
+   "note": "number lands: NOV 12"
+  },
+  {
+   "event": 832.862,
+   "shot": "c07:s41",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_b__8d9712d2.wav",
+   "src": 0.2,
+   "start": 832.722,
+   "end": 835.922,
+   "end_allowed": 836.922,
+   "level_db": -12.6,
+   "sync": "onset",
+   "punch": false,
+   "measured": 832.862,
+   "offset_frames": 0.0,
+   "note": "map move starts (c07_okaloosa)"
+  },
+  {
+   "event": 837.275,
+   "shot": "c07:s42",
+   "at": 0.4733,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 837.25,
+   "end": 837.5,
+   "end_allowed": 839.572,
+   "level_db": -20.7,
+   "sync": "peak",
+   "punch": false,
+   "measured": 837.275,
+   "offset_frames": 0.0,
+   "note": "number lands: 990"
+  },
+  {
+   "event": 839.577,
+   "shot": "c07:s43",
+   "at": 0.125,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 839.552,
+   "end": 839.802,
+   "end_allowed": 842.852,
+   "level_db": -20.1,
+   "sync": "peak",
+   "punch": false,
+   "measured": 839.577,
+   "offset_frames": 0.0,
+   "note": "card: NO EXPLOSIVES."
+  },
+  {
+   "event": 843.032,
+   "shot": "c07:s44",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_a__689b1489.wav",
+   "src": 0.15,
+   "start": 842.792,
+   "end": 845.079,
+   "end_allowed": 847.012,
+   "level_db": -12.9,
+   "sync": "onset",
+   "punch": false,
+   "measured": 843.032,
+   "offset_frames": 0.0,
+   "note": "map move starts (c07_endmap)"
+  },
+  {
+   "event": 850.009,
+   "shot": "c07:s46",
+   "at": 1.4967,
+   "role": "pop",
+   "file": "pop_b__844f57e0.wav",
+   "src": 0.0,
+   "start": 849.984,
+   "end": 850.234,
+   "end_allowed": 854.062,
+   "level_db": -20.1,
+   "sync": "peak",
+   "punch": false,
+   "measured": 850.009,
+   "offset_frames": 0.0,
+   "note": "number lands: $50,000"
+  },
+  {
+   "event": 854.242,
+   "shot": "c07:s47",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_b__8d9712d2.wav",
+   "src": 0.2,
+   "start": 854.102,
+   "end": 856.842,
+   "end_allowed": 856.842,
+   "level_db": -12.8,
+   "sync": "onset",
+   "punch": false,
+   "measured": 854.242,
+   "offset_frames": 0.0,
+   "note": "map move starts (c07_title)"
+  },
+  {
+   "event": 861.892,
+   "shot": "c07:s49",
+   "at": 0.05,
+   "role": "ship",
+   "file": "flood_a__db95b348.wav",
+   "src": 0.7,
+   "start": 861.892,
+   "end": 864.522,
+   "end_allowed": 864.522,
+   "level_db": -13.0,
+   "sync": "onset",
+   "punch": false,
+   "measured": 861.892,
+   "offset_frames": 0.0,
+   "note": "water closes over the hull: flood"
+  },
+  {
+   "event": 864.702,
+   "shot": "c07:s50",
+   "at": 0.3,
+   "role": "whoosh",
+   "file": "whoosh_a__689b1489.wav",
+   "src": 0.15,
+   "start": 864.462,
+   "end": 866.749,
+   "end_allowed": 884.932,
+   "level_db": -13.0,
+   "sync": "onset",
+   "punch": false,
+   "measured": 864.702,
+   "offset_frames": 0.0,
+   "note": "map move starts (c07_endscreen)"
+  }
+ ],
+ "beds": [
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 0.0,
+   "end": 4.3,
+   "level_db": -30,
+   "note": "Gulf of Mexico: sea under the map dive"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 9.98,
+   "end": 21.25,
+   "level_db": -30,
+   "note": "foam / sea photos of the sinking day"
+  },
+  {
+   "role": "underwater",
+   "file": "underwater_a__127d88ce.wav",
+   "start": 26.0,
+   "end": 32.7,
+   "level_db": -30,
+   "note": "drawn sinking: underwater ambience"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 29.6,
+   "end": 39.55,
+   "level_db": -30,
+   "note": "the question block: low tension drone"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 45.8,
+   "end": 48.625,
+   "level_db": -30,
+   "note": "end map: sea"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 6.38,
+   "end": 9.98,
+   "level_db": -27,
+   "note": "projector loop under archive film"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 32.7,
+   "end": 34.9,
+   "level_db": -27,
+   "note": "projector loop under archive film"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 39.55,
+   "end": 45.8,
+   "level_db": -27,
+   "note": "projector loop under archive film"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 48.625,
+   "end": 51.285,
+   "level_db": -27,
+   "note": "projector loop under NARA archive film"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 58.175,
+   "end": 63.345,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 70.925,
+   "end": 76.165,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 95.985,
+   "end": 99.895,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 102.105,
+   "end": 105.725,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 122.755,
+   "end": 126.185,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 131.285,
+   "end": 136.785,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 140.665,
+   "end": 147.505,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 153.365,
+   "end": 167.425,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 172.705,
+   "end": 176.742,
+   "level_db": -27,
+   "note": "projector loop under NARA archive film"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 181.212,
+   "end": 185.572,
+   "level_db": -27,
+   "note": "projector loop under NARA archive film"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 187.972,
+   "end": 192.532,
+   "level_db": -27,
+   "note": "projector loop under NARA archive film"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 205.652,
+   "end": 208.232,
+   "level_db": -27,
+   "note": "projector loop under NARA archive film"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 211.532,
+   "end": 213.152,
+   "level_db": -27,
+   "note": "projector loop under NARA archive film"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 227.232,
+   "end": 228.892,
+   "level_db": -27,
+   "note": "projector loop under NARA archive film"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 231.912,
+   "end": 238.952,
+   "level_db": -27,
+   "note": "projector loop under NARA archive film"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 242.042,
+   "end": 247.382,
+   "level_db": -27,
+   "note": "projector loop under NARA archive film"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 254.862,
+   "end": 258.222,
+   "level_db": -27,
+   "note": "projector loop under NARA archive film"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 262.562,
+   "end": 266.172,
+   "level_db": -27,
+   "note": "projector loop under NARA archive film"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 266.172,
+   "end": 271.912,
+   "level_db": -30,
+   "note": "low tension drone (PCB gauges / x-ray)"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 271.912,
+   "end": 312.012,
+   "level_db": -27,
+   "note": "projector loop under NARA archive film"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 317.272,
+   "end": 323.172,
+   "level_db": -27,
+   "note": "projector loop under NARA archive film"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 325.742,
+   "end": 329.662,
+   "level_db": -27,
+   "note": "projector loop under NARA archive film"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 342.122,
+   "end": 350.042,
+   "level_db": -27,
+   "note": "projector loop under NARA archive film"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 364.948,
+   "end": 367.698,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 389.418,
+   "end": 391.208,
+   "level_db": -30,
+   "note": "low tension drone (PCB gauges / x-ray)"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 395.718,
+   "end": 404.238,
+   "level_db": -30,
+   "note": "low tension drone (PCB gauges / x-ray)"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 423.398,
+   "end": 429.128,
+   "level_db": -30,
+   "note": "low tension drone (PCB gauges / x-ray)"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 436.438,
+   "end": 440.908,
+   "level_db": -30,
+   "note": "low tension drone (PCB gauges / x-ray)"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 440.908,
+   "end": 457.078,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 459.238,
+   "end": 464.108,
+   "level_db": -30,
+   "note": "low tension drone (PCB gauges / x-ray)"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 473.418,
+   "end": 484.483,
+   "level_db": -30,
+   "note": "low tension drone (PCB gauges / x-ray)"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 484.483,
+   "end": 516.583,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 516.583,
+   "end": 521.393,
+   "level_db": -30,
+   "note": "low tension drone (PCB gauges / x-ray)"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 521.393,
+   "end": 524.693,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 526.273,
+   "end": 539.033,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "underwater",
+   "file": "underwater_a__127d88ce.wav",
+   "start": 539.033,
+   "end": 545.933,
+   "level_db": -30,
+   "note": "underwater ambience"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 545.933,
+   "end": 553.413,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 559.143,
+   "end": 565.877,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 565.877,
+   "end": 568.677,
+   "level_db": -30,
+   "note": "low tension drone (PCB gauges / x-ray)"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 571.907,
+   "end": 576.637,
+   "level_db": -30,
+   "note": "low tension drone (PCB gauges / x-ray)"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 598.877,
+   "end": 604.347,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 604.347,
+   "end": 613.637,
+   "level_db": -30,
+   "note": "low tension drone (PCB gauges / x-ray)"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 619.147,
+   "end": 631.437,
+   "level_db": -30,
+   "note": "low tension drone (PCB gauges / x-ray)"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 635.457,
+   "end": 642.797,
+   "level_db": -30,
+   "note": "low tension drone (PCB gauges / x-ray)"
+  },
+  {
+   "role": "underwater",
+   "file": "underwater_a__127d88ce.wav",
+   "start": 642.797,
+   "end": 647.047,
+   "level_db": -30,
+   "note": "underwater ambience"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 647.047,
+   "end": 654.157,
+   "level_db": -30,
+   "note": "low tension drone (PCB gauges / x-ray)"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 654.157,
+   "end": 660.257,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 660.257,
+   "end": 669.167,
+   "level_db": -30,
+   "note": "low tension drone (PCB gauges / x-ray)"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 669.167,
+   "end": 673.317,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 673.317,
+   "end": 686.542,
+   "level_db": -30,
+   "note": "low tension drone (PCB gauges / x-ray)"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 686.542,
+   "end": 689.532,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "underwater",
+   "file": "underwater_a__127d88ce.wav",
+   "start": 689.532,
+   "end": 693.052,
+   "level_db": -30,
+   "note": "underwater ambience"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 693.052,
+   "end": 694.962,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "underwater",
+   "file": "underwater_a__127d88ce.wav",
+   "start": 694.962,
+   "end": 700.812,
+   "level_db": -30,
+   "note": "underwater ambience"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 700.812,
+   "end": 704.622,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "underwater",
+   "file": "underwater_a__127d88ce.wav",
+   "start": 704.622,
+   "end": 733.812,
+   "level_db": -30,
+   "note": "underwater ambience"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 733.812,
+   "end": 738.032,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 745.452,
+   "end": 754.072,
+   "level_db": -30,
+   "note": "low tension drone (PCB gauges / x-ray)"
+  },
+  {
+   "role": "underwater",
+   "file": "underwater_a__127d88ce.wav",
+   "start": 754.072,
+   "end": 758.412,
+   "level_db": -30,
+   "note": "underwater ambience"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 758.412,
+   "end": 762.802,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "underwater",
+   "file": "underwater_a__127d88ce.wav",
+   "start": 771.782,
+   "end": 773.382,
+   "level_db": -30,
+   "note": "underwater ambience"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 775.122,
+   "end": 788.132,
+   "level_db": -30,
+   "note": "low tension drone (PCB gauges / x-ray)"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 790.512,
+   "end": 795.692,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 797.312,
+   "end": 801.812,
+   "level_db": -30,
+   "note": "low tension drone (PCB gauges / x-ray)"
+  },
+  {
+   "role": "waves",
+   "file": "waves_a__3d49f79f.wav",
+   "start": 805.312,
+   "end": 809.572,
+   "level_db": -30,
+   "note": "sea"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 809.572,
+   "end": 814.942,
+   "level_db": -30,
+   "note": "low tension drone (PCB gauges / x-ray)"
+  },
+  {
+   "role": "underwater",
+   "file": "underwater_a__127d88ce.wav",
+   "start": 814.942,
+   "end": 817.982,
+   "level_db": -30,
+   "note": "underwater ambience"
+  },
+  {
+   "role": "drone",
+   "file": "drone_a__244a55e9.wav",
+   "start": 817.982,
+   "end": 821.932,
+   "level_db": -30,
+   "note": "low tension drone (PCB gauges / x-ray)"
+  },
+  {
+   "role": "underwater",
+   "file": "underwater_a__127d88ce.wav",
+   "start": 821.932,
+   "end": 825.862,
+   "level_db": -30,
+   "note": "underwater ambience"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 825.862,
+   "end": 832.562,
+   "level_db": -27,
+   "note": "projector loop under NARA archive film"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 846.892,
+   "end": 848.512,
+   "level_db": -27,
+   "note": "projector loop under NARA archive film"
+  },
+  {
+   "role": "projector",
+   "file": "projector_b__5648e70b.wav",
+   "start": 856.722,
+   "end": 861.842,
+   "level_db": -27,
+   "note": "projector loop under NARA archive film"
+  }
+ ],
+ "shots": [
+  [
+   "c01:s01",
+   0.0,
+   4.3
+  ],
+  [
+   "c01:s02",
+   4.3,
+   6.38
+  ],
+  [
+   "c01:s03",
+   6.38,
+   7.98
+  ],
+  [
+   "c01:s04",
+   7.98,
+   9.98
+  ],
+  [
+   "c01:s05",
+   9.98,
+   11.5
+  ],
+  [
+   "c01:s06",
+   11.5,
+   13.75
+  ],
+  [
+   "c01:s07",
+   13.75,
+   15.95
+  ],
+  [
+   "c01:s08",
+   15.95,
+   17.65
+  ],
+  [
+   "c01:s09",
+   17.65,
+   17.98
+  ],
+  [
+   "c01:s10",
+   17.98,
+   19.85
+  ],
+  [
+   "c01:s11",
+   19.85,
+   20.55
+  ],
+  [
+   "c01:s11b",
+   20.55,
+   21.25
+  ],
+  [
+   "c01:s12",
+   21.25,
+   23.84
+  ],
+  [
+   "c01:s13",
+   23.84,
+   26.0
+  ],
+  [
+   "c01:s14",
+   26.0,
+   29.6
+  ],
+  [
+   "c01:s15",
+   29.6,
+   32.7
+  ],
+  [
+   "c01:s16",
+   32.7,
+   34.9
+  ],
+  [
+   "c01:s17",
+   34.9,
+   37.8
+  ],
+  [
+   "c01:s18",
+   37.8,
+   39.55
+  ],
+  [
+   "c01:s19",
+   39.55,
+   41.55
+  ],
+  [
+   "c01:s20",
+   41.55,
+   43.7
+  ],
+  [
+   "c01:s20c",
+   43.7,
+   45.8
+  ],
+  [
+   "c01:s21",
+   45.8,
+   48.625
+  ],
+  [
+   "c02:s01",
+   48.625,
+   51.285
+  ],
+  [
+   "c02:s02",
+   51.285,
+   55.615
+  ],
+  [
+   "c02:s03",
+   55.615,
+   58.175
+  ],
+  [
+   "c02:s04",
+   58.175,
+   61.015
+  ],
+  [
+   "c02:s05",
+   61.015,
+   63.345
+  ],
+  [
+   "c02:s06",
+   63.345,
+   67.725
+  ],
+  [
+   "c02:s07",
+   67.725,
+   70.925
+  ],
+  [
+   "c02:s08",
+   70.925,
+   76.165
+  ],
+  [
+   "c02:s09",
+   76.165,
+   79.265
+  ],
+  [
+   "c02:s10",
+   79.265,
+   84.435
+  ],
+  [
+   "c02:s11",
+   84.435,
+   90.355
+  ],
+  [
+   "c02:s12",
+   90.355,
+   92.415
+  ],
+  [
+   "c02:s13",
+   92.415,
+   95.985
+  ],
+  [
+   "c02:s14",
+   95.985,
+   99.895
+  ],
+  [
+   "c02:s15",
+   99.895,
+   102.105
+  ],
+  [
+   "c02:s16",
+   102.105,
+   105.725
+  ],
+  [
+   "c02:s17",
+   105.725,
+   107.265
+  ],
+  [
+   "c02:s18",
+   107.265,
+   110.045
+  ],
+  [
+   "c02:s19",
+   110.045,
+   115.065
+  ],
+  [
+   "c02:s20",
+   115.065,
+   117.675
+  ],
+  [
+   "c02:s21",
+   117.675,
+   120.935
+  ],
+  [
+   "c02:s22",
+   120.935,
+   122.755
+  ],
+  [
+   "c02:s23",
+   122.755,
+   126.185
+  ],
+  [
+   "c02:s24",
+   126.185,
+   131.285
+  ],
+  [
+   "c02:s25",
+   131.285,
+   136.785
+  ],
+  [
+   "c02:s26",
+   136.785,
+   140.665
+  ],
+  [
+   "c02:s27",
+   140.665,
+   143.435
+  ],
+  [
+   "c02:s28",
+   143.435,
+   147.505
+  ],
+  [
+   "c02:s29",
+   147.505,
+   153.365
+  ],
+  [
+   "c02:s30",
+   153.365,
+   157.645
+  ],
+  [
+   "c02:s31",
+   157.645,
+   162.485
+  ],
+  [
+   "c02:s32",
+   162.485,
+   167.425
+  ],
+  [
+   "c02:s33",
+   167.425,
+   169.885
+  ],
+  [
+   "c02:s34",
+   169.885,
+   172.705
+  ],
+  [
+   "c02:s35",
+   172.705,
+   176.742
+  ],
+  [
+   "c03:s01",
+   176.742,
+   181.212
+  ],
+  [
+   "c03:s02",
+   181.212,
+   185.572
+  ],
+  [
+   "c03:s03",
+   185.572,
+   187.972
+  ],
+  [
+   "c03:s04",
+   187.972,
+   192.532
+  ],
+  [
+   "c03:s05",
+   192.532,
+   195.892
+  ],
+  [
+   "c03:s06",
+   195.892,
+   199.302
+  ],
+  [
+   "c03:s07",
+   199.302,
+   202.492
+  ],
+  [
+   "c03:s08",
+   202.492,
+   205.652
+  ],
+  [
+   "c03:s09",
+   205.652,
+   208.232
+  ],
+  [
+   "c03:s10",
+   208.232,
+   211.532
+  ],
+  [
+   "c03:s11",
+   211.532,
+   213.152
+  ],
+  [
+   "c03:s12",
+   213.152,
+   217.362
+  ],
+  [
+   "c03:s13",
+   217.362,
+   219.702
+  ],
+  [
+   "c03:s14",
+   219.702,
+   223.812
+  ],
+  [
+   "c03:s15",
+   223.812,
+   227.232
+  ],
+  [
+   "c03:s16",
+   227.232,
+   228.892
+  ],
+  [
+   "c03:s17",
+   228.892,
+   231.912
+  ],
+  [
+   "c03:s18",
+   231.912,
+   235.692
+  ],
+  [
+   "c03:s19",
+   235.692,
+   238.952
+  ],
+  [
+   "c03:s20",
+   238.952,
+   242.042
+  ],
+  [
+   "c03:s21",
+   242.042,
+   245.402
+  ],
+  [
+   "c03:s22",
+   245.402,
+   247.382
+  ],
+  [
+   "c03:s23",
+   247.382,
+   251.692
+  ],
+  [
+   "c03:s24",
+   251.692,
+   254.862
+  ],
+  [
+   "c03:s25",
+   254.862,
+   258.222
+  ],
+  [
+   "c03:s26",
+   258.222,
+   262.562
+  ],
+  [
+   "c03:s27",
+   262.562,
+   266.172
+  ],
+  [
+   "c03:s28",
+   266.172,
+   271.912
+  ],
+  [
+   "c03:s29",
+   271.912,
+   275.482
+  ],
+  [
+   "c03:s30",
+   275.482,
+   278.302
+  ],
+  [
+   "c03:s31",
+   278.302,
+   282.712
+  ],
+  [
+   "c03:s32",
+   282.712,
+   285.652
+  ],
+  [
+   "c03:s33",
+   285.652,
+   288.822
+  ],
+  [
+   "c03:s34",
+   288.822,
+   291.892
+  ],
+  [
+   "c03:s35",
+   291.892,
+   294.092
+  ],
+  [
+   "c03:s36",
+   294.092,
+   296.052
+  ],
+  [
+   "c03:s37",
+   296.052,
+   298.292
+  ],
+  [
+   "c03:s38",
+   298.292,
+   300.892
+  ],
+  [
+   "c03:s39",
+   300.892,
+   305.352
+  ],
+  [
+   "c03:s40",
+   305.352,
+   307.992
+  ],
+  [
+   "c03:s41",
+   307.992,
+   312.012
+  ],
+  [
+   "c03:s42",
+   312.012,
+   317.272
+  ],
+  [
+   "c03:s43",
+   317.272,
+   319.972
+  ],
+  [
+   "c03:s44",
+   319.972,
+   323.172
+  ],
+  [
+   "c03:s45",
+   323.172,
+   325.742
+  ],
+  [
+   "c03:s46",
+   325.742,
+   329.662
+  ],
+  [
+   "c03:s47",
+   329.662,
+   333.692
+  ],
+  [
+   "c03:s48",
+   333.692,
+   336.572
+  ],
+  [
+   "c03:s49",
+   336.572,
+   342.122
+  ],
+  [
+   "c03:s50",
+   342.122,
+   346.602
+  ],
+  [
+   "c03:s51",
+   346.602,
+   350.042
+  ],
+  [
+   "c03:s52",
+   350.042,
+   355.972
+  ],
+  [
+   "c03:s53",
+   355.972,
+   359.968
+  ],
+  [
+   "c04:s01",
+   359.968,
+   364.948
+  ],
+  [
+   "c04:s02",
+   364.948,
+   367.698
+  ],
+  [
+   "c04:s03",
+   367.698,
+   371.668
+  ],
+  [
+   "c04:s04",
+   371.668,
+   374.258
+  ],
+  [
+   "c04:s05",
+   374.258,
+   378.818
+  ],
+  [
+   "c04:s06",
+   378.818,
+   383.838
+  ],
+  [
+   "c04:s07",
+   383.838,
+   389.418
+  ],
+  [
+   "c04:s08",
+   389.418,
+   391.208
+  ],
+  [
+   "c04:s09",
+   391.208,
+   395.718
+  ],
+  [
+   "c04:s10",
+   395.718,
+   399.888
+  ],
+  [
+   "c04:s11",
+   399.888,
+   404.238
+  ],
+  [
+   "c04:s12",
+   404.238,
+   407.288
+  ],
+  [
+   "c04:s13",
+   407.288,
+   410.348
+  ],
+  [
+   "c04:s14",
+   410.348,
+   413.158
+  ],
+  [
+   "c04:s15",
+   413.158,
+   417.438
+  ],
+  [
+   "c04:s16",
+   417.438,
+   420.908
+  ],
+  [
+   "c04:s17",
+   420.908,
+   423.398
+  ],
+  [
+   "c04:s18",
+   423.398,
+   429.128
+  ],
+  [
+   "c04:s19",
+   429.128,
+   431.348
+  ],
+  [
+   "c04:s20",
+   431.348,
+   436.438
+  ],
+  [
+   "c04:s21",
+   436.438,
+   440.908
+  ],
+  [
+   "c04:s22",
+   440.908,
+   445.888
+  ],
+  [
+   "c04:s23",
+   445.888,
+   450.668
+  ],
+  [
+   "c04:s24",
+   450.668,
+   454.028
+  ],
+  [
+   "c04:s25",
+   454.028,
+   457.078
+  ],
+  [
+   "c04:s26",
+   457.078,
+   459.238
+  ],
+  [
+   "c04:s27",
+   459.238,
+   464.108
+  ],
+  [
+   "c04:s28",
+   464.108,
+   468.728
+  ],
+  [
+   "c04:s29",
+   468.728,
+   473.418
+  ],
+  [
+   "c04:s30",
+   473.418,
+   476.228
+  ],
+  [
+   "c04:s31",
+   476.228,
+   479.658
+  ],
+  [
+   "c04:s32",
+   479.658,
+   484.483
+  ],
+  [
+   "c05:s01",
+   484.483,
+   489.633
+  ],
+  [
+   "c05:s02",
+   489.633,
+   491.343
+  ],
+  [
+   "c05:s03",
+   491.343,
+   496.653
+  ],
+  [
+   "c05:s04",
+   496.653,
+   500.853
+  ],
+  [
+   "c05:s05",
+   500.853,
+   504.123
+  ],
+  [
+   "c05:s06",
+   504.123,
+   507.483
+  ],
+  [
+   "c05:s07",
+   507.483,
+   510.483
+  ],
+  [
+   "c05:s08",
+   510.483,
+   512.783
+  ],
+  [
+   "c05:s09",
+   512.783,
+   516.583
+  ],
+  [
+   "c05:s10",
+   516.583,
+   521.393
+  ],
+  [
+   "c05:s11",
+   521.393,
+   524.693
+  ],
+  [
+   "c05:s12",
+   524.693,
+   526.273
+  ],
+  [
+   "c05:s13",
+   526.273,
+   527.513
+  ],
+  [
+   "c05:s14",
+   527.513,
+   531.203
+  ],
+  [
+   "c05:s15",
+   531.203,
+   533.553
+  ],
+  [
+   "c05:s16",
+   533.553,
+   537.643
+  ],
+  [
+   "c05:s17",
+   537.643,
+   539.033
+  ],
+  [
+   "c05:s18",
+   539.033,
+   543.333
+  ],
+  [
+   "c05:s19",
+   543.333,
+   545.933
+  ],
+  [
+   "c05:s20",
+   545.933,
+   549.423
+  ],
+  [
+   "c05:s21",
+   549.423,
+   553.413
+  ],
+  [
+   "c05:s22",
+   553.413,
+   559.143
+  ],
+  [
+   "c05:s23",
+   559.143,
+   561.153
+  ],
+  [
+   "c05:s24",
+   561.153,
+   563.373
+  ],
+  [
+   "c05:s25",
+   563.373,
+   565.877
+  ],
+  [
+   "c06:s01",
+   565.877,
+   568.677
+  ],
+  [
+   "c06:s02",
+   568.677,
+   571.907
+  ],
+  [
+   "c06:s03",
+   571.907,
+   576.637
+  ],
+  [
+   "c06:s04",
+   576.637,
+   579.987
+  ],
+  [
+   "c06:s05",
+   579.987,
+   582.827
+  ],
+  [
+   "c06:s06",
+   582.827,
+   586.617
+  ],
+  [
+   "c06:s07",
+   586.617,
+   591.947
+  ],
+  [
+   "c06:s08",
+   591.947,
+   595.897
+  ],
+  [
+   "c06:s09",
+   595.897,
+   598.877
+  ],
+  [
+   "c06:s10",
+   598.877,
+   604.347
+  ],
+  [
+   "c06:s11",
+   604.347,
+   610.227
+  ],
+  [
+   "c06:s12",
+   610.227,
+   613.637
+  ],
+  [
+   "c06:s13",
+   613.637,
+   615.997
+  ],
+  [
+   "c06:s14",
+   615.997,
+   619.147
+  ],
+  [
+   "c06:s15",
+   619.147,
+   624.977
+  ],
+  [
+   "c06:s16",
+   624.977,
+   628.707
+  ],
+  [
+   "c06:s17",
+   628.707,
+   631.437
+  ],
+  [
+   "c06:s18",
+   631.437,
+   635.457
+  ],
+  [
+   "c06:s19",
+   635.457,
+   638.837
+  ],
+  [
+   "c06:s20",
+   638.837,
+   642.797
+  ],
+  [
+   "c06:s21",
+   642.797,
+   647.047
+  ],
+  [
+   "c06:s22",
+   647.047,
+   648.997
+  ],
+  [
+   "c06:s23",
+   648.997,
+   654.157
+  ],
+  [
+   "c06:s24",
+   654.157,
+   656.337
+  ],
+  [
+   "c06:s25",
+   656.337,
+   660.257
+  ],
+  [
+   "c06:s26",
+   660.257,
+   662.077
+  ],
+  [
+   "c06:s27",
+   662.077,
+   666.337
+  ],
+  [
+   "c06:s28",
+   666.337,
+   669.167
+  ],
+  [
+   "c06:s29",
+   669.167,
+   673.317
+  ],
+  [
+   "c06:s30",
+   673.317,
+   678.157
+  ],
+  [
+   "c06:s31",
+   678.157,
+   681.427
+  ],
+  [
+   "c06:s32",
+   681.427,
+   686.542
+  ],
+  [
+   "c07:s01",
+   686.542,
+   689.532
+  ],
+  [
+   "c07:s02",
+   689.532,
+   693.052
+  ],
+  [
+   "c07:s03",
+   693.052,
+   694.962
+  ],
+  [
+   "c07:s04",
+   694.962,
+   700.812
+  ],
+  [
+   "c07:s05",
+   700.812,
+   704.622
+  ],
+  [
+   "c07:s06",
+   704.622,
+   710.002
+  ],
+  [
+   "c07:s07",
+   710.002,
+   713.902
+  ],
+  [
+   "c07:s08",
+   713.902,
+   716.752
+  ],
+  [
+   "c07:s09",
+   716.752,
+   720.092
+  ],
+  [
+   "c07:s10",
+   720.092,
+   723.342
+  ],
+  [
+   "c07:s11",
+   723.342,
+   727.002
+  ],
+  [
+   "c07:s12",
+   727.002,
+   728.812
+  ],
+  [
+   "c07:s13",
+   728.812,
+   733.812
+  ],
+  [
+   "c07:s14",
+   733.812,
+   738.032
+  ],
+  [
+   "c07:s15",
+   738.032,
+   739.742
+  ],
+  [
+   "c07:s16",
+   739.742,
+   743.272
+  ],
+  [
+   "c07:s17",
+   743.272,
+   745.452
+  ],
+  [
+   "c07:s18",
+   745.452,
+   749.202
+  ],
+  [
+   "c07:s19",
+   749.202,
+   754.072
+  ],
+  [
+   "c07:s20",
+   754.072,
+   758.412
+  ],
+  [
+   "c07:s21",
+   758.412,
+   762.802
+  ],
+  [
+   "c07:s22",
+   762.802,
+   766.802
+  ],
+  [
+   "c07:s23",
+   766.802,
+   771.782
+  ],
+  [
+   "c07:s24",
+   771.782,
+   773.382
+  ],
+  [
+   "c07:s25",
+   773.382,
+   775.122
+  ],
+  [
+   "c07:s26",
+   775.122,
+   779.492
+  ],
+  [
+   "c07:s27",
+   779.492,
+   783.632
+  ],
+  [
+   "c07:s28",
+   783.632,
+   788.132
+  ],
+  [
+   "c07:s29",
+   788.132,
+   790.512
+  ],
+  [
+   "c07:s30",
+   790.512,
+   795.692
+  ],
+  [
+   "c07:s31",
+   795.692,
+   797.312
+  ],
+  [
+   "c07:s32",
+   797.312,
+   801.812
+  ],
+  [
+   "c07:s33",
+   801.812,
+   805.312
+  ],
+  [
+   "c07:s34",
+   805.312,
+   809.572
+  ],
+  [
+   "c07:s35",
+   809.572,
+   814.942
+  ],
+  [
+   "c07:s36",
+   814.942,
+   817.982
+  ],
+  [
+   "c07:s37",
+   817.982,
+   821.932
+  ],
+  [
+   "c07:s38",
+   821.932,
+   825.862
+  ],
+  [
+   "c07:s39",
+   825.862,
+   828.302
+  ],
+  [
+   "c07:s40",
+   828.302,
+   832.562
+  ],
+  [
+   "c07:s41",
+   832.562,
+   836.802
+  ],
+  [
+   "c07:s42",
+   836.802,
+   839.452
+  ],
+  [
+   "c07:s43",
+   839.452,
+   842.732
+  ],
+  [
+   "c07:s44",
+   842.732,
+   846.892
+  ],
+  [
+   "c07:s45",
+   846.892,
+   848.512
+  ],
+  [
+   "c07:s46",
+   848.512,
+   853.942
+  ],
+  [
+   "c07:s47",
+   853.942,
+   856.722
+  ],
+  [
+   "c07:s48",
+   856.722,
+   861.842
+  ],
+  [
+   "c07:s49",
+   861.842,
+   864.402
+  ],
+  [
+   "c07:s50",
+   864.402,
+   884.812
+  ]
+ ],
+ "total": 884.812
+}

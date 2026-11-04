@@ -1,0 +1,46 @@
+{
+ "total": 884.812,
+ "crossfade_s": 5.0,
+ "pieces": [
+  {
+   "track": "neptuneflux-01.m4a",
+   "title": "Stories About the World That Once Was",
+   "src_start": 0.0,
+   "plays_from": 0.0,
+   "plays_to": 407.5,
+   "src_end": 407.5
+  },
+  {
+   "track": "neptuneflux-01.m4a",
+   "title": "Stories About the World That Once Was",
+   "src_start": 90.0,
+   "plays_from": 402.5,
+   "plays_to": 568.377,
+   "src_end": 255.88
+  },
+  {
+   "track": "neptuneflux-03.m4a",
+   "title": "Your Mother's Daughter",
+   "src_start": 0.0,
+   "plays_from": 563.377,
+   "plays_to": 768.377,
+   "src_end": 205.0
+  },
+  {
+   "track": "neptuneflux-03.m4a",
+   "title": "Your Mother's Daughter",
+   "src_start": 25.0,
+   "plays_from": 763.377,
+   "plays_to": 808.312,
+   "src_end": 69.94
+  },
+  {
+   "track": "neptuneflux-09.m4a",
+   "title": "I Should Have Been More Human",
+   "src_start": 0.0,
+   "plays_from": 803.312,
+   "plays_to": 884.812,
+   "src_end": 81.5
+  }
+ ]
+}
