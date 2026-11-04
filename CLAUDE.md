@@ -31,8 +31,10 @@ patch it to use paths relative to this repo. Never delete or edit the source rep
 - Commit after every step. Never commit keys; keys live in `~/.el_key*`, `~/.fal_key` etc. (`tools/setup_keys.sh`).
 
 ## Still to build
-Sea-floor map look (re-grade `bake.py`), modern carrier silhouette, sinking animation, ship SFX
-(horn, swell, catapult, hull groan), ship `brand-style.md` for thumbnails.
+Sea-floor map look (re-grade `bake.py`), modern carrier silhouette, sinking animation, ship `brand-style.md` for
+thumbnails. Ship SFX now = real Epidemic recordings (`assets/sfx/EPIDEMIC_SFX.md`, files git-ignored) through the v2
+chain in `tools/sound/` (reference build: `videos/oriskany/test_v3/build/mix_v2.py`, `SOUND_REPORT_v2.md`); the owner
+still has to listen and sign off the new roles before they are locked.
 
 ## Competitor lessons (Forgotten Fleet)
 Full study with the final, critic-checked DO / DON'T lists: `research/FORGOTTEN_FLEET_STUDY.md`

@@ -18,3 +18,9 @@ Owner feedback on v2: sound and music "way off" -> use the battle-maps locked le
 3. `cd hero && npx hyperframes render . -o renders/hero.mp4`
 4. copy `endmap.mp4`, `hero.mp4` into `segments/`, then `cd ../../../templates && python3 build_chapter.py ../videos/oriskany/test_v3/chapter/c01.json`, render `chapter/work/c01` -> `chapter/render_c01.mp4`
 5. `python3 build/mix.py` (MUSIC=path to swap the theme) -> `oriskany_test_v3.mp4`; `python3 build/report.py` -> `SOUND_REPORT.md`
+
+
+## New sound (v2, 2026-11-04)
+`python3 build/mix_v2.py` -> `oriskany_test_v3_newsound.mp4` (same picture/voice, tools/sound v2 chain + real Epidemic SFX).
+Numbers: `SOUND_REPORT_v2.md`. The old `build/sfx_cues.py` / `build/mix.py` used the banned synthesized kit and the old
+lib API; they are kept for the record only and no longer run.

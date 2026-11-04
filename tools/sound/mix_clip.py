@@ -7,7 +7,7 @@ videos/oriskany/test_v3/CRITIQUE_SOUND_ACCURACY.md). Every video uses this.
 2. MIX (locked section 5): music at MUSIC_VOL 0.08 (2 s in / 3 s out) ducked under the voice (sidechain 0.03 / 6 /
    20 / 400); SFX at FULL level ducked lightly (0.03 / 3 / 10 / 300); beds (projector, drone, waves, underwater)
    ducked like the SFX; big beats (blasts, impacts, key booms) on an UNDUCKED punch stem so they read momentarily
-   louder than speech. Music and beds high-passed at BED_HPF Hz, SFX at 35 Hz. amix (stereo), bus limiter 0.5,
+   louder than speech. Music and beds high-passed at BED_HPF Hz, SFX + punch at 35 Hz with a -3 dB shelf under 100 Hz (the low end must not rival the voice band). amix (stereo), bus limiter 0.5,
    0.6 s fade-out on the last 0.6 s (the video's fade).
 3. MASTER (2c-9): measure I, ONE linear gain + alimiter (MASTER_LIMITS, 0.84 first; run 4x oversampled so
    inter-sample peaks are caught) to -14 LUFS, then the two-pass
@@ -25,11 +25,13 @@ import argparse, json, os, re, subprocess, sys
 import numpy as np, soundfile as sf
 
 MUSIC_VOL = 0.08
-MUSIC_TRIM_DB = 0.0    # calibrated against the battle-maps reference (see measure_mix.py / SOUND_REPORT_v2.md)
-VOICE_LUFS = -23.0
+MUSIC_TRIM_DB = -6.0   # keeps music:voice where battle-maps has it now that the voice sits at -29 (measured: music in
+                       # gaps -19.0 dB re speech vs -17.3 mean of 3 battle-maps reference mixes, same blind estimator)
+VOICE_LUFS = -29.0     # voice stem level before the compressor: the 2.5:1 / -24 dB stage then only rides the
+                       # loud syllables, and SFX at their locked levels read ~5-8 LU over speech on the beats (LRA >= 5)
 VOICE_CEIL = "-9dB"
 BED_HPF = 70
-MASTER_LIMITS = (0.84, 0.82, 0.80, 0.78, 0.76)
+MASTER_LIMITS = (0.84, 0.82, 0.80, 0.78, 0.76, 0.74, 0.72, 0.70)   # lowered only when the AAC encode overshoots TP
 TARGET_I, TARGET_TP = -14.0, -1.5
 LN = "loudnorm=I=-14:TP=-1.5:LRA=11"
 SR = 48000
@@ -87,14 +89,14 @@ def main():
     if not A.punch and not os.path.exists(punch): sf.write(punch, np.zeros((int(total * SR), 2), "float32"), SR, subtype="FLOAT")
     mus_gain = MUSIC_VOL * 10 ** (MUSIC_TRIM_DB / 20)
     f = [f"[0:a]{voice_chain},asplit=5[vo][k1][k2][k3][vs]",
-         f"[1:a]aresample=48000,aformat=channel_layouts=stereo,highpass=f=35,apad=whole_dur={total:.3f},atrim=0:{total:.3f}[sfxin]",
+         f"[1:a]aresample=48000,aformat=channel_layouts=stereo,highpass=f=35,lowshelf=f=100:g=-3,apad=whole_dur={total:.3f},atrim=0:{total:.3f}[sfxin]",
          "[sfxin][k1]sidechaincompress=threshold=0.03:ratio=3:attack=10:release=300,asplit=2[sfx][ss]",
          f"[2:a]aresample=48000,aformat=channel_layouts=stereo,highpass=f={BED_HPF},apad=whole_dur={total:.3f},atrim=0:{total:.3f},"
          f"volume={mus_gain:.4f},afade=t=in:d=2,afade=t=out:st={total - 3:.3f}:d=3[mus]",
          "[mus][k2]sidechaincompress=threshold=0.03:ratio=6:attack=20:release=400,asplit=2[musd][ms]",
          f"[3:a]aresample=48000,aformat=channel_layouts=stereo,highpass=f={BED_HPF},apad=whole_dur={total:.3f},atrim=0:{total:.3f}[bd]",
          "[bd][k3]sidechaincompress=threshold=0.03:ratio=3:attack=10:release=300,asplit=2[bedd][bs]",
-         f"[4:a]aresample=48000,aformat=channel_layouts=stereo,highpass=f=35,apad=whole_dur={total:.3f},atrim=0:{total:.3f},asplit=2[pun][ps]",
+         f"[4:a]aresample=48000,aformat=channel_layouts=stereo,highpass=f=35,lowshelf=f=100:g=-3,apad=whole_dur={total:.3f},atrim=0:{total:.3f},asplit=2[pun][ps]",
          f"[vo][musd][sfx][bedd][pun]amix=inputs=5:normalize=0,alimiter=limit=0.5:level=false,afade=t=out:st={total - 0.6:.3f}:d=0.6,"
          "aformat=channel_layouts=stereo[aout]"]
     stems = {k: os.path.join(W, k + ".wav") for k in ("mix", "voice_bus", "music_bus", "sfx_bus", "beds_bus", "punch_bus")}

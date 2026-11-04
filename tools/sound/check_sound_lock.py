@@ -11,7 +11,7 @@ Static lock (runs before every SFX render, `check()`):
 Render checks (`python3 check_sound_lock.py --render WORK/master.json --cues placed.json --measure measure.json`):
   * loudnorm pass 2 reported "linear" and predicted TP <= -1.5; final -14 +/- 0.5 LUFS, TP <= -1.5 dBTP;
   * stereo, audio duration == video duration (+/- 1 frame);
-  * LRA >= 5 LU; every big beat's momentary max >= 3 LU above the speech momentary median;
+  * LRA >= 5 LU; low end < 120 Hz >= 3 dB under the 300-3000 Hz voice band during clean speech; every big beat's momentary max >= 3 LU above the speech momentary median;
   * music under speech -18..-28 dB re voice, music in gaps within 3 dB of the battle-maps reference estimate;
   * every cue's measured sync point <= 3 frames off its event, and no cue runs past its allowed end.
 Changing any locked number is an OWNER decision."""
@@ -32,7 +32,7 @@ CHAIN = ["MUSIC_VOL = 0.08", "afade=t=in:d=2", "afade=t=out:st={total - 3:.3f}:d
          "fi, fo = int(0.005 * sr), int(0.010 * sr)", "MASTER_LIMITS = (0.84,", "alimiter=limit={lim}:level=disabled",
          'm2.get("normalization_type") != "linear"', "linear=true", "pan=stereo|c0=c0|c1=c0", '"-ac", "2"',
          "apad=whole_dur={total:.3f}", "afade=t=out:st={total - 0.6:.3f}:d=0.6", "highpass=f={BED_HPF}",
-         "highpass=f=35", "highpass=f=80", "TARGET_I, TARGET_TP = -14.0, -1.5"]
+         "highpass=f=35,lowshelf=f=100:g=-3", "highpass=f=80", "amix=inputs=5:normalize=0", "[4:a]aresample=48000", "TARGET_I, TARGET_TP = -14.0, -1.5"]
 LOCKFILE = os.path.join(HERE, "epidemic_md5.json")
 BANNED_DIR = os.path.join("kit", "ship", "sfx", "out")
 FPS = 30
@@ -76,6 +76,8 @@ def check(kinds=None, beds=None):
     if not m or not 60 <= int(m.group(1)) <= 80: errs.append("music/bed high-pass must be 60-80 Hz")
     m = re.search(r"^MUSIC_TRIM_DB = (-?[\d.]+)", mix, re.M)
     if not m or abs(float(m.group(1))) > 6: errs.append("MUSIC_TRIM_DB missing or > 6 dB (re-calibrate vs the reference)")
+    m = re.search(r"^VOICE_LUFS = (-?[\d.]+)", mix, re.M)
+    if not m or not -30 <= float(m.group(1)) <= -23: errs.append("VOICE_LUFS missing or outside -30..-23")
     if errs: fail(errs, "static")
     print("SOUND LOCK OK (static): role levels + gaps, real Epidemic recordings (md5), music 0.08 + ducking, voice "
           "compressor/limiter/de-ess/edge fades, 2c-9 gain + alimiter 0.84, loudnorm linear gate, stereo, pad, fade-out, HPF")
@@ -108,6 +110,9 @@ def check_render(master, placed, meas):
     if meas["lra"] < 5: errs.append(f"LRA {meas['lra']} LU < 5")
     for b in meas["beats"]:
         if b["above_speech_lu"] < 3: errs.append(f"big beat @ {b['t']:.2f} ({b['what']}) only {b['above_speech_lu']:+.1f} LU above speech")
+    b = meas.get("bands_in_speech_re_total_db")
+    if b and b["<120"] > b["300-3k"] - 3:
+        errs.append(f"low end < 120 Hz ({b['<120']} dB) within 3 dB of the voice band ({b['300-3k']} dB) while the narrator speaks")
     mu = meas["music_under_voice_db"]
     if not -28 <= mu <= -18: errs.append(f"music under speech {mu} dB re voice (target -18..-28)")
     if meas.get("ref_gap_delta_db") is not None and abs(meas["ref_gap_delta_db"]) > 3:

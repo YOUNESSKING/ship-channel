@@ -81,8 +81,13 @@ def whisper_words(wav, cache):
     json.dump(W, open(cache, "w")); return W
 
 
-def bands(a):
-    m = a.mean(axis=1); F = np.abs(np.fft.rfft(m)) ** 2; f = np.fft.rfftfreq(len(m), 1 / SR); T = F.sum()
+def bands(a, mask_t=None):
+    m = a.mean(axis=1)
+    if mask_t is not None:   # keep only the samples inside the given [start, end] spans
+        keep = np.zeros(len(m), bool)
+        for t0, t1 in mask_t: keep[int(t0 * SR): int(t1 * SR)] = True
+        m = m[keep]
+    F = np.abs(np.fft.rfft(m)) ** 2; f = np.fft.rfftfreq(len(m), 1 / SR); T = F.sum()
     db = lambda lo, hi: round(10 * np.log10(F[(f >= lo) & (f < hi)].sum() / T), 1)
     return {"<120": db(0, 120), "120-300": db(120, 300), "300-3k": db(300, 3000), "3-8k": db(3000, 8000), ">8k": db(8000, 24000)}
 
@@ -112,6 +117,7 @@ def main():
     sd = 10 * np.log10(10 ** (st["sfx_bus"][:n] / 10) + 10 ** (st["beds_bus"][:n] / 10) + 10 ** (st["punch_bus"][:n] / 10) + 10 ** (mu / 10))
     stem_sum = sum(read48(os.path.join(W, k + ".wav"), W) for k in ("voice_bus", "music_bus", "sfx_bus", "beds_bus", "punch_bus"))
     bus_pk = float(np.abs(stem_sum).max())
+    vpk = float(np.abs(read48(os.path.join(W, "voice_bus.wav"), W)).max())
     fin = ebur(A.out)
     res = {"integrated": fin["I"], "true_peak": fin["TP"], "lra": fin["LRA"],
            "speech_momentary_median": round(speech_ref, 1),
@@ -122,7 +128,10 @@ def main():
            "music_duck_db": round(mus_gap - mus_sp, 1),
            "sound_design_under_voice_db": round(float(np.median(sd[iw])) - voice_sp, 1),
            "sound_design_floor_gaps_M": round(float(np.percentile(sd[gp], 10)), 1),
-           "bus_peak_before_limiter_dbfs": round(20 * np.log10(bus_pk), 1), "bands_re_total_db": bands(mst),
+           "bus_peak_before_limiter_dbfs": round(20 * np.log10(bus_pk), 1),
+           "voice_stem_peak_dbfs": round(20 * np.log10(vpk), 1), "bands_re_total_db": bands(mst),
+           "bands_in_speech_re_total_db": bands(mst, [(w["start"], w["end"]) for w in words
+                                                      if not any(c["start"] < w["end"] and c["end"] > w["start"] for c in placed)]),
            "blind_gap_re_speech_db": round(blind_gap_estimate(mst, words), 1),
            "cues": [{k: c[k] for k in ("event", "role", "file", "start", "end", "measured", "offset_frames", "note")} for c in placed]}
     if A.ref and os.path.isdir(A.ref):
