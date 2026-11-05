@@ -11,51 +11,51 @@
    "chapter_t0": 27.536,
    "abs_t0": 76.161,
    "replaces": null,
-   "narration": "Four of her sisters were already museums.",
+   "narration": "Four of her sisters would become museums.",
    "beats": [
     {
-     "t": 0.1,
-     "frame": 3,
-     "chapter_t": 27.636,
-     "abs_t": 76.261,
+     "t": -0.6,
+     "frame": -18,
+     "chapter_t": 26.936,
+     "abs_t": 75.561,
      "kind": "whoosh",
      "note": "sister 1 slides in",
      "main": false
     },
     {
-     "t": 0.3,
-     "frame": 9,
-     "chapter_t": 27.836,
-     "abs_t": 76.461,
+     "t": 0.32,
+     "frame": 10,
+     "chapter_t": 27.856,
+     "abs_t": 76.481,
      "kind": "whoosh",
      "note": "sister 2 slides in",
      "main": false
     },
     {
-     "t": 0.52,
-     "frame": 16,
-     "chapter_t": 28.056,
-     "abs_t": 76.681,
+     "t": 0.56,
+     "frame": 17,
+     "chapter_t": 28.096,
+     "abs_t": 76.721,
      "kind": "whoosh",
      "note": "sister 3 slides in",
      "main": false
     },
     {
-     "t": 0.9,
-     "frame": 27,
-     "chapter_t": 28.436,
-     "abs_t": 77.061,
+     "t": 0.96,
+     "frame": 29,
+     "chapter_t": 28.496,
+     "abs_t": 77.121,
      "kind": "whoosh",
      "note": "sister 4 slides in",
      "main": false
     },
     {
-     "t": 1.66,
+     "t": 1.68,
      "frame": 50,
-     "chapter_t": 29.196,
-     "abs_t": 77.821,
+     "chapter_t": 29.216,
+     "abs_t": 77.841,
      "kind": "pop",
-     "note": "MUSEUM tags pop (x4, 0.09 s apart)",
+     "note": "MUSEUM \u00b7 YEAR tags pop (x4, 0.09 s apart: 1975 / 1982 / 1992 / 1998)",
      "main": true
     }
    ],
@@ -1320,6 +1320,21 @@
   ],
   "c02": [
    {
+    "shot": "s05",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 12.39,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 12.911,
+      "t": 0.521,
+      "frame": 16,
+      "note": "count lands 13"
+     }
+    ]
+   },
+   {
     "shot": "s06",
     "template": "number_clip",
     "variant": "center_bars",
@@ -1506,6 +1521,21 @@
       "note": "number 44"
      }
     ]
+   },
+   {
+    "shot": "s49",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 159.83,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 163.233,
+      "t": 3.403,
+      "frame": 102,
+      "note": "number 5\u00bd"
+     }
+    ]
    }
   ],
   "c04": [
@@ -1648,6 +1678,36 @@
       "t": 2.555,
       "frame": 77,
       "note": "meter lands 12.7 $ million"
+     }
+    ]
+   },
+   {
+    "shot": "s28",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 104.14,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 107.544,
+      "t": 3.404,
+      "frame": 102,
+      "note": "number \u2248 $20"
+     }
+    ]
+   },
+   {
+    "shot": "s29",
+    "template": "number_clip",
+    "variant": "right",
+    "start": 108.76,
+    "beats": [
+     {
+      "kind": "land",
+      "chapter_t": 112.191,
+      "t": 3.431,
+      "frame": 103,
+      "note": "number \u2248 $21"
      }
     ]
    },
@@ -1979,7 +2039,7 @@
       "chapter_t": 94.691,
       "t": 1.741,
       "frame": 52,
-      "note": "bar REEF (FINAL) = 20 (hero)"
+      "note": "bar REEF \u00b7 PRESS EST. 2006 = 20 (hero)"
      }
     ]
    },
@@ -1994,36 +2054,14 @@
       "chapter_t": 97.44,
       "t": 0.35,
       "frame": 10,
-      "note": "bar REEF = 20"
+      "note": "bar REEF \u00b7 PRESS EST. = 20"
      },
      {
       "kind": "land",
       "chapter_t": 99.471,
       "t": 2.381,
       "frame": 71,
-      "note": "bar SCRAP (USNI 2006 EST.) = 24 (hero)"
-     }
-    ]
-   },
-   {
-    "shot": "s32",
-    "template": "anim_gauge",
-    "variant": "bars",
-    "start": 110.77,
-    "beats": [
-     {
-      "kind": "pop",
-      "chapter_t": 111.12,
-      "t": 0.35,
-      "frame": 11,
-      "note": "bar SCRAP = 24"
-     },
-     {
-      "kind": "land",
-      "chapter_t": 112.755,
-      "t": 1.985,
-      "frame": 60,
-      "note": "bar REEF, NEW STANDARD = 24 (hero)"
+      "note": "bar SCRAP \u00b7 USNI 2006 EST. = 24 (hero)"
      }
     ]
    },
@@ -2139,14 +2177,14 @@
       "chapter_t": 131.89,
       "t": 0.45,
       "frame": 13,
-      "note": "bar SCRAP (EST.) = 24"
+      "note": "bar SCRAP + RECYCLE = 4"
      },
      {
       "kind": "land",
       "chapter_t": 132.54,
       "t": 1.1,
       "frame": 33,
-      "note": "bar REEF = 20 (hero)"
+      "note": "bar REEF + CLEANUP = 1 (hero)"
      }
     ]
    },

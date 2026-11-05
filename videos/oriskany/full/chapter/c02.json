@@ -53,6 +53,7 @@
    "id": "s04",
    "start": "t9.55",
    "sfx": false,
+   "tag": "ILLUSTRATIVE · U.S. NAVY · EX-KITTY HAWK, BREMERTON, 2022",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
@@ -65,13 +66,24 @@
    "id": "s05",
    "start": "t12.39",
    "sfx": false,
-   "template": "clip_plain",
-   "variant": "push",
+   "template": "number_clip",
+   "variant": "right",
    "clip": {
-    "file": "f_c02_s05.mp4",
+    "file": "p_c02_s05.mp4",
     "push": null
    },
-   "params": {}
+   "params": {
+    "kicker": "LAID UP · BREMERTON",
+    "number": "13",
+    "unit": "years",
+    "number_at": "@thirteen",
+    "count": {
+     "from": 0,
+     "to": 13,
+     "dur": 0.35,
+     "land_at": "@years"
+    }
+   }
   },
   {
    "id": "s06",
@@ -108,6 +120,7 @@
    "id": "s08",
    "start": "t22.30",
    "sfx": false,
+   "tag": "ILLUSTRATIVE · U.S. NAVY · RETIRED SHIP UNDER TOW, MAYPORT, 2021",
    "template": "anim_options",
    "variant": "list",
    "params": {
@@ -215,10 +228,6 @@
       "at": 0.05
      }
     ]
-   },
-   "bg_clip": {
-    "file": "b_c02_s14.mp4",
-    "show": 0.5
    }
   },
   {
@@ -243,11 +252,8 @@
    "params": {
     "text": "SOLD FOR SCRAP",
     "kicker": "EARLY 1990s",
-    "at": "@scrap"
-   },
-   "clip": {
-    "file": "b_c02_s16.mp4",
-    "push": null
+    "at": "@sold",
+    "kicker_at": 0.15
    }
   },
   {
@@ -335,11 +341,8 @@
    "params": {
     "kicker": "THE CONDITION",
     "text": "SCRAP HER IN THE U.S.",
-    "at": "@united"
-   },
-   "clip": {
-    "file": "b_c02_s23.mp4",
-    "push": null
+    "at": "@cut",
+    "kicker_at": 0.15
    }
   },
   {
@@ -347,13 +350,14 @@
    "start": "t77.56",
    "sfx": false,
    "template": "text_card",
-   "variant": "line",
+   "variant": "pair",
    "card": true,
    "params": {
-    "kicker": "A PROTEST",
-    "text": "WORK HELD UP UNTIL DECEMBER",
-    "at": "@december",
-    "kicker_at": 0.15
+    "text": "A PROTEST.",
+    "at": "@protested",
+    "aside": "Work held up until December.",
+    "aside_at": "@december",
+    "joke_sound": false
    }
   },
   {
@@ -390,11 +394,8 @@
    "params": {
     "kicker": "1997",
     "text": "ALMOST NOTHING CUT",
-    "at": "@almost"
-   },
-   "clip": {
-    "file": "b_c02_s27.mp4",
-    "push": null
+    "at": "@almost",
+    "kicker_at": 0.15
    }
   },
   {
@@ -407,10 +408,6 @@
    "params": {
     "text": "DEFAULTED.",
     "at": "@default"
-   },
-   "clip": {
-    "file": "b_c02_s28.mp4",
-    "push": null
    }
   },
   {

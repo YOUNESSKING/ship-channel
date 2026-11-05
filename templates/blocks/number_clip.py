@@ -82,8 +82,9 @@ def build(ctx):
 
 def _strike(ctx):
     p = ctx.id
-    l1 = ctx.p('lead1', 'The water'); l2 = ctx.p('lead2', 'Salt water freezes at'); old = ctx.p('old', '0°C'); new = ctx.p('new', '-1.8°C')
-    sub = ctx.p('subline', 'salt lowers the freezing point')
+    l1 = ctx.p('lead1', ''); l2 = ctx.p('lead2', ''); old = ctx.p('old'); new = ctx.p('new')
+    if old is None or new is None: raise KeyError('strike_swap needs "old" and "new"')
+    sub = ctx.p('subline', '')   # v2: no demo default (the prehistory "salt lowers the freezing point" line leaked onto two cards)
     show = ctx.t(ctx.p('show_at'), .5); swap = ctx.t(ctx.p('swap_at'), 1.4); strike = ctx.t(ctx.p('strike_at'), 2.2); sat = ctx.t(ctx.p('subline_at'), 3.4)
     plain = re.sub(r'[^0-9A-Za-z.\-]', '', old); wpx = max(190, len(plain) * 56 + 60)
     x0, x1 = 640 - wpx / 2, 640 + wpx / 2
@@ -94,7 +95,7 @@ def _strike(ctx):
  <div id="{p}-z" class="cg abs" style="top:222px;font-size:112px">{rich(old)}</div>
  <svg id="{p}-s" width="1280" height="720" viewBox="0 0 1280 720" style="position:absolute;left:0;top:0"><path id="{p}-sp" pathLength="1" d="M{x0:.0f},276 L{x1:.0f},270" stroke="{GOLD}" stroke-width="10" stroke-linecap="round" fill="none" stroke-dasharray="1" stroke-dashoffset="1"/></svg>
  <div id="{p}-n" class="cg abs" style="top:326px;font-size:150px"><span>{rich(new)}</span></div>
- <div id="{p}-h" class="it abs" style="top:505px;font-size:40px">{rich(sub)}</div></div>'''
+ {f'<div id="{p}-h" class="it abs" style="top:505px;font-size:40px">{rich(sub)}</div>' if sub else ''}</div>'''
     h = ctx.video((1.0, 1.08, '50% 50%')) + ctx.overlay(inner)
     js = f"""drop('#{p}-all',{show - .05:.3f});
 tl.to('#{p}-q1',{{opacity:0,duration:.15}},{swap - .15:.3f});
@@ -103,7 +104,7 @@ underline('#{p}-sp',{strike - .12:.3f},.25);
 tl.to('#{p}-z',{{opacity:.45,y:-48,scale:.5,transformOrigin:'50% 50%',duration:.6,ease:'power2.inOut'}},{strike + .1:.3f});
 tl.to('#{p}-s',{{y:-48,scale:.5,transformOrigin:'640px 278px',duration:.6,ease:'power2.inOut'}},{strike + .1:.3f});
 tl.fromTo('#{p}-n',{{opacity:0,y:14}},{{opacity:1,y:0,duration:1.0,ease:'power2.out'}},{strike + .25:.3f});
-write('#{p}-h',{sat:.3f},.9);"""
+""" + (f"write('#{p}-h',{sat:.3f},.9);" if sub else '')
     if ctx.p('new_count'):
         m = re.search(r'-?\d+(\.\d+)?', new.replace('−', '-')); val = float(m.group(0)); dec = len(m.group(0).split('.')[1]) if '.' in m.group(0) else 0
         js += f"\ncounter('#{p}-n span',{strike + .25:.3f},.9,0,{val},{_fmt_js({'decimals': dec, 'suffix': new[m.end():]})});"

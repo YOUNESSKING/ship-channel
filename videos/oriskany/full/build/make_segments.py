@@ -79,7 +79,7 @@ for s in SEG:
             os.replace(tmp, out)
         else:
             A.film_shot(sh, s["dur"], out, W, H, ENC)
-        if s.get("tag"): add_tag(out, s["tag"])
+        if s.get("tag") and os.environ.get("BURN_TAG") == "1": add_tag(out, s["tag"])   # v2: tags are drawn on top by build_chapter (shot "tag")
     else:
         src = photo_src(s["photo"])
         if not src: missing.append((s["file"], s["photo"] + (" (fallback: " + s["fallback"] + ")" if s.get("fallback") else ""))); continue

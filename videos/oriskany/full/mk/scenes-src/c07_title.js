@@ -1,5 +1,5 @@
 // BASEMAP: pan_close
-// "Now it is about to take her title." A gold 'WORLD'S LARGEST REEF' tag slides from the Oriskany pin to the SS United States pin on 'take her title'.
+// "Now it is about to take her title." (v2, critic A M6: was 'WORLD'S LARGEST REEF') A gold 'PLANNED · LARGEST ARTIFICIAL REEF' tag slides from the Oriskany pin to the SS United States pin on 'take her title'.
 const S = ShipK(), B = S.B, G = S.G, w = S.w, END = S.END;
 const REEF = S.P("REEF"), SSUS = S.P("SSUS");
 S.clouds(6, 0.14);
@@ -14,5 +14,5 @@ S.tag("SS UNITED STATES", SSUS, { t: 0.0, anchor: "b", gap: 40 });
 const t0 = w("take"), t1 = t0 + 1.0, A = [REEF[0], REEF[1] - 120], Bp = [SSUS[0], SSUS[1] - 120];
 const e = gsap.parseEase("power2.inOut");
 const pt = (t) => { const u = t <= t0 ? 0 : t >= t1 ? 1 : e((t - t0) / (t1 - t0)); return [A[0] + (Bp[0] - A[0]) * u, A[1] + (Bp[1] - A[1]) * u - Math.sin(u * Math.PI) * 60]; };
-S.label("WORLD'S LARGEST REEF", pt, { t: 0.1, box: true, anchor: "c", size: 46, boxColor: "rgba(150,110,20,.95)", border: "#f5dc9a" });
+S.label("PLANNED · LARGEST ARTIFICIAL REEF", pt, { t: 0.1, box: true, anchor: "c", size: 42, boxColor: "rgba(150,110,20,.95)", border: "#f5dc9a" });
 S.finish();

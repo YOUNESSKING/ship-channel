@@ -134,9 +134,12 @@
    "id": "s07",
    "start": "t20.74",
    "sfx": false,
-   "template": "text_card",
-   "variant": "line",
-   "card": true,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c06_s07.mp4",
+    "push": null
+   },
    "params": {
     "kicker": "EPA RULING · 15 FEB 2006",
     "text": "“NOT AN UNREASONABLE RISK”",
@@ -217,6 +220,7 @@
    "id": "s13",
    "start": "t47.76",
    "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA · FISH SAMPLES FOR TESTING, 2010",
    "template": "text_card",
    "variant": "number",
    "card": true,
@@ -235,6 +239,7 @@
    "id": "s14",
    "start": "t50.12",
    "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA · FISH SAMPLES FOR TESTING, 2010",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
@@ -283,6 +288,7 @@
    "id": "s18",
    "start": "t65.56",
    "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA · FISH SAMPLES FOR TESTING, 2010",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
@@ -319,13 +325,15 @@
    "id": "s21",
    "start": "t76.92",
    "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA · RED SNAPPER, GULF OF MEXICO",
    "template": "text_card",
    "variant": "line",
    "card": true,
    "params": {
     "kicker": "2012 PETITION · FROM FWC DATA",
     "text": "ENVIRONMENTAL GROUPS",
-    "at": "@environmental"
+    "at": "@environmental",
+    "kicker_at": 0.15
    },
    "clip": {
     "file": "b_c06_s21.mp4",
@@ -420,13 +428,15 @@
    "id": "s29",
    "start": "t103.29",
    "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA · RED SNAPPER FISHING, GULF OF MEXICO",
    "template": "text_card",
    "variant": "line",
    "card": true,
    "params": {
     "kicker": "FLORIDA",
     "text": "NO ADVISORY ISSUED",
-    "at": "@no fish"
+    "at": "@no fish",
+    "kicker_at": 0.15
    },
    "clip": {
     "file": "b_c06_s29.mp4",

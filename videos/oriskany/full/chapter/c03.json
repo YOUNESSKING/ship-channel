@@ -206,7 +206,7 @@
     "lead2": "NAVY CITATION, 2023",
     "new": "4",
     "show_at": 0.05,
-    "swap_at": "@cited",
+    "swap_at": "@four",
     "strike_at": "@four",
     "dim": "dk"
    }
@@ -305,6 +305,7 @@
    "id": "s22",
    "start": "t68.66",
    "sfx": false,
+   "tag": "FILM: ORISKANY A-4s, 1968 (NOT HIS AIRCRAFT)",
    "template": "lower_third",
    "variant": "kicker_line",
    "clip": {
@@ -312,8 +313,8 @@
     "push": null
    },
    "params": {
-    "kicker": "CDR",
-    "text": "JAMES STOCKDALE",
+    "kicker": "HER AIR WING COMMANDER",
+    "text": "CDR JAMES STOCKDALE",
     "at": "@james"
    }
   },
@@ -631,6 +632,7 @@
    "id": "s46",
    "start": "t149.00",
    "sfx": false,
+   "tag": "FILM: ORISKANY, 1968 (NOT HIS LAUNCH)",
    "template": "lower_third",
    "variant": "kicker_line",
    "clip": {
@@ -638,7 +640,7 @@
     "push": null
    },
    "params": {
-    "kicker": "VA-163",
+    "kicker": "VA-163 · SHOT DOWN 26 OCT 1967",
     "text": "LCDR JOHN McCAIN",
     "at": "@lieutenant"
    }
@@ -671,15 +673,17 @@
    "id": "s49",
    "start": "t159.83",
    "sfx": false,
-   "template": "text_card",
-   "variant": "number",
-   "card": true,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c03_s49.mp4",
+    "push": null
+   },
    "params": {
     "kicker": "RELEASED · MARCH 1973",
     "number": "5½",
     "unit": "years",
-    "number_at": "@five",
-    "kicker_at": 0.15
+    "number_at": "@five"
    }
   },
   {

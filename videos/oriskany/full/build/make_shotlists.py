@@ -83,35 +83,35 @@ B["c02"] = [
  E("Start with the day", "F:b3_aerial_underway_1969.mp4"),
  E("In September nineteen seventy-six", "M:c02_bremerton", map="Pacific Northwest -> Puget Sound; pin BREMERTON, WASHINGTON; date line SEPT 1976 lands on 'September'; 'DECOMMISSIONED' tag on 'decommissioned'"),
  E("She was laid up", ["P:6450776", "G:kh_a"], label="BREMERTON, WASHINGTON"),
- E("For thirteen years", "G:kh_b"),
+ E("For thirteen years", "P:6450773", num=dict(variant="right", kicker="LAID UP · BREMERTON", number="13", unit="years", number_at="@thirteen", count={"from": 0, "to": 13, "dur": 0.35, "land_at": "@years"})),   # v2: S2/S9 real 1990 row photo + count
  E("In July nineteen eighty-nine", "P:7578429", num=dict(variant="center_bars", number="STRUCK", subline="FROM THE NAVY LIST · JULY 1989", number_at="@struck", dim="dk")),
  E("On paper", "P:7578430", dim=0.35),
- E("A ship like that", "A:anim_options", params=dict(title="How it *ends*", numbered=False, items=[dict(text="A museum?", at="@museum"), dict(text="A scrapyard?", at="@scrapyard")]), bg="G:kh_c"),
+ E("A ship like that", "A:anim_options", params=dict(title="How it *ends*", numbered=False, items=[dict(text="A museum?", at="@museum"), dict(text="A scrapyard?", at="@scrapyard")]), bg="G:fm_tow"),   # v2: one Fort McHenry use in c02
  E("Four of her sisters", "H:c02_sisters", hero="Four Essex-class side silhouettes (kit/ship/ships.js carrier, straight-deck variant) slide in one per beat; a gold 'MUSEUM' tag pops on each on 'museums'. No names (sisters not named in narration)."),
  E("Then in the early", "M:c02_pacific_a", map="Wide North Pacific; dashed arc starts at Bremerton and draws west across the ocean; date line EARLY 1990s"),
  E("Japanese investors", "M:c02_pacific_b", map="Arc lands in Tokyo Bay; pin TOKYO BAY on 'Tokyo Bay'; small tag 'PLANNED ATTRACTION' on 'attraction'"),
  E("They called it", "CARD", card=dict(variant="line", text="“CITY OF AMERICA”", kicker="THE PLAN", at="@city")),
  E("An American warship", "P:7578432", lt=dict(kicker="THE PLAN", text="A WARSHIP AS A THEME PARK", at="@theme")),
- E("The money never came", "A:anim_options", params=dict(title="How it *ends*", numbered=False, items=[dict(text="A museum?", at=0.05, strike_at="@never"), dict(text="A scrapyard?", at=0.05)]), bg="G:fm_tow"),
+ E("The money never came", "A:anim_options", params=dict(title="How it *ends*", numbered=False, items=[dict(text="A museum?", at=0.05, strike_at="@never"), dict(text="A scrapyard?", at=0.05)])),
  E("So the Navy tried", "M:c02_scrap_a", map="Back at the Bremerton pin; tag 'FOR SCRAP' on 'scrapyard'"),
- E("In the early nineteen nineties she was sold", "CARD", card=dict(variant="line", text="SOLD FOR SCRAP", kicker="EARLY 1990s", at="@scrap"), bg="G:fm_tow"),
+ E("In the early nineteen nineties she was sold", "CARD", card=dict(variant="line", text="SOLD FOR SCRAP", kicker="EARLY 1990s", at="@sold")),
  E("The buyer defaulted", "CARD", card=dict(variant="word", text="DEFAULTED.", at="@defaulted")),
  E("She never even left", "M:c02_scrap_b", map="Same Bremerton pin, closer; tag 'STILL NAVY PROPERTY' on 'custody'"),
  E("In September nineteen ninety-five", "H:c02_ledger_a", hero="A bill-of-sale document graphic (Oswald, gold rule): header 'SALE · SEPTEMBER 1995' on 'September', 'BUYER: PEGASUS (START-UP)' typed in on 'Pegasus'"),
  E("for just over a million", "H:c02_ledger_b", hero="Same document: price line '$1.2 MILLION' stamps in on 'million' (pop)"),
  E("The Navy had appraised", "CARD", card=dict(variant="number", kicker="NAVY APPRAISAL", number="$600,000", number_at="@six")),
  E("Three companies had bid", "CARD", card=dict(variant="number", number="3", unit="bids", number_at="@three")),
- E("The deal said", "CARD", card=dict(variant="line", kicker="THE CONDITION", text="SCRAP HER IN THE U.S.", at="@united"), bg="G:kh_c"),
- E("A losing bidder", "CARD", card=dict(variant="line", kicker="A PROTEST", text="WORK HELD UP UNTIL DECEMBER", at="@december")),
+ E("The deal said", "CARD", card=dict(variant="line", kicker="THE CONDITION", text="SCRAP HER IN THE U.S.", at="@cut")),
+ E("A losing bidder", "CARD", card=dict(variant="pair", text="A PROTEST.", at="@protested", aside="Work held up until December.", aside_at="@december", joke_sound=False)),
  E("In nineteen ninety-six", "M:c02_tow_sf", map="Tow line draws Bremerton -> down the Pacific coast -> San Francisco Bay; date line 1996"),
  E("Pegasus planned", "M:c02_mare", map="Zoom into San Francisco Bay; pin 'MARE ISLAND, VALLEJO' on 'Mare Island'"),
- E("A year later", "CARD", card=dict(variant="line", kicker="1997", text="ALMOST NOTHING CUT", at="@almost"), bg="G:kh_a"),
- E("The Navy ended the contract", "CARD", card=dict(variant="word", text="DEFAULTED.", at="@default"), bg="G:fm_tow"),
+ E("A year later", "CARD", card=dict(variant="line", kicker="1997", text="ALMOST NOTHING CUT", at="@almost")),
+ E("The Navy ended the contract", "CARD", card=dict(variant="word", text="DEFAULTED.", at="@default")),
  E("Two scrap deals", "H:c02_tally", hero="Tally board (Oswald, gold ticks): '2 SCRAP DEALS · COLLAPSED' ticks on 'collapsed'; '2 MORE · NO TAKER' ticks on 'no taker'. Reused as a callback in c07."),
  E("So in nineteen ninety-nine", "M:c02_horn_a", map="San Francisco Bay; tow line starts south down the coast; date line 1999 on 'nineteen ninety-nine'"),
  E("All the way around", "M:c02_horn_b", map="Camera follows the tow line down South America, round Cape Horn, up the Atlantic, into the Gulf; pin BEAUMONT, TEXAS on 'Beaumont'. No mileage on screen."),
  E("A ship nobody would take", "M:c02_horn_c", map="Pull back to show the whole route (San Francisco -> Cape Horn -> Beaumont) as one line; tag 'RESERVE FLEET · BEAUMONT'"),
- E("So what kind of ship", "P:6698587", fallback="CIV photographer (Gary Nichols?): if rights not confirmed use P:6698588 (crowd on the shore path)"),
+ E("So what kind of ship", "P:6450777", label="LAID UP · BREMERTON, 1990"),   # v2 S6: was the 2006 saluting veteran (off-era, spoils c05)
  E("To understand what was", "P:7578428", move="in"),
  E("go back to the war", "F:b1_launch_crowd.mp4"),
 ]
@@ -124,12 +124,12 @@ B["c03"] = [
  E("Then in June nineteen fifty", "M:c03_korea", map="Korean peninsula + Sea of Japan; date line JUNE 1950 on 'June'; 'KOREA' label on 'Korea'"),
  E("and the Navy rushed", "P:7578420", label="USS ORISKANY · EARLY 1950s"),
  E("She was the last Essex-class", "P:7578422", lt=dict(kicker="USS ORISKANY (CV-34)", text="LAST ESSEX-CLASS CARRIER FINISHED", at="@last")),
- E("Her crews called", "F:b2_f4u_corsair_landing.mp4", lt=dict(kicker="HER NICKNAME", text="THE MIGHTY O", at="@mighty")),
+ E("Her crews called", "F:b2_f4u_corsair_landing.mp4", reel_in=16.3, lt=dict(kicker="HER NICKNAME", text="THE MIGHTY O", at="@mighty")),
  E("On the eighteenth of November", "M:c03_mig_a", map="Sea of Japan off north-east Korea; date line 18 NOV 1952; four blue jet tracks leave the carrier icon"),
- E("four of her Panther jets", "F:b2_f9f_panther_deck.mp4"),
+ E("four of her Panther jets", "F:b2_f9f_panther_deck.mp4", reel_in=12.3),   # v2 M5: reel 78776 12-15.9 s = F9F "111"; 16-24 s = F4U
  E("met seven", "M:c03_mig_b", map="Seven red tracks come down from the north and meet the four blue tracks ('4 vs 7' tag on 'seven'). No result shown on the map (narration gives Williams' credit only)."),
  E("credited with one", "P:7578424", num=dict(variant="right", kicker="CREDITED IN 1952", number="1", unit="MiG", number_at="@one mig", dim="dk")),
- E("In twenty twenty-three", "P:7578425", num=dict(variant="strike_swap", lead1="CREDITED IN 1952", old="1", lead2="NAVY CITATION, 2023", new="4", show_at=0.05, swap_at="@cited", strike_at="@four", dim="dk")),
+ E("In twenty twenty-three", "P:7578425", num=dict(variant="strike_swap", lead1="CREDITED IN 1952", old="1", lead2="NAVY CITATION, 2023", new="4", show_at=0.05, swap_at="@four", strike_at="@four", dim="dk")),
  E("It upgraded his Silver Star", "CARD", card=dict(variant="line", kicker="ROYCE WILLIAMS · 2023", text="NAVY CROSS", at="@navy cross")),
  E("Then came Vietnam", "F:b3_unrep_oiler_1966.mp4"),
  E("Between May and December", "M:c03_tonkin", map="Gulf of Tonkin; pin YANKEE STATION; date line 1965 (MAY-DEC) on 'May'"),
@@ -137,7 +137,7 @@ B["c03"] = [
  E("A record for one", ["F:b3_f8_launch_1966.mp4", "F:b3_side_launch.mp4"]),
  E("On the ninth of September", "M:c03_stockdale_a", map="North Vietnam; date line 9 SEPT 1965; one blue track leaves the Gulf of Tonkin heading inland"),
  E("the man who led", "F:b3_aerial_launching.mp4"),
- E("Commander James", "F:b3_a4e_formation_1968.mp4", lt=dict(kicker="CDR", text="JAMES STOCKDALE", at="@james")),
+ E("Commander James", "F:b3_a4e_formation_1968.mp4", lt=dict(kicker="HER AIR WING COMMANDER", text="CDR JAMES STOCKDALE", at="@james"), tag="FILM: ORISKANY A-4s, 1968 (NOT HIS AIRCRAFT)"),
  E("was hit by anti-aircraft", "M:c03_stockdale_b", map="Same map, closer: flak bursts on 'anti-aircraft'; the blue track ends in a flash over North Vietnam"),
  E("He was held prisoner", "CARD", card=dict(variant="number", kicker="PRISONER OF WAR", number="7½", unit="years", number_at="@seven")),
  E("A year later the danger", "F:b4_fire_island_smoke.mp4"),
@@ -158,10 +158,10 @@ B["c03"] = [
  E("She was repaired", "M:c03_sf_tonkin", map="San Francisco pin ('REPAIRED') -> line across the Pacific to the Gulf of Tonkin; date line 1967"),
  E("On the twenty-sixth of October nineteen sixty-seven", ["F:b3_island_a4e_parked_1968.mp4", "F:b3_deck_parked_1968.mp4"]),
  E("One year to the day", "CARD", card=dict(variant="line", kicker="26 OCT 1966 → 26 OCT 1967", text="ONE YEAR TO THE DAY", at="@one year")),
- E("One of the pilots", "F:b3_a4e_launch_1968.mp4", lt=dict(kicker="VA-163", text="LCDR JOHN McCAIN", at="@lieutenant")),
+ E("One of the pilots", "F:b3_a4e_launch_1968.mp4", lt=dict(kicker="VA-163 · SHOT DOWN 26 OCT 1967", text="LCDR JOHN McCAIN", at="@lieutenant"), tag="FILM: ORISKANY, 1968 (NOT HIS LAUNCH)"),
  E("A surface-to-air missile", "M:c03_hanoi_a", map="Hanoi; a red missile track rises and meets the blue jet track on 'missile' (no target named)"),
  E("He came down in a lake", "M:c03_hanoi_b", map="Zoom into central Hanoi; pin TRUC BACH LAKE on 'lake'"),
- E("He was released", "CARD", card=dict(variant="number", kicker="RELEASED · MARCH 1973", number="5½", unit="years", number_at="@five")),
+ E("He was released", "P:148728286", label="ORISKANY WITH ENTERPRISE + RANGER · 28 JAN 1973", num=dict(variant="right", kicker="RELEASED · MARCH 1973", number="5½", unit="years", number_at="@five")),
  E("Two of America's", "F:b3_bow_on_underway_1966.mp4", lt=dict(kicker="POWs WHO FLEW FROM HER DECK", text="STOCKDALE · McCAIN", at="@prisoners")),
  E("Forty-four of her men", "F:b4_fire_damaged_a4_316.mp4"),
  E("And by the late", "P:6450773", move="in"),
@@ -169,7 +169,7 @@ B["c03"] = [
 ]
 B["c04"] = [
  E("In November two thousand three", "M:c04_dc_gulf", map="From the D.C. pin a gold arrow sweeps to the Gulf coast; date line NOV 2003; tag 'WARSHIPS → REEFS' on 'reefs'"),
- E("old warships", "G:kh_b"),
+ E("old warships", "G:reef_fish"),   # v2 S2: was ex-Kitty Hawk towed to a scrapyard
  E("The Oriskany was the first", "P:6695641", num=dict(variant="center_bars", number="FIRST", subline="WARSHIP OFFERED", number_at="@first", dim="dk")),
  E("Four bids came in", "M:c04_states_a", map="Gulf coast states; '4 BIDS · 5 STATES' tag lands on 'five states'"),
  E("Florida Mississippi", "M:c04_states_b", map="Florida, Mississippi, Texas, then Georgia + South Carolina light up, each on its name"),
@@ -195,8 +195,8 @@ B["c04"] = [
  E("She rode out Hurricane", "M:c04_rita", map="Hurricane Rita track (Sept 2005) crosses the Gulf to the Texas-Louisiana line; pin BEAUMONT on 'Beaumont'; tag 'RITA · 2005'"),
  E("By the spring of two thousand six", "P:6696606", label="PENSACOLA · 2006"),
  E("the Navy's bill", "A:anim_gauge", params=dict(variant="meter", kicker="The *Navy's* bill", value=12.7, label="NAVY SPENDING, SPRING 2006", unit="$ million", decimals=1, max=25, count_at="@twelve point", dur=1.2)),
- E("Press reports", "CARD", card=dict(variant="number", kicker="PRESS, SINKING DAY", number="≈ $20", unit="million", number_at="@twenty")),
- E("Florida's own legislature", "CARD", card=dict(variant="number", kicker="FLORIDA SENATE", number="≈ $21", unit="million", number_at="@twenty one")),
+ E("Press reports", "P:6698586", num=dict(variant="right", kicker="PRESS, SINKING DAY", number="≈ $20", unit="million", number_at="@twenty")),
+ E("Florida's own legislature", "P:6698597", num=dict(variant="right", kicker="FLORIDA SENATE", number="≈ $21", unit="million", number_at="@twenty one")),
  E("almost all of it Navy", "A:anim_gauge", params=dict(variant="bars", kicker="Almost all *Navy money*", unit="", max=21, items=[dict(label="NAVY", value=20, at=0.1, count_at=0.1, dur=0.9, hero=True), dict(label="FLORIDA COUNTIES", value=1, at=0.6, count_at=0.6, dur=0.4)])),
  E("That is about seven times", "A:anim_gauge", params=dict(variant="bars", kicker="About *seven times*", unit="$M", decimals=1, max=21, items=[dict(label="COMMITTED", value=2.8, at=0.1, count_at=0.1, dur=0.5), dict(label="FINAL", value=20, at=0.4, count_at=0.4, dur=1.0, hero=True)])),
  E("And the flight deck was not", "A:anim_xray", params=dict(image="../../test_v4/assets/carrier_hero_side.png", animal_w=1180, organ="dot", organ_pos=[0.5, 0.45], organ_label="?", organ_at="@hiding", kicker="Not the *only place*", kicker_at=0.1, first_frame="full")),
@@ -235,7 +235,7 @@ B["c06"] = [
  E("All the liquid PCBs", "P:6698555", lt=dict(kicker="REMOVED", text="ALL LIQUID PCBs", at="@liquid")),
  E("The EPA reviewed", "M:c06_epa_a", map="US South-East; pin ATLANTA · EPA REGION 4 on 'EPA'"),
  E("On the fifteenth of February", "M:c06_epa_b", map="Same map; date line 15 FEB 2006 on 'fifteenth'; gold line from Atlanta to the wreck site on 'ruled'"),
- E("Sinking her with the PCBs", "CARD", card=dict(variant="line", kicker="EPA RULING · 15 FEB 2006", text="“NOT AN UNREASONABLE RISK”", at="@unreasonable")),
+ E("Sinking her with the PCBs", "P:6698556", lt=dict(kicker="EPA RULING · 15 FEB 2006", text="“NOT AN UNREASONABLE RISK”", at="@unreasonable", kicker_at=0.15)),
  E("It was the first approval", "P:6698583", num=dict(variant="center_bars", number="FIRST", subline="APPROVAL OF ITS KIND", number_at="@first", dim="dk")),
  E("And the EPA said", "P:6698600", lt=dict(kicker="EPA", text="FOR HER ALONE", at="@alone")),
  E("There was a condition", "M:c06_fishmap", map="Wreck pin + a control reef pin near Pensacola Bay; fish icons on the wreck pin on 'fish'; 'TEST' tag on 'testing'"),
@@ -283,23 +283,23 @@ B["c07"] = [
  E("Now back to the question", "A:anim_xray", params=dict(image="../../test_v4/assets/carrier_hero_side.png", animal_w=1180, organ="dot", organ_pos=[0.5, 0.4], organ_label="?", organ_at="@pcbs", kicker="Why leave *the PCBs in?*", kicker_at="@why", first_frame="full")),
  E("Almost all of what", "A:anim_xray", params=dict(image="../../test_v4/assets/carrier_hero_side.png", animal_w=1180, organ="dot", organ_pos=[0.5, 0.4], organ_label="97 %", organ_at="@ninety", kicker="In her *wiring*", kicker_at="@wiring", first_frame="full")),
  E("The Navy said ripping", "H:c07_apart", hero="Carrier profile breaks into sections on 'taking the ship apart'"),
- E("And taking her apart", "G:kh_c"),
+ E("And taking her apart", "P:6450776", lt=dict(kicker="1976–2006", text="NEVER TAKEN APART", at="@nobody")),   # v2 S2: was ex-Kitty Hawk towed to a scrapyard
  E("Two scrap deals", "H:c07_tally", hero="Callback: the c02 tally board ('2 COLLAPSED · 2 NO TAKER'), same look"),
  E("Getting the wiring out", "P:6698554", move="out"),
  E("A reef was different", "G:snap_c"),   # was M:c07_reefpin (pin glow only)
  E("The Navy said reefing", "CARD", card=dict(variant="line", kicker="THE NAVY'S SUMS", text="REEF vs. SCRAP", at="@reefing")),
- E("cost about a quarter", "A:anim_gauge", params=dict(variant="bars", kicker="About *a quarter*", unit="", max=4, items=[dict(label="SCRAP + RECYCLE", value=4, at=0.1, count_at=0.1, dur=0.5), dict(label="REEF + CLEANUP", value=1, at="@quarter", count_at="@quarter", dur=0.6, hero=True)]), bg="G:fm_tow"),
- E("Even as the bill climbed", "A:anim_gauge", params=dict(variant="bars", kicker="Still a *bargain?*", unit="$M", max=25, items=[dict(label="REEF (FINAL)", value=20, at=0.1, count_at="@bill", dur=1.0, hero=True)])),
- E("Next to an estimated", "A:anim_gauge", params=dict(variant="bars", kicker="Still a *bargain?*", unit="$M", max=25, items=[dict(label="REEF", value=20, at=0.05, count_at=0.05, dur=0.3), dict(label="SCRAP (USNI 2006 EST.)", value=24, at="@twenty four", count_at="@twenty four", dur=1.0, hero=True)]), bg="G:kh_a"),
+ E("cost about a quarter", "A:anim_gauge", params=dict(variant="bars", kicker="About *a quarter*", unit="", max=4, items=[dict(label="SCRAP + RECYCLE", value=4, at=0.1, count_at=0.1, dur=0.5), dict(label="REEF + CLEANUP", value=1, at="@quarter", count_at="@quarter", dur=0.6, hero=True)])),
+ E("Even as the bill climbed", "A:anim_gauge", params=dict(variant="bars", kicker="Still a *bargain?*", unit="$M", max=25, items=[dict(label="REEF · PRESS EST. 2006", value=20, at=0.1, count_at="@bill", dur=1.0, hero=True)])),
+ E("Next to an estimated", "A:anim_gauge", params=dict(variant="bars", kicker="Still a *bargain?*", unit="$M", max=25, items=[dict(label="REEF · PRESS EST.", value=20, at=0.05, count_at=0.05, dur=0.3), dict(label="SCRAP · USNI 2006 EST.", value=24, at="@twenty four", count_at="@twenty four", dur=1.0, hero=True)]), bg="G:kh_a"),
  E("But that bargain", "P:6695641", move="out"),
  E("Within two years", "CARD", card=dict(variant="line", kicker="MARAD · REPORT TO CONGRESS · JAN 2008", text="A WARNING", at="@warning"), bg="G:fm_out"),
  E("Cleaning ships to the new", "CARD", card=dict(variant="line", kicker="THE WARNING", text="CLEAN TO THE NEW STANDARD", at="@standard")),
- E("could wipe out", "A:anim_gauge", params=dict(variant="bars", kicker="Savings *wiped out?*", unit="$M", max=25, items=[dict(label="SCRAP", value=24, at=0.05, count_at=0.05, dur=0.3), dict(label="REEF, NEW STANDARD", value=24, at="@wipe", count_at="@wipe", dur=1.2, hero=True)])),
+ E("could wipe out", "CARD", card=dict(variant="line", kicker="MARAD · JAN 2008", text="SAVINGS COULD BE WIPED OUT", at="@wipe")),   # v2 M7: no invented $ figure
  E("So that is why", "P:6698624", move="in"),
- E("Nobody would take her whole", "A:anim_options", params=dict(title="What do you do with *a carrier?*", numbered=False, items=[dict(text="A museum?", at=0.05, strike_at="@whole"), dict(text="A scrapyard?", at=0.05, strike_at="@stick")]), bg="G:kh_b"),
+ E("Nobody would take her whole", "A:anim_options", params=dict(title="What do you do with *a carrier?*", numbered=False, items=[dict(text="A museum?", at=0.05, strike_at="@whole"), dict(text="A scrapyard?", at=0.05, strike_at="@stick")])),
  E("And the PCBs were in her wiring", "A:anim_xray", params=dict(image="../../test_v4/assets/carrier_hero_side.png", animal_w=1180, organ="dot", organ_pos=[0.5, 0.4], organ_label="WIRING", organ_at="@wiring", kicker="Only by *taking her apart*", kicker_at="@only", first_frame="full")),
  E("The bottom of the Gulf was", "A:anim_options", params=dict(title="What do you do with *a carrier?*", numbered=False, items=[dict(text="A museum?", at=0.02, strike_at=0.05), dict(text="A scrapyard?", at=0.02, strike_at=0.1), dict(text="The bottom of the Gulf", at="@bottom", chosen=True)]), bg="G:reef_fish"),
- E("By the Navy's own sums", "A:anim_gauge", params=dict(variant="bars", kicker="The cheapest, *by its own sums*", unit="$M", max=25, items=[dict(label="SCRAP (EST.)", value=24, at=0.05, count_at=0.05, dur=0.4), dict(label="REEF", value=20, at=0.3, count_at=0.3, dur=0.8, hero=True)])),
+ E("By the Navy's own sums", "A:anim_gauge", params=dict(variant="bars", kicker="The Navy's *own sums*", unit="", max=4, items=[dict(label="SCRAP + RECYCLE", value=4, at=0.05, count_at=0.05, dur=0.4), dict(label="REEF + CLEANUP", value=1, at=0.3, count_at=0.3, dur=0.8, hero=True)])),   # v2 M8: the Navy's own ratio (USNI06), not the press $20M
  E("She is still the only", "H:c07_today", hero="Kit hulk upright on the seabed, light shafts, fish icons; tag 'THE ONLY CARRIER EVER REEFED' on 'only'"),
  E("She will not be the biggest", "F:b10_ssus_profile.mp4"),
  E("On November twelfth", "F:b10_ssus_crane_river.mp4", num=dict(variant="right", kicker="10 A.M. · WEATHER PERMITTING", number="NOV 12", number_at="@november", dim="dk")),
@@ -309,7 +309,7 @@ B["c07"] = [
  E("She will lie about thirteen", "M:c07_endmap", map="test v4 endmap.js re-timed: both pins (USS ORISKANY reef + SS UNITED STATES · NOV 12), dashed '13 NAUTICAL MILES' on 'thirteen'"),
  E("And here is the twist", "F:b10_ssus_stacks.mp4"),
  E("Okaloosa County put", "P:6698606", num=dict(variant="right", kicker="OKALOOSA COUNTY'S SHARE", number="$50,000", number_at="@fifty", subline="TOWARD SINKING THE ORISKANY", dim="dk")),
- E("Now it is about to take", "M:c07_title", map="End map again: a gold 'WORLD'S LARGEST REEF' tag slides from the Oriskany pin to the SS United States pin on 'take her title'"),
+ E("Now it is about to take", "M:c07_title", map="End map again: a gold 'PLANNED · LARGEST ARTIFICIAL REEF' tag slides from the Oriskany pin to the SS United States pin on 'take her title'"),
  E("So was the bottom", "F:b3_aerial_underway2_1969.mp4"),
  E("Or just the cheapest", "P:6698625", move="out"),
  E("Tell us in the comments", "M:c07_endscreen", map="End map holds both pins (end-screen space right half); card 'BEST WAY? OR CHEAPEST?' on 'tell us'; 18 s hold with the music bed (end screen)", endscreen=True),
@@ -320,10 +320,12 @@ segments = []; uses = {}; report = []; film_ptr = {}; REEL_USED = {}
 MOVES = ["in", "out", "left", "right"]; mv_i = 0
 
 
-def film_window(clip, dur, used_at, win=None):
+def film_window(clip, dur, used_at, win=None, reel_in=None):
     """next clean sub-window of the vetted continuous shot (advances, so a reuse shows different frames); win = force window index.
     A clip with "slow" plays slowed down: the window only has to hold need / slow source seconds (the segment keeps its length)."""
     w = FW[clip]["windows"]; need = dur + 0.4
+    if reel_in is not None:   # v2: a vetted in-point forced from the frames (c03 Panther / Corsair)
+        REEL_USED.setdefault(FW[clip]["reel"], []).append((reel_in, reel_in + need)); return round(reel_in, 2), round(need, 2), ""
     if FW[clip].get("slow"):
         a, b = w[0]; return round(a, 2), round(need, 2), ""
     if win is not None:
@@ -396,14 +398,15 @@ for ck in ["c02", "c03", "c04", "c05", "c06", "c07"]:
             src, fb_shows = wiki_src(src)
             sid = f"s{n:02d}"; kd = kind(src); dur = round(z - a, 3)
             shot = {"id": sid, "start": f"t{a - c0:.2f}", "sfx": False}
+            if k == 0 and b.get("tag"): shot["tag"] = b["tag"]          # v2: film date tag (drawn on top by build_chapter)
             clipfile = None
             seg = None
             if kd in ("F", "G"):
-                clip = src[2:] if kd == "F" else f"g_{src[2:]}.mp4"; ss, need, flag = film_window(clip, dur, a, b.get("win") if k == 0 else None)
+                clip = src[2:] if kd == "F" else f"g_{src[2:]}.mp4"; ss, need, flag = film_window(clip, dur, a, b.get("win") if k == 0 else None, b.get("reel_in") if k == 0 else None)
                 clipfile = f"f_{ck}_{sid}.mp4"
                 seg = dict(file=clipfile, kind="film", clip=clip, reel=FW[clip]["reel"], reel_in=ss, dur=need, label=b.get("label") if k == 0 else None,
                            note=flag)
-                if kd == "G": seg.update(generic=True, tag=FW[clip]["tag"])
+                if kd == "G": seg.update(generic=True, tag=FW[clip]["tag"]); shot["tag"] = FW[clip]["tag"]   # v2: tag drawn on top, not burned in
                 uses.setdefault(clip, []).append(a)
             elif kd == "P":
                 pid = src[2:]; move = b.get("move") or MOVES[mv_i % 4]; mv_i += 1
@@ -427,13 +430,13 @@ for ck in ["c02", "c03", "c04", "c05", "c06", "c07"]:
                 bgfile = f"b_{ck}_{sid}.mp4"
                 segments.append(dict(chapter=ck, shot=sid, file=bgfile, kind="film", clip=bclip, reel=FW[bclip]["reel"], reel_in=bss, dur=bneed,
                                      label=None, note=bflag, generic=True, tag=FW[bclip]["tag"], under=kd, **({"slow": FW[bclip]["slow"]} if FW[bclip].get("slow") else {})))
-                uses.setdefault(bclip, []).append(a)
+                uses.setdefault(bclip, []).append(a); shot["tag"] = FW[bclip]["tag"]
             # template
             if kd == "CARD":
                 c = dict(b["card"]); var = c.pop("variant")
                 shot.update(template="text_card", variant=var, card=True, params=c)
                 if bgfile: shot["clip"] = {"file": bgfile, "push": None}
-                elif var in ("line", "number") and c.get("kicker") and "kicker_at" not in c:
+                if var in ("line", "number") and c.get("kicker") and "kicker_at" not in c:
                     shot["params"]["kicker_at"] = 0.15   # step 3: a card on a dark picture never sits empty until its word (blackdetect found 3.3 s)
             elif kd == "A":
                 tpl = src[2:]; p = dict(b["params"]); var = p.pop("variant", None) or {"anim_options": "list", "anim_xray": "animal", "anim_gauge": "bars"}[tpl]
@@ -559,6 +562,13 @@ for k_ in sorted(set(uses) | set(HOOK_USES)):
     allt = sorted(HOOK_USES.get(k_, []) + uses.get(k_, []))
     bad = len(allt) > 2 or any(b - a < 180 for a, b in zip(allt, allt[1:]))
     if bad: L.append(f"- **{k_}** used at {', '.join(f'{t:.0f}s' for t in allt)}")
+REELS = {}
+for k_, ts in uses.items():
+    if k_.startswith("g_") and k_ in FW: REELS.setdefault(FW[k_]["reel"], []).extend((t, k_) for t in ts)
+L += ["", "## Generic reels with more than one use (v2 rule for the DVIDS hull reels: at most 2 uses per reel, 3+ min apart)", ""]
+for r_, ts in sorted(REELS.items()):
+    ts = sorted(ts)
+    if len(ts) > 1: L.append(f"- {r_}: " + ", ".join(f"{t:.0f}s {c}" for t, c in ts) + ("  **CHECK**" if r_ in ("dvids_828554", "dvids_791060") and (len(ts) > 2 or any(y[0] - x[0] < 180 for x, y in zip(ts, ts[1:]))) else ""))
 L += ["", "## All shots", "", "| ch | shot | start (abs s) | dur | template | source | cut on |", "|---|---|---|---|---|---|---|"]
 L += [f"| {r[0]} | {r[1]} | {r[2]} | {r[3]} | {r[4]} | {r[5]} | {r[6]} |" for r in report]
 open(os.path.join(HERE, "shotlist_report.md"), "w").write("\n".join(L) + "\n")

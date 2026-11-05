@@ -31,9 +31,11 @@ def build(ctx):
         if ctx.p('joke_sound', True): ctx.sfx('tok', aat + .1, .9)
     else:
         size = ctx.p('size', 44); k = ctx.p('kicker', '')
+        kat = ctx.p('kicker_at'); kat = ctx.t(kat) if (kat is not None and k) else None   # v2: the kicker (e.g. a source line) shows first, on its own
         inner = '<div class="scrimLB"></div>' + block(f'{p}-blk', 90, 540, 760,
-            (f'<div class="jo gold" style="margin-bottom:12px">{rich(k)}</div>' if k else '') + f'<div id="{p}-t" class="it" style="font-size:{size}px">{rich(text)}</div>', 'left')
-        js.append(f"drop('#{p}-blk',{at - .1:.3f});write('#{p}-t',{at:.3f},.6);")
+            (f'<div class="jo gold" style="margin-bottom:12px">{rich(k)}</div>' if k else '') + f'<div id="{p}-t" class="it{" op0" if kat is not None else ""}" style="font-size:{size}px">{rich(text)}</div>', 'left')
+        if kat is not None and kat < at - .2: js.append(f"drop('#{p}-blk',{kat - .1:.3f});write('#{p}-t',{at:.3f},.6);")
+        else: js.append(f"drop('#{p}-blk',{at - .1:.3f});write('#{p}-t',{at:.3f},.6);")
     if ctx.p('jump_at') is not None:
         js.append(f"jump('#{p}_v',{ctx.t(ctx.p('jump_at')):.3f},{ctx.p('jump_scale', 1.14)},'50% 40%');")
     ctx.js.append('\n'.join(js))

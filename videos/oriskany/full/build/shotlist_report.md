@@ -2,23 +2,28 @@
 
 | chapter | dur s | shots | film % | photo % | map % | hero % | anim % | card % | of which NARA film % | generic US-Gov film % | anim over moving film % | **moving video total %** | longest shot | cues/min |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| c02 | 128.1 | 35 | 20 | 15 | 34 | 13 | 7 | 11 | 5 | 15 | 7 | **27** | 5.9 s (s11) | 13.6 |
-| c03 | 183.2 | 53 | 50 | 10 | 25 | 0 | 3 | 11 | 50 | 0 | 0 | **50** | 5.9 s (s52) | 12.4 |
-| c04 | 124.5 | 32 | 5 | 9 | 28 | 9 | 29 | 20 | 0 | 5 | 0 | **5** | 5.7 s (s18) | 13.5 |
+| c02 | 128.1 | 35 | 7 | 17 | 34 | 13 | 7 | 22 | 5 | 2 | 4 | **12** | 5.9 s (s11) | 14.0 |
+| c03 | 183.2 | 53 | 50 | 13 | 25 | 0 | 3 | 8 | 50 | 0 | 0 | **50** | 5.9 s (s52) | 12.4 |
+| c04 | 124.5 | 32 | 5 | 17 | 28 | 9 | 29 | 12 | 0 | 5 | 0 | **5** | 5.7 s (s18) | 13.5 |
 | c05 | 81.4 | 25 | 0 | 64 | 12 | 8 | 6 | 9 | 0 | 0 | 0 | **0** | 5.7 s (s22) | 14.7 |
-| c06 | 120.7 | 32 | 15 | 11 | 15 | 41 | 13 | 4 | 0 | 15 | 0 | **15** | 5.9 s (s11) | 13.4 |
-| c07 | 198.3 | 50 | 22 | 12 | 14 | 23 | 24 | 5 | 7 | 14 | 9 | **31** | 5.9 s (s04) | 13.6 |
-| **c02-c07** | | | **22** | **17** | **22** | **16** | **14** | **10** | **14** | **8** | **3** | **25** | | |
+| c06 | 120.7 | 32 | 15 | 16 | 15 | 41 | 13 | 0 | 0 | 15 | 0 | **15** | 5.9 s (s11) | 13.4 |
+| c07 | 198.3 | 50 | 19 | 14 | 14 | 23 | 21 | 7 | 7 | 12 | 4 | **24** | 5.9 s (s04) | 13.9 |
+| **c02-c07** | | | **20** | **20** | **22** | **16** | **13** | **10** | **14** | **6** | **2** | **21** | | |
 
 ## Pacing flags (shots > 6.0 s or < 1.2 s; end screen excluded)
 
 
 ## Clip / photo reuse (rule: at most twice, 3+ min apart; hook uses counted from test v4)
 
-- **g_fm_tow.mp4** used at 96s, 102s, 143s, 775s
-- **g_kh_a.mp4** used at 58s, 141s, 784s
-- **g_kh_b.mp4** used at 61s, 365s, 805s
-- **g_kh_c.mp4** used at 71s, 123s, 758s
+
+## Generic reels with more than one use (v2 rule for the DVIDS hull reels: at most 2 uses per reel, 3+ min apart)
+
+- dvids_791060: 71s g_fm_tow.mp4, 791s g_fm_out.mp4
+- dvids_828554: 58s g_kh_a.mp4, 784s g_kh_a.mp4
+- noaa_coral_fgb: 365s g_reef_fish.mp4, 815s g_reef_fish.mp4
+- noaa_dwh_sampleprep: 614s g_lab_a.mp4, 616s g_lab_b.mp4, 631s g_lab_c.mp4
+- noaa_snapper_recfish: 669s g_recfish_a.mp4, 734s g_recfish_b.mp4
+- noaa_snapper_school: 643s g_snap_b.mp4, 772s g_snap_c.mp4
 
 ## All shots
 
@@ -28,35 +33,35 @@
 | c02 | s02 | 51.28 | 4.34 | map_clip | M:c02_bremerton | In September nineteen seventy-six |
 | c02 | s03 | 55.62 | 2.56 | clip_plain | P:6450776 | She was laid up |
 | c02 | s04 | 58.18 | 2.84 | clip_plain | G:kh_a | She was laid up |
-| c02 | s05 | 61.02 | 2.33 | clip_plain | G:kh_b | For thirteen years |
+| c02 | s05 | 61.02 | 2.33 | number_clip | P:6450773 | For thirteen years |
 | c02 | s06 | 63.35 | 4.38 | number_clip | P:7578429 | In July nineteen eighty-nine |
 | c02 | s07 | 67.72 | 3.2 | clip_plain | P:7578430 | On paper |
-| c02 | s08 | 70.92 | 5.24 | anim_options | A:anim_options + bg G:kh_c | A ship like that |
+| c02 | s08 | 70.92 | 5.24 | anim_options | A:anim_options + bg G:fm_tow | A ship like that |
 | c02 | s09 | 76.16 | 3.1 | clip_plain | H:c02_sisters | Four of her sisters |
 | c02 | s10 | 79.27 | 5.17 | map_clip | M:c02_pacific_a | Then in the early |
 | c02 | s11 | 84.43 | 5.92 | map_clip | M:c02_pacific_b | Japanese investors |
 | c02 | s12 | 90.35 | 2.06 | text_card | CARD | They called it |
 | c02 | s13 | 92.41 | 3.57 | lower_third | P:7578432 | An American warship |
-| c02 | s14 | 95.98 | 3.91 | anim_options | A:anim_options + bg G:fm_tow | The money never came |
+| c02 | s14 | 95.98 | 3.91 | anim_options | A:anim_options | The money never came |
 | c02 | s15 | 99.89 | 2.21 | map_clip | M:c02_scrap_a | So the Navy tried |
-| c02 | s16 | 102.1 | 3.62 | text_card | CARD + bg G:fm_tow | In the early nineteen nineties she was sold |
+| c02 | s16 | 102.1 | 3.62 | text_card | CARD | In the early nineteen nineties she was sold |
 | c02 | s17 | 105.72 | 1.54 | text_card | CARD | The buyer defaulted |
 | c02 | s18 | 107.26 | 2.78 | map_clip | M:c02_scrap_b | She never even left |
 | c02 | s19 | 110.04 | 5.02 | clip_plain | H:c02_ledger_a | In September nineteen ninety-five |
 | c02 | s20 | 115.06 | 2.61 | clip_plain | H:c02_ledger_b | for just over a million |
 | c02 | s21 | 117.67 | 3.26 | text_card | CARD | The Navy had appraised |
 | c02 | s22 | 120.93 | 1.82 | text_card | CARD | Three companies had bid |
-| c02 | s23 | 122.75 | 3.43 | text_card | CARD + bg G:kh_c | The deal said |
+| c02 | s23 | 122.75 | 3.43 | text_card | CARD | The deal said |
 | c02 | s24 | 126.19 | 5.11 | text_card | CARD | A losing bidder |
 | c02 | s25 | 131.29 | 5.5 | map_clip | M:c02_tow_sf | In nineteen ninety-six |
 | c02 | s26 | 136.79 | 3.87 | map_clip | M:c02_mare | Pegasus planned |
-| c02 | s27 | 140.66 | 2.78 | text_card | CARD + bg G:kh_a | A year later |
-| c02 | s28 | 143.44 | 4.07 | text_card | CARD + bg G:fm_tow | The Navy ended the contract |
+| c02 | s27 | 140.66 | 2.78 | text_card | CARD | A year later |
+| c02 | s28 | 143.44 | 4.07 | text_card | CARD | The Navy ended the contract |
 | c02 | s29 | 147.51 | 5.86 | clip_plain | H:c02_tally | Two scrap deals |
 | c02 | s30 | 153.37 | 4.28 | map_clip | M:c02_horn_a | So in nineteen ninety-nine |
 | c02 | s31 | 157.64 | 4.84 | map_clip | M:c02_horn_b | All the way around |
 | c02 | s32 | 162.49 | 4.94 | map_clip | M:c02_horn_c | A ship nobody would take |
-| c02 | s33 | 167.43 | 2.46 | clip_plain | P:6698587 | So what kind of ship |
+| c02 | s33 | 167.43 | 2.46 | clip_plain | P:6450777 | So what kind of ship |
 | c02 | s34 | 169.89 | 2.82 | clip_plain | P:7578428 | To understand what was |
 | c02 | s35 | 172.71 | 4.03 | clip_plain | F:b1_launch_crowd.mp4 | go back to the war |
 | c03 | s01 | 176.74 | 4.47 | map_clip | M:c03_brooklyn | Her keel was laid |
@@ -107,13 +112,13 @@
 | c03 | s46 | 325.74 | 3.92 | lower_third | F:b3_a4e_launch_1968.mp4 | One of the pilots |
 | c03 | s47 | 329.66 | 4.03 | map_clip | M:c03_hanoi_a | A surface-to-air missile |
 | c03 | s48 | 333.69 | 2.88 | map_clip | M:c03_hanoi_b | He came down in a lake |
-| c03 | s49 | 336.57 | 5.55 | text_card | CARD | He was released |
+| c03 | s49 | 336.57 | 5.55 | number_clip | P:148728286 | He was released |
 | c03 | s50 | 342.12 | 4.48 | lower_third | F:b3_bow_on_underway_1966.mp4 | Two of America's |
 | c03 | s51 | 346.61 | 3.44 | clip_plain | F:b4_fire_damaged_a4_316.mp4 | Forty-four of her men |
 | c03 | s52 | 350.04 | 5.93 | clip_plain | P:6450773 | And by the late |
 | c03 | s53 | 355.97 | 4.0 | map_clip | M:c03_dc | Then in two thousand three |
 | c04 | s01 | 359.97 | 4.98 | map_clip | M:c04_dc_gulf | In November two thousand three |
-| c04 | s02 | 364.95 | 2.75 | clip_plain | G:kh_b | old warships |
+| c04 | s02 | 364.95 | 2.75 | clip_plain | G:reef_fish | old warships |
 | c04 | s03 | 367.7 | 3.97 | number_clip | P:6695641 | The Oriskany was the first |
 | c04 | s04 | 371.67 | 2.59 | map_clip | M:c04_states_a | Four bids came in |
 | c04 | s05 | 374.26 | 4.56 | map_clip | M:c04_states_b | Florida Mississippi |
@@ -139,8 +144,8 @@
 | c04 | s25 | 454.03 | 3.05 | map_clip | M:c04_rita | She rode out Hurricane |
 | c04 | s26 | 457.08 | 2.16 | clip_plain | P:6696606 | By the spring of two thousand six |
 | c04 | s27 | 459.24 | 4.87 | anim_gauge | A:anim_gauge | the Navy's bill |
-| c04 | s28 | 464.11 | 4.62 | text_card | CARD | Press reports |
-| c04 | s29 | 468.73 | 4.68 | text_card | CARD | Florida's own legislature |
+| c04 | s28 | 464.11 | 4.62 | number_clip | P:6698586 | Press reports |
+| c04 | s29 | 468.73 | 4.68 | number_clip | P:6698597 | Florida's own legislature |
 | c04 | s30 | 473.42 | 2.81 | anim_gauge | A:anim_gauge | almost all of it Navy |
 | c04 | s31 | 476.23 | 3.43 | anim_gauge | A:anim_gauge | That is about seven times |
 | c04 | s32 | 479.66 | 4.83 | anim_xray | A:anim_xray | And the flight deck was not |
@@ -175,7 +180,7 @@
 | c06 | s04 | 576.64 | 3.34 | lower_third | P:6698555 | All the liquid PCBs |
 | c06 | s05 | 579.99 | 2.84 | map_clip | M:c06_epa_a | The EPA reviewed |
 | c06 | s06 | 582.82 | 3.8 | map_clip | M:c06_epa_b | On the fifteenth of February |
-| c06 | s07 | 586.62 | 5.33 | text_card | CARD | Sinking her with the PCBs |
+| c06 | s07 | 586.62 | 5.33 | lower_third | P:6698556 | Sinking her with the PCBs |
 | c06 | s08 | 591.95 | 3.95 | number_clip | P:6698583 | It was the first approval |
 | c06 | s09 | 595.9 | 2.97 | lower_third | P:6698600 | And the EPA said |
 | c06 | s10 | 598.87 | 5.47 | map_clip | M:c06_fishmap | There was a condition |
@@ -221,20 +226,20 @@
 | c07 | s18 | 745.45 | 3.75 | anim_xray | A:anim_xray | Now back to the question |
 | c07 | s19 | 749.2 | 4.88 | anim_xray | A:anim_xray | Almost all of what |
 | c07 | s20 | 754.08 | 4.34 | clip_plain | H:c07_apart | The Navy said ripping |
-| c07 | s21 | 758.41 | 4.39 | clip_plain | G:kh_c | And taking her apart |
+| c07 | s21 | 758.41 | 4.39 | lower_third | P:6450776 | And taking her apart |
 | c07 | s22 | 762.8 | 4.0 | clip_plain | H:c07_tally | Two scrap deals |
 | c07 | s23 | 766.8 | 4.98 | clip_plain | P:6698554 | Getting the wiring out |
 | c07 | s24 | 771.78 | 1.6 | clip_plain | G:snap_c | A reef was different |
 | c07 | s25 | 773.38 | 1.74 | text_card | CARD | The Navy said reefing |
-| c07 | s26 | 775.12 | 4.38 | anim_gauge | A:anim_gauge + bg G:fm_tow | cost about a quarter |
+| c07 | s26 | 775.12 | 4.38 | anim_gauge | A:anim_gauge | cost about a quarter |
 | c07 | s27 | 779.49 | 4.14 | anim_gauge | A:anim_gauge | Even as the bill climbed |
 | c07 | s28 | 783.63 | 4.5 | anim_gauge | A:anim_gauge + bg G:kh_a | Next to an estimated |
 | c07 | s29 | 788.13 | 2.38 | clip_plain | P:6695641 | But that bargain |
 | c07 | s30 | 790.51 | 5.19 | text_card | CARD + bg G:fm_out | Within two years |
 | c07 | s31 | 795.7 | 1.62 | text_card | CARD | Cleaning ships to the new |
-| c07 | s32 | 797.32 | 4.5 | anim_gauge | A:anim_gauge | could wipe out |
+| c07 | s32 | 797.32 | 4.5 | text_card | CARD | could wipe out |
 | c07 | s33 | 801.81 | 3.5 | clip_plain | P:6698624 | So that is why |
-| c07 | s34 | 805.31 | 4.26 | anim_options | A:anim_options + bg G:kh_b | Nobody would take her whole |
+| c07 | s34 | 805.31 | 4.26 | anim_options | A:anim_options | Nobody would take her whole |
 | c07 | s35 | 809.58 | 5.37 | anim_xray | A:anim_xray | And the PCBs were in her wiring |
 | c07 | s36 | 814.95 | 3.03 | anim_options | A:anim_options + bg G:reef_fish | The bottom of the Gulf was |
 | c07 | s37 | 817.98 | 3.95 | anim_gauge | A:anim_gauge | By the Navy's own sums |

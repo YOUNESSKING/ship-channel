@@ -204,6 +204,22 @@ class Builder:
             os.replace(tmp, dst)
         rel = f'assets/clips/{ctx.id}.mp4'; self.assets[rel] = dst
         return rel
+    def tag_layer(self, ctx, text, below_bars=False):
+        """Small top-left source tag as a 1920x1080 PNG (same look as the old burned-in tag: Oswald 30 px on a dark box), shown at full
+        opacity above everything else in the shot. Under a letterbox it sits just below the top bar (inside the picture)."""
+        from PIL import Image, ImageDraw, ImageFont
+        font = os.path.join(HERE, '..', 'tools', 'maps', 'oswald-latin-700-normal.ttf')
+        y = (92 * 1.5 + 22) if below_bars else 44
+        key = hashlib.md5(f'{text}|{y}|v2'.encode()).hexdigest()[:10]
+        os.makedirs(self.cache, exist_ok=True); dst = os.path.join(self.cache, f'tag_{key}.png')
+        if not os.path.exists(dst):
+            f = ImageFont.truetype(font, 30); im = Image.new('RGBA', (1920, 1080), (0, 0, 0, 0)); d = ImageDraw.Draw(im)
+            bb = d.textbbox((54, y), text, font=f)
+            d.rectangle((bb[0] - 14, bb[1] - 9, bb[2] + 14, bb[3] + 9), fill=(8, 10, 12, 190))
+            d.text((54, y), text, font=f, fill=(240, 236, 226, 255)); im.save(dst)
+        rel = f'assets/img/tag_{key}.png'; self.assets[rel] = dst
+        return (f'<img id="{ctx.id}-tag" class="clip" src="{rel}" data-start="{ctx.a:.3f}" data-duration="{ctx.dur:.3f}" data-track-index="7" '
+                f'style="position:absolute;left:0;top:0;width:1280px;height:720px;z-index:50;pointer-events:none"/>')
     def add_asset(self, path):
         src = self.resolve(path)
         if not os.path.exists(src): self.warn.append(f'asset not found: {src}'); return ''
@@ -250,6 +266,8 @@ class Builder:
                 _bc = s['bg_clip']; _keep = s.get('clip'); s['clip'] = {'file': _bc['file'], 'push': _bc.get('push', [1.0, 1.06, '50% 50%'])}
                 _bg = ctx.video(track=0); s['clip'] = _keep; css_extra['bgclip_' + ctx.id] = f'#{ctx.id}{{background:transparent !important}}'
                 r['html'] = _bg + r['html'].replace('class="an-bg" style="background:', f'class="an-bg" style="opacity:{1 - float(_bc.get("show", 0.45)):.2f};background:', 1)
+            if s.get('tag'):   # (ship channel v2) source tag ("ILLUSTRATIVE · ..." / film date) drawn ON TOP of every shade, scrim and letterbox
+                body.append(self.tag_layer(ctx, s['tag'], below_bars='class="bar"' in r['html']))
             body.append(r['html']); js.append(f'// ---- {ctx.id}: {name}/{s["variant"]}\n' + '\n'.join(ctx.js) + '\n' + r.get('js', ''))
             if r.get('css'): css_extra[name] = r['css']
             defs_extra.update(r.get('defs') or {})

@@ -29,6 +29,7 @@
    "id": "s02",
    "start": "t4.98",
    "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA · REEF FISH",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
@@ -367,6 +368,7 @@
    "id": "s24",
    "start": "t90.70",
    "sfx": false,
+   "tag": "NASA · HURRICANE RITA, SEPT 2005 (GOES)",
    "template": "number_clip",
    "variant": "right",
    "clip": {
@@ -424,30 +426,34 @@
    "id": "s28",
    "start": "t104.14",
    "sfx": false,
-   "template": "text_card",
-   "variant": "number",
-   "card": true,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c04_s28.mp4",
+    "push": null
+   },
    "params": {
     "kicker": "PRESS, SINKING DAY",
     "number": "≈ $20",
     "unit": "million",
-    "number_at": "@twenty",
-    "kicker_at": 0.15
+    "number_at": "@twenty"
    }
   },
   {
    "id": "s29",
    "start": "t108.76",
    "sfx": false,
-   "template": "text_card",
-   "variant": "number",
-   "card": true,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c04_s29.mp4",
+    "push": null
+   },
    "params": {
     "kicker": "FLORIDA SENATE",
     "number": "≈ $21",
     "unit": "million",
-    "number_at": "@twenty one",
-    "kicker_at": 0.15
+    "number_at": "@twenty one"
    }
   },
   {

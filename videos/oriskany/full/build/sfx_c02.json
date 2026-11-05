@@ -8,6 +8,12 @@
    "note": "map move starts (c02_bremerton)"
   },
   {
+   "shot": "s05",
+   "at": "@thirteen",
+   "role": "pop",
+   "note": "number lands: 13"
+  },
+  {
    "shot": "s06",
    "at": "@struck",
    "role": "pop",
@@ -75,7 +81,7 @@
   },
   {
    "shot": "s16",
-   "at": "@scrap",
+   "at": "@sold",
    "role": "pop",
    "note": "card: SOLD FOR SCRAP"
   },
@@ -111,15 +117,15 @@
   },
   {
    "shot": "s23",
-   "at": "@united",
+   "at": "@cut",
    "role": "pop",
    "note": "card: SCRAP HER IN THE U.S."
   },
   {
    "shot": "s24",
-   "at": "@december",
+   "at": "@protested",
    "role": "pop",
-   "note": "card: WORK HELD UP UNTIL DECEMBER"
+   "note": "card: A PROTEST."
   },
   {
    "shot": "s25",
@@ -183,13 +189,7 @@
  ],
  "generic_video_shots": [
   "s04",
-  "s05",
-  "s08",
-  "s14",
-  "s16",
-  "s23",
-  "s27",
-  "s28"
+  "s08"
  ],
  "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
 }

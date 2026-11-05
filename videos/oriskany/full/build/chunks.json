@@ -158,10 +158,11 @@
    "chapter": "c02"
   },
   {
-   "text": "Four of her sisters were already museums.",
+   "text": "Four of her sisters would become museums.",
    "start": 76.281,
-   "end": 78.785,
-   "chapter": "c02"
+   "end": 78.826,
+   "chapter": "c02",
+   "v2_note": "re-voiced in v2 (was: Four of her sisters were already museums., 2.504 s)"
   },
   {
    "text": "Then, in the early nineteen nineties, an offer came from across the Pacific.",

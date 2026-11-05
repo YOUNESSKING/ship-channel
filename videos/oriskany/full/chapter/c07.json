@@ -41,6 +41,7 @@
    "id": "s03",
    "start": "t6.51",
    "sfx": false,
+   "tag": "NASA · HURRICANE GUSTAV, AUG 2008",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
@@ -137,13 +138,15 @@
    "id": "s11",
    "start": "t36.80",
    "sfx": false,
+   "tag": "ILLUSTRATIVE · U.S. NAVY DIVERS ON A WRECK, COLOMBIA, 2014",
    "template": "text_card",
    "variant": "line",
    "card": true,
    "params": {
     "kicker": "FLORIDA FWC",
     "text": "NEVER GO INSIDE",
-    "at": "@never"
+    "at": "@never",
+    "kicker_at": 0.15
    },
    "clip": {
     "file": "b_c07_s11.mp4",
@@ -166,6 +169,7 @@
    "id": "s13",
    "start": "t42.27",
    "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA · DIVER ON A REEF, FLORIDA KEYS",
    "template": "text_card",
    "variant": "number",
    "card": true,
@@ -173,7 +177,8 @@
     "kicker": "FIRST YEAR",
     "number": "4,200",
     "unit": "dive trips",
-    "number_at": "@four thousand"
+    "number_at": "@four thousand",
+    "kicker_at": 0.15
    },
    "clip": {
     "file": "b_c07_s13.mp4",
@@ -184,6 +189,7 @@
    "id": "s14",
    "start": "t47.27",
    "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA · FISHING, GULF OF MEXICO",
    "template": "text_card",
    "variant": "number",
    "card": true,
@@ -191,7 +197,8 @@
     "kicker": "ECONOMIC IMPACT",
     "number": "$3.6",
     "unit": "million",
-    "number_at": "@three point"
+    "number_at": "@three point",
+    "kicker_at": 0.15
    },
    "clip": {
     "file": "b_c07_s14.mp4",
@@ -293,13 +300,17 @@
    "id": "s21",
    "start": "t71.87",
    "sfx": false,
-   "template": "clip_plain",
-   "variant": "push",
+   "template": "lower_third",
+   "variant": "kicker_line",
    "clip": {
-    "file": "f_c07_s21.mp4",
+    "file": "p_c07_s21.mp4",
     "push": null
    },
-   "params": {}
+   "params": {
+    "kicker": "1976–2006",
+    "text": "NEVER TAKEN APART",
+    "at": "@nobody"
+   }
   },
   {
    "id": "s22",
@@ -329,6 +340,7 @@
    "id": "s24",
    "start": "t85.24",
    "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA · RED SNAPPER, GULF OF MEXICO",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
@@ -378,10 +390,6 @@
       "hero": true
      }
     ]
-   },
-   "bg_clip": {
-    "file": "b_c07_s26.mp4",
-    "show": 0.5
    }
   },
   {
@@ -396,7 +404,7 @@
     "max": 25,
     "items": [
      {
-      "label": "REEF (FINAL)",
+      "label": "REEF · PRESS EST. 2006",
       "value": 20,
       "at": 0.1,
       "count_at": "@bill",
@@ -410,6 +418,7 @@
    "id": "s28",
    "start": "t97.09",
    "sfx": false,
+   "tag": "ILLUSTRATIVE · U.S. NAVY · EX-KITTY HAWK, BREMERTON, 2022",
    "template": "anim_gauge",
    "variant": "bars",
    "params": {
@@ -418,14 +427,14 @@
     "max": 25,
     "items": [
      {
-      "label": "REEF",
+      "label": "REEF · PRESS EST.",
       "value": 20,
       "at": 0.05,
       "count_at": 0.05,
       "dur": 0.3
      },
      {
-      "label": "SCRAP (USNI 2006 EST.)",
+      "label": "SCRAP · USNI 2006 EST.",
       "value": 24,
       "at": "@twenty four",
       "count_at": "@twenty four",
@@ -455,13 +464,15 @@
    "id": "s30",
    "start": "t103.97",
    "sfx": false,
+   "tag": "ILLUSTRATIVE · U.S. NAVY · RETIRED SHIP TOWED OUT, MAYPORT, 2021",
    "template": "text_card",
    "variant": "line",
    "card": true,
    "params": {
     "kicker": "MARAD · REPORT TO CONGRESS · JAN 2008",
     "text": "A WARNING",
-    "at": "@warning"
+    "at": "@warning",
+    "kicker_at": 0.15
    },
    "clip": {
     "file": "b_c07_s30.mp4",
@@ -486,29 +497,14 @@
    "id": "s32",
    "start": "t110.77",
    "sfx": false,
-   "template": "anim_gauge",
-   "variant": "bars",
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
    "params": {
-    "kicker": "Savings *wiped out?*",
-    "unit": "$M",
-    "max": 25,
-    "items": [
-     {
-      "label": "SCRAP",
-      "value": 24,
-      "at": 0.05,
-      "count_at": 0.05,
-      "dur": 0.3
-     },
-     {
-      "label": "REEF, NEW STANDARD",
-      "value": 24,
-      "at": "@wipe",
-      "count_at": "@wipe",
-      "dur": 1.2,
-      "hero": true
-     }
-    ]
+    "kicker": "MARAD · JAN 2008",
+    "text": "SAVINGS COULD BE WIPED OUT",
+    "at": "@wipe",
+    "kicker_at": 0.15
    }
   },
   {
@@ -544,10 +540,6 @@
       "strike_at": "@stick"
      }
     ]
-   },
-   "bg_clip": {
-    "file": "b_c07_s34.mp4",
-    "show": 0.5
    }
   },
   {
@@ -575,6 +567,7 @@
    "id": "s36",
    "start": "t128.40",
    "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA · REEF FISH",
    "template": "anim_options",
    "variant": "list",
    "params": {
@@ -610,20 +603,20 @@
    "template": "anim_gauge",
    "variant": "bars",
    "params": {
-    "kicker": "The cheapest, *by its own sums*",
-    "unit": "$M",
-    "max": 25,
+    "kicker": "The Navy's *own sums*",
+    "unit": "",
+    "max": 4,
     "items": [
      {
-      "label": "SCRAP (EST.)",
-      "value": 24,
+      "label": "SCRAP + RECYCLE",
+      "value": 4,
       "at": 0.05,
       "count_at": 0.05,
       "dur": 0.4
      },
      {
-      "label": "REEF",
-      "value": 20,
+      "label": "REEF + CLEANUP",
+      "value": 1,
       "at": 0.3,
       "count_at": 0.3,
       "dur": 0.8,

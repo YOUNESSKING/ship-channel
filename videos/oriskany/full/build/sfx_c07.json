@@ -87,6 +87,12 @@
    "note": "c07_apart: its main graphic beat (step 2: retime to the scene's event frame)"
   },
   {
+   "shot": "s21",
+   "at": "@nobody",
+   "role": "tick",
+   "note": "label: NEVER TAKEN APART"
+  },
+  {
    "shot": "s22",
    "at": 0.6,
    "role": "pop",
@@ -109,14 +115,14 @@
    "shot": "s27",
    "at": "@bill",
    "role": "hit",
-   "note": "gauge hero bar lands: REEF (FINAL)",
+   "note": "gauge hero bar lands: REEF · PRESS EST. 2006",
    "offset_after": 1.0
   },
   {
    "shot": "s28",
    "at": "@twenty four",
    "role": "hit",
-   "note": "gauge hero bar lands: SCRAP (USNI 2006 EST.)",
+   "note": "gauge hero bar lands: SCRAP · USNI 2006 EST.",
    "offset_after": 1.0
   },
   {
@@ -134,9 +140,8 @@
   {
    "shot": "s32",
    "at": "@wipe",
-   "role": "hit",
-   "note": "gauge hero bar lands: REEF, NEW STANDARD",
-   "offset_after": 1.2
+   "role": "pop",
+   "note": "card: SAVINGS COULD BE WIPED OUT"
   },
   {
    "shot": "s34",
@@ -215,7 +220,7 @@
    "shot": "s37",
    "at": 0.3,
    "role": "hit",
-   "note": "gauge hero bar lands: REEF",
+   "note": "gauge hero bar lands: REEF + CLEANUP",
    "offset_after": 0.8
   },
   {
@@ -293,12 +298,9 @@
   "s11",
   "s13",
   "s14",
-  "s21",
   "s24",
-  "s26",
   "s28",
   "s30",
-  "s34",
   "s36"
  ],
  "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"

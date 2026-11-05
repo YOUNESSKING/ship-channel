@@ -223,7 +223,7 @@
         p.e.style.transform = `translate(${(x - rr * 1.3).toFixed(1)}px,${(SB - rr * 0.9 - a * 8).toFixed(1)}px)`;
         p.e.style.opacity = (Math.min(1, a / 0.3) * Math.max(0, 1 - (a - 0.3) / 3.5) * 0.9).toFixed(3); });
       // gauge: 0 while afloat -> reference (flight deck) while sinking -> seabed on landing
-      const ref = Math.max(0, refDepth(st)), la = t - landT, landK = smooth(la / 0.35);
+      const ref = Math.max(0, refDepth(st)), la = t - landT, landK = la >= 0 ? 1 : 0;   // v2 (critic B N7): the count lands ON the touchdown frame
       let shown, kText, sText;
       if (t < tUnder && refMode === "deck") { shown = 0; kText = "AT THE SURFACE"; sText = "FLIGHT DECK ABOVE WATER"; }
       else if (la < 0 || C.landReadout !== "seabed") { shown = ref; kText = refMode === "deck" ? "FLIGHT DECK DEPTH" : "KEEL DEPTH"; sText = `${fmt(ref * U.k2)} ${U.u2}`; }

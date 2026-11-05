@@ -27,6 +27,26 @@
       if (bot + DROP > SAFE_B) { b.style.top = (cur - (bot + DROP - SAFE_B) - 6) + 'px'; log.push(`lift ${(bot + DROP - SAFE_B + 6).toFixed(0)}px: ${b.textContent.trim().slice(0, 30)}`); }
       else if (right > TR_X && top < TR_Y && left > W * 0.5) { b.style.top = (cur + (TR_Y - top) + 6) + 'px'; log.push(`down ${(TR_Y - top + 6).toFixed(0)}px: ${b.textContent.trim().slice(0, 30)}`); }
     });
+    // shrink-to-fit (Oriskany full v2, critic A M2): a text line wider than its box or than the frame minus a 64 px side margin
+    // (96 px at 1080p) is scaled down until it fits; if that would take any text under MIN_PX, the line wraps instead.
+    const M = 64, lines = new Set();
+    textEls().forEach((e) => { let L = e; while (L && L !== root && getComputedStyle(L).display === 'inline') L = L.parentElement; if (L && L !== root) lines.add(L); });
+    lines.forEach((L) => {
+      if (L.dataset.fit) return;
+      const rg = document.createRange(); rg.selectNodeContents(L); const rt = rg.getBoundingClientRect(), rr = root.getBoundingClientRect();
+      if (!rt.width) return;
+      const c = blockOf(L), cr = c.getBoundingClientRect(), hasW = !!(c.style && c.style.width);
+      const tl = (rt.left - rr.left) / k, tr = (rt.right - rr.left) / k, cl = (cr.left - rr.left) / k, crr = (cr.right - rr.left) / k;
+      const aL = Math.max(M, hasW ? cl : Math.min(tl, W - M)), aR = Math.min(W - M, hasW ? crr : W - M), need = tr - tl, avail = aR - aL;
+      if (need <= avail + 0.5 && tl >= M - 0.5 && tr <= W - M + 0.5) return;
+      const f = Math.min(1, avail / need) * 0.98;
+      const els = [L, ...L.querySelectorAll('*')].filter((x) => Array.from(x.childNodes).some((n) => n.nodeType === 3 && n.textContent.trim()));
+      const sizes = els.map((x) => parseFloat(getComputedStyle(x).fontSize) || 0);
+      L.dataset.fit = '1';
+      if (sizes.every((s) => s * f >= MIN_PX)) { els.forEach((x, i) => { x.style.fontSize = (sizes[i] * f).toFixed(2) + 'px'; }); log.push(`fit x${f.toFixed(2)}: ${L.textContent.trim().slice(0, 30)}`); }
+      else { L.style.whiteSpace = 'normal'; L.querySelectorAll('*').forEach((x) => { x.style.whiteSpace = 'normal'; }); L.style.maxWidth = avail + 'px'; { const ta = getComputedStyle(L).textAlign; if (ta === 'center') { L.style.marginLeft = L.style.marginRight = 'auto'; } else if (ta === 'right' || ta === 'end') L.style.marginLeft = 'auto'; } if (!hasW && c === L) L.style.width = avail + 'px'; log.push(`wrap: ${L.textContent.trim().slice(0, 30)}`); }
+      if (!hasW && tl < M) { const cur = parseFloat(getComputedStyle(c).left) || 0; c.style.left = (cur + (M - tl)) + 'px'; }
+    });
     window.__safeLog = (window.__safeLog || []).concat(log);
   }
   pass();

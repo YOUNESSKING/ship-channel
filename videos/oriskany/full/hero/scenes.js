@@ -120,7 +120,8 @@
     board(S, { seed: 3 });
     S.kicker("HER ESSEX-CLASS SISTERS", 0.05);
     const K = root.ShipKit, tMus = S.w("museums", 1.66), cells = [[150, 300], [1010, 300], [150, 630], [1010, 630]];
-    const tIn = [0.1, S.w("of her", 0.3), S.w("sisters", 0.52), S.w("were", 0.9)];
+    // v2: the first silhouette is already in at the cut (critic A S11: no empty frame); narration now "would become museums" (S8)
+    const tIn = [-0.6, S.w("of her", 0.3), S.w("sisters", 0.52), S.w("would", 0.9)], YEARS = ["1975", "1982", "1992", "1998"];
     cells.forEach(([x, y], i) => {
       const g = S.el("div", `position:absolute;left:${x}px;top:${y}px;width:760px;height:240px;opacity:0`);
       // CarrierHero in service paint (the detailed hero drawing), waterline at y = 190 in the cell
@@ -129,10 +130,10 @@
       S.el("div", `position:absolute;left:-20px;top:${wl - 2}px;width:780px;height:4px;background:linear-gradient(90deg,transparent,rgba(190,220,225,.55),transparent)`, null, g);
       const t0 = tIn[i];
       S.on((t) => { const k = oCub(ramp(t, t0, 0.55)); g.style.opacity = k.toFixed(3); g.style.transform = `translateX(${((1 - k) * (i % 2 ? 160 : -160)).toFixed(1)}px)`; });
-      const tg = S.tag("MUSEUM", x + 470, y - 10, tMus + i * 0.09, { col: GOLD, fs: 46, bg: 1 });
+      const tg = S.tag("MUSEUM · " + YEARS[i], x + 400, y - 10, tMus + i * 0.09, { col: GOLD, fs: 46, bg: 1 });
       tg.style.background = "rgba(201,180,138,.95)"; tg.style.color = "#14110b"; tg.style.borderLeft = "6px solid #fff3d6";
     });
-    S.beat(tMus, "pop", "MUSEUM tags pop (x4, 0.09 s apart)", true);
+    S.beat(tMus, "pop", "MUSEUM · YEAR tags pop (x4, 0.09 s apart: 1975 / 1982 / 1992 / 1998)", true);
     tIn.forEach((t, i) => S.beat(t, "whoosh", `sister ${i + 1} slides in`));
   }
 
