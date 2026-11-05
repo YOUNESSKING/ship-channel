@@ -642,10 +642,22 @@
   "clip_dur": 6.0,
   "windows": [
    [
-    140.0,
-    162.1
+    144.1,
+    161.8
    ]
   ],
-  "longest": 22.1
+  "longest": 17.7
+ },
+ "b1_launch_ways.mp4": {
+  "reel": "39085",
+  "clip_in": 69.0,
+  "clip_dur": 3.0,
+  "windows": [
+   [
+    69.05,
+    71.95
+   ]
+  ],
+  "longest": 2.9
  }
 }

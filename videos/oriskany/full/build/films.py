@@ -5,7 +5,7 @@ FILMS = [
  ('b_c02_s08', 'g_fm_tow.mp4', 128.15, 5.64, 'ILLUSTRATIVE · U.S. NAVY · RETIRED SHIP UNDER TOW, MAYPORT, 2021'),
  ('f_c02_s35', 'b1_launch_crowd.mp4', -1.42, 4.43, ''),
  ('f_c03_s02', 'b1_launch_hull.mp4', -0.4, 4.76, ''),
- ('b_c03_s03', 'b1_launch_ways.mp4', 69.2, 2.8, ''),
+ ('b_c03_s03', 'b1_launch_ways.mp4', 0.2, 2.8, ''),
  ('f_c03_s04', 'b1_launch_bow.mp4', -0.9, 4.96, ''),
  ('f_c03_s09', 'b2_f4u_corsair_landing.mp4', -0.7, 2.98, ''),
  ('f_c03_s11', 'b2_f9f_panther_deck.mp4', 1.3, 2.02, ''),

@@ -99,7 +99,8 @@ for s in SEG:
         if s.get("label"): sh["label"] = s["label"]
         if s.get("fit"): sh["fit"] = s["fit"]
         if s["reel"] == "39085": sh["crop"] = "1440:1080:240:0"   # 208-UN-177 is pillarboxed inside 1920x1080 (as cut_clips.sh / film_windows.py)
-        if s["reel"] == "87411": sh["crop"] = "684:456:16:12"     # v4 (critic A N2): the 1969 aerials carry film-gate slivers at both edges
+        if s["reel"] == "87411": sh["crop"] = "666:452:22:14"     # v4 (critic A N2): the 1969 aerials carry film-gate slivers at both edges (the right one drifts in up to ~10 px)
+        if s.get("clip") == "b3_aerial_underway2_1969.mp4": sh["crop"] = "612:440:26:20"   # this section's gate edge drifts ~60 px in from the right
         if s.get("slow"):   # a short cut-free window played slowed (test v4 f04 recipe): build the source length, then stretch
             import subprocess
             src_d = round(s["dur"] / s["slow"], 3); A.film_shot(sh, src_d, out, W, H, ENC); tmp = out + ".slow.mp4"

@@ -1,0 +1,109 @@
+oriskany_full_v4.mp4: BLOB    0.00-  2.20s  dark blob up to 42% of the frame
+oriskany_full_v4.mp4: BLOB   10.00- 13.77s  dark blob up to 76% of the frame
+oriskany_full_v4.mp4: BLOB   18.80- 19.30s  dark blob up to 29% of the frame
+oriskany_full_v4.mp4: BLOB   20.57- 21.20s  dark blob up to 31% of the frame
+oriskany_full_v4.mp4: BLOB   29.60- 32.70s  dark blob up to 74% of the frame
+oriskany_full_v4.mp4: BLOB   34.90- 37.80s  dark blob up to 93% of the frame
+oriskany_full_v4.mp4: BLOB   41.57- 43.70s  dark blob up to 60% of the frame
+oriskany_full_v4.mp4: BLOB   48.63- 55.50s  dark blob up to 39% of the frame
+oriskany_full_v4.mp4: BLOB   55.63- 55.87s  dark blob up to 27% of the frame
+oriskany_full_v4.mp4: BLOB   55.90- 56.83s  dark blob up to 28% of the frame
+oriskany_full_v4.mp4: BLOB   63.37- 67.73s  dark blob up to 47% of the frame
+oriskany_full_v4.mp4: BLOB   73.53- 75.00s  dark blob up to 33% of the frame
+oriskany_full_v4.mp4: BLOB   75.03- 75.83s  dark blob up to 29% of the frame
+oriskany_full_v4.mp4: BLOB   76.03- 92.43s  dark blob up to 98% of the frame
+oriskany_full_v4.mp4: BLOB   96.00-101.73s  dark blob up to 100% of the frame
+oriskany_full_v4.mp4: BLOB  102.13-107.30s  dark blob up to 99% of the frame
+oriskany_full_v4.mp4: BLOB  110.07-167.43s  dark blob up to 99% of the frame
+oriskany_full_v4.mp4: BLOB  172.73-176.73s  dark blob up to 74% of the frame
+oriskany_full_v4.mp4: BLOB  181.23-196.83s  dark blob up to 99% of the frame
+oriskany_full_v4.mp4: BLOB  202.50-205.67s  dark blob up to 35% of the frame
+oriskany_full_v4.mp4: BLOB  208.37-208.60s  dark blob up to 31% of the frame
+oriskany_full_v4.mp4: BLOB  209.67-211.53s  dark blob up to 30% of the frame
+oriskany_full_v4.mp4: BLOB  213.17-217.37s  dark blob up to 55% of the frame
+oriskany_full_v4.mp4: BLOB  219.70-227.23s  dark blob up to 100% of the frame
+oriskany_full_v4.mp4: BLOB  233.83-234.27s  dark blob up to 36% of the frame
+oriskany_full_v4.mp4: BLOB  234.60-236.00s  dark blob up to 34% of the frame
+oriskany_full_v4.mp4: BLOB  242.03-245.40s  dark blob up to 41% of the frame
+oriskany_full_v4.mp4: BLOB  251.70-257.97s  dark blob up to 100% of the frame
+oriskany_full_v4.mp4: BLOB  261.70-262.57s  dark blob up to 28% of the frame
+oriskany_full_v4.mp4: BLOB  266.17-278.30s  dark blob up to 93% of the frame
+oriskany_full_v4.mp4: BLOB  278.87-280.30s  dark blob up to 30% of the frame
+oriskany_full_v4.mp4: BLOB  280.63-281.00s  dark blob up to 28% of the frame
+oriskany_full_v4.mp4: BLOB  281.23-282.73s  dark blob up to 29% of the frame
+oriskany_full_v4.mp4: BLOB  291.90-294.10s  dark blob up to 80% of the frame
+oriskany_full_v4.mp4: BLOB  296.07-298.30s  dark blob up to 28% of the frame
+oriskany_full_v4.mp4: BLOB  305.37-308.00s  dark blob up to 38% of the frame
+oriskany_full_v4.mp4: BLOB  312.03-317.27s  dark blob up to 67% of the frame
+oriskany_full_v4.mp4: BLOB  322.80-329.67s  dark blob up to 63% of the frame
+oriskany_full_v4.mp4: BLOB  333.70-341.27s  dark blob up to 54% of the frame
+oriskany_full_v4.mp4: BLOB  341.30-341.63s  dark blob up to 26% of the frame
+oriskany_full_v4.mp4: BLOB  341.67-342.03s  dark blob up to 26% of the frame
+oriskany_full_v4.mp4: BLOB  342.07-346.60s  dark blob up to 62% of the frame
+oriskany_full_v4.mp4: BLOB  355.97-367.70s  dark blob up to 44% of the frame
+oriskany_full_v4.mp4: BLOB  371.67-391.23s  dark blob up to 93% of the frame
+oriskany_full_v4.mp4: BLOB  395.73-398.20s  dark blob up to 100% of the frame
+oriskany_full_v4.mp4: BLOB  398.37-401.03s  dark blob up to 100% of the frame
+oriskany_full_v4.mp4: BLOB  401.20-427.63s  dark blob up to 100% of the frame
+oriskany_full_v4.mp4: BLOB  427.80-442.70s  dark blob up to 95% of the frame
+oriskany_full_v4.mp4: BLOB  442.80-445.53s  dark blob up to 31% of the frame
+oriskany_full_v4.mp4: BLOB  445.70-456.27s  dark blob up to 79% of the frame
+oriskany_full_v4.mp4: BLOB  459.27-461.83s  dark blob up to 100% of the frame
+oriskany_full_v4.mp4: BLOB  462.00-464.13s  dark blob up to 95% of the frame
+oriskany_full_v4.mp4: BLOB  473.43-474.43s  dark blob up to 100% of the frame
+oriskany_full_v4.mp4: BLOB  474.63-477.67s  dark blob up to 100% of the frame
+oriskany_full_v4.mp4: BLOB  477.83-488.77s  dark blob up to 94% of the frame
+oriskany_full_v4.mp4: BLOB  488.93-489.17s  dark blob up to 28% of the frame
+oriskany_full_v4.mp4: BLOB  489.23-489.63s  dark blob up to 32% of the frame
+oriskany_full_v4.mp4: BLOB  491.33-500.87s  dark blob up to 51% of the frame
+oriskany_full_v4.mp4: BLOB  504.13-507.47s  dark blob up to 41% of the frame
+oriskany_full_v4.mp4: BLOB  512.77-521.40s  dark blob up to 93% of the frame
+oriskany_full_v4.mp4: BLOB  524.30-526.27s  dark blob up to 42% of the frame
+oriskany_full_v4.mp4: BLOB  527.50-528.37s  dark blob up to 25% of the frame
+oriskany_full_v4.mp4: BLOB  537.63-543.33s  dark blob up to 47% of the frame
+oriskany_full_v4.mp4: BLOB  545.93-553.40s  dark blob up to 76% of the frame
+oriskany_full_v4.mp4: BLOB  556.50-557.07s  dark blob up to 26% of the frame
+oriskany_full_v4.mp4: BLOB  557.10-559.13s  dark blob up to 28% of the frame
+oriskany_full_v4.mp4: BLOB  560.80-561.17s  dark blob up to 27% of the frame
+oriskany_full_v4.mp4: BLOB  565.87-568.67s  dark blob up to 93% of the frame
+oriskany_full_v4.mp4: BLOB  571.90-576.63s  dark blob up to 93% of the frame
+oriskany_full_v4.mp4: BLOB  578.90-582.83s  dark blob up to 35% of the frame
+oriskany_full_v4.mp4: BLOB  583.30-590.30s  dark blob up to 36% of the frame
+oriskany_full_v4.mp4: BLOB  591.97-597.40s  dark blob up to 42% of the frame
+oriskany_full_v4.mp4: BLOB  604.37-616.00s  dark blob up to 82% of the frame
+oriskany_full_v4.mp4: BLOB  619.17-631.43s  dark blob up to 85% of the frame
+oriskany_full_v4.mp4: BLOB  635.47-646.53s  dark blob up to 74% of the frame
+oriskany_full_v4.mp4: BLOB  646.70-654.17s  dark blob up to 82% of the frame
+oriskany_full_v4.mp4: BLOB  660.27-671.30s  dark blob up to 74% of the frame
+oriskany_full_v4.mp4: BLOB  671.60-671.97s  dark blob up to 27% of the frame
+oriskany_full_v4.mp4: BLOB  672.13-686.53s  dark blob up to 93% of the frame
+oriskany_full_v4.mp4: BLOB  693.07-694.40s  dark blob up to 39% of the frame
+oriskany_full_v4.mp4: BLOB  700.83-703.83s  dark blob up to 42% of the frame
+oriskany_full_v4.mp4: BLOB  723.33-727.00s  dark blob up to 94% of the frame
+oriskany_full_v4.mp4: BLOB  728.83-738.03s  dark blob up to 94% of the frame
+oriskany_full_v4.mp4: BLOB  743.27-757.43s  dark blob up to 93% of the frame
+oriskany_full_v4.mp4: BLOB  757.60-766.80s  dark blob up to 90% of the frame
+oriskany_full_v4.mp4: BLOB  771.80-773.40s  dark blob up to 36% of the frame
+oriskany_full_v4.mp4: BLOB  775.13-776.80s  dark blob up to 100% of the frame
+oriskany_full_v4.mp4: BLOB  776.97-781.27s  dark blob up to 100% of the frame
+oriskany_full_v4.mp4: BLOB  781.43-783.73s  dark blob up to 96% of the frame
+oriskany_full_v4.mp4: BLOB  784.33-786.03s  dark blob up to 33% of the frame
+oriskany_full_v4.mp4: BLOB  786.40-788.13s  dark blob up to 32% of the frame
+oriskany_full_v4.mp4: BLOB  790.70-797.33s  dark blob up to 68% of the frame
+oriskany_full_v4.mp4: BLOB  805.33-808.63s  dark blob up to 83% of the frame
+oriskany_full_v4.mp4: BLOB  812.57-813.33s  dark blob up to 27% of the frame
+oriskany_full_v4.mp4: BLOB  813.57-814.60s  dark blob up to 26% of the frame
+oriskany_full_v4.mp4: BLOB  815.03-819.30s  dark blob up to 38% of the frame
+oriskany_full_v4.mp4: BLOB  829.30-834.73s  dark blob up to 44% of the frame
+oriskany_full_v4.mp4: BLOB  842.63-845.20s  dark blob up to 45% of the frame
+oriskany_full_v4.mp4: BLOB  865.20-865.60s  dark blob up to 100% of the frame
+oriskany_full_v4.mp4: FLASH   4.30-  4.37s  brightness spike / burn (2 frames)
+oriskany_full_v4.mp4: FLASH  17.67- 17.70s  brightness spike / burn (1 frames)
+oriskany_full_v4.mp4: FLASH  92.43- 92.47s  brightness spike / burn (1 frames)
+oriskany_full_v4.mp4: FLASH  95.97- 96.00s  brightness spike / burn (1 frames)
+oriskany_full_v4.mp4: FLASH 213.13-213.17s  brightness spike / burn (1 frames)
+oriskany_full_v4.mp4: FLASH 238.93-238.97s  brightness spike / burn (1 frames)
+oriskany_full_v4.mp4: FLASH 317.27-317.30s  brightness spike / burn (1 frames)
+oriskany_full_v4.mp4: FLASH 355.93-355.97s  brightness spike / burn (1 frames)
+oriskany_full_v4.mp4: FLASH 526.27-526.33s  brightness spike / burn (2 frames)
+oriskany_full_v4.mp4: FLASH 788.13-788.17s  brightness spike / burn (1 frames)

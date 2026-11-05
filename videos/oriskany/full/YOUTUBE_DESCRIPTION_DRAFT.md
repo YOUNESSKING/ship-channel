@@ -1,4 +1,4 @@
-# YouTube description draft: USS Oriskany full video (oriskany_full_v3.mp4, 14:25.6; chapter timestamps re-checked against the v3 cut: unchanged, the v3 ending cut is inside the last chapter)
+# YouTube description draft: USS Oriskany full video (oriskany_full_v4.mp4, 14:25.6; chapter timestamps re-checked against v4: unchanged (v4 changed picture and sound only, no timing))
 
 **Upload settings to tick (do not skip):**
 - **Altered or synthetic content: YES** (the narration is an AI voice; the ship drawings and sinking animation are made graphics).
