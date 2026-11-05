@@ -261,7 +261,7 @@
       rc.forEach((c, i) => { const ti = tStartCount + 0.62 * i / 8; c.setAttribute("opacity", b && t >= ti ? 1 : 0);
         const a = t - ti; rr[i].setAttribute("opacity", b && a >= 0 && a < 0.5 ? (1 - a / 0.5).toFixed(3) : 0); rr[i].setAttribute("r", (22 + 40 * clamp(a / 0.5, 0, 1)).toFixed(1)); });
       if (b) { big.style.opacity = sm(ramp(t, tStartCount - 0.1, 0.15)).toFixed(3);
-        big.innerHTML = `${Math.max(1, n)}<span style="font-size:72px;color:${GOLD};margin-left:22px;font-weight:500;letter-spacing:.08em">ROUNDS</span>`;
+        big.innerHTML = `${Math.max(1, n)}<span style="font-size:72px;color:${GOLD};margin-left:22px;font-weight:500;letter-spacing:.08em">${Math.max(1, n) === 1 ? "ROUND" : "ROUNDS"}</span>`;   // v4 N5: never "1 ROUNDS"
         big.style.transform = `scale(${(t >= tEight ? 1 + 0.16 * Math.exp(-(t - tEight) * 8) : 1).toFixed(3)})`; }
     });
     if (!b) { S.beat(tDec, "pop", "DEC 2006 lands"); S.beat(tNov, "pop", "NOV 2010 lands, line complete", true); S.beat(tState, "whoosh", "fish icons drop on the 8 rounds"); }
@@ -352,9 +352,9 @@
         `${FISH(col, 96)}<span style="font-size:46px;font-weight:700;color:${CREAM};letter-spacing:.05em;white-space:nowrap">${name}</span>`);
       S.pop(e, t0, {}); return e; };
     const tokens = isSp ? [tok("RED SNAPPER", "#d4655a", 400, VY(66) - 34, T.red, 1), tok("PORGIES", "#d9a0a0", 860, VY(66) - 34, T.por, 1),
-      tok("VERMILION SNAPPER", "#e06a4f", 400, VY(10) - 40, T.ver, 0), tok("SCAMP", "#9a8a72", 960, VY(10) - 40, T.scamp, 0)] : [];
+      tok("VERMILION SNAPPER", "#e06a4f", 400, VY(10) - 40, T.ver, 0), tok("SCAMP", "#9a8a72", 1040, VY(10) - 40, T.scamp, 0)] : [];
     const hiLab = isSp ? lbl("HIGHEST READINGS", PX0 + 24, PY0 - 2, `font-size:42px;color:${AMBER};font-weight:500;letter-spacing:.1em`) : null;
-    const neverLab = isSp ? lbl("NEVER CROSSED EITHER LINE", PX0 + 24, VY(20) - 58, `font-size:42px;color:${TEAL};font-weight:500;letter-spacing:.1em`) : null;
+    const neverLab = isSp ? lbl("NEVER CROSSED EITHER LINE", PX0 + 24, VY(20) - 74, `font-size:42px;color:${TEAL};font-weight:500;letter-spacing:.1em`) : null;
 
     S.on((t) => {
       const show = (t0, d = 0.35) => sm(ramp(t, t0, d));
@@ -688,7 +688,7 @@
     const off = stage === "b" ? A.shot_dur : 0, D = A.shot_dur + B.dur, tLand = A.shot_dur + wB("twelve", 0.94);
     // tune landAt so the hull touches on "twelve" (the kit lands ~ on landAt*D; search it)
     let lo = 0.3, hi = 0.98, Sk = null;
-    const mk = (la) => root.ShipSink(S.stage, { ship: "carrier", depthFt: 212, duration: D, mode: "stern", pitch: 9, charges: false, sinkStart: 0.02, landAt: la, sonar: true, markers: false, settleFt: 0 });
+    const mk = (la) => root.ShipSink(S.stage, { ship: "carrier", depthFt: 212, duration: D, mode: "stern", pitch: 9, charges: false, sinkStart: 0.02, landAt: la, sonar: true, markers: false, settleFt: 0, levelEarly: true });
     for (let it = 0; it < 18; it++) { const m = (lo + hi) / 2; Sk = mk(m); if (Sk.landT < tLand) lo = m; else hi = m; }
     Sk = mk((lo + hi) / 2);
     // compass: in this side view the bow (right) points due south

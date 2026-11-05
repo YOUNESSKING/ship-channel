@@ -125,7 +125,8 @@ class Ctx:
     @property
     def clip(self): return self.shot.get('clip') or {}
     @property
-    def plain(self): return bool(self.shot.get('card') or self.params.get('plain')) and not self.clip.get('file')
+    def plain(self):   # (ship v4) "card_bg": a centred text card over a dimmed moving clip (owner: no plain dark cards)
+        return bool(self.shot.get('card') or self.params.get('plain')) and (not self.clip.get('file') or bool(self.shot.get('card_bg')))
     def video(self, push=(1.0, 1.06, '50% 50%'), track=1, dim=None):
         """The shot's video element (conformed, trimmed) + its slow push + optional jumps. Returns html ('' if the shot has no clip)."""
         c = self.clip

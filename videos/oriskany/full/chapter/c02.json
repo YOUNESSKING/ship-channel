@@ -190,7 +190,12 @@
     "kicker": "THE PLAN",
     "at": "@city",
     "kicker_at": 0.15
-   }
+   },
+   "clip": {
+    "file": "b_c02_s12.mp4",
+    "push": null
+   },
+   "card_bg": true
   },
   {
    "id": "s13",
@@ -254,7 +259,12 @@
     "kicker": "EARLY 1990s",
     "at": "@sold",
     "kicker_at": 0.15
-   }
+   },
+   "clip": {
+    "file": "b_c02_s16.mp4",
+    "push": null
+   },
+   "card_bg": true
   },
   {
    "id": "s17",
@@ -266,7 +276,12 @@
    "params": {
     "text": "DEFAULTED.",
     "at": "@defaulted"
-   }
+   },
+   "clip": {
+    "file": "b_c02_s17.mp4",
+    "push": null
+   },
+   "card_bg": true
   },
   {
    "id": "s18",
@@ -316,6 +331,10 @@
     "number": "$600,000",
     "number_at": "@six",
     "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c02_s21.mp4",
+    "push": null
    }
   },
   {
@@ -329,6 +348,10 @@
     "number": "3",
     "unit": "bids",
     "number_at": "@three"
+   },
+   "clip": {
+    "file": "b_c02_s22.mp4",
+    "push": null
    }
   },
   {
@@ -343,7 +366,12 @@
     "text": "SCRAP HER IN THE U.S.",
     "at": "@cut",
     "kicker_at": 0.15
-   }
+   },
+   "clip": {
+    "file": "b_c02_s23.mp4",
+    "push": null
+   },
+   "card_bg": true
   },
   {
    "id": "s24",
@@ -358,7 +386,12 @@
     "aside": "Work held up until December.",
     "aside_at": "@december",
     "joke_sound": false
-   }
+   },
+   "clip": {
+    "file": "b_c02_s24.mp4",
+    "push": null
+   },
+   "card_bg": true
   },
   {
    "id": "s25",
@@ -396,7 +429,12 @@
     "text": "ALMOST NOTHING CUT",
     "at": "@almost",
     "kicker_at": 0.15
-   }
+   },
+   "clip": {
+    "file": "b_c02_s27.mp4",
+    "push": null
+   },
+   "card_bg": true
   },
   {
    "id": "s28",
@@ -408,7 +446,12 @@
    "params": {
     "text": "DEFAULTED.",
     "at": "@default"
-   }
+   },
+   "clip": {
+    "file": "b_c02_s28.mp4",
+    "push": null
+   },
+   "card_bg": true
   },
   {
    "id": "s29",

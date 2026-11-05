@@ -182,6 +182,10 @@
     "unit": "a.m.",
     "number_at": "@ten",
     "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c05_s12.mp4",
+    "push": null
    }
   },
   {
@@ -328,7 +332,12 @@
     "text": "LARGEST ARTIFICIAL REEF IN THE WORLD",
     "at": "@largest",
     "kicker_at": 0.15
-   }
+   },
+   "clip": {
+    "file": "b_c05_s22.mp4",
+    "push": null
+   },
+   "card_bg": true
   },
   {
    "id": "s23",

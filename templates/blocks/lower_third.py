@@ -13,7 +13,8 @@ def build(ctx):
     if pl:
         size = ctx.p('size', 84 if v != 'two_part' else 70); k = ctx.p('kicker', ''); aside = ctx.p('aside', ''); aat = ctx.t(ctx.p('aside_at'), at - ctx.a + .6)
         kat = ctx.p('kicker_at'); kat = ctx.t(kat) if (kat is not None and k) else None   # kicker shows first, on its own
-        inner = block(f'{p}-blk', 0, 270, 1280, (f'<div id="{p}-k" class="jo gold{" op0" if kat is not None else ""}" style="margin-bottom:18px">{rich(k)}</div>' if k else '')
+        dim = '<div class="cardDim"></div>' if ctx.clip.get('file') else ''   # v4: soft full-frame shade over the moving background
+        inner = dim + block(f'{p}-blk', 0, 270, 1280, (f'<div id="{p}-k" class="jo gold{" op0" if kat is not None else ""}" style="margin-bottom:18px">{rich(k)}</div>' if k else '')
             + f'<span id="{p}-t" class="it" style="font-size:{size}px">{rich(text)}</span>' + (f'<span id="{p}-b" class="it" style="font-size:{size}px;color:#f6efe0;margin-left:.35em">{rich(aside)}</span>' if aside else '') + '<div class="gr op0" id="' + p + '-g"></div>')
         if kat is not None: js.append(f"tl.set('#{p}-blk',{{opacity:1}},{min(kat, at) - .1:.3f});drop('#{p}-k',{kat - .1:.3f});")
         js.append((f"drop('#{p}-blk',{at - .1:.3f});" if kat is None else '') + f"write('#{p}-t',{at:.3f},.4);underline('#{p}-g',{at + .3:.3f},.6);" + (f"write('#{p}-b',{aat:.3f},.6);" if aside else ''))

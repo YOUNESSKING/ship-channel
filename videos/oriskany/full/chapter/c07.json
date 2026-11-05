@@ -233,6 +233,7 @@
    "id": "s17",
    "start": "t56.73",
    "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA · RED SNAPPER LANDED, GULF OF MEXICO",
    "template": "text_card",
    "variant": "number",
    "card": true,
@@ -240,6 +241,10 @@
     "number": "67",
     "unit": "jobs",
     "number_at": "@sixty"
+   },
+   "clip": {
+    "file": "b_c07_s17.mp4",
+    "push": null
    }
   },
   {
@@ -361,7 +366,12 @@
     "text": "REEF vs. SCRAP",
     "at": "@reefing",
     "kicker_at": 0.15
-   }
+   },
+   "clip": {
+    "file": "b_c07_s25.mp4",
+    "push": null
+   },
+   "card_bg": true
   },
   {
    "id": "s26",
@@ -491,7 +501,12 @@
     "text": "CLEAN TO THE NEW STANDARD",
     "at": "@standard",
     "kicker_at": 0.15
-   }
+   },
+   "clip": {
+    "file": "b_c07_s31.mp4",
+    "push": null
+   },
+   "card_bg": true
   },
   {
    "id": "s32",
@@ -505,7 +520,12 @@
     "text": "SAVINGS COULD BE WIPED OUT",
     "at": "@wipe",
     "kicker_at": 0.15
-   }
+   },
+   "clip": {
+    "file": "b_c07_s32.mp4",
+    "push": null
+   },
+   "card_bg": true
   },
   {
    "id": "s33",

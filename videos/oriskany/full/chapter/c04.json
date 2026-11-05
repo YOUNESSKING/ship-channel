@@ -240,7 +240,12 @@
     "text": "CONTAMINATED MATERIAL COMES OUT",
     "at": "@material",
     "kicker_at": 0.15
-   }
+   },
+   "clip": {
+    "file": "b_c04_s15.mp4",
+    "push": null
+   },
+   "card_bg": true
   },
   {
    "id": "s16",
@@ -252,7 +257,12 @@
    "params": {
     "text": "UNLESS THE EPA AGREES",
     "at": "@unless"
-   }
+   },
+   "clip": {
+    "file": "b_c04_s16.mp4",
+    "push": null
+   },
+   "card_bg": true
   },
   {
    "id": "s17",
@@ -302,6 +312,10 @@
     "number": "½+",
     "number_at": "@half",
     "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c04_s19.mp4",
+    "push": null
    }
   },
   {
@@ -317,6 +331,10 @@
     "unit": "million",
     "number_at": "@three point",
     "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c04_s20.mp4",
+    "push": null
    }
   },
   {
@@ -368,11 +386,10 @@
    "id": "s24",
    "start": "t90.70",
    "sfx": false,
-   "tag": "NASA · HURRICANE RITA, SEPT 2005 (GOES)",
    "template": "number_clip",
    "variant": "right",
    "clip": {
-    "file": "f_c04_s24.mp4",
+    "file": "s_c04_s24.mp4",
     "push": null
    },
    "params": {

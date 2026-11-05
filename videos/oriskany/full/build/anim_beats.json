@@ -356,10 +356,10 @@
    "narration": "Two hundred and twelve feet down.",
    "beats": [
     {
-     "t": 0.935,
+     "t": 0.939,
      "frame": 28,
-     "chapter_t": 59.786,
-     "abs_t": 544.269,
+     "chapter_t": 59.79,
+     "abs_t": 544.273,
      "kind": "land",
      "note": "touchdown: gauge lands ON THE SEABED 212 FT, silt puff",
      "main": true
@@ -372,7 +372,7 @@
      "kind": "sonar_ping_3"
     },
     {
-     "t": 0.935,
+     "t": 0.939,
      "kind": "number_land_1"
     }
    ]

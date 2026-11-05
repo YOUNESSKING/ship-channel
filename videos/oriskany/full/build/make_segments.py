@@ -46,6 +46,25 @@ def add_tag(out, text):
     os.replace(tmp, out); os.remove(tp)
 
 
+def still_shot(s, out):
+    """v4: a slowly moving still of one frame of an already rendered map / hero segment (backgrounds under cards, the June 2005
+    tow map under the $800,000 number). No re-grade (the map look is final). Frame = s["at"] seconds into segments/<src>, or "end"."""
+    import subprocess
+    src = os.path.join(OUT, s["src"])
+    d = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", src]).decode())
+    at = d - 0.45 if s["at"] == "end" else float(s["at"])
+    png = out + ".still.png"
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-ss", f"{at:.3f}", "-i", src, "-frames:v", "1", png], check=True)
+    n = max(2, round(s["dur"] * 30)); mv = s.get("move", "in"); q = f"(on/{n - 1})"
+    z, x = {"in": (f"1+0.07*{q}", "(iw-iw/zoom)/2"), "out": (f"1.07-0.07*{q}", "(iw-iw/zoom)/2"),
+            "left": ("1.07", f"(iw-iw/zoom)*(1-{q})"), "right": ("1.07", f"(iw-iw/zoom)*{q}"),
+            "in_s": (f"1+0.03*{q}", "(iw-iw/zoom)/2")}[mv]   # in_s: a gentle push that keeps a map's corner labels whole
+    y = "(ih-ih/zoom)/2"
+    vf = (f"scale=3840:2160,zoompan=z='{z}':x='{x}':y='{y}':d={n}:s={W}x{H}:fps=30")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-i", png, "-vf", vf, "-frames:v", str(n), *ENC, out], check=True)
+    os.remove(png)
+
+
 def photo_src(pid):
     for n in (f"nara_{pid}.jpg", f"{pid}.jpg", f"{pid}.png"):
         p = os.path.join(FT, "photos", n)
@@ -55,6 +74,12 @@ def photo_src(pid):
 
 films, shots, missing = [], [], []
 for s in SEG:
+    if s["kind"] == "still":
+        out = os.path.join(OUT, s["file"])
+        if (only and s["file"] in only) or (not only and not os.path.exists(out)):
+            if "still" in kinds or not [a for a in args if a in ("film", "photo", "still")]:
+                t = time.time(); still_shot(s, out); print(f"{s['file']} ok ({time.time() - t:.0f}s)", flush=True)
+        continue
     if s["kind"] not in kinds: continue
     out = os.path.join(OUT, s["file"])
     if s["kind"] == "film":
@@ -72,6 +97,7 @@ for s in SEG:
         if s.get("label"): sh["label"] = s["label"]
         if s.get("fit"): sh["fit"] = s["fit"]
         if s["reel"] == "39085": sh["crop"] = "1440:1080:240:0"   # 208-UN-177 is pillarboxed inside 1920x1080 (as cut_clips.sh / film_windows.py)
+        if s["reel"] == "87411": sh["crop"] = "684:456:16:12"     # v4 (critic A N2): the 1969 aerials carry film-gate slivers at both edges
         if s.get("slow"):   # a short cut-free window played slowed (test v4 f04 recipe): build the source length, then stretch
             import subprocess
             src_d = round(s["dur"] / s["slow"], 3); A.film_shot(sh, src_d, out, W, H, ENC); tmp = out + ".slow.mp4"

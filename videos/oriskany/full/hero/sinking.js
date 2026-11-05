@@ -59,7 +59,11 @@
       else {
         const p = clamp((t - t1) / (tL - t1), 0, 1.4);
         h = H0 * 1.06 * Math.pow(Math.min(p, 1.3), 1.55);                  // accelerating, still moving when it hits
-        const up = smooth((t - t1) / ((tL - t1) * 0.32)), down = smooth((t - (tL - (tL - t1) * 0.18)) / (D * 0.12));
+        // v4 (critic A N1): levelEarly = the hull finishes levelling out just BEFORE it reaches the seabed, so the touchdown
+        // frame (where the gauge prints ON THE SEABED) shows her upright, not still tilted in mid-water
+        const drop = (L / 2) * Math.abs(Math.sin(pitchMax * Math.PI / 180));   // how far the stern hangs below the level hull (ft)
+        const up = smooth((t - t1) / ((tL - t1) * 0.32));
+        const down = C.levelEarly ? smooth((h - (H0 - 3 * drop)) / (2 * drop)) : smooth((t - (tL - (tL - t1) * 0.18)) / (D * 0.12));
         th = pitchMax * up * (1 - down) + (+C.restPitch || 0) * down + (dir === 0 ? 0.8 * Math.sin(t * 0.9) * (1 - down) : 0);
       }
       return { h, th };

@@ -138,6 +138,17 @@
  },
  {
   "chapter": "c02",
+  "shot": "s12",
+  "file": "b_c02_s12.mp4",
+  "kind": "still",
+  "src": "m_c02_pacific_b.mp4",
+  "at": "end",
+  "dur": 2.41,
+  "move": "in",
+  "under": "CARD"
+ },
+ {
+  "chapter": "c02",
   "shot": "s13",
   "file": "p_c02_s13.mp4",
   "kind": "photo",
@@ -159,6 +170,28 @@
   "t0_abs": 99.893,
   "narration": "So the Navy tried the scrapyard.",
   "shows": "Back at the Bremerton pin; tag 'FOR SCRAP' on 'scrapyard'"
+ },
+ {
+  "chapter": "c02",
+  "shot": "s16",
+  "file": "b_c02_s16.mp4",
+  "kind": "still",
+  "src": "m_c02_scrap_a.mp4",
+  "at": "end",
+  "dur": 3.97,
+  "move": "in",
+  "under": "CARD"
+ },
+ {
+  "chapter": "c02",
+  "shot": "s17",
+  "file": "b_c02_s17.mp4",
+  "kind": "still",
+  "src": "m_c02_scrap_a.mp4",
+  "at": "end",
+  "dur": 1.89,
+  "move": "out",
+  "under": "CARD"
  },
  {
   "chapter": "c02",
@@ -195,6 +228,50 @@
  },
  {
   "chapter": "c02",
+  "shot": "s21",
+  "file": "b_c02_s21.mp4",
+  "kind": "still",
+  "src": "h_c02_ledger_a.mp4",
+  "at": "end",
+  "dur": 3.61,
+  "move": "in",
+  "under": "CARD"
+ },
+ {
+  "chapter": "c02",
+  "shot": "s22",
+  "file": "b_c02_s22.mp4",
+  "kind": "still",
+  "src": "h_c02_ledger_b.mp4",
+  "at": "end",
+  "dur": 2.17,
+  "move": "left",
+  "under": "CARD"
+ },
+ {
+  "chapter": "c02",
+  "shot": "s23",
+  "file": "b_c02_s23.mp4",
+  "kind": "still",
+  "src": "m_c02_scrap_b.mp4",
+  "at": "end",
+  "dur": 3.78,
+  "move": "in",
+  "under": "CARD"
+ },
+ {
+  "chapter": "c02",
+  "shot": "s24",
+  "file": "b_c02_s24.mp4",
+  "kind": "still",
+  "src": "h_c02_ledger_a.mp4",
+  "at": "end",
+  "dur": 5.46,
+  "move": "right",
+  "under": "CARD"
+ },
+ {
+  "chapter": "c02",
   "shot": "s25",
   "file": "m_c02_tow_sf.mp4",
   "kind": "map",
@@ -214,6 +291,28 @@
   "t0_abs": 136.789,
   "narration": "Pegasus planned to break her up at the old Mare Island yard.",
   "shows": "Zoom into San Francisco Bay; pin 'MARE ISLAND, VALLEJO' on 'Mare Island'"
+ },
+ {
+  "chapter": "c02",
+  "shot": "s27",
+  "file": "b_c02_s27.mp4",
+  "kind": "still",
+  "src": "m_c02_mare.mp4",
+  "at": "end",
+  "dur": 3.13,
+  "move": "in",
+  "under": "CARD"
+ },
+ {
+  "chapter": "c02",
+  "shot": "s28",
+  "file": "b_c02_s28.mp4",
+  "kind": "still",
+  "src": "m_c02_mare.mp4",
+  "at": "end",
+  "dur": 4.42,
+  "move": "out",
+  "under": "CARD"
  },
  {
   "chapter": "c02",
@@ -322,6 +421,19 @@
  },
  {
   "chapter": "c03",
+  "shot": "s03",
+  "file": "b_c03_s03.mp4",
+  "kind": "film",
+  "clip": "b1_launch_ways.mp4",
+  "reel": "39085",
+  "reel_in": 69.2,
+  "dur": 2.8,
+  "label": null,
+  "note": "",
+  "under": "CARD"
+ },
+ {
+  "chapter": "c03",
   "shot": "s04",
   "file": "f_c03_s04.mp4",
   "kind": "film",
@@ -331,6 +443,17 @@
   "dur": 4.96,
   "label": null,
   "note": ""
+ },
+ {
+  "chapter": "c03",
+  "shot": "s05",
+  "file": "b_c03_s05.mp4",
+  "kind": "still",
+  "src": "m_c03_brooklyn.mp4",
+  "at": "1.7",
+  "dur": 3.72,
+  "move": "in",
+  "under": "CARD"
  },
  {
   "chapter": "c03",
@@ -443,6 +566,17 @@
  },
  {
   "chapter": "c03",
+  "shot": "s15",
+  "file": "b_c03_s15.mp4",
+  "kind": "still",
+  "src": "m_c03_mig_b.mp4",
+  "at": "end",
+  "dur": 3.77,
+  "move": "in",
+  "under": "CARD"
+ },
+ {
+  "chapter": "c03",
   "shot": "s16",
   "file": "f_c03_s16.mp4",
   "kind": "film",
@@ -533,6 +667,17 @@
   "t0_abs": 247.383,
   "narration": "was hit by anti aircraft fire over North Vietnam.",
   "shows": "Same map, closer: flak bursts on 'anti-aircraft'; the blue track ends in a flash over North Vietnam"
+ },
+ {
+  "chapter": "c03",
+  "shot": "s24",
+  "file": "b_c03_s24.mp4",
+  "kind": "still",
+  "src": "m_c03_stockdale_b.mp4",
+  "at": "end",
+  "dur": 3.52,
+  "move": "in",
+  "under": "CARD"
  },
  {
   "chapter": "c03",
@@ -762,6 +907,19 @@
  },
  {
   "chapter": "c03",
+  "shot": "s45",
+  "file": "b_c03_s45.mp4",
+  "kind": "film",
+  "clip": "b3_a4e_bombs_wing_1968.mp4",
+  "reel": "86313",
+  "reel_in": 202.15,
+  "dur": 2.97,
+  "label": null,
+  "note": "",
+  "under": "CARD"
+ },
+ {
+  "chapter": "c03",
   "shot": "s46",
   "file": "f_c03_s46.mp4",
   "kind": "film",
@@ -985,6 +1143,28 @@
  },
  {
   "chapter": "c04",
+  "shot": "s15",
+  "file": "b_c04_s15.mp4",
+  "kind": "still",
+  "src": "m_c04_corpus.mp4",
+  "at": "end",
+  "dur": 4.63,
+  "move": "in",
+  "under": "CARD"
+ },
+ {
+  "chapter": "c04",
+  "shot": "s16",
+  "file": "b_c04_s16.mp4",
+  "kind": "still",
+  "src": "m_c04_corpus.mp4",
+  "at": "end",
+  "dur": 3.81,
+  "move": "out",
+  "under": "CARD"
+ },
+ {
+  "chapter": "c04",
   "shot": "s17",
   "file": "h_c04_deck_c.mp4",
   "kind": "hero",
@@ -993,6 +1173,34 @@
   "t0_abs": 420.907,
   "narration": "So the whole wooden deck came out.",
   "shows": "Same cutaway: the whole amber wood layer lifts off the ship and fades (on 'came out')"
+ },
+ {
+  "chapter": "c04",
+  "shot": "s19",
+  "file": "b_c04_s19.mp4",
+  "kind": "photo",
+  "photo": "6698570",
+  "dur": 2.57,
+  "move": "in",
+  "depth": true,
+  "label": "BARE FLIGHT DECK · PENSACOLA, 2006",
+  "shake": null,
+  "fallback": null,
+  "under": "CARD"
+ },
+ {
+  "chapter": "c04",
+  "shot": "s20",
+  "file": "b_c04_s20.mp4",
+  "kind": "photo",
+  "photo": "6698561",
+  "dur": 5.44,
+  "move": "in",
+  "depth": true,
+  "label": "INSIDE THE HULL · PENSACOLA, 2006",
+  "shake": null,
+  "fallback": null,
+  "under": "CARD"
  },
  {
   "chapter": "c04",
@@ -1019,16 +1227,12 @@
  {
   "chapter": "c04",
   "shot": "s24",
-  "file": "f_c04_s24.mp4",
-  "kind": "film",
-  "clip": "g_rita.mp4",
-  "reel": "nasa_rita_3438",
-  "reel_in": 0.35,
-  "dur": 3.76,
-  "label": null,
-  "note": "",
-  "generic": true,
-  "tag": "NASA · HURRICANE RITA, SEPT 2005 (GOES)"
+  "file": "s_c04_s24.mp4",
+  "kind": "still",
+  "src": "m_c04_hurricane.mp4",
+  "at": "end",
+  "dur": 3.71,
+  "move": "in_s"
  },
  {
   "chapter": "c04",
@@ -1208,6 +1412,20 @@
  },
  {
   "chapter": "c05",
+  "shot": "s12",
+  "file": "b_c05_s12.mp4",
+  "kind": "photo",
+  "photo": "6698607",
+  "dur": 1.93,
+  "move": "in",
+  "depth": true,
+  "label": null,
+  "shake": null,
+  "fallback": null,
+  "under": "CARD"
+ },
+ {
+  "chapter": "c05",
   "shot": "s13",
   "file": "p_c05_s13.mp4",
   "kind": "photo",
@@ -1318,6 +1536,20 @@
   "label": null,
   "shake": null,
   "fallback": null
+ },
+ {
+  "chapter": "c05",
+  "shot": "s22",
+  "file": "b_c05_s22.mp4",
+  "kind": "photo",
+  "photo": "6698623",
+  "dur": 6.09,
+  "move": "out",
+  "depth": true,
+  "label": null,
+  "shake": null,
+  "fallback": null,
+  "under": "CARD"
  },
  {
   "chapter": "c05",
@@ -1889,6 +2121,21 @@
  },
  {
   "chapter": "c07",
+  "shot": "s17",
+  "file": "b_c07_s17.mp4",
+  "kind": "film",
+  "clip": "g_offload.mp4",
+  "reel": "noaa_snapper_offload",
+  "reel_in": 18.35,
+  "dur": 2.58,
+  "label": null,
+  "note": "",
+  "under": "CARD",
+  "generic": true,
+  "tag": "ILLUSTRATIVE · NOAA · RED SNAPPER LANDED, GULF OF MEXICO"
+ },
+ {
+  "chapter": "c07",
   "shot": "s20",
   "file": "h_c07_apart.mp4",
   "kind": "hero",
@@ -1951,6 +2198,20 @@
  },
  {
   "chapter": "c07",
+  "shot": "s25",
+  "file": "b_c07_s25.mp4",
+  "kind": "photo",
+  "photo": "6698601",
+  "dur": 2.09,
+  "move": "in",
+  "depth": true,
+  "label": null,
+  "shake": null,
+  "fallback": null,
+  "under": "CARD"
+ },
+ {
+  "chapter": "c07",
   "shot": "s28",
   "file": "b_c07_s28.mp4",
   "kind": "film",
@@ -1990,6 +2251,34 @@
   "note": "",
   "generic": true,
   "tag": "ILLUSTRATIVE · U.S. NAVY · RETIRED SHIP TOWED OUT, MAYPORT, 2021",
+  "under": "CARD"
+ },
+ {
+  "chapter": "c07",
+  "shot": "s31",
+  "file": "b_c07_s31.mp4",
+  "kind": "photo",
+  "photo": "6698558",
+  "dur": 1.97,
+  "move": "left",
+  "depth": true,
+  "label": null,
+  "shake": null,
+  "fallback": null,
+  "under": "CARD"
+ },
+ {
+  "chapter": "c07",
+  "shot": "s32",
+  "file": "b_c07_s32.mp4",
+  "kind": "photo",
+  "photo": "6698597",
+  "dur": 4.85,
+  "move": "out",
+  "depth": true,
+  "label": null,
+  "shake": null,
+  "fallback": null,
   "under": "CARD"
  },
  {
@@ -2038,7 +2327,7 @@
   "kind": "film",
   "clip": "b10_ssus_profile.mp4",
   "reel": "86032",
-  "reel_in": 140.15,
+  "reel_in": 155.0,
   "dur": 2.84,
   "label": null,
   "note": ""

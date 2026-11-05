@@ -53,6 +53,10 @@
     "unit": "weeks",
     "subline": "AFTER JAPAN SURRENDERED",
     "number_at": "@six"
+   },
+   "clip": {
+    "file": "b_c03_s03.mp4",
+    "push": null
    }
   },
   {
@@ -79,7 +83,12 @@
     "text": "WORK STOPPED",
     "at": "@stopped",
     "kicker_at": 0.15
-   }
+   },
+   "clip": {
+    "file": "b_c03_s05.mp4",
+    "push": null
+   },
+   "card_bg": true
   },
   {
    "id": "s06",
@@ -223,7 +232,12 @@
     "text": "NAVY CROSS",
     "at": "@navy cross",
     "kicker_at": 0.15
-   }
+   },
+   "clip": {
+    "file": "b_c03_s15.mp4",
+    "push": null
+   },
+   "card_bg": true
   },
   {
    "id": "s16",
@@ -343,6 +357,10 @@
     "unit": "years",
     "number_at": "@seven",
     "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s24.mp4",
+    "push": null
    }
   },
   {
@@ -618,6 +636,7 @@
    "id": "s45",
    "start": "t146.43",
    "sfx": false,
+   "tag": "FILM: ORISKANY, 1968",
    "template": "text_card",
    "variant": "line",
    "card": true,
@@ -626,7 +645,12 @@
     "text": "ONE YEAR TO THE DAY",
     "at": "@one year",
     "kicker_at": 0.15
-   }
+   },
+   "clip": {
+    "file": "b_c03_s45.mp4",
+    "push": null
+   },
+   "card_bg": true
   },
   {
    "id": "s46",

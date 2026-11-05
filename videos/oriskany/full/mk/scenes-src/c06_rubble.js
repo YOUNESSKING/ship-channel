@@ -8,7 +8,8 @@ S.camera([[0, REEF[0] - 20, REEF[1] - 30, 2.0], [END, REEF[0] - 40, REEF[1] - 40
 S.pin(REEF, "USS ORISKANY", { t: 0.0, anchor: "b", box: true, gap: 34 });
 const ring = []; for (let i = 0; i <= 64; i++) { const a = (i / 64) * Math.PI * 2 + Math.PI * 1.2; ring.push([REEF[0] + R * Math.cos(a), REEF[1] + R * Math.sin(a)]); }
 S.route(ring, { t: w("eight") - 0.2, dur: 1.2, dash: [10, 10], width: 3, color: "rgba(243,238,226,.75)" });
-S.pin(RUB, "RUBBLE REEF", { t: w("reef") - 0.05, color: "#9fc6cf", anchor: "t", box: true, gap: 34 });
+S.pin(RUB, "RUBBLE REEF (POSITION APPROX.)", {   // v4 N7: direction is illustrative
+  t: w("reef") - 0.05, color: "#9fc6cf", anchor: "t", box: true, gap: 34 });
 S.route([REEF, RUB], { t: w("eight") - 0.15, dur: 0.7, dash: [14, 10], width: 5 });
 S.tag("8 MI", [(REEF[0] + RUB[0]) / 2, (REEF[1] + RUB[1]) / 2], { t: w("eight"), anchor: "r", gap: 30, size: 44 });
 S.finish();
