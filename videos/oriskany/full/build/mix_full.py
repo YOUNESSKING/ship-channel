@@ -31,7 +31,7 @@ def join():
     for r in renders:
         if not os.path.exists(r): sys.exit(f"missing {r}: run build/render_all.sh first")
     if os.path.exists(JOIN) and all(os.path.getmtime(JOIN) > os.path.getmtime(r) for r in renders) and \
-            os.path.exists(os.path.join(FULL, "chapter", "join_report.json")) and json.load(open(os.path.join(FULL, "chapter", "join_report.json")))[0].get("source") == renders[0]:
+            os.path.exists(os.path.join(HERE, "join_report.json")) and json.load(open(os.path.join(HERE, "join_report.json")))[0].get("source") == renders[0]:
         print("join up to date"); return
     lst, rep = [], []
     for k, r in zip(KEYS, renders):
@@ -54,7 +54,7 @@ def join():
     os.replace(JOIN + ".part.mp4", JOIN)
     tot = round((CH["c07"]["audio_offset"] + CH["c07"]["duration"]) * FPS)
     print("joined", frames(JOIN), "frames (want", tot, ")")
-    json.dump(rep, open(os.path.join(FULL, "chapter", "join_report.json"), "w"), indent=1)
+    json.dump(rep, open(os.path.join(HERE, "join_report.json"), "w"), indent=1)
 
 
 if __name__ == "__main__":

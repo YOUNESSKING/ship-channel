@@ -1,0 +1,51 @@
+[
+ {
+  "chapter": "c01",
+  "start": 0.0,
+  "frames_rendered": 1506,
+  "frames_wanted": 1459,
+  "source": "/home/user/ship-channel/videos/oriskany/test_v4/oriskany_test_v4.mp4"
+ },
+ {
+  "chapter": "c02",
+  "start": 48.625,
+  "frames_rendered": 3844,
+  "frames_wanted": 3843,
+  "source": "/home/user/ship-channel/videos/oriskany/full/chapter/render_c02.mp4"
+ },
+ {
+  "chapter": "c03",
+  "start": 176.742,
+  "frames_rendered": 5497,
+  "frames_wanted": 5497,
+  "source": "/home/user/ship-channel/videos/oriskany/full/chapter/render_c03.mp4"
+ },
+ {
+  "chapter": "c04",
+  "start": 359.968,
+  "frames_rendered": 3736,
+  "frames_wanted": 3735,
+  "source": "/home/user/ship-channel/videos/oriskany/full/chapter/render_c04.mp4"
+ },
+ {
+  "chapter": "c05",
+  "start": 484.483,
+  "frames_rendered": 2442,
+  "frames_wanted": 2442,
+  "source": "/home/user/ship-channel/videos/oriskany/full/chapter/render_c05.mp4"
+ },
+ {
+  "chapter": "c06",
+  "start": 565.877,
+  "frames_rendered": 3620,
+  "frames_wanted": 3620,
+  "source": "/home/user/ship-channel/videos/oriskany/full/chapter/render_c06.mp4"
+ },
+ {
+  "chapter": "c07",
+  "start": 686.542,
+  "frames_rendered": 5949,
+  "frames_wanted": 5948,
+  "source": "/home/user/ship-channel/videos/oriskany/full/chapter/render_c07.mp4"
+ }
+]

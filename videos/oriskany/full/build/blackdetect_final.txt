@@ -1,0 +1,8 @@
+black_start:117.7 black_end:119.367 black_duration:1.66667
+black_start:120.967 black_end:122.767 black_duration:1.8
+black_start:251.7 black_end:252.933 black_duration:1.23333
+black_start:336.567 black_end:339.867 black_duration:3.3
+black_start:429.133 black_end:433.2 black_duration:4.06667
+black_start:464.133 black_end:467.433 black_duration:3.3
+black_start:468.733 black_end:472.067 black_duration:3.33333
+black_start:743.267 black_end:745.467 black_duration:2.2
