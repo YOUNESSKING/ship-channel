@@ -27,4 +27,14 @@ safe_area.js adjusted:
   size 24->25.4: 25
   size 19->25.4: PRESS, SINKING DAY
   size 19->25.4: FLORIDA SENATE
+  wrap: COMMITTED BY CONGRESS
+  wrap: FOR CONTAMINANTS
+  fit x0.68: CONTAMINATED MATERIAL COMES OU
+  wrap: REMOVING CONTAMINANTS
+  fit x0.92: $800,000
+  wrap: NAVY SPENDING, SPRING 2006
+  fit x0.78: ≈ $20 million
+  fit x0.78: ≈ $21 million
+  wrap: FLORIDA COUNTIES
+  wrap: THE CLEANUP RULE
 PASS: no text breaks the size / safe-area / font rules (128.5 s checked every 0.5 s)

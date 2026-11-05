@@ -1,20 +1,16 @@
 safe_area.js adjusted:
+  size 19->25.4: LAID UP · BREMERTON
   size 22->25.4: FROM THE NAVY LIST · JULY 1989
   size 19->25.4: THE PLAN
   size 19->25.4: THE PLAN
   size 19->25.4: EARLY 1990s
   size 19->25.4: NAVY APPRAISAL
   size 19->25.4: THE CONDITION
-  size 19->25.4: A PROTEST
   size 19->25.4: 1997
   lift 7px: THE PLANA WARSHIP AS A THEME P
-  lift 7px: EARLY 1990sSOLD FOR SCRAP
-  lift 7px: THE CONDITIONSCRAP HER IN THE 
-  lift 7px: 1997ALMOST NOTHING CUT
-  lift 39px: DEFAULTED.
+  wrap: THE CONDITION
+  fit x0.98: SCRAP HER IN THE U.S.
+  fit x0.98: A PROTEST.
+  fit x0.98: Work held up until December.
   lift 20px: THE PLANA WARSHIP AS A THEME P
-  lift 20px: EARLY 1990sSOLD FOR SCRAP
-  lift 20px: THE CONDITIONSCRAP HER IN THE 
-  lift 20px: 1997ALMOST NOTHING CUT
-  lift 12px: DEFAULTED.
-PASS: no text breaks the size / safe-area / font rules (97.7 s checked every 0.5 s)
+PASS: no text breaks the size / safe-area / font rules (98.9 s checked every 0.5 s)

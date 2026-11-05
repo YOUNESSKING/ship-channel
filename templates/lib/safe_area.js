@@ -30,7 +30,11 @@
     // shrink-to-fit (Oriskany full v2, critic A M2): a text line wider than its box or than the frame minus a 64 px side margin
     // (96 px at 1080p) is scaled down until it fits; if that would take any text under MIN_PX, the line wraps instead.
     const M = 64, lines = new Set();
-    textEls().forEach((e) => { let L = e; while (L && L !== root && getComputedStyle(L).display === 'inline') L = L.parentElement; if (L && L !== root) lines.add(L); });
+    // a "line" = the text's own element when it is an inline span that holds the whole run (card text, aside), else the nearest
+    // non-inline ancestor (a number div with its unit, a kicker div)
+    textEls().forEach((e) => { let L = e;
+      if (getComputedStyle(e).display === 'inline' && !e.querySelector('*') && /\b(it|cg|jo)\b/.test(e.className || '')) { lines.add(e); return; }
+      while (L && L !== root && getComputedStyle(L).display === 'inline') L = L.parentElement; if (L && L !== root) lines.add(L); });
     lines.forEach((L) => {
       if (L.dataset.fit) return;
       const rg = document.createRange(); rg.selectNodeContents(L); const rt = rg.getBoundingClientRect(), rr = root.getBoundingClientRect();
@@ -44,7 +48,12 @@
       const sizes = els.map((x) => parseFloat(getComputedStyle(x).fontSize) || 0);
       L.dataset.fit = '1';
       if (sizes.every((s) => s * f >= MIN_PX)) { els.forEach((x, i) => { x.style.fontSize = (sizes[i] * f).toFixed(2) + 'px'; }); log.push(`fit x${f.toFixed(2)}: ${L.textContent.trim().slice(0, 30)}`); }
-      else { L.style.whiteSpace = 'normal'; L.querySelectorAll('*').forEach((x) => { x.style.whiteSpace = 'normal'; }); L.style.maxWidth = avail + 'px'; { const ta = getComputedStyle(L).textAlign; if (ta === 'center') { L.style.marginLeft = L.style.marginRight = 'auto'; } else if (ta === 'right' || ta === 'end') L.style.marginLeft = 'auto'; } if (!hasW && c === L) L.style.width = avail + 'px'; log.push(`wrap: ${L.textContent.trim().slice(0, 30)}`); }
+      else { const inl = getComputedStyle(L).display === 'inline', abs = getComputedStyle(L).position === 'absolute';
+        L.style.whiteSpace = 'normal'; L.querySelectorAll('*').forEach((x) => { x.style.whiteSpace = 'normal'; });
+        if (inl) { L.style.display = 'inline-block'; L.style.maxWidth = avail + 'px'; }
+        else if (!abs) { L.style.maxWidth = avail + 'px'; const ta = getComputedStyle(L).textAlign; if (ta === 'center') L.style.marginLeft = L.style.marginRight = 'auto'; else if (ta === 'right' || ta === 'end') L.style.marginLeft = 'auto'; }
+        else if (!hasW) L.style.width = avail + 'px';
+        log.push(`wrap: ${L.textContent.trim().slice(0, 30)}`); }
       if (!hasW && tl < M) { const cur = parseFloat(getComputedStyle(c).left) || 0; c.style.left = (cur + (M - tl)) + 'px'; }
     });
     window.__safeLog = (window.__safeLog || []).concat(log);

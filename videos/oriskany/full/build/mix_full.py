@@ -4,13 +4,13 @@
 2. build/sfx_full.py   -> audio/sfx.wav, punch.wav, beds.wav, build/sfx_placed.json (cues re-timed to the beat frames)
 3. build/music_bed.py  -> audio/music_bed.wav (Zabriskie: main -> tension at c06 -> outro for the last 60 s)
 4. tools/sound/mix_clip.py v2 (locked: voice stem chain, MUSIC_VOL 0.08 + MUSIC_TRIM_DB -6, sidechains, punch stem,
-   oversampled limiter, two-pass LINEAR loudnorm -14 / TP -1.5) -> oriskany_full_v1.mp4
+   oversampled limiter, two-pass LINEAR loudnorm -14 / TP -1.5) -> oriskany_full_v2.mp4 (v1 before 2026-11-05)
 5. tools/sound/measure_mix.py + check_sound_lock.py --render (fails on a broken lock).
 Resumable: the join is skipped when chapter/joined_silent.mp4 is newer than every chapter render. Run detached:
   nohup python3 build/mix_full.py > build/mix_full.log 2>&1 &"""
 import json, os, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); FULL = os.path.dirname(HERE); ROOT = os.path.abspath(os.path.join(FULL, "../../.."))
-SND = os.path.join(ROOT, "tools/sound"); WK = os.path.join(FULL, "audio/mix"); OUT = os.path.join(FULL, "oriskany_full_v1.mp4")
+SND = os.path.join(ROOT, "tools/sound"); WK = os.path.join(FULL, "audio/mix"); OUT = os.path.join(FULL, "oriskany_full_v2.mp4")
 FPS = 30
 py = lambda *a: subprocess.run([sys.executable, *a], check=True)
 KEYS = ["c01", "c02", "c03", "c04", "c05", "c06", "c07"]
