@@ -21,6 +21,8 @@ patch it to use paths relative to this repo. Never delete or edit the source rep
 - Line 1 = the stakes. Title promise spoken by 10–15 s. First frame is a map. No ship résumé in the first 2 min.
 - Every shot proves the spoken words. Something new on screen every 1.5–4 s, hard cap 6 s per shot.
 - A place or date = a map. A number lands on its spoken word. A clip is reused at most twice, 3+ min apart.
+- No plain black/dark text cards (owner, 2026-11-05): every text or number card sits on a dimmed moving background
+  (matching film, tagged generic b-roll, or a moving map/photo) to keep viewers engaged.
 - A wow early, then every 30 s for the first 3 min; a mid-video reversal; a closing question; ending ≤ 45 s.
 - Rights: PD / CC0 / CC BY / CC BY-SA only, never NC/ND. Read each item's rights field. Log every file in
   the video's `CREDITS.md`, and every film clip in `MANIFEST.md` with what it does NOT show.
