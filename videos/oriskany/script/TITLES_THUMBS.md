@@ -44,3 +44,12 @@ day 1–3 impressions. Judge on day 7–14, not day 1 (study DO 11).
 Not used, on purpose: an SS United States inset or "NOV 12" text (stale after the 12th and splits the promise),
 "TOXIC" / "POISON" (the fact-check bans that wording: screening values, no advisory), "LARGEST REEF" (that title
 passes to the SS United States if she sinks as planned).
+
+## vidIQ title scores (2026-11-05, owner approved the spend, 15 credits)
+| # | Title | Score |
+|---|---|---|
+| C | Nobody Wanted This Aircraft Carrier, So They Sank It | **92** |
+| A | Why the Navy Sank Its Own Aircraft Carrier | 88 |
+| D | What the Navy Left Inside the Carrier It Sank | 88 |
+
+All three pass (≥ 85). Test & Compare set: C (launch title), A, D.
