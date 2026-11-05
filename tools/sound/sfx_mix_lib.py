@@ -16,7 +16,8 @@ What changed from v1 (critics, videos/oriskany/test_v3/CRITIQUE_SOUND_ACCURACY.m
 
 Cue dict: {"shot": id, "at": s after shot start, "role": kind, "file": optional, "src": s into the file where the
 usable region starts (optional), "len": max s, "tail": s, "end_shot": id, "lead": True (may start before its
-shot, only for risers INTO a reveal), "note": text}
+shot, only for risers INTO a reveal), "ring": max s past the event (default RING_MAX, None = uncapped), "fade": fade-out s,
+"note": text}
 """
 import hashlib, json, os
 import numpy as np, soundfile as sf
@@ -29,6 +30,11 @@ D = os.path.join(ROOT, "assets", "sfx", "epidemic")
 PEAK_NORM_DB = -3.0     # battle-maps kit convention (every locked kit file peaks at -3 dBFS)
 BED_RMS_DB = -20.0      # beds: RMS-normalised, then their role level
 TAIL_DEFAULT = 0.12
+# SFX_FIX_v4 (owner 2026-11-05, "the horn is too long"): no effect rings on more than RING_MAX s past its picture event
+# (beds excluded: they are not cues). A longer, designed ring must be written in the cue ("ring": s, or None = no cap).
+RING_MAX = 1.5
+RING_ROLE = {"horn": 2.0}           # the horn: at most ~2 s in all (owner 2026-11-05)
+FADE_ROLE = {"horn": 0.6}           # a short natural fade-out (s); other roles keep min(0.25 s, 35 % of the cue)
 # Big beats (blasts, impacts, key booms) go to their own "punch" stem that the voice does NOT duck, so they read
 # momentarily louder than speech (target: momentary max >= +3 LU over speech). Every other cue stays on the SFX stem,
 # ducked lightly under the voice (STYLE_LOCK 5). A cue can opt out with "punch": False.
@@ -38,7 +44,8 @@ PUNCH_ROLES = ("explosion", "impact", "boom")
 # Levels: battle-maps STYLE_LOCK section 3 (explosion -4, impact -7, hit -8, jet -11, whoosh -12, tick -20) and the
 # section 2a sound-design table (pop -20, boom -11, riser -17, projector -27, drone bed -30). "ship" and "horn" are
 # ship-channel roles (no battle-maps equivalent): ship = the on-screen vehicle level (prop flyby, -13); horn = the
-# signature horn, -14 in a voice gap (owner 2026-11-04: 4 dB quieter than the -10 test). Owner-approved.
+# signature horn, -20, in a voice gap only, never under speech (owner 2026-11-04: -14, 4 dB quieter than the -10 test;
+# owner 2026-11-05: shorter (<= 2 s) and 6 dB quieter, at most 2 horns per video). Owner-approved.
 KINDS = {
     "explosion": (["charges_c__f6f10ea4.wav", "charges_a__955e7371.wav", "charges_b__0ecb5c38.wav"], -4, 0.20, "peak"),
     "impact":    (["splash_a__1d6949d6.wav", "charges_b__0ecb5c38.wav", "splash_b__3ba7bd2a.wav"], -7, 0.25, "peak"),
@@ -50,7 +57,7 @@ KINDS = {
     "jet":       (["jet_a__9fc48bf0.wav", "jet_b__da6a1527.wav", "jet_c__d47bee57.wav"], -11, 1.2, "peak"),
     "ship":      (["groan_a__7c63fd7c.wav", "flood_a__db95b348.wav", "bubbles_a__e58b390c.wav", "groan_b__2bc7c5e1.wav",
                    "groan_c__87dfc4bf.wav", "flood_b__3e14e767.wav", "bubbles_b__18fdc570.wav"], -13, 0.5, "onset"),
-    "horn":      (["horn_a__463af07a.wav"], -14, 3.0, "onset"),
+    "horn":      (["horn_a__463af07a.wav"], -20, 3.0, "onset"),   # owner 2026-11-05: shorter (<= 2 s) and 6 dB quieter
     "tick":      (["pop_a__9da883ac.wav"], -20, 0.12, "peak"),
 }
 BEDS = {  # bed role: (default files, level dB)   (STYLE_LOCK 2a: projector loop under film -27, low drone bed -30)
@@ -80,7 +87,7 @@ REGION = {
     "groan_a__7c63fd7c.wav":   (7.55, 3.0),
     "flood_a__db95b348.wav":   (0.70, 3.0),
     "bubbles_a__e58b390c.wav": (2.95, 1.6),
-    "horn_a__463af07a.wav":    (0.20, 7.6),
+    "horn_a__463af07a.wav":    (0.20, 2.0),    # owner 2026-11-05: the best 2 s of the 1st blast = its onset + swell (was 7.6 s)
 }
 
 
@@ -158,10 +165,12 @@ def render(cues, shots, total, out, beds=(), beds_out=None, check=True, seed=7, 
             cut = S[c["shot"]][0] - start; reg = reg[int(cut * SR):]; start = S[c["shot"]][0]; rel -= cut
         end_shot = c.get("end_shot", c["shot"]); tail = c.get("tail", TAIL_DEFAULT)
         end_allowed = S[end_shot][1] + tail
+        ring = c.get("ring", RING_ROLE.get(kind, RING_MAX))
+        if ring is not None: end_allowed = min(end_allowed, event + ring)
         L = min(len(reg) / SR, end_allowed - start, total - start)
         seg = reg[: int(L * SR)].copy()
         fi = min(int(0.005 * SR), len(seg) // 4) if stype == "peak" else min(int(0.02 * SR), len(seg) // 4)
-        fo = min(int(0.25 * SR), int(len(seg) * 0.35))
+        fo = min(int(c.get("fade", FADE_ROLE.get(kind, 0.25)) * SR), int(len(seg) * (0.67 if kind in FADE_ROLE or "fade" in c else 0.35)))
         if stype == "peak":   # the fade-out never touches the sync point (a riser ends ON its peak)
             fo = max(int(0.01 * SR), min(fo, len(seg) - int((rel + 0.04) * SR)))
         if fi: seg[:fi] *= np.linspace(0, 1, fi)[:, None]
@@ -176,7 +185,7 @@ def render(cues, shots, total, out, beds=(), beds_out=None, check=True, seed=7, 
         meas = start + sync_point(seg, stype)
         placed.append({"event": round(event, 3), "shot": c["shot"], "at": c["at"], "role": kind, "file": f,
                        "src": round(src, 3), "start": round(start, 3), "end": round(start + L, 3),
-                       "end_allowed": round(end_allowed, 3), "level_db": round(lev, 1), "sync": stype, "punch": punch,
+                       "end_allowed": round(end_allowed, 3), "ring_max": ring, "level_db": round(lev, 1), "sync": stype, "punch": punch,
                        "measured": round(meas, 3), "offset_frames": round((meas - event) * FPS, 2),
                        "note": c.get("note", "")})
     pk = np.abs(buf + pbuf).max()

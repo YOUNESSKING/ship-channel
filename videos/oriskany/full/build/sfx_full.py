@@ -1,4 +1,4 @@
-"""Step 3 sound cues for the WHOLE video, on one timeline (tools/sound/sfx_mix_lib.py v2, locked roles + levels, horn -14).
+"""Step 3 sound cues for the WHOLE video, on one timeline (tools/sound/sfx_mix_lib.py v2, locked roles + levels; v4: horn -20, <= 2 s, voice gaps only, every cue rings <= 1.5 s past its event).
 
   c01   = the approved test v4 hook cues + beds verbatim (test_v4/build/sfx_cues_v4.py; same shots, same voice samples)
   c02-7 = build/sfx_cNN.json. Every "@word" time is resolved with the chapter builder's own resolver (templates/build_chapter.py
@@ -159,6 +159,40 @@ for c in CUES:
     last[c["role"]] = t; keep.append(c)
 CUES = keep
 
+# ---------------------------------------------------------------- v4: SFX_FIX_v4 (owner 2026-11-05: "the horn, that sound is too long
+# and it's too loud"; see build/SFX_FIX_v4.md). Horn: -20 dB and <= 2 s (sfx_mix_lib), at most 2 per video, and ONLY in a voice gap
+# while the liner is on screen, never under a word (this applies to the hook too). Every other cue: the lib caps its ring at 1.5 s
+# past the picture event; the approved hook keeps its own cue lengths (ring uncapped) apart from the horn.
+WORDS = json.load(open(os.path.join(HERE, "words.json"))); WORDS = WORDS["words"] if isinstance(WORDS, dict) else WORDS
+HORN_GAP_MIN, HORN_MAX, HORN_PAD = 0.6, 2.0, 0.06     # usable gap >= 0.6 s; event 60 ms after the word, end 20 ms before the next
+def voice_gaps(t0, t1):
+    """voice gaps (a, b) clipped to [t0, t1]"""
+    ends = [0.0] + [w["end"] for w in WORDS]; starts = [w["start"] for w in WORDS] + [1e9]
+    return [(max(a, t0), min(b, t1)) for a, b in zip(ends, starts) if min(b, t1) > max(a, t0)]
+V4 = []; out = []
+for c in CUES:
+    t = ST[c["shot"]][0] + c["at"]
+    if c["role"] == "jet" and "b3_aerial_launching" in c["note"]:   # measured +6.7 LU over the voice on "the man who led" (jet role
+        V4.append((t, "jet", "dropped: +6.7 LU over the words 'the man who led' (jet median +2.8; a 0.9 s slice peak-normalised hot)")); continue
+    if c["role"] != "horn":
+        if c["shot"].startswith("c01:"): c = dict(c, ring=None)      # approved hook: cue lengths as approved
+        out.append(c); continue
+    i0 = ORDER.index(c["shot"]); i1 = ORDER.index(c.get("end_shot", c["shot"]))
+    lo, hi = ST[c["shot"]][0], ST[ORDER[i1]][1]                      # the liner shots this horn belongs to
+    g = [(a, b) for a, b in voice_gaps(lo, hi + HORN_MAX) if a < hi and b - a - HORN_PAD - 0.02 >= HORN_GAP_MIN]
+    g = [x for x in g if x[0] >= t - 2.0] or g
+    if not g or len([x for x in out if x["role"] == "horn"]) >= 2:
+        V4.append((t, "horn", f"dropped: no voice gap >= {HORN_GAP_MIN} s on the liner shots {c['shot']}..{ORDER[i1]} "
+                               f"({', '.join(f'{a:.2f}-{b:.2f}' for a, b in voice_gaps(lo, hi)) or 'none'}): it played under speech"))
+        continue
+    a, b = g[0]; ev = round(a + HORN_PAD, 3); ln = round(min(HORN_MAX, b - 0.02 - ev), 3)
+    sh = shot_at(ev); last = shot_at(min(ev + ln, ST[ORDER[-1]][1] - 1e-3))
+    c = dict(c, shot=sh, at=round(ev - ST[sh][0], 3), len=ln, end_shot=last, tail=0.0, note=c["note"].replace("-14", "-20, voice gap"))
+    V4.append((t, "horn", f"moved to {ev:.2f}, {ln:.2f} s in the voice gap {a:.2f}-{b:.2f} (fade 0.6 s, -20 dB)"))
+    out.append(c)
+CUES = out
+LOG += [("v4", f"{t:.2f}", r, w) for t, r, w in V4]
+
 # ---------------------------------------------------------------- beds c02-c07
 def bed_of(k, s):
     clip = ((s.get("clip") or {}).get("file") or "")
@@ -166,9 +200,9 @@ def bed_of(k, s):
     tpl = s.get("template")
     if seg and seg["kind"] == "film" and not seg.get("generic"): return "projector"
     if tpl in ("anim_gauge", "anim_xray"): return "drone"
-    gen = seg["clip"] if seg and seg.get("generic") else None
+    gen = seg.get("clip") if seg and seg.get("generic") else None
     if not gen and (s.get("bg_clip") or (tpl == "text_card" and clip.startswith("b_"))):
-        bfile = (s.get("bg_clip") or s.get("clip"))["file"]; bs = SEGS.get((k, s["id"], bfile)); gen = bs["clip"] if bs else None
+        bfile = (s.get("bg_clip") or s.get("clip"))["file"]; bs = SEGS.get((k, s["id"], bfile)); gen = bs.get("clip") if bs else None   # v4: card backgrounds of kind "still" have no clip
     if gen:
         if re.search(r"snap_|reef_fish|keys_diver|navy_wreck", gen): return "underwater"
         if re.search(r"kh_|fm_|rita|gustav|recfish", gen): return "waves"

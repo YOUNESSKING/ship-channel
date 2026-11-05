@@ -13,7 +13,9 @@ Render checks (`python3 check_sound_lock.py --render WORK/master.json --cues pla
   * stereo, audio duration == video duration (+/- 1 frame);
   * LRA >= 5 LU for short tests, 2-8 LU for full-length masters > 5 min (owner decision 2026-11-05); low end < 120 Hz >= 3 dB under the 300-3000 Hz voice band during clean speech; every big beat's momentary max >= 3 LU above the speech momentary median;
   * music under speech -18..-28 dB re voice, music in gaps within 3 dB of the battle-maps reference estimate;
-  * every cue's measured sync point <= 3 frames off its event, and no cue runs past its allowed end.
+  * every cue's measured sync point <= 3 frames off its event, and no cue runs past its allowed end;
+  * SFX_FIX_v4 (owner 2026-11-05): no cue rings > 1.5 s past its event unless designed ("ring" in the cue); at most 2 horns,
+    each <= 2 s, never over a spoken word (--words build/words.json).
 Changing any locked number is an OWNER decision."""
 import hashlib, json, os, re, sys
 
@@ -21,7 +23,9 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
 LEVELS = {"explosion": (-4, 0.20), "impact": (-7, 0.25), "hit": (-8, 0.50), "whoosh": (-12, 0.50), "jet": (-11, 1.2),
           "tick": (-20, 0.12), "boom": (-11, 0.50), "pop": (-20, 0.12), "riser": (-17, 2.0),
-          "ship": (-13, 0.5), "horn": (-14, 3.0)}
+          "ship": (-13, 0.5), "horn": (-20, 3.0)}   # horn: owner 2026-11-05: shorter (<= 2 s) and 6 dB quieter (was -14)
+HORN_MAX_N, HORN_MAX_S = 2, 2.0   # owner 2026-11-05: at most 2 horns per video, each <= ~2 s, in a voice gap, never under speech
+RING_MAX = 1.5                    # SFX_FIX_v4: no cue rings on > 1.5 s past its picture event unless the cue designs it
 BED_LEVELS = {"projector": -27, "drone": -30, "waves": -30, "underwater": -30}
 CHAIN = ["MUSIC_VOL = 0.08", "afade=t=in:d=2", "afade=t=out:st={total - 3:.3f}:d=3",
          "sidechaincompress=threshold=0.03:ratio=6:attack=20:release=400",
@@ -70,6 +74,9 @@ def check(kinds=None, beds=None):
             elif not os.path.exists(p): errs.append(f"missing {f}: re-download it (IDs in assets/sfx/EPIDEMIC_SFX.md)")
             elif md5(p) != lock[f]: errs.append(f"{f} was replaced (md5 differs from the catalogue)")
     if L.PEAK_NORM_DB != -3.0: errs.append("one-shot normalisation is not the battle-maps -3 dBFS peak")
+    if getattr(L, "RING_MAX", 99) > RING_MAX: errs.append(f"RING_MAX must be <= {RING_MAX} s (SFX_FIX_v4)")
+    if getattr(L, "RING_ROLE", {}).get("horn", 99) > HORN_MAX_S or L.REGION["horn_a__463af07a.wav"][1] > HORN_MAX_S:
+        errs.append(f"horn longer than {HORN_MAX_S} s (owner 2026-11-05)")
     mix = open(os.path.join(HERE, "mix_clip.py")).read()
     errs += [f"mix chain changed (missing: {s})" for s in CHAIN if s not in mix]
     m = re.search(r"^BED_HPF = (\d+)", mix, re.M)
@@ -83,9 +90,19 @@ def check(kinds=None, beds=None):
           "compressor/limiter/de-ess/edge fades, 2c-9 gain + alimiter 0.84, loudnorm linear gate, stereo, pad, fade-out, HPF")
 
 
-def check_cues(placed):
+def check_cues(placed, words=None):
     errs = []
+    horns = [p for p in placed if p["role"] == "horn"]
+    if len(horns) > HORN_MAX_N: errs.append(f"{len(horns)} horns (owner 2026-11-05: at most {HORN_MAX_N})")
+    for p in horns:
+        if p["end"] - p["start"] > HORN_MAX_S + 0.05: errs.append(f"horn @ {p['event']:.2f} plays {p['end'] - p['start']:.2f} s (max {HORN_MAX_S})")
+        for w in words or []:
+            if w["start"] < p["end"] and w["end"] > p["start"]:
+                errs.append(f"horn @ {p['event']:.2f} ({p['start']:.2f}-{p['end']:.2f}) plays under the word '{w['w']}' (owner: never under speech)"); break
     for p in placed:
+        rm = p.get("ring_max", RING_MAX)
+        if rm is not None and p["end"] - p["event"] > rm + 1e-3:
+            errs.append(f"cue {p['role']} @ {p['event']:.2f} rings {p['end'] - p['event']:.2f} s past its event (max {rm})")
         if abs(p["offset_frames"]) > 3:
             errs.append(f"cue {p['role']} @ {p['event']:.2f} ({p['note']}): sync point {p['offset_frames']:+.1f} frames off its event")
         if p["end"] > p["end_allowed"] + 1e-3:
@@ -93,7 +110,7 @@ def check_cues(placed):
     return errs
 
 
-def check_render(master, placed, meas):
+def check_render(master, placed, meas, words=None):
     errs = []
     t = master["tries"][-1]
     if master.get("normalization_type") != "linear" or t["loudnorm_pass2"].get("normalization_type") != "linear":
@@ -121,7 +138,7 @@ def check_render(master, placed, meas):
     if not -28 <= mu <= -18: errs.append(f"music under speech {mu} dB re voice (target -18..-28)")
     if meas.get("ref_gap_delta_db") is not None and abs(meas["ref_gap_delta_db"]) > 3:
         errs.append(f"music in gaps {meas['ref_gap_delta_db']:+.1f} dB vs the battle-maps reference (> 3 dB)")
-    return errs + check_cues(placed)
+    return errs + check_cues(placed, words)
 
 
 if __name__ == "__main__":
@@ -137,7 +154,10 @@ if __name__ == "__main__":
         master = json.load(open(a[a.index("--render") + 1]))
         placed = json.load(open(a[a.index("--cues") + 1]))["cues"]
         meas = json.load(open(a[a.index("--measure") + 1]))
-        errs = check_render(master, placed, meas)
+        words = None
+        if "--words" in a:
+            words = json.load(open(a[a.index("--words") + 1])); words = words["words"] if isinstance(words, dict) else words
+        errs = check_render(master, placed, meas, words)
         if errs: fail(errs, "render")
         f = master["final"]
         print(f"SOUND LOCK OK (render): {f['I']} LUFS, TP {f['TP']} dBTP, LRA {meas['lra']} LU, loudnorm linear, stereo, "

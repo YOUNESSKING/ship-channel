@@ -4,13 +4,18 @@
 2. build/sfx_full.py   -> audio/sfx.wav, punch.wav, beds.wav, build/sfx_placed.json (cues re-timed to the beat frames)
 3. build/music_bed.py  -> audio/music_bed.wav (Zabriskie: main -> tension at c06 -> outro for the last 60 s)
 4. tools/sound/mix_clip.py v2 (locked: voice stem chain, MUSIC_VOL 0.08 + MUSIC_TRIM_DB -6, sidechains, punch stem,
-   oversampled limiter, two-pass LINEAR loudnorm -14 / TP -1.5) -> oriskany_full_v3.mp4 (v1, v2 before; v3 = owner ending cut 2026-11-05)
+   oversampled limiter, two-pass LINEAR loudnorm -14 / TP -1.5) -> oriskany_full_v4.mp4 (v3 = owner ending cut 2026-11-05;
+   v4 = SFX_FIX_v4 sound, owner 2026-11-05)
 5. tools/sound/measure_mix.py + check_sound_lock.py --render (fails on a broken lock).
 Resumable: the join is skipped when chapter/joined_silent.mp4 is newer than every chapter render. Run detached:
   nohup python3 build/mix_full.py > build/mix_full.log 2>&1 &"""
 import json, os, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); FULL = os.path.dirname(HERE); ROOT = os.path.abspath(os.path.join(FULL, "../../.."))
-SND = os.path.join(ROOT, "tools/sound"); WK = os.path.join(FULL, "audio/mix"); OUT = os.path.join(FULL, "oriskany_full_v3.mp4")
+SND = os.path.join(ROOT, "tools/sound"); WK = os.path.join(FULL, "audio/mix"); OUT = os.path.join(FULL, "oriskany_full_v4.mp4")
+# v4 = SFX_FIX_v4 sound (owner 2026-11-05: horn shorter + 6 dB quieter, cue rings capped; build/SFX_FIX_v4.md).
+# AUDIO_ONLY=/path/test.mp4: sound-only test. Skips the join and muxes the full v4 mix onto a tiny colour proxy with exactly the
+# frame count of the existing chapter/joined_silent.mp4 (or, if gone, of oriskany_full_v3.mp4) (so audio = video length), written to that path. No picture render.
+AUDIO_ONLY = os.environ.get("AUDIO_ONLY")
 FPS = 30
 py = lambda *a: subprocess.run([sys.executable, *a], check=True)
 KEYS = ["c01", "c02", "c03", "c04", "c05", "c06", "c07"]
@@ -62,15 +67,24 @@ def join():
 
 if __name__ == "__main__":
     os.makedirs(WK, exist_ok=True)
-    join()
+    video = JOIN
+    if AUDIO_ONLY:
+        ref = JOIN if os.path.exists(JOIN) else os.path.join(FULL, "oriskany_full_v3.mp4")   # the v3 picture (same 25,968 frames)
+        n = frames(ref); OUT = AUDIO_ONLY; video = AUDIO_ONLY + ".proxy.mp4"
+        subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i", f"color=c=black:s=64x36:r={FPS}", "-frames:v", str(n),
+                        "-c:v", "libx264", "-preset", "ultrafast", "-pix_fmt", "yuv420p", video], check=True)
+        print("audio-only test on a", n, "frame proxy of", ref, flush=True)
+    else:
+        join()
     py(os.path.join(HERE, "sfx_full.py"))
     py(os.path.join(HERE, "music_bed.py"))
     A = os.path.join(FULL, "audio")
-    py(os.path.join(SND, "mix_clip.py"), "--video", JOIN, "--voice", f"{A}/voice.wav", "--chunks", f"{HERE}/chunks.json",
+    py(os.path.join(SND, "mix_clip.py"), "--video", video, "--voice", f"{A}/voice.wav", "--chunks", f"{HERE}/chunks.json",
        "--sfx", f"{A}/sfx.wav", "--beds", f"{A}/beds.wav", "--punch", f"{A}/punch.wav", "--music", f"{A}/music_bed.wav",
        "--out", OUT, "--work", WK)
     py(os.path.join(SND, "measure_mix.py"), "--out", OUT, "--work", WK, "--words", f"{HERE}/words.json",
        "--cues", f"{HERE}/sfx_placed.json", "--ref", os.environ.get("REF_DIR", "/home/user/younessking/battle-maps/reference"))
     py(os.path.join(SND, "check_sound_lock.py"), "--render", f"{WK}/master.json", "--cues", f"{HERE}/sfx_placed.json",
-       "--measure", f"{WK}/measure.json")
+       "--measure", f"{WK}/measure.json", "--words", f"{HERE}/words.json")
+    if AUDIO_ONLY: os.remove(video)
     print("DONE", OUT)
