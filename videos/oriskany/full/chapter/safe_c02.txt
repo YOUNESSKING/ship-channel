@@ -7,10 +7,10 @@ safe_area.js adjusted:
   size 19->25.4: NAVY APPRAISAL
   size 19->25.4: THE CONDITION
   size 19->25.4: 1997
-  lift 7px: THE PLANA WARSHIP AS A THEME P
   wrap: THE CONDITION
   fit x0.98: SCRAP HER IN THE U.S.
   fit x0.98: A PROTEST.
   fit x0.98: Work held up until December.
+  lift 19px: THE PLANA WARSHIP AS A THEME P
   lift 20px: THE PLANA WARSHIP AS A THEME P
-PASS: no text breaks the size / safe-area / font rules (98.9 s checked every 0.5 s)
+PASS: no text breaks the size / safe-area / font rules (97.7 s checked every 0.5 s)

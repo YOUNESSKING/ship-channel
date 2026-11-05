@@ -36,5 +36,8 @@ safe_area.js adjusted:
   fit x0.78: ≈ $20 million
   fit x0.78: ≈ $21 million
   wrap: FLORIDA COUNTIES
+  lift 8px: 0
+  lift 8px: 0
+  lift 8px: 0
   wrap: THE CLEANUP RULE
 PASS: no text breaks the size / safe-area / font rules (128.5 s checked every 0.5 s)

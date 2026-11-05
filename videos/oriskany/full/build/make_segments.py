@@ -61,6 +61,8 @@ def still_shot(s, out):
             "in_s": (f"1+0.03*{q}", "(iw-iw/zoom)/2")}[mv]   # in_s: a gentle push that keeps a map's corner labels whole
     y = "(ih-ih/zoom)/2"
     vf = (f"scale=3840:2160,zoompan=z='{z}':x='{x}':y='{y}':d={n}:s={W}x{H}:fps=30")
+    if s.get("under"):   # under a card: soften the map / document so its own labels never compete with the card text
+        vf += ",gblur=sigma=9,eq=brightness=-0.06:saturation=0.85"
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-loop", "1", "-i", png, "-vf", vf, "-frames:v", str(n), *ENC, out], check=True)
     os.remove(png)
 
