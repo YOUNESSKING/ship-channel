@@ -15,19 +15,7 @@
     const log = [];
     textEls().forEach((e) => { const fs = parseFloat(getComputedStyle(e).fontSize) || 0;
       if (fs && fs < MIN_PX) { e.style.fontSize = MIN_PX + 'px'; log.push(`size ${fs}->${MIN_PX}: ${e.textContent.trim().slice(0, 30)}`); } });
-    const seen = new Set();
-    textEls().forEach((e) => { const b = blockOf(e); if (seen.has(b)) return; seen.add(b);
-      if (getComputedStyle(b).position !== 'absolute') return;
-      const r = b.getBoundingClientRect(), rr = root.getBoundingClientRect(); if (!r.height) return;
-      const top = (r.top - rr.top) / k, bot = (r.bottom - rr.top) / k, right = (r.right - rr.left) / k, left = (r.left - rr.left) / k;
-      const cur = parseFloat(getComputedStyle(b).top) || 0;
-      // DROP = runtime.js drop() entry offset (y: 12): the block rises from 12 px lower, so lift it far enough that it stays
-      // out of the bottom 10 % during its entry too (Oriskany full c03 "TELL US THEIR STORY" sat 1 px in the zone while fading in)
-      const DROP = 12;
-      if (bot + DROP > SAFE_B) { b.style.top = (cur - (bot + DROP - SAFE_B) - 6) + 'px'; log.push(`lift ${(bot + DROP - SAFE_B + 6).toFixed(0)}px: ${b.textContent.trim().slice(0, 30)}`); }
-      else if (right > TR_X && top < TR_Y && left > W * 0.5) { b.style.top = (cur + (TR_Y - top) + 6) + 'px'; log.push(`down ${(TR_Y - top + 6).toFixed(0)}px: ${b.textContent.trim().slice(0, 30)}`); }
-    });
-    // shrink-to-fit (Oriskany full v2, critic A M2): a text line wider than its box or than the frame minus a 64 px side margin
+    // shrink-to-fit (Oriskany full v2, critic A M2; v3: runs BEFORE the bottom-10 % lift, so a wrapped block is lifted at its real height): a text line wider than its box or than the frame minus a 64 px side margin
     // (96 px at 1080p) is scaled down until it fits; if that would take any text under MIN_PX, the line wraps instead.
     const M = 64, lines = new Set();
     // a "line" = the text's own element when it is an inline span that holds the whole run (card text, aside), else the nearest
@@ -55,6 +43,18 @@
         else if (!hasW) L.style.width = avail + 'px';
         log.push(`wrap: ${L.textContent.trim().slice(0, 30)}`); }
       if (!hasW && tl < M) { const cur = parseFloat(getComputedStyle(c).left) || 0; c.style.left = (cur + (M - tl)) + 'px'; }
+    });
+    const seen = new Set();
+    textEls().forEach((e) => { const b = blockOf(e); if (seen.has(b)) return; seen.add(b);
+      if (getComputedStyle(b).position !== 'absolute') return;
+      const r = b.getBoundingClientRect(), rr = root.getBoundingClientRect(); if (!r.height) return;
+      const top = (r.top - rr.top) / k, bot = (r.bottom - rr.top) / k, right = (r.right - rr.left) / k, left = (r.left - rr.left) / k;
+      const cur = parseFloat(getComputedStyle(b).top) || 0;
+      // DROP = runtime.js drop() entry offset (y: 12): the block rises from 12 px lower, so lift it far enough that it stays
+      // out of the bottom 10 % during its entry too (Oriskany full c03 "TELL US THEIR STORY" sat 1 px in the zone while fading in)
+      const DROP = 24;   // v3: a block dropping in (12) while its number pops in (12) at the same moment (Oriskany c07 "NOV 12")
+      if (bot + DROP > SAFE_B) { b.style.top = (cur - (bot + DROP - SAFE_B) - 6) + 'px'; log.push(`lift ${(bot + DROP - SAFE_B + 6).toFixed(0)}px: ${b.textContent.trim().slice(0, 30)}`); }
+      else if (right > TR_X && top < TR_Y && left > W * 0.5) { b.style.top = (cur + (TR_Y - top) + 6) + 'px'; log.push(`down ${(TR_Y - top + 6).toFixed(0)}px: ${b.textContent.trim().slice(0, 30)}`); }
     });
     window.__safeLog = (window.__safeLog || []).concat(log);
   }
