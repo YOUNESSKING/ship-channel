@@ -79,7 +79,7 @@ peak = 20 * np.log10(np.abs(bed).max() + 1e-9)
 lv = lambda x, y: round(meter.integrated_loudness(bed[int(x * SR):int(y * SR)]), 2)
 rep = {"total": TOTAL, "crossfade_s": XF, "target_lufs": TARGET, "dip": DIP, "end_lift": END_LIFT, "hook_v1_until": HOOK_KEEP,
        "pieces": plan, "peak_dbfs": round(float(peak), 2),
-       "loudness": {"0-48.6 hook": lv(0, 48.6), "0-360": lv(0, 360), "360-566": lv(360, 566), "566-806": lv(566, 806), "806-866": lv(806, 866.8),
-                    "end screen": lv(866.8, TOTAL - 3)}}
+       "loudness": {"0-48.6 hook": lv(0, 48.6), "0-360": lv(0, 360), "360-566": lv(360, 566), "566-806": lv(566, 806), "806-voice end": lv(806, END_LIFT[0] - 0.9),
+                    "end screen": lv(END_LIFT[0], TOTAL - 3)}}
 json.dump(rep, open(os.path.join(HERE, "music_bed.json"), "w"), indent=1)
 print(json.dumps(rep, indent=1))
