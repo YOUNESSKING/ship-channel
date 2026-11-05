@@ -393,6 +393,7 @@
     "push": null
    },
    "params": {
+    "side": "left",
     "number": "$800,000",
     "kicker": "ONE MORE TOW",
     "number_at": "@eight"

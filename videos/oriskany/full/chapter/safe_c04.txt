@@ -31,7 +31,6 @@ safe_area.js adjusted:
   wrap: FOR CONTAMINANTS
   fit x0.68: CONTAMINATED MATERIAL COMES OU
   wrap: REMOVING CONTAMINANTS
-  fit x0.92: $800,000
   wrap: NAVY SPENDING, SPRING 2006
   fit x0.78: ≈ $20 million
   fit x0.78: ≈ $21 million

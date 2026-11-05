@@ -197,7 +197,7 @@ B["c04"] = [
  E("Its job was to prove", "A:anim_xray", params=dict(image="../../test_v4/assets/carrier_hero_side.png", animal_w=1180, organ="dot", organ_pos=[0.45, 0.35], organ_label="SAFE?", organ_at="@safe", kicker="The *model*", kicker_at=0.1, first_frame="full")),
  E("From Texas she was towed", "M:c04_tow_pens", map="Corpus Christi -> Pensacola tow line along the Gulf coast; pin PENSACOLA; 'HURRICANE SEASON' tag on 'hurricane season'"),
  E("In June two thousand five", "M:c04_hurricane", map="Pensacola -> Beaumont tow line (back west); date line JUNE 2005; hurricane symbol in the Gulf"),
- E("That tow cost", "MS:m_c04_hurricane.mp4@end", move="in_s", num=dict(variant="right", number="$800,000", kicker="ONE MORE TOW", number_at="@eight", dim="dk")),
+ E("That tow cost", "MS:m_c04_hurricane.mp4@end", move="in_s", num=dict(variant="right", side="left", number="$800,000", kicker="ONE MORE TOW", number_at="@eight", dim="dk")),
  E("She rode out Hurricane", "M:c04_rita", map="Hurricane Rita track (Sept 2005) crosses the Gulf to the Texas-Louisiana line; pin BEAUMONT on 'Beaumont'; tag 'RITA · 2005'"),
  E("By the spring of two thousand six", "P:6696606", label="PENSACOLA · 2006"),
  E("the Navy's bill", "A:anim_gauge", params=dict(variant="meter", kicker="The *Navy's* bill", value=12.7, label="NAVY SPENDING, SPRING 2006", unit="$ million", decimals=1, max=25, count_at="@twelve point", dur=1.2)),
