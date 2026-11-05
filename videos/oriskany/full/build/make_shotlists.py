@@ -38,7 +38,7 @@ GEN = {
  "lab_b": ("noaa_dwh_sampleprep", [[40.0, 64.0]], "ILLUSTRATIVE · NOAA · FISH SAMPLES FOR TESTING, 2010"),
  "lab_c": ("noaa_dwh_sampleprep", [[64.0, 87.0]], "ILLUSTRATIVE · NOAA · FISH SAMPLES FOR TESTING, 2010"),
  "keys_diver": ("noaa_corals_gulf", [[115.18, 120.08]], "ILLUSTRATIVE · NOAA · DIVER ON A REEF, FLORIDA KEYS", 1.15),   # shot is 4.75 s cut-free: played at 0.87x
- "reef_fish": ("noaa_coral_fgb", [[8.0, 70.0]], "ILLUSTRATIVE · NOAA · REEF FISH"),
+ "reef_fish": ("noaa_coral_fgb", [[10.0, 70.0]], "ILLUSTRATIVE · NOAA · REEF FISH"),   # v2: 0-8.9 s is the NOAA title slate
  "navy_wreck_b": ("dvids_358436", [[64.0, 100.0]], "ILLUSTRATIVE · U.S. NAVY DIVERS ON A WRECK, COLOMBIA, 2014"),
 }
 for _k, _v in GEN.items():
@@ -298,7 +298,7 @@ B["c07"] = [
  E("So that is why", "P:6698624", move="in"),
  E("Nobody would take her whole", "A:anim_options", params=dict(title="What do you do with *a carrier?*", numbered=False, items=[dict(text="A museum?", at=0.05, strike_at="@whole"), dict(text="A scrapyard?", at=0.05, strike_at="@stick")])),
  E("And the PCBs were in her wiring", "A:anim_xray", params=dict(image="../../test_v4/assets/carrier_hero_side.png", animal_w=1180, organ="dot", organ_pos=[0.5, 0.4], organ_label="WIRING", organ_at="@wiring", kicker="Only by *taking her apart*", kicker_at="@only", first_frame="full")),
- E("The bottom of the Gulf was", "A:anim_options", params=dict(title="What do you do with *a carrier?*", numbered=False, items=[dict(text="A museum?", at=0.02, strike_at=0.05), dict(text="A scrapyard?", at=0.02, strike_at=0.1), dict(text="The bottom of the Gulf", at="@bottom", chosen=True)]), bg="G:reef_fish"),
+ E("The bottom of the Gulf was", "A:anim_options", params=dict(title="What do you do with *a carrier?*", numbered=False, items=[dict(text="A museum?", at=0.02, strike_at=0.05), dict(text="A scrapyard?", at=0.02, strike_at=0.1), dict(text="The bottom of the Gulf", at="@bottom", chosen=True)]), bg="G:reef_fish", bg_reel_in=42.3),   # v2: the jack school, not the c04 shot
  E("By the Navy's own sums", "A:anim_gauge", params=dict(variant="bars", kicker="The Navy's *own sums*", unit="", max=4, items=[dict(label="SCRAP + RECYCLE", value=4, at=0.05, count_at=0.05, dur=0.4), dict(label="REEF + CLEANUP", value=1, at=0.3, count_at=0.3, dur=0.8, hero=True)])),   # v2 M8: the Navy's own ratio (USNI06), not the press $20M
  E("She is still the only", "H:c07_today", hero="Kit hulk upright on the seabed, light shafts, fish icons; tag 'THE ONLY CARRIER EVER REEFED' on 'only'"),
  E("She will not be the biggest", "F:b10_ssus_profile.mp4"),
@@ -426,7 +426,7 @@ for ck in ["c02", "c03", "c04", "c05", "c06", "c07"]:
             if seg: segments.append(dict(chapter=ck, shot=sid, **seg))
             bgfile = None
             if b.get("bg") and k == 0:   # generic US-Gov film UNDER a card (card -> its lower-third / number layout over the film) or an anim (bg_clip)
-                bclip = f"g_{b['bg'][2:]}.mp4"; bss, bneed, bflag = film_window(bclip, dur, a)
+                bclip = f"g_{b['bg'][2:]}.mp4"; bss, bneed, bflag = film_window(bclip, dur, a, None, b.get("bg_reel_in"))
                 bgfile = f"b_{ck}_{sid}.mp4"
                 segments.append(dict(chapter=ck, shot=sid, file=bgfile, kind="film", clip=bclip, reel=FW[bclip]["reel"], reel_in=bss, dur=bneed,
                                      label=None, note=bflag, generic=True, tag=FW[bclip]["tag"], under=kd, **({"slow": FW[bclip]["slow"]} if FW[bclip].get("slow") else {})))

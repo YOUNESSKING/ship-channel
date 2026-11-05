@@ -55,6 +55,9 @@ def join():
     tot = round((CH["c07"]["audio_offset"] + CH["c07"]["duration"]) * FPS)
     print("joined", frames(JOIN), "frames (want", tot, ")")
     json.dump(rep, open(os.path.join(HERE, "join_report.json"), "w"), indent=1)
+    for k in KEYS:   # v2: the frame-fixed copies are only needed for the concat (disk)
+        f = os.path.join(FULL, "chapter", f"fix_{k}.mp4")
+        if os.path.exists(f): os.remove(f)
 
 
 if __name__ == "__main__":
