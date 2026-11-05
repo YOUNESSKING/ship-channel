@@ -37,7 +37,7 @@ Sea-floor map look (re-grade `bake.py`), modern carrier silhouette, sinking anim
 thumbnails. Ship SFX now = real Epidemic recordings (`assets/sfx/EPIDEMIC_SFX.md`, files git-ignored) through the v2
 chain in `tools/sound/` (reference build: `videos/oriskany/test_v3/build/mix_v2.py`, `SOUND_REPORT_v2.md`). Owner
 listened to Oriskany test v4 and approved the sound (2026-11-04), with one change: horn 4 dB quieter (-10 → -14 dB).
-Those roles and levels are now locked; the approved look/sound reference is `videos/oriskany/test_v4/`.
+Owner change 2026-11-05: horn -20 dB, at most 2 s, at most 2 per video, never under speech; no effect rings >1.5 s past its event. Those roles and levels are now locked; the approved look/sound reference is `videos/oriskany/test_v4/`.
 
 ## Competitor lessons (Forgotten Fleet)
 Full study with the final, critic-checked DO / DON'T lists: `research/FORGOTTEN_FLEET_STUDY.md`
