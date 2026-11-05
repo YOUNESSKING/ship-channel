@@ -22,7 +22,7 @@ TOTAL = round(CH["c07"]["end"] + 18.0, 3)
 XF = 5.0
 TARGET = float(os.environ.get("MUSIC_TARGET_LUFS", "-20.5"))
 SW_TENSION = CH["c06"]["start"]
-SW_OUTRO = round(CH["c07"]["voice_end"] - 60.0, 3)
+SW_OUTRO = 806.312   # v2 value (= last 60 s of the v2 narration); v3 keeps the outro entering on the same words, "So that is why..." + 4 s
 SW_LOOP = 360.0
 DIP = (538.46, 540.6, -12.0)
 END_LIFT = (CH["c07"]["voice_end"] + 0.9, 8.0)        # 866.8 s (after "comments." + 1 s)

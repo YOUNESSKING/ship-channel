@@ -44,9 +44,8 @@ SHOTS = [
  ('p_c07_s23', '6698554', 5.33, 'out', [0.5, 0.45], True, None, None),
  ('p_c07_s29', '6695641', 2.73, 'out', [0.5, 0.45], True, None, None),
  ('p_c07_s33', '6698624', 3.85, 'in', [0.5, 0.45], True, None, None),
- ('p_c07_s42', 'loc_haer_pa647_582545', 3.0, 'in', [0.5, 0.45], True, None, None),
- ('p_c07_s46', '6698606', 5.77, 'out', [0.5, 0.45], True, None, None),
- ('p_c07_s49', '6698625', 2.91, 'out', [0.5, 0.45], True, None, None),
+ ('p_c07_s41', '6698606', 5.77, 'out', [0.5, 0.45], True, None, None),
+ ('p_c07_s44', '6698625', 2.91, 'out', [0.5, 0.45], True, None, None),
 ]
 MONTAGE = None
 FILMS = []

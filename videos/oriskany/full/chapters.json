@@ -1,5 +1,5 @@
 {
- "duration": 866.812,
+ "duration": 847.596,
  "fps": 30,
  "chapters": [
   {
@@ -60,10 +60,10 @@
    "key": "c07",
    "title": "The Real Reason + Ending",
    "start": 686.542,
-   "voice_end": 865.812,
-   "words": 475,
-   "end": 866.812,
-   "duration": 180.27
+   "voice_end": 846.596,
+   "words": 422,
+   "end": 847.596,
+   "duration": 161.054
   }
  ]
 }

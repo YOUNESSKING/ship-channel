@@ -2415,257 +2415,138 @@
    "note": "card: SAVINGS COULD BE WIPED OUT"
   },
   {
-   "event": 805.375,
+   "event": 805.342,
    "shot": "c07:s34",
-   "at": 0.0633,
+   "at": 0.03,
    "role": "tick",
    "file": "pop_a__9da883ac.wav",
    "src": 0.45,
    "start": 805.312,
-   "end": 805.42,
-   "end_allowed": 809.692,
+   "end": 805.387,
+   "end_allowed": 808.762,
    "level_db": -20.4,
    "sync": "peak",
    "punch": false,
-   "measured": 805.377,
-   "offset_frames": 0.05,
+   "measured": 805.347,
+   "offset_frames": 0.15,
    "note": "option appears: A museum?"
   },
   {
-   "event": 806.542,
+   "event": 805.509,
    "shot": "c07:s34",
-   "at": 1.23,
+   "at": 0.1967,
    "role": "tick",
    "file": "pop_a__9da883ac.wav",
    "src": 0.45,
-   "start": 806.377,
-   "end": 806.587,
-   "end_allowed": 809.692,
+   "start": 805.344,
+   "end": 805.554,
+   "end_allowed": 808.762,
    "level_db": -19.7,
    "sync": "peak",
    "punch": false,
-   "measured": 806.542,
-   "offset_frames": 0.0,
-   "note": "option struck: A museum?"
-  },
-  {
-   "event": 808.809,
-   "shot": "c07:s34",
-   "at": 3.4967,
-   "role": "tick",
-   "file": "pop_a__9da883ac.wav",
-   "src": 0.45,
-   "start": 808.644,
-   "end": 808.854,
-   "end_allowed": 809.692,
-   "level_db": -20.4,
-   "sync": "peak",
-   "punch": false,
-   "measured": 808.809,
-   "offset_frames": 0.0,
-   "note": "option struck: A scrapyard?"
-  },
-  {
-   "event": 809.572,
-   "shot": "c07:s35",
-   "at": 0.0,
-   "role": "riser",
-   "file": "riser_a__fd98cb0b.wav",
-   "src": 0.0,
-   "start": 807.377,
-   "end": 809.637,
-   "end_allowed": 815.062,
-   "level_db": -16.6,
-   "sync": "peak",
-   "punch": false,
-   "measured": 809.572,
-   "offset_frames": 0.0,
-   "note": "reverse riser INTO the x-ray"
-  },
-  {
-   "event": 811.209,
-   "shot": "c07:s35",
-   "at": 1.6367,
-   "role": "tick",
-   "file": "pop_a__9da883ac.wav",
-   "src": 0.45,
-   "start": 811.044,
-   "end": 811.254,
-   "end_allowed": 815.062,
-   "level_db": -20.9,
-   "sync": "peak",
-   "punch": false,
-   "measured": 811.209,
-   "offset_frames": 0.0,
-   "note": "x-ray mark: WIRING"
-  },
-  {
-   "event": 814.975,
-   "shot": "c07:s36",
-   "at": 0.0333,
-   "role": "tick",
-   "file": "pop_a__9da883ac.wav",
-   "src": 0.45,
-   "start": 814.942,
-   "end": 815.02,
-   "end_allowed": 818.102,
-   "level_db": -20.4,
-   "sync": "peak",
-   "punch": false,
-   "measured": 814.977,
-   "offset_frames": 0.05,
-   "note": "option appears: A museum?"
-  },
-  {
-   "event": 815.142,
-   "shot": "c07:s36",
-   "at": 0.2,
-   "role": "tick",
-   "file": "pop_a__9da883ac.wav",
-   "src": 0.45,
-   "start": 814.977,
-   "end": 815.187,
-   "end_allowed": 818.102,
-   "level_db": -20.2,
-   "sync": "peak",
-   "punch": false,
-   "measured": 815.142,
+   "measured": 805.509,
    "offset_frames": 0.0,
    "note": "option appears: The bottom of the Gulf"
   },
   {
-   "event": 815.142,
-   "shot": "c07:s36",
-   "at": 0.2,
+   "event": 805.509,
+   "shot": "c07:s34",
+   "at": 0.1967,
    "role": "boom",
    "file": "boom_a__2f0a40ab.wav",
    "src": 0.0,
-   "start": 815.027,
-   "end": 816.427,
-   "end_allowed": 818.102,
-   "level_db": -10.6,
+   "start": 805.394,
+   "end": 806.794,
+   "end_allowed": 808.762,
+   "level_db": -11.4,
    "sync": "peak",
    "punch": true,
-   "measured": 815.142,
+   "measured": 805.509,
    "offset_frames": 0.0,
    "note": "the answer: The bottom of the Gulf"
   },
   {
-   "event": 819.075,
-   "shot": "c07:s37",
-   "at": 1.0933,
-   "role": "pop",
-   "file": "pop_b__844f57e0.wav",
-   "src": 0.0,
-   "start": 819.05,
-   "end": 819.3,
-   "end_allowed": 822.052,
-   "level_db": -20.6,
-   "sync": "peak",
-   "punch": false,
-   "measured": 819.075,
-   "offset_frames": 0.0,
-   "note": "gauge hero bar lands: REEF + CLEANUP"
-  },
-  {
-   "event": 827.55,
-   "shot": "c07:s39",
-   "at": 1.688,
+   "event": 814.264,
+   "shot": "c07:s36",
+   "at": 1.692,
    "role": "horn",
    "file": "horn_a__463af07a.wav",
    "src": 0.2,
-   "start": 827.51,
-   "end": 832.682,
-   "end_allowed": 832.682,
-   "level_db": -13.8,
+   "start": 814.224,
+   "end": 819.402,
+   "end_allowed": 819.402,
+   "level_db": -13.6,
    "sync": "onset",
    "punch": false,
-   "measured": 827.55,
+   "measured": 814.264,
    "offset_frames": 0.0,
    "note": "SS United States on screen: liner horn (signature sound, -14)"
   },
   {
-   "event": 828.509,
-   "shot": "c07:s40",
-   "at": 0.2067,
+   "event": 815.209,
+   "shot": "c07:s37",
+   "at": 0.1867,
    "role": "pop",
    "file": "pop_b__844f57e0.wav",
    "src": 0.0,
-   "start": 828.484,
-   "end": 828.734,
-   "end_allowed": 832.682,
-   "level_db": -20.0,
+   "start": 815.184,
+   "end": 815.434,
+   "end_allowed": 819.402,
+   "level_db": -20.9,
    "sync": "peak",
    "punch": false,
-   "measured": 828.509,
+   "measured": 815.209,
    "offset_frames": 0.0,
    "note": "number lands: NOV 12"
   },
   {
-   "event": 837.275,
-   "shot": "c07:s42",
-   "at": 0.4733,
-   "role": "pop",
-   "file": "pop_b__844f57e0.wav",
-   "src": 0.0,
-   "start": 837.25,
-   "end": 837.5,
-   "end_allowed": 839.572,
-   "level_db": -19.9,
+   "event": 823.612,
+   "shot": "c07:s39",
+   "at": 0.1,
+   "role": "tick",
+   "file": "pop_a__9da883ac.wav",
+   "src": 0.45,
+   "start": 823.512,
+   "end": 823.657,
+   "end_allowed": 827.802,
+   "level_db": -20.4,
    "sync": "peak",
    "punch": false,
-   "measured": 837.275,
-   "offset_frames": 0.0,
-   "note": "number lands: 990"
+   "measured": 823.617,
+   "offset_frames": 0.15,
+   "note": "map beat (c07_endmap)"
   },
   {
-   "event": 839.577,
-   "shot": "c07:s43",
-   "at": 0.125,
+   "event": 830.809,
+   "shot": "c07:s41",
+   "at": 1.5067,
    "role": "pop",
    "file": "pop_b__844f57e0.wav",
    "src": 0.0,
-   "start": 839.552,
-   "end": 839.802,
-   "end_allowed": 842.852,
-   "level_db": -20.1,
+   "start": 830.784,
+   "end": 831.034,
+   "end_allowed": 834.842,
+   "level_db": -20.2,
    "sync": "peak",
    "punch": false,
-   "measured": 839.577,
-   "offset_frames": 0.0,
-   "note": "card: NO EXPLOSIVES."
-  },
-  {
-   "event": 850.009,
-   "shot": "c07:s46",
-   "at": 1.4967,
-   "role": "pop",
-   "file": "pop_b__844f57e0.wav",
-   "src": 0.0,
-   "start": 849.984,
-   "end": 850.234,
-   "end_allowed": 854.062,
-   "level_db": -19.5,
-   "sync": "peak",
-   "punch": false,
-   "measured": 850.009,
+   "measured": 830.809,
    "offset_frames": 0.0,
    "note": "number lands: $50,000"
   },
   {
-   "event": 865.9,
-   "shot": "c07:s50",
-   "at": 1.498,
+   "event": 846.684,
+   "shot": "c07:s45",
+   "at": 1.502,
    "role": "whoosh",
    "file": "whoosh_b__8d9712d2.wav",
    "src": 0.2,
-   "start": 865.76,
-   "end": 868.96,
-   "end_allowed": 884.932,
-   "level_db": -12.5,
+   "start": 846.544,
+   "end": 849.744,
+   "end_allowed": 865.716,
+   "level_db": -11.6,
    "sync": "onset",
    "punch": false,
-   "measured": 865.9,
+   "measured": 846.684,
    "offset_frames": 0.0,
    "note": "map move starts (c07_endscreen)"
   }
@@ -3208,58 +3089,34 @@
    "note": "sea"
   },
   {
-   "role": "drone",
-   "file": "drone_a__244a55e9.wav",
-   "start": 809.572,
-   "end": 814.942,
-   "level_db": -30,
-   "note": "low tension drone (PCB gauges / x-ray)"
-  },
-  {
    "role": "underwater",
    "file": "underwater_a__127d88ce.wav",
-   "start": 814.942,
-   "end": 817.982,
-   "level_db": -30,
-   "note": "underwater ambience"
-  },
-  {
-   "role": "drone",
-   "file": "drone_a__244a55e9.wav",
-   "start": 817.982,
-   "end": 821.932,
-   "level_db": -30,
-   "note": "low tension drone (PCB gauges / x-ray)"
-  },
-  {
-   "role": "underwater",
-   "file": "underwater_a__127d88ce.wav",
-   "start": 821.932,
-   "end": 825.862,
+   "start": 805.312,
+   "end": 812.572,
    "level_db": -30,
    "note": "underwater ambience"
   },
   {
    "role": "projector",
    "file": "projector_b__5648e70b.wav",
-   "start": 825.862,
-   "end": 832.562,
+   "start": 812.572,
+   "end": 819.282,
    "level_db": -27,
    "note": "projector loop under NARA archive film"
   },
   {
    "role": "projector",
    "file": "projector_b__5648e70b.wav",
-   "start": 846.892,
-   "end": 848.512,
+   "start": 827.682,
+   "end": 829.302,
    "level_db": -27,
    "note": "projector loop under NARA archive film"
   },
   {
    "role": "projector",
    "file": "projector_b__5648e70b.wav",
-   "start": 856.722,
-   "end": 861.842,
+   "start": 837.502,
+   "end": 842.622,
    "level_db": -27,
    "note": "projector loop under NARA archive film"
   }
@@ -4433,88 +4290,63 @@
   [
    "c07:s34",
    805.312,
-   809.572
+   808.642
   ],
   [
    "c07:s35",
-   809.572,
-   814.942
+   808.642,
+   812.572
   ],
   [
    "c07:s36",
-   814.942,
-   817.982
+   812.572,
+   815.022
   ],
   [
    "c07:s37",
-   817.982,
-   821.932
+   815.022,
+   819.282
   ],
   [
    "c07:s38",
-   821.932,
-   825.862
+   819.282,
+   823.512
   ],
   [
    "c07:s39",
-   825.862,
-   828.302
+   823.512,
+   827.682
   ],
   [
    "c07:s40",
-   828.302,
-   832.562
+   827.682,
+   829.302
   ],
   [
    "c07:s41",
-   832.562,
-   836.802
+   829.302,
+   834.722
   ],
   [
    "c07:s42",
-   836.802,
-   839.452
+   834.722,
+   837.502
   ],
   [
    "c07:s43",
-   839.452,
-   842.732
+   837.502,
+   842.622
   ],
   [
    "c07:s44",
-   842.732,
-   846.892
+   842.622,
+   845.182
   ],
   [
    "c07:s45",
-   846.892,
-   848.512
-  ],
-  [
-   "c07:s46",
-   848.512,
-   853.942
-  ],
-  [
-   "c07:s47",
-   853.942,
-   856.722
-  ],
-  [
-   "c07:s48",
-   856.722,
-   861.842
-  ],
-  [
-   "c07:s49",
-   861.842,
-   864.402
-  ],
-  [
-   "c07:s50",
-   864.402,
-   884.812
+   845.182,
+   865.596
   ]
  ],
- "total": 884.812
+ "total": 865.596
 }

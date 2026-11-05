@@ -145,153 +145,97 @@
   },
   {
    "shot": "s34",
-   "at": 0.05,
-   "role": "tick",
-   "note": "option appears: A museum?"
-  },
-  {
-   "shot": "s34",
-   "at": "@whole",
-   "role": "tick",
-   "note": "option struck: A museum?"
-  },
-  {
-   "shot": "s34",
-   "at": 0.05,
-   "role": "tick",
-   "note": "option appears: A scrapyard?"
-  },
-  {
-   "shot": "s34",
-   "at": "@stick",
-   "role": "tick",
-   "note": "option struck: A scrapyard?"
-  },
-  {
-   "shot": "s35",
-   "at": 0.0,
-   "role": "riser",
-   "note": "reverse riser INTO the x-ray",
-   "lead": true
-  },
-  {
-   "shot": "s35",
-   "at": "@wiring",
-   "role": "tick",
-   "note": "x-ray mark: WIRING"
-  },
-  {
-   "shot": "s36",
    "at": 0.02,
    "role": "tick",
    "note": "option appears: A museum?"
   },
   {
-   "shot": "s36",
+   "shot": "s34",
    "at": 0.05,
    "role": "tick",
    "note": "option struck: A museum?"
   },
   {
-   "shot": "s36",
+   "shot": "s34",
    "at": 0.02,
    "role": "tick",
    "note": "option appears: A scrapyard?"
   },
   {
-   "shot": "s36",
+   "shot": "s34",
    "at": 0.1,
    "role": "tick",
    "note": "option struck: A scrapyard?"
   },
   {
-   "shot": "s36",
+   "shot": "s34",
    "at": "@bottom",
    "role": "tick",
    "note": "option appears: The bottom of the Gulf"
   },
   {
-   "shot": "s36",
+   "shot": "s34",
    "at": "@bottom",
    "role": "boom",
    "note": "the answer: The bottom of the Gulf"
   },
   {
-   "shot": "s37",
-   "at": 0.3,
-   "role": "hit",
-   "note": "gauge hero bar lands: REEF + CLEANUP",
-   "offset_after": 0.8
-  },
-  {
-   "shot": "s39",
+   "shot": "s36",
    "at": 0.0,
    "role": "horn",
    "note": "SS United States on screen: liner horn (signature sound, -14)",
-   "end_shot": "s39"
+   "end_shot": "s36"
   },
   {
-   "shot": "s40",
+   "shot": "s37",
    "at": "@november",
    "role": "pop",
    "note": "number lands: NOV 12"
   },
   {
-   "shot": "s41",
+   "shot": "s38",
    "at": 0.3,
    "role": "whoosh",
    "note": "map move starts (c07_okaloosa)"
   },
   {
-   "shot": "s42",
-   "at": "@nine hundred",
-   "role": "pop",
-   "note": "number lands: 990"
+   "shot": "s39",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c07_endmap)"
   },
   {
-   "shot": "s43",
-   "at": "@no explosives",
-   "role": "pop",
-   "note": "card: NO EXPLOSIVES."
-  },
-  {
-   "shot": "s44",
-   "at": 0.3,
-   "role": "whoosh",
-   "note": "map move starts (c07_endmap)"
-  },
-  {
-   "shot": "s46",
+   "shot": "s41",
    "at": "@fifty",
    "role": "pop",
    "note": "number lands: $50,000"
   },
   {
-   "shot": "s47",
+   "shot": "s42",
    "at": 0.3,
    "role": "whoosh",
    "note": "map move starts (c07_title)"
   },
   {
-   "shot": "s49",
+   "shot": "s44",
    "at": 0.05,
    "role": "ship",
    "note": "water closes over the hull: flood",
    "file": "flood_a__db95b348.wav",
-   "end_shot": "s49"
+   "end_shot": "s44"
   },
   {
-   "shot": "s50",
+   "shot": "s45",
    "at": 0.3,
    "role": "whoosh",
    "note": "map move starts (c07_endscreen)"
   }
  ],
  "film_shots": [
-  "s39",
+  "s36",
+  "s37",
   "s40",
-  "s45",
-  "s48"
+  "s43"
  ],
  "generic_video_shots": [
   "s03",
@@ -301,7 +245,7 @@
   "s24",
   "s28",
   "s30",
-  "s36"
+  "s34"
  ],
  "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
 }

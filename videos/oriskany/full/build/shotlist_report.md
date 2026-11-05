@@ -7,8 +7,8 @@
 | c04 | 124.5 | 32 | 5 | 17 | 28 | 9 | 29 | 12 | 0 | 5 | 0 | **5** | 5.7 s (s18) | 13.5 |
 | c05 | 81.4 | 25 | 0 | 64 | 12 | 8 | 6 | 9 | 0 | 0 | 0 | **0** | 5.7 s (s22) | 14.7 |
 | c06 | 120.7 | 32 | 15 | 16 | 15 | 41 | 13 | 0 | 0 | 15 | 0 | **15** | 5.9 s (s11) | 13.4 |
-| c07 | 198.3 | 50 | 19 | 14 | 14 | 23 | 21 | 7 | 7 | 12 | 4 | **24** | 5.9 s (s04) | 13.9 |
-| **c02-c07** | | | **20** | **20** | **22** | **16** | **13** | **10** | **14** | **6** | **2** | **21** | | |
+| c07 | 179.1 | 45 | 22 | 14 | 16 | 26 | 16 | 6 | 8 | 13 | 5 | **27** | 5.9 s (s04) | 12.4 |
+| **c02-c07** | | | **20** | **20** | **22** | **16** | **12** | **9** | **14** | **6** | **2** | **22** | | |
 
 ## Pacing flags (shots > 6.0 s or < 1.2 s; end screen excluded)
 
@@ -20,7 +20,7 @@
 
 - dvids_791060: 71s g_fm_tow.mp4, 791s g_fm_out.mp4
 - dvids_828554: 58s g_kh_a.mp4, 784s g_kh_a.mp4
-- noaa_coral_fgb: 365s g_reef_fish.mp4, 815s g_reef_fish.mp4
+- noaa_coral_fgb: 365s g_reef_fish.mp4, 805s g_reef_fish.mp4
 - noaa_dwh_sampleprep: 614s g_lab_a.mp4, 616s g_lab_b.mp4, 631s g_lab_c.mp4
 - noaa_snapper_recfish: 669s g_recfish_a.mp4, 734s g_recfish_b.mp4
 - noaa_snapper_school: 643s g_snap_b.mp4, 772s g_snap_c.mp4
@@ -239,20 +239,15 @@
 | c07 | s31 | 795.7 | 1.62 | text_card | CARD | Cleaning ships to the new |
 | c07 | s32 | 797.32 | 4.5 | text_card | CARD | could wipe out |
 | c07 | s33 | 801.81 | 3.5 | clip_plain | P:6698624 | So that is why |
-| c07 | s34 | 805.31 | 4.26 | anim_options | A:anim_options | Nobody would take her whole |
-| c07 | s35 | 809.58 | 5.37 | anim_xray | A:anim_xray | And the PCBs were in her wiring |
-| c07 | s36 | 814.95 | 3.03 | anim_options | A:anim_options + bg G:reef_fish | The bottom of the Gulf was |
-| c07 | s37 | 817.98 | 3.95 | anim_gauge | A:anim_gauge | By the Navy's own sums |
-| c07 | s38 | 821.93 | 3.93 | clip_plain | H:c07_today | She is still the only |
-| c07 | s39 | 825.86 | 2.44 | clip_plain | F:b10_ssus_profile.mp4 | She will not be the biggest |
-| c07 | s40 | 828.3 | 4.26 | number_clip | F:b10_ssus_crane_river.mp4 | On November twelfth |
-| c07 | s41 | 832.56 | 4.24 | map_clip | M:c07_okaloosa | Okaloosa County plans |
-| c07 | s42 | 836.8 | 2.65 | number_clip | P:loc_haer_pa647_582545 | She is nine hundred and ninety |
-| c07 | s43 | 839.46 | 3.27 | text_card | CARD | No explosives this time |
-| c07 | s44 | 842.73 | 4.16 | map_clip | M:c07_endmap | She will lie about thirteen |
-| c07 | s45 | 846.89 | 1.62 | clip_plain | F:b10_ssus_stacks.mp4 | And here is the twist |
-| c07 | s46 | 848.52 | 5.42 | number_clip | P:6698606 | Okaloosa County put |
-| c07 | s47 | 853.94 | 2.78 | map_clip | M:c07_title | Now it is about to take |
-| c07 | s48 | 856.72 | 5.12 | clip_plain | F:b3_aerial_underway2_1969.mp4 | So was the bottom |
-| c07 | s49 | 861.84 | 2.56 | clip_plain | P:6698625 | Or just the cheapest |
-| c07 | s50 | 864.4 | 20.41 | map_clip | M:c07_endscreen | Tell us in the comments |
+| c07 | s34 | 805.31 | 3.33 | anim_options | A:anim_options + bg G:reef_fish | The bottom of the Gulf was |
+| c07 | s35 | 808.64 | 3.93 | clip_plain | H:c07_today | She is still the only |
+| c07 | s36 | 812.58 | 2.44 | clip_plain | F:b10_ssus_profile.mp4 | She will not be the biggest |
+| c07 | s37 | 815.02 | 4.26 | number_clip | F:b10_ssus_crane_river.mp4 | On November twelfth |
+| c07 | s38 | 819.28 | 4.24 | map_clip | M:c07_okaloosa | Okaloosa County plans |
+| c07 | s39 | 823.52 | 4.16 | map_clip | M:c07_endmap | She will lie about thirteen |
+| c07 | s40 | 827.68 | 1.62 | clip_plain | F:b10_ssus_stacks.mp4 | And here is the twist |
+| c07 | s41 | 829.3 | 5.42 | number_clip | P:6698606 | Okaloosa County put |
+| c07 | s42 | 834.72 | 2.78 | map_clip | M:c07_title | Now it is about to take |
+| c07 | s43 | 837.51 | 5.12 | clip_plain | F:b3_aerial_underway2_1969.mp4 | So was the bottom |
+| c07 | s44 | 842.63 | 2.56 | clip_plain | P:6698625 | Or just the cheapest |
+| c07 | s45 | 845.19 | 20.41 | map_clip | M:c07_endscreen | Tell us in the comments |

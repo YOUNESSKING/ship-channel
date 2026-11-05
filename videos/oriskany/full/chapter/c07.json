@@ -4,7 +4,7 @@
  "words": "../build/words.json",
  "audio_offset": 686.542,
  "clips_dir": "../segments",
- "duration": 198.27,
+ "duration": 179.054,
  "fade_out": 0.6,
  "res": 1080,
  "anim_theme": {
@@ -523,50 +523,6 @@
    "id": "s34",
    "start": "t118.77",
    "sfx": false,
-   "template": "anim_options",
-   "variant": "list",
-   "params": {
-    "title": "What do you do with *a carrier?*",
-    "numbered": false,
-    "items": [
-     {
-      "text": "A museum?",
-      "at": 0.05,
-      "strike_at": "@whole"
-     },
-     {
-      "text": "A scrapyard?",
-      "at": 0.05,
-      "strike_at": "@stick"
-     }
-    ]
-   }
-  },
-  {
-   "id": "s35",
-   "start": "t123.03",
-   "sfx": false,
-   "template": "anim_xray",
-   "variant": "animal",
-   "params": {
-    "image": "../../test_v4/assets/carrier_hero_side.png",
-    "animal_w": 1180,
-    "organ": "dot",
-    "organ_pos": [
-     0.5,
-     0.4
-    ],
-    "organ_label": "WIRING",
-    "organ_at": "@wiring",
-    "kicker": "Only by *taking her apart*",
-    "kicker_at": "@only",
-    "first_frame": "full"
-   }
-  },
-  {
-   "id": "s36",
-   "start": "t128.40",
-   "sfx": false,
    "tag": "ILLUSTRATIVE · NOAA · REEF FISH",
    "template": "anim_options",
    "variant": "list",
@@ -592,42 +548,13 @@
     ]
    },
    "bg_clip": {
-    "file": "b_c07_s36.mp4",
+    "file": "b_c07_s34.mp4",
     "show": 0.5
    }
   },
   {
-   "id": "s37",
-   "start": "t131.44",
-   "sfx": false,
-   "template": "anim_gauge",
-   "variant": "bars",
-   "params": {
-    "kicker": "The Navy's *own sums*",
-    "unit": "",
-    "max": 4,
-    "items": [
-     {
-      "label": "SCRAP + RECYCLE",
-      "value": 4,
-      "at": 0.05,
-      "count_at": 0.05,
-      "dur": 0.4
-     },
-     {
-      "label": "REEF + CLEANUP",
-      "value": 1,
-      "at": 0.3,
-      "count_at": 0.3,
-      "dur": 0.8,
-      "hero": true
-     }
-    ]
-   }
-  },
-  {
-   "id": "s38",
-   "start": "t135.39",
+   "id": "s35",
+   "start": "t122.10",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -638,25 +565,25 @@
    "params": {}
   },
   {
-   "id": "s39",
-   "start": "t139.32",
+   "id": "s36",
+   "start": "t126.03",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "f_c07_s39.mp4",
+    "file": "f_c07_s36.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s40",
-   "start": "t141.76",
+   "id": "s37",
+   "start": "t128.48",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
    "clip": {
-    "file": "f_c07_s40.mp4",
+    "file": "f_c07_s37.mp4",
     "push": null
    },
    "params": {
@@ -666,8 +593,8 @@
    }
   },
   {
-   "id": "s41",
-   "start": "t146.02",
+   "id": "s38",
+   "start": "t132.74",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -678,40 +605,8 @@
    "params": {}
   },
   {
-   "id": "s42",
-   "start": "t150.26",
-   "sfx": false,
-   "template": "number_clip",
-   "variant": "right",
-   "clip": {
-    "file": "p_c07_s42.mp4",
-    "push": null
-   },
-   "params": {
-    "number": "990",
-    "unit": "ft",
-    "subline": "SS UNITED STATES · 2012 LAYUP",
-    "number_at": "@nine hundred"
-   }
-  },
-  {
-   "id": "s43",
-   "start": "t152.91",
-   "sfx": false,
-   "template": "text_card",
-   "variant": "pair",
-   "card": true,
-   "params": {
-    "text": "NO EXPLOSIVES.",
-    "aside": "They will flood her.",
-    "at": "@no explosives",
-    "aside_at": "@they will",
-    "joke_sound": false
-   }
-  },
-  {
-   "id": "s44",
-   "start": "t156.19",
+   "id": "s39",
+   "start": "t136.97",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -722,25 +617,25 @@
    "params": {}
   },
   {
-   "id": "s45",
-   "start": "t160.35",
+   "id": "s40",
+   "start": "t141.14",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "f_c07_s45.mp4",
+    "file": "f_c07_s40.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s46",
-   "start": "t161.97",
+   "id": "s41",
+   "start": "t142.76",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
    "clip": {
-    "file": "p_c07_s46.mp4",
+    "file": "p_c07_s41.mp4",
     "push": null
    },
    "params": {
@@ -751,8 +646,8 @@
    }
   },
   {
-   "id": "s47",
-   "start": "t167.40",
+   "id": "s42",
+   "start": "t148.18",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -763,32 +658,32 @@
    "params": {}
   },
   {
-   "id": "s48",
-   "start": "t170.18",
+   "id": "s43",
+   "start": "t150.96",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "f_c07_s48.mp4",
+    "file": "f_c07_s43.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s49",
-   "start": "t175.30",
+   "id": "s44",
+   "start": "t156.08",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c07_s49.mp4",
+    "file": "p_c07_s44.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s50",
-   "start": "t177.86",
+   "id": "s45",
+   "start": "t158.64",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",

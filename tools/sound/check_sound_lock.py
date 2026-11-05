@@ -11,7 +11,7 @@ Static lock (runs before every SFX render, `check()`):
 Render checks (`python3 check_sound_lock.py --render WORK/master.json --cues placed.json --measure measure.json`):
   * loudnorm pass 2 reported "linear" and predicted TP <= -1.5; final -14 +/- 0.5 LUFS, TP <= -1.5 dBTP;
   * stereo, audio duration == video duration (+/- 1 frame);
-  * LRA >= 5 LU; low end < 120 Hz >= 3 dB under the 300-3000 Hz voice band during clean speech; every big beat's momentary max >= 3 LU above the speech momentary median;
+  * LRA >= 5 LU for short tests, 2-8 LU for full-length masters > 5 min (owner decision 2026-11-05); low end < 120 Hz >= 3 dB under the 300-3000 Hz voice band during clean speech; every big beat's momentary max >= 3 LU above the speech momentary median;
   * music under speech -18..-28 dB re voice, music in gaps within 3 dB of the battle-maps reference estimate;
   * every cue's measured sync point <= 3 frames off its event, and no cue runs past its allowed end.
 Changing any locked number is an OWNER decision."""
@@ -107,7 +107,11 @@ def check_render(master, placed, meas):
     if au["channels"] != 2: errs.append(f"master has {au['channels']} channel(s), not stereo")
     if abs(float(au["duration"]) - float(vi["duration"])) > 1.0 / FPS + 0.025:   # + one AAC frame
         errs.append(f"audio {au['duration']} s vs video {vi['duration']} s")
-    if meas["lra"] < 5: errs.append(f"LRA {meas['lra']} LU < 5")
+    # LRA rule, OWNER DECISION 2026-11-05 (Oriskany full v3): a full-length master (> 5 min) must sit in the battle-maps reference
+    # band, 2-8 LU (a 15-min narration on the locked chain measures 2-3 LU; the references measure 2.2-2.5). Short tests keep >= 5 LU.
+    if float(vi["duration"]) > 300:
+        if not 2 <= meas["lra"] <= 8: errs.append(f"LRA {meas['lra']} LU outside 2-8 (full-length master, owner rule 2026-11-05)")
+    elif meas["lra"] < 5: errs.append(f"LRA {meas['lra']} LU < 5 (short test)")
     for b in meas["beats"]:
         if b["above_speech_lu"] < 3: errs.append(f"big beat @ {b['t']:.2f} ({b['what']}) only {b['above_speech_lu']:+.1f} LU above speech")
     b = meas.get("bands_in_speech_re_total_db")

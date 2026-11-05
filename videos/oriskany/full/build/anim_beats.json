@@ -1094,19 +1094,19 @@
   "c07_today": {
    "file": "h_c07_today.mp4",
    "chapter": "c07",
-   "shot": "s38",
+   "shot": "s35",
    "shot_dur": 4.28,
    "clip_dur": 4.68,
-   "chapter_t0": 135.389,
-   "abs_t0": 821.931,
+   "chapter_t0": 122.103,
+   "abs_t0": 808.645,
    "replaces": null,
    "narration": "She is still the only aircraft carrier ever sunk as a reef.",
    "beats": [
     {
      "t": 0.72,
      "frame": 22,
-     "chapter_t": 136.109,
-     "abs_t": 822.651,
+     "chapter_t": 122.823,
+     "abs_t": 809.365,
      "kind": "pop",
      "note": "THE ONLY CARRIER EVER REEFED tag",
      "main": true
@@ -2073,161 +2073,73 @@
     "beats": [
      {
       "kind": "pop",
-      "chapter_t": 118.82,
-      "t": 0.05,
-      "frame": 1,
-      "note": "option A museum?"
-     },
-     {
-      "kind": "scrape",
-      "chapter_t": 119.992,
-      "t": 1.222,
-      "frame": 37,
-      "note": "strike A museum?"
-     },
-     {
-      "kind": "pop",
-      "chapter_t": 118.82,
-      "t": 0.05,
-      "frame": 1,
-      "note": "option A scrapyard?"
-     },
-     {
-      "kind": "scrape",
-      "chapter_t": 122.258,
-      "t": 3.488,
-      "frame": 105,
-      "note": "strike A scrapyard?"
-     }
-    ]
-   },
-   {
-    "shot": "s35",
-    "template": "anim_xray",
-    "variant": "animal",
-    "start": 123.03,
-    "beats": [
-     {
-      "kind": "pop",
-      "chapter_t": 124.673,
-      "t": 1.643,
-      "frame": 49,
-      "note": "organ glows WIRING"
-     }
-    ]
-   },
-   {
-    "shot": "s36",
-    "template": "anim_options",
-    "variant": "list",
-    "start": 128.4,
-    "beats": [
-     {
-      "kind": "pop",
-      "chapter_t": 128.42,
+      "chapter_t": 118.79,
       "t": 0.02,
       "frame": 1,
       "note": "option A museum?"
      },
      {
       "kind": "scrape",
-      "chapter_t": 128.45,
+      "chapter_t": 118.82,
       "t": 0.05,
       "frame": 1,
       "note": "strike A museum?"
      },
      {
       "kind": "pop",
-      "chapter_t": 128.42,
+      "chapter_t": 118.79,
       "t": 0.02,
       "frame": 1,
       "note": "option A scrapyard?"
      },
      {
       "kind": "scrape",
-      "chapter_t": 128.5,
+      "chapter_t": 118.87,
       "t": 0.1,
       "frame": 3,
       "note": "strike A scrapyard?"
      },
      {
       "kind": "pop",
-      "chapter_t": 128.585,
-      "t": 0.185,
-      "frame": 6,
+      "chapter_t": 118.952,
+      "t": 0.182,
+      "frame": 5,
       "note": "option The bottom of the Gulf"
      },
      {
       "kind": "land",
-      "chapter_t": 128.585,
-      "t": 0.185,
-      "frame": 6,
+      "chapter_t": 118.952,
+      "t": 0.182,
+      "frame": 5,
       "note": "chosen The bottom of the Gulf (gold box after the last strike)"
      }
     ]
    },
    {
     "shot": "s37",
-    "template": "anim_gauge",
-    "variant": "bars",
-    "start": 131.44,
-    "beats": [
-     {
-      "kind": "pop",
-      "chapter_t": 131.89,
-      "t": 0.45,
-      "frame": 13,
-      "note": "bar SCRAP + RECYCLE = 4"
-     },
-     {
-      "kind": "land",
-      "chapter_t": 132.54,
-      "t": 1.1,
-      "frame": 33,
-      "note": "bar REEF + CLEANUP = 1 (hero)"
-     }
-    ]
-   },
-   {
-    "shot": "s40",
     "template": "number_clip",
     "variant": "right",
-    "start": 141.76,
+    "start": 128.48,
     "beats": [
      {
       "kind": "land",
-      "chapter_t": 141.962,
-      "t": 0.202,
+      "chapter_t": 128.676,
+      "t": 0.196,
       "frame": 6,
       "note": "number NOV 12"
      }
     ]
    },
    {
-    "shot": "s42",
+    "shot": "s41",
     "template": "number_clip",
     "variant": "right",
-    "start": 150.26,
+    "start": 142.76,
     "beats": [
      {
       "kind": "land",
-      "chapter_t": 150.74,
-      "t": 0.48,
-      "frame": 14,
-      "note": "number 990"
-     }
-    ]
-   },
-   {
-    "shot": "s46",
-    "template": "number_clip",
-    "variant": "right",
-    "start": 161.97,
-    "beats": [
-     {
-      "kind": "land",
-      "chapter_t": 163.478,
-      "t": 1.508,
+      "chapter_t": 144.262,
+      "t": 1.502,
       "frame": 45,
       "note": "number $50,000"
      }

@@ -296,19 +296,19 @@ B["c07"] = [
  E("Cleaning ships to the new", "CARD", card=dict(variant="line", kicker="THE WARNING", text="CLEAN TO THE NEW STANDARD", at="@standard")),
  E("could wipe out", "CARD", card=dict(variant="line", kicker="MARAD · JAN 2008", text="SAVINGS COULD BE WIPED OUT", at="@wipe")),   # v2 M7: no invented $ figure
  E("So that is why", "P:6698624", move="in"),
- E("Nobody would take her whole", "A:anim_options", params=dict(title="What do you do with *a carrier?*", numbered=False, items=[dict(text="A museum?", at=0.05, strike_at="@whole"), dict(text="A scrapyard?", at=0.05, strike_at="@stick")])),
- E("And the PCBs were in her wiring", "A:anim_xray", params=dict(image="../../test_v4/assets/carrier_hero_side.png", animal_w=1180, organ="dot", organ_pos=[0.5, 0.4], organ_label="WIRING", organ_at="@wiring", kicker="Only by *taking her apart*", kicker_at="@only", first_frame="full")),
+   # v3 (owner, option A ending cut 2026-11-05): removed E("Nobody would take her whole", "A:anim_options", params=di ...
+   # v3 (owner, option A ending cut 2026-11-05): removed E("And the PCBs were in her wiring", "A:anim_xray", params=d ...
  E("The bottom of the Gulf was", "A:anim_options", params=dict(title="What do you do with *a carrier?*", numbered=False, items=[dict(text="A museum?", at=0.02, strike_at=0.05), dict(text="A scrapyard?", at=0.02, strike_at=0.1), dict(text="The bottom of the Gulf", at="@bottom", chosen=True)]), bg="G:reef_fish", bg_reel_in=42.3),   # v2: the jack school, not the c04 shot
- E("By the Navy's own sums", "A:anim_gauge", params=dict(variant="bars", kicker="The Navy's *own sums*", unit="", max=4, items=[dict(label="SCRAP + RECYCLE", value=4, at=0.05, count_at=0.05, dur=0.4), dict(label="REEF + CLEANUP", value=1, at=0.3, count_at=0.3, dur=0.8, hero=True)])),   # v2 M8: the Navy's own ratio (USNI06), not the press $20M
+   # v3 (owner, option A ending cut 2026-11-05): removed E("By the Navy's own sums", "A:anim_gauge", params=dict(vari ...
  E("She is still the only", "H:c07_today", hero="Kit hulk upright on the seabed, light shafts, fish icons; tag 'THE ONLY CARRIER EVER REEFED' on 'only'"),
  E("She will not be the biggest", "F:b10_ssus_profile.mp4"),
  E("On November twelfth", "F:b10_ssus_crane_river.mp4", num=dict(variant="right", kicker="10 A.M. · WEATHER PERMITTING", number="NOV 12", number_at="@november", dim="dk")),
  E("Okaloosa County plans", "M:c07_okaloosa", map="Florida panhandle; Okaloosa County outline + DESTIN pin on 'Okaloosa'; liner icon (kit liner_top) appears off Destin on 'SS United States'"),
- E("She is nine hundred and ninety", "P:loc_haer_pa647_582545", num=dict(variant="right", number="990", unit="ft", subline="SS UNITED STATES · 2012 LAYUP", number_at="@nine hundred", dim="dk")),
- E("No explosives this time", "CARD", card=dict(variant="pair", text="NO EXPLOSIVES.", aside="They will flood her.", at="@no explosives", aside_at="@they will", joke_sound=False)),
+   # v3 (owner, option A ending cut 2026-11-05): removed E("She is nine hundred and ninety", "P:loc_haer_pa647_582545 ...
+   # v3 (owner, option A ending cut 2026-11-05): removed E("No explosives this time", "CARD", card=dict(variant="pair ...
  E("She will lie about thirteen", "M:c07_endmap", map="test v4 endmap.js re-timed: both pins (USS ORISKANY reef + SS UNITED STATES · NOV 12), dashed '13 NAUTICAL MILES' on 'thirteen'"),
  E("And here is the twist", "F:b10_ssus_stacks.mp4"),
- E("Okaloosa County put", "P:6698606", num=dict(variant="right", kicker="OKALOOSA COUNTY'S SHARE", number="$50,000", number_at="@fifty", subline="TOWARD SINKING THE ORISKANY", dim="dk")),
+ E("Okaloosa County put", "P:6698606", move="out", num=dict(variant="right", kicker="OKALOOSA COUNTY'S SHARE", number="$50,000", number_at="@fifty", subline="TOWARD SINKING THE ORISKANY", dim="dk")),
  E("Now it is about to take", "M:c07_title", map="End map again: a gold 'PLANNED · LARGEST ARTIFICIAL REEF' tag slides from the Oriskany pin to the SS United States pin on 'take her title'"),
  E("So was the bottom", "F:b3_aerial_underway2_1969.mp4"),
  E("Or just the cheapest", "P:6698625", move="out"),

@@ -100,19 +100,30 @@ HOOK_END = CHJ["c02"]["audio_offset"]
 WHOOSH_KEEP = [153.66, 484.78, 686.84]               # M1: only the 3 biggest moves of the body (+ the approved hook pair)
 RISER_KEEP = [266.17, 516.58, 565.88, 809.57]        # S5: first x-ray, 22 charges, PCBs, the answer
 END_WHOOSH = 865.9                                   # S4: end-screen whoosh after "comments."
-def T(c): return ST[c["shot"]][0] + c["at"]
+# v3: the ending cut (build/cuts_v3.json) moved every time after 805.4 s; the rules below stay written in v2 (critique) times
+_CUTS = json.load(open(os.path.join(HERE, "cuts_v3.json")))["cuts"] if os.path.exists(os.path.join(HERE, "cuts_v3.json")) else []
+def to_v2(t):
+    for c in _CUTS:
+        if t >= c["t0"] - 1e-6: t += c["dur"]
+    return t
+def to_v3(t):
+    d = 0.0
+    for c in _CUTS:
+        if t >= c["t1"]: d += c["dur"]
+    return t - d
+def T(c): return to_v2(ST[c["shot"]][0] + c["at"])
 def shot_at(t): return next(s for s, a, b in SHOTS if a <= t < b)
 def clip_of(shot):
     k, sid = shot.split(":"); s = LOCAL[(k, sid)][1]; return (s.get("clip") or {}).get("file", "")
 V2 = []; out = []
 for c in CUES:
     t = T(c)
-    if t < HOOK_END - 0.01: out.append(c); continue                      # the approved hook: untouched
+    if t < HOOK_END - 0.01: out.append(c); continue   # (t = v2 time)                      # the approved hook: untouched
     r, note = c["role"], c["note"]
     if r == "whoosh":
         if any(abs(t - w) < 1.0 for w in WHOOSH_KEEP): out.append(c)
         elif t > 860 and not any(x.get("_end") for x in out):
-            sh = shot_at(END_WHOOSH); c = dict(c, shot=sh, at=round(END_WHOOSH - ST[sh][0], 3), _end=True); out.append(c); V2.append((t, r, f"moved to {END_WHOOSH} (S4)"))
+            ew = to_v3(END_WHOOSH); sh = shot_at(ew); c = dict(c, shot=sh, at=round(ew - ST[sh][0], 3), _end=True); out.append(c); V2.append((t, r, f"moved to {END_WHOOSH} (S4)"))
         else: V2.append((t, r, "dropped (M1: whoosh only on the 3 biggest moves)"))
         continue
     if r == "jet" and "b1_launch" in note:
@@ -128,11 +139,11 @@ for c in CUES:
     if r == "ship" and "groan" in note and 530 < t < 537:
         if 530 < t < 532:     # S3: groan 1 after "minutes.", runs on through the stern-first shot
             nxt = ORDER[ORDER.index(c["shot"]) + 1]
-            c = dict(c, at=round(532.80 - ST[c["shot"]][0], 3), end_shot=nxt); V2.append((t, r, "moved to 532.80 (S3)"))
+            c = dict(c, at=round(to_v3(532.80) - ST[c["shot"]][0], 3), end_shot=nxt); V2.append((t, r, "moved to 532.80 (S3)"))
         else: V2.append((t, r, "dropped (S3: groan 2 masked 'down stern first')")); continue
     if r == "horn" and 824 < t < 827:   # N4: the horn in the voice gap before "On November twelfth"
         nxt = ORDER[ORDER.index(c["shot"]) + 1]
-        c = dict(c, at=round(827.55 - ST[c["shot"]][0], 3), end_shot=nxt); V2.append((t, r, "moved to 827.55 (N4)"))
+        c = dict(c, at=round(to_v3(827.55) - ST[c["shot"]][0], 3), end_shot=nxt); V2.append((t, r, "moved to 827.55 (N4)"))
     out.append(c)
     if r == "explosion" and 525.5 < t < 527:   # S3: boom layer under the c05 charges, as the hook does at 17.65 (locked boom level)
         out.append(dict(shot=c["shot"], at=c["at"], role="boom", note="charges fire: boom layer (as the hook)")); V2.append((t, "boom", "added (S3)"))
