@@ -53,3 +53,13 @@ passes to the SS United States if she sinks as planned).
 | D | What the Navy Left Inside the Carrier It Sank | 88 |
 
 All three pass (≥ 85). Test & Compare set: C (launch title), A, D.
+
+## Final thumbnails v2 (2026-11-06, after 2 critics + competitor check)
+Files: `videos/oriskany/thumbnails/v2_T1_navy_did_this.jpg`, `v2_T2_37_minutes.jpg`, `v2_T3_whats_left_inside.jpg`
+(builder `make_thumbs_v2.py`; critiques `CRITIQUE_1_ctr.md`, `CRITIQUE_2_truth_design.md`; competitors `COMPETITORS.md`).
+| # | Photo (NARA, 17 May 2006, PD) | Words | True because |
+|---|---|---|---|
+| T1 launch | 6698624 bow on end, foam + boat for scale | NAVY DID THIS | FACT G2 (Navy demolition divers set the charges) |
+| T2 | 6698619 charges fired, smoke off the deck | 37 MINUTES | FACT G5 (HIGH) |
+| T3 | 6698625 bow slipping under | WHAT'S LEFT INSIDE? | FACT E7 (~700 lb PCBs left aboard, HIGH) |
+Test & Compare: T1, T2, T3 with the launch title. Judge on day 7–14.

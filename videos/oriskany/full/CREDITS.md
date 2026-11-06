@@ -130,3 +130,5 @@ Description block: Archive film and photos: NASA/Goddard Space Flight Center Sci
 - US state and county boundaries: US Census Bureau (public domain).
 - Ship drawings, sinking animation, cross-sections and graphics: made in-house for this channel (kit/ship).
 - Illustrative or approximate on the maps: the tow routes, the Yankee Station position, the 18 Nov 1952 air-fight position and the direction of the rubble reef.
+
+Thumbnails use NARA photos 6698619, 6698624 and 6698625 (US Navy, PH2 Kraus, 17 May 2006, public domain, NARA "Unrestricted").
