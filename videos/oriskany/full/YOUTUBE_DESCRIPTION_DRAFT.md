@@ -3,15 +3,15 @@
 **Upload settings to tick (do not skip):**
 - **Altered or synthetic content: YES** (the narration is an AI voice; the ship drawings and sinking animation are made graphics).
 - Made for kids: No. Category: Education (or Film & Animation). Language: English.
-- Title: not final. Score the options in `script/TITLES_THUMBS.md` in vidIQ (each must score >= 85; spend gate: ask the owner first),
-  then run 2-3 thumbnails in Test & Compare. Working title: *Why the Navy Sank Its Own Aircraft Carrier*.
-- Publish before 11 Nov 2026 (the SS United States is due to be sunk on 12 Nov).
+- Title (vidIQ 92): **Nobody Wanted This Aircraft Carrier, So They Sank It**. Test & Compare alternates: *Why the Navy Sank Its Own
+  Aircraft Carrier* (88), *What the Navy Left Inside the Carrier It Sank* (88).
+- Publish by 9 Nov 2026 at the latest (the SS United States is due to be sunk on 12 Nov).
 
 Paste everything between the two lines below into the description box. No links in the credits (channel rule).
 
 ---
 
-In May 2006 the US Navy sank one of its own aircraft carriers off Pensacola, Florida, on purpose. Nobody had wanted the USS Oriskany: not as a museum, not as scrap. So why spend about twenty million dollars to put her on the bottom of the Gulf of Mexico? This is the story of how she ended up there, what the Navy left inside her, and what it cost.
+In May 2006 the US Navy sank one of its own aircraft carriers off Pensacola, Florida, on purpose. Nobody had wanted the USS Oriskany: not as a museum, not as scrap. So why spend an estimated twenty million dollars (2006 press figure) to put her on the bottom of the Gulf of Mexico? This is the story of how she ended up there, what the Navy left inside her, and what it cost.
 
 Chapters
 0:00 Hook
