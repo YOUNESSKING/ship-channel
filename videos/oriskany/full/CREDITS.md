@@ -132,3 +132,4 @@ Description block: Archive film and photos: NASA/Goddard Space Flight Center Sci
 - Illustrative or approximate on the maps: the tow routes, the Yankee Station position, the 18 Nov 1952 air-fight position and the direction of the rubble reef.
 
 Thumbnails use NARA photos 6698619, 6698624 and 6698625 (US Navy, PH2 Kraus, 17 May 2006, public domain, NARA "Unrestricted").
+Final thumbnails (v3) also use NARA 6698612, 6698620, 6698621 (US Navy, 17 May 2006, public domain, NARA "Unrestricted") and a frame of NARA 87411 (US Navy aerials of USS Oriskany, 10 Sep 1969, RG 428, US Government work).

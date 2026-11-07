@@ -63,3 +63,12 @@ Files: `videos/oriskany/thumbnails/v2_T1_navy_did_this.jpg`, `v2_T2_37_minutes.j
 | T2 | 6698619 charges fired, smoke off the deck | 37 MINUTES | FACT G5 (HIGH) |
 | T3 | 6698625 bow slipping under | WHAT'S LEFT INSIDE? | FACT E7 (~700 lb PCBs left aboard, HIGH) |
 Test & Compare: T1, T2, T3 with the launch title. Judge on day 7–14.
+
+## FINAL thumbnails v3 (2026-11-07): replaces v2
+After the 20-channel study (`research/thumbnails/THUMBNAIL_STUDY.md`) and its two critics. Upload with F1, then Test & Compare F1 / F2 / F3 under the launch title.
+| # | File | Image | Words |
+|---|---|---|---|
+| F1 lead | `thumbnails/v3_F1_37_minutes.jpg` | NARA 6698612, bow high, island going under | **37** MINUTES |
+| F2 | `thumbnails/v3_F2_1969_2006.jpg` | NARA 87411 (1969 colour) over NARA 6698621 (2006), same starboard view | 1969 / **2006** |
+| F3 | `thumbnails/v3_F3_whats_left_inside.jpg` | NARA 6698620, whole carrier awash | WHAT'S **LEFT** INSIDE? |
+Dropped by the critics: "700 LB INSIDE" (reads as explosives), "$20 MILLION" (press estimate, not a Navy figure).
