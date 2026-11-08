@@ -11,7 +11,10 @@ Resumable: the join is skipped when chapter/joined_silent.mp4 is newer than ever
   nohup python3 build/mix_full.py > build/mix_full.log 2>&1 &"""
 import json, os, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); FULL = os.path.dirname(HERE); ROOT = os.path.abspath(os.path.join(FULL, "../../.."))
-SND = os.path.join(ROOT, "tools/sound"); WK = os.path.join(FULL, "audio/mix"); OUT = os.path.join(FULL, "oriskany_full_v4.mp4")
+SND = os.path.join(ROOT, "tools/sound"); WK = os.path.join(FULL, "audio/mix"); OUT = os.path.join(FULL, "oriskany_full_v5.mp4")
+# v5 = SFX_FIX_v5 sound (owner 2026-11-08: SFX -3 dB, beds -2 dB, every effect silent by its shot's end; build/SFX_FIX_v5.md). The
+# picture is final: when chapter/joined_silent.mp4 is gone, the video stream of the v4 master is copied as it is (PICTURE_SRC).
+PICTURE_SRC = os.environ.get("PICTURE_SRC", os.path.join(FULL, "oriskany_full_v4.mp4"))
 # v4 = SFX_FIX_v4 sound (owner 2026-11-05: horn shorter + 6 dB quieter, cue rings capped; build/SFX_FIX_v4.md).
 # AUDIO_ONLY=/path/test.mp4: sound-only test. Skips the join and muxes the full v4 mix onto a tiny colour proxy with exactly the
 # frame count of the existing chapter/joined_silent.mp4 (or, if gone, of oriskany_full_v3.mp4) (so audio = video length), written to that path. No picture render.
@@ -74,6 +77,9 @@ if __name__ == "__main__":
         subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "lavfi", "-i", f"color=c=black:s=64x36:r={FPS}", "-frames:v", str(n),
                         "-c:v", "libx264", "-preset", "ultrafast", "-pix_fmt", "yuv420p", video], check=True)
         print("audio-only test on a", n, "frame proxy of", ref, flush=True)
+    elif not os.path.exists(JOIN) and os.path.exists(PICTURE_SRC):
+        video = PICTURE_SRC   # audio-only remix: mix_clip.py copies this file's video stream (-map 0:v:0 -c:v copy)
+        print("picture: video stream of", PICTURE_SRC, frames(PICTURE_SRC), "frames", flush=True)
     else:
         join()
     py(os.path.join(HERE, "sfx_full.py"))

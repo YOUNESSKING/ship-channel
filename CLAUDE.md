@@ -37,7 +37,7 @@ Sea-floor map look (re-grade `bake.py`), modern carrier silhouette, sinking anim
 thumbnails. Ship SFX now = real Epidemic recordings (`assets/sfx/EPIDEMIC_SFX.md`, files git-ignored) through the v2
 chain in `tools/sound/` (reference build: `videos/oriskany/test_v3/build/mix_v2.py`, `SOUND_REPORT_v2.md`). Owner
 listened to Oriskany test v4 and approved the sound (2026-11-04), with one change: horn 4 dB quieter (-10 → -14 dB).
-Owner change 2026-11-05: horn -20 dB, at most 2 s, at most 2 per video, never under speech; no effect rings >1.5 s past its event. Those roles and levels are now locked; the approved look/sound reference is `videos/oriskany/test_v4/`.
+Owner change 2026-11-05: horn at most 2 s, at most 2 per video, never under speech; no effect rings >1.5 s past its event. Owner 2026-11-08: SFX -3 dB, ends with its shot. Event roles: explosion/charges -7, impact -10, hit/stamp -11, boom -14, jet -14, whoosh -15, ship (groan/flood/bubbles) -16, riser -20, horn -23, pop -23, tick -23 dB; beds 2 dB down: projector -29, drone/waves/underwater -32 dB. Every effect is silent by the next picture cut after its event (0.25 s fade ending on the cut; a whoosh on the cut itself may run ≤ 0.4 s into the next shot); beds start and stop with their shots (0.25 s fades). Voice and music unchanged. Those roles and levels are now locked (`tools/sound/check_sound_lock.py`); the approved look/sound reference is `videos/oriskany/test_v4/` with the 2026-11-08 levels.
 
 ## Competitor lessons (Forgotten Fleet)
 Full study with the final, critic-checked DO / DON'T lists: `research/FORGOTTEN_FLEET_STUDY.md`

@@ -16,17 +16,29 @@ Render checks (`python3 check_sound_lock.py --render WORK/master.json --cues pla
   * every cue's measured sync point <= 3 frames off its event, and no cue runs past its allowed end;
   * SFX_FIX_v4 (owner 2026-11-05): no cue rings > 1.5 s past its event unless designed ("ring" in the cue); at most 2 horns,
     each <= 2 s, never over a spoken word (--words build/words.json).
+  * SFX_FIX_v5 (owner 2026-11-08: SFX -3 dB, ends with its shot): every event role 3 dB and every bed 2 dB under the v4 lock;
+    no cue's audible tail (> -50 dBFS, measured on its rendered segment) passes the next picture cut after its event by more
+    than 0.05 s (0.4 s for a whoosh whose event is the cut itself); beds start and stop on shot cuts with 0.25 s fades.
 Changing any locked number is an OWNER decision."""
 import hashlib, json, os, re, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
-LEVELS = {"explosion": (-4, 0.20), "impact": (-7, 0.25), "hit": (-8, 0.50), "whoosh": (-12, 0.50), "jet": (-11, 1.2),
-          "tick": (-20, 0.12), "boom": (-11, 0.50), "pop": (-20, 0.12), "riser": (-17, 2.0),
-          "ship": (-13, 0.5), "horn": (-20, 3.0)}   # horn: owner 2026-11-05: shorter (<= 2 s) and 6 dB quieter (was -14)
+# owner 2026-11-08: SFX -3 dB, ends with its shot. Every event role 3 dB under its 2026-11-05 lock (explosion -4, impact -7, hit -8,
+# whoosh -12, jet -11, tick -20, boom -11, pop -20, riser -17, ship -13, horn -20); beds 2 dB under (projector -27, others -30).
+LEVELS = {"explosion": (-7, 0.20), "impact": (-10, 0.25), "hit": (-11, 0.50), "whoosh": (-15, 0.50), "jet": (-14, 1.2),
+          "tick": (-23, 0.12), "boom": (-14, 0.50), "pop": (-23, 0.12), "riser": (-20, 2.0),
+          "ship": (-16, 0.5), "horn": (-23, 3.0)}   # horn: owner 2026-11-05: <= 2 s and -20 (was -14); owner 2026-11-08: -23
 HORN_MAX_N, HORN_MAX_S = 2, 2.0   # owner 2026-11-05: at most 2 horns per video, each <= ~2 s, in a voice gap, never under speech
 RING_MAX = 1.5                    # SFX_FIX_v4: no cue rings on > 1.5 s past its picture event unless the cue designs it
-BED_LEVELS = {"projector": -27, "drone": -30, "waves": -30, "underwater": -30}
+BED_LEVELS = {"projector": -29, "drone": -32, "waves": -32, "underwater": -32}   # owner 2026-11-08: beds -2 dB
+# owner 2026-11-08: no sound outlives its shot (SFX_FIX_v5)
+AUDIBLE_DB = -50.0        # "audible" = above -50 dBFS on the cue's own rendered segment
+CUT_SLACK = 0.05          # a cue's audible tail may pass the next cut after its event by at most this
+CUT_TAIL_EXC = 0.4        # ... or this, for a whoosh whose event is the cut itself (event <= CUT_EVENT_WIN s before it)
+CUT_EVENT_WIN = 0.1
+CUT_FADE = (0.2, 0.3)     # the fade that ends on the cut
+BED_FADE = 0.25
 CHAIN = ["MUSIC_VOL = 0.08", "afade=t=in:d=2", "afade=t=out:st={total - 3:.3f}:d=3",
          "sidechaincompress=threshold=0.03:ratio=6:attack=20:release=400",
          "sidechaincompress=threshold=0.03:ratio=3:attack=10:release=300", "alimiter=limit=0.5:level=false",
@@ -74,6 +86,11 @@ def check(kinds=None, beds=None):
             elif not os.path.exists(p): errs.append(f"missing {f}: re-download it (IDs in assets/sfx/EPIDEMIC_SFX.md)")
             elif md5(p) != lock[f]: errs.append(f"{f} was replaced (md5 differs from the catalogue)")
     if L.PEAK_NORM_DB != -3.0: errs.append("one-shot normalisation is not the battle-maps -3 dBFS peak")
+    if not CUT_FADE[0] <= getattr(L, "CUT_FADE", 0) <= CUT_FADE[1]: errs.append(f"CUT_FADE must be {CUT_FADE[0]}-{CUT_FADE[1]} s (owner 2026-11-08)")
+    if getattr(L, "CUT_TAIL_EXC", 99) > CUT_TAIL_EXC or getattr(L, "CUT_EVENT_WIN", 99) > CUT_EVENT_WIN or tuple(getattr(L, "CUT_EXC_ROLES", ("?",))) != ("whoosh",):
+        errs.append(f"the transition exception must be a whoosh on the cut, <= {CUT_TAIL_EXC} s into the next shot (owner 2026-11-08)")
+    if abs(getattr(L, "BED_FADE", 0) - BED_FADE) > 1e-9: errs.append(f"bed fades must be {BED_FADE} s (owner 2026-11-08)")
+    if getattr(L, "AUDIBLE_DB", 0) > AUDIBLE_DB: errs.append(f"the renderer's audible threshold must be <= {AUDIBLE_DB} dBFS")
     if getattr(L, "RING_MAX", 99) > RING_MAX: errs.append(f"RING_MAX must be <= {RING_MAX} s (SFX_FIX_v4)")
     if getattr(L, "RING_ROLE", {}).get("horn", 99) > HORN_MAX_S or L.REGION["horn_a__463af07a.wav"][1] > HORN_MAX_S:
         errs.append(f"horn longer than {HORN_MAX_S} s (owner 2026-11-05)")
@@ -88,6 +105,30 @@ def check(kinds=None, beds=None):
     if errs: fail(errs, "static")
     print("SOUND LOCK OK (static): role levels + gaps, real Epidemic recordings (md5), music 0.08 + ducking, voice "
           "compressor/limiter/de-ess/edge fades, 2c-9 gain + alimiter 0.84, loudnorm linear gate, stereo, pad, fade-out, HPF")
+
+
+def check_shot_ends(placed, shots, beds=None):
+    """SFX_FIX_v5 (owner 2026-11-08): every cue has faded below -50 dBFS by the next picture cut after its event (+0.05 s), a
+    whoosh whose event is the cut by +0.4 s; every bed starts and stops on a shot cut with 0.25 s fades. The cut is found
+    here from the shot table (not taken from the renderer)."""
+    import bisect
+    errs = []
+    sh = sorted(shots, key=lambda s: s[1]); st = [s[1] for s in sh]; total = sh[-1][2]
+    for p in placed:
+        if "audible_end" not in p: errs.append(f"cue {p['role']} @ {p['event']:.2f}: no measured audible end (old renderer)"); continue
+        s = sh[max(0, bisect.bisect_right(st, p["event"] + 1e-4) - 1)]; cut = s[2]
+        trans = p["role"] == "whoosh" and cut - p["event"] <= CUT_EVENT_WIN and cut < total - 1e-3
+        lim = CUT_TAIL_EXC if trans else CUT_SLACK
+        if p["audible_end"] > cut + lim + 1e-4:
+            errs.append(f"cue {p['role']} @ {p['event']:.2f} ({p['note'][:40]}): audible until {p['audible_end']:.3f}, "
+                        f"{p['audible_end'] - cut:+.3f} s past its shot end {cut:.3f} (max {lim}; owner 2026-11-08)")
+    ends = {round(s[2], 3) for s in sh}; begs = {round(s[1], 3) for s in sh}
+    for b in beds or []:
+        if round(b["end"], 3) not in ends: errs.append(f"bed {b['role']} {b['start']:.2f}-{b['end']:.2f} does not stop on a shot cut")
+        if round(b["start"], 3) not in begs: errs.append(f"bed {b['role']} {b['start']:.2f}-{b['end']:.2f} does not start on a shot cut")
+        if "fade" not in b or (abs(b["fade"] - BED_FADE) > 1e-3 and abs(b["fade"] - (b["end"] - b["start"]) / 3) > 1e-3):
+            errs.append(f"bed {b['role']} {b['start']:.2f}-{b['end']:.2f}: fade {b.get('fade')} s (owner 2026-11-08: {BED_FADE} s)")
+    return errs
 
 
 def check_cues(placed, words=None):
@@ -110,7 +151,7 @@ def check_cues(placed, words=None):
     return errs
 
 
-def check_render(master, placed, meas, words=None):
+def check_render(master, placed, meas, words=None, shots=None, beds=None):
     errs = []
     t = master["tries"][-1]
     if master.get("normalization_type") != "linear" or t["loudnorm_pass2"].get("normalization_type") != "linear":
@@ -138,7 +179,7 @@ def check_render(master, placed, meas, words=None):
     if not -28 <= mu <= -18: errs.append(f"music under speech {mu} dB re voice (target -18..-28)")
     if meas.get("ref_gap_delta_db") is not None and abs(meas["ref_gap_delta_db"]) > 3:
         errs.append(f"music in gaps {meas['ref_gap_delta_db']:+.1f} dB vs the battle-maps reference (> 3 dB)")
-    return errs + check_cues(placed, words)
+    return errs + check_cues(placed, words) + (check_shot_ends(placed, shots, beds) if shots else ["no shot table: the shot-end rule was not checked"])
 
 
 if __name__ == "__main__":
@@ -152,14 +193,15 @@ if __name__ == "__main__":
     if "--render" in sys.argv:
         a = sys.argv
         master = json.load(open(a[a.index("--render") + 1]))
-        placed = json.load(open(a[a.index("--cues") + 1]))["cues"]
+        PL = json.load(open(a[a.index("--cues") + 1])); placed = PL["cues"]
         meas = json.load(open(a[a.index("--measure") + 1]))
         words = None
         if "--words" in a:
             words = json.load(open(a[a.index("--words") + 1])); words = words["words"] if isinstance(words, dict) else words
-        errs = check_render(master, placed, meas, words)
+        errs = check_render(master, placed, meas, words, PL.get("shots"), PL.get("beds"))
         if errs: fail(errs, "render")
         f = master["final"]
         print(f"SOUND LOCK OK (render): {f['I']} LUFS, TP {f['TP']} dBTP, LRA {meas['lra']} LU, loudnorm linear, stereo, "
               f"audio = video length, music under speech {meas['music_under_voice_db']} dB, "
-              f"{len(meas['beats'])} big beats >= +3 LU over speech, {len(placed)} cues within 3 frames")
+              f"{len(meas['beats'])} big beats >= +3 LU over speech, {len(placed)} cues within 3 frames, every cue silent by its shot end, "
+              f"{len(PL.get('beds', []))} beds on shot cuts")

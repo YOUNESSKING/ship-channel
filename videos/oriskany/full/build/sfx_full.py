@@ -1,4 +1,5 @@
-"""Step 3 sound cues for the WHOLE video, on one timeline (tools/sound/sfx_mix_lib.py v2, locked roles + levels; v4: horn -20, <= 2 s, voice gaps only, every cue rings <= 1.5 s past its event).
+"""Step 3 sound cues for the WHOLE video, on one timeline (tools/sound/sfx_mix_lib.py v2, locked roles + levels; v4: horn -20, <= 2 s, voice gaps only, every cue rings <= 1.5 s past its event;
+v5 (owner 2026-11-08: SFX -3 dB, ends with its shot): every cue, the hook's included, is silent by the next picture cut after its event; beds start and stop with their shots).
 
   c01   = the approved test v4 hook cues + beds verbatim (test_v4/build/sfx_cues_v4.py; same shots, same voice samples)
   c02-7 = build/sfx_cNN.json. Every "@word" time is resolved with the chapter builder's own resolver (templates/build_chapter.py
@@ -175,7 +176,9 @@ for c in CUES:
     if c["role"] == "jet" and "b3_aerial_launching" in c["note"]:   # measured +6.7 LU over the voice on "the man who led" (jet role
         V4.append((t, "jet", "dropped: +6.7 LU over the words 'the man who led' (jet median +2.8; a 0.9 s slice peak-normalised hot)")); continue
     if c["role"] != "horn":
-        if c["shot"].startswith("c01:"): c = dict(c, ring=None)      # approved hook: cue lengths as approved
+        # SFX_FIX_v5 (owner 2026-11-08: "the sound effects are a bit louder and they stay after the scene is over"; this overrides the
+        # "don't touch the hook" rule for sound effects only): the hook cues lose their uncapped ring, so the 1.5 s ring cap and the
+        # lib's shot-end rule (silent by the next cut after the event) apply to the whole video.
         out.append(c); continue
     i0 = ORDER.index(c["shot"]); i1 = ORDER.index(c.get("end_shot", c["shot"]))
     lo, hi = ST[c["shot"]][0], ST[ORDER[i1]][1]                      # the liner shots this horn belongs to

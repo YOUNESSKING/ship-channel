@@ -33,6 +33,17 @@ TAIL_DEFAULT = 0.12
 # SFX_FIX_v4 (owner 2026-11-05, "the horn is too long"): no effect rings on more than RING_MAX s past its picture event
 # (beds excluded: they are not cues). A longer, designed ring must be written in the cue ("ring": s, or None = no cap).
 RING_MAX = 1.5
+# SFX_FIX_v5 (owner 2026-11-08: SFX -3 dB, ends with its shot; "the sound effects are a bit louder and they stay after the scene is
+# over"): every cue has faded to silence by the next picture cut after its event (a CUT_FADE fade ending exactly on the cut, or
+# earlier when the ring cap ends it first). end_shot / tail can no longer carry a cue past that cut. The one exception: a whoosh
+# whose event IS the cut (event within CUT_EVENT_WIN s before it) may run CUT_TAIL_EXC s into the next shot. Beds start and stop
+# with their shots, with BED_FADE fades. render() measures every cue's audible end (> AUDIBLE_DB dBFS) for check_sound_lock.
+CUT_FADE = 0.25
+CUT_TAIL_EXC = 0.4
+CUT_EVENT_WIN = 0.1
+CUT_EXC_ROLES = ("whoosh",)
+BED_FADE = 0.25
+AUDIBLE_DB = -50.0
 RING_ROLE = {"horn": 2.0}           # the horn: at most ~2 s in all (owner 2026-11-05)
 FADE_ROLE = {"horn": 0.6}           # a short natural fade-out (s); other roles keep min(0.25 s, 35 % of the cue)
 # Big beats (blasts, impacts, key booms) go to their own "punch" stem that the voice does NOT duck, so they read
@@ -46,25 +57,28 @@ PUNCH_ROLES = ("explosion", "impact", "boom")
 # ship-channel roles (no battle-maps equivalent): ship = the on-screen vehicle level (prop flyby, -13); horn = the
 # signature horn, -20, in a voice gap only, never under speech (owner 2026-11-04: -14, 4 dB quieter than the -10 test;
 # owner 2026-11-05: shorter (<= 2 s) and 6 dB quieter, at most 2 horns per video). Owner-approved.
+# owner 2026-11-08: SFX -3 dB, ends with its shot. Every event role is 3 dB under the numbers above (explosion -7, impact -10,
+# hit -11, boom -14, pop -23, whoosh -15, riser -20, jet -14, ship -16, horn -23, tick -23); every bed 2 dB under (projector -29,
+# drone / waves / underwater -32). Voice and music unchanged.
 KINDS = {
-    "explosion": (["charges_c__f6f10ea4.wav", "charges_a__955e7371.wav", "charges_b__0ecb5c38.wav"], -4, 0.20, "peak"),
-    "impact":    (["splash_a__1d6949d6.wav", "charges_b__0ecb5c38.wav", "splash_b__3ba7bd2a.wav"], -7, 0.25, "peak"),
-    "hit":       (["boom_a__2f0a40ab.wav"], -8, 0.50, "peak"),
-    "boom":      (["boom_a__2f0a40ab.wav"], -11, 0.50, "peak"),
-    "pop":       (["pop_b__844f57e0.wav"], -20, 0.12, "peak"),
-    "whoosh":    (["whoosh_a__689b1489.wav", "whoosh_b__8d9712d2.wav"], -12, 0.50, "onset"),
-    "riser":     (["riser_a__fd98cb0b.wav", "riser_b__dbd5c65b.wav"], -17, 2.0, "peak"),
-    "jet":       (["jet_a__9fc48bf0.wav", "jet_b__da6a1527.wav", "jet_c__d47bee57.wav"], -11, 1.2, "peak"),
+    "explosion": (["charges_c__f6f10ea4.wav", "charges_a__955e7371.wav", "charges_b__0ecb5c38.wav"], -7, 0.20, "peak"),
+    "impact":    (["splash_a__1d6949d6.wav", "charges_b__0ecb5c38.wav", "splash_b__3ba7bd2a.wav"], -10, 0.25, "peak"),
+    "hit":       (["boom_a__2f0a40ab.wav"], -11, 0.50, "peak"),
+    "boom":      (["boom_a__2f0a40ab.wav"], -14, 0.50, "peak"),
+    "pop":       (["pop_b__844f57e0.wav"], -23, 0.12, "peak"),
+    "whoosh":    (["whoosh_a__689b1489.wav", "whoosh_b__8d9712d2.wav"], -15, 0.50, "onset"),
+    "riser":     (["riser_a__fd98cb0b.wav", "riser_b__dbd5c65b.wav"], -20, 2.0, "peak"),
+    "jet":       (["jet_a__9fc48bf0.wav", "jet_b__da6a1527.wav", "jet_c__d47bee57.wav"], -14, 1.2, "peak"),
     "ship":      (["groan_a__7c63fd7c.wav", "flood_a__db95b348.wav", "bubbles_a__e58b390c.wav", "groan_b__2bc7c5e1.wav",
-                   "groan_c__87dfc4bf.wav", "flood_b__3e14e767.wav", "bubbles_b__18fdc570.wav"], -13, 0.5, "onset"),
-    "horn":      (["horn_a__463af07a.wav"], -20, 3.0, "onset"),   # owner 2026-11-05: shorter (<= 2 s) and 6 dB quieter
-    "tick":      (["pop_a__9da883ac.wav"], -20, 0.12, "peak"),
+                   "groan_c__87dfc4bf.wav", "flood_b__3e14e767.wav", "bubbles_b__18fdc570.wav"], -16, 0.5, "onset"),
+    "horn":      (["horn_a__463af07a.wav"], -23, 3.0, "onset"),   # owner 2026-11-05: <= 2 s, -20; owner 2026-11-08: -3 dB
+    "tick":      (["pop_a__9da883ac.wav"], -23, 0.12, "peak"),
 }
 BEDS = {  # bed role: (default files, level dB)   (STYLE_LOCK 2a: projector loop under film -27, low drone bed -30)
-    "projector":  (["projector_b__5648e70b.wav", "projector_a__6f4d59cf.wav"], -27),
-    "drone":      (["drone_a__244a55e9.wav"], -30),
-    "waves":      (["waves_a__3d49f79f.wav"], -30),
-    "underwater": (["underwater_a__127d88ce.wav"], -30),
+    "projector":  (["projector_b__5648e70b.wav", "projector_a__6f4d59cf.wav"], -29),   # owner 2026-11-08: beds -2 dB
+    "drone":      (["drone_a__244a55e9.wav"], -32),
+    "waves":      (["waves_a__3d49f79f.wav"], -32),
+    "underwater": (["underwater_a__127d88ce.wav"], -32),
 }
 # default usable region per file: (src s, max len s). Picked from the measured envelopes (EPIDEMIC_SFX.md).
 REGION = {
@@ -145,6 +159,8 @@ def render(cues, shots, total, out, beds=(), beds_out=None, check=True, seed=7, 
         import check_sound_lock
         check_sound_lock.check(KINDS, BEDS)
     S = {sid: (a, b) for sid, a, b in shots}
+    import bisect
+    SO = sorted(shots, key=lambda s: s[1]); SST = [s[1] for s in SO]
     rng = np.random.default_rng(seed)
     buf = np.zeros((int((total + 2) * SR), 2), "float32"); pbuf = np.zeros_like(buf)
     last, placed, used = {}, [], {}
@@ -165,27 +181,45 @@ def render(cues, shots, total, out, beds=(), beds_out=None, check=True, seed=7, 
             cut = S[c["shot"]][0] - start; reg = reg[int(cut * SR):]; start = S[c["shot"]][0]; rel -= cut
         end_shot = c.get("end_shot", c["shot"]); tail = c.get("tail", TAIL_DEFAULT)
         end_allowed = S[end_shot][1] + tail
+        # SFX_FIX_v5: the next picture cut after the event ends the cue (the event's own shot, whatever end_shot / tail say)
+        ev_shot = SO[max(0, bisect.bisect_right(SST, event + 1e-4) - 1)]
+        cut = ev_shot[2]
+        trans = kind in CUT_EXC_ROLES and cut - event <= CUT_EVENT_WIN and cut < total - 1e-3
+        cut_end = cut + (CUT_TAIL_EXC if trans else 0.0)
         ring = c.get("ring", RING_ROLE.get(kind, RING_MAX))
         if ring is not None: end_allowed = min(end_allowed, event + ring)
-        L = min(len(reg) / SR, end_allowed - start, total - start)
-        seg = reg[: int(L * SR)].copy()
-        fi = min(int(0.005 * SR), len(seg) // 4) if stype == "peak" else min(int(0.02 * SR), len(seg) // 4)
-        fo = min(int(c.get("fade", FADE_ROLE.get(kind, 0.25)) * SR), int(len(seg) * (0.67 if kind in FADE_ROLE or "fade" in c else 0.35)))
-        if stype == "peak":   # the fade-out never touches the sync point (a riser ends ON its peak)
-            fo = max(int(0.01 * SR), min(fo, len(seg) - int((rel + 0.04) * SR)))
-        if fi: seg[:fi] *= np.linspace(0, 1, fi)[:, None]
-        if fo: seg[-fo:] *= np.linspace(1, 0, fo)[:, None]
-        pk = np.abs(seg).max() or 1.0
+        L0 = min(len(reg) / SR, end_allowed - start, total - start)            # the cue as it would play without the cut rule
+        L = min(L0, cut_end - start)
+        at_cut = L < L0 - 1e-6                                                  # trimmed by the cut
+        end_allowed = min(end_allowed, cut_end)
+
+        def shape(Lx, cutfade):
+            seg = reg[: int(Lx * SR)].copy()
+            fi = min(int(0.005 * SR), len(seg) // 4) if stype == "peak" else min(int(0.02 * SR), len(seg) // 4)
+            fo = min(int(c.get("fade", FADE_ROLE.get(kind, 0.25)) * SR), int(len(seg) * (0.67 if kind in FADE_ROLE or "fade" in c else 0.35)))
+            if cutfade:   # a CUT_FADE fade that ends exactly on the cut (a longer designed fade, e.g. the horn's 0.6 s, is kept)
+                fo = max(fo, min(int(CUT_FADE * SR), int(len(seg) * 0.67)))
+            if stype == "peak":   # the fade-out never touches the sync point (a riser ends ON its peak)
+                fo = max(int(0.01 * SR), min(fo, len(seg) - int((rel + 0.04) * SR)))
+            if fi: seg[:fi] *= np.linspace(0, 1, fi)[:, None]
+            if fo > 0: seg[-fo:] *= np.linspace(1, 0, fo)[:, None]
+            return seg
+        seg = shape(L, at_cut)
+        # peak-normalise on the UNCUT cue: cutting a cue at its shot end only removes sound, it never makes the rest louder
+        pk = np.abs(shape(L0, False) if at_cut else seg).max() or 1.0
         seg *= 10 ** (PEAK_NORM_DB / 20) / pk
         lev = db + rng.uniform(-1.0, 0.5)        # small level jitter (battle-maps keeps one, narrower here)
         seg *= 10 ** (lev / 20)
+        aud = np.nonzero(np.abs(seg).max(axis=1) > 10 ** (AUDIBLE_DB / 20))[0]
+        aud_end = start + ((aud[-1] + 1) / SR if len(aud) else 0.0)
         punch = bool(punch_out) and c.get("punch", kind in PUNCH_ROLES)
         i = int(round(start * SR)); n = min(len(seg), len(buf) - i)
         (pbuf if punch else buf)[i:i + n] += seg[:n]
         meas = start + sync_point(seg, stype)
         placed.append({"event": round(event, 3), "shot": c["shot"], "at": c["at"], "role": kind, "file": f,
                        "src": round(src, 3), "start": round(start, 3), "end": round(start + L, 3),
-                       "end_allowed": round(end_allowed, 3), "ring_max": ring, "level_db": round(lev, 1), "sync": stype, "punch": punch,
+                       "end_allowed": round(end_allowed, 3), "ring_max": ring, "audible_end": round(aud_end, 3),
+                       "event_shot": ev_shot[0], "cut": round(cut, 3), "at_cut": bool(at_cut), "transition": bool(trans), "level_db": round(lev, 1), "sync": stype, "punch": punch,
                        "measured": round(meas, 3), "offset_frames": round((meas - event) * FPS, 2),
                        "note": c.get("note", "")})
     pk = np.abs(buf + pbuf).max()
@@ -199,16 +233,17 @@ def render(cues, shots, total, out, beds=(), beds_out=None, check=True, seed=7, 
         for b in beds:
             files, db = BEDS[b["role"]]; f = b.get("file") or files[0]
             a = load(f); t0 = S[b["shot"]][0] + b.get("at", 0.0)
-            t1 = S[b.get("end_shot", b["shot"])][1] + b.get("tail", 0.0)
+            t1 = S[b.get("end_shot", b["shot"])][1]          # SFX_FIX_v5: a bed stops with its last shot (no tail)
             n = int((t1 - t0) * SR); src = int(b.get("src", 0.0) * SR)
             reps = int(np.ceil((src + n) / len(a))) + 1
             seg = np.tile(a, (reps, 1))[src: src + n].copy()
             rms = np.sqrt((seg ** 2).mean()) or 1.0
             seg *= 10 ** (BED_RMS_DB / 20) / rms * 10 ** (db / 20)
-            fl = min(int(b.get("fade", 0.4) * SR), n // 3)
+            fl = min(int(BED_FADE * SR), n // 3)              # SFX_FIX_v5: 0.25 s in at its first cut, 0.25 s out ending on its last
             seg[:fl] *= np.linspace(0, 1, fl)[:, None]; seg[-fl:] *= np.linspace(1, 0, fl)[:, None]
             i = int(t0 * SR); bb[i:i + n] += seg[: len(bb) - i]
-            pb.append({"role": b["role"], "file": f, "start": round(t0, 3), "end": round(t1, 3), "level_db": db,
+            pb.append({"role": b["role"], "file": f, "start": round(t0, 3), "end": round(t1, 3), "level_db": db, "fade": round(fl / SR, 3),
+                       "shot": b["shot"], "end_shot": b.get("end_shot", b["shot"]),
                        "note": b.get("note", "")})
         sf.write(beds_out, bb[: int(total * SR)], SR, subtype="FLOAT")
     return placed, pb
