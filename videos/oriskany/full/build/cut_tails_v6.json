@@ -1,0 +1,3187 @@
+[
+ {
+  "cut": 4.3,
+  "carry": [],
+  "new": [
+   "explosion@4.30"
+  ],
+  "beds": [
+   "waves 0.00-4.30"
+  ],
+  "stem_rms": -26.7,
+  "stem_peak": -9.8,
+  "bus_rms": -28.6,
+  "bus_peak": -12.1,
+  "stem_rms_before": -56.7
+ },
+ {
+  "cut": 6.38,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 6.38-9.98"
+  ],
+  "stem_rms": -56.3,
+  "stem_peak": -42.7,
+  "bus_rms": -61.4,
+  "bus_peak": -46.7,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 7.98,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 6.38-9.98"
+  ],
+  "stem_rms": -48.3,
+  "stem_peak": -30.7,
+  "bus_rms": -51.7,
+  "bus_peak": -31.1,
+  "stem_rms_before": -50.7
+ },
+ {
+  "cut": 9.98,
+  "carry": [],
+  "new": [
+   "boom@10.24"
+  ],
+  "beds": [
+   "waves 9.98-21.25",
+   "projector 6.38-9.98"
+  ],
+  "stem_rms": -25.2,
+  "stem_peak": -17.6,
+  "bus_rms": -27.6,
+  "bus_peak": -19.2,
+  "stem_rms_before": -48.4
+ },
+ {
+  "cut": 11.5,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 9.98-21.25"
+  ],
+  "stem_rms": -55.5,
+  "stem_peak": -39.8,
+  "bus_rms": -58.9,
+  "bus_peak": -42.6,
+  "stem_rms_before": -47.0
+ },
+ {
+  "cut": 13.75,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 9.98-21.25"
+  ],
+  "stem_rms": -53.8,
+  "stem_peak": -37.2,
+  "bus_rms": -57.1,
+  "bus_peak": -39.8,
+  "stem_rms_before": -52.0
+ },
+ {
+  "cut": 15.95,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 9.98-21.25"
+  ],
+  "stem_rms": -52.2,
+  "stem_peak": -36.5,
+  "bus_rms": -57.4,
+  "bus_peak": -41.7,
+  "stem_rms_before": -52.6
+ },
+ {
+  "cut": 17.65,
+  "carry": [],
+  "new": [
+   "explosion@17.65",
+   "boom@17.65"
+  ],
+  "beds": [
+   "waves 9.98-21.25"
+  ],
+  "stem_rms": -23.0,
+  "stem_peak": -7.6,
+  "bus_rms": -25.1,
+  "bus_peak": -10.0,
+  "stem_rms_before": -55.6
+ },
+ {
+  "cut": 17.98,
+  "carry": [
+   {
+    "role": "explosion",
+    "event": 17.65,
+    "shot": "c01:s09",
+    "past_cut": 0.219,
+    "note": "second blast photo + flash (smoke, in the voice gap); design"
+   },
+   {
+    "role": "boom",
+    "event": 17.65,
+    "shot": "c01:s09",
+    "past_cut": 0.201,
+    "note": "second blast: cinematic boom layer under the charge (key bea"
+   }
+  ],
+  "new": [],
+  "beds": [
+   "waves 9.98-21.25"
+  ],
+  "stem_rms": -38.3,
+  "stem_peak": -22.4,
+  "bus_rms": -40.7,
+  "bus_peak": -25.4,
+  "stem_rms_before": -23.1
+ },
+ {
+  "cut": 19.85,
+  "carry": [],
+  "new": [
+   "impact@19.85",
+   "ship@19.90"
+  ],
+  "beds": [
+   "waves 9.98-21.25"
+  ],
+  "stem_rms": -27.6,
+  "stem_peak": -14.6,
+  "bus_rms": -31.3,
+  "bus_peak": -15.6,
+  "stem_rms_before": -58.4
+ },
+ {
+  "cut": 20.55,
+  "carry": [],
+  "new": [
+   "ship@20.55"
+  ],
+  "beds": [
+   "waves 9.98-21.25"
+  ],
+  "stem_rms": -38.4,
+  "stem_peak": -19.5,
+  "bus_rms": -40.2,
+  "bus_peak": -20.2,
+  "stem_rms_before": -32.3
+ },
+ {
+  "cut": 21.25,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 9.98-21.25"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -109.8,
+  "bus_peak": -81.8,
+  "stem_rms_before": -39.1
+ },
+ {
+  "cut": 23.84,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 26.0,
+  "carry": [],
+  "new": [
+   "ship@26.25"
+  ],
+  "beds": [
+   "underwater 26.00-32.70"
+  ],
+  "stem_rms": -40.4,
+  "stem_peak": -22.8,
+  "bus_rms": -46.2,
+  "bus_peak": -29.7,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 29.6,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "underwater 26.00-32.70",
+   "drone 29.60-39.55"
+  ],
+  "stem_rms": -55.3,
+  "stem_peak": -40.5,
+  "bus_rms": -60.5,
+  "bus_peak": -45.5,
+  "stem_rms_before": -53.2
+ },
+ {
+  "cut": 32.7,
+  "carry": [],
+  "new": [
+   "riser@34.90"
+  ],
+  "beds": [
+   "underwater 26.00-32.70",
+   "drone 29.60-39.55",
+   "projector 32.70-34.90"
+  ],
+  "stem_rms": -51.6,
+  "stem_peak": -38.4,
+  "bus_rms": -55.2,
+  "bus_peak": -39.6,
+  "stem_rms_before": -52.1
+ },
+ {
+  "cut": 34.9,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 29.60-39.55",
+   "projector 32.70-34.90"
+  ],
+  "stem_rms": -44.7,
+  "stem_peak": -23.3,
+  "bus_rms": -46.3,
+  "bus_peak": -21.9,
+  "stem_rms_before": -37.6
+ },
+ {
+  "cut": 37.8,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 29.60-39.55"
+  ],
+  "stem_rms": -54.6,
+  "stem_peak": -42.0,
+  "bus_rms": -58.5,
+  "bus_peak": -42.8,
+  "stem_rms_before": -54.5
+ },
+ {
+  "cut": 39.55,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 29.60-39.55",
+   "projector 39.55-45.80"
+  ],
+  "stem_rms": -57.5,
+  "stem_peak": -43.9,
+  "bus_rms": -62.7,
+  "bus_peak": -49.3,
+  "stem_rms_before": -57.7
+ },
+ {
+  "cut": 41.55,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 39.55-45.80"
+  ],
+  "stem_rms": -49.0,
+  "stem_peak": -31.7,
+  "bus_rms": -53.3,
+  "bus_peak": -36.9,
+  "stem_rms_before": -49.5
+ },
+ {
+  "cut": 43.7,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 39.55-45.80"
+  ],
+  "stem_rms": -47.8,
+  "stem_peak": -33.3,
+  "bus_rms": -49.8,
+  "bus_peak": -34.9,
+  "stem_rms_before": -47.6
+ },
+ {
+  "cut": 45.8,
+  "carry": [],
+  "new": [
+   "whoosh@45.80"
+  ],
+  "beds": [
+   "waves 45.80-48.62",
+   "projector 39.55-45.80"
+  ],
+  "stem_rms": -32.7,
+  "stem_peak": -18.2,
+  "bus_rms": -40.7,
+  "bus_peak": -26.8,
+  "stem_rms_before": -49.7
+ },
+ {
+  "cut": 48.625,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 45.80-48.62",
+   "projector 48.62-51.28"
+  ],
+  "stem_rms": -49.4,
+  "stem_peak": -34.1,
+  "bus_rms": -49.4,
+  "bus_peak": -34.0,
+  "stem_rms_before": -57.8
+ },
+ {
+  "cut": 51.285,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 48.62-51.28"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -155.6,
+  "bus_peak": -128.0,
+  "stem_rms_before": -57.2
+ },
+ {
+  "cut": 55.615,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 58.175,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 58.17-61.02"
+  ],
+  "stem_rms": -59.8,
+  "stem_peak": -41.5,
+  "bus_rms": -63.0,
+  "bus_peak": -44.6,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 61.015,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 58.17-61.02"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -132.6,
+  "bus_peak": -104.5,
+  "stem_rms_before": -57.2
+ },
+ {
+  "cut": 63.345,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 67.725,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 70.925,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 70.92-76.17"
+  ],
+  "stem_rms": -56.5,
+  "stem_peak": -36.9,
+  "bus_rms": -61.3,
+  "bus_peak": -39.9,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 76.165,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 70.92-76.17"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -129.7,
+  "bus_peak": -100.0,
+  "stem_rms_before": -58.9
+ },
+ {
+  "cut": 79.265,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 84.435,
+  "carry": [],
+  "new": [
+   "tick@84.53"
+  ],
+  "beds": [],
+  "stem_rms": -48.5,
+  "stem_peak": -25.5,
+  "bus_rms": -48.6,
+  "bus_peak": -24.8,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 90.355,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 92.415,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 95.985,
+  "carry": [],
+  "new": [
+   "tick@96.03"
+  ],
+  "beds": [],
+  "stem_rms": -49.0,
+  "stem_peak": -26.1,
+  "bus_rms": -49.2,
+  "bus_peak": -25.4,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 99.895,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 102.105,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 105.725,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 107.265,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 110.045,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 115.065,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 117.675,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 120.935,
+  "carry": [],
+  "new": [
+   "pop@121.05"
+  ],
+  "beds": [],
+  "stem_rms": -48.7,
+  "stem_peak": -26.1,
+  "bus_rms": -48.9,
+  "bus_peak": -26.2,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 122.755,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 126.185,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 131.285,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 131.28-136.78"
+  ],
+  "stem_rms": -58.5,
+  "stem_peak": -41.0,
+  "bus_rms": -63.4,
+  "bus_peak": -46.8,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 136.785,
+  "carry": [],
+  "new": [
+   "tick@136.88"
+  ],
+  "beds": [
+   "waves 131.28-136.78"
+  ],
+  "stem_rms": -49.6,
+  "stem_peak": -26.6,
+  "bus_rms": -49.7,
+  "bus_peak": -25.9,
+  "stem_rms_before": -53.3
+ },
+ {
+  "cut": 140.665,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 143.435,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 147.505,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 153.365,
+  "carry": [],
+  "new": [
+   "whoosh@153.66"
+  ],
+  "beds": [
+   "waves 153.37-167.43"
+  ],
+  "stem_rms": -40.7,
+  "stem_peak": -21.5,
+  "bus_rms": -47.6,
+  "bus_peak": -30.8,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 157.645,
+  "carry": [],
+  "new": [
+   "tick@157.75"
+  ],
+  "beds": [
+   "waves 153.37-167.43"
+  ],
+  "stem_rms": -48.3,
+  "stem_peak": -26.0,
+  "bus_rms": -49.0,
+  "bus_peak": -25.6,
+  "stem_rms_before": -54.5
+ },
+ {
+  "cut": 162.485,
+  "carry": [],
+  "new": [
+   "tick@162.59"
+  ],
+  "beds": [
+   "waves 153.37-167.43"
+  ],
+  "stem_rms": -49.5,
+  "stem_peak": -26.5,
+  "bus_rms": -49.9,
+  "bus_peak": -25.8,
+  "stem_rms_before": -56.9
+ },
+ {
+  "cut": 167.425,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 153.37-167.43"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -130.2,
+  "bus_peak": -102.9,
+  "stem_rms_before": -58.2
+ },
+ {
+  "cut": 169.885,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 172.705,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 172.71-176.74"
+  ],
+  "stem_rms": -51.0,
+  "stem_peak": -35.4,
+  "bus_rms": -53.8,
+  "bus_peak": -36.8,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 176.742,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 172.71-176.74"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -153.6,
+  "bus_peak": -126.3,
+  "stem_rms_before": -50.8
+ },
+ {
+  "cut": 181.212,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 181.21-192.53"
+  ],
+  "stem_rms": -49.5,
+  "stem_peak": -34.8,
+  "bus_rms": -53.2,
+  "bus_peak": -38.3,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 185.572,
+  "carry": [],
+  "new": [
+   "pop@185.69"
+  ],
+  "beds": [
+   "projector 181.21-192.53"
+  ],
+  "stem_rms": -45.5,
+  "stem_peak": -27.0,
+  "bus_rms": -46.9,
+  "bus_peak": -26.6,
+  "stem_rms_before": -47.7
+ },
+ {
+  "cut": 187.972,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 181.21-192.53"
+  ],
+  "stem_rms": -47.7,
+  "stem_peak": -32.8,
+  "bus_rms": -50.8,
+  "bus_peak": -34.5,
+  "stem_rms_before": -48.2
+ },
+ {
+  "cut": 192.532,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 181.21-192.53"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -156.2,
+  "bus_peak": -134.5,
+  "stem_rms_before": -51.1
+ },
+ {
+  "cut": 195.892,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 199.302,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 202.492,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 205.652,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 205.65-208.23"
+  ],
+  "stem_rms": -51.0,
+  "stem_peak": -33.8,
+  "bus_rms": -54.2,
+  "bus_peak": -39.2,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 208.232,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 205.65-208.23"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -150.0,
+  "bus_peak": -122.9,
+  "stem_rms_before": -50.6
+ },
+ {
+  "cut": 211.532,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 211.53-213.15"
+  ],
+  "stem_rms": -50.7,
+  "stem_peak": -37.0,
+  "bus_rms": -51.8,
+  "bus_peak": -37.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 213.152,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 211.53-213.15"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -162.0,
+  "bus_peak": -134.2,
+  "stem_rms_before": -50.6
+ },
+ {
+  "cut": 217.362,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 219.702,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 223.812,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 227.232,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 227.23-228.89"
+  ],
+  "stem_rms": -51.3,
+  "stem_peak": -32.5,
+  "bus_rms": -54.8,
+  "bus_peak": -36.4,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 228.892,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 227.23-228.89"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -153.4,
+  "bus_peak": -128.8,
+  "stem_rms_before": -50.3
+ },
+ {
+  "cut": 231.912,
+  "carry": [],
+  "new": [
+   "jet@232.11"
+  ],
+  "beds": [
+   "projector 231.91-238.95"
+  ],
+  "stem_rms": -33.9,
+  "stem_peak": -21.5,
+  "bus_rms": -34.5,
+  "bus_peak": -21.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 235.692,
+  "carry": [],
+  "new": [
+   "jet@235.89"
+  ],
+  "beds": [
+   "projector 231.91-238.95"
+  ],
+  "stem_rms": -37.3,
+  "stem_peak": -21.2,
+  "bus_rms": -40.4,
+  "bus_peak": -21.4,
+  "stem_rms_before": -47.6
+ },
+ {
+  "cut": 238.952,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 231.91-238.95"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -136.4,
+  "bus_peak": -109.6,
+  "stem_rms_before": -49.0
+ },
+ {
+  "cut": 242.042,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 242.04-247.38"
+  ],
+  "stem_rms": -48.3,
+  "stem_peak": -33.1,
+  "bus_rms": -48.3,
+  "bus_peak": -33.1,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 245.402,
+  "carry": [],
+  "new": [
+   "tick@245.84"
+  ],
+  "beds": [
+   "projector 242.04-247.38"
+  ],
+  "stem_rms": -48.8,
+  "stem_peak": -26.3,
+  "bus_rms": -53.6,
+  "bus_peak": -31.1,
+  "stem_rms_before": -52.4
+ },
+ {
+  "cut": 247.382,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 242.04-247.38"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -152.5,
+  "bus_peak": -129.8,
+  "stem_rms_before": -56.2
+ },
+ {
+  "cut": 251.692,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 254.862,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 254.86-258.22"
+  ],
+  "stem_rms": -50.9,
+  "stem_peak": -35.8,
+  "bus_rms": -54.8,
+  "bus_peak": -41.1,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 258.222,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 254.86-258.22"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -146.5,
+  "bus_peak": -119.6,
+  "stem_rms_before": -50.5
+ },
+ {
+  "cut": 262.562,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 262.56-266.17"
+  ],
+  "stem_rms": -50.2,
+  "stem_peak": -36.0,
+  "bus_rms": -50.5,
+  "bus_peak": -35.9,
+  "stem_rms_before": -81.1
+ },
+ {
+  "cut": 266.172,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 262.56-266.17",
+   "drone 266.17-271.91"
+  ],
+  "stem_rms": -48.7,
+  "stem_peak": -23.5,
+  "bus_rms": -49.3,
+  "bus_peak": -23.3,
+  "stem_rms_before": -41.5
+ },
+ {
+  "cut": 271.912,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 266.17-271.91",
+   "projector 271.91-312.01"
+  ],
+  "stem_rms": -49.7,
+  "stem_peak": -35.4,
+  "bus_rms": -52.9,
+  "bus_peak": -37.3,
+  "stem_rms_before": -57.8
+ },
+ {
+  "cut": 275.482,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 271.91-312.01"
+  ],
+  "stem_rms": -48.0,
+  "stem_peak": -35.5,
+  "bus_rms": -51.1,
+  "bus_peak": -37.8,
+  "stem_rms_before": -48.2
+ },
+ {
+  "cut": 278.302,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 271.91-312.01"
+  ],
+  "stem_rms": -48.9,
+  "stem_peak": -35.4,
+  "bus_rms": -51.5,
+  "bus_peak": -35.1,
+  "stem_rms_before": -48.3
+ },
+ {
+  "cut": 282.712,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 271.91-312.01"
+  ],
+  "stem_rms": -48.4,
+  "stem_peak": -33.5,
+  "bus_rms": -50.7,
+  "bus_peak": -35.0,
+  "stem_rms_before": -48.8
+ },
+ {
+  "cut": 285.652,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 271.91-312.01"
+  ],
+  "stem_rms": -56.5,
+  "stem_peak": -44.1,
+  "bus_rms": -59.5,
+  "bus_peak": -47.0,
+  "stem_rms_before": -56.5
+ },
+ {
+  "cut": 288.822,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 271.91-312.01"
+  ],
+  "stem_rms": -48.7,
+  "stem_peak": -36.1,
+  "bus_rms": -51.2,
+  "bus_peak": -37.5,
+  "stem_rms_before": -48.2
+ },
+ {
+  "cut": 291.892,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 271.91-312.01"
+  ],
+  "stem_rms": -48.0,
+  "stem_peak": -35.0,
+  "bus_rms": -50.6,
+  "bus_peak": -35.0,
+  "stem_rms_before": -48.1
+ },
+ {
+  "cut": 294.092,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 271.91-312.01"
+  ],
+  "stem_rms": -48.2,
+  "stem_peak": -34.4,
+  "bus_rms": -50.8,
+  "bus_peak": -35.5,
+  "stem_rms_before": -48.1
+ },
+ {
+  "cut": 296.052,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 271.91-312.01"
+  ],
+  "stem_rms": -48.3,
+  "stem_peak": -35.5,
+  "bus_rms": -51.4,
+  "bus_peak": -37.6,
+  "stem_rms_before": -48.2
+ },
+ {
+  "cut": 298.292,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 271.91-312.01"
+  ],
+  "stem_rms": -48.9,
+  "stem_peak": -35.4,
+  "bus_rms": -51.5,
+  "bus_peak": -38.1,
+  "stem_rms_before": -48.3
+ },
+ {
+  "cut": 300.892,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 271.91-312.01"
+  ],
+  "stem_rms": -48.6,
+  "stem_peak": -34.1,
+  "bus_rms": -50.1,
+  "bus_peak": -33.9,
+  "stem_rms_before": -48.4
+ },
+ {
+  "cut": 305.352,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 271.91-312.01"
+  ],
+  "stem_rms": -57.0,
+  "stem_peak": -44.5,
+  "bus_rms": -59.6,
+  "bus_peak": -46.5,
+  "stem_rms_before": -58.4
+ },
+ {
+  "cut": 307.992,
+  "carry": [],
+  "new": [
+   "tick@308.11"
+  ],
+  "beds": [
+   "projector 271.91-312.01"
+  ],
+  "stem_rms": -46.0,
+  "stem_peak": -24.8,
+  "bus_rms": -47.4,
+  "bus_peak": -24.7,
+  "stem_rms_before": -48.6
+ },
+ {
+  "cut": 312.012,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 271.91-312.01"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -148.5,
+  "bus_peak": -125.6,
+  "stem_rms_before": -49.7
+ },
+ {
+  "cut": 317.272,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 317.27-329.66"
+  ],
+  "stem_rms": -51.0,
+  "stem_peak": -35.9,
+  "bus_rms": -54.8,
+  "bus_peak": -38.1,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 319.972,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 317.27-329.66"
+  ],
+  "stem_rms": -48.7,
+  "stem_peak": -35.6,
+  "bus_rms": -50.5,
+  "bus_peak": -36.0,
+  "stem_rms_before": -48.9
+ },
+ {
+  "cut": 323.172,
+  "carry": [],
+  "new": [
+   "pop@323.29"
+  ],
+  "beds": [
+   "projector 317.27-329.66"
+  ],
+  "stem_rms": -45.6,
+  "stem_peak": -26.2,
+  "bus_rms": -46.9,
+  "bus_peak": -26.4,
+  "stem_rms_before": -48.6
+ },
+ {
+  "cut": 325.742,
+  "carry": [],
+  "new": [
+   "jet@325.94"
+  ],
+  "beds": [
+   "projector 317.27-329.66"
+  ],
+  "stem_rms": -34.4,
+  "stem_peak": -22.7,
+  "bus_rms": -37.9,
+  "bus_peak": -24.5,
+  "stem_rms_before": -49.5
+ },
+ {
+  "cut": 329.662,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 317.27-329.66"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -137.3,
+  "bus_peak": -111.2,
+  "stem_rms_before": -50.8
+ },
+ {
+  "cut": 333.692,
+  "carry": [],
+  "new": [
+   "tick@333.79"
+  ],
+  "beds": [],
+  "stem_rms": -49.1,
+  "stem_peak": -26.1,
+  "bus_rms": -49.2,
+  "bus_peak": -25.4,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 336.572,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 342.122,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 342.12-350.04"
+  ],
+  "stem_rms": -55.0,
+  "stem_peak": -34.9,
+  "bus_rms": -59.6,
+  "bus_peak": -39.1,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 346.602,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 342.12-350.04"
+  ],
+  "stem_rms": -49.0,
+  "stem_peak": -36.2,
+  "bus_rms": -50.9,
+  "bus_peak": -36.7,
+  "stem_rms_before": -48.8
+ },
+ {
+  "cut": 350.042,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 342.12-350.04"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -138.7,
+  "bus_peak": -111.7,
+  "stem_rms_before": -50.5
+ },
+ {
+  "cut": 355.972,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 359.968,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 364.948,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "underwater 364.95-367.70"
+  ],
+  "stem_rms": -61.2,
+  "stem_peak": -43.4,
+  "bus_rms": -66.5,
+  "bus_peak": -46.1,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 367.698,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "underwater 364.95-367.70"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -122.1,
+  "bus_peak": -88.8,
+  "stem_rms_before": -57.5
+ },
+ {
+  "cut": 371.668,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 374.258,
+  "carry": [],
+  "new": [
+   "tick@374.36"
+  ],
+  "beds": [],
+  "stem_rms": -49.7,
+  "stem_peak": -26.8,
+  "bus_rms": -49.9,
+  "bus_peak": -26.1,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 378.818,
+  "carry": [],
+  "new": [
+   "tick@378.92"
+  ],
+  "beds": [],
+  "stem_rms": -49.3,
+  "stem_peak": -26.3,
+  "bus_rms": -49.4,
+  "bus_peak": -25.6,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 383.838,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 389.418,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 389.42-391.21"
+  ],
+  "stem_rms": -56.0,
+  "stem_peak": -41.0,
+  "bus_rms": -60.5,
+  "bus_peak": -43.1,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 391.208,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 389.42-391.21"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -128.8,
+  "bus_peak": -96.5,
+  "stem_rms_before": -58.0
+ },
+ {
+  "cut": 395.718,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 395.72-404.24"
+  ],
+  "stem_rms": -75.7,
+  "stem_peak": -60.7,
+  "bus_rms": -80.4,
+  "bus_peak": -65.3,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 399.888,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 395.72-404.24"
+  ],
+  "stem_rms": -54.9,
+  "stem_peak": -41.3,
+  "bus_rms": -56.9,
+  "bus_peak": -43.1,
+  "stem_rms_before": -57.2
+ },
+ {
+  "cut": 404.238,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 395.72-404.24"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -122.5,
+  "bus_peak": -90.7,
+  "stem_rms_before": -53.1
+ },
+ {
+  "cut": 407.288,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 410.348,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 413.158,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 417.438,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 420.908,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 423.398,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 423.40-429.13"
+  ],
+  "stem_rms": -57.3,
+  "stem_peak": -42.9,
+  "bus_rms": -62.4,
+  "bus_peak": -46.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 429.128,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 423.40-429.13"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -132.7,
+  "bus_peak": -102.7,
+  "stem_rms_before": -57.5
+ },
+ {
+  "cut": 431.348,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 436.438,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 436.44-440.91"
+  ],
+  "stem_rms": -57.4,
+  "stem_peak": -43.0,
+  "bus_rms": -61.6,
+  "bus_peak": -46.5,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 440.908,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 436.44-440.91",
+   "waves 440.91-450.67"
+  ],
+  "stem_rms": -55.1,
+  "stem_peak": -35.8,
+  "bus_rms": -60.4,
+  "bus_peak": -40.4,
+  "stem_rms_before": -57.3
+ },
+ {
+  "cut": 445.888,
+  "carry": [],
+  "new": [
+   "tick@445.99"
+  ],
+  "beds": [
+   "waves 440.91-450.67"
+  ],
+  "stem_rms": -49.1,
+  "stem_peak": -26.3,
+  "bus_rms": -49.6,
+  "bus_peak": -25.8,
+  "stem_rms_before": -56.5
+ },
+ {
+  "cut": 450.668,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 440.91-450.67"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -130.5,
+  "bus_peak": -101.0,
+  "stem_rms_before": -54.0
+ },
+ {
+  "cut": 454.028,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 454.03-457.08"
+  ],
+  "stem_rms": -55.1,
+  "stem_peak": -38.3,
+  "bus_rms": -59.4,
+  "bus_peak": -40.1,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 457.078,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 454.03-457.08"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -135.3,
+  "bus_peak": -99.7,
+  "stem_rms_before": -59.7
+ },
+ {
+  "cut": 459.238,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 459.24-464.11"
+  ],
+  "stem_rms": -56.2,
+  "stem_peak": -42.6,
+  "bus_rms": -59.9,
+  "bus_peak": -44.9,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 464.108,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 459.24-464.11"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -130.0,
+  "bus_peak": -96.6,
+  "stem_rms_before": -57.7
+ },
+ {
+  "cut": 468.728,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 473.418,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 473.42-484.48"
+  ],
+  "stem_rms": -55.9,
+  "stem_peak": -40.8,
+  "bus_rms": -56.2,
+  "bus_peak": -40.5,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 476.228,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 473.42-484.48"
+  ],
+  "stem_rms": -55.7,
+  "stem_peak": -43.3,
+  "bus_rms": -58.9,
+  "bus_peak": -43.8,
+  "stem_rms_before": -54.2
+ },
+ {
+  "cut": 479.658,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 473.42-484.48"
+  ],
+  "stem_rms": -54.6,
+  "stem_peak": -40.9,
+  "bus_rms": -57.9,
+  "bus_peak": -44.6,
+  "stem_rms_before": -54.7
+ },
+ {
+  "cut": 484.483,
+  "carry": [],
+  "new": [
+   "whoosh@484.78"
+  ],
+  "beds": [
+   "drone 473.42-484.48",
+   "waves 484.48-516.58"
+  ],
+  "stem_rms": -43.2,
+  "stem_peak": -22.7,
+  "bus_rms": -46.4,
+  "bus_peak": -27.8,
+  "stem_rms_before": -58.2
+ },
+ {
+  "cut": 489.633,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 484.48-516.58"
+  ],
+  "stem_rms": -54.4,
+  "stem_peak": -37.0,
+  "bus_rms": -57.2,
+  "bus_peak": -38.8,
+  "stem_rms_before": -53.3
+ },
+ {
+  "cut": 491.343,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 484.48-516.58"
+  ],
+  "stem_rms": -54.9,
+  "stem_peak": -37.8,
+  "bus_rms": -58.2,
+  "bus_peak": -41.8,
+  "stem_rms_before": -58.0
+ },
+ {
+  "cut": 496.653,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 484.48-516.58"
+  ],
+  "stem_rms": -50.8,
+  "stem_peak": -33.1,
+  "bus_rms": -54.1,
+  "bus_peak": -35.9,
+  "stem_rms_before": -55.0
+ },
+ {
+  "cut": 500.853,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 484.48-516.58"
+  ],
+  "stem_rms": -55.2,
+  "stem_peak": -38.5,
+  "bus_rms": -57.6,
+  "bus_peak": -39.2,
+  "stem_rms_before": -57.0
+ },
+ {
+  "cut": 504.123,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 484.48-516.58"
+  ],
+  "stem_rms": -58.7,
+  "stem_peak": -40.0,
+  "bus_rms": -61.2,
+  "bus_peak": -41.8,
+  "stem_rms_before": -55.0
+ },
+ {
+  "cut": 507.483,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 484.48-516.58"
+  ],
+  "stem_rms": -57.0,
+  "stem_peak": -35.2,
+  "bus_rms": -59.9,
+  "bus_peak": -35.2,
+  "stem_rms_before": -56.7
+ },
+ {
+  "cut": 510.483,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 484.48-516.58"
+  ],
+  "stem_rms": -56.3,
+  "stem_peak": -36.4,
+  "bus_rms": -59.7,
+  "bus_peak": -40.1,
+  "stem_rms_before": -57.7
+ },
+ {
+  "cut": 512.783,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 484.48-516.58"
+  ],
+  "stem_rms": -58.6,
+  "stem_peak": -43.6,
+  "bus_rms": -60.6,
+  "bus_peak": -44.2,
+  "stem_rms_before": -59.0
+ },
+ {
+  "cut": 516.583,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 484.48-516.58",
+   "drone 516.58-521.39"
+  ],
+  "stem_rms": -44.6,
+  "stem_peak": -22.7,
+  "bus_rms": -45.9,
+  "bus_peak": -21.1,
+  "stem_rms_before": -37.2
+ },
+ {
+  "cut": 521.393,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 516.58-521.39",
+   "waves 521.39-524.69"
+  ],
+  "stem_rms": -55.1,
+  "stem_peak": -35.3,
+  "bus_rms": -60.7,
+  "bus_peak": -42.9,
+  "stem_rms_before": -54.5
+ },
+ {
+  "cut": 524.693,
+  "carry": [],
+  "new": [
+   "pop@524.95"
+  ],
+  "beds": [
+   "waves 521.39-524.69"
+  ],
+  "stem_rms": -49.0,
+  "stem_peak": -26.4,
+  "bus_rms": -53.0,
+  "bus_peak": -31.0,
+  "stem_rms_before": -57.5
+ },
+ {
+  "cut": 526.273,
+  "carry": [],
+  "new": [
+   "explosion@526.27",
+   "boom@526.27"
+  ],
+  "beds": [
+   "waves 526.27-539.03"
+  ],
+  "stem_rms": -23.6,
+  "stem_peak": -8.1,
+  "bus_rms": -25.7,
+  "bus_peak": -10.4,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 527.513,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 526.27-539.03"
+  ],
+  "stem_rms": -51.3,
+  "stem_peak": -33.4,
+  "bus_rms": -55.4,
+  "bus_peak": -37.7,
+  "stem_rms_before": -42.6
+ },
+ {
+  "cut": 531.203,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 526.27-539.03"
+  ],
+  "stem_rms": -56.9,
+  "stem_peak": -38.0,
+  "bus_rms": -59.4,
+  "bus_peak": -37.9,
+  "stem_rms_before": -56.0
+ },
+ {
+  "cut": 533.553,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 526.27-539.03"
+  ],
+  "stem_rms": -58.8,
+  "stem_peak": -41.3,
+  "bus_rms": -62.4,
+  "bus_peak": -45.8,
+  "stem_rms_before": -35.0
+ },
+ {
+  "cut": 537.643,
+  "carry": [],
+  "new": [
+   "ship@537.69"
+  ],
+  "beds": [
+   "waves 526.27-539.03"
+  ],
+  "stem_rms": -39.0,
+  "stem_peak": -23.3,
+  "bus_rms": -44.3,
+  "bus_peak": -31.1,
+  "stem_rms_before": -55.0
+ },
+ {
+  "cut": 539.033,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 526.27-539.03",
+   "underwater 539.03-545.93"
+  ],
+  "stem_rms": -57.7,
+  "stem_peak": -42.6,
+  "bus_rms": -64.3,
+  "bus_peak": -49.2,
+  "stem_rms_before": -43.9
+ },
+ {
+  "cut": 543.333,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "underwater 539.03-545.93"
+  ],
+  "stem_rms": -54.5,
+  "stem_peak": -40.1,
+  "bus_rms": -59.3,
+  "bus_peak": -43.2,
+  "stem_rms_before": -53.2
+ },
+ {
+  "cut": 545.933,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "underwater 539.03-545.93",
+   "waves 545.93-553.41"
+  ],
+  "stem_rms": -54.9,
+  "stem_peak": -38.1,
+  "bus_rms": -61.1,
+  "bus_peak": -45.8,
+  "stem_rms_before": -55.4
+ },
+ {
+  "cut": 549.423,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 545.93-553.41"
+  ],
+  "stem_rms": -55.5,
+  "stem_peak": -39.8,
+  "bus_rms": -58.4,
+  "bus_peak": -40.9,
+  "stem_rms_before": -54.7
+ },
+ {
+  "cut": 553.413,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 545.93-553.41"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -128.7,
+  "bus_peak": -104.5,
+  "stem_rms_before": -56.5
+ },
+ {
+  "cut": 559.143,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 559.14-565.88"
+  ],
+  "stem_rms": -59.9,
+  "stem_peak": -42.5,
+  "bus_rms": -64.9,
+  "bus_peak": -47.1,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 561.153,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 559.14-565.88"
+  ],
+  "stem_rms": -54.6,
+  "stem_peak": -34.0,
+  "bus_rms": -58.3,
+  "bus_peak": -38.9,
+  "stem_rms_before": -58.2
+ },
+ {
+  "cut": 563.373,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 559.14-565.88"
+  ],
+  "stem_rms": -54.2,
+  "stem_peak": -37.4,
+  "bus_rms": -56.0,
+  "bus_peak": -38.8,
+  "stem_rms_before": -50.2
+ },
+ {
+  "cut": 565.877,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 559.14-565.88",
+   "drone 565.88-568.68"
+  ],
+  "stem_rms": -49.2,
+  "stem_peak": -24.0,
+  "bus_rms": -49.3,
+  "bus_peak": -23.8,
+  "stem_rms_before": -42.6
+ },
+ {
+  "cut": 568.677,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 565.88-568.68"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -132.5,
+  "bus_peak": -97.4,
+  "stem_rms_before": -56.5
+ },
+ {
+  "cut": 571.907,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 571.91-576.64"
+  ],
+  "stem_rms": -56.0,
+  "stem_peak": -42.2,
+  "bus_rms": -60.6,
+  "bus_peak": -46.7,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 576.637,
+  "carry": [],
+  "new": [
+   "tick@577.10"
+  ],
+  "beds": [
+   "drone 571.91-576.64"
+  ],
+  "stem_rms": -49.4,
+  "stem_peak": -26.5,
+  "bus_rms": -53.6,
+  "bus_peak": -29.6,
+  "stem_rms_before": -56.4
+ },
+ {
+  "cut": 579.987,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 582.827,
+  "carry": [],
+  "new": [
+   "tick@582.93"
+  ],
+  "beds": [],
+  "stem_rms": -49.1,
+  "stem_peak": -26.1,
+  "bus_rms": -49.2,
+  "bus_peak": -25.4,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 586.617,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 591.947,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 595.897,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 598.877,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 598.88-604.35"
+  ],
+  "stem_rms": -60.5,
+  "stem_peak": -43.2,
+  "bus_rms": -65.7,
+  "bus_peak": -48.2,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 604.347,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 598.88-604.35",
+   "drone 604.35-613.64"
+  ],
+  "stem_rms": -54.1,
+  "stem_peak": -39.0,
+  "bus_rms": -58.5,
+  "bus_peak": -43.7,
+  "stem_rms_before": -54.0
+ },
+ {
+  "cut": 610.227,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 604.35-613.64"
+  ],
+  "stem_rms": -58.0,
+  "stem_peak": -44.7,
+  "bus_rms": -58.5,
+  "bus_peak": -44.6,
+  "stem_rms_before": -57.4
+ },
+ {
+  "cut": 613.637,
+  "carry": [],
+  "new": [
+   "pop@613.75"
+  ],
+  "beds": [
+   "drone 604.35-613.64"
+  ],
+  "stem_rms": -48.3,
+  "stem_peak": -25.6,
+  "bus_rms": -50.8,
+  "bus_peak": -28.6,
+  "stem_rms_before": -87.3
+ },
+ {
+  "cut": 615.997,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 619.147,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 619.15-631.44"
+  ],
+  "stem_rms": -56.9,
+  "stem_peak": -42.2,
+  "bus_rms": -61.1,
+  "bus_peak": -43.7,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 624.977,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 619.15-631.44"
+  ],
+  "stem_rms": -53.9,
+  "stem_peak": -40.6,
+  "bus_rms": -57.0,
+  "bus_peak": -43.3,
+  "stem_rms_before": -55.8
+ },
+ {
+  "cut": 628.707,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 619.15-631.44"
+  ],
+  "stem_rms": -54.7,
+  "stem_peak": -40.1,
+  "bus_rms": -58.0,
+  "bus_peak": -43.7,
+  "stem_rms_before": -54.2
+ },
+ {
+  "cut": 631.437,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 619.15-631.44"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -128.3,
+  "bus_peak": -95.6,
+  "stem_rms_before": -56.5
+ },
+ {
+  "cut": 635.457,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 635.46-642.80"
+  ],
+  "stem_rms": -67.5,
+  "stem_peak": -50.2,
+  "bus_rms": -72.3,
+  "bus_peak": -55.2,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 638.837,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 635.46-642.80"
+  ],
+  "stem_rms": -56.3,
+  "stem_peak": -42.6,
+  "bus_rms": -59.3,
+  "bus_peak": -44.6,
+  "stem_rms_before": -56.8
+ },
+ {
+  "cut": 642.797,
+  "carry": [],
+  "new": [
+   "pop@642.92"
+  ],
+  "beds": [
+   "drone 635.46-642.80",
+   "underwater 642.80-647.05"
+  ],
+  "stem_rms": -48.0,
+  "stem_peak": -25.5,
+  "bus_rms": -49.5,
+  "bus_peak": -25.7,
+  "stem_rms_before": -54.6
+ },
+ {
+  "cut": 647.047,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "underwater 642.80-647.05",
+   "drone 647.05-654.16"
+  ],
+  "stem_rms": -56.7,
+  "stem_peak": -41.7,
+  "bus_rms": -61.6,
+  "bus_peak": -45.9,
+  "stem_rms_before": -57.5
+ },
+ {
+  "cut": 648.997,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 647.05-654.16"
+  ],
+  "stem_rms": -55.5,
+  "stem_peak": -41.9,
+  "bus_rms": -58.1,
+  "bus_peak": -43.1,
+  "stem_rms_before": -54.3
+ },
+ {
+  "cut": 654.157,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 647.05-654.16",
+   "waves 654.16-660.26"
+  ],
+  "stem_rms": -53.4,
+  "stem_peak": -36.2,
+  "bus_rms": -60.3,
+  "bus_peak": -42.3,
+  "stem_rms_before": -57.3
+ },
+ {
+  "cut": 656.337,
+  "carry": [],
+  "new": [
+   "tick@656.44"
+  ],
+  "beds": [
+   "waves 654.16-660.26"
+  ],
+  "stem_rms": -47.4,
+  "stem_peak": -25.4,
+  "bus_rms": -48.2,
+  "bus_peak": -25.1,
+  "stem_rms_before": -55.0
+ },
+ {
+  "cut": 660.257,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 654.16-660.26",
+   "drone 660.26-669.17"
+  ],
+  "stem_rms": -56.8,
+  "stem_peak": -42.3,
+  "bus_rms": -60.7,
+  "bus_peak": -44.4,
+  "stem_rms_before": -63.3
+ },
+ {
+  "cut": 662.077,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 660.26-669.17"
+  ],
+  "stem_rms": -55.2,
+  "stem_peak": -43.3,
+  "bus_rms": -58.5,
+  "bus_peak": -42.5,
+  "stem_rms_before": -54.5
+ },
+ {
+  "cut": 666.337,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 660.26-669.17"
+  ],
+  "stem_rms": -54.8,
+  "stem_peak": -41.0,
+  "bus_rms": -59.0,
+  "bus_peak": -44.6,
+  "stem_rms_before": -54.3
+ },
+ {
+  "cut": 669.167,
+  "carry": [],
+  "new": [
+   "pop@669.29"
+  ],
+  "beds": [
+   "drone 660.26-669.17",
+   "waves 669.17-673.32"
+  ],
+  "stem_rms": -48.1,
+  "stem_peak": -26.5,
+  "bus_rms": -49.0,
+  "bus_peak": -26.8,
+  "stem_rms_before": -57.0
+ },
+ {
+  "cut": 673.317,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 669.17-673.32",
+   "drone 673.32-686.54"
+  ],
+  "stem_rms": -76.6,
+  "stem_peak": -61.4,
+  "bus_rms": -82.1,
+  "bus_peak": -67.4,
+  "stem_rms_before": -56.6
+ },
+ {
+  "cut": 678.157,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 673.32-686.54"
+  ],
+  "stem_rms": -54.7,
+  "stem_peak": -42.3,
+  "bus_rms": -57.9,
+  "bus_peak": -43.9,
+  "stem_rms_before": -56.4
+ },
+ {
+  "cut": 681.427,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 673.32-686.54"
+  ],
+  "stem_rms": -53.8,
+  "stem_peak": -41.1,
+  "bus_rms": -56.4,
+  "bus_peak": -42.0,
+  "stem_rms_before": -53.4
+ },
+ {
+  "cut": 686.542,
+  "carry": [],
+  "new": [
+   "whoosh@686.84"
+  ],
+  "beds": [
+   "drone 673.32-686.54",
+   "waves 686.54-689.53"
+  ],
+  "stem_rms": -41.0,
+  "stem_peak": -22.3,
+  "bus_rms": -45.3,
+  "bus_peak": -28.2,
+  "stem_rms_before": -54.6
+ },
+ {
+  "cut": 689.532,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 686.54-689.53",
+   "underwater 689.53-693.05"
+  ],
+  "stem_rms": -57.1,
+  "stem_peak": -40.2,
+  "bus_rms": -62.9,
+  "bus_peak": -46.3,
+  "stem_rms_before": -58.4
+ },
+ {
+  "cut": 693.052,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "underwater 689.53-693.05",
+   "waves 693.05-694.96"
+  ],
+  "stem_rms": -55.9,
+  "stem_peak": -37.2,
+  "bus_rms": -61.0,
+  "bus_peak": -43.7,
+  "stem_rms_before": -59.8
+ },
+ {
+  "cut": 694.962,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 693.05-694.96",
+   "underwater 694.96-700.81"
+  ],
+  "stem_rms": -59.6,
+  "stem_peak": -42.9,
+  "bus_rms": -66.2,
+  "bus_peak": -48.8,
+  "stem_rms_before": -58.7
+ },
+ {
+  "cut": 700.812,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "underwater 694.96-700.81",
+   "waves 700.81-704.62"
+  ],
+  "stem_rms": -60.0,
+  "stem_peak": -37.1,
+  "bus_rms": -65.3,
+  "bus_peak": -43.3,
+  "stem_rms_before": -59.5
+ },
+ {
+  "cut": 704.622,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 700.81-704.62",
+   "underwater 704.62-733.81"
+  ],
+  "stem_rms": -54.4,
+  "stem_peak": -40.2,
+  "bus_rms": -61.0,
+  "bus_peak": -46.6,
+  "stem_rms_before": -57.7
+ },
+ {
+  "cut": 710.002,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "underwater 704.62-733.81"
+  ],
+  "stem_rms": -51.7,
+  "stem_peak": -40.2,
+  "bus_rms": -57.8,
+  "bus_peak": -42.8,
+  "stem_rms_before": -54.6
+ },
+ {
+  "cut": 713.902,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "underwater 704.62-733.81"
+  ],
+  "stem_rms": -58.9,
+  "stem_peak": -45.4,
+  "bus_rms": -62.5,
+  "bus_peak": -46.9,
+  "stem_rms_before": -59.4
+ },
+ {
+  "cut": 716.752,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "underwater 704.62-733.81"
+  ],
+  "stem_rms": -55.3,
+  "stem_peak": -41.6,
+  "bus_rms": -60.4,
+  "bus_peak": -45.2,
+  "stem_rms_before": -54.5
+ },
+ {
+  "cut": 720.092,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "underwater 704.62-733.81"
+  ],
+  "stem_rms": -57.4,
+  "stem_peak": -44.5,
+  "bus_rms": -61.7,
+  "bus_peak": -47.2,
+  "stem_rms_before": -57.0
+ },
+ {
+  "cut": 723.342,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "underwater 704.62-733.81"
+  ],
+  "stem_rms": -59.4,
+  "stem_peak": -44.8,
+  "bus_rms": -63.3,
+  "bus_peak": -48.7,
+  "stem_rms_before": -58.0
+ },
+ {
+  "cut": 727.002,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "underwater 704.62-733.81"
+  ],
+  "stem_rms": -55.8,
+  "stem_peak": -40.6,
+  "bus_rms": -61.5,
+  "bus_peak": -44.5,
+  "stem_rms_before": -54.4
+ },
+ {
+  "cut": 728.812,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "underwater 704.62-733.81"
+  ],
+  "stem_rms": -58.6,
+  "stem_peak": -43.5,
+  "bus_rms": -62.9,
+  "bus_peak": -47.9,
+  "stem_rms_before": -58.4
+ },
+ {
+  "cut": 733.812,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "underwater 704.62-733.81",
+   "waves 733.81-738.03"
+  ],
+  "stem_rms": -56.7,
+  "stem_peak": -40.8,
+  "bus_rms": -62.7,
+  "bus_peak": -45.0,
+  "stem_rms_before": -60.5
+ },
+ {
+  "cut": 738.032,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 733.81-738.03"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -133.9,
+  "bus_peak": -100.1,
+  "stem_rms_before": -59.6
+ },
+ {
+  "cut": 739.742,
+  "carry": [],
+  "new": [
+   "tick@739.84"
+  ],
+  "beds": [],
+  "stem_rms": -49.7,
+  "stem_peak": -26.7,
+  "bus_rms": -49.8,
+  "bus_peak": -26.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 743.272,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 745.452,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 745.45-754.07"
+  ],
+  "stem_rms": -57.0,
+  "stem_peak": -42.4,
+  "bus_rms": -62.0,
+  "bus_peak": -48.1,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 749.202,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 745.45-754.07"
+  ],
+  "stem_rms": -54.8,
+  "stem_peak": -42.3,
+  "bus_rms": -58.6,
+  "bus_peak": -41.9,
+  "stem_rms_before": -54.9
+ },
+ {
+  "cut": 754.072,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 745.45-754.07",
+   "underwater 754.07-758.41"
+  ],
+  "stem_rms": -55.5,
+  "stem_peak": -40.7,
+  "bus_rms": -62.1,
+  "bus_peak": -46.3,
+  "stem_rms_before": -55.5
+ },
+ {
+  "cut": 758.412,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "underwater 754.07-758.41"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -113.4,
+  "bus_peak": -83.2,
+  "stem_rms_before": -56.8
+ },
+ {
+  "cut": 762.802,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 766.802,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 771.782,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "underwater 771.78-773.38"
+  ],
+  "stem_rms": -58.7,
+  "stem_peak": -43.9,
+  "bus_rms": -66.2,
+  "bus_peak": -49.6,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 773.382,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "underwater 771.78-773.38"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -134.0,
+  "bus_peak": -93.9,
+  "stem_rms_before": -55.8
+ },
+ {
+  "cut": 775.122,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 775.12-788.13"
+  ],
+  "stem_rms": -56.2,
+  "stem_peak": -41.9,
+  "bus_rms": -58.6,
+  "bus_peak": -43.3,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 779.492,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 775.12-788.13"
+  ],
+  "stem_rms": -54.9,
+  "stem_peak": -41.9,
+  "bus_rms": -57.3,
+  "bus_peak": -42.6,
+  "stem_rms_before": -54.0
+ },
+ {
+  "cut": 783.632,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 775.12-788.13"
+  ],
+  "stem_rms": -55.5,
+  "stem_peak": -42.4,
+  "bus_rms": -57.9,
+  "bus_peak": -42.4,
+  "stem_rms_before": -54.5
+ },
+ {
+  "cut": 788.132,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "drone 775.12-788.13"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -138.0,
+  "bus_peak": -109.5,
+  "stem_rms_before": -56.9
+ },
+ {
+  "cut": 790.512,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 790.51-795.69"
+  ],
+  "stem_rms": -54.4,
+  "stem_peak": -35.0,
+  "bus_rms": -58.7,
+  "bus_peak": -39.7,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 795.692,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "waves 790.51-795.69"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -136.7,
+  "bus_peak": -109.3,
+  "stem_rms_before": -58.4
+ },
+ {
+  "cut": 797.312,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -48.9
+ },
+ {
+  "cut": 801.812,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 805.312,
+  "carry": [],
+  "new": [
+   "tick@805.34",
+   "tick@805.51",
+   "boom@805.51"
+  ],
+  "beds": [
+   "underwater 805.31-812.57"
+  ],
+  "stem_rms": -24.7,
+  "stem_peak": -16.8,
+  "bus_rms": -27.1,
+  "bus_peak": -18.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 808.642,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "underwater 805.31-812.57"
+  ],
+  "stem_rms": -56.7,
+  "stem_peak": -42.2,
+  "bus_rms": -61.1,
+  "bus_peak": -46.0,
+  "stem_rms_before": -58.0
+ },
+ {
+  "cut": 812.572,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "underwater 805.31-812.57",
+   "projector 812.57-819.28"
+  ],
+  "stem_rms": -49.0,
+  "stem_peak": -31.8,
+  "bus_rms": -52.9,
+  "bus_peak": -36.3,
+  "stem_rms_before": -55.8
+ },
+ {
+  "cut": 815.022,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 812.57-819.28"
+  ],
+  "stem_rms": -55.4,
+  "stem_peak": -42.8,
+  "bus_rms": -58.4,
+  "bus_peak": -44.8,
+  "stem_rms_before": -38.5
+ },
+ {
+  "cut": 819.282,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 812.57-819.28"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -151.5,
+  "bus_peak": -124.3,
+  "stem_rms_before": -48.6
+ },
+ {
+  "cut": 823.512,
+  "carry": [],
+  "new": [
+   "tick@823.61"
+  ],
+  "beds": [],
+  "stem_rms": -48.6,
+  "stem_peak": -25.6,
+  "bus_rms": -48.7,
+  "bus_peak": -24.9,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 827.682,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 827.68-829.30"
+  ],
+  "stem_rms": -51.0,
+  "stem_peak": -33.2,
+  "bus_rms": -54.1,
+  "bus_peak": -35.5,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 829.302,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 827.68-829.30"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -139.2,
+  "bus_peak": -113.4,
+  "stem_rms_before": -51.1
+ },
+ {
+  "cut": 834.722,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 837.502,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 837.50-842.62"
+  ],
+  "stem_rms": -50.9,
+  "stem_peak": -35.5,
+  "bus_rms": -55.9,
+  "bus_peak": -40.8,
+  "stem_rms_before": -240.0
+ },
+ {
+  "cut": 842.622,
+  "carry": [],
+  "new": [],
+  "beds": [
+   "projector 837.50-842.62"
+  ],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -151.2,
+  "bus_peak": -123.3,
+  "stem_rms_before": -50.9
+ },
+ {
+  "cut": 845.182,
+  "carry": [],
+  "new": [],
+  "beds": [],
+  "stem_rms": -240.0,
+  "stem_peak": -240.0,
+  "bus_rms": -240.0,
+  "bus_peak": -240.0,
+  "stem_rms_before": -240.0
+ }
+]

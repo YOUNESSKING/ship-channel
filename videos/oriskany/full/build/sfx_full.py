@@ -196,6 +196,44 @@ for c in CUES:
 CUES = out
 LOG += [("v4", f"{t:.2f}", r, w) for t, r, w in V4]
 
+# ---------------------------------------------------------------- v6: SFX_FIX_v6 (critic build/CRITIQUE_SFX_v5.md; owner 2026-11-08: quieter
+# SFX, nothing hanging over the scenes). Every change only takes sound away, except M1, which gives the 2nd hook blast back the voice
+# gap after its 0.33 s flash (a one-off exception, listed in check_sound_lock.GAP_CARRY_CUES). Matched by (role, event s).
+def _next_word(t): return min(w["start"] for w in WORDS if w["start"] > t)
+V6 = {   # (role, event): (changes, why)
+    ("explosion", 17.65): (dict(gap_carry="word"), "M1: ends on 'Thirty' (18.22), 0.25 s fade, inside the voice gap"),
+    ("boom", 17.65):      (dict(gap_carry="word"), "M1: ends on 'Thirty' (18.22), 0.25 s fade, inside the voice gap"),
+    ("impact", 19.85):    (dict(lowpass=1200), "M2: lowpass 1200 Hz under 'she was gone.'"),
+    ("ship", 19.90):      (dict(lowpass=1200, gain=-3.0), "M2: flood lowpass 1200 Hz, -3 dB"),
+    ("ship", 26.25):      (dict(gain=-3.0), "S1: groan -3 dB under 'millions to put'"),
+    ("impact", 28.70):    (dict(lowpass=1000), "S2: lowpass 1000 Hz on 'floor?'"),
+    ("whoosh", 45.80):    (dict(ring=0.8), "S4: ring 0.8 s under 'About thirteen'"),
+    ("ship", 532.80):     (dict(cut_fade=0.4), "S6: 0.4 s fade ending on the 533.553 cut"),
+    ("ship", 537.69):     (dict(lowpass=1200, gain=-3.0), "S3: flood lowpass 1200 Hz, -3 dB under 'Then she was gone.'"),
+}
+# S5: the 40 pops / ticks the critic measured > 10 dB under the rest of the mix (masked by speech): deleted, nothing raised
+S5_DROP = [18.69, 22.79, 61.52, 90.99, 94.25, 96.42, 106.20, 116.16, 119.44, 127.11, 141.70, 148.59, 182.56, 202.94, 268.74, 284.04,
+           417.56, 426.41, 429.49, 467.50, 474.44, 477.63, 529.38, 549.92, 556.13, 569.48, 592.44, 610.88, 649.44, 685.11, 706.88, 724.60,
+           730.83, 743.59, 757.44, 760.95, 763.88, 774.18, 786.01, 815.21]
+V6LOG, out, hit6, drop6 = [], [], set(), set()
+for c in CUES:
+    t = ST[c["shot"]][0] + c["at"]
+    d = next((x for x in S5_DROP if abs(x - t) < 0.02), None)
+    if d is not None and c["role"] in ("pop", "tick"):
+        drop6.add(d); V6LOG.append((t, c["role"], "dropped (S5: > 10 dB under the mix, masked)")); out.append(dict(c, drop=True)); continue
+    k = next((k for k in V6 if k[0] == c["role"] and abs(k[1] - t) < 0.02), None)
+    if k:
+        ch, why = V6[k]; ch = dict(ch); hit6.add(k)
+        if ch.get("gap_carry") == "word":
+            cut = next(b for s_, a_, b in SHOTS if a_ <= t + 1e-4 < b)
+            ch["gap_carry"] = round(_next_word(t) - cut, 3)
+        c = dict(c, **ch); V6LOG.append((t, c["role"], why))
+    out.append(c)
+assert len(drop6) == len(S5_DROP), sorted(set(S5_DROP) - drop6)
+assert len(hit6) == len(V6), set(V6) - hit6
+CUES = out
+LOG += [("v6", f"{t:.2f}", r, w) for t, r, w in V6LOG]
+
 # ---------------------------------------------------------------- beds c02-c07
 def bed_of(k, s):
     clip = ((s.get("clip") or {}).get("file") or "")

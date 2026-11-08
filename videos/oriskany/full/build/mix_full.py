@@ -11,10 +11,12 @@ Resumable: the join is skipped when chapter/joined_silent.mp4 is newer than ever
   nohup python3 build/mix_full.py > build/mix_full.log 2>&1 &"""
 import json, os, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); FULL = os.path.dirname(HERE); ROOT = os.path.abspath(os.path.join(FULL, "../../.."))
-SND = os.path.join(ROOT, "tools/sound"); WK = os.path.join(FULL, "audio/mix"); OUT = os.path.join(FULL, "oriskany_full_v5.mp4")
+SND = os.path.join(ROOT, "tools/sound"); WK = os.environ.get("MIX_WORK", os.path.join(FULL, "audio/mix")); OUT = os.path.join(FULL, "oriskany_full_v6.mp4")
+# v6 = SFX_FIX_v6 (critic build/CRITIQUE_SFX_v5.md, owner 2026-11-08: quieter SFX). MIX_WORK=/dev/shm/... keeps the 2.6 GB of mix
+# stems off the (nearly full) disk.
 # v5 = SFX_FIX_v5 sound (owner 2026-11-08: SFX -3 dB, beds -2 dB, every effect silent by its shot's end; build/SFX_FIX_v5.md). The
 # picture is final: when chapter/joined_silent.mp4 is gone, the video stream of the v4 master is copied as it is (PICTURE_SRC).
-PICTURE_SRC = os.environ.get("PICTURE_SRC", os.path.join(FULL, "oriskany_full_v4.mp4"))
+PICTURE_SRC = os.environ.get("PICTURE_SRC", os.path.join(FULL, "oriskany_full_v5.mp4"))   # v6: the v5 picture (= v4, bit-identical)
 # v4 = SFX_FIX_v4 sound (owner 2026-11-05: horn shorter + 6 dB quieter, cue rings capped; build/SFX_FIX_v4.md).
 # AUDIO_ONLY=/path/test.mp4: sound-only test. Skips the join and muxes the full v4 mix onto a tiny colour proxy with exactly the
 # frame count of the existing chapter/joined_silent.mp4 (or, if gone, of oriskany_full_v3.mp4) (so audio = video length), written to that path. No picture render.

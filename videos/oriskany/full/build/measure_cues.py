@@ -38,7 +38,7 @@ def iso(c, p, tmp):
 
 def main():
     out = sys.argv[1] if len(sys.argv) > 1 else os.path.join(HERE, "cue_levels.json")
-    A = os.path.join(FULL, "audio"); W = os.path.join(A, "mix")
+    A = os.path.join(FULL, "audio"); W = os.environ.get("MIX_WORK", os.path.join(A, "mix"))
     rd = lambda p: momentary(sf.read(p, dtype="float64", always_2d=True)[0])
     MV, MB, MS = rd(f"{W}/voice_bus.wav"), rd(f"{W}/sfx_bus.wav"), rd(f"{A}/sfx.wav")
     n = min(len(MV), len(MB), len(MS)); MV, MB, MS = MV[:n], MB[:n], MS[:n]
@@ -48,7 +48,7 @@ def main():
     for w in WORDS: inword |= (centre >= w["start"]) & (centre <= w["end"])
     tmp = os.path.join(os.environ.get("TMPDIR", "/tmp"), f"_cue_{os.getpid()}.wav")
     import sfx_full
-    cues = sorted(sfx_full.CUES, key=lambda c: sfx_full.ST[c["shot"]][0] + c["at"])
+    cues = sorted((c for c in sfx_full.CUES if not c.get("drop")), key=lambda c: sfx_full.ST[c["shot"]][0] + c["at"])   # v6: deleted cues
     assert len(cues) == len(PL["cues"]), "sfx_placed.json is not from the current sfx_full.py: run it first"
     rows = []
     for c, p in zip(cues, PL["cues"]):

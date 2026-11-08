@@ -11,7 +11,7 @@ Static lock (runs before every SFX render, `check()`):
 Render checks (`python3 check_sound_lock.py --render WORK/master.json --cues placed.json --measure measure.json`):
   * loudnorm pass 2 reported "linear" and predicted TP <= -1.5; final -14 +/- 0.5 LUFS, TP <= -1.5 dBTP;
   * stereo, audio duration == video duration (+/- 1 frame);
-  * LRA >= 5 LU for short tests, 2-8 LU for full-length masters > 5 min (owner decision 2026-11-05); low end < 120 Hz >= 3 dB under the 300-3000 Hz voice band during clean speech; every big beat's momentary max >= 3 LU above the speech momentary median;
+  * LRA >= 5 LU for short tests, 1.7-8 LU for full-length masters > 5 min (owner 2026-11-05: 2-8; owner 2026-11-08: quieter SFX, 1.7); low end < 120 Hz >= 3 dB under the 300-3000 Hz voice band during clean speech; every big beat's momentary max >= 1 LU above the speech momentary median (owner 2026-11-08: quieter SFX; was 3);
   * music under speech -18..-28 dB re voice, music in gaps within 3 dB of the battle-maps reference estimate;
   * every cue's measured sync point <= 3 frames off its event, and no cue runs past its allowed end;
   * SFX_FIX_v4 (owner 2026-11-05): no cue rings > 1.5 s past its event unless designed ("ring" in the cue); at most 2 horns,
@@ -26,7 +26,8 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
 # owner 2026-11-08: SFX -3 dB, ends with its shot. Every event role 3 dB under its 2026-11-05 lock (explosion -4, impact -7, hit -8,
 # whoosh -12, jet -11, tick -20, boom -11, pop -20, riser -17, ship -13, horn -20); beds 2 dB under (projector -27, others -30).
-LEVELS = {"explosion": (-7, 0.20), "impact": (-10, 0.25), "hit": (-11, 0.50), "whoosh": (-15, 0.50), "jet": (-14, 1.2),
+# owner 2026-11-08: quieter SFX (critic CRITIQUE_SFX_v5 M3): jet -14 -> -17, plus a -6 dB peaking cut at 2.5 kHz on every jet cue.
+LEVELS = {"explosion": (-7, 0.20), "impact": (-10, 0.25), "hit": (-11, 0.50), "whoosh": (-15, 0.50), "jet": (-17, 1.2),
           "tick": (-23, 0.12), "boom": (-14, 0.50), "pop": (-23, 0.12), "riser": (-20, 2.0),
           "ship": (-16, 0.5), "horn": (-23, 3.0)}   # horn: owner 2026-11-05: <= 2 s and -20 (was -14); owner 2026-11-08: -23
 HORN_MAX_N, HORN_MAX_S = 2, 2.0   # owner 2026-11-05: at most 2 horns per video, each <= ~2 s, in a voice gap, never under speech
@@ -39,6 +40,14 @@ CUT_TAIL_EXC = 0.4        # ... or this, for a whoosh whose event is the cut its
 CUT_EVENT_WIN = 0.1
 CUT_FADE = (0.2, 0.3)     # the fade that ends on the cut
 BED_FADE = 0.25
+JET_EQ = [(2500.0, -6.0, 1.0)]   # owner 2026-11-08: quieter SFX (critic v5 M3): jets cut 6 dB at 2.5 kHz (Q 1)
+# owner 2026-11-08: quieter SFX (critic v5 M1): the ONE-OFF hook-blast exception. The 2nd hook blast (explosion + boom @ 17.65) may run
+# into the voice gap after its 0.33 s flash: <= GAP_CARRY_MAX s past its cut, faded, ending before the next word. No other cue may.
+GAP_CARRY_CUES = {("explosion", 17.65), ("boom", 17.65)}
+GAP_CARRY_MAX = 0.25
+# owner 2026-11-08: quieter SFX. The floors below were written for the louder 2026-11-05 levels.
+LRA_MIN_FULL = 1.7               # full-length masters: LRA 1.7-8 LU (was 2-8)
+BEAT_MIN_LU = 1.0                # every big beat's momentary max >= +1 LU over the speech median (was +3)
 CHAIN = ["MUSIC_VOL = 0.08", "afade=t=in:d=2", "afade=t=out:st={total - 3:.3f}:d=3",
          "sidechaincompress=threshold=0.03:ratio=6:attack=20:release=400",
          "sidechaincompress=threshold=0.03:ratio=3:attack=10:release=300", "alimiter=limit=0.5:level=false",
@@ -90,6 +99,8 @@ def check(kinds=None, beds=None):
     if getattr(L, "CUT_TAIL_EXC", 99) > CUT_TAIL_EXC or getattr(L, "CUT_EVENT_WIN", 99) > CUT_EVENT_WIN or tuple(getattr(L, "CUT_EXC_ROLES", ("?",))) != ("whoosh",):
         errs.append(f"the transition exception must be a whoosh on the cut, <= {CUT_TAIL_EXC} s into the next shot (owner 2026-11-08)")
     if abs(getattr(L, "BED_FADE", 0) - BED_FADE) > 1e-9: errs.append(f"bed fades must be {BED_FADE} s (owner 2026-11-08)")
+    if [tuple(x) for x in getattr(L, "ROLE_EQ", {}).get("jet", [])] != JET_EQ: errs.append("jet cues must carry the -6 dB @ 2.5 kHz cut (owner 2026-11-08)")
+    if getattr(L, "GAP_CARRY_MAX", 99) > GAP_CARRY_MAX: errs.append(f"hook-blast gap carry must be <= {GAP_CARRY_MAX} s")
     if getattr(L, "AUDIBLE_DB", 0) > AUDIBLE_DB: errs.append(f"the renderer's audible threshold must be <= {AUDIBLE_DB} dBFS")
     if getattr(L, "RING_MAX", 99) > RING_MAX: errs.append(f"RING_MAX must be <= {RING_MAX} s (SFX_FIX_v4)")
     if getattr(L, "RING_ROLE", {}).get("horn", 99) > HORN_MAX_S or L.REGION["horn_a__463af07a.wav"][1] > HORN_MAX_S:
@@ -107,7 +118,7 @@ def check(kinds=None, beds=None):
           "compressor/limiter/de-ess/edge fades, 2c-9 gain + alimiter 0.84, loudnorm linear gate, stereo, pad, fade-out, HPF")
 
 
-def check_shot_ends(placed, shots, beds=None):
+def check_shot_ends(placed, shots, beds=None, words=None):
     """SFX_FIX_v5 (owner 2026-11-08): every cue has faded below -50 dBFS by the next picture cut after its event (+0.05 s), a
     whoosh whose event is the cut by +0.4 s; every bed starts and stops on a shot cut with 0.25 s fades. The cut is found
     here from the shot table (not taken from the renderer)."""
@@ -119,6 +130,16 @@ def check_shot_ends(placed, shots, beds=None):
         s = sh[max(0, bisect.bisect_right(st, p["event"] + 1e-4) - 1)]; cut = s[2]
         trans = p["role"] == "whoosh" and cut - p["event"] <= CUT_EVENT_WIN and cut < total - 1e-3
         lim = CUT_TAIL_EXC if trans else CUT_SLACK
+        if p.get("gap_carry"):   # the one-off hook-blast exception (owner 2026-11-08: quieter SFX, critic v5 M1)
+            if not any(p["role"] == r and abs(p["event"] - t) < 0.02 for r, t in GAP_CARRY_CUES):
+                errs.append(f"cue {p['role']} @ {p['event']:.2f} uses gap_carry: only the hook blast {sorted(GAP_CARRY_CUES)} may")
+            elif p["gap_carry"] > GAP_CARRY_MAX + 1e-6:
+                errs.append(f"cue {p['role']} @ {p['event']:.2f}: gap_carry {p['gap_carry']} > {GAP_CARRY_MAX} s")
+            else:
+                lim = p["gap_carry"] + CUT_SLACK
+                nw = min([w["start"] for w in words or [] if w["start"] > p["event"]] or [1e9])
+                if words and p["audible_end"] > nw + 1e-3:
+                    errs.append(f"cue {p['role']} @ {p['event']:.2f}: audible to {p['audible_end']:.3f}, into the word at {nw:.3f} (voice gap only)")
         if p["audible_end"] > cut + lim + 1e-4:
             errs.append(f"cue {p['role']} @ {p['event']:.2f} ({p['note'][:40]}): audible until {p['audible_end']:.3f}, "
                         f"{p['audible_end'] - cut:+.3f} s past its shot end {cut:.3f} (max {lim}; owner 2026-11-08)")
@@ -168,10 +189,10 @@ def check_render(master, placed, meas, words=None, shots=None, beds=None):
     # LRA rule, OWNER DECISION 2026-11-05 (Oriskany full v3): a full-length master (> 5 min) must sit in the battle-maps reference
     # band, 2-8 LU (a 15-min narration on the locked chain measures 2-3 LU; the references measure 2.2-2.5). Short tests keep >= 5 LU.
     if float(vi["duration"]) > 300:
-        if not 2 <= meas["lra"] <= 8: errs.append(f"LRA {meas['lra']} LU outside 2-8 (full-length master, owner rule 2026-11-05)")
+        if not LRA_MIN_FULL <= meas["lra"] <= 8: errs.append(f"LRA {meas['lra']} LU outside {LRA_MIN_FULL}-8 (full-length master, owner 2026-11-08: quieter SFX)")
     elif meas["lra"] < 5: errs.append(f"LRA {meas['lra']} LU < 5 (short test)")
     for b in meas["beats"]:
-        if b["above_speech_lu"] < 3: errs.append(f"big beat @ {b['t']:.2f} ({b['what']}) only {b['above_speech_lu']:+.1f} LU above speech")
+        if b["above_speech_lu"] < BEAT_MIN_LU: errs.append(f"big beat @ {b['t']:.2f} ({b['what']}) only {b['above_speech_lu']:+.1f} LU above speech")
     b = meas.get("bands_in_speech_re_total_db")
     if b and b["<120"] > b["300-3k"] - 3:
         errs.append(f"low end < 120 Hz ({b['<120']} dB) within 3 dB of the voice band ({b['300-3k']} dB) while the narrator speaks")
@@ -179,7 +200,7 @@ def check_render(master, placed, meas, words=None, shots=None, beds=None):
     if not -28 <= mu <= -18: errs.append(f"music under speech {mu} dB re voice (target -18..-28)")
     if meas.get("ref_gap_delta_db") is not None and abs(meas["ref_gap_delta_db"]) > 3:
         errs.append(f"music in gaps {meas['ref_gap_delta_db']:+.1f} dB vs the battle-maps reference (> 3 dB)")
-    return errs + check_cues(placed, words) + (check_shot_ends(placed, shots, beds) if shots else ["no shot table: the shot-end rule was not checked"])
+    return errs + check_cues(placed, words) + (check_shot_ends(placed, shots, beds, words) if shots else ["no shot table: the shot-end rule was not checked"])
 
 
 if __name__ == "__main__":
@@ -203,5 +224,5 @@ if __name__ == "__main__":
         f = master["final"]
         print(f"SOUND LOCK OK (render): {f['I']} LUFS, TP {f['TP']} dBTP, LRA {meas['lra']} LU, loudnorm linear, stereo, "
               f"audio = video length, music under speech {meas['music_under_voice_db']} dB, "
-              f"{len(meas['beats'])} big beats >= +3 LU over speech, {len(placed)} cues within 3 frames, every cue silent by its shot end, "
+              f"{len(meas['beats'])} big beats >= +{BEAT_MIN_LU} LU over speech, {len(placed)} cues within 3 frames, every cue silent by its shot end, "
               f"{len(PL.get('beds', []))} beds on shot cuts")

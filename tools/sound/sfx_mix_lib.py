@@ -44,6 +44,13 @@ CUT_EVENT_WIN = 0.1
 CUT_EXC_ROLES = ("whoosh",)
 BED_FADE = 0.25
 AUDIBLE_DB = -50.0
+# SFX_FIX_v6 (critic CRITIQUE_SFX_v5, owner 2026-11-08: quieter SFX). Per-cue options, all of which only take sound AWAY:
+#   "gain": extra dB (<= 0) on top of the role level; "lowpass": Hz (2-pole Butterworth, keeps the low end, clears the
+#   speech band); "cut_fade": a longer fade ending on the cut; "gap_carry": s past the cut, the ONE-OFF hook-blast exception
+#   (<= GAP_CARRY_MAX, faded, and only inside the voice gap after its 0.33 s flash; check_sound_lock lists the allowed cues).
+# ROLE_EQ: peaking EQ (Hz, dB, Q) applied to every cue of a role: the jets lose 6 dB at 2.5 kHz (the speech consonants).
+GAP_CARRY_MAX = 0.25
+ROLE_EQ = {"jet": [(2500.0, -6.0, 1.0)]}
 RING_ROLE = {"horn": 2.0}           # the horn: at most ~2 s in all (owner 2026-11-05)
 FADE_ROLE = {"horn": 0.6}           # a short natural fade-out (s); other roles keep min(0.25 s, 35 % of the cue)
 # Big beats (blasts, impacts, key booms) go to their own "punch" stem that the voice does NOT duck, so they read
@@ -59,7 +66,7 @@ PUNCH_ROLES = ("explosion", "impact", "boom")
 # owner 2026-11-05: shorter (<= 2 s) and 6 dB quieter, at most 2 horns per video). Owner-approved.
 # owner 2026-11-08: SFX -3 dB, ends with its shot. Every event role is 3 dB under the numbers above (explosion -7, impact -10,
 # hit -11, boom -14, pop -23, whoosh -15, riser -20, jet -14, ship -16, horn -23, tick -23); every bed 2 dB under (projector -29,
-# drone / waves / underwater -32). Voice and music unchanged.
+# drone / waves / underwater -32). Voice and music unchanged. owner 2026-11-08 (quieter SFX, critic v5 M3): jet -17 + ROLE_EQ.
 KINDS = {
     "explosion": (["charges_c__f6f10ea4.wav", "charges_a__955e7371.wav", "charges_b__0ecb5c38.wav"], -7, 0.20, "peak"),
     "impact":    (["splash_a__1d6949d6.wav", "charges_b__0ecb5c38.wav", "splash_b__3ba7bd2a.wav"], -10, 0.25, "peak"),
@@ -68,7 +75,7 @@ KINDS = {
     "pop":       (["pop_b__844f57e0.wav"], -23, 0.12, "peak"),
     "whoosh":    (["whoosh_a__689b1489.wav", "whoosh_b__8d9712d2.wav"], -15, 0.50, "onset"),
     "riser":     (["riser_a__fd98cb0b.wav", "riser_b__dbd5c65b.wav"], -20, 2.0, "peak"),
-    "jet":       (["jet_a__9fc48bf0.wav", "jet_b__da6a1527.wav", "jet_c__d47bee57.wav"], -14, 1.2, "peak"),
+    "jet":       (["jet_a__9fc48bf0.wav", "jet_b__da6a1527.wav", "jet_c__d47bee57.wav"], -17, 1.2, "peak"),
     "ship":      (["groan_a__7c63fd7c.wav", "flood_a__db95b348.wav", "bubbles_a__e58b390c.wav", "groan_b__2bc7c5e1.wav",
                    "groan_c__87dfc4bf.wav", "flood_b__3e14e767.wav", "bubbles_b__18fdc570.wav"], -16, 0.5, "onset"),
     "horn":      (["horn_a__463af07a.wav"], -23, 3.0, "onset"),   # owner 2026-11-05: <= 2 s, -20; owner 2026-11-08: -3 dB
@@ -103,6 +110,27 @@ REGION = {
     "bubbles_a__e58b390c.wav": (2.95, 1.6),
     "horn_a__463af07a.wav":    (0.20, 2.0),    # owner 2026-11-05: the best 2 s of the 1st blast = its onset + swell (was 7.6 s)
 }
+
+
+def _biquad(kind, f0, sr=SR, gain_db=0.0, q=0.7071):
+    """RBJ cookbook biquad (b, a): 'lowpass' (Q 0.7071 = 2-pole Butterworth) or 'peak' (ffmpeg equalizer t=q)."""
+    w0 = 2 * np.pi * f0 / sr; al = np.sin(w0) / (2 * q); cw = np.cos(w0)
+    if kind == "lowpass":
+        b = [(1 - cw) / 2, 1 - cw, (1 - cw) / 2]; a = [1 + al, -2 * cw, 1 - al]
+    else:
+        A = 10 ** (gain_db / 40)
+        b = [1 + al * A, -2 * cw, 1 - al * A]; a = [1 + al / A, -2 * cw, 1 - al / A]
+    return np.array(b) / a[0], np.array(a) / a[0]
+
+
+def filter_cue(seg, kind, c):
+    """the cue's subtractive filters (ROLE_EQ of its role, then its own "lowpass"), applied after its level"""
+    from scipy.signal import lfilter
+    for f0, g, q in ROLE_EQ.get(kind, []):
+        b, a = _biquad("peak", f0, gain_db=g, q=q); seg = lfilter(b, a, seg, axis=0)
+    if c.get("lowpass"):
+        b, a = _biquad("lowpass", float(c["lowpass"])); seg = lfilter(b, a, seg, axis=0)
+    return seg.astype("float32")
 
 
 def md5(p):
@@ -171,6 +199,8 @@ def render(cues, shots, total, out, beds=(), beds_out=None, check=True, seed=7, 
             raise SystemExit(f"cue {kind} at {event:.2f} breaks the {gap} s minimum gap (move or drop it)")
         last[kind] = event
         f = c.get("file") or files[used.get(kind, 0) % len(files)]; used[kind] = used.get(kind, 0) + 1
+        if c.get("drop"):   # SFX_FIX_v6: a deleted cue still takes its jitter draw, so no other cue's level moves
+            rng.uniform(-1.0, 0.5); continue
         src0, maxlen = REGION.get(f, (0.0, 2.0))
         src = c.get("src", src0); maxlen = c.get("len", maxlen)
         a = load(f)
@@ -186,6 +216,8 @@ def render(cues, shots, total, out, beds=(), beds_out=None, check=True, seed=7, 
         cut = ev_shot[2]
         trans = kind in CUT_EXC_ROLES and cut - event <= CUT_EVENT_WIN and cut < total - 1e-3
         cut_end = cut + (CUT_TAIL_EXC if trans else 0.0)
+        if c.get("gap_carry"):   # SFX_FIX_v6 one-off: the hook blast may run into the voice gap after its flash
+            cut_end = cut + min(float(c["gap_carry"]), GAP_CARRY_MAX)
         ring = c.get("ring", RING_ROLE.get(kind, RING_MAX))
         if ring is not None: end_allowed = min(end_allowed, event + ring)
         L0 = min(len(reg) / SR, end_allowed - start, total - start)            # the cue as it would play without the cut rule
@@ -198,7 +230,7 @@ def render(cues, shots, total, out, beds=(), beds_out=None, check=True, seed=7, 
             fi = min(int(0.005 * SR), len(seg) // 4) if stype == "peak" else min(int(0.02 * SR), len(seg) // 4)
             fo = min(int(c.get("fade", FADE_ROLE.get(kind, 0.25)) * SR), int(len(seg) * (0.67 if kind in FADE_ROLE or "fade" in c else 0.35)))
             if cutfade:   # a CUT_FADE fade that ends exactly on the cut (a longer designed fade, e.g. the horn's 0.6 s, is kept)
-                fo = max(fo, min(int(CUT_FADE * SR), int(len(seg) * 0.67)))
+                fo = max(fo, min(int(c.get("cut_fade", CUT_FADE) * SR), int(len(seg) * 0.67)))
             if stype == "peak":   # the fade-out never touches the sync point (a riser ends ON its peak)
                 fo = max(int(0.01 * SR), min(fo, len(seg) - int((rel + 0.04) * SR)))
             if fi: seg[:fi] *= np.linspace(0, 1, fi)[:, None]
@@ -209,7 +241,9 @@ def render(cues, shots, total, out, beds=(), beds_out=None, check=True, seed=7, 
         pk = np.abs(shape(L0, False) if at_cut else seg).max() or 1.0
         seg *= 10 ** (PEAK_NORM_DB / 20) / pk
         lev = db + rng.uniform(-1.0, 0.5)        # small level jitter (battle-maps keeps one, narrower here)
-        seg *= 10 ** (lev / 20)
+        gain = min(0.0, float(c.get("gain", 0.0)))   # SFX_FIX_v6: per-cue trims only go down
+        seg *= 10 ** ((lev + gain) / 20)
+        if kind in ROLE_EQ or c.get("lowpass"): seg = filter_cue(seg, kind, c)
         aud = np.nonzero(np.abs(seg).max(axis=1) > 10 ** (AUDIBLE_DB / 20))[0]
         aud_end = start + ((aud[-1] + 1) / SR if len(aud) else 0.0)
         punch = bool(punch_out) and c.get("punch", kind in PUNCH_ROLES)
@@ -219,7 +253,8 @@ def render(cues, shots, total, out, beds=(), beds_out=None, check=True, seed=7, 
         placed.append({"event": round(event, 3), "shot": c["shot"], "at": c["at"], "role": kind, "file": f,
                        "src": round(src, 3), "start": round(start, 3), "end": round(start + L, 3),
                        "end_allowed": round(end_allowed, 3), "ring_max": ring, "audible_end": round(aud_end, 3),
-                       "event_shot": ev_shot[0], "cut": round(cut, 3), "at_cut": bool(at_cut), "transition": bool(trans), "level_db": round(lev, 1), "sync": stype, "punch": punch,
+                       "event_shot": ev_shot[0], "cut": round(cut, 3), "at_cut": bool(at_cut), "transition": bool(trans), "level_db": round(lev, 1), "gain_db": gain, "lowpass": c.get("lowpass"),
+                       "eq": ROLE_EQ.get(kind), "gap_carry": c.get("gap_carry"), "cut_fade": c.get("cut_fade"), "sync": stype, "punch": punch,
                        "measured": round(meas, 3), "offset_frames": round((meas - event) * FPS, 2),
                        "note": c.get("note", "")})
     pk = np.abs(buf + pbuf).max()
