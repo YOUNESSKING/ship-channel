@@ -129,3 +129,47 @@ riser -6.5, horn -6.2, pop -15.2 (38 left), tick -17.9 (39 left).
 ## 7. Disk
 `oriskany_full_v4.mp4` and `oriskany_full_v5.mp4` are deleted after v6 passed (see the report for the exact state). The v6 buses
 were moved from `/dev/shm` to `audio/mix/`, replacing the stale v5 buses, so the measurements can be re-run.
+
+## 8. v7: the last masked words (coordinator, 2026-11-08)
+
+Master: **`videos/oriskany/full/oriskany_full_v7.mp4`**. It is an audio-only remix on the v6 picture (stream MD5
+`0e4545f45d29a996c5f5fabb74ab1539`, unchanged). Every change makes a cue quieter or softer. The edits are in the v6 table of
+`build/sfx_full.py`:
+- splash (impact) @19.85: lowpass **800 Hz** (was 1200) and **-3 dB**;
+- jets @232.11, @235.89 and @325.94: **-3 dB** each, as a per-cue `gain`. The jet role stays at -17 dB with its 2.5 kHz cut, so the
+  lock is unchanged.
+
+| measure | v6 | **v7** |
+|---|---|---|
+| integrated | -14.0 | **-14.0 LUFS** |
+| true peak | -1.9 | **-1.7 dBTP** (≤ -1.5 ✓) |
+| LRA | 1.8 | **1.8 LU** (≥ 1.7 ✓) |
+| loudnorm | linear, alimiter 0.76 | linear, alimiter 0.78, gain +14.70 dB |
+| music under voice | -24.1 | -24.1 dB |
+| big beats over speech | 19.85 +3.4, others +2.4 … +4.5 | 19.85 **+3.2**, 17.65 +3.2, 28.70 +2.5, all others +3.0 … +4.7 (≥ +1 ✓) |
+
+`check_sound_lock.py`: **SOUND LOCK OK** (static + render). 108 cues within 3 frames, every cue silent by its shot end (the
+hook-blast exception only), 70 beds on shot cuts.
+
+Speech-band SNR, 1-4 kHz, voice bus over the effects buses, per word (`build/snr_v7.json`):
+
+| word (s) | v5 | v6 | **v7** |
+|---|---|---|---|
+| was (20.01) | -8.4 | -3.6 | **+2.4** |
+| she (19.85) | +2.9 | +7.4 | **+14.1** |
+| gone. (20.11) | +1.9 | +7.6 | **+11.5** |
+| more (232.62) | -1.3 | +5.2 | **+8.1** |
+| for (236.15) | -0.3 | +3.9 | **+5.6** |
+| one (236.45) | -0.7 | +2.4 | **+3.4** |
+| the (326.10) | -12.9 | -5.5 | **-2.8** |
+| millions (26.78) | +2.8 | +5.8 | **+5.8** |
+| floor? (28.72) | +0.2 | +7.0 | **+7.0** |
+| was (538.10) | -1.3 | +6.9 | **+6.9** |
+
+Still under +6, measured in 1-4 kHz on the v7 buses:
+- **"was" @20.01 (+2.4).** The splash is down 7 dB there (punch -44.6 → -51.6 dBFS). The word itself is very quiet (-47.9) and
+  0.1 s long.
+- **"the" @326.10 (-2.8).** A 0.1 s function word at -50.3 dBFS, against the jet at -48.2. The jet is down 3 dB, as ordered.
+- **"one" @236.45 (+3.4).** It is now limited by the projector bed (-52.9), not by the jet (-57.7).
+
+Further cuts on these would mean removing the cues, or a voice fix ("the" and "was" are quiet in the TTS take).

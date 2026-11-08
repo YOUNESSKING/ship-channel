@@ -135,7 +135,7 @@
 - v6 17.65 explosion: M1: ends on 'Thirty' (18.22), 0.25 s fade, inside the voice gap
 - v6 17.65 boom: M1: ends on 'Thirty' (18.22), 0.25 s fade, inside the voice gap
 - v6 18.69 pop: dropped (S5: > 10 dB under the mix, masked)
-- v6 19.85 impact: M2: lowpass 1200 Hz under 'she was gone.'
+- v6 19.85 impact: M2 + v7: lowpass 800 Hz, -3 dB under 'she was gone.' ('was' still masked in v6)
 - v6 19.90 ship: M2: flood lowpass 1200 Hz, -3 dB
 - v6 22.79 pop: dropped (S5: > 10 dB under the mix, masked)
 - v6 26.25 ship: S1: groan -3 dB under 'millions to put'
@@ -153,8 +153,11 @@
 - v6 148.59 pop: dropped (S5: > 10 dB under the mix, masked)
 - v6 182.56 tick: dropped (S5: > 10 dB under the mix, masked)
 - v6 202.94 tick: dropped (S5: > 10 dB under the mix, masked)
+- v6 232.11 jet: v7: jet -3 dB ('more' / 'than')
+- v6 235.89 jet: v7: jet -3 dB ('one' at 236.45)
 - v6 268.74 tick: dropped (S5: > 10 dB under the mix, masked)
 - v6 284.04 pop: dropped (S5: > 10 dB under the mix, masked)
+- v6 325.94 jet: v7: jet -3 dB ('the' at 326.10)
 - v6 417.56 pop: dropped (S5: > 10 dB under the mix, masked)
 - v6 426.41 pop: dropped (S5: > 10 dB under the mix, masked)
 - v6 429.49 pop: dropped (S5: > 10 dB under the mix, masked)

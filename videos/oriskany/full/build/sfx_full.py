@@ -203,7 +203,10 @@ def _next_word(t): return min(w["start"] for w in WORDS if w["start"] > t)
 V6 = {   # (role, event): (changes, why)
     ("explosion", 17.65): (dict(gap_carry="word"), "M1: ends on 'Thirty' (18.22), 0.25 s fade, inside the voice gap"),
     ("boom", 17.65):      (dict(gap_carry="word"), "M1: ends on 'Thirty' (18.22), 0.25 s fade, inside the voice gap"),
-    ("impact", 19.85):    (dict(lowpass=1200), "M2: lowpass 1200 Hz under 'she was gone.'"),
+    ("impact", 19.85):    (dict(lowpass=800, gain=-3.0), "M2 + v7: lowpass 800 Hz, -3 dB under 'she was gone.' ('was' still masked in v6)"),
+    ("jet", 232.11):      (dict(gain=-3.0), "v7: jet -3 dB ('more' / 'than')"),
+    ("jet", 235.89):      (dict(gain=-3.0), "v7: jet -3 dB ('one' at 236.45)"),
+    ("jet", 325.94):      (dict(gain=-3.0), "v7: jet -3 dB ('the' at 326.10)"),
     ("ship", 19.90):      (dict(lowpass=1200, gain=-3.0), "M2: flood lowpass 1200 Hz, -3 dB"),
     ("ship", 26.25):      (dict(gain=-3.0), "S1: groan -3 dB under 'millions to put'"),
     ("impact", 28.70):    (dict(lowpass=1000), "S2: lowpass 1000 Hz on 'floor?'"),
