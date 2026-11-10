@@ -10,6 +10,7 @@ disagree, this file wins.
 - Niche: ship history, "what happened to it" stories, mostly US Navy (public-domain imagery).
 - Format: 14–24 min long-form, 2–3 uploads a week max, never daily (inauthentic-content policy).
 - Faceless, AI narration. Tick YouTube's "altered or synthetic content" box: Yes.
+- Voice (owner pick 2026-11-10): designed voice 3 "Archive" = Kokoro style blend bm_fable 0.40 + am_michael 0.40 + bm_lewis 0.20, speed 0.92 (`tts/design_voice.py`, style file `videos/oriskany/voice_sample/designed/3_archive_style.npy`; copy it to `tts/voices/archive_style.npy`). Run the pronunciation gate (`tts/PRONUNCIATION.md`) with this voice.
 - Avoid topics the clone channels already did (list in `research/TOPICS.md`).
 
 ## Path fix
