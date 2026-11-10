@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs><clipPath id="discB"><circle cx="256.0" cy="256.0" r="256.0"/></clipPath></defs>
+  <g clip-path="url(#discB)">
+  <rect width="512" height="512" fill="#0A1622"/>
+  <defs>
+    <linearGradient id="seaB" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1C4A72"/><stop offset="1" stop-color="#0F2C47"/>
+    </linearGradient>
+    <radialGradient id="sunB" cx="0.5" cy="0.62" r="0.6">
+      <stop offset="0" stop-color="#F4C76A"/><stop offset="1" stop-color="#E8A33A"/>
+    </radialGradient>
+    <clipPath id="aboveB"><rect x="0" y="0" width="512" height="317.44"/></clipPath>
+  </defs>
+  <circle cx="256.0" cy="317.44" r="153.6" fill="url(#sunB)" clip-path="url(#aboveB)"/>
+  <rect x="0" y="317.44" width="512" height="194.56" fill="url(#seaB)"/>
+  <rect x="148.5" y="331.44" width="215.0" height="7" rx="3.5" fill="#E8A33A" opacity="0.75"/><rect x="179.2" y="353.44" width="153.6" height="7" rx="3.5" fill="#E8A33A" opacity="0.60"/><rect x="203.8" y="375.44" width="104.4" height="7" rx="3.5" fill="#E8A33A" opacity="0.45"/><rect x="222.2" y="397.44" width="67.6" height="7" rx="3.5" fill="#E8A33A" opacity="0.30"/>
+  <path d="M200.0,317.44 L282.0,96.0 L306.0,82.0 L322.0,92.0 L316.0,118.0 L340.0,317.44 Z" fill="#06101A"/><path d="M258.0,317.44 L304.0,150.0 L316.0,118.0 L340.0,317.44 Z" fill="#14222F"/>
+  <path d="M200.0,317.44 L282.0,96.0" stroke="#F4C76A" stroke-width="3.0" opacity="0.6"/>
+  <rect x="0" y="317.44" width="512" height="194.56" fill="url(#seaB)"/><ellipse cx="272.0" cy="323.44" rx="92.0" ry="12.0" fill="#F4F1EA" opacity="0.85"/><rect x="160.8" y="343.4" width="190.5" height="7.0" rx="3.5" fill="#E8A33A" opacity="0.70"/><rect x="188.4" y="365.4" width="135.2" height="7.0" rx="3.5" fill="#E8A33A" opacity="0.55"/><rect x="209.9" y="387.4" width="92.2" height="7.0" rx="3.5" fill="#E8A33A" opacity="0.40"/><rect x="225.3" y="409.4" width="61.4" height="7.0" rx="3.5" fill="#E8A33A" opacity="0.25"/>
+  </g><circle cx="256.0" cy="256.0" r="246.0" fill="none" stroke="#E8A33A" stroke-width="8"/>
+</svg>
