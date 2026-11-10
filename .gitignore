@@ -107,3 +107,4 @@ videos/*/*/chapter/render_*.log
 videos/*/full/chapter/*.log
 videos/*/full/chapter/*.stamp
 videos/*/full/chapter/join_list.txt
+videos/*/voice_sample/
