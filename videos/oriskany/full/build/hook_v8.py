@@ -2,7 +2,8 @@
 
 The approved test-v4 hook (test_v4/chapter/c01.json + test_v4/segments) is kept shot for shot, look for look; only its timing
 follows the Archive voice:
-  - every fixed shot start / label time ("t17.98") is moved through the v7 -> v8 word map (build/warp_v8.py), snapped to a frame;
+  - every fixed shot start / label time ("t17.98") keeps its lead on the word it lands on (next word within 0.6 s), else it moves
+    through the v7 -> v8 word map (build/warp_v8.py); snapped to a frame;
     "@word" times are resolved by the chapter builder against the new build/words.json as before;
   - every hook clip is re-timed to its new shot length: output frame k shows the source frame at the mapped time. The map is
     linear per shot between its cut points, plus a knot on the word a baked event lands on (hero_a: hull touches on "floor";
@@ -28,7 +29,15 @@ for s in c1["shots"]:
     st = s.get("start", 0)
     ostart.append(float(st) if isinstance(st, (int, float)) else float(st[1:]))
 oend = ostart[1:] + [OLD_END]
-nstart = [0.0] + [snap(WP.new(t)) for t in ostart[1:]]
+def cut_new(t):
+    """a cut keeps its lead on the word it lands on (the next word starting within 0.6 s); otherwise the plain word map"""
+    nxt = next((x for x in W7 if x["start"] >= t - 1e-3), None)
+    if nxt and nxt["start"] - t < 0.6:
+        i = W7.index(nxt); return W8[i]["start"] - (nxt["start"] - t)
+    return WP.new(t)
+
+
+nstart = [0.0] + [snap(cut_new(t)) for t in ostart[1:]]
 nend = nstart[1:] + [CH["c02"]["start"]]
 
 
@@ -75,7 +84,7 @@ for i, s in enumerate(c1["shots"]):
         print(rep[-1], flush=True)
     if i > 0: s["start"] = f"t{a1:.2f}"
     for k, v in list(s.get("params", {}).items()):
-        if isinstance(v, str) and v.startswith("t") and v[1:].replace(".", "").isdigit(): s["params"][k] = f"t{snap(WP.new(float(v[1:]))):.2f}"
+        if isinstance(v, str) and v.startswith("t") and v[1:].replace(".", "").isdigit(): s["params"][k] = f"t{snap(cut_new(float(v[1:]))):.2f}"
     if s.get("template") == "anim_xray" and s["params"].get("image", "").startswith("../assets/"):
         s["params"]["image"] = "../../test_v4/assets/" + s["params"]["image"][len("../assets/"):]
 c1.update(title="Oriskany full · Hook (test v4 look, re-timed to the Archive voice, v8)", words="../build/words.json", audio_offset=0.0,

@@ -2,9 +2,9 @@
  "key": "c04",
  "title": "Oriskany full · The Bargain",
  "words": "../build/words.json",
- "audio_offset": 359.968,
+ "audio_offset": 353.586,
  "clips_dir": "../segments",
- "duration": 124.515,
+ "duration": 121.762,
  "fade_out": 0.0,
  "res": 1080,
  "anim_theme": {
@@ -27,7 +27,7 @@
   },
   {
    "id": "s02",
-   "start": "t4.98",
+   "start": "t4.85",
    "sfx": false,
    "tag": "ILLUSTRATIVE · NOAA · REEF FISH",
    "template": "clip_plain",
@@ -40,7 +40,7 @@
   },
   {
    "id": "s03",
-   "start": "t7.73",
+   "start": "t7.28",
    "sfx": false,
    "template": "number_clip",
    "variant": "center_bars",
@@ -57,7 +57,7 @@
   },
   {
    "id": "s04",
-   "start": "t11.70",
+   "start": "t11.14",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -69,7 +69,7 @@
   },
   {
    "id": "s05",
-   "start": "t14.29",
+   "start": "t13.77",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -81,7 +81,7 @@
   },
   {
    "id": "s06",
-   "start": "t18.85",
+   "start": "t18.28",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -93,7 +93,7 @@
   },
   {
    "id": "s07",
-   "start": "t23.87",
+   "start": "t23.08",
    "sfx": false,
    "template": "number_clip",
    "variant": "strike_swap",
@@ -114,7 +114,7 @@
   },
   {
    "id": "s08",
-   "start": "t29.45",
+   "start": "t28.67",
    "sfx": false,
    "template": "anim_xray",
    "variant": "animal",
@@ -135,7 +135,7 @@
   },
   {
    "id": "s09",
-   "start": "t31.24",
+   "start": "t30.66",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -147,7 +147,7 @@
   },
   {
    "id": "s10",
-   "start": "t35.75",
+   "start": "t35.13",
    "sfx": false,
    "template": "anim_gauge",
    "variant": "meter",
@@ -164,7 +164,7 @@
   },
   {
    "id": "s11",
-   "start": "t39.92",
+   "start": "t39.27",
    "sfx": false,
    "template": "anim_gauge",
    "variant": "bars",
@@ -194,7 +194,7 @@
   },
   {
    "id": "s12",
-   "start": "t44.27",
+   "start": "t43.61",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -206,7 +206,7 @@
   },
   {
    "id": "s13",
-   "start": "t47.32",
+   "start": "t46.88",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -218,7 +218,7 @@
   },
   {
    "id": "s14",
-   "start": "t50.38",
+   "start": "t49.93",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -230,7 +230,7 @@
   },
   {
    "id": "s15",
-   "start": "t53.19",
+   "start": "t52.87",
    "sfx": false,
    "template": "text_card",
    "variant": "line",
@@ -249,7 +249,7 @@
   },
   {
    "id": "s16",
-   "start": "t57.47",
+   "start": "t56.97",
    "sfx": false,
    "template": "text_card",
    "variant": "line",
@@ -266,7 +266,7 @@
   },
   {
    "id": "s17",
-   "start": "t60.94",
+   "start": "t59.92",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -278,7 +278,7 @@
   },
   {
    "id": "s18",
-   "start": "t63.43",
+   "start": "t62.49",
    "sfx": false,
    "template": "anim_gauge",
    "variant": "meter",
@@ -302,7 +302,7 @@
   },
   {
    "id": "s19",
-   "start": "t69.16",
+   "start": "t68.00",
    "sfx": false,
    "template": "text_card",
    "variant": "number",
@@ -320,7 +320,7 @@
   },
   {
    "id": "s20",
-   "start": "t71.38",
+   "start": "t70.27",
    "sfx": false,
    "template": "text_card",
    "variant": "number",
@@ -339,7 +339,7 @@
   },
   {
    "id": "s21",
-   "start": "t76.47",
+   "start": "t75.16",
    "sfx": false,
    "template": "anim_xray",
    "variant": "animal",
@@ -360,7 +360,7 @@
   },
   {
    "id": "s22",
-   "start": "t80.94",
+   "start": "t79.55",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -372,7 +372,7 @@
   },
   {
    "id": "s23",
-   "start": "t85.92",
+   "start": "t84.64",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -384,7 +384,7 @@
   },
   {
    "id": "s24",
-   "start": "t90.70",
+   "start": "t89.15",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
@@ -401,7 +401,7 @@
   },
   {
    "id": "s25",
-   "start": "t94.06",
+   "start": "t92.53",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -413,7 +413,7 @@
   },
   {
    "id": "s26",
-   "start": "t97.11",
+   "start": "t95.72",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -425,7 +425,7 @@
   },
   {
    "id": "s27",
-   "start": "t99.27",
+   "start": "t97.84",
    "sfx": false,
    "template": "anim_gauge",
    "variant": "meter",
@@ -442,7 +442,7 @@
   },
   {
    "id": "s28",
-   "start": "t104.14",
+   "start": "t102.43",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
@@ -459,7 +459,7 @@
   },
   {
    "id": "s29",
-   "start": "t108.76",
+   "start": "t106.82",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
@@ -476,7 +476,7 @@
   },
   {
    "id": "s30",
-   "start": "t113.45",
+   "start": "t111.56",
    "sfx": false,
    "template": "anim_gauge",
    "variant": "bars",
@@ -505,7 +505,7 @@
   },
   {
    "id": "s31",
-   "start": "t116.26",
+   "start": "t113.77",
    "sfx": false,
    "template": "anim_gauge",
    "variant": "bars",
@@ -535,7 +535,7 @@
   },
   {
    "id": "s32",
-   "start": "t119.69",
+   "start": "t117.31",
    "sfx": false,
    "template": "anim_xray",
    "variant": "animal",

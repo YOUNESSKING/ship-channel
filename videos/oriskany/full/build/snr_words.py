@@ -20,6 +20,9 @@ REGIONS = {  # name: (t0, t1)  critic CRITIQUE_SFX_v5 M2, M3, S1-S4
     "M3 jet@325.94": (325.90, 327.50),
     "S3 flood@537.69 'Then she was gone.'": (537.60, 539.10),
 }
+# v8 (Archive voice): the regions above are v7 seconds; they follow the same words through build/warp_v8.py
+sys.path.insert(0, HERE); import warp_v8 as _WP
+REGIONS = {k: (round(_WP.new(a), 2), round(_WP.new(b), 2)) for k, (a, b) in REGIONS.items()}
 SOS = butter(4, [1000, 4000], btype="band", fs=48000, output="sos")
 
 

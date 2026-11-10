@@ -182,6 +182,31 @@ if __name__ == "__main__":
             for q in range(i, j):
                 tw[q] = (lo + (hi - lo) * c[q - i] / tot, lo + (hi - lo) * (c[q - i + 1] - 1) / tot)
             i = j
+        # v8: whisper stretches a word over a pause inside the sentence (e.g. "charges | inside" put "inside" 0.45 s early).
+        # Snap to every silence of >= 0.12 s (20 ms RMS < -45 dBFS) that falls inside one word: the word starts after it when
+        # less of the word is before it than after, otherwise it ends at its start.
+        seg = voice[int(round(t0 * sr)): int(round(t1 * sr))]; hop = int(0.02 * sr)
+        db = np.array([20 * np.log10(np.sqrt(np.mean(seg[q:q + hop] ** 2)) + 1e-9) for q in range(0, max(1, len(seg) - hop), hop)])
+        sil, q = [], 0
+        while q < len(db):
+            if db[q] < -45:
+                r = q
+                while r < len(db) and db[r] < -45: r += 1
+                if (r - q) * 0.02 >= 0.12: sil.append((q * 0.02, r * 0.02))
+                q = r
+            else: q += 1
+        tw = [list(x) for x in tw]
+        for s0, s1 in sil:
+            for q in range(len(tw)):
+                a0, a1 = tw[q]
+                if a0 < s0 and s1 < a1:
+                    if (s0 - a0) < (a1 - s1):
+                        tw[q][0] = s1
+                        if q > 0: tw[q - 1][1] = min(tw[q - 1][1], s0) if tw[q - 1][1] > s0 else tw[q - 1][1]
+                    else:
+                        tw[q][1] = s0
+                        if q + 1 < len(tw) and tw[q + 1][0] < s1: tw[q + 1][0] = s1
+                    break
         for x, (s, e) in zip(toks, tw):
             words.append({"w": x, "start": round(t0 + max(0.0, s), 3), "end": round(t0 + min(dur, e), 3)})
     json.dump(cache, open(WC, "w"))

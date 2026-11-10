@@ -1,10 +1,10 @@
 {
  "key": "c01",
- "title": "Oriskany full · Hook (= approved test v4)",
+ "title": "Oriskany full · Hook (test v4 look, re-timed to the Archive voice, v8)",
  "words": "../build/words.json",
  "audio_offset": 0.0,
- "clips_dir": "../../test_v4/segments",
- "duration": 48.625,
+ "clips_dir": "../segments_hook",
+ "duration": 48.977,
  "fade_out": 0.0,
  "res": 1080,
  "anim_theme": {
@@ -32,7 +32,7 @@
    "id": "s02",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t4.30",
+   "start": "t3.90",
    "flash": true,
    "clip": {
     "file": "p02_blast.mp4",
@@ -45,7 +45,7 @@
    "id": "s03",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t6.38",
+   "start": "t6.07",
    "clip": {
     "file": "f03_catapult.mp4",
     "push": null
@@ -57,7 +57,7 @@
    "id": "s04",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t7.98",
+   "start": "t7.80",
    "clip": {
     "file": "f04_island.mp4",
     "push": null
@@ -69,7 +69,7 @@
    "id": "s05",
    "template": "number_clip",
    "variant": "center_bars",
-   "start": "t9.98",
+   "start": "t9.80",
    "clip": {
     "file": "p05_foam.mp4",
     "push": null
@@ -86,7 +86,7 @@
    "id": "s06",
    "template": "lower_third",
    "variant": "kicker_line",
-   "start": "t11.50",
+   "start": "t11.37",
    "clip": {
     "file": "p06_detcord.mp4",
     "push": null
@@ -94,7 +94,7 @@
    "params": {
     "kicker": "MAY 2006",
     "text": "NAVY EOD TEAM",
-    "at": "t11.95"
+    "at": "t11.90"
    },
    "sfx": false
   },
@@ -102,7 +102,7 @@
    "id": "s07",
    "template": "number_clip",
    "variant": "right",
-   "start": "t13.75",
+   "start": "t13.73",
    "clip": {
     "file": "p07_inside.mp4",
     "push": null
@@ -118,7 +118,7 @@
    "id": "s08",
    "template": "lower_third",
    "variant": "kicker_line",
-   "start": "t15.95",
+   "start": "t15.37",
    "clip": {
     "file": "p08_helo.mp4",
     "push": null
@@ -126,7 +126,7 @@
    "params": {
     "kicker": "17 MAY 2006",
     "text": "USS ORISKANY",
-    "at": "t16.70"
+    "at": "t15.97"
    },
    "sfx": false
   },
@@ -134,7 +134,7 @@
    "id": "s09",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t17.65",
+   "start": "t17.17",
    "flash": true,
    "clip": {
     "file": "p09_smoke.mp4",
@@ -147,7 +147,7 @@
    "id": "s10",
    "template": "number_clip",
    "variant": "right",
-   "start": "t17.98",
+   "start": "t17.50",
    "clip": {
     "file": "m37_sequence.mp4",
     "push": null
@@ -170,7 +170,7 @@
    "id": "s11",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t19.85",
+   "start": "t19.47",
    "clip": {
     "file": "p11_bow.mp4",
     "push": null
@@ -182,7 +182,7 @@
    "id": "s11b",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t20.55",
+   "start": "t20.30",
    "clip": {
     "file": "p11b_foam.mp4",
     "push": null
@@ -194,7 +194,7 @@
    "id": "s12",
    "template": "number_clip",
    "variant": "right",
-   "start": "t21.25",
+   "start": "t20.90",
    "clip": {
     "file": "p12_cut.mp4",
     "push": null
@@ -210,7 +210,7 @@
    "id": "s13",
    "template": "number_clip",
    "variant": "right",
-   "start": "t23.84",
+   "start": "t23.63",
    "clip": {
     "file": "p13_weld.mp4",
     "push": null
@@ -227,7 +227,7 @@
    "id": "s14",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t26.00",
+   "start": "t25.83",
    "clip": {
     "file": "hero_a.mp4",
     "push": null
@@ -239,7 +239,7 @@
    "id": "s15",
    "template": "anim_options",
    "variant": "list",
-   "start": "t29.60",
+   "start": "t29.57",
    "params": {
     "title": "Why *not?*",
     "title_at": "@why",
@@ -265,7 +265,7 @@
    "id": "s16",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t32.70",
+   "start": "t32.77",
    "clip": {
     "file": "f16_anchor.mp4",
     "push": [
@@ -281,7 +281,7 @@
    "id": "s17",
    "template": "anim_xray",
    "variant": "animal",
-   "start": "t34.90",
+   "start": "t35.17",
    "params": {
     "image": "../../test_v4/assets/carrier_hero_side.png",
     "animal_w": 1180,
@@ -302,7 +302,7 @@
    "id": "s18",
    "template": "map_clip",
    "variant": "baked",
-   "start": "t37.80",
+   "start": "t38.17",
    "clip": {
     "file": "gulfpin.mp4",
     "push": null
@@ -314,7 +314,7 @@
    "id": "s19",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t39.55",
+   "start": "t40.10",
    "clip": {
     "file": "f19_stacks.mp4",
     "push": null
@@ -326,7 +326,7 @@
    "id": "s20",
    "template": "lower_third",
    "variant": "kicker_line",
-   "start": "t41.55",
+   "start": "t42.13",
    "clip": {
     "file": "f20_bow.mp4",
     "push": null
@@ -342,7 +342,7 @@
    "id": "s20c",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t43.70",
+   "start": "t44.17",
    "clip": {
     "file": "f20b_profile.mp4",
     "push": null
@@ -354,7 +354,7 @@
    "id": "s21",
    "template": "map_clip",
    "variant": "baked",
-   "start": "t45.80",
+   "start": "t46.13",
    "clip": {
     "file": "endmap.mp4",
     "push": null

@@ -2,9 +2,9 @@
  "key": "c07",
  "title": "Oriskany full · The Real Reason + Ending",
  "words": "../build/words.json",
- "audio_offset": 686.542,
+ "audio_offset": 673.568,
  "clips_dir": "../segments",
- "duration": 179.054,
+ "duration": 176.661,
  "fade_out": 0.6,
  "res": 1080,
  "anim_theme": {
@@ -27,7 +27,7 @@
   },
   {
    "id": "s02",
-   "start": "t2.99",
+   "start": "t2.89",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -39,7 +39,7 @@
   },
   {
    "id": "s03",
-   "start": "t6.51",
+   "start": "t6.34",
    "sfx": false,
    "tag": "NASA · HURRICANE GUSTAV, AUG 2008",
    "template": "clip_plain",
@@ -52,7 +52,7 @@
   },
   {
    "id": "s04",
-   "start": "t8.42",
+   "start": "t8.50",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -64,7 +64,7 @@
   },
   {
    "id": "s05",
-   "start": "t14.27",
+   "start": "t14.04",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -76,7 +76,7 @@
   },
   {
    "id": "s06",
-   "start": "t18.08",
+   "start": "t17.77",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -88,7 +88,7 @@
   },
   {
    "id": "s07",
-   "start": "t23.46",
+   "start": "t22.86",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -100,7 +100,7 @@
   },
   {
    "id": "s08",
-   "start": "t27.36",
+   "start": "t26.08",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -112,7 +112,7 @@
   },
   {
    "id": "s09",
-   "start": "t30.21",
+   "start": "t29.29",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -124,7 +124,7 @@
   },
   {
    "id": "s10",
-   "start": "t33.55",
+   "start": "t32.61",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -136,7 +136,7 @@
   },
   {
    "id": "s11",
-   "start": "t36.80",
+   "start": "t35.82",
    "sfx": false,
    "tag": "ILLUSTRATIVE · U.S. NAVY DIVERS ON A WRECK, COLOMBIA, 2014",
    "template": "text_card",
@@ -155,7 +155,7 @@
   },
   {
    "id": "s12",
-   "start": "t40.46",
+   "start": "t39.58",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -167,7 +167,7 @@
   },
   {
    "id": "s13",
-   "start": "t42.27",
+   "start": "t41.51",
    "sfx": false,
    "tag": "ILLUSTRATIVE · NOAA · DIVER ON A REEF, FLORIDA KEYS",
    "template": "text_card",
@@ -187,7 +187,7 @@
   },
   {
    "id": "s14",
-   "start": "t47.27",
+   "start": "t46.08",
    "sfx": false,
    "tag": "ILLUSTRATIVE · NOAA · FISHING, GULF OF MEXICO",
    "template": "text_card",
@@ -207,7 +207,7 @@
   },
   {
    "id": "s15",
-   "start": "t51.49",
+   "start": "t49.98",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -219,7 +219,7 @@
   },
   {
    "id": "s16",
-   "start": "t53.20",
+   "start": "t51.75",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -231,7 +231,7 @@
   },
   {
    "id": "s17",
-   "start": "t56.73",
+   "start": "t55.28",
    "sfx": false,
    "tag": "ILLUSTRATIVE · NOAA · RED SNAPPER LANDED, GULF OF MEXICO",
    "template": "text_card",
@@ -249,7 +249,7 @@
   },
   {
    "id": "s18",
-   "start": "t58.91",
+   "start": "t57.54",
    "sfx": false,
    "template": "anim_xray",
    "variant": "animal",
@@ -270,7 +270,7 @@
   },
   {
    "id": "s19",
-   "start": "t62.66",
+   "start": "t61.59",
    "sfx": false,
    "template": "anim_xray",
    "variant": "animal",
@@ -291,7 +291,7 @@
   },
   {
    "id": "s20",
-   "start": "t67.53",
+   "start": "t66.21",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -303,7 +303,7 @@
   },
   {
    "id": "s21",
-   "start": "t71.87",
+   "start": "t70.70",
    "sfx": false,
    "template": "lower_third",
    "variant": "kicker_line",
@@ -319,7 +319,7 @@
   },
   {
    "id": "s22",
-   "start": "t76.26",
+   "start": "t74.95",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -331,7 +331,7 @@
   },
   {
    "id": "s23",
-   "start": "t80.26",
+   "start": "t79.10",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -343,7 +343,7 @@
   },
   {
    "id": "s24",
-   "start": "t85.24",
+   "start": "t84.02",
    "sfx": false,
    "tag": "ILLUSTRATIVE · NOAA · RED SNAPPER, GULF OF MEXICO",
    "template": "clip_plain",
@@ -356,7 +356,7 @@
   },
   {
    "id": "s25",
-   "start": "t86.84",
+   "start": "t85.80",
    "sfx": false,
    "template": "text_card",
    "variant": "line",
@@ -375,7 +375,7 @@
   },
   {
    "id": "s26",
-   "start": "t88.58",
+   "start": "t87.78",
    "sfx": false,
    "template": "anim_gauge",
    "variant": "bars",
@@ -404,7 +404,7 @@
   },
   {
    "id": "s27",
-   "start": "t92.95",
+   "start": "t91.82",
    "sfx": false,
    "template": "anim_gauge",
    "variant": "bars",
@@ -426,7 +426,7 @@
   },
   {
    "id": "s28",
-   "start": "t97.09",
+   "start": "t95.78",
    "sfx": false,
    "tag": "ILLUSTRATIVE · U.S. NAVY · EX-KITTY HAWK, BREMERTON, 2022",
    "template": "anim_gauge",
@@ -460,7 +460,7 @@
   },
   {
    "id": "s29",
-   "start": "t101.59",
+   "start": "t100.29",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -472,7 +472,7 @@
   },
   {
    "id": "s30",
-   "start": "t103.97",
+   "start": "t102.68",
    "sfx": false,
    "tag": "ILLUSTRATIVE · U.S. NAVY · RETIRED SHIP TOWED OUT, MAYPORT, 2021",
    "template": "text_card",
@@ -491,7 +491,7 @@
   },
   {
    "id": "s31",
-   "start": "t109.15",
+   "start": "t107.83",
    "sfx": false,
    "template": "text_card",
    "variant": "line",
@@ -510,7 +510,7 @@
   },
   {
    "id": "s32",
-   "start": "t110.77",
+   "start": "t109.91",
    "sfx": false,
    "template": "text_card",
    "variant": "line",
@@ -529,7 +529,7 @@
   },
   {
    "id": "s33",
-   "start": "t115.27",
+   "start": "t113.71",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -541,7 +541,7 @@
   },
   {
    "id": "s34",
-   "start": "t118.77",
+   "start": "t117.20",
    "sfx": false,
    "tag": "ILLUSTRATIVE · NOAA · REEF FISH",
    "template": "anim_options",
@@ -574,7 +574,7 @@
   },
   {
    "id": "s35",
-   "start": "t122.10",
+   "start": "t120.48",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -586,7 +586,7 @@
   },
   {
    "id": "s36",
-   "start": "t126.03",
+   "start": "t124.41",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -598,7 +598,7 @@
   },
   {
    "id": "s37",
-   "start": "t128.48",
+   "start": "t126.81",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
@@ -614,7 +614,7 @@
   },
   {
    "id": "s38",
-   "start": "t132.74",
+   "start": "t130.81",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -626,7 +626,7 @@
   },
   {
    "id": "s39",
-   "start": "t136.97",
+   "start": "t134.71",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -638,7 +638,7 @@
   },
   {
    "id": "s40",
-   "start": "t141.14",
+   "start": "t138.87",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -650,7 +650,7 @@
   },
   {
    "id": "s41",
-   "start": "t142.76",
+   "start": "t140.66",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
@@ -667,7 +667,7 @@
   },
   {
    "id": "s42",
-   "start": "t148.18",
+   "start": "t145.78",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -679,7 +679,7 @@
   },
   {
    "id": "s43",
-   "start": "t150.96",
+   "start": "t148.61",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -691,7 +691,7 @@
   },
   {
    "id": "s44",
-   "start": "t156.08",
+   "start": "t153.42",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -703,7 +703,7 @@
   },
   {
    "id": "s45",
-   "start": "t158.64",
+   "start": "t156.12",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",

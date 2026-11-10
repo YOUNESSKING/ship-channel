@@ -2,9 +2,9 @@
  "key": "c03",
  "title": "Oriskany full · The Mighty O",
  "words": "../build/words.json",
- "audio_offset": 176.742,
+ "audio_offset": 175.896,
  "clips_dir": "../segments",
- "duration": 183.226,
+ "duration": 177.69,
  "fade_out": 0.0,
  "res": 1080,
  "anim_theme": {
@@ -27,7 +27,7 @@
   },
   {
    "id": "s02",
-   "start": "t4.47",
+   "start": "t4.46",
    "sfx": false,
    "template": "lower_third",
    "variant": "kicker_line",
@@ -43,7 +43,7 @@
   },
   {
    "id": "s03",
-   "start": "t8.83",
+   "start": "t8.76",
    "sfx": false,
    "template": "text_card",
    "variant": "number",
@@ -61,7 +61,7 @@
   },
   {
    "id": "s04",
-   "start": "t11.23",
+   "start": "t11.38",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -73,7 +73,7 @@
   },
   {
    "id": "s05",
-   "start": "t15.79",
+   "start": "t15.84",
    "sfx": false,
    "template": "text_card",
    "variant": "line",
@@ -92,7 +92,7 @@
   },
   {
    "id": "s06",
-   "start": "t19.15",
+   "start": "t19.25",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -104,7 +104,7 @@
   },
   {
    "id": "s07",
-   "start": "t22.56",
+   "start": "t22.77",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -116,7 +116,7 @@
   },
   {
    "id": "s08",
-   "start": "t25.75",
+   "start": "t25.42",
    "sfx": false,
    "template": "lower_third",
    "variant": "kicker_line",
@@ -132,7 +132,7 @@
   },
   {
    "id": "s09",
-   "start": "t28.91",
+   "start": "t28.77",
    "sfx": false,
    "template": "lower_third",
    "variant": "kicker_line",
@@ -148,7 +148,7 @@
   },
   {
    "id": "s10",
-   "start": "t31.49",
+   "start": "t31.35",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -160,7 +160,7 @@
   },
   {
    "id": "s11",
-   "start": "t34.79",
+   "start": "t34.51",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -172,7 +172,7 @@
   },
   {
    "id": "s12",
-   "start": "t36.41",
+   "start": "t35.55",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -184,7 +184,7 @@
   },
   {
    "id": "s13",
-   "start": "t40.62",
+   "start": "t39.88",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
@@ -201,7 +201,7 @@
   },
   {
    "id": "s14",
-   "start": "t42.96",
+   "start": "t42.07",
    "sfx": false,
    "template": "number_clip",
    "variant": "strike_swap",
@@ -222,7 +222,7 @@
   },
   {
    "id": "s15",
-   "start": "t47.07",
+   "start": "t46.05",
    "sfx": false,
    "template": "text_card",
    "variant": "line",
@@ -241,7 +241,7 @@
   },
   {
    "id": "s16",
-   "start": "t50.49",
+   "start": "t49.52",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -253,7 +253,7 @@
   },
   {
    "id": "s17",
-   "start": "t52.15",
+   "start": "t51.29",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -265,7 +265,7 @@
   },
   {
    "id": "s18",
-   "start": "t55.17",
+   "start": "t54.47",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
@@ -281,7 +281,7 @@
   },
   {
    "id": "s19",
-   "start": "t58.95",
+   "start": "t57.37",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -293,7 +293,7 @@
   },
   {
    "id": "s20",
-   "start": "t62.21",
+   "start": "t60.83",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -305,7 +305,7 @@
   },
   {
    "id": "s21",
-   "start": "t65.30",
+   "start": "t64.09",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -317,7 +317,7 @@
   },
   {
    "id": "s22",
-   "start": "t68.66",
+   "start": "t66.87",
    "sfx": false,
    "tag": "FILM: ORISKANY A-4s, 1968 (NOT HIS AIRCRAFT)",
    "template": "lower_third",
@@ -334,7 +334,7 @@
   },
   {
    "id": "s23",
-   "start": "t70.64",
+   "start": "t69.41",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -346,7 +346,7 @@
   },
   {
    "id": "s24",
-   "start": "t74.95",
+   "start": "t72.99",
    "sfx": false,
    "template": "text_card",
    "variant": "number",
@@ -365,7 +365,7 @@
   },
   {
    "id": "s25",
-   "start": "t78.12",
+   "start": "t76.13",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -377,7 +377,7 @@
   },
   {
    "id": "s26",
-   "start": "t81.48",
+   "start": "t79.35",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -389,7 +389,7 @@
   },
   {
    "id": "s27",
-   "start": "t85.82",
+   "start": "t83.71",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -401,7 +401,7 @@
   },
   {
    "id": "s28",
-   "start": "t89.43",
+   "start": "t86.65",
    "sfx": false,
    "template": "anim_xray",
    "variant": "animal",
@@ -422,7 +422,7 @@
   },
   {
    "id": "s29",
-   "start": "t95.17",
+   "start": "t92.50",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -434,7 +434,7 @@
   },
   {
    "id": "s30",
-   "start": "t98.74",
+   "start": "t95.72",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
@@ -450,7 +450,7 @@
   },
   {
    "id": "s31",
-   "start": "t101.56",
+   "start": "t98.53",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
@@ -466,7 +466,7 @@
   },
   {
    "id": "s32",
-   "start": "t105.97",
+   "start": "t102.85",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
@@ -482,7 +482,7 @@
   },
   {
    "id": "s33",
-   "start": "t108.91",
+   "start": "t105.77",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -494,7 +494,7 @@
   },
   {
    "id": "s34",
-   "start": "t112.08",
+   "start": "t108.43",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -506,7 +506,7 @@
   },
   {
    "id": "s35",
-   "start": "t115.15",
+   "start": "t111.61",
    "sfx": false,
    "template": "number_clip",
    "variant": "center_bars",
@@ -522,7 +522,7 @@
   },
   {
    "id": "s36",
-   "start": "t117.35",
+   "start": "t113.92",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -534,7 +534,7 @@
   },
   {
    "id": "s37",
-   "start": "t119.31",
+   "start": "t115.96",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -546,7 +546,7 @@
   },
   {
    "id": "s38",
-   "start": "t121.55",
+   "start": "t118.20",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -558,7 +558,7 @@
   },
   {
    "id": "s39",
-   "start": "t124.15",
+   "start": "t120.64",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -570,7 +570,7 @@
   },
   {
    "id": "s40",
-   "start": "t128.61",
+   "start": "t124.80",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -582,7 +582,7 @@
   },
   {
    "id": "s41",
-   "start": "t131.25",
+   "start": "t127.41",
    "sfx": false,
    "template": "lower_third",
    "variant": "kicker_line",
@@ -598,7 +598,7 @@
   },
   {
    "id": "s42",
-   "start": "t135.27",
+   "start": "t131.60",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -610,7 +610,7 @@
   },
   {
    "id": "s43",
-   "start": "t140.53",
+   "start": "t136.46",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -622,7 +622,7 @@
   },
   {
    "id": "s44",
-   "start": "t143.23",
+   "start": "t138.94",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -634,7 +634,7 @@
   },
   {
    "id": "s45",
-   "start": "t146.43",
+   "start": "t141.93",
    "sfx": false,
    "tag": "FILM: ORISKANY, 1968",
    "template": "text_card",
@@ -654,7 +654,7 @@
   },
   {
    "id": "s46",
-   "start": "t149.00",
+   "start": "t144.55",
    "sfx": false,
    "tag": "FILM: ORISKANY, 1968 (NOT HIS LAUNCH)",
    "template": "lower_third",
@@ -671,7 +671,7 @@
   },
   {
    "id": "s47",
-   "start": "t152.92",
+   "start": "t148.25",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -683,7 +683,7 @@
   },
   {
    "id": "s48",
-   "start": "t156.95",
+   "start": "t152.18",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -695,7 +695,7 @@
   },
   {
    "id": "s49",
-   "start": "t159.83",
+   "start": "t155.09",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
@@ -712,7 +712,7 @@
   },
   {
    "id": "s50",
-   "start": "t165.38",
+   "start": "t160.34",
    "sfx": false,
    "template": "lower_third",
    "variant": "kicker_line",
@@ -728,7 +728,7 @@
   },
   {
    "id": "s51",
-   "start": "t169.86",
+   "start": "t164.84",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -740,7 +740,7 @@
   },
   {
    "id": "s52",
-   "start": "t173.30",
+   "start": "t168.29",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -752,7 +752,7 @@
   },
   {
    "id": "s53",
-   "start": "t179.23",
+   "start": "t173.76",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",

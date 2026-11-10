@@ -27,6 +27,7 @@ for name in "$@"; do
     cp "scenes/$name/renders/$name.mp4" "$out.tmp.mp4" && mv "$out.tmp.mp4" "$out"
     d=$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$out")
     echo "=== $(date -u +%T) OK $name ${d}s in $(( $(date +%s) - s ))s"
+    [ -n "${KEEP_SCENES:-}" ] || rm -rf "scenes/$name"   # v8: disk (rebuilt by build_full.py on demand)
   else
     echo "=== $(date -u +%T) RENDER FAILED $name (scenes/$name/render.log)"; FAILED=1
   fi

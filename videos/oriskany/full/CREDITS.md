@@ -123,7 +123,7 @@ Description block: Archive film and photos: NASA/Goddard Space Flight Center Sci
 - Sound effects from Epidemic Sound (owner's subscription; files not redistributed). Roles and IDs: assets/sfx/EPIDEMIC_SFX.md.
 
 ## Narration
-- AI voice: Kokoro TTS v1.0 (Apache 2.0), voice am_michael. Disclose as altered / synthetic content on YouTube (box ticked: Yes).
+- AI voice: Kokoro TTS v1.0 (Apache 2.0), designed voice Archive (style blend bm_fable 0.40 + am_michael 0.40 + bm_lewis 0.20, speed 0.92; v8). Disclose as altered / synthetic content on YouTube (box ticked: Yes).
 
 ## Maps and graphics
 - Terrain and bathymetry: Mapzen / AWS Terrain Tiles (open data).

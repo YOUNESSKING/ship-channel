@@ -2,252 +2,254 @@
 
 | chapter | dur s | shots | film % | photo % | map % | hero % | anim % | card % | of which NARA film % | generic US-Gov film % | anim over moving film % | **moving video total %** | longest shot | cues/min |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| c02 | 128.1 | 35 | 29 | 17 | 34 | 13 | 7 | 0 | 5 | 24 | 4 | **33** | 5.9 s (s11) | 14.0 |
-| c03 | 183.2 | 53 | 58 | 13 | 25 | 0 | 3 | 0 | 50 | 8 | 0 | **58** | 5.9 s (s52) | 12.4 |
-| c04 | 124.5 | 32 | 14 | 17 | 30 | 9 | 29 | 0 | 0 | 14 | 0 | **14** | 5.7 s (s18) | 13.5 |
-| c05 | 81.4 | 25 | 9 | 64 | 12 | 8 | 6 | 0 | 0 | 9 | 0 | **9** | 5.7 s (s22) | 14.7 |
-| c06 | 120.7 | 32 | 15 | 16 | 15 | 41 | 13 | 0 | 0 | 15 | 0 | **15** | 5.9 s (s11) | 13.4 |
-| c07 | 179.1 | 45 | 28 | 14 | 16 | 26 | 16 | 0 | 8 | 20 | 5 | **33** | 5.9 s (s04) | 12.4 |
+| c02 | 126.9 | 35 | 29 | 17 | 34 | 13 | 7 | 0 | 5 | 24 | 4 | **33** | 5.8 s (s29) | 14.2 |
+| c03 | 177.7 | 53 | 58 | 13 | 26 | 0 | 3 | 0 | 50 | 9 | 0 | **58** | 5.8 s (s28) | 12.8 |
+| c04 | 121.8 | 32 | 14 | 17 | 31 | 10 | 29 | 0 | 0 | 14 | 0 | **14** | 5.6 s (s07) | 13.8 |
+| c05 | 80.1 | 25 | 9 | 64 | 13 | 9 | 6 | 0 | 0 | 9 | 0 | **9** | 5.4 s (s22) | 15.0 |
+| c06 | 118.1 | 32 | 15 | 16 | 15 | 41 | 13 | 0 | 0 | 15 | 0 | **15** | 5.7 s (s11) | 13.7 |
+| c07 | 176.7 | 45 | 28 | 14 | 16 | 26 | 15 | 0 | 8 | 20 | 5 | **33** | 5.5 s (s04) | 12.6 |
 | **c02-c07** | | | **29** | **20** | **23** | **16** | **12** | **0** | **14** | **15** | **2** | **31** | | |
 
 ## Pacing flags (shots > 6.0 s or < 1.2 s; end screen excluded)
 
+- c03 s11 1.04 s clip_plain F:b2_f9f_panther_deck.mp4 ('four of her Panther jets')
+- c05 s13 1.02 s clip_plain P:6698617 ('they fired')
 
 ## Clip / photo reuse (rule: at most twice, 3+ min apart; hook uses counted from test v4)
 
 
 ## Generic reels with more than one use (v2 rule for the DVIDS hull reels: at most 2 uses per reel, 3+ min apart)
 
-- dvids_791060: 71s g_fm_tow.mp4, 791s g_fm_out.mp4
-- dvids_828554: 58s g_kh_a.mp4, 784s g_kh_a.mp4
-- noaa_coral_fgb: 365s g_reef_fish.mp4, 805s g_reef_fish.mp4
-- noaa_dwh_sampleprep: 614s g_lab_a.mp4, 616s g_lab_b.mp4, 631s g_lab_c.mp4
-- noaa_snapper_recfish: 669s g_recfish_a.mp4, 734s g_recfish_b.mp4
-- noaa_snapper_school: 643s g_snap_b.mp4, 772s g_snap_c.mp4
+- dvids_791060: 71s g_fm_tow.mp4, 776s g_fm_out.mp4
+- dvids_828554: 59s g_kh_a.mp4, 769s g_kh_a.mp4
+- noaa_coral_fgb: 358s g_reef_fish.mp4, 791s g_reef_fish.mp4
+- noaa_dwh_sampleprep: 602s g_lab_a.mp4, 605s g_lab_b.mp4, 620s g_lab_c.mp4
+- noaa_snapper_recfish: 657s g_recfish_a.mp4, 720s g_recfish_b.mp4
+- noaa_snapper_school: 631s g_snap_b.mp4, 758s g_snap_c.mp4
 
 ## All shots
 
 | ch | shot | start (abs s) | dur | template | source | cut on |
 |---|---|---|---|---|---|---|
-| c02 | s01 | 48.62 | 2.66 | clip_plain | F:b3_aerial_underway_1969.mp4 | Start with the day |
-| c02 | s02 | 51.28 | 4.34 | map_clip | M:c02_bremerton | In September nineteen seventy-six |
-| c02 | s03 | 55.62 | 2.56 | clip_plain | P:6450776 | She was laid up |
-| c02 | s04 | 58.18 | 2.84 | clip_plain | G:kh_a | She was laid up |
-| c02 | s05 | 61.02 | 2.33 | number_clip | P:6450773 | For thirteen years |
-| c02 | s06 | 63.35 | 4.38 | number_clip | P:7578429 | In July nineteen eighty-nine |
-| c02 | s07 | 67.72 | 3.2 | clip_plain | P:7578430 | On paper |
-| c02 | s08 | 70.92 | 5.24 | anim_options | A:anim_options + bg G:fm_tow | A ship like that |
-| c02 | s09 | 76.16 | 3.1 | clip_plain | H:c02_sisters | Four of her sisters |
-| c02 | s10 | 79.27 | 5.17 | map_clip | M:c02_pacific_a | Then in the early |
-| c02 | s11 | 84.43 | 5.92 | map_clip | M:c02_pacific_b | Japanese investors |
-| c02 | s12 | 90.35 | 2.06 | text_card | CARD + bg MS:m_c02_pacific_b.mp4@end | They called it |
-| c02 | s13 | 92.41 | 3.57 | lower_third | P:7578432 | An American warship |
-| c02 | s14 | 95.98 | 3.91 | anim_options | A:anim_options | The money never came |
-| c02 | s15 | 99.89 | 2.21 | map_clip | M:c02_scrap_a | So the Navy tried |
-| c02 | s16 | 102.1 | 3.62 | text_card | CARD + bg MS:m_c02_scrap_a.mp4@end | In the early nineteen nineties she was sold |
-| c02 | s17 | 105.72 | 1.54 | text_card | CARD + bg MS:m_c02_scrap_a.mp4@end | The buyer defaulted |
-| c02 | s18 | 107.26 | 2.78 | map_clip | M:c02_scrap_b | She never even left |
-| c02 | s19 | 110.04 | 5.02 | clip_plain | H:c02_ledger_a | In September nineteen ninety-five |
-| c02 | s20 | 115.06 | 2.61 | clip_plain | H:c02_ledger_b | for just over a million |
-| c02 | s21 | 117.67 | 3.26 | text_card | CARD + bg MS:h_c02_ledger_a.mp4@end | The Navy had appraised |
-| c02 | s22 | 120.93 | 1.82 | text_card | CARD + bg MS:h_c02_ledger_b.mp4@end | Three companies had bid |
-| c02 | s23 | 122.75 | 3.43 | text_card | CARD + bg MS:m_c02_scrap_b.mp4@end | The deal said |
-| c02 | s24 | 126.19 | 5.11 | text_card | CARD + bg MS:h_c02_ledger_a.mp4@end | A losing bidder |
-| c02 | s25 | 131.29 | 5.5 | map_clip | M:c02_tow_sf | In nineteen ninety-six |
-| c02 | s26 | 136.79 | 3.87 | map_clip | M:c02_mare | Pegasus planned |
-| c02 | s27 | 140.66 | 2.78 | text_card | CARD + bg MS:m_c02_mare.mp4@end | A year later |
-| c02 | s28 | 143.44 | 4.07 | text_card | CARD + bg MS:m_c02_mare.mp4@end | The Navy ended the contract |
-| c02 | s29 | 147.51 | 5.86 | clip_plain | H:c02_tally | Two scrap deals |
-| c02 | s30 | 153.37 | 4.28 | map_clip | M:c02_horn_a | So in nineteen ninety-nine |
-| c02 | s31 | 157.64 | 4.84 | map_clip | M:c02_horn_b | All the way around |
-| c02 | s32 | 162.49 | 4.94 | map_clip | M:c02_horn_c | A ship nobody would take |
-| c02 | s33 | 167.43 | 2.46 | clip_plain | P:6450777 | So what kind of ship |
-| c02 | s34 | 169.89 | 2.82 | clip_plain | P:7578428 | To understand what was |
-| c02 | s35 | 172.71 | 4.03 | clip_plain | F:b1_launch_crowd.mp4 | go back to the war |
-| c03 | s01 | 176.74 | 4.47 | map_clip | M:c03_brooklyn | Her keel was laid |
-| c03 | s02 | 181.21 | 4.36 | lower_third | F:b1_launch_hull.mp4 | She was launched |
-| c03 | s03 | 185.57 | 2.4 | text_card | CARD + bg F:b1_launch_ways.mp4 | Six weeks after |
-| c03 | s04 | 187.97 | 4.56 | clip_plain | F:b1_launch_bow.mp4 | A Second World War carrier |
-| c03 | s05 | 192.53 | 3.37 | text_card | CARD + bg MS:m_c03_brooklyn.mp4@1.7 | In August nineteen forty-seven |
-| c03 | s06 | 195.9 | 3.4 | map_clip | M:c03_korea | Then in June nineteen fifty |
-| c03 | s07 | 199.3 | 3.2 | clip_plain | P:7578420 | and the Navy rushed |
-| c03 | s08 | 202.5 | 3.16 | lower_third | P:7578422 | She was the last Essex-class |
-| c03 | s09 | 205.65 | 2.58 | lower_third | F:b2_f4u_corsair_landing.mp4 | Her crews called |
-| c03 | s10 | 208.23 | 3.31 | map_clip | M:c03_mig_a | On the eighteenth of November |
-| c03 | s11 | 211.54 | 1.62 | clip_plain | F:b2_f9f_panther_deck.mp4 | four of her Panther jets |
-| c03 | s12 | 213.16 | 4.21 | map_clip | M:c03_mig_b | met seven |
-| c03 | s13 | 217.37 | 2.34 | number_clip | P:7578424 | credited with one |
-| c03 | s14 | 219.71 | 4.1 | number_clip | P:7578425 | In twenty twenty-three |
-| c03 | s15 | 223.81 | 3.42 | text_card | CARD + bg MS:m_c03_mig_b.mp4@end | It upgraded his Silver Star |
-| c03 | s16 | 227.23 | 1.66 | clip_plain | F:b3_unrep_oiler_1966.mp4 | Then came Vietnam |
-| c03 | s17 | 228.89 | 3.02 | map_clip | M:c03_tonkin | Between May and December |
-| c03 | s18 | 231.91 | 3.78 | number_clip | F:b3_a4_catapult_1966.mp4 | she flew more than |
-| c03 | s19 | 235.69 | 3.26 | clip_plain | F:b3_f8_launch_1966.mp4 | A record for one |
-| c03 | s20 | 238.95 | 3.09 | map_clip | M:c03_stockdale_a | On the ninth of September |
-| c03 | s21 | 242.04 | 3.36 | clip_plain | F:b3_aerial_launching.mp4 | the man who led |
-| c03 | s22 | 245.4 | 1.98 | lower_third | F:b3_a4e_formation_1968.mp4 | Commander James |
-| c03 | s23 | 247.38 | 4.31 | map_clip | M:c03_stockdale_b | was hit by anti-aircraft |
-| c03 | s24 | 251.69 | 3.17 | text_card | CARD + bg MS:m_c03_stockdale_b.mp4@end | He was held prisoner |
-| c03 | s25 | 254.86 | 3.36 | clip_plain | F:b4_fire_island_smoke.mp4 | A year later the danger |
-| c03 | s26 | 258.22 | 4.34 | map_clip | M:c03_yankee | On the morning of the twenty-sixth |
-| c03 | s27 | 262.56 | 3.61 | clip_plain | F:b3_carrier_aerial_1966.mp4 | she was on Yankee |
-| c03 | s28 | 266.17 | 5.74 | anim_xray | A:anim_xray | Two sailors were stowing |
-| c03 | s29 | 271.91 | 3.58 | clip_plain | F:b4_fire_hangar_hoses.mp4 | In a panic |
-| c03 | s30 | 275.49 | 2.81 | number_clip | F:b4_fire_hose_lines.mp4 | packed with about |
-| c03 | s31 | 278.3 | 4.41 | number_clip | F:b4_fire_destroyer_alongside.mp4 | They burn at about |
-| c03 | s32 | 282.71 | 2.94 | number_clip | F:b4_fire_sponson_hoses.mp4 | The fire burned |
-| c03 | s33 | 285.65 | 3.16 | clip_plain | F:b4_fire_oba_team.mp4 | Most of the dead |
-| c03 | s34 | 288.82 | 3.07 | clip_plain | F:b4_fire_hangar_sprinkler.mp4 | Most of the dead |
-| c03 | s35 | 291.89 | 2.21 | number_clip | F:b4_fire_deck_smoke.mp4 | The fire killed |
-| c03 | s36 | 294.1 | 1.96 | clip_plain | F:b4_fire_burned_a4.mp4 | Dozens more |
-| c03 | s37 | 296.06 | 2.24 | clip_plain | F:b4_burial_color_guard.mp4 | Eleven days later |
-| c03 | s38 | 298.3 | 2.6 | clip_plain | F:b4_burial_formation.mp4 | Eleven days later |
-| c03 | s39 | 300.89 | 4.46 | clip_plain | F:b4_burial_escorts.mp4 | Did you or someone |
-| c03 | s40 | 305.36 | 2.63 | clip_plain | F:b3_aerial_underway_1969.mp4 | In that fire |
-| c03 | s41 | 307.99 | 4.02 | lower_third | F:b3_aerial_underway2_1969.mp4 | Tell us their story |
-| c03 | s42 | 312.01 | 5.26 | map_clip | M:c03_sf_tonkin | She was repaired |
-| c03 | s43 | 317.27 | 2.7 | clip_plain | F:b3_island_a4e_parked_1968.mp4 | On the twenty-sixth of October nineteen sixty-seven |
-| c03 | s44 | 319.97 | 3.21 | clip_plain | F:b3_deck_parked_1968.mp4 | On the twenty-sixth of October nineteen sixty-seven |
-| c03 | s45 | 323.17 | 2.57 | text_card | CARD + bg F:b3_a4e_bombs_wing_1968.mp4 | One year to the day |
-| c03 | s46 | 325.74 | 3.92 | lower_third | F:b3_a4e_launch_1968.mp4 | One of the pilots |
-| c03 | s47 | 329.66 | 4.03 | map_clip | M:c03_hanoi_a | A surface-to-air missile |
-| c03 | s48 | 333.69 | 2.88 | map_clip | M:c03_hanoi_b | He came down in a lake |
-| c03 | s49 | 336.57 | 5.55 | number_clip | P:148728286 | He was released |
-| c03 | s50 | 342.12 | 4.48 | lower_third | F:b3_bow_on_underway_1966.mp4 | Two of America's |
-| c03 | s51 | 346.61 | 3.44 | clip_plain | F:b4_fire_damaged_a4_316.mp4 | Forty-four of her men |
-| c03 | s52 | 350.04 | 5.93 | clip_plain | P:6450773 | And by the late |
-| c03 | s53 | 355.97 | 4.0 | map_clip | M:c03_dc | Then in two thousand three |
-| c04 | s01 | 359.97 | 4.98 | map_clip | M:c04_dc_gulf | In November two thousand three |
-| c04 | s02 | 364.95 | 2.75 | clip_plain | G:reef_fish | old warships |
-| c04 | s03 | 367.7 | 3.97 | number_clip | P:6695641 | The Oriskany was the first |
-| c04 | s04 | 371.67 | 2.59 | map_clip | M:c04_states_a | Four bids came in |
-| c04 | s05 | 374.26 | 4.56 | map_clip | M:c04_states_b | Florida Mississippi |
-| c04 | s06 | 378.82 | 5.02 | map_clip | M:c04_states_c | In April two thousand four |
-| c04 | s07 | 383.84 | 5.58 | number_clip | P:6695642 | The plan was to sink |
-| c04 | s08 | 389.42 | 1.79 | anim_xray | A:anim_xray | First she had to be cleaned |
-| c04 | s09 | 391.21 | 4.5 | map_clip | M:c04_corpus | The work was done in Corpus |
-| c04 | s10 | 395.71 | 4.18 | anim_gauge | A:anim_gauge | Congress had committed |
-| c04 | s11 | 399.89 | 4.35 | anim_gauge | A:anim_gauge | Two point one million |
-| c04 | s12 | 404.24 | 3.05 | clip_plain | H:c04_deck_a | Then workers stripped |
-| c04 | s13 | 407.29 | 3.06 | clip_plain | H:c04_deck_a2 | The wood underneath |
-| c04 | s14 | 410.34 | 2.82 | clip_plain | H:c04_deck_b | The Navy blamed |
-| c04 | s15 | 413.16 | 4.28 | text_card | CARD + bg MS:m_c04_corpus.mp4@end | Under the cleanup rules |
-| c04 | s16 | 417.44 | 3.46 | text_card | CARD + bg MS:m_c04_corpus.mp4@end | unless the EPA |
-| c04 | s17 | 420.91 | 2.49 | clip_plain | H:c04_deck_c | So the whole wooden deck |
-| c04 | s18 | 423.4 | 5.73 | anim_gauge | A:anim_gauge | The cost of removing |
-| c04 | s19 | 429.13 | 2.22 | text_card | CARD + bg P:6698570 | At least half |
-| c04 | s20 | 431.35 | 5.09 | text_card | CARD + bg P:6698561 | On top of that |
-| c04 | s21 | 436.44 | 4.47 | anim_xray | A:anim_xray | Its job was to prove |
-| c04 | s22 | 440.91 | 4.98 | map_clip | M:c04_tow_pens | From Texas she was towed |
-| c04 | s23 | 445.89 | 4.77 | map_clip | M:c04_hurricane | In June two thousand five |
-| c04 | s24 | 450.66 | 3.36 | number_clip | MS:m_c04_hurricane.mp4@end | That tow cost |
-| c04 | s25 | 454.03 | 3.05 | map_clip | M:c04_rita | She rode out Hurricane |
-| c04 | s26 | 457.08 | 2.16 | clip_plain | P:6696606 | By the spring of two thousand six |
-| c04 | s27 | 459.24 | 4.87 | anim_gauge | A:anim_gauge | the Navy's bill |
-| c04 | s28 | 464.11 | 4.62 | number_clip | P:6698586 | Press reports |
-| c04 | s29 | 468.73 | 4.68 | number_clip | P:6698597 | Florida's own legislature |
-| c04 | s30 | 473.42 | 2.81 | anim_gauge | A:anim_gauge | almost all of it Navy |
-| c04 | s31 | 476.23 | 3.43 | anim_gauge | A:anim_gauge | That is about seven times |
-| c04 | s32 | 479.66 | 4.83 | anim_xray | A:anim_xray | And the flight deck was not |
-| c05 | s01 | 484.48 | 5.15 | map_clip | M:c05_pensacola | On the twenty-second of March |
-| c05 | s02 | 489.63 | 1.72 | clip_plain | P:6695614 | for the last time |
-| c05 | s03 | 491.34 | 5.31 | lower_third | P:6696903 | She was the test case |
-| c05 | s04 | 496.65 | 4.2 | clip_plain | P:6698577 | In May a Navy bomb-disposal |
-| c05 | s05 | 500.85 | 3.27 | clip_plain | P:6698593 | On the fifteenth tugs |
-| c05 | s06 | 504.12 | 3.36 | clip_plain | P:6698599 | Former sailors lined |
-| c05 | s07 | 507.48 | 3.0 | clip_plain | P:6698587 | One of them stood |
-| c05 | s08 | 510.48 | 2.3 | map_clip | M:c05_reef | On the morning of the seventeenth |
-| c05 | s09 | 512.78 | 3.81 | clip_plain | P:6698606 | she sat at anchor |
-| c05 | s10 | 516.59 | 4.8 | anim_xray | A:anim_xray | The team had placed |
-| c05 | s11 | 521.39 | 3.31 | number_clip | P:6698576 | More than five hundred |
-| c05 | s12 | 524.7 | 1.58 | text_card | CARD + bg P:6698607 | At ten twenty-five |
-| c05 | s13 | 526.28 | 1.24 | clip_plain | P:6698617 | they fired |
-| c05 | s14 | 527.52 | 3.68 | number_clip | P:6698616 | The Navy expected |
-| c05 | s15 | 531.2 | 2.35 | number_clip | P:6698620 | She took thirty-seven |
-| c05 | s16 | 533.55 | 4.09 | clip_plain | P:6698622 | She went down stern first |
-| c05 | s17 | 537.64 | 1.39 | clip_plain | P:6698625 | Then she was gone |
-| c05 | s18 | 539.03 | 4.3 | clip_plain | H:c05_hero_a | She settled upright |
-| c05 | s19 | 543.33 | 2.6 | clip_plain | H:c05_hero_b | Two hundred and twelve |
-| c05 | s20 | 545.93 | 3.49 | lower_third | P:6698613 | The moment she touched |
-| c05 | s21 | 549.42 | 3.98 | number_clip | P:6698627 | She was the largest ship |
-| c05 | s22 | 553.41 | 5.74 | text_card | CARD + bg P:6698623 | Guinness World Records |
-| c05 | s23 | 559.15 | 2.01 | clip_plain | P:6698626 | It looked like |
-| c05 | s24 | 561.15 | 2.22 | clip_plain | P:6698628 | But her sinking came |
-| c05 | s25 | 563.37 | 2.51 | map_clip | M:c05_fishpin | And Florida had to keep |
-| c06 | s01 | 565.88 | 2.79 | anim_xray | A:anim_xray | Not all of the PCBs |
-| c06 | s02 | 568.67 | 3.23 | number_clip | P:6698554 | An estimated seven hundred |
-| c06 | s03 | 571.9 | 4.74 | anim_xray | A:anim_xray | They were locked in |
-| c06 | s04 | 576.64 | 3.34 | lower_third | P:6698555 | All the liquid PCBs |
-| c06 | s05 | 579.99 | 2.84 | map_clip | M:c06_epa_a | The EPA reviewed |
-| c06 | s06 | 582.82 | 3.8 | map_clip | M:c06_epa_b | On the fifteenth of February |
-| c06 | s07 | 586.62 | 5.33 | lower_third | P:6698556 | Sinking her with the PCBs |
-| c06 | s08 | 591.95 | 3.95 | number_clip | P:6698583 | It was the first approval |
-| c06 | s09 | 595.9 | 2.97 | lower_third | P:6698600 | And the EPA said |
-| c06 | s10 | 598.87 | 5.47 | map_clip | M:c06_fishmap | There was a condition |
-| c06 | s11 | 604.35 | 5.88 | clip_plain | H:c06_rounds_a | From December two thousand six |
-| c06 | s12 | 610.23 | 3.41 | clip_plain | H:c06_rounds_b | sampled eight rounds |
-| c06 | s13 | 613.63 | 2.37 | text_card | CARD + bg G:lab_a | Two hundred and fifty-four |
-| c06 | s14 | 616.0 | 3.14 | clip_plain | G:lab_b | The first results |
-| c06 | s15 | 619.14 | 5.83 | clip_plain | H:c06_lines_b | For the first two years |
-| c06 | s16 | 624.98 | 3.73 | clip_plain | H:c06_lines_c | Florida's screening value |
-| c06 | s17 | 628.7 | 2.73 | clip_plain | H:c06_lines_d | Screening values are not |
-| c06 | s18 | 631.44 | 4.02 | clip_plain | G:lab_c | They are the levels |
-| c06 | s19 | 635.46 | 3.38 | clip_plain | H:c06_species_a | The highest readings |
-| c06 | s20 | 638.84 | 3.96 | clip_plain | H:c06_species_b | Vermilion snapper and scamp |
-| c06 | s21 | 642.8 | 4.24 | text_card | CARD + bg G:snap_b | Environmental groups |
-| c06 | s22 | 647.04 | 1.96 | clip_plain | H:c06_snapper_a | They said snapper |
-| c06 | s23 | 649.0 | 5.15 | clip_plain | H:c06_snapper_b | about seven times more |
-| c06 | s24 | 654.15 | 2.18 | map_clip | M:c06_rubble | That reef was eight |
-| c06 | s25 | 656.33 | 3.92 | map_clip | M:c06_tag | And tagging suggested |
-| c06 | s26 | 660.25 | 1.82 | clip_plain | H:c06_down_a | Then the numbers came down |
-| c06 | s27 | 662.08 | 4.26 | clip_plain | H:c06_down_b | By about three years |
-| c06 | s28 | 666.34 | 2.83 | clip_plain | H:c06_down_c | By about four years |
-| c06 | s29 | 669.17 | 4.15 | text_card | CARD + bg G:recfish_a | No fish-eating advisory |
-| c06 | s30 | 673.32 | 4.84 | clip_plain | H:c06_down_d | The last published |
-| c06 | s31 | 678.15 | 3.27 | anim_xray | A:anim_xray | So here is the question |
-| c06 | s32 | 681.43 | 5.12 | anim_xray | A:anim_xray | If the Navy knew |
-| c07 | s01 | 686.54 | 2.99 | map_clip | M:c07_dive | To answer that |
-| c07 | s02 | 689.53 | 3.52 | clip_plain | H:c07_wreck2008 | She does not sit |
-| c07 | s03 | 693.05 | 1.91 | clip_plain | G:gustav | The storms saw |
-| c07 | s04 | 694.96 | 5.86 | clip_plain | H:c07_settle | Within about two and a half |
-| c07 | s05 | 700.81 | 3.81 | map_clip | M:c07_gustav | Among them was Hurricane |
-| c07 | s06 | 704.63 | 5.37 | clip_plain | H:c07_funnel | In late two thousand nine |
-| c07 | s07 | 710.0 | 3.9 | clip_plain | H:c07_depths_a | Today her flight deck |
-| c07 | s08 | 713.9 | 2.85 | clip_plain | H:c07_depths_b | to one hundred and fifty |
-| c07 | s09 | 716.75 | 3.34 | clip_plain | H:c07_depths_c | The top of her island |
-| c07 | s10 | 720.09 | 3.25 | clip_plain | H:c07_depths_d | The deck is beyond |
-| c07 | s11 | 723.34 | 3.66 | text_card | CARD + bg G:navy_wreck_b | Florida warns divers |
-| c07 | s12 | 727.0 | 1.81 | clip_plain | H:c07_divers | The divers came anyway |
-| c07 | s13 | 728.81 | 5.0 | text_card | CARD + bg G:keys_diver | In her first year |
-| c07 | s14 | 733.81 | 4.22 | text_card | CARD + bg G:recfish_b | They brought about |
-| c07 | s15 | 738.03 | 1.72 | map_clip | M:c07_counties_a | to two counties |
-| c07 | s16 | 739.74 | 3.53 | map_clip | M:c07_counties_b | Escambia in Florida |
-| c07 | s17 | 743.27 | 2.18 | text_card | CARD + bg G:offload | And sixty-seven jobs |
-| c07 | s18 | 745.45 | 3.75 | anim_xray | A:anim_xray | Now back to the question |
-| c07 | s19 | 749.2 | 4.88 | anim_xray | A:anim_xray | Almost all of what |
-| c07 | s20 | 754.08 | 4.34 | clip_plain | H:c07_apart | The Navy said ripping |
-| c07 | s21 | 758.41 | 4.39 | lower_third | P:6450776 | And taking her apart |
-| c07 | s22 | 762.8 | 4.0 | clip_plain | H:c07_tally | Two scrap deals |
-| c07 | s23 | 766.8 | 4.98 | clip_plain | P:6698554 | Getting the wiring out |
-| c07 | s24 | 771.78 | 1.6 | clip_plain | G:snap_c | A reef was different |
-| c07 | s25 | 773.38 | 1.74 | text_card | CARD + bg P:6698601 | The Navy said reefing |
-| c07 | s26 | 775.12 | 4.38 | anim_gauge | A:anim_gauge | cost about a quarter |
-| c07 | s27 | 779.49 | 4.14 | anim_gauge | A:anim_gauge | Even as the bill climbed |
-| c07 | s28 | 783.63 | 4.5 | anim_gauge | A:anim_gauge + bg G:kh_a | Next to an estimated |
-| c07 | s29 | 788.13 | 2.38 | clip_plain | P:6695641 | But that bargain |
-| c07 | s30 | 790.51 | 5.19 | text_card | CARD + bg G:fm_out | Within two years |
-| c07 | s31 | 795.7 | 1.62 | text_card | CARD + bg P:6698558 | Cleaning ships to the new |
-| c07 | s32 | 797.32 | 4.5 | text_card | CARD + bg P:6698597 | could wipe out |
-| c07 | s33 | 801.81 | 3.5 | clip_plain | P:6698624 | So that is why |
-| c07 | s34 | 805.31 | 3.33 | anim_options | A:anim_options + bg G:reef_fish | The bottom of the Gulf was |
-| c07 | s35 | 808.64 | 3.93 | clip_plain | H:c07_today | She is still the only |
-| c07 | s36 | 812.58 | 2.44 | clip_plain | F:b10_ssus_profile.mp4 | She will not be the biggest |
-| c07 | s37 | 815.02 | 4.26 | number_clip | F:b10_ssus_crane_river.mp4 | On November twelfth |
-| c07 | s38 | 819.28 | 4.24 | map_clip | M:c07_okaloosa | Okaloosa County plans |
-| c07 | s39 | 823.52 | 4.16 | map_clip | M:c07_endmap | She will lie about thirteen |
-| c07 | s40 | 827.68 | 1.62 | clip_plain | F:b10_ssus_stacks.mp4 | And here is the twist |
-| c07 | s41 | 829.3 | 5.42 | number_clip | P:6698606 | Okaloosa County put |
-| c07 | s42 | 834.72 | 2.78 | map_clip | M:c07_title | Now it is about to take |
-| c07 | s43 | 837.51 | 5.12 | clip_plain | F:b3_aerial_underway2_1969.mp4 | So was the bottom |
-| c07 | s44 | 842.63 | 2.56 | clip_plain | P:6698625 | Or just the cheapest |
-| c07 | s45 | 845.19 | 20.41 | map_clip | M:c07_endscreen | Tell us in the comments |
+| c02 | s01 | 48.98 | 2.92 | clip_plain | F:b3_aerial_underway_1969.mp4 | Start with the day |
+| c02 | s02 | 51.9 | 4.23 | map_clip | M:c02_bremerton | In September nineteen seventy-six |
+| c02 | s03 | 56.13 | 2.56 | clip_plain | P:6450776 | She was laid up |
+| c02 | s04 | 58.69 | 2.63 | clip_plain | G:kh_a | She was laid up |
+| c02 | s05 | 61.32 | 2.55 | number_clip | P:6450773 | For thirteen years |
+| c02 | s06 | 63.87 | 4.14 | number_clip | P:7578429 | In July nineteen eighty-nine |
+| c02 | s07 | 68.01 | 3.08 | clip_plain | P:7578430 | On paper |
+| c02 | s08 | 71.09 | 5.3 | anim_options | A:anim_options + bg G:fm_tow | A ship like that |
+| c02 | s09 | 76.39 | 3.21 | clip_plain | H:c02_sisters | Four of her sisters |
+| c02 | s10 | 79.6 | 4.99 | map_clip | M:c02_pacific_a | Then in the early |
+| c02 | s11 | 84.59 | 5.83 | map_clip | M:c02_pacific_b | Japanese investors |
+| c02 | s12 | 90.42 | 2.1 | text_card | CARD + bg MS:m_c02_pacific_b.mp4@end | They called it |
+| c02 | s13 | 92.52 | 3.48 | lower_third | P:7578432 | An American warship |
+| c02 | s14 | 96.0 | 4.08 | anim_options | A:anim_options | The money never came |
+| c02 | s15 | 100.07 | 2.27 | map_clip | M:c02_scrap_a | So the Navy tried |
+| c02 | s16 | 102.35 | 3.47 | text_card | CARD + bg MS:m_c02_scrap_a.mp4@end | In the early nineteen nineties she was sold |
+| c02 | s17 | 105.82 | 1.69 | text_card | CARD + bg MS:m_c02_scrap_a.mp4@end | The buyer defaulted |
+| c02 | s18 | 107.51 | 2.78 | map_clip | M:c02_scrap_b | She never even left |
+| c02 | s19 | 110.29 | 5.18 | clip_plain | H:c02_ledger_a | In September nineteen ninety-five |
+| c02 | s20 | 115.47 | 2.08 | clip_plain | H:c02_ledger_b | for just over a million |
+| c02 | s21 | 117.55 | 3.28 | text_card | CARD + bg MS:h_c02_ledger_a.mp4@end | The Navy had appraised |
+| c02 | s22 | 120.84 | 2.0 | text_card | CARD + bg MS:h_c02_ledger_b.mp4@end | Three companies had bid |
+| c02 | s23 | 122.84 | 3.35 | text_card | CARD + bg MS:m_c02_scrap_b.mp4@end | The deal said |
+| c02 | s24 | 126.18 | 4.92 | text_card | CARD + bg MS:h_c02_ledger_a.mp4@end | A losing bidder |
+| c02 | s25 | 131.1 | 5.27 | map_clip | M:c02_tow_sf | In nineteen ninety-six |
+| c02 | s26 | 136.37 | 3.83 | map_clip | M:c02_mare | Pegasus planned |
+| c02 | s27 | 140.2 | 2.87 | text_card | CARD + bg MS:m_c02_mare.mp4@end | A year later |
+| c02 | s28 | 143.07 | 3.92 | text_card | CARD + bg MS:m_c02_mare.mp4@end | The Navy ended the contract |
+| c02 | s29 | 147.0 | 5.85 | clip_plain | H:c02_tally | Two scrap deals |
+| c02 | s30 | 152.85 | 4.03 | map_clip | M:c02_horn_a | So in nineteen ninety-nine |
+| c02 | s31 | 156.88 | 5.2 | map_clip | M:c02_horn_b | All the way around |
+| c02 | s32 | 162.07 | 4.79 | map_clip | M:c02_horn_c | A ship nobody would take |
+| c02 | s33 | 166.86 | 2.45 | clip_plain | P:6450777 | So what kind of ship |
+| c02 | s34 | 169.31 | 2.7 | clip_plain | P:7578428 | To understand what was |
+| c02 | s35 | 172.01 | 3.89 | clip_plain | F:b1_launch_crowd.mp4 | go back to the war |
+| c03 | s01 | 175.9 | 4.46 | map_clip | M:c03_brooklyn | Her keel was laid |
+| c03 | s02 | 180.35 | 4.3 | lower_third | F:b1_launch_hull.mp4 | She was launched |
+| c03 | s03 | 184.65 | 2.62 | text_card | CARD + bg F:b1_launch_ways.mp4 | Six weeks after |
+| c03 | s04 | 187.28 | 4.46 | clip_plain | F:b1_launch_bow.mp4 | A Second World War carrier |
+| c03 | s05 | 191.74 | 3.41 | text_card | CARD + bg MS:m_c03_brooklyn.mp4@1.7 | In August nineteen forty-seven |
+| c03 | s06 | 195.15 | 3.52 | map_clip | M:c03_korea | Then in June nineteen fifty |
+| c03 | s07 | 198.67 | 2.64 | clip_plain | P:7578420 | and the Navy rushed |
+| c03 | s08 | 201.31 | 3.35 | lower_third | P:7578422 | She was the last Essex-class |
+| c03 | s09 | 204.66 | 2.58 | lower_third | F:b2_f4u_corsair_landing.mp4 | Her crews called |
+| c03 | s10 | 207.25 | 3.16 | map_clip | M:c03_mig_a | On the eighteenth of November |
+| c03 | s11 | 210.41 | 1.04 | clip_plain | F:b2_f9f_panther_deck.mp4 | four of her Panther jets |
+| c03 | s12 | 211.45 | 4.33 | map_clip | M:c03_mig_b | met seven |
+| c03 | s13 | 215.78 | 2.19 | number_clip | P:7578424 | credited with one |
+| c03 | s14 | 217.97 | 3.97 | number_clip | P:7578425 | In twenty twenty-three |
+| c03 | s15 | 221.94 | 3.47 | text_card | CARD + bg MS:m_c03_mig_b.mp4@end | It upgraded his Silver Star |
+| c03 | s16 | 225.41 | 1.78 | clip_plain | F:b3_unrep_oiler_1966.mp4 | Then came Vietnam |
+| c03 | s17 | 227.19 | 3.18 | map_clip | M:c03_tonkin | Between May and December |
+| c03 | s18 | 230.37 | 2.89 | number_clip | F:b3_a4_catapult_1966.mp4 | she flew more than |
+| c03 | s19 | 233.26 | 3.46 | clip_plain | F:b3_f8_launch_1966.mp4 | A record for one |
+| c03 | s20 | 236.72 | 3.26 | map_clip | M:c03_stockdale_a | On the ninth of September |
+| c03 | s21 | 239.98 | 2.78 | clip_plain | F:b3_aerial_launching.mp4 | the man who led |
+| c03 | s22 | 242.76 | 2.54 | lower_third | F:b3_a4e_formation_1968.mp4 | Commander James |
+| c03 | s23 | 245.3 | 3.58 | map_clip | M:c03_stockdale_b | was hit by anti-aircraft |
+| c03 | s24 | 248.88 | 3.15 | text_card | CARD + bg MS:m_c03_stockdale_b.mp4@end | He was held prisoner |
+| c03 | s25 | 252.03 | 3.22 | clip_plain | F:b4_fire_island_smoke.mp4 | A year later the danger |
+| c03 | s26 | 255.25 | 4.36 | map_clip | M:c03_yankee | On the morning of the twenty-sixth |
+| c03 | s27 | 259.61 | 2.94 | clip_plain | F:b3_carrier_aerial_1966.mp4 | she was on Yankee |
+| c03 | s28 | 262.55 | 5.85 | anim_xray | A:anim_xray | Two sailors were stowing |
+| c03 | s29 | 268.4 | 3.22 | clip_plain | F:b4_fire_hangar_hoses.mp4 | In a panic |
+| c03 | s30 | 271.62 | 2.81 | number_clip | F:b4_fire_hose_lines.mp4 | packed with about |
+| c03 | s31 | 274.43 | 4.32 | number_clip | F:b4_fire_destroyer_alongside.mp4 | They burn at about |
+| c03 | s32 | 278.75 | 2.92 | number_clip | F:b4_fire_sponson_hoses.mp4 | The fire burned |
+| c03 | s33 | 281.67 | 2.66 | clip_plain | F:b4_fire_oba_team.mp4 | Most of the dead |
+| c03 | s34 | 284.33 | 3.18 | clip_plain | F:b4_fire_hangar_sprinkler.mp4 | Most of the dead |
+| c03 | s35 | 287.5 | 2.32 | number_clip | F:b4_fire_deck_smoke.mp4 | The fire killed |
+| c03 | s36 | 289.82 | 2.04 | clip_plain | F:b4_fire_burned_a4.mp4 | Dozens more |
+| c03 | s37 | 291.86 | 2.24 | clip_plain | F:b4_burial_color_guard.mp4 | Eleven days later |
+| c03 | s38 | 294.1 | 2.44 | clip_plain | F:b4_burial_formation.mp4 | Eleven days later |
+| c03 | s39 | 296.53 | 4.16 | clip_plain | F:b4_burial_escorts.mp4 | Did you or someone |
+| c03 | s40 | 300.7 | 2.61 | clip_plain | F:b3_aerial_underway_1969.mp4 | In that fire |
+| c03 | s41 | 303.3 | 4.19 | lower_third | F:b3_aerial_underway2_1969.mp4 | Tell us their story |
+| c03 | s42 | 307.49 | 4.87 | map_clip | M:c03_sf_tonkin | She was repaired |
+| c03 | s43 | 312.36 | 2.48 | clip_plain | F:b3_island_a4e_parked_1968.mp4 | On the twenty-sixth of October nineteen sixty-seven |
+| c03 | s44 | 314.84 | 2.99 | clip_plain | F:b3_deck_parked_1968.mp4 | On the twenty-sixth of October nineteen sixty-seven |
+| c03 | s45 | 317.82 | 2.62 | text_card | CARD + bg F:b3_a4e_bombs_wing_1968.mp4 | One year to the day |
+| c03 | s46 | 320.44 | 3.7 | lower_third | F:b3_a4e_launch_1968.mp4 | One of the pilots |
+| c03 | s47 | 324.15 | 3.93 | map_clip | M:c03_hanoi_a | A surface-to-air missile |
+| c03 | s48 | 328.08 | 2.91 | map_clip | M:c03_hanoi_b | He came down in a lake |
+| c03 | s49 | 330.99 | 5.24 | number_clip | P:148728286 | He was released |
+| c03 | s50 | 336.23 | 4.51 | lower_third | F:b3_bow_on_underway_1966.mp4 | Two of America's |
+| c03 | s51 | 340.74 | 3.45 | clip_plain | F:b4_fire_damaged_a4_316.mp4 | Forty-four of her men |
+| c03 | s52 | 344.19 | 5.47 | clip_plain | P:6450773 | And by the late |
+| c03 | s53 | 349.65 | 3.93 | map_clip | M:c03_dc | Then in two thousand three |
+| c04 | s01 | 353.59 | 4.85 | map_clip | M:c04_dc_gulf | In November two thousand three |
+| c04 | s02 | 358.44 | 2.43 | clip_plain | G:reef_fish | old warships |
+| c04 | s03 | 360.87 | 3.86 | number_clip | P:6695641 | The Oriskany was the first |
+| c04 | s04 | 364.73 | 2.63 | map_clip | M:c04_states_a | Four bids came in |
+| c04 | s05 | 367.36 | 4.51 | map_clip | M:c04_states_b | Florida Mississippi |
+| c04 | s06 | 371.86 | 4.81 | map_clip | M:c04_states_c | In April two thousand four |
+| c04 | s07 | 376.67 | 5.58 | number_clip | P:6695642 | The plan was to sink |
+| c04 | s08 | 382.25 | 1.99 | anim_xray | A:anim_xray | First she had to be cleaned |
+| c04 | s09 | 384.25 | 4.47 | map_clip | M:c04_corpus | The work was done in Corpus |
+| c04 | s10 | 388.71 | 4.14 | anim_gauge | A:anim_gauge | Congress had committed |
+| c04 | s11 | 392.86 | 4.34 | anim_gauge | A:anim_gauge | Two point one million |
+| c04 | s12 | 397.2 | 3.27 | clip_plain | H:c04_deck_a | Then workers stripped |
+| c04 | s13 | 400.46 | 3.05 | clip_plain | H:c04_deck_a2 | The wood underneath |
+| c04 | s14 | 403.52 | 2.94 | clip_plain | H:c04_deck_b | The Navy blamed |
+| c04 | s15 | 406.45 | 4.1 | text_card | CARD + bg MS:m_c04_corpus.mp4@end | Under the cleanup rules |
+| c04 | s16 | 410.55 | 2.96 | text_card | CARD + bg MS:m_c04_corpus.mp4@end | unless the EPA |
+| c04 | s17 | 413.51 | 2.57 | clip_plain | H:c04_deck_c | So the whole wooden deck |
+| c04 | s18 | 416.07 | 5.51 | anim_gauge | A:anim_gauge | The cost of removing |
+| c04 | s19 | 421.59 | 2.27 | text_card | CARD + bg P:6698570 | At least half |
+| c04 | s20 | 423.86 | 4.89 | text_card | CARD + bg P:6698561 | On top of that |
+| c04 | s21 | 428.75 | 4.39 | anim_xray | A:anim_xray | Its job was to prove |
+| c04 | s22 | 433.14 | 5.08 | map_clip | M:c04_tow_pens | From Texas she was towed |
+| c04 | s23 | 438.23 | 4.51 | map_clip | M:c04_hurricane | In June two thousand five |
+| c04 | s24 | 442.74 | 3.38 | number_clip | MS:m_c04_hurricane.mp4@end | That tow cost |
+| c04 | s25 | 446.12 | 3.19 | map_clip | M:c04_rita | She rode out Hurricane |
+| c04 | s26 | 449.31 | 2.12 | clip_plain | P:6696606 | By the spring of two thousand six |
+| c04 | s27 | 451.43 | 4.59 | anim_gauge | A:anim_gauge | the Navy's bill |
+| c04 | s28 | 456.01 | 4.39 | number_clip | P:6698586 | Press reports |
+| c04 | s29 | 460.4 | 4.74 | number_clip | P:6698597 | Florida's own legislature |
+| c04 | s30 | 465.14 | 2.22 | anim_gauge | A:anim_gauge | almost all of it Navy |
+| c04 | s31 | 467.36 | 3.53 | anim_gauge | A:anim_gauge | That is about seven times |
+| c04 | s32 | 470.89 | 4.46 | anim_xray | A:anim_xray | And the flight deck was not |
+| c05 | s01 | 475.35 | 5.11 | map_clip | M:c05_pensacola | On the twenty-second of March |
+| c05 | s02 | 480.46 | 1.39 | clip_plain | P:6695614 | for the last time |
+| c05 | s03 | 481.85 | 5.18 | lower_third | P:6696903 | She was the test case |
+| c05 | s04 | 487.03 | 4.18 | clip_plain | P:6698577 | In May a Navy bomb-disposal |
+| c05 | s05 | 491.21 | 3.19 | clip_plain | P:6698593 | On the fifteenth tugs |
+| c05 | s06 | 494.4 | 3.2 | clip_plain | P:6698599 | Former sailors lined |
+| c05 | s07 | 497.6 | 3.15 | clip_plain | P:6698587 | One of them stood |
+| c05 | s08 | 500.75 | 2.3 | map_clip | M:c05_reef | On the morning of the seventeenth |
+| c05 | s09 | 503.05 | 3.21 | clip_plain | P:6698606 | she sat at anchor |
+| c05 | s10 | 506.26 | 4.79 | anim_xray | A:anim_xray | The team had placed |
+| c05 | s11 | 511.05 | 3.3 | number_clip | P:6698576 | More than five hundred |
+| c05 | s12 | 514.35 | 1.86 | text_card | CARD + bg P:6698607 | At ten twenty-five |
+| c05 | s13 | 516.21 | 1.02 | clip_plain | P:6698617 | they fired |
+| c05 | s14 | 517.23 | 3.59 | number_clip | P:6698616 | The Navy expected |
+| c05 | s15 | 520.81 | 2.48 | number_clip | P:6698620 | She took thirty-seven |
+| c05 | s16 | 523.29 | 3.89 | clip_plain | P:6698622 | She went down stern first |
+| c05 | s17 | 527.19 | 1.48 | clip_plain | P:6698625 | Then she was gone |
+| c05 | s18 | 528.66 | 4.12 | clip_plain | H:c05_hero_a | She settled upright |
+| c05 | s19 | 532.78 | 2.75 | clip_plain | H:c05_hero_b | Two hundred and twelve |
+| c05 | s20 | 535.53 | 3.44 | lower_third | P:6698613 | The moment she touched |
+| c05 | s21 | 538.97 | 4.01 | number_clip | P:6698627 | She was the largest ship |
+| c05 | s22 | 542.98 | 5.43 | text_card | CARD + bg P:6698623 | Guinness World Records |
+| c05 | s23 | 548.41 | 2.03 | clip_plain | P:6698626 | It looked like |
+| c05 | s24 | 550.44 | 2.36 | clip_plain | P:6698628 | But her sinking came |
+| c05 | s25 | 552.8 | 2.64 | map_clip | M:c05_fishpin | And Florida had to keep |
+| c06 | s01 | 555.44 | 2.76 | anim_xray | A:anim_xray | Not all of the PCBs |
+| c06 | s02 | 558.19 | 3.4 | number_clip | P:6698554 | An estimated seven hundred |
+| c06 | s03 | 561.59 | 4.57 | anim_xray | A:anim_xray | They were locked in |
+| c06 | s04 | 566.16 | 3.25 | lower_third | P:6698555 | All the liquid PCBs |
+| c06 | s05 | 569.41 | 2.75 | map_clip | M:c06_epa_a | The EPA reviewed |
+| c06 | s06 | 572.17 | 3.73 | map_clip | M:c06_epa_b | On the fifteenth of February |
+| c06 | s07 | 575.9 | 5.14 | lower_third | P:6698556 | Sinking her with the PCBs |
+| c06 | s08 | 581.05 | 3.88 | number_clip | P:6698583 | It was the first approval |
+| c06 | s09 | 584.93 | 3.12 | lower_third | P:6698600 | And the EPA said |
+| c06 | s10 | 588.04 | 5.57 | map_clip | M:c06_fishmap | There was a condition |
+| c06 | s11 | 593.62 | 5.74 | clip_plain | H:c06_rounds_a | From December two thousand six |
+| c06 | s12 | 599.36 | 3.02 | clip_plain | H:c06_rounds_b | sampled eight rounds |
+| c06 | s13 | 602.37 | 2.33 | text_card | CARD + bg G:lab_a | Two hundred and fifty-four |
+| c06 | s14 | 604.7 | 3.05 | clip_plain | G:lab_b | The first results |
+| c06 | s15 | 607.75 | 5.6 | clip_plain | H:c06_lines_b | For the first two years |
+| c06 | s16 | 613.35 | 3.82 | clip_plain | H:c06_lines_c | Florida's screening value |
+| c06 | s17 | 617.17 | 2.78 | clip_plain | H:c06_lines_d | Screening values are not |
+| c06 | s18 | 619.95 | 3.88 | clip_plain | G:lab_c | They are the levels |
+| c06 | s19 | 623.83 | 3.37 | clip_plain | H:c06_species_a | The highest readings |
+| c06 | s20 | 627.2 | 4.03 | clip_plain | H:c06_species_b | Vermilion snapper and scamp |
+| c06 | s21 | 631.23 | 4.1 | text_card | CARD + bg G:snap_b | Environmental groups |
+| c06 | s22 | 635.33 | 1.94 | clip_plain | H:c06_snapper_a | They said snapper |
+| c06 | s23 | 637.27 | 4.63 | clip_plain | H:c06_snapper_b | about seven times more |
+| c06 | s24 | 641.9 | 2.24 | map_clip | M:c06_rubble | That reef was eight |
+| c06 | s25 | 644.14 | 4.02 | map_clip | M:c06_tag | And tagging suggested |
+| c06 | s26 | 648.16 | 1.92 | clip_plain | H:c06_down_a | Then the numbers came down |
+| c06 | s27 | 650.08 | 3.89 | clip_plain | H:c06_down_b | By about three years |
+| c06 | s28 | 653.97 | 2.77 | clip_plain | H:c06_down_c | By about four years |
+| c06 | s29 | 656.74 | 4.0 | text_card | CARD + bg G:recfish_a | No fish-eating advisory |
+| c06 | s30 | 660.74 | 4.66 | clip_plain | H:c06_down_d | The last published |
+| c06 | s31 | 665.39 | 3.37 | anim_xray | A:anim_xray | So here is the question |
+| c06 | s32 | 668.77 | 4.8 | anim_xray | A:anim_xray | If the Navy knew |
+| c07 | s01 | 673.57 | 2.89 | map_clip | M:c07_dive | To answer that |
+| c07 | s02 | 676.46 | 3.45 | clip_plain | H:c07_wreck2008 | She does not sit |
+| c07 | s03 | 679.91 | 2.16 | clip_plain | G:gustav | The storms saw |
+| c07 | s04 | 682.07 | 5.54 | clip_plain | H:c07_settle | Within about two and a half |
+| c07 | s05 | 687.61 | 3.73 | map_clip | M:c07_gustav | Among them was Hurricane |
+| c07 | s06 | 691.34 | 5.09 | clip_plain | H:c07_funnel | In late two thousand nine |
+| c07 | s07 | 696.43 | 3.22 | clip_plain | H:c07_depths_a | Today her flight deck |
+| c07 | s08 | 699.65 | 3.21 | clip_plain | H:c07_depths_b | to one hundred and fifty |
+| c07 | s09 | 702.86 | 3.32 | clip_plain | H:c07_depths_c | The top of her island |
+| c07 | s10 | 706.18 | 3.21 | clip_plain | H:c07_depths_d | The deck is beyond |
+| c07 | s11 | 709.39 | 3.75 | text_card | CARD + bg G:navy_wreck_b | Florida warns divers |
+| c07 | s12 | 713.14 | 1.94 | clip_plain | H:c07_divers | The divers came anyway |
+| c07 | s13 | 715.08 | 4.57 | text_card | CARD + bg G:keys_diver | In her first year |
+| c07 | s14 | 719.65 | 3.9 | text_card | CARD + bg G:recfish_b | They brought about |
+| c07 | s15 | 723.55 | 1.77 | map_clip | M:c07_counties_a | to two counties |
+| c07 | s16 | 725.32 | 3.52 | map_clip | M:c07_counties_b | Escambia in Florida |
+| c07 | s17 | 728.85 | 2.27 | text_card | CARD + bg G:offload | And sixty-seven jobs |
+| c07 | s18 | 731.11 | 4.05 | anim_xray | A:anim_xray | Now back to the question |
+| c07 | s19 | 735.16 | 4.62 | anim_xray | A:anim_xray | Almost all of what |
+| c07 | s20 | 739.78 | 4.49 | clip_plain | H:c07_apart | The Navy said ripping |
+| c07 | s21 | 744.27 | 4.24 | lower_third | P:6450776 | And taking her apart |
+| c07 | s22 | 748.51 | 4.15 | clip_plain | H:c07_tally | Two scrap deals |
+| c07 | s23 | 752.66 | 4.93 | clip_plain | P:6698554 | Getting the wiring out |
+| c07 | s24 | 757.59 | 1.78 | clip_plain | G:snap_c | A reef was different |
+| c07 | s25 | 759.37 | 1.98 | text_card | CARD + bg P:6698601 | The Navy said reefing |
+| c07 | s26 | 761.35 | 4.04 | anim_gauge | A:anim_gauge | cost about a quarter |
+| c07 | s27 | 765.39 | 3.96 | anim_gauge | A:anim_gauge | Even as the bill climbed |
+| c07 | s28 | 769.35 | 4.52 | anim_gauge | A:anim_gauge + bg G:kh_a | Next to an estimated |
+| c07 | s29 | 773.86 | 2.39 | clip_plain | P:6695641 | But that bargain |
+| c07 | s30 | 776.25 | 5.15 | text_card | CARD + bg G:fm_out | Within two years |
+| c07 | s31 | 781.4 | 2.08 | text_card | CARD + bg P:6698558 | Cleaning ships to the new |
+| c07 | s32 | 783.48 | 3.8 | text_card | CARD + bg P:6698597 | could wipe out |
+| c07 | s33 | 787.28 | 3.49 | clip_plain | P:6698624 | So that is why |
+| c07 | s34 | 790.77 | 3.28 | anim_options | A:anim_options + bg G:reef_fish | The bottom of the Gulf was |
+| c07 | s35 | 794.05 | 3.92 | clip_plain | H:c07_today | She is still the only |
+| c07 | s36 | 797.98 | 2.4 | clip_plain | F:b10_ssus_profile.mp4 | She will not be the biggest |
+| c07 | s37 | 800.38 | 4.0 | number_clip | F:b10_ssus_crane_river.mp4 | On November twelfth |
+| c07 | s38 | 804.38 | 3.9 | map_clip | M:c07_okaloosa | Okaloosa County plans |
+| c07 | s39 | 808.27 | 4.17 | map_clip | M:c07_endmap | She will lie about thirteen |
+| c07 | s40 | 812.44 | 1.79 | clip_plain | F:b10_ssus_stacks.mp4 | And here is the twist |
+| c07 | s41 | 814.23 | 5.12 | number_clip | P:6698606 | Okaloosa County put |
+| c07 | s42 | 819.34 | 2.84 | map_clip | M:c07_title | Now it is about to take |
+| c07 | s43 | 822.18 | 4.8 | clip_plain | F:b3_aerial_underway2_1969.mp4 | So was the bottom |
+| c07 | s44 | 826.99 | 2.7 | clip_plain | P:6698625 | Or just the cheapest |
+| c07 | s45 | 829.69 | 20.54 | map_clip | M:c07_endscreen | Tell us in the comments |

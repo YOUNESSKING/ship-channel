@@ -2,9 +2,9 @@
  "key": "c02",
  "title": "Oriskany full · Nobody Wanted Her",
  "words": "../build/words.json",
- "audio_offset": 48.625,
+ "audio_offset": 48.977,
  "clips_dir": "../segments",
- "duration": 128.117,
+ "duration": 126.919,
  "fade_out": 0.0,
  "res": 1080,
  "anim_theme": {
@@ -27,7 +27,7 @@
   },
   {
    "id": "s02",
-   "start": "t2.66",
+   "start": "t2.92",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -39,7 +39,7 @@
   },
   {
    "id": "s03",
-   "start": "t6.99",
+   "start": "t7.15",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -51,7 +51,7 @@
   },
   {
    "id": "s04",
-   "start": "t9.55",
+   "start": "t9.71",
    "sfx": false,
    "tag": "ILLUSTRATIVE · U.S. NAVY · EX-KITTY HAWK, BREMERTON, 2022",
    "template": "clip_plain",
@@ -64,7 +64,7 @@
   },
   {
    "id": "s05",
-   "start": "t12.39",
+   "start": "t12.34",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
@@ -87,7 +87,7 @@
   },
   {
    "id": "s06",
-   "start": "t14.72",
+   "start": "t14.89",
    "sfx": false,
    "template": "number_clip",
    "variant": "center_bars",
@@ -104,7 +104,7 @@
   },
   {
    "id": "s07",
-   "start": "t19.10",
+   "start": "t19.03",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -118,7 +118,7 @@
   },
   {
    "id": "s08",
-   "start": "t22.30",
+   "start": "t22.12",
    "sfx": false,
    "tag": "ILLUSTRATIVE · U.S. NAVY · RETIRED SHIP UNDER TOW, MAYPORT, 2021",
    "template": "anim_options",
@@ -144,7 +144,7 @@
   },
   {
    "id": "s09",
-   "start": "t27.54",
+   "start": "t27.41",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -156,7 +156,7 @@
   },
   {
    "id": "s10",
-   "start": "t30.64",
+   "start": "t30.63",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -168,7 +168,7 @@
   },
   {
    "id": "s11",
-   "start": "t35.81",
+   "start": "t35.61",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -180,7 +180,7 @@
   },
   {
    "id": "s12",
-   "start": "t41.73",
+   "start": "t41.44",
    "sfx": false,
    "template": "text_card",
    "variant": "line",
@@ -199,7 +199,7 @@
   },
   {
    "id": "s13",
-   "start": "t43.79",
+   "start": "t43.54",
    "sfx": false,
    "template": "lower_third",
    "variant": "kicker_line",
@@ -215,7 +215,7 @@
   },
   {
    "id": "s14",
-   "start": "t47.36",
+   "start": "t47.02",
    "sfx": false,
    "template": "anim_options",
    "variant": "list",
@@ -237,7 +237,7 @@
   },
   {
    "id": "s15",
-   "start": "t51.27",
+   "start": "t51.10",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -249,7 +249,7 @@
   },
   {
    "id": "s16",
-   "start": "t53.48",
+   "start": "t53.37",
    "sfx": false,
    "template": "text_card",
    "variant": "line",
@@ -268,7 +268,7 @@
   },
   {
    "id": "s17",
-   "start": "t57.10",
+   "start": "t56.84",
    "sfx": false,
    "template": "text_card",
    "variant": "word",
@@ -285,7 +285,7 @@
   },
   {
    "id": "s18",
-   "start": "t58.64",
+   "start": "t58.54",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -297,7 +297,7 @@
   },
   {
    "id": "s19",
-   "start": "t61.42",
+   "start": "t61.32",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -309,7 +309,7 @@
   },
   {
    "id": "s20",
-   "start": "t66.44",
+   "start": "t66.50",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -321,7 +321,7 @@
   },
   {
    "id": "s21",
-   "start": "t69.05",
+   "start": "t68.58",
    "sfx": false,
    "template": "text_card",
    "variant": "number",
@@ -339,7 +339,7 @@
   },
   {
    "id": "s22",
-   "start": "t72.31",
+   "start": "t71.86",
    "sfx": false,
    "template": "text_card",
    "variant": "number",
@@ -356,7 +356,7 @@
   },
   {
    "id": "s23",
-   "start": "t74.13",
+   "start": "t73.86",
    "sfx": false,
    "template": "text_card",
    "variant": "line",
@@ -375,7 +375,7 @@
   },
   {
    "id": "s24",
-   "start": "t77.56",
+   "start": "t77.20",
    "sfx": false,
    "template": "text_card",
    "variant": "pair",
@@ -395,7 +395,7 @@
   },
   {
    "id": "s25",
-   "start": "t82.66",
+   "start": "t82.12",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -407,7 +407,7 @@
   },
   {
    "id": "s26",
-   "start": "t88.16",
+   "start": "t87.39",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -419,7 +419,7 @@
   },
   {
    "id": "s27",
-   "start": "t92.04",
+   "start": "t91.22",
    "sfx": false,
    "template": "text_card",
    "variant": "line",
@@ -438,7 +438,7 @@
   },
   {
    "id": "s28",
-   "start": "t94.81",
+   "start": "t94.10",
    "sfx": false,
    "template": "text_card",
    "variant": "word",
@@ -455,7 +455,7 @@
   },
   {
    "id": "s29",
-   "start": "t98.88",
+   "start": "t98.02",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -467,7 +467,7 @@
   },
   {
    "id": "s30",
-   "start": "t104.74",
+   "start": "t103.87",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -479,7 +479,7 @@
   },
   {
    "id": "s31",
-   "start": "t109.02",
+   "start": "t107.90",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -491,7 +491,7 @@
   },
   {
    "id": "s32",
-   "start": "t113.86",
+   "start": "t113.09",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -503,7 +503,7 @@
   },
   {
    "id": "s33",
-   "start": "t118.80",
+   "start": "t117.88",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -515,7 +515,7 @@
   },
   {
    "id": "s34",
-   "start": "t121.26",
+   "start": "t120.33",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -527,7 +527,7 @@
   },
   {
    "id": "s35",
-   "start": "t124.08",
+   "start": "t123.03",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",

@@ -1,0 +1,726 @@
+{
+ "numbers": [
+  {
+   "shot": "c01:s01",
+   "what": "212",
+   "field": "number_at",
+   "spec": "@feet",
+   "lands": 1.77,
+   "word_start": 1.77,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    0.0,
+    3.9
+   ],
+   "word": "feet"
+  },
+  {
+   "shot": "c01:s05",
+   "what": "ON PURPOSE.",
+   "field": "number_at",
+   "spec": "@purpose",
+   "lands": 10.089,
+   "word_start": 10.089,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    9.8,
+    11.37
+   ],
+   "word": "purpose."
+  },
+  {
+   "shot": "c01:s07",
+   "what": "22",
+   "field": "number_at",
+   "spec": "@twenty",
+   "lands": 13.784,
+   "word_start": 13.784,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    13.73,
+    15.37
+   ],
+   "word": "twenty"
+  },
+  {
+   "shot": "c01:s10",
+   "what": "37",
+   "field": "count.land_at",
+   "spec": "@seven+0.15",
+   "lands": 18.25,
+   "word_start": 18.1,
+   "offset": 0.15,
+   "in_shot": true,
+   "shot_span": [
+    17.5,
+    19.47
+   ],
+   "word": "seven"
+  },
+  {
+   "shot": "c01:s12",
+   "what": "3+",
+   "field": "number_at",
+   "spec": "@three",
+   "lands": 22.67,
+   "word_start": 22.67,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    20.9,
+    23.63
+   ],
+   "word": "three"
+  },
+  {
+   "shot": "c01:s13",
+   "what": "$20",
+   "field": "number_at",
+   "spec": "@twenty",
+   "lands": 23.955,
+   "word_start": 23.955,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    23.63,
+    25.83
+   ],
+   "word": "twenty"
+  },
+  {
+   "shot": "c02:s05",
+   "what": "13",
+   "field": "number_at",
+   "spec": "@thirteen",
+   "lands": 61.598,
+   "word_start": 61.598,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    61.32,
+    63.87
+   ],
+   "word": "thirteen"
+  },
+  {
+   "shot": "c02:s05",
+   "what": "13",
+   "field": "count.land_at",
+   "spec": "@years",
+   "lands": 62.018,
+   "word_start": 62.018,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    61.32,
+    63.87
+   ],
+   "word": "years,"
+  },
+  {
+   "shot": "c02:s06",
+   "what": "STRUCK",
+   "field": "number_at",
+   "spec": "@struck",
+   "lands": 66.39,
+   "word_start": 66.39,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    63.87,
+    68.01
+   ],
+   "word": "struck"
+  },
+  {
+   "shot": "c02:s21",
+   "what": "$600,000",
+   "field": "number_at",
+   "spec": "@six",
+   "lands": 119.254,
+   "word_start": 119.254,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    117.56,
+    120.84
+   ],
+   "word": "six"
+  },
+  {
+   "shot": "c02:s22",
+   "what": "3",
+   "field": "number_at",
+   "spec": "@three",
+   "lands": 120.956,
+   "word_start": 120.956,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    120.84,
+    122.84
+   ],
+   "word": "Three"
+  },
+  {
+   "shot": "c03:s03",
+   "what": "6",
+   "field": "number_at",
+   "spec": "@six",
+   "lands": 184.774,
+   "word_start": 184.774,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    184.66,
+    187.28
+   ],
+   "word": "Six"
+  },
+  {
+   "shot": "c03:s13",
+   "what": "1",
+   "field": "number_at",
+   "spec": "@one mig",
+   "lands": 216.555,
+   "word_start": 216.555,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    215.78,
+    217.97
+   ],
+   "word": "one"
+  },
+  {
+   "shot": "c03:s14",
+   "what": "4",
+   "field": "swap_at",
+   "spec": "@four",
+   "lands": 221.249,
+   "word_start": 221.249,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    217.97,
+    221.95
+   ],
+   "word": "four."
+  },
+  {
+   "shot": "c03:s18",
+   "what": "12,000",
+   "field": "number_at",
+   "spec": "@twelve",
+   "lands": 231.21,
+   "word_start": 231.21,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    230.37,
+    233.27
+   ],
+   "word": "twelve"
+  },
+  {
+   "shot": "c03:s24",
+   "what": "7½",
+   "field": "number_at",
+   "spec": "@seven",
+   "lands": 250.202,
+   "word_start": 250.202,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    248.89,
+    252.03
+   ],
+   "word": "seven"
+  },
+  {
+   "shot": "c03:s30",
+   "what": "≈700",
+   "field": "number_at",
+   "spec": "@seven",
+   "lands": 273.038,
+   "word_start": 273.038,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    271.62,
+    274.43
+   ],
+   "word": "seven"
+  },
+  {
+   "shot": "c03:s31",
+   "what": "5,400",
+   "field": "number_at",
+   "spec": "@five",
+   "lands": 275.788,
+   "word_start": 275.788,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    274.43,
+    278.75
+   ],
+   "word": "five"
+  },
+  {
+   "shot": "c03:s32",
+   "what": "7",
+   "field": "number_at",
+   "spec": "@seven",
+   "lands": 280.166,
+   "word_start": 280.166,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    278.75,
+    281.67
+   ],
+   "word": "seven"
+  },
+  {
+   "shot": "c03:s35",
+   "what": "44",
+   "field": "number_at",
+   "spec": "@forty",
+   "lands": 288.443,
+   "word_start": 288.443,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    287.51,
+    289.82
+   ],
+   "word": "forty"
+  },
+  {
+   "shot": "c03:s49",
+   "what": "5½",
+   "field": "number_at",
+   "spec": "@five",
+   "lands": 334.431,
+   "word_start": 334.431,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    330.99,
+    336.24
+   ],
+   "word": "five"
+  },
+  {
+   "shot": "c04:s03",
+   "what": "FIRST",
+   "field": "number_at",
+   "spec": "@first",
+   "lands": 362.03,
+   "word_start": 362.03,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    360.87,
+    364.73
+   ],
+   "word": "first"
+  },
+  {
+   "shot": "c04:s07",
+   "what": "2 MORE YEARS",
+   "field": "swap_at",
+   "spec": "@two more",
+   "lands": 380.706,
+   "word_start": 380.706,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    376.67,
+    382.26
+   ],
+   "word": "two"
+  },
+  {
+   "shot": "c04:s10",
+   "what": "COMMITTED BY CONGRESS",
+   "field": "count_at",
+   "spec": "@two point",
+   "lands": 389.795,
+   "word_start": 389.795,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    388.72,
+    392.86
+   ],
+   "word": "two"
+  },
+  {
+   "shot": "c04:s11",
+   "what": "FOR CONTAMINANTS",
+   "field": "items.count_at",
+   "spec": "@two point one",
+   "lands": 392.977,
+   "word_start": 392.977,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    392.86,
+    397.2
+   ],
+   "word": "Two"
+  },
+  {
+   "shot": "c04:s18",
+   "what": "REMOVING CONTAMINANTS",
+   "field": "count_at",
+   "spec": "@seven point",
+   "lands": 419.255,
+   "word_start": 419.255,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    416.08,
+    421.59
+   ],
+   "word": "seven"
+  },
+  {
+   "shot": "c04:s19",
+   "what": "½+",
+   "field": "number_at",
+   "spec": "@half",
+   "lands": 421.99,
+   "word_start": 421.99,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    421.59,
+    423.86
+   ],
+   "word": "half"
+  },
+  {
+   "shot": "c04:s20",
+   "what": "$3.7",
+   "field": "number_at",
+   "spec": "@three point",
+   "lands": 425.74,
+   "word_start": 425.74,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    423.86,
+    428.75
+   ],
+   "word": "three"
+  },
+  {
+   "shot": "c04:s24",
+   "what": "$800,000",
+   "field": "number_at",
+   "spec": "@eight",
+   "lands": 444.137,
+   "word_start": 444.137,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    442.74,
+    446.12
+   ],
+   "word": "eight"
+  },
+  {
+   "shot": "c04:s27",
+   "what": "NAVY SPENDING, SPRING 2006",
+   "field": "count_at",
+   "spec": "@twelve point",
+   "lands": 452.526,
+   "word_start": 452.526,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    451.43,
+    456.02
+   ],
+   "word": "twelve"
+  },
+  {
+   "shot": "c04:s28",
+   "what": "≈ $20",
+   "field": "number_at",
+   "spec": "@twenty",
+   "lands": 459.353,
+   "word_start": 459.353,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    456.02,
+    460.41
+   ],
+   "word": "twenty"
+  },
+  {
+   "shot": "c04:s29",
+   "what": "≈ $21",
+   "field": "number_at",
+   "spec": "@twenty one",
+   "lands": 463.742,
+   "word_start": 463.742,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    460.41,
+    465.15
+   ],
+   "word": "twenty"
+  },
+  {
+   "shot": "c05:s11",
+   "what": "500+",
+   "field": "number_at",
+   "spec": "@five",
+   "lands": 511.646,
+   "word_start": 511.646,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    511.05,
+    514.35
+   ],
+   "word": "five"
+  },
+  {
+   "shot": "c05:s12",
+   "what": "10:25",
+   "field": "number_at",
+   "spec": "@ten",
+   "lands": 514.61,
+   "word_start": 514.61,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    514.35,
+    516.21
+   ],
+   "word": "ten"
+  },
+  {
+   "shot": "c05:s14",
+   "what": "≈5",
+   "field": "number_at",
+   "spec": "@five",
+   "lands": 519.207,
+   "word_start": 519.207,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    517.23,
+    520.82
+   ],
+   "word": "five"
+  },
+  {
+   "shot": "c05:s15",
+   "what": "37",
+   "field": "count.land_at",
+   "spec": "@minutes",
+   "lands": 521.974,
+   "word_start": 521.974,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    520.82,
+    523.3
+   ],
+   "word": "minutes."
+  },
+  {
+   "shot": "c05:s21",
+   "what": "LARGEST",
+   "field": "number_at",
+   "spec": "@largest",
+   "lands": 539.485,
+   "word_start": 539.485,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    538.97,
+    542.98
+   ],
+   "word": "largest"
+  },
+  {
+   "shot": "c06:s02",
+   "what": "≈700",
+   "field": "number_at",
+   "spec": "@seven",
+   "lands": 558.954,
+   "word_start": 558.954,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    558.2,
+    561.59
+   ],
+   "word": "seven"
+  },
+  {
+   "shot": "c06:s08",
+   "what": "FIRST",
+   "field": "number_at",
+   "spec": "@first",
+   "lands": 581.586,
+   "word_start": 581.586,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    581.05,
+    584.93
+   ],
+   "word": "first"
+  },
+  {
+   "shot": "c06:s13",
+   "what": "254",
+   "field": "number_at",
+   "spec": "@two hundred",
+   "lands": 602.494,
+   "word_start": 602.494,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    602.38,
+    604.71
+   ],
+   "word": "Two"
+  },
+  {
+   "shot": "c07:s13",
+   "what": "4,200",
+   "field": "number_at",
+   "spec": "@four thousand",
+   "lands": 716.958,
+   "word_start": 716.958,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    715.08,
+    719.65
+   ],
+   "word": "four"
+  },
+  {
+   "shot": "c07:s14",
+   "what": "$3.6",
+   "field": "number_at",
+   "spec": "@three point",
+   "lands": 720.371,
+   "word_start": 720.371,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    719.65,
+    723.55
+   ],
+   "word": "three"
+  },
+  {
+   "shot": "c07:s17",
+   "what": "67",
+   "field": "number_at",
+   "spec": "@sixty",
+   "lands": 729.125,
+   "word_start": 729.125,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    728.85,
+    731.11
+   ],
+   "word": "sixty"
+  },
+  {
+   "shot": "c07:s26",
+   "what": "REEF + CLEANUP",
+   "field": "items.count_at",
+   "spec": "@quarter",
+   "lands": 762.151,
+   "word_start": 762.151,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    761.35,
+    765.39
+   ],
+   "word": "quarter"
+  },
+  {
+   "shot": "c07:s27",
+   "what": "REEF · PRESS EST. 2006",
+   "field": "items.count_at",
+   "spec": "@bill",
+   "lands": 766.168,
+   "word_start": 766.168,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    765.39,
+    769.35
+   ],
+   "word": "bill"
+  },
+  {
+   "shot": "c07:s28",
+   "what": "SCRAP · USNI 2006 EST.",
+   "field": "items.count_at",
+   "spec": "@twenty four",
+   "lands": 770.565,
+   "word_start": 770.565,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    769.35,
+    773.86
+   ],
+   "word": "twenty"
+  },
+  {
+   "shot": "c07:s37",
+   "what": "NOV 12",
+   "field": "number_at",
+   "spec": "@november",
+   "lands": 800.636,
+   "word_start": 800.636,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    800.38,
+    804.38
+   ],
+   "word": "November"
+  },
+  {
+   "shot": "c07:s41",
+   "what": "$50,000",
+   "field": "number_at",
+   "spec": "@fifty",
+   "lands": 815.909,
+   "word_start": 815.909,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    814.23,
+    819.35
+   ],
+   "word": "fifty"
+  }
+ ],
+ "over_6s": [],
+ "fails": []
+}

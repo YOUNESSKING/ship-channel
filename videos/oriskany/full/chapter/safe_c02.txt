@@ -13,4 +13,4 @@ safe_area.js adjusted:
   fit x0.98: Work held up until December.
   lift 19px: THE PLANA WARSHIP AS A THEME P
   lift 20px: THE PLANA WARSHIP AS A THEME P
-PASS: no text breaks the size / safe-area / font rules (97.7 s checked every 0.5 s)
+PASS: no text breaks the size / safe-area / font rules (96.8 s checked every 0.5 s)

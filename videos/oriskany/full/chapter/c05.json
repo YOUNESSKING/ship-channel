@@ -2,9 +2,9 @@
  "key": "c05",
  "title": "Oriskany full · Thirty-Seven Minutes",
  "words": "../build/words.json",
- "audio_offset": 484.483,
+ "audio_offset": 475.348,
  "clips_dir": "../segments",
- "duration": 81.394,
+ "duration": 80.089,
  "fade_out": 0.0,
  "res": 1080,
  "anim_theme": {
@@ -27,7 +27,7 @@
   },
   {
    "id": "s02",
-   "start": "t5.15",
+   "start": "t5.11",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -39,7 +39,7 @@
   },
   {
    "id": "s03",
-   "start": "t6.86",
+   "start": "t6.50",
    "sfx": false,
    "template": "lower_third",
    "variant": "kicker_line",
@@ -55,7 +55,7 @@
   },
   {
    "id": "s04",
-   "start": "t12.17",
+   "start": "t11.68",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -67,7 +67,7 @@
   },
   {
    "id": "s05",
-   "start": "t16.37",
+   "start": "t15.86",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -79,7 +79,7 @@
   },
   {
    "id": "s06",
-   "start": "t19.64",
+   "start": "t19.05",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -91,7 +91,7 @@
   },
   {
    "id": "s07",
-   "start": "t23.00",
+   "start": "t22.25",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -103,7 +103,7 @@
   },
   {
    "id": "s08",
-   "start": "t26.00",
+   "start": "t25.40",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -115,7 +115,7 @@
   },
   {
    "id": "s09",
-   "start": "t28.30",
+   "start": "t27.70",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -127,7 +127,7 @@
   },
   {
    "id": "s10",
-   "start": "t32.10",
+   "start": "t30.91",
    "sfx": false,
    "template": "anim_xray",
    "variant": "animal",
@@ -154,7 +154,7 @@
   },
   {
    "id": "s11",
-   "start": "t36.91",
+   "start": "t35.70",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
@@ -171,7 +171,7 @@
   },
   {
    "id": "s12",
-   "start": "t40.21",
+   "start": "t39.00",
    "sfx": false,
    "template": "text_card",
    "variant": "number",
@@ -190,7 +190,7 @@
   },
   {
    "id": "s13",
-   "start": "t41.79",
+   "start": "t40.86",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -203,7 +203,7 @@
   },
   {
    "id": "s14",
-   "start": "t43.03",
+   "start": "t41.88",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
@@ -220,7 +220,7 @@
   },
   {
    "id": "s15",
-   "start": "t46.72",
+   "start": "t45.47",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
@@ -241,7 +241,7 @@
   },
   {
    "id": "s16",
-   "start": "t49.07",
+   "start": "t47.95",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -253,7 +253,7 @@
   },
   {
    "id": "s17",
-   "start": "t53.16",
+   "start": "t51.84",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -265,7 +265,7 @@
   },
   {
    "id": "s18",
-   "start": "t54.55",
+   "start": "t53.32",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -277,7 +277,7 @@
   },
   {
    "id": "s19",
-   "start": "t58.85",
+   "start": "t57.43",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -289,7 +289,7 @@
   },
   {
    "id": "s20",
-   "start": "t61.45",
+   "start": "t60.18",
    "sfx": false,
    "template": "lower_third",
    "variant": "kicker_line",
@@ -305,7 +305,7 @@
   },
   {
    "id": "s21",
-   "start": "t64.94",
+   "start": "t63.62",
    "sfx": false,
    "template": "number_clip",
    "variant": "center_bars",
@@ -322,7 +322,7 @@
   },
   {
    "id": "s22",
-   "start": "t68.93",
+   "start": "t67.63",
    "sfx": false,
    "template": "text_card",
    "variant": "line",
@@ -341,7 +341,7 @@
   },
   {
    "id": "s23",
-   "start": "t74.66",
+   "start": "t73.06",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -353,7 +353,7 @@
   },
   {
    "id": "s24",
-   "start": "t76.67",
+   "start": "t75.09",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -365,7 +365,7 @@
   },
   {
    "id": "s25",
-   "start": "t78.89",
+   "start": "t77.45",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",

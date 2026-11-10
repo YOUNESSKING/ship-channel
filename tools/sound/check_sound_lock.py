@@ -43,7 +43,8 @@ BED_FADE = 0.25
 JET_EQ = [(2500.0, -6.0, 1.0)]   # owner 2026-11-08: quieter SFX (critic v5 M3): jets cut 6 dB at 2.5 kHz (Q 1)
 # owner 2026-11-08: quieter SFX (critic v5 M1): the ONE-OFF hook-blast exception. The 2nd hook blast (explosion + boom @ 17.65) may run
 # into the voice gap after its 0.33 s flash: <= GAP_CARRY_MAX s past its cut, faded, ending before the next word. No other cue may.
-GAP_CARRY_CUES = {("explosion", 17.65), ("boom", 17.65)}
+GAP_CARRY_CUES = {("explosion", 17.65), ("boom", 17.65),
+                  ("explosion", 17.167), ("boom", 17.167)}   # Oriskany v8 (Archive voice, 2026-11-10): the same 2nd hook blast, re-timed to the new words
 GAP_CARRY_MAX = 0.25
 # owner 2026-11-08: quieter SFX. The floors below were written for the louder 2026-11-05 levels.
 LRA_MIN_FULL = 1.7               # full-length masters: LRA 1.7-8 LU (was 2-8)

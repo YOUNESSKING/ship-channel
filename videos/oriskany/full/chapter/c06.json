@@ -2,9 +2,9 @@
  "key": "c06",
  "title": "Oriskany full · The Fish Test",
  "words": "../build/words.json",
- "audio_offset": 565.877,
+ "audio_offset": 555.437,
  "clips_dir": "../segments",
- "duration": 120.665,
+ "duration": 118.131,
  "fade_out": 0.0,
  "res": 1080,
  "anim_theme": {
@@ -36,7 +36,7 @@
   },
   {
    "id": "s02",
-   "start": "t2.80",
+   "start": "t2.76",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
@@ -53,7 +53,7 @@
   },
   {
    "id": "s03",
-   "start": "t6.03",
+   "start": "t6.15",
    "sfx": false,
    "template": "anim_xray",
    "variant": "animal",
@@ -92,7 +92,7 @@
   },
   {
    "id": "s04",
-   "start": "t10.76",
+   "start": "t10.73",
    "sfx": false,
    "template": "lower_third",
    "variant": "kicker_line",
@@ -108,7 +108,7 @@
   },
   {
    "id": "s05",
-   "start": "t14.11",
+   "start": "t13.98",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -120,7 +120,7 @@
   },
   {
    "id": "s06",
-   "start": "t16.95",
+   "start": "t16.73",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -132,7 +132,7 @@
   },
   {
    "id": "s07",
-   "start": "t20.74",
+   "start": "t20.46",
    "sfx": false,
    "template": "lower_third",
    "variant": "kicker_line",
@@ -149,7 +149,7 @@
   },
   {
    "id": "s08",
-   "start": "t26.07",
+   "start": "t25.61",
    "sfx": false,
    "template": "number_clip",
    "variant": "center_bars",
@@ -166,7 +166,7 @@
   },
   {
    "id": "s09",
-   "start": "t30.02",
+   "start": "t29.49",
    "sfx": false,
    "template": "lower_third",
    "variant": "kicker_line",
@@ -182,7 +182,7 @@
   },
   {
    "id": "s10",
-   "start": "t33.00",
+   "start": "t32.61",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -194,7 +194,7 @@
   },
   {
    "id": "s11",
-   "start": "t38.47",
+   "start": "t38.18",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -206,7 +206,7 @@
   },
   {
    "id": "s12",
-   "start": "t44.35",
+   "start": "t43.92",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -218,7 +218,7 @@
   },
   {
    "id": "s13",
-   "start": "t47.76",
+   "start": "t46.94",
    "sfx": false,
    "tag": "ILLUSTRATIVE · NOAA · FISH SAMPLES FOR TESTING, 2010",
    "template": "text_card",
@@ -237,7 +237,7 @@
   },
   {
    "id": "s14",
-   "start": "t50.12",
+   "start": "t49.27",
    "sfx": false,
    "tag": "ILLUSTRATIVE · NOAA · FISH SAMPLES FOR TESTING, 2010",
    "template": "clip_plain",
@@ -250,7 +250,7 @@
   },
   {
    "id": "s15",
-   "start": "t53.27",
+   "start": "t52.31",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -262,7 +262,7 @@
   },
   {
    "id": "s16",
-   "start": "t59.10",
+   "start": "t57.91",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -274,7 +274,7 @@
   },
   {
    "id": "s17",
-   "start": "t62.83",
+   "start": "t61.73",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -286,7 +286,7 @@
   },
   {
    "id": "s18",
-   "start": "t65.56",
+   "start": "t64.51",
    "sfx": false,
    "tag": "ILLUSTRATIVE · NOAA · FISH SAMPLES FOR TESTING, 2010",
    "template": "clip_plain",
@@ -299,7 +299,7 @@
   },
   {
    "id": "s19",
-   "start": "t69.58",
+   "start": "t68.39",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -311,7 +311,7 @@
   },
   {
    "id": "s20",
-   "start": "t72.96",
+   "start": "t71.76",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -323,7 +323,7 @@
   },
   {
    "id": "s21",
-   "start": "t76.92",
+   "start": "t75.79",
    "sfx": false,
    "tag": "ILLUSTRATIVE · NOAA · RED SNAPPER, GULF OF MEXICO",
    "template": "text_card",
@@ -342,7 +342,7 @@
   },
   {
    "id": "s22",
-   "start": "t81.17",
+   "start": "t79.89",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -354,7 +354,7 @@
   },
   {
    "id": "s23",
-   "start": "t83.12",
+   "start": "t81.83",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -366,7 +366,7 @@
   },
   {
    "id": "s24",
-   "start": "t88.28",
+   "start": "t86.47",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -378,7 +378,7 @@
   },
   {
    "id": "s25",
-   "start": "t90.46",
+   "start": "t88.71",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -390,7 +390,7 @@
   },
   {
    "id": "s26",
-   "start": "t94.38",
+   "start": "t92.72",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -402,7 +402,7 @@
   },
   {
    "id": "s27",
-   "start": "t96.20",
+   "start": "t94.64",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -414,7 +414,7 @@
   },
   {
    "id": "s28",
-   "start": "t100.46",
+   "start": "t98.53",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -426,7 +426,7 @@
   },
   {
    "id": "s29",
-   "start": "t103.29",
+   "start": "t101.30",
    "sfx": false,
    "tag": "ILLUSTRATIVE · NOAA · RED SNAPPER FISHING, GULF OF MEXICO",
    "template": "text_card",
@@ -445,7 +445,7 @@
   },
   {
    "id": "s30",
-   "start": "t107.44",
+   "start": "t105.30",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -457,7 +457,7 @@
   },
   {
    "id": "s31",
-   "start": "t112.28",
+   "start": "t109.95",
    "sfx": false,
    "template": "anim_xray",
    "variant": "animal",
@@ -478,7 +478,7 @@
   },
   {
    "id": "s32",
-   "start": "t115.55",
+   "start": "t113.33",
    "sfx": false,
    "template": "anim_xray",
    "variant": "animal",
