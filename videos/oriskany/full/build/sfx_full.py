@@ -16,6 +16,7 @@ HERE = os.path.dirname(os.path.abspath(__file__)); FULL = os.path.dirname(HERE);
 sys.path.insert(0, os.path.join(ROOT, "tools/sound")); sys.path.insert(0, os.path.join(ROOT, "templates"))
 sys.path.insert(0, os.path.join(ROOT, "videos/oriskany/test_v4/build"))
 import sfx_mix_lib as L
+sys.path.insert(0, HERE); import warp_v8 as WP   # v8: v7 (am_michael) seconds <-> v8 (Archive) seconds
 import build_chapter as bc
 FPS = 30
 AB = json.load(open(os.path.join(HERE, "anim_beats.json")))
@@ -43,8 +44,13 @@ ORDER = [s[0] for s in SHOTS]
 # ---------------------------------------------------------------- c01: the approved hook, verbatim
 import sfx_cues_v4 as V4
 CUES, BEDS, LOG = [], [], []
+V4ST = {s[0]: s[1] for s in V4.SHOTS}          # test-v4 (= v7) hook shot starts
 for c in V4.CUES:
-    c = dict(c); c["shot"] = "c01:" + c["shot"]
+    c = dict(c)
+    # v8: the hook is re-timed to the Archive voice (build/hook_v8.py): the event moves through the word map, snapped to a frame
+    ev8 = round(round(WP.new(V4ST[c["shot"]] + c["at"]) * FPS) / FPS, 4)
+    c["shot"] = "c01:" + c["shot"]
+    if c["shot"] in ST: c["at"] = round(max(0.0, ev8 - ST[c["shot"]][0]), 4)
     if "end_shot" in c: c["end_shot"] = "c01:" + c["end_shot"]
     if c["shot"] not in ST or c.get("end_shot", c["shot"]) not in ST: LOG.append(("c01", c["shot"], c["role"], "dropped (shot not in the 48.6 s hook)")); continue
     CUES.append(c)
@@ -112,19 +118,19 @@ def to_v3(t):
     for c in _CUTS:
         if t >= c["t1"]: d += c["dur"]
     return t - d
-def T(c): return to_v2(ST[c["shot"]][0] + c["at"])
+def T(c): return to_v2(WP.old(ST[c["shot"]][0] + c["at"]))   # v8: rules below are in v2 (critique) seconds
 def shot_at(t): return next(s for s, a, b in SHOTS if a <= t < b)
 def clip_of(shot):
     k, sid = shot.split(":"); s = LOCAL[(k, sid)][1]; return (s.get("clip") or {}).get("file", "")
 V2 = []; out = []
 for c in CUES:
     t = T(c)
-    if t < HOOK_END - 0.01: out.append(c); continue   # (t = v2 time)                      # the approved hook: untouched
+    if t < WP.old(HOOK_END) - 0.01: out.append(c); continue   # (t = v2 time; v8: hook end mapped back)                      # the approved hook: untouched
     r, note = c["role"], c["note"]
     if r == "whoosh":
         if any(abs(t - w) < 1.0 for w in WHOOSH_KEEP): out.append(c)
         elif t > 860 and not any(x.get("_end") for x in out):
-            ew = to_v3(END_WHOOSH); sh = shot_at(ew); c = dict(c, shot=sh, at=round(ew - ST[sh][0], 3), _end=True); out.append(c); V2.append((t, r, f"moved to {END_WHOOSH} (S4)"))
+            ew = WP.new(to_v3(END_WHOOSH)); sh = shot_at(ew); c = dict(c, shot=sh, at=round(ew - ST[sh][0], 3), _end=True); out.append(c); V2.append((t, r, f"moved to {END_WHOOSH} (S4)"))
         else: V2.append((t, r, "dropped (M1: whoosh only on the 3 biggest moves)"))
         continue
     if r == "jet" and "b1_launch" in note:
@@ -140,11 +146,11 @@ for c in CUES:
     if r == "ship" and "groan" in note and 530 < t < 537:
         if 530 < t < 532:     # S3: groan 1 after "minutes.", runs on through the stern-first shot
             nxt = ORDER[ORDER.index(c["shot"]) + 1]
-            c = dict(c, at=round(to_v3(532.80) - ST[c["shot"]][0], 3), end_shot=nxt); V2.append((t, r, "moved to 532.80 (S3)"))
+            c = dict(c, at=round(WP.new(to_v3(532.80)) - ST[c["shot"]][0], 3), end_shot=nxt); V2.append((t, r, "moved to 532.80 (S3)"))
         else: V2.append((t, r, "dropped (S3: groan 2 masked 'down stern first')")); continue
     if r == "horn" and 824 < t < 827:   # N4: the horn in the voice gap before "On November twelfth"
         nxt = ORDER[ORDER.index(c["shot"]) + 1]
-        c = dict(c, at=round(to_v3(827.55) - ST[c["shot"]][0], 3), end_shot=nxt); V2.append((t, r, "moved to 827.55 (N4)"))
+        c = dict(c, at=round(WP.new(to_v3(827.55)) - ST[c["shot"]][0], 3), end_shot=nxt); V2.append((t, r, "moved to 827.55 (N4)"))
     out.append(c)
     if r == "explosion" and 525.5 < t < 527:   # S3: boom layer under the c05 charges, as the hook does at 17.65 (locked boom level)
         out.append(dict(shot=c["shot"], at=c["at"], role="boom", note="charges fire: boom layer (as the hook)")); V2.append((t, "boom", "added (S3)"))
@@ -220,11 +226,11 @@ S5_DROP = [18.69, 22.79, 61.52, 90.99, 94.25, 96.42, 106.20, 116.16, 119.44, 127
            730.83, 743.59, 757.44, 760.95, 763.88, 774.18, 786.01, 815.21]
 V6LOG, out, hit6, drop6 = [], [], set(), set()
 for c in CUES:
-    t = ST[c["shot"]][0] + c["at"]
-    d = next((x for x in S5_DROP if abs(x - t) < 0.02), None)
+    t = ST[c["shot"]][0] + c["at"]; t7 = WP.old(t)   # v8: S5 / V6 are listed in v7 seconds
+    d = next((x for x in S5_DROP if abs(x - t7) < 0.12), None)
     if d is not None and c["role"] in ("pop", "tick"):
         drop6.add(d); V6LOG.append((t, c["role"], "dropped (S5: > 10 dB under the mix, masked)")); out.append(dict(c, drop=True)); continue
-    k = next((k for k in V6 if k[0] == c["role"] and abs(k[1] - t) < 0.02), None)
+    k = next((k for k in V6 if k[0] == c["role"] and abs(k[1] - t7) < 0.12), None)
     if k:
         ch, why = V6[k]; ch = dict(ch); hit6.add(k)
         if ch.get("gap_carry") == "word":

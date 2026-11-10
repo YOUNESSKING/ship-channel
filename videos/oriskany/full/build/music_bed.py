@@ -13,18 +13,19 @@ v2 changes (mix_clip.py still plays the bed at the LOCKED MUSIC_VOL 0.08 + MUSIC
   Hook (0-48.6 s, owner-approved): the v1 bed samples are kept verbatim up to 48.0 s (audio/music_bed_v1.wav, saved on the
       first run), with a 2 s gain crossfade into the v2 bed (same source, same alignment).
 Writes audio/music_bed.wav (float) + build/music_bed.json."""
-import json, os, shutil, subprocess, numpy as np, soundfile as sf, pyloudnorm as pyln
+import json, os, shutil, subprocess, sys, numpy as np, soundfile as sf, pyloudnorm as pyln
 HERE = os.path.dirname(os.path.abspath(__file__)); FULL = os.path.dirname(HERE); ROOT = os.path.abspath(os.path.join(FULL, "../../.."))
 Z = os.path.join(ROOT, "assets/music/candidates/zabriskie")
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import warp_v8 as WP   # v8: v7 seconds -> Archive-voice seconds
 CH = {c["key"]: c for c in json.load(open(os.path.join(FULL, "chapters.json")))["chapters"]}
 SR = 48000
 TOTAL = round(CH["c07"]["end"] + 18.0, 3)
 XF = 5.0
 TARGET = float(os.environ.get("MUSIC_TARGET_LUFS", "-20.5"))
 SW_TENSION = CH["c06"]["start"]
-SW_OUTRO = 806.312   # v2 value (= last 60 s of the v2 narration); v3 keeps the outro entering on the same words, "So that is why..." + 4 s
-SW_LOOP = 360.0
-DIP = (538.46, 540.6, -12.0)
+SW_OUTRO = round(WP.new(806.312), 3)   # v2 value (= last 60 s of the v2 narration); v3 keeps the outro entering on the same words, "So that is why..." + 4 s
+SW_LOOP = round(WP.new(360.0), 3)   # v8: same words as the v7 360.0 s
+DIP = (round(WP.new(538.46), 3), round(WP.new(540.6), 3), -12.0)   # v8: mapped to the same words
 END_LIFT = (CH["c07"]["voice_end"] + 0.9, 8.0)        # 866.8 s (after "comments." + 1 s)
 HOOK_KEEP = CH["c02"]["start"] - 0.6                    # 48.0 s
 P = [("neptuneflux-01.m4a", "Stories About the World That Once Was", 0.0, 0.0),

@@ -1,1356 +1,2034 @@
 {
- "duration": 847.596,
+ "voice": "archive (bm_fable 0.40 + am_michael 0.40 + bm_lewis 0.20)",
+ "style_md5": "c9ce4988",
+ "speed": 0.92,
+ "question_speed": 0.8522,
+ "duration": 832.229,
  "chunks": [
   {
    "text": "Right now, two hundred and twelve feet under the Gulf of Mexico,",
    "start": 0.35,
-   "end": 4.335,
-   "chapter": "c01"
+   "end": 3.924,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "4b17cbdaa421.wav"
   },
   {
    "text": "lies an aircraft carrier.",
-   "start": 4.415,
-   "end": 5.952,
-   "chapter": "c01"
+   "start": 4.004,
+   "end": 5.625,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "26dda462caff.wav"
   },
   {
    "text": "No enemy sank her.",
-   "start": 6.402,
-   "end": 7.719,
-   "chapter": "c01"
+   "start": 6.075,
+   "end": 7.542,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "16a5b5624a23.wav"
   },
   {
    "text": "The United States Navy did.",
-   "start": 8.019,
-   "end": 9.807,
-   "chapter": "c01"
+   "start": 7.842,
+   "end": 9.619,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "39ea36ca2ae5.wav"
   },
   {
    "text": "On purpose.",
-   "start": 10.057,
-   "end": 10.982,
-   "chapter": "c01"
+   "start": 9.869,
+   "end": 10.864,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "2b47fdb58de6.wav"
   },
   {
    "text": "Navy demolition divers set off twenty-two charges inside the USS Oriskany.",
-   "start": 11.582,
-   "end": 17.667,
-   "chapter": "c01"
+   "start": 11.464,
+   "end": 17.184,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "c7c27f478280.wav"
   },
   {
    "text": "Thirty-seven minutes later,",
-   "start": 18.217,
-   "end": 19.753,
-   "chapter": "c01"
+   "start": 17.734,
+   "end": 19.36,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "035f3662a1dd.wav"
   },
   {
    "text": "she was gone.",
-   "start": 19.853,
-   "end": 20.771,
-   "chapter": "c01"
+   "start": 19.46,
+   "end": 20.41,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "12679710b0f6.wav"
   },
   {
    "text": "Getting her ready to sink took over three years",
-   "start": 21.271,
-   "end": 23.758,
-   "chapter": "c01"
+   "start": 20.91,
+   "end": 23.535,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "dbd5776cfe6f.wav"
   },
   {
    "text": "and about twenty million dollars.",
-   "start": 23.838,
-   "end": 25.597,
-   "chapter": "c01"
+   "start": 23.615,
+   "end": 25.441,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "3eeb49b2043b.wav"
   },
   {
    "text": "So why pay millions to put a carrier on the sea floor?",
-   "start": 26.097,
-   "end": 29.345,
-   "chapter": "c01"
+   "start": 25.941,
+   "end": 29.313,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.8522,
+   "file": "3f22264b72a5.wav"
   },
   {
    "text": "Why not keep her?",
-   "start": 29.695,
-   "end": 30.856,
-   "chapter": "c01"
+   "start": 29.663,
+   "end": 30.859,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.8522,
+   "file": "1ca9c8ef3560.wav"
   },
   {
    "text": "Why not scrap her?",
-   "start": 31.056,
-   "end": 32.29,
-   "chapter": "c01"
+   "start": 31.059,
+   "end": 32.364,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.8522,
+   "file": "eefa9d763777.wav"
   },
   {
    "text": "The answer is buried in her past.",
-   "start": 32.79,
-   "end": 34.659,
-   "chapter": "c01"
+   "start": 32.864,
+   "end": 34.931,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "131e51cc4c99.wav"
   },
   {
    "text": "And in what was still inside her when she sank.",
-   "start": 34.959,
-   "end": 37.336,
-   "chapter": "c01"
+   "start": 35.231,
+   "end": 37.718,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "fe72b9c5a5f2.wav"
   },
   {
    "text": "And it matters right now.",
-   "start": 37.836,
-   "end": 39.195,
-   "chapter": "c01"
+   "start": 38.218,
+   "end": 39.734,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "2494a194290c.wav"
   },
   {
    "text": "On November twelfth, the ocean liner SS United States is scheduled to follow her down.",
-   "start": 39.595,
-   "end": 45.695,
-   "chapter": "c01"
+   "start": 40.134,
+   "end": 46.037,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "46d04b7176c7.wav"
   },
   {
    "text": "About thirteen nautical miles away.",
-   "start": 45.895,
-   "end": 48.175,
-   "chapter": "c01"
+   "start": 46.237,
+   "end": 48.527,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "746d5956a149.wav"
   },
   {
    "text": "Start with the day her service ended.",
-   "start": 49.075,
-   "end": 51.103,
-   "chapter": "c02"
+   "start": 49.427,
+   "end": 51.72,
+   "chapter": "c02",
+   "para": 5,
+   "speed": 0.92,
+   "file": "4239555b69bd.wav"
   },
   {
    "text": "In September nineteen seventy-six, the Navy decommissioned her.",
-   "start": 51.403,
-   "end": 55.439,
-   "chapter": "c02"
+   "start": 52.02,
+   "end": 55.951,
+   "chapter": "c02",
+   "para": 5,
+   "speed": 0.92,
+   "file": "071b9720b12b.wav"
   },
   {
    "text": "She was laid up at Bremerton, Washington, in a row of silent grey ships.",
-   "start": 55.739,
-   "end": 60.536,
-   "chapter": "c02"
+   "start": 56.251,
+   "end": 60.838,
+   "chapter": "c02",
+   "para": 5,
+   "speed": 0.92,
+   "file": "c2cc5b4981ec.wav"
   },
   {
    "text": "For thirteen years, she just waited.",
-   "start": 61.136,
-   "end": 63.166,
-   "chapter": "c02"
+   "start": 61.438,
+   "end": 63.69,
+   "chapter": "c02",
+   "para": 6,
+   "speed": 0.92,
+   "file": "69a8431ab6b8.wav"
   },
   {
    "text": "In July nineteen eighty-nine, she was struck from the Navy list.",
-   "start": 63.466,
-   "end": 67.541,
-   "chapter": "c02"
+   "start": 63.99,
+   "end": 67.827,
+   "chapter": "c02",
+   "para": 6,
+   "speed": 0.92,
+   "file": "851f7bfeed6e.wav"
   },
   {
    "text": "On paper, she was no longer a warship.",
-   "start": 67.841,
-   "end": 70.444,
-   "chapter": "c02"
+   "start": 68.127,
+   "end": 70.612,
+   "chapter": "c02",
+   "para": 6,
+   "speed": 0.92,
+   "file": "baa9bded98ca.wav"
   },
   {
    "text": "A ship like that usually ends one of two ways.",
-   "start": 71.044,
-   "end": 74.018,
-   "chapter": "c02"
+   "start": 71.212,
+   "end": 74.067,
+   "chapter": "c02",
+   "para": 7,
+   "speed": 0.92,
+   "file": "3b4db9143488.wav"
   },
   {
    "text": "A museum, or a scrapyard.",
-   "start": 74.318,
-   "end": 75.981,
-   "chapter": "c02"
+   "start": 74.367,
+   "end": 76.212,
+   "chapter": "c02",
+   "para": 7,
+   "speed": 0.92,
+   "file": "3428f9eaa73c.wav"
   },
   {
    "text": "Four of her sisters would become museums.",
-   "start": 76.281,
-   "end": 78.826,
+   "start": 76.512,
+   "end": 79.123,
    "chapter": "c02",
-   "v2_note": "re-voiced in v2 (was: Four of her sisters were already museums., 2.504 s)"
+   "para": 7,
+   "speed": 0.92,
+   "file": "6e341046b7bf.wav"
   },
   {
    "text": "Then, in the early nineteen nineties, an offer came from across the Pacific.",
-   "start": 79.385,
-   "end": 84.252,
-   "chapter": "c02"
+   "start": 79.723,
+   "end": 84.408,
+   "chapter": "c02",
+   "para": 8,
+   "speed": 0.92,
+   "file": "18ec478169d9.wav"
   },
   {
    "text": "Japanese investors wanted her as the centrepiece of an attraction in Tokyo Bay.",
-   "start": 84.552,
-   "end": 90.173,
-   "chapter": "c02"
+   "start": 84.708,
+   "end": 90.238,
+   "chapter": "c02",
+   "para": 8,
+   "speed": 0.92,
+   "file": "87648060e82d.wav"
   },
   {
    "text": "They called it City of America.",
-   "start": 90.473,
-   "end": 92.235,
-   "chapter": "c02"
+   "start": 90.538,
+   "end": 92.338,
+   "chapter": "c02",
+   "para": 8,
+   "speed": 0.92,
+   "file": "9b86f5444eae.wav"
   },
   {
    "text": "An American warship, as a theme park in Japan.",
-   "start": 92.535,
-   "end": 95.801,
-   "chapter": "c02"
+   "start": 92.638,
+   "end": 95.818,
+   "chapter": "c02",
+   "para": 8,
+   "speed": 0.92,
+   "file": "b5e8a280a468.wav"
   },
   {
    "text": "The money never came.",
-   "start": 96.101,
-   "end": 97.442,
-   "chapter": "c02"
+   "start": 96.118,
+   "end": 97.597,
+   "chapter": "c02",
+   "para": 8,
+   "speed": 0.92,
+   "file": "f923c58e337c.wav"
   },
   {
    "text": "And nobody else asked for her.",
-   "start": 97.742,
-   "end": 99.413,
-   "chapter": "c02"
+   "start": 97.897,
+   "end": 99.593,
+   "chapter": "c02",
+   "para": 8,
+   "speed": 0.92,
+   "file": "b2731e20aa39.wav"
   },
   {
    "text": "So the Navy tried the scrapyard.",
-   "start": 100.013,
-   "end": 101.924,
-   "chapter": "c02"
+   "start": 100.193,
+   "end": 102.168,
+   "chapter": "c02",
+   "para": 9,
+   "speed": 0.92,
+   "file": "b7a308a3c652.wav"
   },
   {
    "text": "In the early nineteen nineties, she was sold for scrap.",
-   "start": 102.224,
-   "end": 105.543,
-   "chapter": "c02"
+   "start": 102.468,
+   "end": 105.641,
+   "chapter": "c02",
+   "para": 9,
+   "speed": 0.92,
+   "file": "e067bc66957f.wav"
   },
   {
    "text": "The buyer defaulted.",
-   "start": 105.843,
-   "end": 107.083,
-   "chapter": "c02"
+   "start": 105.941,
+   "end": 107.333,
+   "chapter": "c02",
+   "para": 9,
+   "speed": 0.92,
+   "file": "d7f6f695552e.wav"
   },
   {
    "text": "She never even left Navy custody.",
-   "start": 107.383,
-   "end": 109.562,
-   "chapter": "c02"
+   "start": 107.633,
+   "end": 109.814,
+   "chapter": "c02",
+   "para": 9,
+   "speed": 0.92,
+   "file": "8372908617f9.wav"
   },
   {
    "text": "In September nineteen ninety-five, a start-up scrap firm called Pegasus bought her for just over a million dollars.",
-   "start": 110.162,
-   "end": 117.492,
-   "chapter": "c02"
+   "start": 110.414,
+   "end": 117.374,
+   "chapter": "c02",
+   "para": 10,
+   "speed": 0.92,
+   "file": "4b303135c9ae.wav"
   },
   {
    "text": "The Navy had appraised her at six hundred thousand.",
-   "start": 117.792,
-   "end": 120.754,
-   "chapter": "c02"
+   "start": 117.674,
+   "end": 120.656,
+   "chapter": "c02",
+   "para": 10,
+   "speed": 0.92,
+   "file": "2f4691ee63f7.wav"
   },
   {
    "text": "Three companies had bid.",
-   "start": 121.054,
-   "end": 122.575,
-   "chapter": "c02"
+   "start": 120.956,
+   "end": 122.656,
+   "chapter": "c02",
+   "para": 10,
+   "speed": 0.92,
+   "file": "06c6475ad3d6.wav"
   },
   {
    "text": "The deal said she had to be cut up in the United States.",
-   "start": 122.875,
-   "end": 126.005,
-   "chapter": "c02"
+   "start": 122.956,
+   "end": 126.001,
+   "chapter": "c02",
+   "para": 10,
+   "speed": 0.92,
+   "file": "6f322b31c115.wav"
   },
   {
    "text": "A losing bidder protested, and the work was held up until that December.",
-   "start": 126.305,
-   "end": 130.81,
-   "chapter": "c02"
+   "start": 126.301,
+   "end": 130.62,
+   "chapter": "c02",
+   "para": 10,
+   "speed": 0.92,
+   "file": "ef2e714fb92a.wav"
   },
   {
    "text": "In nineteen ninety-six, she was towed down from Bremerton to San Francisco Bay.",
-   "start": 131.41,
-   "end": 136.609,
-   "chapter": "c02"
+   "start": 131.22,
+   "end": 136.189,
+   "chapter": "c02",
+   "para": 11,
+   "speed": 0.92,
+   "file": "eaaa7c25b55b.wav"
   },
   {
    "text": "Pegasus planned to break her up at the old Mare Island yard.",
-   "start": 136.909,
-   "end": 140.482,
-   "chapter": "c02"
+   "start": 136.489,
+   "end": 140.022,
+   "chapter": "c02",
+   "para": 11,
+   "speed": 0.92,
+   "file": "7ade56212085.wav"
   },
   {
    "text": "A year later, almost nothing had been cut.",
-   "start": 140.782,
-   "end": 143.259,
-   "chapter": "c02"
+   "start": 140.322,
+   "end": 142.895,
+   "chapter": "c02",
+   "para": 11,
+   "speed": 0.92,
+   "file": "f7b53190d136.wav"
   },
   {
    "text": "The Navy ended the contract for default and took her back.",
-   "start": 143.559,
-   "end": 147.026,
-   "chapter": "c02"
+   "start": 143.195,
+   "end": 146.517,
+   "chapter": "c02",
+   "para": 11,
+   "speed": 0.92,
+   "file": "1e5a052296b7.wav"
   },
   {
    "text": "Two scrap deals had collapsed.",
-   "start": 147.626,
-   "end": 149.304,
-   "chapter": "c02"
+   "start": 147.117,
+   "end": 148.873,
+   "chapter": "c02",
+   "para": 12,
+   "speed": 0.92,
+   "file": "075c0aa12ff3.wav"
   },
   {
    "text": "Two more attempts to sell her found no taker at all.",
-   "start": 149.604,
-   "end": 152.889,
-   "chapter": "c02"
+   "start": 149.173,
+   "end": 152.367,
+   "chapter": "c02",
+   "para": 12,
+   "speed": 0.92,
+   "file": "a106e4239563.wav"
   },
   {
    "text": "So in nineteen ninety-nine, she was towed out of California.",
-   "start": 153.489,
-   "end": 157.465,
-   "chapter": "c02"
+   "start": 152.967,
+   "end": 156.695,
+   "chapter": "c02",
+   "para": 13,
+   "speed": 0.92,
+   "file": "b8869160fe96.wav"
   },
   {
    "text": "All the way around South America.",
-   "start": 157.765,
-   "end": 159.777,
-   "chapter": "c02"
+   "start": 156.995,
+   "end": 159.187,
+   "chapter": "c02",
+   "para": 13,
+   "speed": 0.92,
+   "file": "6824ba57ffc0.wav"
   },
   {
    "text": "To a reserve fleet at Beaumont, Texas.",
-   "start": 160.077,
-   "end": 162.307,
-   "chapter": "c02"
+   "start": 159.487,
+   "end": 161.891,
+   "chapter": "c02",
+   "para": 13,
+   "speed": 0.92,
+   "file": "4532a6bc09d7.wav"
   },
   {
    "text": "A ship nobody would take, dragged around a continent, to wait some more.",
-   "start": 162.607,
-   "end": 166.947,
-   "chapter": "c02"
+   "start": 162.191,
+   "end": 166.381,
+   "chapter": "c02",
+   "para": 13,
+   "speed": 0.92,
+   "file": "ee1f9625c8ea.wav"
   },
   {
    "text": "So what kind of ship ends up like this?",
-   "start": 167.547,
-   "end": 169.708,
-   "chapter": "c02"
+   "start": 166.981,
+   "end": 169.129,
+   "chapter": "c02",
+   "para": 14,
+   "speed": 0.8522,
+   "file": "0e8ea40d00a4.wav"
   },
   {
    "text": "To understand what was being thrown away, go back to the war she was built for.",
-   "start": 170.008,
-   "end": 174.914,
-   "chapter": "c02"
+   "start": 169.429,
+   "end": 173.943,
+   "chapter": "c02",
+   "para": 14,
+   "speed": 0.92,
+   "file": "b8701ff1f6eb.wav"
   },
   {
    "text": "The one she missed.",
-   "start": 175.214,
-   "end": 176.292,
-   "chapter": "c02"
+   "start": 174.243,
+   "end": 175.446,
+   "chapter": "c02",
+   "para": 14,
+   "speed": 0.92,
+   "file": "f37f2f5f8332.wav"
   },
   {
    "text": "Her keel was laid in Brooklyn in May nineteen forty-four.",
-   "start": 177.192,
-   "end": 181.033,
-   "chapter": "c03"
+   "start": 176.346,
+   "end": 180.171,
+   "chapter": "c03",
+   "para": 15,
+   "speed": 0.92,
+   "file": "e846adf56581.wav"
   },
   {
    "text": "She was launched on the thirteenth of October, nineteen forty-five.",
-   "start": 181.333,
-   "end": 185.39,
-   "chapter": "c03"
+   "start": 180.471,
+   "end": 184.474,
+   "chapter": "c03",
+   "para": 15,
+   "speed": 0.92,
+   "file": "20d2f319a721.wav"
   },
   {
    "text": "Six weeks after Japan surrendered.",
-   "start": 185.69,
-   "end": 187.79,
-   "chapter": "c03"
+   "start": 184.774,
+   "end": 187.098,
+   "chapter": "c03",
+   "para": 15,
+   "speed": 0.92,
+   "file": "b6fc5c334c1d.wav"
   },
   {
    "text": "A Second World War carrier that never fought in the Second World War.",
-   "start": 188.09,
-   "end": 192.048,
-   "chapter": "c03"
+   "start": 187.398,
+   "end": 191.258,
+   "chapter": "c03",
+   "para": 15,
+   "speed": 0.92,
+   "file": "ad9778bdcde4.wav"
   },
   {
    "text": "In August nineteen forty-seven, the work stopped.",
-   "start": 192.648,
-   "end": 195.716,
-   "chapter": "c03"
+   "start": 191.858,
+   "end": 194.967,
+   "chapter": "c03",
+   "para": 16,
+   "speed": 0.92,
+   "file": "4317640a3f3d.wav"
   },
   {
    "text": "Then, in June nineteen fifty, war broke out in Korea, and the Navy rushed her to completion.",
-   "start": 196.016,
-   "end": 202.315,
-   "chapter": "c03"
+   "start": 195.267,
+   "end": 201.131,
+   "chapter": "c03",
+   "para": 16,
+   "speed": 0.92,
+   "file": "a26270fcd938.wav"
   },
   {
    "text": "She was the last Essex-class carrier ever finished.",
-   "start": 202.615,
-   "end": 205.471,
-   "chapter": "c03"
+   "start": 201.431,
+   "end": 204.482,
+   "chapter": "c03",
+   "para": 16,
+   "speed": 0.92,
+   "file": "8ee9e5d94b31.wav"
   },
   {
    "text": "Her crews called her the Mighty O.",
-   "start": 205.771,
-   "end": 207.751,
-   "chapter": "c03"
+   "start": 204.782,
+   "end": 206.767,
+   "chapter": "c03",
+   "para": 16,
+   "speed": 0.92,
+   "file": "35214f0e05a2.wav"
   },
   {
    "text": "On the eighteenth of November, nineteen fifty-two, four of her Panther jets met seven MiG-fifteens.",
-   "start": 208.351,
-   "end": 214.867,
-   "chapter": "c03"
+   "start": 207.367,
+   "end": 213.295,
+   "chapter": "c03",
+   "para": 17,
+   "speed": 0.92,
+   "file": "0ebba503082d.wav"
   },
   {
    "text": "One pilot, Royce Williams, was credited with one MiG at the time.",
-   "start": 215.167,
-   "end": 219.526,
-   "chapter": "c03"
+   "start": 213.595,
+   "end": 217.789,
+   "chapter": "c03",
+   "para": 17,
+   "speed": 0.92,
+   "file": "7cddffb24a3c.wav"
   },
   {
    "text": "In twenty twenty-three, the Navy cited him for downing four.",
-   "start": 219.826,
-   "end": 223.629,
-   "chapter": "c03"
+   "start": 218.089,
+   "end": 221.761,
+   "chapter": "c03",
+   "para": 17,
+   "speed": 0.92,
+   "file": "ffd378a57a8b.wav"
   },
   {
    "text": "It upgraded his Silver Star to the Navy Cross.",
-   "start": 223.929,
-   "end": 226.751,
-   "chapter": "c03"
+   "start": 222.061,
+   "end": 224.933,
+   "chapter": "c03",
+   "para": 17,
+   "speed": 0.92,
+   "file": "ffd06c12f4b8.wav"
   },
   {
    "text": "Then came Vietnam.",
-   "start": 227.351,
-   "end": 228.714,
-   "chapter": "c03"
+   "start": 225.533,
+   "end": 227.01,
+   "chapter": "c03",
+   "para": 18,
+   "speed": 0.92,
+   "file": "e4e2d479aff0.wav"
   },
   {
    "text": "Between May and December nineteen sixty-five, she flew more than twelve thousand combat sorties.",
-   "start": 229.014,
-   "end": 235.509,
-   "chapter": "c03"
+   "start": 227.31,
+   "end": 233.083,
+   "chapter": "c03",
+   "para": 18,
+   "speed": 0.92,
+   "file": "4df7df9176b0.wav"
   },
   {
    "text": "A record for one carrier deployment at the time.",
-   "start": 235.809,
-   "end": 238.47,
-   "chapter": "c03"
+   "start": 233.383,
+   "end": 236.245,
+   "chapter": "c03",
+   "para": 18,
+   "speed": 0.92,
+   "file": "c4364d2a6b86.wav"
   },
   {
    "text": "On the ninth of September, nineteen sixty-five, the man who led her air wing was shot down.",
-   "start": 239.07,
-   "end": 245.223,
-   "chapter": "c03"
+   "start": 236.845,
+   "end": 242.582,
+   "chapter": "c03",
+   "para": 19,
+   "speed": 0.92,
+   "file": "811b1473d0b9.wav"
   },
   {
    "text": "Commander James Stockdale's Skyhawk was hit by anti-aircraft fire over North Vietnam.",
-   "start": 245.523,
-   "end": 251.509,
-   "chapter": "c03"
+   "start": 242.882,
+   "end": 248.702,
+   "chapter": "c03",
+   "para": 19,
+   "speed": 0.92,
+   "file": "44151619fbe0.wav"
   },
   {
    "text": "He was held prisoner for seven and a half years.",
-   "start": 251.809,
-   "end": 254.379,
-   "chapter": "c03"
+   "start": 249.002,
+   "end": 251.548,
+   "chapter": "c03",
+   "para": 19,
+   "speed": 0.92,
+   "file": "55eab6d5c188.wav"
   },
   {
    "text": "A year later, the danger came from inside the ship.",
-   "start": 254.979,
-   "end": 258.039,
-   "chapter": "c03"
+   "start": 252.148,
+   "end": 255.067,
+   "chapter": "c03",
+   "para": 20,
+   "speed": 0.92,
+   "file": "6a0a7a7fcd0d.wav"
   },
   {
    "text": "On the morning of the twenty-sixth of October, nineteen sixty-six, she was on Yankee Station in the Gulf of Tonkin.",
-   "start": 258.339,
-   "end": 265.99,
-   "chapter": "c03"
+   "start": 255.367,
+   "end": 262.367,
+   "chapter": "c03",
+   "para": 20,
+   "speed": 0.92,
+   "file": "fb81a52dcdfb.wav"
   },
   {
    "text": "Two sailors were stowing magnesium parachute flares.",
-   "start": 266.29,
-   "end": 269.563,
-   "chapter": "c03"
+   "start": 262.667,
+   "end": 265.919,
+   "chapter": "c03",
+   "para": 20,
+   "speed": 0.92,
+   "file": "c73520473476.wav"
   },
   {
    "text": "One went off by accident.",
-   "start": 269.863,
-   "end": 271.43,
-   "chapter": "c03"
+   "start": 266.219,
+   "end": 267.918,
+   "chapter": "c03",
+   "para": 20,
+   "speed": 0.92,
+   "file": "1133f13bdc5e.wav"
   },
   {
    "text": "In a panic, a sailor threw the burning flare into a locker packed with about seven hundred more.",
-   "start": 272.03,
-   "end": 278.121,
-   "chapter": "c03"
+   "start": 268.518,
+   "end": 274.248,
+   "chapter": "c03",
+   "para": 21,
+   "speed": 0.92,
+   "file": "c7afe31de9a3.wav"
   },
   {
    "text": "They burn at about five thousand four hundred degrees Fahrenheit.",
-   "start": 278.421,
-   "end": 282.532,
-   "chapter": "c03"
+   "start": 274.548,
+   "end": 278.566,
+   "chapter": "c03",
+   "para": 21,
+   "speed": 0.92,
+   "file": "f46896561c8d.wav"
   },
   {
    "text": "The fire burned for about seven hours.",
-   "start": 282.832,
-   "end": 285.173,
-   "chapter": "c03"
+   "start": 278.866,
+   "end": 281.186,
+   "chapter": "c03",
+   "para": 21,
+   "speed": 0.92,
+   "file": "2de99930761f.wav"
   },
   {
    "text": "Most of the dead were officers, many of them pilots, trapped in their staterooms by the smoke.",
-   "start": 285.773,
-   "end": 291.709,
-   "chapter": "c03"
+   "start": 281.786,
+   "end": 287.323,
+   "chapter": "c03",
+   "para": 22,
+   "speed": 0.92,
+   "file": "8b6eef6a99cf.wav"
   },
   {
    "text": "The fire killed forty-four men.",
-   "start": 292.009,
-   "end": 293.916,
-   "chapter": "c03"
+   "start": 287.623,
+   "end": 289.641,
+   "chapter": "c03",
+   "para": 22,
+   "speed": 0.92,
+   "file": "d2e8286c4c14.wav"
   },
   {
    "text": "Dozens more were hurt.",
-   "start": 294.216,
-   "end": 295.575,
-   "chapter": "c03"
+   "start": 289.941,
+   "end": 291.377,
+   "chapter": "c03",
+   "para": 22,
+   "speed": 0.92,
+   "file": "a9fac4bfb878.wav"
   },
   {
    "text": "Eleven days later, her crew stood in formation for a burial at sea.",
-   "start": 296.175,
-   "end": 300.41,
-   "chapter": "c03"
+   "start": 291.977,
+   "end": 296.054,
+   "chapter": "c03",
+   "para": 23,
+   "speed": 0.92,
+   "file": "bdad0550eccc.wav"
   },
   {
    "text": "Did you, or someone in your family, serve aboard the Oriskany?",
-   "start": 301.01,
-   "end": 305.175,
-   "chapter": "c03"
+   "start": 296.654,
+   "end": 300.517,
+   "chapter": "c03",
+   "para": 24,
+   "speed": 0.8522,
+   "file": "eb7254741c1c.wav"
   },
   {
    "text": "In that fire, or in any other year?",
-   "start": 305.475,
-   "end": 307.81,
-   "chapter": "c03"
+   "start": 300.817,
+   "end": 303.124,
+   "chapter": "c03",
+   "para": 24,
+   "speed": 0.8522,
+   "file": "ffce093bdfc7.wav"
   },
   {
    "text": "Tell us their story in the comments.",
-   "start": 308.11,
-   "end": 310.001,
-   "chapter": "c03"
+   "start": 303.424,
+   "end": 305.451,
+   "chapter": "c03",
+   "para": 24,
+   "speed": 0.92,
+   "file": "3bce9c841147.wav"
   },
   {
    "text": "We read every one.",
-   "start": 310.301,
-   "end": 311.528,
-   "chapter": "c03"
+   "start": 305.751,
+   "end": 307.014,
+   "chapter": "c03",
+   "para": 24,
+   "speed": 0.92,
+   "file": "58e6ad5f10db.wav"
   },
   {
    "text": "She was repaired in San Francisco and was back off Vietnam the next summer.",
-   "start": 312.128,
-   "end": 317.087,
-   "chapter": "c03"
+   "start": 307.614,
+   "end": 312.18,
+   "chapter": "c03",
+   "para": 25,
+   "speed": 0.92,
+   "file": "45a931f7891b.wav"
   },
   {
    "text": "On the twenty-sixth of October, nineteen sixty-seven, she launched a strike on Hanoi.",
-   "start": 317.387,
-   "end": 322.992,
-   "chapter": "c03"
+   "start": 312.48,
+   "end": 317.643,
+   "chapter": "c03",
+   "para": 25,
+   "speed": 0.92,
+   "file": "7512ecdfa132.wav"
   },
   {
    "text": "One year to the day after the fire.",
-   "start": 323.292,
-   "end": 325.263,
-   "chapter": "c03"
+   "start": 317.943,
+   "end": 319.964,
+   "chapter": "c03",
+   "para": 25,
+   "speed": 0.92,
+   "file": "0bf8a01a9def.wav"
   },
   {
    "text": "One of the pilots was Lieutenant Commander John McCain.",
-   "start": 325.863,
-   "end": 329.479,
-   "chapter": "c03"
+   "start": 320.564,
+   "end": 323.967,
+   "chapter": "c03",
+   "para": 26,
+   "speed": 0.92,
+   "file": "94da82b4c94f.wav"
   },
   {
    "text": "A surface-to-air missile tore the wing off his A-four Skyhawk.",
-   "start": 329.779,
-   "end": 333.509,
-   "chapter": "c03"
+   "start": 324.267,
+   "end": 327.897,
+   "chapter": "c03",
+   "para": 26,
+   "speed": 0.92,
+   "file": "db6a0c53a59e.wav"
   },
   {
    "text": "He came down in a lake in the middle of the city.",
-   "start": 333.809,
-   "end": 336.389,
-   "chapter": "c03"
+   "start": 328.197,
+   "end": 330.811,
+   "chapter": "c03",
+   "para": 26,
+   "speed": 0.92,
+   "file": "416d3c0b732d.wav"
   },
   {
    "text": "He was released in March nineteen seventy-three, after five and a half years.",
-   "start": 336.689,
-   "end": 341.642,
-   "chapter": "c03"
+   "start": 331.111,
+   "end": 335.752,
+   "chapter": "c03",
+   "para": 26,
+   "speed": 0.92,
+   "file": "dff76846cbad.wav"
   },
   {
    "text": "Two of America's best-known prisoners of war had flown from her deck.",
-   "start": 342.242,
-   "end": 346.426,
-   "chapter": "c03"
+   "start": 336.352,
+   "end": 340.56,
+   "chapter": "c03",
+   "para": 27,
+   "speed": 0.92,
+   "file": "909cbcea10f5.wav"
   },
   {
    "text": "Forty-four of her men had died in a single morning.",
-   "start": 346.726,
-   "end": 349.862,
-   "chapter": "c03"
+   "start": 340.86,
+   "end": 344.009,
+   "chapter": "c03",
+   "para": 27,
+   "speed": 0.92,
+   "file": "4cfab064ff1a.wav"
   },
   {
    "text": "And by the late nineteen nineties, nobody would pay to keep her, or even to cut her up.",
-   "start": 350.162,
-   "end": 355.791,
-   "chapter": "c03"
+   "start": 344.309,
+   "end": 349.475,
+   "chapter": "c03",
+   "para": 27,
+   "speed": 0.92,
+   "file": "2f204baf91bf.wav"
   },
   {
    "text": "Then, in two thousand three, Congress changed the rules.",
-   "start": 356.091,
-   "end": 359.518,
-   "chapter": "c03"
+   "start": 349.775,
+   "end": 353.136,
+   "chapter": "c03",
+   "para": 27,
+   "speed": 0.92,
+   "file": "b22ab18a5453.wav"
   },
   {
    "text": "In November two thousand three, Congress gave the Navy the power to donate old warships to states as reefs.",
-   "start": 360.418,
-   "end": 367.519,
-   "chapter": "c04"
+   "start": 354.036,
+   "end": 360.69,
+   "chapter": "c04",
+   "para": 28,
+   "speed": 0.92,
+   "file": "e7f21f70655b.wav"
   },
   {
    "text": "The Oriskany was the first warship the Navy offered.",
-   "start": 367.819,
-   "end": 371.186,
-   "chapter": "c04"
+   "start": 360.99,
+   "end": 364.249,
+   "chapter": "c04",
+   "para": 28,
+   "speed": 0.92,
+   "file": "d2faaf65077f.wav"
   },
   {
    "text": "Four bids came in, from five states.",
-   "start": 371.786,
-   "end": 374.078,
-   "chapter": "c04"
+   "start": 364.849,
+   "end": 367.176,
+   "chapter": "c04",
+   "para": 29,
+   "speed": 0.92,
+   "file": "e4f34d84305d.wav"
   },
   {
    "text": "Florida, Mississippi, Texas, and Georgia with South Carolina.",
-   "start": 374.378,
-   "end": 378.637,
-   "chapter": "c04"
+   "start": 367.476,
+   "end": 371.683,
+   "chapter": "c04",
+   "para": 29,
+   "speed": 0.92,
+   "file": "0730c5765202.wav"
   },
   {
    "text": "In April two thousand four, the Navy picked Florida as the best value.",
-   "start": 378.938,
-   "end": 383.658,
-   "chapter": "c04"
+   "start": 371.983,
+   "end": 376.489,
+   "chapter": "c04",
+   "para": 29,
+   "speed": 0.92,
+   "file": "0b3aedec04fd.wav"
   },
   {
    "text": "The plan was to sink her before the end of that summer.",
-   "start": 383.958,
-   "end": 387.131,
-   "chapter": "c04"
+   "start": 376.789,
+   "end": 379.906,
+   "chapter": "c04",
+   "para": 29,
+   "speed": 0.92,
+   "file": "24989fc8700d.wav"
   },
   {
    "text": "It would take two more years.",
-   "start": 387.431,
-   "end": 388.94,
-   "chapter": "c04"
+   "start": 380.206,
+   "end": 381.774,
+   "chapter": "c04",
+   "para": 29,
+   "speed": 0.92,
+   "file": "95a2c5d5dc49.wav"
   },
   {
    "text": "First, she had to be cleaned.",
-   "start": 389.54,
-   "end": 391.032,
-   "chapter": "c04"
+   "start": 382.374,
+   "end": 384.067,
+   "chapter": "c04",
+   "para": 30,
+   "speed": 0.92,
+   "file": "47bad9460a04.wav"
   },
   {
    "text": "The work was done in Corpus Christi, Texas, and took eleven months.",
-   "start": 391.332,
-   "end": 395.533,
-   "chapter": "c04"
+   "start": 384.367,
+   "end": 388.535,
+   "chapter": "c04",
+   "para": 30,
+   "speed": 0.92,
+   "file": "cde1e366dac7.wav"
   },
   {
    "text": "Congress had committed two point eight million dollars to the project.",
-   "start": 395.833,
-   "end": 399.71,
-   "chapter": "c04"
+   "start": 388.835,
+   "end": 392.677,
+   "chapter": "c04",
+   "para": 30,
+   "speed": 0.92,
+   "file": "4e702e921f10.wav"
   },
   {
    "text": "Two point one million of it was for removing contaminants.",
-   "start": 400.01,
-   "end": 403.758,
-   "chapter": "c04"
+   "start": 392.977,
+   "end": 396.718,
+   "chapter": "c04",
+   "para": 30,
+   "speed": 0.92,
+   "file": "01104dc662be.wav"
   },
   {
    "text": "Then workers stripped the asphalt off her flight deck.",
-   "start": 404.358,
-   "end": 407.108,
-   "chapter": "c04"
+   "start": 397.318,
+   "end": 400.284,
+   "chapter": "c04",
+   "para": 31,
+   "speed": 0.92,
+   "file": "b635c802b7cc.wav"
   },
   {
    "text": "The wood underneath was full of PCBs.",
-   "start": 407.408,
-   "end": 410.164,
-   "chapter": "c04"
+   "start": 400.584,
+   "end": 403.337,
+   "chapter": "c04",
+   "para": 31,
+   "speed": 0.92,
+   "file": "364c9e1f2628.wav"
   },
   {
    "text": "The Navy blamed fluid from her catapults.",
-   "start": 410.464,
-   "end": 412.982,
-   "chapter": "c04"
+   "start": 403.637,
+   "end": 406.272,
+   "chapter": "c04",
+   "para": 31,
+   "speed": 0.92,
+   "file": "d5c6b0be87a5.wav"
   },
   {
    "text": "Under the cleanup rules, material that contaminated had to come out, unless the EPA agreed otherwise.",
-   "start": 413.282,
-   "end": 420.727,
-   "chapter": "c04"
+   "start": 406.572,
+   "end": 413.329,
+   "chapter": "c04",
+   "para": 31,
+   "speed": 0.92,
+   "file": "bc786a10eb92.wav"
   },
   {
    "text": "So the whole wooden deck came out.",
-   "start": 421.027,
-   "end": 422.918,
-   "chapter": "c04"
+   "start": 413.629,
+   "end": 415.595,
+   "chapter": "c04",
+   "para": 31,
+   "speed": 0.92,
+   "file": "b4723caa844a.wav"
   },
   {
    "text": "The cost of removing contaminants grew to more than seven point six million dollars.",
-   "start": 423.518,
-   "end": 428.947,
-   "chapter": "c04"
+   "start": 416.195,
+   "end": 421.41,
+   "chapter": "c04",
+   "para": 32,
+   "speed": 0.92,
+   "file": "8ce7945333c6.wav"
   },
   {
    "text": "At least half of it went on that deck.",
-   "start": 429.247,
-   "end": 431.171,
-   "chapter": "c04"
+   "start": 421.71,
+   "end": 423.68,
+   "chapter": "c04",
+   "para": 32,
+   "speed": 0.92,
+   "file": "eece0bee1f4a.wav"
   },
   {
    "text": "On top of that, the Navy spent three point seven million on a computer model.",
-   "start": 431.471,
-   "end": 436.26,
-   "chapter": "c04"
+   "start": 423.98,
+   "end": 428.567,
+   "chapter": "c04",
+   "para": 32,
+   "speed": 0.92,
+   "file": "2ecf9eaece33.wav"
   },
   {
    "text": "Its job was to prove the PCBs left aboard were safe.",
-   "start": 436.56,
-   "end": 440.431,
-   "chapter": "c04"
+   "start": 428.867,
+   "end": 432.66,
+   "chapter": "c04",
+   "para": 32,
+   "speed": 0.92,
+   "file": "4d0d51cec4bb.wav"
   },
   {
    "text": "From Texas, she was towed to Pensacola.",
-   "start": 441.031,
-   "end": 443.699,
-   "chapter": "c04"
+   "start": 433.26,
+   "end": 435.919,
+   "chapter": "c04",
+   "para": 33,
+   "speed": 0.92,
+   "file": "8167e3f80328.wav"
   },
   {
    "text": "Then came hurricane season.",
-   "start": 443.999,
-   "end": 445.711,
-   "chapter": "c04"
+   "start": 436.219,
+   "end": 438.045,
+   "chapter": "c04",
+   "para": 33,
+   "speed": 0.92,
+   "file": "c2afe32eca82.wav"
   },
   {
    "text": "In June two thousand five, she was towed back to Texas to hide from it.",
-   "start": 446.011,
-   "end": 450.484,
-   "chapter": "c04"
+   "start": 438.345,
+   "end": 442.557,
+   "chapter": "c04",
+   "para": 33,
+   "speed": 0.92,
+   "file": "e1f062f54181.wav"
   },
   {
    "text": "That tow cost another eight hundred thousand dollars.",
-   "start": 450.784,
-   "end": 453.846,
-   "chapter": "c04"
+   "start": 442.857,
+   "end": 445.938,
+   "chapter": "c04",
+   "para": 33,
+   "speed": 0.92,
+   "file": "920f67bb14b4.wav"
   },
   {
    "text": "She rode out Hurricane Rita at Beaumont.",
-   "start": 454.146,
-   "end": 456.597,
-   "chapter": "c04"
+   "start": 446.238,
+   "end": 448.826,
+   "chapter": "c04",
+   "para": 33,
+   "speed": 0.92,
+   "file": "635778db650d.wav"
   },
   {
    "text": "By the spring of two thousand six, the Navy's bill was twelve point seven million dollars, and rising.",
-   "start": 457.197,
-   "end": 463.932,
-   "chapter": "c04"
+   "start": 449.426,
+   "end": 455.833,
+   "chapter": "c04",
+   "para": 34,
+   "speed": 0.92,
+   "file": "128d839845b5.wav"
   },
   {
    "text": "Press reports on sinking day put the total at about twenty million.",
-   "start": 464.232,
-   "end": 468.553,
-   "chapter": "c04"
+   "start": 456.133,
+   "end": 460.222,
+   "chapter": "c04",
+   "para": 34,
+   "speed": 0.92,
+   "file": "3a3e89319db6.wav"
   },
   {
    "text": "Florida's own legislature later put it at about twenty-one million, almost all of it Navy money.",
-   "start": 468.853,
-   "end": 475.751,
-   "chapter": "c04"
+   "start": 460.522,
+   "end": 466.881,
+   "chapter": "c04",
+   "para": 34,
+   "speed": 0.92,
+   "file": "70829109c658.wav"
   },
   {
    "text": "That is about seven times what Congress first committed.",
-   "start": 476.351,
-   "end": 479.477,
-   "chapter": "c04"
+   "start": 467.481,
+   "end": 470.712,
+   "chapter": "c04",
+   "para": 35,
+   "speed": 0.92,
+   "file": "c9684679bccb.wav"
   },
   {
    "text": "And the flight deck was not the only place the PCBs were hiding.",
-   "start": 479.777,
-   "end": 484.033,
-   "chapter": "c04"
+   "start": 471.012,
+   "end": 474.898,
+   "chapter": "c04",
+   "para": 35,
+   "speed": 0.92,
+   "file": "f9838d3b7bf9.wav"
   },
   {
    "text": "On the twenty-second of March, two thousand six, she came back to Pensacola for the last time.",
-   "start": 484.933,
-   "end": 491.164,
-   "chapter": "c05"
+   "start": 475.798,
+   "end": 481.668,
+   "chapter": "c05",
+   "para": 36,
+   "speed": 0.92,
+   "file": "3cb7397f3255.wav"
   },
   {
    "text": "She was the test case for new national cleanup rules for ships sunk as reefs.",
-   "start": 491.464,
-   "end": 496.172,
-   "chapter": "c05"
+   "start": 481.968,
+   "end": 486.547,
+   "chapter": "c05",
+   "para": 36,
+   "speed": 0.92,
+   "file": "74e6606a0e67.wav"
   },
   {
    "text": "In May, a Navy bomb-disposal team went deep inside her hull.",
-   "start": 496.772,
-   "end": 500.674,
-   "chapter": "c05"
+   "start": 487.147,
+   "end": 491.027,
+   "chapter": "c05",
+   "para": 37,
+   "speed": 0.92,
+   "file": "0c45367daf52.wav"
   },
   {
    "text": "On the fifteenth, tugs pulled her away from the pier.",
-   "start": 500.974,
-   "end": 503.942,
-   "chapter": "c05"
+   "start": 491.327,
+   "end": 494.22,
+   "chapter": "c05",
+   "para": 37,
+   "speed": 0.92,
+   "file": "80c9651d1e95.wav"
   },
   {
    "text": "Former sailors lined the shore to watch her go.",
-   "start": 504.242,
-   "end": 507.299,
-   "chapter": "c05"
+   "start": 494.52,
+   "end": 497.418,
+   "chapter": "c05",
+   "para": 37,
+   "speed": 0.92,
+   "file": "a09771f2f856.wav"
   },
   {
    "text": "One of them stood on the seawall and saluted.",
-   "start": 507.599,
-   "end": 509.998,
-   "chapter": "c05"
+   "start": 497.718,
+   "end": 500.267,
+   "chapter": "c05",
+   "para": 37,
+   "speed": 0.92,
+   "file": "f54660bd77ab.wav"
   },
   {
    "text": "On the morning of the seventeenth of May, she sat at anchor more than twenty miles out in the Gulf.",
-   "start": 510.598,
-   "end": 516.408,
-   "chapter": "c05"
+   "start": 500.867,
+   "end": 506.081,
+   "chapter": "c05",
+   "para": 38,
+   "speed": 0.92,
+   "file": "1fad3126f51c.wav"
   },
   {
    "text": "The team had placed twenty-two charges on pipes and valves deep in her hull.",
-   "start": 516.708,
-   "end": 521.212,
-   "chapter": "c05"
+   "start": 506.381,
+   "end": 510.866,
+   "chapter": "c05",
+   "para": 38,
+   "speed": 0.92,
+   "file": "090f62ddf777.wav"
   },
   {
    "text": "More than five hundred pounds of explosives.",
-   "start": 521.512,
-   "end": 524.217,
-   "chapter": "c05"
+   "start": 511.166,
+   "end": 513.87,
+   "chapter": "c05",
+   "para": 38,
+   "speed": 0.92,
+   "file": "74e686a73d9c.wav"
   },
   {
    "text": "At ten twenty-five in the morning, they fired.",
-   "start": 524.817,
-   "end": 527.337,
-   "chapter": "c05"
+   "start": 514.47,
+   "end": 517.047,
+   "chapter": "c05",
+   "para": 39,
+   "speed": 0.92,
+   "file": "044c2225aaad.wav"
   },
   {
    "text": "The Navy expected her to take about five hours to sink.",
-   "start": 527.637,
-   "end": 531.019,
-   "chapter": "c05"
+   "start": 517.347,
+   "end": 520.634,
+   "chapter": "c05",
+   "para": 39,
+   "speed": 0.92,
+   "file": "a4296af1765c.wav"
   },
   {
    "text": "She took thirty-seven minutes.",
-   "start": 531.319,
-   "end": 533.07,
-   "chapter": "c05"
+   "start": 520.934,
+   "end": 522.814,
+   "chapter": "c05",
+   "para": 39,
+   "speed": 0.92,
+   "file": "1d137bbde528.wav"
   },
   {
    "text": "She went down stern first, her bow rising into the air.",
-   "start": 533.67,
-   "end": 537.458,
-   "chapter": "c05"
+   "start": 523.414,
+   "end": 527.008,
+   "chapter": "c05",
+   "para": 40,
+   "speed": 0.92,
+   "file": "6685d1360127.wav"
   },
   {
    "text": "Then she was gone.",
-   "start": 537.758,
-   "end": 538.851,
-   "chapter": "c05"
+   "start": 527.308,
+   "end": 528.485,
+   "chapter": "c05",
+   "para": 40,
+   "speed": 0.92,
+   "file": "3d4752fcb957.wav"
   },
   {
    "text": "She settled upright on the bottom, her bow pointing due south.",
-   "start": 539.151,
-   "end": 543.154,
-   "chapter": "c05"
+   "start": 528.785,
+   "end": 532.601,
+   "chapter": "c05",
+   "para": 40,
+   "speed": 0.92,
+   "file": "3e90f39d0e27.wav"
   },
   {
    "text": "Two hundred and twelve feet down.",
-   "start": 543.454,
-   "end": 545.452,
-   "chapter": "c05"
+   "start": 532.901,
+   "end": 535.048,
+   "chapter": "c05",
+   "para": 40,
+   "speed": 0.92,
+   "file": "6efc6e1d9073.wav"
   },
   {
    "text": "The moment she touched bottom, she belonged to Florida.",
-   "start": 546.052,
-   "end": 549.245,
-   "chapter": "c05"
+   "start": 535.648,
+   "end": 538.785,
+   "chapter": "c05",
+   "para": 41,
+   "speed": 0.92,
+   "file": "8314168df6d2.wav"
   },
   {
    "text": "She was the largest ship ever deliberately sunk as a reef.",
-   "start": 549.545,
-   "end": 553.228,
-   "chapter": "c05"
+   "start": 539.085,
+   "end": 542.799,
+   "chapter": "c05",
+   "para": 41,
+   "speed": 0.92,
+   "file": "6ac2985d3345.wav"
   },
   {
    "text": "Guinness World Records lists her as the largest artificial reef in the world.",
-   "start": 553.528,
-   "end": 558.667,
-   "chapter": "c05"
+   "start": 543.099,
+   "end": 547.932,
+   "chapter": "c05",
+   "para": 41,
+   "speed": 0.92,
+   "file": "9ee7f702cd6e.wav"
   },
   {
    "text": "It looked like the perfect ending.",
-   "start": 559.267,
-   "end": 560.974,
-   "chapter": "c05"
+   "start": 548.532,
+   "end": 550.259,
+   "chapter": "c05",
+   "para": 42,
+   "speed": 0.92,
+   "file": "34a94044b953.wav"
   },
   {
    "text": "But her sinking came with a condition.",
-   "start": 561.274,
-   "end": 563.19,
-   "chapter": "c05"
+   "start": 550.559,
+   "end": 552.616,
+   "chapter": "c05",
+   "para": 42,
+   "speed": 0.92,
+   "file": "93e45862b140.wav"
   },
   {
    "text": "And Florida had to keep checking it.",
-   "start": 563.49,
-   "end": 565.427,
-   "chapter": "c05"
+   "start": 552.916,
+   "end": 554.987,
+   "chapter": "c05",
+   "para": 42,
+   "speed": 0.92,
+   "file": "d2f6da323601.wav"
   },
   {
    "text": "Not all of the PCBs came out.",
-   "start": 566.327,
-   "end": 568.492,
-   "chapter": "c06"
+   "start": 555.887,
+   "end": 558.014,
+   "chapter": "c06",
+   "para": 43,
+   "speed": 0.92,
+   "file": "57efde74deea.wav"
   },
   {
    "text": "An estimated seven hundred pounds stayed aboard.",
-   "start": 568.792,
-   "end": 571.722,
-   "chapter": "c06"
+   "start": 558.314,
+   "end": 561.412,
+   "chapter": "c06",
+   "para": 43,
+   "speed": 0.92,
+   "file": "3a7b15f214f8.wav"
   },
   {
    "text": "They were locked in electrical cable, gaskets, insulation and paint.",
-   "start": 572.022,
-   "end": 576.461,
-   "chapter": "c06"
+   "start": 561.712,
+   "end": 565.982,
+   "chapter": "c06",
+   "para": 43,
+   "speed": 0.92,
+   "file": "6477205ba39f.wav"
   },
   {
    "text": "All the liquid PCBs had been removed.",
-   "start": 576.761,
-   "end": 579.505,
-   "chapter": "c06"
+   "start": 566.282,
+   "end": 568.933,
+   "chapter": "c06",
+   "para": 43,
+   "speed": 0.92,
+   "file": "8a54fc7121e6.wav"
   },
   {
    "text": "The EPA reviewed the Navy's studies.",
-   "start": 580.105,
-   "end": 582.644,
-   "chapter": "c06"
+   "start": 569.533,
+   "end": 571.987,
+   "chapter": "c06",
+   "para": 44,
+   "speed": 0.92,
+   "file": "d978211e2fd5.wav"
   },
   {
    "text": "On the fifteenth of February, two thousand six, it ruled.",
-   "start": 582.944,
-   "end": 586.441,
-   "chapter": "c06"
+   "start": 572.287,
+   "end": 575.721,
+   "chapter": "c06",
+   "para": 44,
+   "speed": 0.92,
+   "file": "8936b0fd9fe8.wav"
   },
   {
    "text": "Sinking her with the PCBs aboard would not pose an unreasonable risk.",
-   "start": 586.741,
-   "end": 591.768,
-   "chapter": "c06"
+   "start": 576.021,
+   "end": 580.866,
+   "chapter": "c06",
+   "para": 44,
+   "speed": 0.92,
+   "file": "ef439d5e93b6.wav"
   },
   {
    "text": "It was the first approval of its kind ever given to a ship.",
-   "start": 592.068,
-   "end": 595.72,
-   "chapter": "c06"
+   "start": 581.166,
+   "end": 584.746,
+   "chapter": "c06",
+   "para": 44,
+   "speed": 0.92,
+   "file": "03f0669f02f5.wav"
   },
   {
    "text": "And the EPA said it applied to her alone.",
-   "start": 596.02,
-   "end": 598.393,
-   "chapter": "c06"
+   "start": 585.046,
+   "end": 587.563,
+   "chapter": "c06",
+   "para": 44,
+   "speed": 0.92,
+   "file": "f0b22fc26ed8.wav"
   },
   {
    "text": "There was a condition.",
-   "start": 598.993,
-   "end": 600.142,
-   "chapter": "c06"
+   "start": 588.163,
+   "end": 589.421,
+   "chapter": "c06",
+   "para": 45,
+   "speed": 0.92,
+   "file": "c0aa73e2d94e.wav"
   },
   {
    "text": "Florida had to keep catching fish on the wreck and testing them.",
-   "start": 600.442,
-   "end": 604.166,
-   "chapter": "c06"
+   "start": 589.721,
+   "end": 593.435,
+   "chapter": "c06",
+   "para": 45,
+   "speed": 0.92,
+   "file": "68285ee88067.wav"
   },
   {
    "text": "From December two thousand six to November two thousand ten, the state and Escambia County sampled eight rounds of fish.",
-   "start": 604.466,
-   "end": 612.594,
-   "chapter": "c06"
+   "start": 593.735,
+   "end": 601.254,
+   "chapter": "c06",
+   "para": 45,
+   "speed": 0.92,
+   "file": "f8910a83e783.wav"
   },
   {
    "text": "Two hundred and fifty-four fish from the wreck.",
-   "start": 612.894,
-   "end": 615.521,
-   "chapter": "c06"
+   "start": 601.554,
+   "end": 604.224,
+   "chapter": "c06",
+   "para": 45,
+   "speed": 0.92,
+   "file": "ca8f48660073.wav"
   },
   {
    "text": "The first results were not what anyone wanted.",
-   "start": 616.121,
-   "end": 618.965,
-   "chapter": "c06"
+   "start": 604.824,
+   "end": 607.571,
+   "chapter": "c06",
+   "para": 46,
+   "speed": 0.92,
+   "file": "15a1c2f50319.wav"
   },
   {
    "text": "For the first two years, the average PCB level in those fish was above two lines.",
-   "start": 619.265,
-   "end": 624.795,
-   "chapter": "c06"
+   "start": 607.871,
+   "end": 613.169,
+   "chapter": "c06",
+   "para": 46,
+   "speed": 0.92,
+   "file": "16de0fc9c8fe.wav"
   },
   {
    "text": "Florida's screening value.",
-   "start": 625.095,
-   "end": 626.711,
-   "chapter": "c06"
+   "start": 613.469,
+   "end": 615.13,
+   "chapter": "c06",
+   "para": 46,
+   "speed": 0.92,
+   "file": "d7075d63ce69.wav"
   },
   {
    "text": "And the EPA's.",
-   "start": 627.011,
-   "end": 628.224,
-   "chapter": "c06"
+   "start": 615.43,
+   "end": 616.688,
+   "chapter": "c06",
+   "para": 46,
+   "speed": 0.92,
+   "file": "05bb222433d2.wav"
   },
   {
    "text": "Screening values are not poison limits.",
-   "start": 628.824,
-   "end": 631.259,
-   "chapter": "c06"
+   "start": 617.288,
+   "end": 619.765,
+   "chapter": "c06",
+   "para": 47,
+   "speed": 0.92,
+   "file": "7c814e751fb1.wav"
   },
   {
    "text": "They are the levels at which health officials take a closer look.",
-   "start": 631.559,
-   "end": 635.277,
-   "chapter": "c06"
+   "start": 620.065,
+   "end": 623.648,
+   "chapter": "c06",
+   "para": 47,
+   "speed": 0.92,
+   "file": "70128faae648.wav"
   },
   {
    "text": "The highest readings were in red snapper and porgies.",
-   "start": 635.577,
-   "end": 638.656,
-   "chapter": "c06"
+   "start": 623.948,
+   "end": 627.016,
+   "chapter": "c06",
+   "para": 47,
+   "speed": 0.92,
+   "file": "e5fa51a60878.wav"
   },
   {
    "text": "Vermilion snapper and scamp never crossed either line.",
-   "start": 638.956,
-   "end": 642.319,
-   "chapter": "c06"
+   "start": 627.316,
+   "end": 630.745,
+   "chapter": "c06",
+   "para": 47,
+   "speed": 0.92,
+   "file": "5a91a70f643a.wav"
   },
   {
    "text": "Environmental groups, using the state's own data, went further.",
-   "start": 642.919,
-   "end": 646.862,
-   "chapter": "c06"
+   "start": 631.345,
+   "end": 635.149,
+   "chapter": "c06",
+   "para": 48,
+   "speed": 0.92,
+   "file": "872ddf77e1d9.wav"
   },
   {
    "text": "They said snapper on the carrier carried about seven times more PCBs than snapper on a rubble reef.",
-   "start": 647.162,
-   "end": 653.973,
-   "chapter": "c06"
+   "start": 635.449,
+   "end": 641.723,
+   "chapter": "c06",
+   "para": 48,
+   "speed": 0.92,
+   "file": "b322633a7b02.wav"
   },
   {
    "text": "That reef was eight miles away.",
-   "start": 654.273,
-   "end": 656.152,
-   "chapter": "c06"
+   "start": 642.023,
+   "end": 643.965,
+   "chapter": "c06",
+   "para": 48,
+   "speed": 0.92,
+   "file": "df53ca3953fd.wav"
   },
   {
    "text": "And tagging suggested the snapper tend to stay on the wreck.",
-   "start": 656.452,
-   "end": 659.774,
-   "chapter": "c06"
+   "start": 644.265,
+   "end": 647.681,
+   "chapter": "c06",
+   "para": 48,
+   "speed": 0.92,
+   "file": "0e670ccf92f6.wav"
   },
   {
    "text": "Then the numbers came down.",
-   "start": 660.374,
-   "end": 661.898,
-   "chapter": "c06"
+   "start": 648.281,
+   "end": 649.899,
+   "chapter": "c06",
+   "para": 49,
+   "speed": 0.92,
+   "file": "8443e0cfe912.wav"
   },
   {
    "text": "By about three years, the average was below Florida's line.",
-   "start": 662.198,
-   "end": 666.158,
-   "chapter": "c06"
+   "start": 650.199,
+   "end": 653.791,
+   "chapter": "c06",
+   "para": 49,
+   "speed": 0.92,
+   "file": "184b1070c678.wav"
   },
   {
    "text": "By about four years, it was below both.",
-   "start": 666.458,
-   "end": 668.986,
-   "chapter": "c06"
+   "start": 654.091,
+   "end": 656.561,
+   "chapter": "c06",
+   "para": 49,
+   "speed": 0.92,
+   "file": "898e25019c08.wav"
   },
   {
    "text": "No fish-eating advisory was ever issued for the wreck.",
-   "start": 669.286,
-   "end": 672.836,
-   "chapter": "c06"
+   "start": 656.861,
+   "end": 660.256,
+   "chapter": "c06",
+   "para": 49,
+   "speed": 0.92,
+   "file": "436e6950e26f.wav"
   },
   {
    "text": "The last published results stop there, about four years after the sinking.",
-   "start": 673.436,
-   "end": 677.972,
-   "chapter": "c06"
+   "start": 660.856,
+   "end": 665.212,
+   "chapter": "c06",
+   "para": 50,
+   "speed": 0.92,
+   "file": "b140b4cc08a1.wav"
   },
   {
    "text": "So here is the question the fish leave behind.",
-   "start": 678.272,
-   "end": 681.246,
-   "chapter": "c06"
+   "start": 665.512,
+   "end": 668.586,
+   "chapter": "c06",
+   "para": 50,
+   "speed": 0.92,
+   "file": "d9f512c5eaee.wav"
   },
   {
    "text": "If the Navy knew the PCBs were there, why not just take them out?",
-   "start": 681.546,
-   "end": 686.092,
-   "chapter": "c06"
+   "start": 668.886,
+   "end": 673.118,
+   "chapter": "c06",
+   "para": 50,
+   "speed": 0.8522,
+   "file": "b817541a496a.wav"
   },
   {
    "text": "To answer that, go back down to the wreck.",
-   "start": 686.992,
-   "end": 689.355,
-   "chapter": "c07"
+   "start": 674.018,
+   "end": 676.277,
+   "chapter": "c07",
+   "para": 51,
+   "speed": 0.92,
+   "file": "ede615d39554.wav"
   },
   {
    "text": "She does not sit the way she did on the day she sank.",
-   "start": 689.655,
-   "end": 692.873,
-   "chapter": "c07"
+   "start": 676.577,
+   "end": 679.731,
+   "chapter": "c07",
+   "para": 51,
+   "speed": 0.92,
+   "file": "9e1c2eb08802.wav"
   },
   {
    "text": "The storms saw to that.",
-   "start": 693.173,
-   "end": 694.479,
-   "chapter": "c07"
+   "start": 680.031,
+   "end": 681.589,
+   "chapter": "c07",
+   "para": 51,
+   "speed": 0.92,
+   "file": "bf7e2447c535.wav"
   },
   {
    "text": "Within about two and a half years, storms had pushed her roughly ten feet down into the seabed.",
-   "start": 695.079,
-   "end": 700.635,
-   "chapter": "c07"
+   "start": 682.189,
+   "end": 687.428,
+   "chapter": "c07",
+   "para": 52,
+   "speed": 0.92,
+   "file": "1ae28bbdb831.wav"
   },
   {
    "text": "Among them was Hurricane Gustav, in two thousand eight.",
-   "start": 700.935,
-   "end": 704.447,
-   "chapter": "c07"
+   "start": 687.728,
+   "end": 691.157,
+   "chapter": "c07",
+   "para": 52,
+   "speed": 0.92,
+   "file": "3c6d716570f3.wav"
   },
   {
    "text": "In late two thousand nine, a storm tore away the casing around her funnel.",
-   "start": 704.747,
-   "end": 709.521,
-   "chapter": "c07"
+   "start": 691.457,
+   "end": 695.948,
+   "chapter": "c07",
+   "para": 52,
+   "speed": 0.92,
+   "file": "1fe93f6b1acc.wav"
   },
   {
    "text": "Today her flight deck lies about one hundred and forty-five to one hundred and fifty feet down.",
-   "start": 710.121,
-   "end": 716.571,
-   "chapter": "c07"
+   "start": 696.548,
+   "end": 702.679,
+   "chapter": "c07",
+   "para": 53,
+   "speed": 0.92,
+   "file": "cf1cc4ef2e25.wav"
   },
   {
    "text": "The top of her island is eighty-four feet down.",
-   "start": 716.871,
-   "end": 719.91,
-   "chapter": "c07"
+   "start": 702.979,
+   "end": 706.001,
+   "chapter": "c07",
+   "para": 53,
+   "speed": 0.92,
+   "file": "d23fd6f609bb.wav"
   },
   {
    "text": "The deck is beyond normal sport-diving limits.",
-   "start": 720.21,
-   "end": 723.162,
-   "chapter": "c07"
+   "start": 706.301,
+   "end": 709.209,
+   "chapter": "c07",
+   "para": 53,
+   "speed": 0.92,
+   "file": "ed1e7502b6e5.wav"
   },
   {
    "text": "Florida warns divers never to go inside.",
-   "start": 723.462,
-   "end": 726.519,
-   "chapter": "c07"
+   "start": 709.509,
+   "end": 712.663,
+   "chapter": "c07",
+   "para": 53,
+   "speed": 0.92,
+   "file": "76c4c69ae38e.wav"
   },
   {
    "text": "The divers came anyway.",
-   "start": 727.119,
-   "end": 728.628,
-   "chapter": "c07"
+   "start": 713.263,
+   "end": 714.898,
+   "chapter": "c07",
+   "para": 54,
+   "speed": 0.92,
+   "file": "c02df24e9702.wav"
   },
   {
    "text": "In her first year, there were about four thousand two hundred charter dive trips.",
-   "start": 728.928,
-   "end": 733.631,
-   "chapter": "c07"
+   "start": 715.198,
+   "end": 719.471,
+   "chapter": "c07",
+   "para": 54,
+   "speed": 0.92,
+   "file": "5c2756f4332c.wav"
   },
   {
    "text": "They brought about three point six million dollars of economic impact to two counties.",
-   "start": 733.931,
-   "end": 739.562,
-   "chapter": "c07"
+   "start": 719.771,
+   "end": 725.141,
+   "chapter": "c07",
+   "para": 54,
+   "speed": 0.92,
+   "file": "70a8f9a06bde.wav"
   },
   {
    "text": "Escambia, in Florida, and Baldwin, in Alabama.",
-   "start": 739.862,
-   "end": 743.093,
-   "chapter": "c07"
+   "start": 725.441,
+   "end": 728.665,
+   "chapter": "c07",
+   "para": 54,
+   "speed": 0.92,
+   "file": "538969f173f7.wav"
   },
   {
    "text": "And sixty-seven jobs.",
-   "start": 743.393,
-   "end": 744.97,
-   "chapter": "c07"
+   "start": 728.965,
+   "end": 730.63,
+   "chapter": "c07",
+   "para": 54,
+   "speed": 0.92,
+   "file": "ac3ae404b9e9.wav"
   },
   {
    "text": "Now back to the question.",
-   "start": 745.57,
-   "end": 746.933,
-   "chapter": "c07"
+   "start": 731.23,
+   "end": 732.697,
+   "chapter": "c07",
+   "para": 55,
+   "speed": 0.92,
+   "file": "684a6df0b59a.wav"
   },
   {
    "text": "Why leave the PCBs in?",
-   "start": 747.233,
-   "end": 749.02,
-   "chapter": "c07"
+   "start": 732.997,
+   "end": 734.981,
+   "chapter": "c07",
+   "para": 55,
+   "speed": 0.8522,
+   "file": "8fa593b31316.wav"
   },
   {
    "text": "Almost all of what was left, ninety-seven percent, was in her wiring.",
-   "start": 749.32,
-   "end": 753.895,
-   "chapter": "c07"
+   "start": 735.281,
+   "end": 739.598,
+   "chapter": "c07",
+   "para": 55,
+   "speed": 0.92,
+   "file": "5a4a561857b0.wav"
   },
   {
    "text": "The Navy said ripping it all out would mean taking the ship apart.",
-   "start": 754.195,
-   "end": 757.934,
-   "chapter": "c07"
+   "start": 739.898,
+   "end": 743.791,
+   "chapter": "c07",
+   "para": 55,
+   "speed": 0.92,
+   "file": "fe43e5767d65.wav"
   },
   {
    "text": "And taking her apart is exactly what nobody had managed to do.",
-   "start": 758.534,
-   "end": 762.622,
-   "chapter": "c07"
+   "start": 744.391,
+   "end": 748.335,
+   "chapter": "c07",
+   "para": 56,
+   "speed": 0.92,
+   "file": "e76fcba6ca15.wav"
   },
   {
    "text": "Two scrap deals had collapsed.",
-   "start": 762.922,
-   "end": 764.6,
-   "chapter": "c07"
+   "start": 748.635,
+   "end": 750.391,
+   "chapter": "c07",
+   "para": 56,
+   "speed": 0.92,
+   "file": "075c0aa12ff3.wav"
   },
   {
    "text": "Two more had found no taker.",
-   "start": 764.9,
-   "end": 766.622,
-   "chapter": "c07"
+   "start": 750.691,
+   "end": 752.483,
+   "chapter": "c07",
+   "para": 56,
+   "speed": 0.92,
+   "file": "16ffa6213b54.wav"
   },
   {
    "text": "Getting the wiring out meant doing the very job that had already failed.",
-   "start": 766.922,
-   "end": 771.299,
-   "chapter": "c07"
+   "start": 752.783,
+   "end": 757.11,
+   "chapter": "c07",
+   "para": 56,
+   "speed": 0.92,
+   "file": "84f6af546b65.wav"
   },
   {
    "text": "A reef was different.",
-   "start": 771.899,
-   "end": 773.198,
-   "chapter": "c07"
+   "start": 757.71,
+   "end": 759.191,
+   "chapter": "c07",
+   "para": 57,
+   "speed": 0.92,
+   "file": "092b033da4e4.wav"
   },
   {
    "text": "The Navy said reefing and cleanup cost about a quarter of taking a ship apart and recycling it.",
-   "start": 773.498,
-   "end": 779.313,
-   "chapter": "c07"
+   "start": 759.491,
+   "end": 765.208,
+   "chapter": "c07",
+   "para": 57,
+   "speed": 0.92,
+   "file": "0bf9c01d8829.wav"
   },
   {
    "text": "Even as the bill climbed, the Navy still called her a bargain.",
-   "start": 779.613,
-   "end": 783.453,
-   "chapter": "c07"
+   "start": 765.508,
+   "end": 769.165,
+   "chapter": "c07",
+   "para": 57,
+   "speed": 0.92,
+   "file": "49ad2b102fb1.wav"
   },
   {
    "text": "Next to an estimated twenty-four million dollars to scrap her.",
-   "start": 783.753,
-   "end": 787.649,
-   "chapter": "c07"
+   "start": 769.465,
+   "end": 773.383,
+   "chapter": "c07",
+   "para": 57,
+   "speed": 0.92,
+   "file": "1dc0bfcf5069.wav"
   },
   {
    "text": "But that bargain would not hold for long.",
-   "start": 788.249,
-   "end": 790.33,
-   "chapter": "c07"
+   "start": 773.983,
+   "end": 776.07,
+   "chapter": "c07",
+   "para": 58,
+   "speed": 0.92,
+   "file": "9ca3c46fa336.wav"
   },
   {
    "text": "Within two years, the government's own ship-disposal agency gave a warning.",
-   "start": 790.63,
-   "end": 795.517,
-   "chapter": "c07"
+   "start": 776.37,
+   "end": 781.216,
+   "chapter": "c07",
+   "para": 58,
+   "speed": 0.92,
+   "file": "204a66db69e0.wav"
   },
   {
    "text": "Cleaning ships to the new standard could wipe out the savings of reefing compared to scrapping.",
-   "start": 795.817,
-   "end": 801.334,
-   "chapter": "c07"
+   "start": 781.516,
+   "end": 786.796,
+   "chapter": "c07",
+   "para": 58,
+   "speed": 0.92,
+   "file": "9f4908a33136.wav"
   },
   {
    "text": "So that is why the Navy sank its own aircraft carrier.",
-   "start": 801.934,
-   "end": 805.134,
-   "chapter": "c07"
+   "start": 787.396,
+   "end": 790.587,
+   "chapter": "c07",
+   "para": 59,
+   "speed": 0.92,
+   "file": "257a0e54b956.wav"
   },
   {
    "text": "The bottom of the Gulf was the one door left.",
-   "start": 805.434,
-   "end": 808.165,
-   "chapter": "c07"
+   "start": 790.887,
+   "end": 793.571,
+   "chapter": "c07",
+   "para": 59,
+   "speed": 0.92,
+   "file": "41f3581e9a27.wav"
   },
   {
    "text": "She is still the only aircraft carrier ever sunk as a reef.",
-   "start": 808.765,
-   "end": 812.395,
-   "chapter": "c07"
+   "start": 794.171,
+   "end": 797.795,
+   "chapter": "c07",
+   "para": 60,
+   "speed": 0.92,
+   "file": "7a5128f678ca.wav"
   },
   {
    "text": "She will not be the biggest for long.",
-   "start": 812.695,
-   "end": 814.538,
-   "chapter": "c07"
+   "start": 798.095,
+   "end": 799.896,
+   "chapter": "c07",
+   "para": 60,
+   "speed": 0.92,
+   "file": "32ccac3f8ea7.wav"
   },
   {
    "text": "On November twelfth, at ten in the morning, weather permitting, Okaloosa County plans to sink the SS United States.",
-   "start": 815.138,
-   "end": 823.336,
-   "chapter": "c07"
+   "start": 800.496,
+   "end": 808.093,
+   "chapter": "c07",
+   "para": 61,
+   "speed": 0.92,
+   "file": "56e62e423c74.wav"
   },
   {
    "text": "She will lie about thirteen nautical miles from the Oriskany.",
-   "start": 823.636,
-   "end": 827.198,
-   "chapter": "c07"
+   "start": 808.393,
+   "end": 811.962,
+   "chapter": "c07",
+   "para": 61,
+   "speed": 0.92,
+   "file": "ad3e905cc17d.wav"
   },
   {
    "text": "And here is the twist.",
-   "start": 827.798,
-   "end": 829.12,
-   "chapter": "c07"
+   "start": 812.562,
+   "end": 814.049,
+   "chapter": "c07",
+   "para": 62,
+   "speed": 0.92,
+   "file": "262e91a6ee4b.wav"
   },
   {
    "text": "Okaloosa County put fifty thousand dollars toward sinking the Oriskany.",
-   "start": 829.42,
-   "end": 834.544,
-   "chapter": "c07"
+   "start": 814.349,
+   "end": 819.164,
+   "chapter": "c07",
+   "para": 62,
+   "speed": 0.92,
+   "file": "5215d2aa4b85.wav"
   },
   {
    "text": "Now it is about to take her title.",
-   "start": 834.844,
-   "end": 837.027,
-   "chapter": "c07"
+   "start": 819.464,
+   "end": 821.7,
+   "chapter": "c07",
+   "para": 62,
+   "speed": 0.92,
+   "file": "98d2f3bba6f0.wav"
   },
   {
    "text": "So, was the bottom of the Gulf the best way to remember the Mighty O?",
-   "start": 837.627,
-   "end": 842.446,
-   "chapter": "c07"
+   "start": 822.3,
+   "end": 826.805,
+   "chapter": "c07",
+   "para": 63,
+   "speed": 0.8522,
+   "file": "4ff877f0f801.wav"
   },
   {
    "text": "Or just the cheapest way to let her go?",
-   "start": 842.746,
-   "end": 845.007,
-   "chapter": "c07"
+   "start": 827.105,
+   "end": 829.509,
+   "chapter": "c07",
+   "para": 63,
+   "speed": 0.8522,
+   "file": "b97916fb6962.wav"
   },
   {
    "text": "Tell us in the comments.",
-   "start": 845.307,
-   "end": 846.596,
-   "chapter": "c07"
+   "start": 829.809,
+   "end": 831.229,
+   "chapter": "c07",
+   "para": 63,
+   "speed": 0.92,
+   "file": "a019084a62e6.wav"
   }
  ]
 }

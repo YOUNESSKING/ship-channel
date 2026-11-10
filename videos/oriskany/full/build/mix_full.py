@@ -11,7 +11,7 @@ Resumable: the join is skipped when chapter/joined_silent.mp4 is newer than ever
   nohup python3 build/mix_full.py > build/mix_full.log 2>&1 &"""
 import json, os, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); FULL = os.path.dirname(HERE); ROOT = os.path.abspath(os.path.join(FULL, "../../.."))
-SND = os.path.join(ROOT, "tools/sound"); WK = os.environ.get("MIX_WORK", os.path.join(FULL, "audio/mix")); OUT = os.path.join(FULL, "oriskany_full_v7.mp4")   # v7: last masked words (SFX_FIX_v6.md section 8)
+SND = os.path.join(ROOT, "tools/sound"); WK = os.environ.get("MIX_WORK", os.path.join(FULL, "audio/mix")); OUT = os.path.join(FULL, "oriskany_full_v8.mp4")   # v8: the Archive voice (owner 2026-11-10), full re-time + re-render. v7: last masked words (SFX_FIX_v6.md section 8)
 # v6 = SFX_FIX_v6 (critic build/CRITIQUE_SFX_v5.md, owner 2026-11-08: quieter SFX). MIX_WORK=/dev/shm/... keeps the 2.6 GB of mix
 # stems off the (nearly full) disk.
 # v5 = SFX_FIX_v5 sound (owner 2026-11-08: SFX -3 dB, beds -2 dB, every effect silent by its shot's end; build/SFX_FIX_v5.md). The
@@ -35,9 +35,9 @@ def frames(p):
 
 def join():
     # c01 = the owner-approved test v4 hook PICTURE, exactly as approved (its first 1459 frames = 0-48.625 s; same voice recording,
-    # word times equal to 1 ms). HOOK_SRC=render overrides with this build's own render_c01.mp4.
+    # word times equal to 1 ms). v8: the hook is re-timed (build/hook_v8.py) and rendered, so render_c01.mp4 is the default; HOOK_SRC=test_v4 = the old test-v4 picture.
     hook = os.path.join(ROOT, "videos/oriskany/test_v4/oriskany_test_v4.mp4")
-    renders = [hook if (k == "c01" and os.environ.get("HOOK_SRC") != "render") else os.path.join(FULL, "chapter", f"render_{k}.mp4") for k in KEYS]
+    renders = [hook if (k == "c01" and os.environ.get("HOOK_SRC") == "test_v4") else os.path.join(FULL, "chapter", f"render_{k}.mp4") for k in KEYS]
     for r in renders:
         if not os.path.exists(r): sys.exit(f"missing {r}: run build/render_all.sh first")
     if os.path.exists(JOIN) and all(os.path.getmtime(JOIN) > os.path.getmtime(r) for r in renders) and \
@@ -87,7 +87,7 @@ if __name__ == "__main__":
     py(os.path.join(HERE, "sfx_full.py"))
     py(os.path.join(HERE, "music_bed.py"))
     A = os.path.join(FULL, "audio")
-    py(os.path.join(SND, "mix_clip.py"), "--video", video, "--voice", f"{A}/voice.wav", "--chunks", f"{HERE}/chunks.json",
+    py(os.path.join(SND, "mix_clip.py"), "--video", video, "--voice", f"{A}/voice_archive.wav", "--chunks", f"{HERE}/chunks.json",
        "--sfx", f"{A}/sfx.wav", "--beds", f"{A}/beds.wav", "--punch", f"{A}/punch.wav", "--music", f"{A}/music_bed.wav",
        "--out", OUT, "--work", WK)
     py(os.path.join(SND, "measure_mix.py"), "--out", OUT, "--work", WK, "--words", f"{HERE}/words.json",

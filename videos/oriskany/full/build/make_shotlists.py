@@ -541,14 +541,7 @@ for ck in ["c02", "c03", "c04", "c05", "c06", "c07"]:
               open(os.path.join(HERE, f"sfx_{ck}.json"), "w"), indent=1, ensure_ascii=False)
     all_chapters[ck] = (c0, cend, shots, cues)
 
-# c01 = the approved hook: test v4's c01 shots verbatim, clips from test_v4/segments, ends at the chapter break
-c1 = json.load(open(os.path.join(ROOT, "videos/oriskany/test_v4/chapter/c01.json")))
-c1.update(title="Oriskany full · Hook (= approved test v4)", words="../build/words.json", audio_offset=0.0,
-          clips_dir="../../test_v4/segments", duration=round(CH["c02"]["start"], 3), fade_out=0.0)
-for s in c1["shots"]:
-    if s.get("template") == "anim_xray" and s["params"].get("image", "").startswith("../assets/"):
-        s["params"]["image"] = "../../test_v4/assets/" + s["params"]["image"][len("../assets/"):]
-json.dump(c1, open(os.path.join(FULL, "chapter", "c01.json"), "w"), indent=1, ensure_ascii=False)
+# c01 = the approved hook: since v8 (Archive voice) written by build/hook_v8.py (test v4 shots, re-timed to the new words)
 json.dump(segments, open(os.path.join(HERE, "segments.json"), "w"), indent=1, ensure_ascii=False)
 
 # ------------------------------------------------------------------------------------------------------------------ report
@@ -586,6 +579,8 @@ HOOK_USES = {"b3_a4_catapult_1966.mp4": [6.4], "b3_island_34_1966.mp4": [8.0], "
              "b10_ssus_underway_side.mp4": [41.6], "b10_ssus_profile.mp4": [43.7], "6698617": [4.3], "6698627": [10.0], "6698576": [11.5],
              "6698573": [13.8], "6698609": [16.0], "6698619": [17.7], "6698610": [18.4], "6698611": [18.4], "6698612": [18.4], "6698624": [19.9],
              "6698626": [20.6], "6698569": [21.3], "6698553": [23.8]}
+import warp_v8 as _WP   # v8: the hook uses above are v7 times
+HOOK_USES = {k_: [_WP.new(t) for t in v] for k_, v in HOOK_USES.items()}
 for k_ in sorted(set(uses) | set(HOOK_USES)):
     allt = sorted(HOOK_USES.get(k_, []) + uses.get(k_, []))
     bad = len(allt) > 2 or any(b - a < 180 for a, b in zip(allt, allt[1:]))

@@ -1,0 +1,322 @@
+[
+ {
+  "i": 9,
+  "start": 23.615,
+  "text": "and about twenty million dollars.",
+  "heard": "and about $20 million.",
+  "diffs": [
+   [
+    "",
+    "dollars"
+   ],
+   [
+    "dollars",
+    ""
+   ]
+  ]
+ },
+ {
+  "i": 20,
+  "start": 56.251,
+  "text": "She was laid up at Bremerton, Washington, in a row of silent grey ships.",
+  "heard": "She was laid up at Bremerton, Washington, in a row of silent gray ships.",
+  "diffs": [
+   [
+    "grey",
+    "gray"
+   ]
+  ]
+ },
+ {
+  "i": 27,
+  "start": 79.723,
+  "text": "Then, in the early nineteen nineties, an offer came from across the Pacific.",
+  "heard": "Then, in the early 1990s, an offer came from across the Pacific.",
+  "diffs": [
+   [
+    "nineties",
+    "ninetys"
+   ]
+  ]
+ },
+ {
+  "i": 28,
+  "start": 84.708,
+  "text": "Japanese investors wanted her as the centrepiece of an attraction in Tokyo Bay.",
+  "heard": "Japanese investors wanted her as the centerpiece of an attraction in Tokyo Bay.",
+  "diffs": [
+   [
+    "centrepiece",
+    "centerpiece"
+   ]
+  ]
+ },
+ {
+  "i": 34,
+  "start": 102.468,
+  "text": "In the early nineteen nineties, she was sold for scrap.",
+  "heard": "In the early 1990s, she was sold for scrap.",
+  "diffs": [
+   [
+    "nineties",
+    "ninetys"
+   ]
+  ]
+ },
+ {
+  "i": 63,
+  "start": 207.367,
+  "text": "On the eighteenth of November, nineteen fifty-two, four of her Panther jets met seven MiG-fifteens.",
+  "heard": "On the 18th of November, 1952, four of her Panther jets met seven MiG-15s.",
+  "diffs": [
+   [
+    "fifteens",
+    "s"
+   ]
+  ]
+ },
+ {
+  "i": 74,
+  "start": 255.367,
+  "text": "On the morning of the twenty-sixth of October, nineteen sixty-six, she was on Yankee Station in the Gulf of Tonkin.",
+  "heard": "On the morning of the 26th of October, 1966, she was on Yankee Station in the Gulf of Tonkin.",
+  "diffs": [
+   [
+    "sixth",
+    "six"
+   ]
+  ]
+ },
+ {
+  "i": 89,
+  "start": 312.48,
+  "text": "On the twenty-sixth of October, nineteen sixty-seven, she launched a strike on Hanoi.",
+  "heard": "On the 26th of October, 1967, she launched a strike on Hanoi.",
+  "diffs": [
+   [
+    "sixth",
+    "six"
+   ]
+  ]
+ },
+ {
+  "i": 97,
+  "start": 344.309,
+  "text": "And by the late nineteen nineties, nobody would pay to keep her, or even to cut her up.",
+  "heard": "And by the late 1990s, nobody would pay to keep her or even to cut her up.",
+  "diffs": [
+   [
+    "nineties",
+    "ninetys"
+   ]
+  ]
+ },
+ {
+  "i": 108,
+  "start": 388.835,
+  "text": "Congress had committed two point eight million dollars to the project.",
+  "heard": "Congress had committed $2.8 million to the project.",
+  "diffs": [
+   [
+    "two point eight",
+    "dollars twoeight"
+   ],
+   [
+    "dollars",
+    ""
+   ]
+  ]
+ },
+ {
+  "i": 109,
+  "start": 392.977,
+  "text": "Two point one million of it was for removing contaminants.",
+  "heard": "2.1 million of it was for removing contaminants.",
+  "diffs": [
+   [
+    "two point one",
+    "twoone"
+   ]
+  ]
+ },
+ {
+  "i": 115,
+  "start": 416.195,
+  "text": "The cost of removing contaminants grew to more than seven point six million dollars.",
+  "heard": "The cost of removing contaminants grew to more than $7.6 million.",
+  "diffs": [
+   [
+    "seven point six",
+    "dollars sevensix"
+   ],
+   [
+    "dollars",
+    ""
+   ]
+  ]
+ },
+ {
+  "i": 117,
+  "start": 423.98,
+  "text": "On top of that, the Navy spent three point seven million on a computer model.",
+  "heard": "On top of that, the Navy spent $3.7 million on a computer model.",
+  "diffs": [
+   [
+    "three point seven",
+    "dollars threeseven"
+   ]
+  ]
+ },
+ {
+  "i": 121,
+  "start": 438.345,
+  "text": "In June two thousand five, she was towed back to Texas to hide from it.",
+  "heard": "In June 2005, she was told back to Texas to hide from it.",
+  "diffs": [
+   [
+    "towed",
+    "told"
+   ]
+  ]
+ },
+ {
+  "i": 122,
+  "start": 442.857,
+  "text": "That tow cost another eight hundred thousand dollars.",
+  "heard": "That tow cost another $800,000.",
+  "diffs": [
+   [
+    "",
+    "dollars"
+   ],
+   [
+    "dollars",
+    ""
+   ]
+  ]
+ },
+ {
+  "i": 124,
+  "start": 449.426,
+  "text": "By the spring of two thousand six, the Navy's bill was twelve point seven million dollars, and rising.",
+  "heard": "By the spring of 2006, the Navy's bill was $12.7 million and rising.",
+  "diffs": [
+   [
+    "twelve point seven",
+    "dollars twelveseven"
+   ],
+   [
+    "dollars",
+    ""
+   ]
+  ]
+ },
+ {
+  "i": 132,
+  "start": 491.327,
+  "text": "On the fifteenth, tugs pulled her away from the pier.",
+  "heard": "On the 15th, Tugs pulled her away from the pier.",
+  "diffs": [
+   [
+    "fifteenth",
+    "fifteen"
+   ]
+  ]
+ },
+ {
+  "i": 156,
+  "start": 572.287,
+  "text": "On the fifteenth of February, two thousand six, it ruled.",
+  "heard": "On the 15th of February, 2006, it ruled.",
+  "diffs": [
+   [
+    "fifteenth",
+    "fifteen"
+   ]
+  ]
+ },
+ {
+  "i": 162,
+  "start": 593.735,
+  "text": "From December two thousand six to November two thousand ten, the state and Escambia County sampled eight rounds of fish.",
+  "heard": "From December 2006 to November 2010, the state and Escambia County sampled eight rounds of fish.",
+  "diffs": [
+   [
+    "two thousand",
+    "twenty"
+   ]
+  ]
+ },
+ {
+  "i": 171,
+  "start": 627.316,
+  "text": "Vermilion snapper and scamp never crossed either line.",
+  "heard": "Vermillion's snapper and scamp never crossed either line.",
+  "diffs": [
+   [
+    "vermilion",
+    "vermillions"
+   ]
+  ]
+ },
+ {
+  "i": 185,
+  "start": 680.031,
+  "text": "The storms saw to that.",
+  "heard": "The storms soar to that.",
+  "diffs": [
+   [
+    "saw",
+    "soar"
+   ]
+  ]
+ },
+ {
+  "i": 195,
+  "start": 719.771,
+  "text": "They brought about three point six million dollars of economic impact to two counties.",
+  "heard": "They brought about $3.6 million of economic impact to two counties.",
+  "diffs": [
+   [
+    "three point six",
+    "dollars threesix"
+   ],
+   [
+    "dollars",
+    ""
+   ]
+  ]
+ },
+ {
+  "i": 209,
+  "start": 769.465,
+  "text": "Next to an estimated twenty-four million dollars to scrap her.",
+  "heard": "next to an estimated $24 million to scrap her.",
+  "diffs": [
+   [
+    "",
+    "dollars"
+   ],
+   [
+    "dollars",
+    ""
+   ]
+  ]
+ },
+ {
+  "i": 220,
+  "start": 814.349,
+  "text": "Okaloosa County put fifty thousand dollars toward sinking the Oriskany.",
+  "heard": "Okaloosa County put $50,000 toward sinking the Oriskany.",
+  "diffs": [
+   [
+    "",
+    "dollars"
+   ],
+   [
+    "dollars",
+    ""
+   ]
+  ]
+ }
+]

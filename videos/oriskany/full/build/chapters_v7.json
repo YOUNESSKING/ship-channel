@@ -1,0 +1,69 @@
+{
+ "duration": 847.596,
+ "fps": 30,
+ "chapters": [
+  {
+   "key": "c01",
+   "title": "Hook",
+   "start": 0.0,
+   "voice_end": 48.175,
+   "words": 120,
+   "end": 48.625,
+   "duration": 48.625
+  },
+  {
+   "key": "c02",
+   "title": "Nobody Wanted Her",
+   "start": 48.625,
+   "voice_end": 176.292,
+   "words": 334,
+   "end": 176.742,
+   "duration": 128.117
+  },
+  {
+   "key": "c03",
+   "title": "The Mighty O",
+   "start": 176.742,
+   "voice_end": 359.518,
+   "words": 462,
+   "end": 359.968,
+   "duration": 183.226
+  },
+  {
+   "key": "c04",
+   "title": "The Bargain",
+   "start": 359.968,
+   "voice_end": 484.033,
+   "words": 317,
+   "end": 484.483,
+   "duration": 124.515
+  },
+  {
+   "key": "c05",
+   "title": "Thirty-Seven Minutes",
+   "start": 484.483,
+   "voice_end": 565.427,
+   "words": 220,
+   "end": 565.877,
+   "duration": 81.394
+  },
+  {
+   "key": "c06",
+   "title": "The Fish Test",
+   "start": 565.877,
+   "voice_end": 686.092,
+   "words": 301,
+   "end": 686.542,
+   "duration": 120.665
+  },
+  {
+   "key": "c07",
+   "title": "The Real Reason + Ending",
+   "start": 686.542,
+   "voice_end": 846.596,
+   "words": 422,
+   "end": 847.596,
+   "duration": 161.054
+  }
+ ]
+}
