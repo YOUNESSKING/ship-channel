@@ -1,4 +1,4 @@
-"""Channel logo: "Silent Hulls". Icon = a carrier's bow rising out of the sea as she goes under
+"""Channel logo: "Fleet's End" (@FleetsEnd). Icon = a carrier's bow rising out of the sea as she goes under
 (the channel's signature image, from the Oriskany F1 thumbnail), drawn flat so it reads at 48 px.
 Outputs: avatar 800x800 (YouTube profile, shown as a circle), wordmark 1600x400, banner 2560x1440."""
 import os
@@ -11,7 +11,7 @@ ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
 ANTON = os.path.join(ROOT, "tools", "fonts", "Anton-Regular.ttf")
 OSWALD = os.path.join(ROOT, "tools", "maps", "oswald-latin-700-normal.ttf")
 OUT = sys.argv[1] if len(sys.argv) > 1 else HERE
-NAME = os.environ.get("CHANNEL_NAME", "SILENT HULLS")
+NAME = os.environ.get("CHANNEL_NAME", "FLEET'S END")
 
 NAVY = (9, 19, 32)
 SEA_TOP = (36, 92, 140)

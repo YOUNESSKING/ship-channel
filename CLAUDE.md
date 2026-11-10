@@ -6,6 +6,7 @@ The original rulebooks are kept unchanged in `reference/battle-maps/` (HANDOVER,
 disagree, this file wins.
 
 ## Channel
+- Name: **Fleet's End** (@FleetsEnd). Brand files and builder: `assets/brand/` (navy, steel-blue sea, red waterline, gold ring; Anton).
 - Niche: ship history, "what happened to it" stories, mostly US Navy (public-domain imagery).
 - Format: 14–24 min long-form, 2–3 uploads a week max, never daily (inauthentic-content policy).
 - Faceless, AI narration. Tick YouTube's "altered or synthetic content" box: Yes.
