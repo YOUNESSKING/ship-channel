@@ -143,3 +143,50 @@ for k in ("C", "D"):
         cairosvg.svg2png(bytestring=s.encode(), write_to=os.path.join(OUT, f"icon_{k}_{px}.png"), output_width=px)
     write(f"lockup_{k}", lockup(k, "L" + k), 1800)
 write("banner", banner("B"), 2560)
+
+
+# ---- two more concepts (owner asked for 2 more, 2026-11-10) ----
+STEEL_RING, RIVET = "#7F8C99", "#56616C"
+
+
+def icon_E(cid):
+    """E "Porthole": the Waterline scene seen through a ship's porthole (steel rim, 8 rivets)."""
+    inner = icon("C", cid)
+    # reuse C's art but clip to the glass (r=196) and draw a steel rim instead of the red ring
+    art = inner[: inner.rindex("<circle")]  # drop C's red ring
+    art = art.replace('<circle cx="256" cy="256" r="241"/>', '<circle cx="256" cy="256" r="196"/>')
+    art = (f'<g transform="translate(256,256) scale(0.84) translate(-256,-256)">{art}</g>')
+    import math
+    rivets = "".join(
+        f'<circle cx="{256 + 222 * math.cos(math.radians(a)):.1f}" cy="{256 + 222 * math.sin(math.radians(a)):.1f}" '
+        f'r="11" fill="{RIVET}"/>' for a in range(0, 360, 45))
+    rim = (f'<circle cx="256" cy="256" r="232" fill="{STEEL_RING}"/>'
+           f'<circle cx="256" cy="256" r="166" fill="{NAVY}"/>')
+    hi = f'<path d="M150,120 A150,150 0 0 1 300,92" fill="none" stroke="{WHITE}" stroke-width="10" stroke-linecap="round" opacity="0.35"/>'
+    return rim + rivets + art + f'<circle cx="256" cy="256" r="166" fill="none" stroke="{RIVET}" stroke-width="10"/>' + hi
+
+
+def icon_F(cid):
+    """F "Sonar": a carrier seen from above (angled deck) lying on contour lines, red sonar ping. Where she is now."""
+    rings = "".join(f'<circle cx="{256 + dx}" cy="{256 + dy}" r="{r}" fill="none" stroke="{STEEL}" stroke-width="5" opacity="{op}"/>'
+                    for r, dx, dy, op in ((70, 6, -4, .55), (120, 10, 6, .45), (170, -6, 10, .35), (220, 4, -6, .25)))
+    sweep = (f'<path d="M256,256 L256,15 A241,241 0 0 1 426,86 Z" fill="{STEEL}" opacity="0.18"/>')
+    # top-down Essex SCB-27C: hull/deck, angled-deck sponson (port), island (starboard), bow right
+    deck = "M0,10 L232,10 L292,32 L232,54 L0,54 Z M58,10 L80,-5 L152,-5 L142,10 Z"
+    island = "M128,50 L172,50 L172,62 L128,62 Z"
+    ship = (f'<g transform="translate(256,262) rotate(-28) scale(1.25) translate(-146,-22)">'
+            f'<path d="{deck}" fill="{WHITE}"/><path d="{island}" fill="{NAVY}"/>'
+            f'<path d="M20,32 L210,32" stroke="{NAVY}" stroke-width="3" stroke-dasharray="14 10"/></g>')
+    ping = (f'<circle cx="256" cy="262" r="58" fill="none" stroke="{RED}" stroke-width="10"/>'
+            f'<circle cx="256" cy="262" r="11" fill="{RED}"/>')
+    bg = f'<rect width="512" height="512" fill="{SEA_DEEP}"/>'
+    ring = f'<circle cx="256" cy="256" r="247" fill="none" stroke="{RED}" stroke-width="12"/>'
+    return (f'<defs><clipPath id="disc{cid}"><circle cx="256" cy="256" r="241"/></clipPath></defs>'
+            f'<g clip-path="url(#disc{cid})">{bg}{rings}{sweep}{ship}{ping}</g>{ring}')
+
+
+for k, fn in (("E", icon_E), ("F", icon_F)):
+    s = svg(512, 512, fn(k))
+    write(f"icon_{k}", s, 800)
+    for px in (176, 98, 48, 24):
+        cairosvg.svg2png(bytestring=s.encode(), write_to=os.path.join(OUT, f"icon_{k}_{px}.png"), output_width=px)
