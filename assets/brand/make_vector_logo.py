@@ -190,3 +190,31 @@ for k, fn in (("E", icon_E), ("F", icon_F)):
     write(f"icon_{k}", s, 800)
     for px in (176, 98, 48, 24):
         cairosvg.svg2png(bytestring=s.encode(), write_to=os.path.join(OUT, f"icon_{k}_{px}.png"), output_width=px)
+
+
+# ---- banner v2 (owner 2026-11-10: banner must match logo D) ----
+def banner_D():
+    """Sun + sinking carrier from logo D on the banner horizon, wordmark to the right. All key content inside the
+    desktop/mobile safe strip (x 507-2053, y 508-931); the sea below is TV-only."""
+    W, H = 2560, 1440
+    hz = 880
+    f = 1.55
+    tx, ty = 840 - 276 * f, hz - HZ * f
+    scene = (f'<g transform="translate({tx:.1f},{ty:.1f}) scale({f})">'
+             f'<defs><clipPath id="bab"><rect x="-600" y="-600" width="1800" height="{HZ + 600}"/></clipPath></defs>'
+             f'<g clip-path="url(#bab)"><circle cx="292" cy="{HZ + 4}" r="168" fill="{SUN}"/>'
+             f'<path d="{SHIP}" transform="{SHIP_T}" fill="{INK}"/></g></g>')
+    refl = "".join(f'<rect x="{840 - 232 * w:.0f}" y="{hz + 24 + i * 30}" width="{464 * w:.0f}" height="10" rx="5" '
+                   f'fill="{SUN}" opacity="{0.55 - i * 0.12:.2f}"/>' for i, w in enumerate([0.8, 0.55, 0.35, 0.2]))
+    size = 200
+    x0 = 1140
+    txt, _ = lockup_parts(x0, 760, size)
+    body = f"""<defs><linearGradient id="bsea" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="{SEA}"/><stop offset="1" stop-color="{SEA_DEEP}"/></linearGradient></defs>
+  <rect width="{W}" height="{H}" fill="{NAVY}"/>{scene}
+  <rect y="{hz}" width="{W}" height="{H - hz}" fill="url(#bsea)"/>{refl}
+  <rect y="{hz - 4}" width="{W}" height="8" fill="{WHITE}"/>{txt}"""
+    return svg(W, H, body)
+
+
+write("banner_D", banner_D(), 2560)
