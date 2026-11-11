@@ -5,7 +5,7 @@
 - Made for kids: No. Category: Education (or Film & Animation). Language: English.
 - Title (vidIQ 92): **Nobody Wanted This Aircraft Carrier, So They Sank It**. Test & Compare alternates: *Why the Navy Sank Its Own
   Aircraft Carrier* (88), *What the Navy Left Inside the Carrier It Sank* (88).
-- Publish by 9 Nov 2026 at the latest (the SS United States is due to be sunk on 12 Nov).
+- Missed 9 Nov. Publish from 13 Nov 2026, after the SS United States lines are re-voiced to match what happened on 12 Nov (BUILD_REPORT_v8.md section 6).
 
 Paste everything between the two lines below into the description box. No links in the credits (channel rule).
 
