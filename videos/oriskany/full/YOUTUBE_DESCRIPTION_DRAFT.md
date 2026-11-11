@@ -1,4 +1,4 @@
-# YouTube description draft: USS Oriskany full video (oriskany_full_v4.mp4, 14:25.6; chapter timestamps re-checked against v4: unchanged (v4 changed picture and sound only, no timing))
+# YouTube description draft: USS Oriskany full video (oriskany_full_v8.mp4, 14:10.2; chapter timestamps regenerated from chapters.json for the v8 Archive-voice re-time)
 
 **Upload settings to tick (do not skip):**
 - **Altered or synthetic content: YES** (the narration is an AI voice; the ship drawings and sinking animation are made graphics).
@@ -16,11 +16,11 @@ In May 2006 the US Navy sank one of its own aircraft carriers off Pensacola, Flo
 Chapters
 0:00 Hook
 0:48 Nobody Wanted Her
-2:56 The Mighty O
-5:59 The Bargain
-8:04 Thirty-Seven Minutes
-9:25 The Fish Test
-11:26 The Real Reason
+2:55 The Mighty O
+5:53 The Bargain
+7:55 Thirty-Seven Minutes
+9:15 The Fish Test
+11:13 The Real Reason
 
 Was the bottom of the Gulf the best way to remember the Mighty O, or just the cheapest way to let her go? Tell us in the comments.
 

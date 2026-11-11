@@ -25,7 +25,7 @@ FPS = 30
 py = lambda *a: subprocess.run([sys.executable, *a], check=True)
 KEYS = ["c01", "c02", "c03", "c04", "c05", "c06", "c07"]
 CH = {k: json.load(open(os.path.join(FULL, "chapter", f"{k}.json"))) for k in KEYS}
-JOIN = os.path.join(FULL, "chapter", "joined_silent.mp4")
+JOIN = os.environ.get("JOIN_PATH", os.path.join(FULL, "chapter", "joined_silent.mp4"))   # v8: JOIN_PATH=/dev/shm/... when the disk is short
 
 
 def frames(p):

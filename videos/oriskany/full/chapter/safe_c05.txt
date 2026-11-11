@@ -12,4 +12,4 @@ safe_area.js adjusted:
   lift 20px: PENSACOLA · 2006THE TEST CASE
   lift 12px: 500+ lbOF EXPLOSIVES
   lift 20px: 17 MAY 2006NOW FLORIDA’S REEF
-PASS: no text breaks the size / safe-area / font rules (72.5 s checked every 0.5 s)
+PASS: no text breaks the size / safe-area / font rules (71.1 s checked every 0.5 s)

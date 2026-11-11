@@ -1,0 +1,49 @@
+c01:s01   212                    @feet                  lands    1.770 on 'feet'    1.770 +0.00  OK
+c01:s05   ON PURPOSE.            @purpose               lands   10.089 on 'purpose.'   10.089 +0.00  OK
+c01:s07   22                     @twenty                lands   13.784 on 'twenty'   13.784 +0.00  OK
+c01:s10   37                     @seven+0.15            lands   18.250 on 'seven'   18.100 +0.15  OK
+c01:s12   3+                     @three                 lands   22.670 on 'three'   22.670 +0.00  OK
+c01:s13   $20                    @twenty                lands   23.955 on 'twenty'   23.955 +0.00  OK
+c02:s05   13                     @thirteen              lands   61.598 on 'thirteen'   61.598 +0.00  OK
+c02:s05   13                     @years                 lands   62.018 on 'years,'   62.018 +0.00  OK
+c02:s06   STRUCK                 @struck                lands   66.390 on 'struck'   66.390 +0.00  OK
+c02:s21   $600,000               @six                   lands  119.254 on 'six'  119.254 +0.00  OK
+c02:s22   3                      @three                 lands  120.956 on 'Three'  120.956 +0.00  OK
+c03:s03   6                      @six                   lands  184.774 on 'Six'  184.774 +0.00  OK
+c03:s13   1                      @one mig               lands  216.555 on 'one'  216.555 +0.00  OK
+c03:s14   4                      @four                  lands  221.249 on 'four.'  221.249 +0.00  OK
+c03:s18   12,000                 @twelve                lands  231.210 on 'twelve'  231.210 +0.00  OK
+c03:s24   7½                     @seven                 lands  250.202 on 'seven'  250.202 +0.00  OK
+c03:s30   ≈700                   @seven                 lands  273.038 on 'seven'  273.038 +0.00  OK
+c03:s31   5,400                  @five                  lands  275.788 on 'five'  275.788 +0.00  OK
+c03:s32   7                      @seven                 lands  280.166 on 'seven'  280.166 +0.00  OK
+c03:s35   44                     @forty                 lands  288.443 on 'forty'  288.443 +0.00  OK
+c03:s49   5½                     @five                  lands  334.431 on 'five'  334.431 +0.00  OK
+c04:s03   FIRST                  @first                 lands  362.030 on 'first'  362.030 +0.00  OK
+c04:s07   2 MORE YEARS           @two more              lands  380.706 on 'two'  380.706 +0.00  OK
+c04:s10   COMMITTED BY CONGRESS  @two point             lands  389.795 on 'two'  389.795 +0.00  OK
+c04:s11   FOR CONTAMINANTS       @two point one         lands  392.977 on 'Two'  392.977 +0.00  OK
+c04:s18   REMOVING CONTAMINANTS  @seven point           lands  419.255 on 'seven'  419.255 +0.00  OK
+c04:s19   ½+                     @half                  lands  421.990 on 'half'  421.990 +0.00  OK
+c04:s20   $3.7                   @three point           lands  425.740 on 'three'  425.740 +0.00  OK
+c04:s24   $800,000               @eight                 lands  444.137 on 'eight'  444.137 +0.00  OK
+c04:s27   NAVY SPENDING, SPRING  @twelve point          lands  452.526 on 'twelve'  452.526 +0.00  OK
+c04:s28   ≈ $20                  @twenty                lands  459.353 on 'twenty'  459.353 +0.00  OK
+c04:s29   ≈ $21                  @twenty one            lands  463.742 on 'twenty'  463.742 +0.00  OK
+c05:s11   500+                   @five                  lands  511.646 on 'five'  511.646 +0.00  OK
+c05:s12   10:25                  @ten                   lands  514.610 on 'ten'  514.610 +0.00  OK
+c05:s14   ≈5                     @five                  lands  519.207 on 'five'  519.207 +0.00  OK
+c05:s15   37                     @minutes               lands  521.974 on 'minutes.'  521.974 +0.00  OK
+c05:s21   LARGEST                @largest               lands  539.485 on 'largest'  539.485 +0.00  OK
+c06:s02   ≈700                   @seven                 lands  558.954 on 'seven'  558.954 +0.00  OK
+c06:s08   FIRST                  @first                 lands  581.586 on 'first'  581.586 +0.00  OK
+c06:s13   254                    @two hundred           lands  602.494 on 'Two'  602.494 +0.00  OK
+c07:s13   4,200                  @four thousand         lands  716.958 on 'four'  716.958 +0.00  OK
+c07:s14   $3.6                   @three point           lands  720.371 on 'three'  720.371 +0.00  OK
+c07:s17   67                     @sixty                 lands  729.125 on 'sixty'  729.125 +0.00  OK
+c07:s26   REEF + CLEANUP         @quarter               lands  762.151 on 'quarter'  762.151 +0.00  OK
+c07:s27   REEF · PRESS EST. 2006 @bill                  lands  766.168 on 'bill'  766.168 +0.00  OK
+c07:s28   SCRAP · USNI 2006 EST. @twenty four           lands  770.565 on 'twenty'  770.565 +0.00  OK
+c07:s37   NOV 12                 @november              lands  800.636 on 'November'  800.636 +0.00  OK
+c07:s41   $50,000                @fifty                 lands  815.909 on 'fifty'  815.909 +0.00  OK
+48 numbers; 0 outside their shot; 0 shots over 6 s []

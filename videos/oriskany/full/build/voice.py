@@ -22,6 +22,7 @@ STYLE_FILE = os.path.join(ROOT, "tts/voices/archive_style.npy")
 VOICE_TAG, SPEED = "archive", 0.92
 QSPEED = round(SPEED * 0.88 / 0.95, 4)          # 0.8522: the am_michael take read questions at 0.88 against 0.95
 LEAD, TAIL = 0.35, 1.0
+VOICE_SCALE = 0.5   # -6 dB on the whole take: the raw Archive chunks peak at up to +1 dBFS and clipped in PCM_16 (AAC overshoot in the master)
 GAP_S, GAP_P, GAP_C = 0.3, 0.6, 0.9
 OUT_WAV = os.path.join(FULL, "audio/voice_archive.wav")
 CD = os.path.join(FULL, "audio/chunks_archive")
@@ -127,12 +128,13 @@ if __name__ == "__main__":
         cf = os.path.join(CD, f"{chunk_key(text, sp)}.wav")
         if os.path.exists(cf): a, _ = sf.read(cf, dtype="float32")
         else:
-            a, fx = synth(text, sp); sf.write(cf, a, sr)
+            a, fx = synth(text, sp); sf.write(cf, a, sr, subtype="FLOAT")   # v8: float, Kokoro peaks can pass 1.0
             if fx: fixes.add(text[:40])
         d = len(a) / sr; spans.append((text, t, t + d, ch, pi, sp, os.path.basename(cf)))
         parts += [a, np.zeros(int(sr * gap), np.float32)]; t += d + gap
         if i % 20 == 0: print(i, "/", len(chunks), round(t, 1), flush=True)
-    voice = np.concatenate(parts)
+    voice = np.concatenate(parts) * VOICE_SCALE   # v8: headroom (the Archive take peaks over 0 dBFS; the mix normalises the level)
+    assert np.abs(voice).max() < 0.99, np.abs(voice).max()
     sf.write(OUT_WAV, voice, sr, subtype="PCM_16")
     print("duration", round(t, 2), "chunks", len(chunks), "phoneme-fixed (new this run):", sorted(fixes), flush=True)
     json.dump({"voice": "archive (bm_fable 0.40 + am_michael 0.40 + bm_lewis 0.20)", "style_md5": STYLE_MD5, "speed": SPEED,

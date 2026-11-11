@@ -21,54 +21,62 @@ C = json.load(open(os.path.join(HERE, "chunks.json")))
 old = C["chunks"]
 new = V.chunks
 assert len(old) == len(new) or True
-# match chunks by position from both ends: the changed run is what differs
-i0 = 0
-while i0 < min(len(old), len(new)) and old[i0]["text"] == new[i0][0]: i0 += 1
-j = 0
-while j < min(len(old), len(new)) - i0 and old[-1 - j]["text"] == new[-1 - j][0]: j += 1
-oc, nc = old[i0:len(old) - j], new[i0:len(new) - j]
-if not oc and not nc: sys.exit("no sentence changed")
-print("changed old:", [c["text"] for c in oc]); print("changed new:", [c[0] for c in nc])
-# several separate runs (line 9 and lines 123/125) are handled one run at a time: re-run the script after each --write
-slot0 = oc[0]["start"]; nxt = old[len(old) - j]["start"] if j else C["duration"]
-slot = nxt - MIN_GAP - slot0
-takes = []
-for text, gap, spd, ch, pi in nc:
-    sp = spd or V.SPEED; a, _ = V.synth(text, sp); takes.append((text, a, gap, ch, pi, sp))
-L = sum(len(a) / SR for _, a, *_ in takes) + sum(g for _, _, g, *_ in takes[:-1])
-print(f"slot {slot:.3f} s (from {slot0:.3f} to the next word at {nxt:.3f} - {MIN_GAP}), new take {L:.3f} s")
-f = 1.0
-if L > slot:
-    f = L / slot
-    if f - 1 > MAX_STRETCH: sys.exit(f"too long by {L - slot:.2f} s ({(f - 1) * 100:.1f} % > {MAX_STRETCH * 100:.0f} %): re-run the whole chain")
-    print(f"time-compress x{f:.3f}")
+# every changed run of sentences (line 9 and lines 123/125 are separate runs) gets its own slot
+import difflib
+ops = [o for o in difflib.SequenceMatcher(None, [c["text"] for c in old], [c[0] for c in new], autojunk=False).get_opcodes() if o[0] != "equal"]
+if not ops: sys.exit("no sentence changed")
+RUNS = []
+for op, i1, i2, j1, j2 in ops:
+    oc, nc = old[i1:i2], new[j1:j2]
+    slot0 = oc[0]["start"] if oc else old[i1]["start"]
+    nxt = old[i2]["start"] if i2 < len(old) else C["duration"]
+    if not oc: slot0 = old[i1 - 1]["end"] + 0.3
+    slot = nxt - MIN_GAP - slot0
+    takes = []
+    for text, gap, spd, ch, pi in nc:
+        sp = spd or V.SPEED; a, _ = V.synth(text, sp); takes.append((text, a, gap, ch, pi, sp))
+    L = sum(len(a) / SR for _, a, *_ in takes) + sum(g for _, _, g, *_ in takes[:-1])
+    f = 1.0
+    print("old:", [c["text"] for c in oc]); print("new:", [c[0] for c in nc])
+    print(f"  slot {slot:.3f} s ({slot0:.3f} -> next word {nxt:.3f} - {MIN_GAP}), new take {L:.3f} s")
+    if L > slot:
+        f = L / slot
+        if f - 1 > MAX_STRETCH: sys.exit(f"  too long by {L - slot:.2f} s ({(f - 1) * 100:.1f} % > {MAX_STRETCH * 100:.0f} %): re-run the whole chain")
+        print(f"  time-compress x{f:.3f}")
+    RUNS.append((i1, i2, slot0, nxt, takes, f))
 if "--write" not in ARGS: sys.exit(0)
 voice, sr = sf.read(V.OUT_WAV, dtype="float32"); assert sr == SR
-out = voice.copy(); i_a, i_b = int(round(slot0 * SR)), int(round((nxt - 0.02) * SR)); out[i_a:i_b] = 0.0
-t = slot0; spans = []
+out = voice.copy()
 from faster_whisper import WhisperModel
-m = WhisperModel("base.en", device="cpu", compute_type="int8")
-words = [w for w in json.load(open(os.path.join(HERE, "words.json"))) if not (slot0 - 0.01 <= w["start"] < nxt - 0.01)]
-for text, a, gap, ch, pi, sp in takes:
-    if f > 1.0:
-        with tempfile.TemporaryDirectory() as d:
-            sf.write(f"{d}/a.wav", a, SR)
-            subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", f"{d}/a.wav", "-af", f"atempo={f:.4f}", f"{d}/b.wav"], check=True)
-            a, _ = sf.read(f"{d}/b.wav", dtype="float32")
-    i = int(round(t * SR)); out[i:i + len(a)] = a; d_ = len(a) / SR
-    seg = np.interp(np.arange(0, len(a), SR / 16000), np.arange(len(a)), a).astype(np.float32)
-    sw = [(w.start, w.end, w.word) for s in m.transcribe(seg, language="en", word_timestamps=True, beam_size=5)[0] for w in s.words]
-    toks = [x for x in text.replace("-", " - ").split() if x != "-"]
-    if len(sw) == len(toks): tw = [(x, y) for x, y, _ in sw]
-    else:   # proportional over the heard span
-        a0 = sw[0][0] if sw else 0.0; a1 = sw[-1][1] if sw else d_
-        Lc = np.cumsum([0] + [len(x) + 1 for x in toks]); tw = [(a0 + (a1 - a0) * Lc[k] / Lc[-1], a0 + (a1 - a0) * (Lc[k + 1] - 1) / Lc[-1]) for k in range(len(toks))]
-    words += [{"w": x, "start": round(t + s, 3), "end": round(t + e, 3)} for x, (s, e) in zip(toks, tw)]
-    spans.append({"text": text, "start": round(t, 3), "end": round(t + d_, 3), "chapter": ch, "para": pi, "speed": sp, "file": "revoiced"})
-    t += d_ + gap / f
+m = WhisperModel("small.en", device="cpu", compute_type="int8")
+words = json.load(open(os.path.join(HERE, "words.json")))
+newchunks = list(old); shift = 0
+for i1, i2, slot0, nxt, takes, f in RUNS:
+    i_a, i_b = int(round(slot0 * SR)), int(round((nxt - 0.02) * SR)); out[i_a:i_b] = 0.0
+    words = [w for w in words if not (slot0 - 0.01 <= w["start"] < nxt - 0.01)]
+    t = slot0; spans = []
+    for text, a, gap, ch, pi, sp in takes:
+        if f > 1.0:
+            with tempfile.TemporaryDirectory() as d:
+                sf.write(f"{d}/a.wav", a, SR)
+                subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", f"{d}/a.wav", "-af", f"atempo={f:.4f}", f"{d}/b.wav"], check=True)
+                a, _ = sf.read(f"{d}/b.wav", dtype="float32")
+        a = a * V.VOICE_SCALE
+        i = int(round(t * SR)); out[i:i + len(a)] = a; d_ = len(a) / SR
+        seg = np.interp(np.arange(0, len(a), SR / 16000), np.arange(len(a)), a).astype(np.float32)
+        sw = [(w.start, w.end, w.word) for s_ in m.transcribe(seg, language="en", word_timestamps=True, beam_size=5)[0] for w in s_.words]
+        toks = [x for x in text.replace("-", " - ").split() if x != "-"]
+        if len(sw) == len(toks): tw = [(x, y) for x, y, _ in sw]
+        else:   # proportional over the heard span
+            a0 = sw[0][0] if sw else 0.0; a1 = sw[-1][1] if sw else d_
+            Lc = np.cumsum([0] + [len(x) + 1 for x in toks]); tw = [(a0 + (a1 - a0) * Lc[k] / Lc[-1], a0 + (a1 - a0) * (Lc[k + 1] - 1) / Lc[-1]) for k in range(len(toks))]
+        words += [{"w": x, "start": round(t + s0, 3), "end": round(t + e0, 3)} for x, (s0, e0) in zip(toks, tw)]
+        spans.append({"text": text, "start": round(t, 3), "end": round(t + d_, 3), "chapter": ch, "para": pi, "speed": sp, "file": "revoiced"})
+        t += d_ + gap / f
+    newchunks[i1 + shift:i2 + shift] = spans; shift += len(spans) - (i2 - i1)
 words.sort(key=lambda w: w["start"])
 sf.write(V.OUT_WAV, out, SR, subtype="PCM_16")
 json.dump(words, open(os.path.join(HERE, "words.json"), "w"), indent=0)
-C["chunks"] = old[:i0] + spans + old[len(old) - j:]
+C["chunks"] = newchunks
 json.dump(C, open(os.path.join(HERE, "chunks.json"), "w"), indent=1)
 print("written: audio/voice_archive.wav, build/words.json, build/chunks.json; next: BUILD_REPORT_v8.md 'Re-voice the SS United States lines'")

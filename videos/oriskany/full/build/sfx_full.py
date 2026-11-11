@@ -44,12 +44,18 @@ ORDER = [s[0] for s in SHOTS]
 # ---------------------------------------------------------------- c01: the approved hook, verbatim
 import sfx_cues_v4 as V4
 CUES, BEDS, LOG = [], [], []
+# v8: the hull thump moves to the frame the re-timed hero_a hull settles flat on the seabed (29.133 s, bow down; measured on
+# chapter/render_c01.mp4), just after "floor?" ends (29.10), in the voice gap before "Why". Mapped from v7 it landed on "floor?"
+# (28.767): the Archive "floor?" is softer than the am_michael take, the punch bus ducks under it, and the lock measured the beat
+# +0.4 LU over speech (+0.3 on the stern-touch frame 28.933), under the +1 LU floor. Nothing is raised; the cue keeps its level + lowpass.
+HOOK_V8_EVENT = {("c01:s14", "impact"): 29.1333}
 V4ST = {s[0]: s[1] for s in V4.SHOTS}          # test-v4 (= v7) hook shot starts
 for c in V4.CUES:
     c = dict(c)
     # v8: the hook is re-timed to the Archive voice (build/hook_v8.py): the event moves through the word map, snapped to a frame
     ev8 = round(round(WP.new(V4ST[c["shot"]] + c["at"]) * FPS) / FPS, 4)
     c["shot"] = "c01:" + c["shot"]
+    if (c["shot"], c["role"]) in HOOK_V8_EVENT: ev8 = HOOK_V8_EVENT[(c["shot"], c["role"])]
     if c["shot"] in ST: c["at"] = round(max(0.0, ev8 - ST[c["shot"]][0]), 4)
     if "end_shot" in c: c["end_shot"] = "c01:" + c["end_shot"]
     if c["shot"] not in ST or c.get("end_shot", c["shot"]) not in ST: LOG.append(("c01", c["shot"], c["role"], "dropped (shot not in the 48.6 s hook)")); continue
@@ -211,10 +217,10 @@ V6 = {   # (role, event): (changes, why)
     ("boom", 17.65):      (dict(gap_carry="word"), "M1: ends on 'Thirty' (18.22), 0.25 s fade, inside the voice gap"),
     ("impact", 19.85):    (dict(lowpass=800, gain=-3.0), "M2 + v7: lowpass 800 Hz, -3 dB under 'she was gone.' ('was' still masked in v6)"),
     ("jet", 232.11):      (dict(gain=-3.0), "v7: jet -3 dB ('more' / 'than')"),
-    ("jet", 235.89):      (dict(gain=-3.0), "v7: jet -3 dB ('one' at 236.45)"),
-    ("jet", 325.94):      (dict(gain=-3.0), "v7: jet -3 dB ('the' at 326.10)"),
+    ("jet", 235.89):      (dict(gain=-6.0), "v7 + v8: jet -6 dB (Archive 'for' +0.3 dB SNR at -3)"),
+    ("jet", 325.94):      (dict(gain=-6.0), "v7 + v8: jet -6 dB (Archive 'the' -0.9 dB SNR at -3)"),
     ("ship", 19.90):      (dict(lowpass=1200, gain=-3.0), "M2: flood lowpass 1200 Hz, -3 dB"),
-    ("ship", 26.25):      (dict(gain=-3.0), "S1: groan -3 dB under 'millions to put'"),
+    ("ship", 26.25):      (dict(gain=-6.0), "S1 + v8: groan -6 dB under 'millions to put' (Archive 'to' +0.1 dB SNR at -3)"),
     ("impact", 28.70):    (dict(lowpass=1000), "S2: lowpass 1000 Hz on 'floor?'"),
     ("whoosh", 45.80):    (dict(ring=0.8), "S4: ring 0.8 s under 'About thirteen'"),
     ("ship", 532.80):     (dict(cut_fade=0.4), "S6: 0.4 s fade ending on the 533.553 cut"),
@@ -225,12 +231,20 @@ S5_DROP = [18.69, 22.79, 61.52, 90.99, 94.25, 96.42, 106.20, 116.16, 119.44, 127
            417.56, 426.41, 429.49, 467.50, 474.44, 477.63, 529.38, 549.92, 556.13, 569.48, 592.44, 610.88, 649.44, 685.11, 706.88, 724.60,
            730.83, 743.59, 757.44, 760.95, 763.88, 774.18, 786.01, 815.21]
 V6LOG, out, hit6, drop6 = [], [], set(), set()
+# v8: the re-timed cues sit up to ~0.5 s from their v7 time once mapped back (beat frames follow the new animation timing):
+# each S5 entry takes the nearest pop / tick within 0.6 s (one cue per entry)
+_pt = [(i, WP.old(ST[c["shot"]][0] + c["at"])) for i, c in enumerate(CUES) if c["role"] in ("pop", "tick")]
+S5_IDX = {}
+for x in S5_DROP:
+    cand = [(abs(t7 - x), i) for i, t7 in _pt if abs(t7 - x) < 0.6 and i not in S5_IDX.values()]
+    if cand: S5_IDX[x] = min(cand)[1]
+S5_BY_I = {i: x for x, i in S5_IDX.items()}
 for c in CUES:
     t = ST[c["shot"]][0] + c["at"]; t7 = WP.old(t)   # v8: S5 / V6 are listed in v7 seconds
-    d = next((x for x in S5_DROP if abs(x - t7) < 0.12), None)
-    if d is not None and c["role"] in ("pop", "tick"):
+    d = S5_BY_I.get(len(out))
+    if d is not None:
         drop6.add(d); V6LOG.append((t, c["role"], "dropped (S5: > 10 dB under the mix, masked)")); out.append(dict(c, drop=True)); continue
-    k = next((k for k in V6 if k[0] == c["role"] and abs(k[1] - t7) < 0.12), None)
+    k = min((k for k in V6 if k[0] == c["role"] and abs(k[1] - t7) < 0.6 and k not in hit6), key=lambda k: abs(k[1] - t7), default=None)
     if k:
         ch, why = V6[k]; ch = dict(ch); hit6.add(k)
         if ch.get("gap_carry") == "word":

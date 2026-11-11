@@ -17,4 +17,4 @@ safe_area.js adjusted:
   lift 20px: EPAFOR HER ALONE
   lift 20px: 2012 PETITION · FROM FWC DATAE
   lift 20px: FLORIDANO ADVISORY ISSUED
-PASS: no text breaks the size / safe-area / font rules (124.8 s checked every 0.5 s)
+PASS: no text breaks the size / safe-area / font rules (122.1 s checked every 0.5 s)

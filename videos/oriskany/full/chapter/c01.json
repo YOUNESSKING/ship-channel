@@ -32,7 +32,7 @@
    "id": "s02",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t3.90",
+   "start": "t3.9167",
    "flash": true,
    "clip": {
     "file": "p02_blast.mp4",
@@ -45,7 +45,7 @@
    "id": "s03",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t6.07",
+   "start": "t6.0834",
    "clip": {
     "file": "f03_catapult.mp4",
     "push": null
@@ -57,7 +57,7 @@
    "id": "s04",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t7.80",
+   "start": "t7.8167",
    "clip": {
     "file": "f04_island.mp4",
     "push": null
@@ -69,7 +69,7 @@
    "id": "s05",
    "template": "number_clip",
    "variant": "center_bars",
-   "start": "t9.80",
+   "start": "t9.8167",
    "clip": {
     "file": "p05_foam.mp4",
     "push": null
@@ -86,7 +86,7 @@
    "id": "s06",
    "template": "lower_third",
    "variant": "kicker_line",
-   "start": "t11.37",
+   "start": "t11.3834",
    "clip": {
     "file": "p06_detcord.mp4",
     "push": null
@@ -94,7 +94,7 @@
    "params": {
     "kicker": "MAY 2006",
     "text": "NAVY EOD TEAM",
-    "at": "t11.90"
+    "at": "t11.9000"
    },
    "sfx": false
   },
@@ -102,7 +102,7 @@
    "id": "s07",
    "template": "number_clip",
    "variant": "right",
-   "start": "t13.73",
+   "start": "t13.7500",
    "clip": {
     "file": "p07_inside.mp4",
     "push": null
@@ -118,7 +118,7 @@
    "id": "s08",
    "template": "lower_third",
    "variant": "kicker_line",
-   "start": "t15.37",
+   "start": "t15.3834",
    "clip": {
     "file": "p08_helo.mp4",
     "push": null
@@ -126,7 +126,7 @@
    "params": {
     "kicker": "17 MAY 2006",
     "text": "USS ORISKANY",
-    "at": "t15.97"
+    "at": "t15.9667"
    },
    "sfx": false
   },
@@ -134,7 +134,7 @@
    "id": "s09",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t17.17",
+   "start": "t17.1834",
    "flash": true,
    "clip": {
     "file": "p09_smoke.mp4",
@@ -147,7 +147,7 @@
    "id": "s10",
    "template": "number_clip",
    "variant": "right",
-   "start": "t17.50",
+   "start": "t17.5167",
    "clip": {
     "file": "m37_sequence.mp4",
     "push": null
@@ -170,7 +170,7 @@
    "id": "s11",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t19.47",
+   "start": "t19.4834",
    "clip": {
     "file": "p11_bow.mp4",
     "push": null
@@ -182,7 +182,7 @@
    "id": "s11b",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t20.30",
+   "start": "t20.3167",
    "clip": {
     "file": "p11b_foam.mp4",
     "push": null
@@ -194,7 +194,7 @@
    "id": "s12",
    "template": "number_clip",
    "variant": "right",
-   "start": "t20.90",
+   "start": "t20.9167",
    "clip": {
     "file": "p12_cut.mp4",
     "push": null
@@ -210,7 +210,7 @@
    "id": "s13",
    "template": "number_clip",
    "variant": "right",
-   "start": "t23.63",
+   "start": "t23.6500",
    "clip": {
     "file": "p13_weld.mp4",
     "push": null
@@ -227,7 +227,7 @@
    "id": "s14",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t25.83",
+   "start": "t25.8500",
    "clip": {
     "file": "hero_a.mp4",
     "push": null
@@ -239,7 +239,7 @@
    "id": "s15",
    "template": "anim_options",
    "variant": "list",
-   "start": "t29.57",
+   "start": "t29.5834",
    "params": {
     "title": "Why *not?*",
     "title_at": "@why",
@@ -265,7 +265,7 @@
    "id": "s16",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t32.77",
+   "start": "t32.7834",
    "clip": {
     "file": "f16_anchor.mp4",
     "push": [
@@ -281,7 +281,7 @@
    "id": "s17",
    "template": "anim_xray",
    "variant": "animal",
-   "start": "t35.17",
+   "start": "t35.1834",
    "params": {
     "image": "../../test_v4/assets/carrier_hero_side.png",
     "animal_w": 1180,
@@ -302,7 +302,7 @@
    "id": "s18",
    "template": "map_clip",
    "variant": "baked",
-   "start": "t38.17",
+   "start": "t38.1834",
    "clip": {
     "file": "gulfpin.mp4",
     "push": null
@@ -314,7 +314,7 @@
    "id": "s19",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t40.10",
+   "start": "t40.1167",
    "clip": {
     "file": "f19_stacks.mp4",
     "push": null
@@ -326,7 +326,7 @@
    "id": "s20",
    "template": "lower_third",
    "variant": "kicker_line",
-   "start": "t42.13",
+   "start": "t42.1500",
    "clip": {
     "file": "f20_bow.mp4",
     "push": null
@@ -342,7 +342,7 @@
    "id": "s20c",
    "template": "clip_plain",
    "variant": "push",
-   "start": "t44.17",
+   "start": "t44.1834",
    "clip": {
     "file": "f20b_profile.mp4",
     "push": null
@@ -354,7 +354,7 @@
    "id": "s21",
    "template": "map_clip",
    "variant": "baked",
-   "start": "t46.13",
+   "start": "t46.1500",
    "clip": {
     "file": "endmap.mp4",
     "push": null

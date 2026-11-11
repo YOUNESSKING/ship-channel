@@ -39,4 +39,4 @@ safe_area.js adjusted:
   lift 8px: 0
   lift 8px: 0
   wrap: THE CLEANUP RULE
-PASS: no text breaks the size / safe-area / font rules (128.5 s checked every 0.5 s)
+PASS: no text breaks the size / safe-area / font rules (125.3 s checked every 0.5 s)

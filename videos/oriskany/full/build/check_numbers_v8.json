@@ -11,7 +11,7 @@
    "in_shot": true,
    "shot_span": [
     0.0,
-    3.9
+    3.92
    ],
    "word": "feet"
   },
@@ -25,8 +25,8 @@
    "offset": 0.0,
    "in_shot": true,
    "shot_span": [
-    9.8,
-    11.37
+    9.82,
+    11.38
    ],
    "word": "purpose."
   },
@@ -40,8 +40,8 @@
    "offset": 0.0,
    "in_shot": true,
    "shot_span": [
-    13.73,
-    15.37
+    13.75,
+    15.38
    ],
    "word": "twenty"
   },
@@ -55,8 +55,8 @@
    "offset": 0.15,
    "in_shot": true,
    "shot_span": [
-    17.5,
-    19.47
+    17.52,
+    19.48
    ],
    "word": "seven"
   },
@@ -70,8 +70,8 @@
    "offset": 0.0,
    "in_shot": true,
    "shot_span": [
-    20.9,
-    23.63
+    20.92,
+    23.65
    ],
    "word": "three"
   },
@@ -85,8 +85,8 @@
    "offset": 0.0,
    "in_shot": true,
    "shot_span": [
-    23.63,
-    25.83
+    23.65,
+    25.85
    ],
    "word": "twenty"
   },

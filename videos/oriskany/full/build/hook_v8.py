@@ -82,9 +82,10 @@ for i, s in enumerate(c1["shots"]):
                         knots_old=[round(x, 3) for x in ko], knots_new=[round(x, 3) for x in kn], src_len=round(srclen, 3),
                         last_src_frame=int(idx[-1])))
         print(rep[-1], flush=True)
-    if i > 0: s["start"] = f"t{a1:.2f}"
+    if i > 0: s["start"] = f"t{a1 + 0.5 / FPS:.4f}"   # half a frame past the frame (as test v4's 17.65): a cut exactly on a frame time
+                                                     # rendered one frame late and lost the first (white) frame of the flash
     for k, v in list(s.get("params", {}).items()):
-        if isinstance(v, str) and v.startswith("t") and v[1:].replace(".", "").isdigit(): s["params"][k] = f"t{snap(cut_new(float(v[1:]))):.2f}"
+        if isinstance(v, str) and v.startswith("t") and v[1:].replace(".", "").isdigit(): s["params"][k] = f"t{snap(cut_new(float(v[1:]))):.4f}"
     if s.get("template") == "anim_xray" and s["params"].get("image", "").startswith("../assets/"):
         s["params"]["image"] = "../../test_v4/assets/" + s["params"]["image"][len("../assets/"):]
 c1.update(title="Oriskany full · Hook (test v4 look, re-timed to the Archive voice, v8)", words="../build/words.json", audio_offset=0.0,
