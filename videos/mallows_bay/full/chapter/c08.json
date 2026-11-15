@@ -515,31 +515,36 @@
    "id": "s37",
    "start": "t129.96",
    "sfx": false,
-   "template": "clip_plain",
-   "variant": "push",
+   "template": "number_clip",
+   "variant": "right",
    "clip": {
     "file": "p_c08_s37.mp4",
     "push": null
    },
-   "params": {}
+   "params": {
+    "kicker": "OF THE WRECKS SEEN IN 1998",
+    "number": "7 IN 10",
+    "number_at": "@seven"
+   }
   },
   {
    "id": "s38",
    "start": "t134.19",
    "sfx": false,
    "template": "text_card",
-   "variant": "number",
+   "variant": "line",
    "card": true,
    "params": {
-    "kicker": "VISIBLE IN 1998, NOW UNDER WATER",
-    "number": "7 IN 10",
-    "number_at": "@seven",
+    "kicker": "NOW",
+    "text": "UNDER THE SURFACE",
+    "at": "@surface",
     "kicker_at": 0.15
    },
    "clip": {
     "file": "b_c08_s38.mp4",
     "push": null
-   }
+   },
+   "card_bg": true
   },
   {
    "id": "s39",

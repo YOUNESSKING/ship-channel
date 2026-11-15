@@ -9,7 +9,7 @@
 | c05 | 123.5 | 36 | 28 | 33 | 29 | 0 | 10 | 0 | 5 | 22 | 10 | **37** | 5.4 s (s21) | 10.7 |
 | c06 | 109.1 | 30 | 31 | 62 | 7 | 0 | 0 | 0 | 0 | 31 | 0 | **31** | 5.6 s (s28) | 7.7 |
 | c07 | 148.8 | 40 | 35 | 30 | 33 | 0 | 2 | 0 | 1 | 34 | 2 | **37** | 6.0 s (s10) | 10.5 |
-| c08 | 166.2 | 40 | 21 | 60 | 19 | 0 | 0 | 0 | 0 | 21 | 0 | **21** | 5.7 s (s19) | 4.7 |
+| c08 | 166.2 | 40 | 21 | 60 | 19 | 0 | 0 | 0 | 0 | 21 | 0 | **21** | 5.7 s (s19) | 5.1 |
 | **c01-c08** | | | **28** | **47** | **22** | **0** | **3** | **0** | **8** | **20** | **3** | **31** | | |
 
 ## Pacing flags (shots > 6.0 s or < 1.2 s; end screen excluded)
@@ -256,7 +256,7 @@
 | c08 | s34 | 809.46 | 3.94 | clip_plain | P:launch_503m_40_c | The same government |
 | c08 | s35 | 813.4 | 3.98 | clip_plain | P:noaa_accomac_sassorossi_R | The same government |
 | c08 | s36 | 817.38 | 2.34 | clip_plain | P:aer_deep | But the fleet will not last |
-| c08 | s37 | 819.72 | 4.24 | clip_plain | P:noaa_aerial_kayak_wrecks_mcintosh_R | About seven in ten |
+| c08 | s37 | 819.72 | 4.24 | number_clip | P:noaa_aerial_kayak_wrecks_mcintosh_R | About seven in ten |
 | c08 | s38 | 823.96 | 4.01 | text_card | CARD + bg MS:m_c08_sanctuary_b.mp4@end | About seven in ten |
 | c08 | s39 | 827.97 | 1.89 | clip_plain | P:burn_quantico_1925_b_c | So here is the question |
 | c08 | s40 | 829.86 | 26.14 | map_clip | M:c08_endscreen | Should we try to save |

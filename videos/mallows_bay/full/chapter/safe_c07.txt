@@ -1,0 +1,26 @@
+safe_area.js adjusted:
+  size 19->25.4: WORLD WAR II SCRAP DRIVES
+  size 19->25.4: THE TARGET
+  size 24->25.4: 0
+  size 24->25.4: 80
+  size 24->25.4: 160
+  size 24->25.4: 240
+  size 24->25.4: 320
+  size 24->25.4: 400
+  size 19->25.4: THE RESULT
+  size 19->25.4: SEPT 1944
+  size 19->25.4: ARMY CORPS OF ENGINEERS
+  size 19->25.4: PIN THEM WITH STONE
+  size 19->25.4: IF MARYLAND PAYS HALF
+  size 19->25.4: MARYLAND
+  size 19->25.4: POTOMAC ELECTRIC POWER CO.
+  size 19->25.4: PEPCO, UNDER OATH, 1970
+  size 19->25.4: PEPCO
+  size 19->25.4: STILL IN THE BAY, 1970
+  size 19->25.4: MARYLAND, 1970
+  fit x0.91: SPENT BY END OF 1943
+  fit x0.69: “A VERY SMALL RECOVERY OF META
+  lift 8px: 0
+  wrap: WORLD WAR II SCRAP DRIVES
+  fit x0.98: POTS · PANS · OLD CARS
+PASS: no text breaks the size / safe-area / font rules (143.0 s checked every 0.5 s)

@@ -1,0 +1,16 @@
+safe_area.js adjusted:
+  size 19->25.4: 5 A.M.
+  size 19->25.4: EVENING STAR · 7 NOV 1925
+  size 19->25.4: THE PILOT (EVENING STAR)
+  size 19->25.4: BROUGHT INTO MALLOWS BAY
+  size 19->25.4: 1931
+  size 19->25.4: STEINBRAKER v. CROUSE · JAN 19
+  size 19->25.4: MARYLAND COURT OF APPEALS · JA
+  size 19->25.4: A LEGEND
+  size 19->25.4: NATIONAL REGISTER SURVEY
+  fit x0.85: BROTHELS & WHISKEY STILLS?
+  lift 19px: EVENING STAR · 7 NOV 1925“LIKE
+  lift 19px: THE PILOT (EVENING STAR)LIEUT.
+  lift 20px: EVENING STAR · 7 NOV 1925“LIKE
+  lift 20px: THE PILOT (EVENING STAR)LIEUT.
+PASS: no text breaks the size / safe-area / font rules (108.2 s checked every 0.5 s)

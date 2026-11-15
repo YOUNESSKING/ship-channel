@@ -274,7 +274,7 @@ B["c08"] = [
  E("And while those attempts failed", ["P:noaa_flowerpot_wrecks_olson_R", "P:noaa_osprey_nest_ship_mcintosh_L"]),
  E("The same government", ["P:launch_503m_40_c", "P:noaa_accomac_sassorossi_R"]),
  E("But the fleet will not last", "P:aer_deep"),
- E("About seven in ten", ["P:noaa_aerial_kayak_wrecks_mcintosh_R", "CARD"], card=dict(variant="number", kicker="VISIBLE IN 1998, NOW UNDER WATER", number="7 IN 10", number_at="@seven"), cbg="MS:m_c08_sanctuary_b.mp4@end"),
+ E("About seven in ten", ["P:noaa_aerial_kayak_wrecks_mcintosh_R", "CARD"], num=dict(variant="right", kicker="OF THE WRECKS SEEN IN 1998", number="7 IN 10", number_at="@seven"), card=dict(variant="line", kicker="NOW", text="UNDER THE SURFACE", at="@surface"), cbg="MS:m_c08_sanctuary_b.mp4@end"),
  E("So here is the question", "P:burn_quantico_1925_b_c"),
  E("Should we try to save", "M:c08_endscreen", endscreen=True, map="End map: bay pin + WHITE HOUSE pin on the left half; card 'SAVE IT? OR LET IT GO?' + 'TELL US IN THE COMMENTS'; holds 18 s"),
 ]

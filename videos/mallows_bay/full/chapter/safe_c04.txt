@@ -1,0 +1,17 @@
+safe_area.js adjusted:
+  size 19->25.4: U.S. SHIPPING BOARD
+  size 19->25.4: FROM AUGUST 1918
+  size 19->25.4: DELIVERED BY 31 OCT 1918
+  size 19->25.4: FINISHED IN THE END
+  size 24->25.4: 0
+  size 24->25.4: 20
+  size 24->25.4: 40
+  size 24->25.4: 60
+  size 24->25.4: 80
+  size 24->25.4: 100
+  size 19->25.4: SPENT BY MID-1920
+  size 22->25.4: WOODEN + COMPOSITE SHIPS
+  fit x0.77: ≈ 1 ship a day
+  wrap: OF THE WOODEN SHIPS
+  lift 8px: 0
+PASS: no text breaks the size / safe-area / font rules (76.3 s checked every 0.5 s)

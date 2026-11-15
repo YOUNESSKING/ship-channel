@@ -74,6 +74,12 @@
    "note": "the answer"
   },
   {
+   "shot": "s37",
+   "at": "@seven",
+   "role": "pop",
+   "note": "number lands: 7 IN 10"
+  },
+  {
    "shot": "s40",
    "at": 0.3,
    "role": "whoosh",
