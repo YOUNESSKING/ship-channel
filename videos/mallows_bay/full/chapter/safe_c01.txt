@@ -6,11 +6,12 @@ safe_area.js adjusted:
   size 19->25.4: AT ONCE
   size 19->25.4: 1942–1944
   size 19->25.4: 1968
-  fit x0.89: $750,000+
-  lift 27px: TOO LATEFINISHED AFTER THE WAR
-  lift 27px: 1942–1944BETHLEHEM STEEL
-  lift 27px: 1968CONGRESS ORDERS REMOVAL
-  lift 12px: TOO LATEFINISHED AFTER THE WAR
-  lift 12px: 1942–1944BETHLEHEM STEEL
-  lift 12px: 1968CONGRESS ORDERS REMOVAL
+  fit x0.90: 100+ ships
+  fit x0.81: $750,000+
+  lift 19px: TOO LATEFINISHED AFTER THE WAR
+  lift 19px: 1942–1944BETHLEHEM STEEL
+  lift 19px: 1968CONGRESS ORDERS REMOVAL
+  lift 20px: TOO LATEFINISHED AFTER THE WAR
+  lift 20px: 1942–1944BETHLEHEM STEEL
+  lift 20px: 1968CONGRESS ORDERS REMOVAL
 PASS: no text breaks the size / safe-area / font rules (39.0 s checked every 0.5 s)

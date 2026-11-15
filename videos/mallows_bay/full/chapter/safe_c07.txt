@@ -18,9 +18,8 @@ safe_area.js adjusted:
   size 19->25.4: PEPCO
   size 19->25.4: STILL IN THE BAY, 1970
   size 19->25.4: MARYLAND, 1970
-  fit x0.91: SPENT BY END OF 1943
-  fit x0.69: “A VERY SMALL RECOVERY OF META
-  lift 8px: 0
   wrap: WORLD WAR II SCRAP DRIVES
   fit x0.98: POTS · PANS · OLD CARS
+  fit x0.89: “A VERY SMALL RECOVERY OF META
+  lift 8px: 0
 PASS: no text breaks the size / safe-area / font rules (143.0 s checked every 0.5 s)

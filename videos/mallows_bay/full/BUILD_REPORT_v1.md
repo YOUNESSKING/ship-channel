@@ -82,3 +82,14 @@ hook and shot-list gates were not stopped at. **No money was spent**: vidIQ titl
 | film segments, `tools/film/check_clips.py` | 0 internal cuts; BLOB = dark archive scenes (`build/check_clips_segments.txt`) |
 | shots over 6 s | 0 (end-screen map excepted) · clip reuse clean |
 | contact sheet | `FINAL_SHEET_v1.jpg` looked at |
+
+## 9. Update v2 (2026-11-15, owner notes: "hook more engaging, high quality footage"; "don't reuse the same photos, 2 times tops")
+- **Hook v2** (`script/NARRATION_v2.txt`): tighter, faster lines, then/now wipe (1936 aerial -> today), 50.7 s. Whole video now **854.0 s (14:14)**;
+  chapters 0:00 · 0:50 · 1:34 · 3:26 · 5:06 · 7:09 · 8:58 · 11:27 (description updated).
+- **HQ modern footage:** public-domain video of the bay today: DVIDS (US DoD, Mallows Bay, Oct 2015) and NOAA Office of National Marine
+  Sanctuaries staff video (audio stripped). Every shot tagged on screen. NOAA homepage loop avoided (may be non-federal drone footage).
+- **Reuse by source photo:** crops of one photo now count as the same photo. Every source is used at most twice; only the 1936 aerial
+  is used 3x (then/now wipe + its two story shots). The `*_L` / `*_R` crop note in section 3 no longer applies.
+- **Checks (v2 master):** SOUND LOCK OK (-14.0 LUFS, TP -2.7 dBTP, LRA 2.2 LU, 97 cues, 52 beds); safe-text PASS c01-c08; blackdetect 0;
+  contact sheet `FINAL_SHEET_v2.jpg` looked at.
+- **Owner check:** NOAA wk240 shots (heron, bird on wreck) are ground/telephoto shots credited to NOAA; confirm they are NOAA staff footage.

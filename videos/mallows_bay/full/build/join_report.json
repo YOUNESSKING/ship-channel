@@ -2,55 +2,55 @@
  {
   "chapter": "c01",
   "start": 0.0,
-  "frames_rendered": 1583,
-  "frames_wanted": 1582,
+  "frames_rendered": 1522,
+  "frames_wanted": 1522,
   "source": "/home/user/ship-channel/videos/mallows_bay/full/chapter/render_c01.mp4"
  },
  {
   "chapter": "c02",
-  "start": 52.734,
+  "start": 50.729,
   "frames_rendered": 1324,
-  "frames_wanted": 1324,
+  "frames_wanted": 1323,
   "source": "/home/user/ship-channel/videos/mallows_bay/full/chapter/render_c02.mp4"
  },
  {
   "chapter": "c03",
-  "start": 96.852,
+  "start": 94.848,
   "frames_rendered": 3335,
-  "frames_wanted": 3334,
+  "frames_wanted": 3335,
   "source": "/home/user/ship-channel/videos/mallows_bay/full/chapter/render_c03.mp4"
  },
  {
   "chapter": "c04",
-  "start": 208.009,
+  "start": 206.005,
   "frames_rendered": 3014,
   "frames_wanted": 3013,
   "source": "/home/user/ship-channel/videos/mallows_bay/full/chapter/render_c04.mp4"
  },
  {
   "chapter": "c05",
-  "start": 308.444,
+  "start": 306.439,
   "frames_rendered": 3704,
   "frames_wanted": 3704,
   "source": "/home/user/ship-channel/videos/mallows_bay/full/chapter/render_c05.mp4"
  },
  {
   "chapter": "c06",
-  "start": 431.898,
+  "start": 429.894,
   "frames_rendered": 3272,
   "frames_wanted": 3272,
   "source": "/home/user/ship-channel/videos/mallows_bay/full/chapter/render_c06.mp4"
  },
  {
   "chapter": "c07",
-  "start": 540.964,
+  "start": 538.96,
   "frames_rendered": 4465,
   "frames_wanted": 4464,
   "source": "/home/user/ship-channel/videos/mallows_bay/full/chapter/render_c07.mp4"
  },
  {
   "chapter": "c08",
-  "start": 689.769,
+  "start": 687.765,
   "frames_rendered": 4987,
   "frames_wanted": 4987,
   "source": "/home/user/ship-channel/videos/mallows_bay/full/chapter/render_c08.mp4"
