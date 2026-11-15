@@ -1,4 +1,4 @@
-"""Assemble + mix the full Oriskany video (test v4 build/mix.py chain, whole video at once).
+"""Assemble + mix the full Mallows Bay video (from the Oriskany v8 builder) (test v4 build/mix.py chain, whole video at once).
 1. join chapter/render_c01..c07.mp4 frame-exact: chapter k gets round(end*30) - round(start*30) frames (trimmed or padded by
    cloning its last frame), so frame n of the join is narration time n/30 for the whole 14:45 (no drift at chapter joins)
 2. build/sfx_full.py   -> audio/sfx.wav, punch.wav, beds.wav, build/sfx_placed.json (cues re-timed to the beat frames)
@@ -11,7 +11,7 @@ Resumable: the join is skipped when chapter/joined_silent.mp4 is newer than ever
   nohup python3 build/mix_full.py > build/mix_full.log 2>&1 &"""
 import json, os, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); FULL = os.path.dirname(HERE); ROOT = os.path.abspath(os.path.join(FULL, "../../.."))
-SND = os.path.join(ROOT, "tools/sound"); WK = os.environ.get("MIX_WORK", os.path.join(FULL, "audio/mix")); OUT = os.path.join(FULL, "oriskany_full_v8.mp4")   # v8: the Archive voice (owner 2026-11-10), full re-time + re-render. v7: last masked words (SFX_FIX_v6.md section 8)
+SND = os.path.join(ROOT, "tools/sound"); WK = os.environ.get("MIX_WORK", os.path.join(FULL, "audio/mix")); OUT = os.path.join(FULL, "mallows_bay_full_v1.mp4")   # v8: the Archive voice (owner 2026-11-10), full re-time + re-render. v7: last masked words (SFX_FIX_v6.md section 8)
 # v6 = SFX_FIX_v6 (critic build/CRITIQUE_SFX_v5.md, owner 2026-11-08: quieter SFX). MIX_WORK=/dev/shm/... keeps the 2.6 GB of mix
 # stems off the (nearly full) disk.
 # v5 = SFX_FIX_v5 sound (owner 2026-11-08: SFX -3 dB, beds -2 dB, every effect silent by its shot's end; build/SFX_FIX_v5.md). The
@@ -23,7 +23,7 @@ PICTURE_SRC = os.environ.get("PICTURE_SRC", os.path.join(FULL, "oriskany_full_v6
 AUDIO_ONLY = os.environ.get("AUDIO_ONLY")
 FPS = 30
 py = lambda *a: subprocess.run([sys.executable, *a], check=True)
-KEYS = ["c01", "c02", "c03", "c04", "c05", "c06", "c07"]
+KEYS = ["c01", "c02", "c03", "c04", "c05", "c06", "c07", "c08"]
 CH = {k: json.load(open(os.path.join(FULL, "chapter", f"{k}.json"))) for k in KEYS}
 JOIN = os.environ.get("JOIN_PATH", os.path.join(FULL, "chapter", "joined_silent.mp4"))   # v8: JOIN_PATH=/dev/shm/... when the disk is short
 
@@ -62,7 +62,7 @@ def join():
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", L, "-an", "-c:v", "libx264", "-preset", "medium",
                     "-crf", "16", "-pix_fmt", "yuv420p", "-r", str(FPS), "-movflags", "+faststart", JOIN + ".part.mp4"], check=True)
     os.replace(JOIN + ".part.mp4", JOIN)
-    tot = round((CH["c07"]["audio_offset"] + CH["c07"]["duration"]) * FPS)
+    tot = round((CH["c08"]["audio_offset"] + CH["c08"]["duration"]) * FPS)
     print("joined", frames(JOIN), "frames (want", tot, ")")
     json.dump(rep, open(os.path.join(HERE, "join_report.json"), "w"), indent=1)
     for k in KEYS:   # v2: the frame-fixed copies are only needed for the concat (disk)
@@ -91,7 +91,7 @@ if __name__ == "__main__":
        "--sfx", f"{A}/sfx.wav", "--beds", f"{A}/beds.wav", "--punch", f"{A}/punch.wav", "--music", f"{A}/music_bed.wav",
        "--out", OUT, "--work", WK)
     py(os.path.join(SND, "measure_mix.py"), "--out", OUT, "--work", WK, "--words", f"{HERE}/words.json",
-       "--cues", f"{HERE}/sfx_placed.json", "--ref", os.environ.get("REF_DIR", "/home/user/younessking/battle-maps/reference"))
+       "--cues", f"{HERE}/sfx_placed.json", "--ref", os.environ.get("REF_DIR", ""))
     py(os.path.join(SND, "check_sound_lock.py"), "--render", f"{WK}/master.json", "--cues", f"{HERE}/sfx_placed.json",
        "--measure", f"{WK}/measure.json", "--words", f"{HERE}/words.json")
     if AUDIO_ONLY: os.remove(video)

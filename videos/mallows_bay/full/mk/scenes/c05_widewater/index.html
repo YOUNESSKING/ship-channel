@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=1920, height=1080" />
+    <script src="vendor/gsap.min.js"></script>
+    <script src="timing.js"></script>
+    <script src="lib/battle.js"></script>
+    <script src="lib/fx.js"></script>
+    <script src="lib/gg.js"></script>
+    <script src="vendor/three.min.js"></script>
+    <script src="lib/flyover.js"></script>
+    <script src="lib/globe.js"></script>
+    <script src="lib/board.js"></script>
+    <script src="lib/living.js"></script>
+    <script src="lib/ship.js"></script>
+    <link rel="stylesheet" href="lib/battle.css" />
+    <style>
+@font-face { font-family: "Oswald"; font-weight: 500; src: url("assets/fonts/oswald-latin-500-normal.woff2") format("woff2"); }
+@font-face { font-family: "Oswald"; font-weight: 700; src: url("assets/fonts/oswald-latin-700-normal.woff2") format("woff2"); }
+@font-face { font-family: "Special Elite"; font-weight: 400; src: url("assets/fonts/special-elite-latin-400-normal.woff2") format("woff2"); }
+    </style>
+  </head>
+  <body>
+    <div id="root" data-composition-id="main" data-start="0" data-duration="5.88" data-width="1920" data-height="1080">
+      <div id="scene" class="clip" data-start="0" data-duration="5.88" data-track-index="0">
+        <div id="world">
+          <img id="relief" src="assets/relief.jpg" alt="" />
+          <svg id="overlay" viewBox="0 0 2880 1620" xmlns="http://www.w3.org/2000/svg"></svg>
+          <div id="pins"></div>
+        </div>
+        <div id="fx"></div>
+        <div id="vignette"></div>
+        <img id="grain" src="assets/grain.png" alt="" />
+        <div id="date"><div class="scroll"></div><div class="roll l"></div><div class="roll r"></div></div>
+        <div id="credit">Terrain & bathymetry: Mapzen / AWS Terrain Tiles (open data)</div>
+      </div>
+    </div>
+    <script>
+// BASEMAP: potomac
+// 'Most were anchored off Widewater, Virginia, near the Marine base at Quantico.' pins on their words.
+const S = ShipK(), B = S.B, G = S.G, w = S.w, wt = S.wt, END = S.END;
+
+const WW = S.P("WIDEWATER"), Q = S.P("QUANTICO");
+S.camera([[0, WW[0] + 60, WW[1] - 40, 1.2], [END, WW[0] + 40, WW[1] - 30, 1.7]]);
+S.pin(WW, "WIDEWATER, VIRGINIA", { t: wt("Widewater", 0.6), anchor: "l", color: "#D9572B" });
+S.pin(Q, "MARINE BASE, QUANTICO", { t: wt("Quantico", 3.8), anchor: "l", rings: false });
+S.finish();
+
+      window.__timelines = window.__timelines || {}; window.__timelines["main"] = B.tl;
+      B.tl.seek(0);
+    </script>
+  </body>
+</html>

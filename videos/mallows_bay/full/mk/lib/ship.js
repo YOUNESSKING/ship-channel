@@ -262,5 +262,23 @@ window.ShipK = function () {
     tl.to(pr, { t: END, duration: END, ease: "none", onUpdate: function () { place(this.time()); }, immediateRender: false }, 0);
     window.__timelines = window.__timelines || {};
   };
+  // Mallows Bay helpers: S.wt = spoken-word time with a fallback (never throws); S.hulls = rows of small hull ovals (world space)
+  S.wt = (word, fb = 0.2, k = 0, off = 0) => { try { return S.w(word, k, off); } catch (e) { return fb; } };
+  S.hulls = (C, o = {}) => {
+    const t = o.t || 0, s = S.scaleAt(t), rows = o.rows || 6, cols = o.cols || 10, L = (o.len || 34) / s, W = L * 0.24, gx = W * 2.1, gy = L * 1.25;
+    const ang = o.rot || -60, c = o.color || "rgba(243,238,226,.82)";
+    const g = document.createElementNS(NS, "g"); let k = 0;
+    for (let r = 0; r < rows; r++) for (let q = 0; q < cols; q++) {
+      if (o.ragged && ((r * 7 + q * 3) % 5 === 0)) continue;
+      const x = (q - cols / 2) * gx + (r % 2) * gx * 0.5, y = (r - rows / 2) * gy;
+      const e = document.createElementNS(NS, "ellipse");
+      e.setAttribute("cx", (C[0] + x).toFixed(1)); e.setAttribute("cy", (C[1] + y).toFixed(1)); e.setAttribute("rx", (W / 2).toFixed(2)); e.setAttribute("ry", (L / 2).toFixed(2));
+      e.setAttribute("fill", "rgba(40,30,22,.55)"); e.setAttribute("stroke", c); e.setAttribute("stroke-width", (1.6 / s).toFixed(2));
+      g.appendChild(e); k++;
+      tl.fromTo(e, { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.25, immediateRender: true }, t + (o.stagger || 0.012) * k);
+    }
+    g.setAttribute("transform", `rotate(${ang} ${C[0]} ${C[1]})`);
+    svg.appendChild(g); return g;
+  };
   return S;
 };

@@ -193,7 +193,7 @@
 | c07 | s11 | 580.13 | 4.11 | text_card | CARD + bg MS:m_c07_basin_b.mp4@end | The target was |
 | c07 | s12 | 584.24 | 1.49 | text_card | CARD + bg F:strip_a.mp4 | It did not work |
 | c07 | s13 | 585.73 | 3.82 | clip_plain | P:aer_full | According to the records |
-| c07 | s14 | 589.54 | 3.47 | anim_gauge | A:anim_gauge + bg F:hullint.mp4 | According to the records |
+| c07 | s14 | 589.54 | 3.47 | anim_gauge | A:anim_gauge + bg F:borer.mp4 | According to the records |
 | c07 | s15 | 593.01 | 4.18 | text_card | CARD + bg P:usgs_mallows_wide | And the result was |
 | c07 | s16 | 597.2 | 4.59 | text_card | CARD + bg MS:m_c07_basin_b.mp4@end | In September nineteen forty-four |
 | c07 | s17 | 601.79 | 4.18 | clip_plain | P:noaa_dertona_three_sisters | The fleet that missed |

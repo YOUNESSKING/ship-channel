@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
-# Step 3: build + render every chapter of the full Oriskany video (test v4 chain: templates/build_chapter.py with GRADE=none,
+# Step 3: build + render every chapter of the full Mallows Bay video (test v4 chain: templates/build_chapter.py with GRADE=none,
 # HyperFrames 0.8.188 at "standard" quality, 30 fps). Detached and resumable: run with
 #   nohup bash build/render_all.sh > build/render_all.log 2>&1 &
 # A chapter is skipped when chapter/render_cNN.mp4 exists and its stamp (shot list + every clip it uses) is unchanged.
 # Renders go to a .part file first, so a reboot mid-render never leaves a half file that looks done. FORCE=1 re-renders.
 set -uo pipefail
 FULL="$(cd "$(dirname "$0")/.." && pwd)"; ROOT="$(cd "$FULL/../../.." && pwd)"
-KEYS="${*:-c01 c02 c03 c04 c05 c06 c07}"
+KEYS="${*:-c01 c02 c03 c04 c05 c06 c07 c08}"
 export NODE_PATH="$(npm root -g)"
 for k in $KEYS; do
   J="$FULL/chapter/$k.json"; OUT="$FULL/chapter/render_$k.mp4"; W="$FULL/chapter/work/$k"

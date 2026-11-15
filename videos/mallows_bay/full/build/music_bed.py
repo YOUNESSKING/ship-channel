@@ -1,4 +1,4 @@
-"""Music bed for the full video, v2 (critic B S1, S2, S3, N1). Chris Zabriskie, Music from Neptune Flux (CC BY 4.0):
+"""Music bed for the Mallows Bay full video (from the Oriskany v8 builder). Chris Zabriskie, Music from Neptune Flux (CC BY 4.0):
   main    "Stories About the World That Once Was" (neptuneflux-01, 6:55)  0 s -> c06 start, folding back into itself at the
           c03/c04 chapter cut (360 s: "Then, in two thousand three, Congress changed the rules"), BEFORE the track's own outro
           (which starts ~368 s and left a music hole at 384-400 s in v1: S2)
@@ -16,24 +16,31 @@ Writes audio/music_bed.wav (float) + build/music_bed.json."""
 import json, os, shutil, subprocess, sys, numpy as np, soundfile as sf, pyloudnorm as pyln
 HERE = os.path.dirname(os.path.abspath(__file__)); FULL = os.path.dirname(HERE); ROOT = os.path.abspath(os.path.join(FULL, "../../.."))
 Z = os.path.join(ROOT, "assets/music/candidates/zabriskie")
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); import warp_v8 as WP   # v8: v7 seconds -> Archive-voice seconds
 CH = {c["key"]: c for c in json.load(open(os.path.join(FULL, "chapters.json")))["chapters"]}
 SR = 48000
-TOTAL = round(CH["c07"]["end"] + 18.0, 3)
+TOTAL = round(CH["c08"]["end"] + 18.0, 3)
 XF = 5.0
 TARGET = float(os.environ.get("MUSIC_TARGET_LUFS", "-20.5"))
-SW_TENSION = CH["c06"]["start"]
-SW_OUTRO = round(WP.new(806.312), 3)   # v2 value (= last 60 s of the v2 narration); v3 keeps the outro entering on the same words, "So that is why..." + 4 s
-SW_LOOP = round(WP.new(360.0), 3)   # v8: same words as the v7 360.0 s
-DIP = (round(WP.new(538.46), 3), round(WP.new(540.6), 3), -12.0)   # v8: mapped to the same words
-END_LIFT = (CH["c07"]["voice_end"] + 0.9, 8.0)        # 866.8 s (after "comments." + 1 s)
-HOOK_KEEP = CH["c02"]["start"] - 0.6                    # 48.0 s
+W = json.load(open(os.path.join(HERE, "words.json")))
+def at(phrase):
+    import re
+    n = lambda x: re.sub(r"[^a-z0-9]", "", x.lower()); toks = [n(x) for x in phrase.split()]
+    for i in range(len(W)):
+        if [n(w["w"]) for w in W[i:i + len(toks)]] == toks: return W[i]["start"]
+    raise SystemExit("phrase not found: " + phrase)
+SW_ANSWER = round(at("So that is the answer") - 1.0, 3)
+DIP = (0.0, 0.0, 0.0)
+END_LIFT = (CH["c08"]["voice_end"] + 0.9, 8.0)
+# Mallows Bay plan (Chris Zabriskie, Music from Neptune Flux, CC BY 4.0):
+#  main "Stories About the World That Once Was" (01) hook -> c04; "That Hopeful Future Is All I've Ever Known" (02) c05 (the sale);
+#  tension "Your Mother's Daughter" (03) c06 (the great burn); main again from 100 s for c07-c08; outro "I Should Have Been More Human"
+#  (09) from the answer to the end screen.
 P = [("neptuneflux-01.m4a", "Stories About the World That Once Was", 0.0, 0.0),
-     ("neptuneflux-01.m4a", "Stories About the World That Once Was", 90.0, SW_LOOP),
-     ("neptuneflux-03.m4a", "Your Mother's Daughter", 0.0, SW_TENSION),
-     ("neptuneflux-03.m4a", "Your Mother's Daughter", 25.0, SW_TENSION + 200.0),
-     ("neptuneflux-09.m4a", "I Should Have Been More Human", 0.0, SW_OUTRO)]
-LEN = {"neptuneflux-01.m4a": 414.6, "neptuneflux-03.m4a": 214.0, "neptuneflux-09.m4a": 223.5}
+     ("neptuneflux-02.m4a", "That Hopeful Future Is All I've Ever Known", 0.0, CH["c05"]["start"]),
+     ("neptuneflux-03.m4a", "Your Mother's Daughter", 0.0, CH["c06"]["start"]),
+     ("neptuneflux-01.m4a", "Stories About the World That Once Was", 100.0, CH["c07"]["start"]),
+     ("neptuneflux-09.m4a", "I Should Have Been More Human", 0.0, SW_ANSWER)]
+LEN = {"neptuneflux-01.m4a": 414.6, "neptuneflux-02.m4a": 186.4, "neptuneflux-03.m4a": 214.0, "neptuneflux-09.m4a": 223.5}
 
 
 def dec(path, ss, dur):
@@ -61,26 +68,16 @@ for i, (tr, title, ss, sw) in enumerate(P):
 # automation: S3 dip, N1 end-screen lift, final 3 s fade
 t = np.arange(n) / SR
 gdb = np.zeros(n, np.float32)
-a, b, d = DIP; r = 0.25
-gdb += d * np.clip(np.minimum((t - (a - r)) / r, ((b + r) - t) / r), 0, 1)
 t0, up = END_LIFT; gdb += up * np.clip((t - t0) / 1.0, 0, 1)
 bed *= (10 ** (gdb / 20))[:, None]
 bed *= np.clip((TOTAL - t) / 3.0, 0, 1)[:, None].astype(np.float32)
-# hook: v1 samples verbatim to 48.0 s, 2 s crossfade into the v2 bed
-V1 = os.path.join(FULL, "audio/music_bed_v1.wav")
-if not os.path.exists(V1) and os.path.exists(os.path.join(FULL, "audio/music_bed.wav")):
-    shutil.copy2(os.path.join(FULL, "audio/music_bed.wav"), V1)
-v1, sr1 = sf.read(V1, dtype="float32", frames=int((HOOK_KEEP + 2.0) * SR)); assert sr1 == SR
-k0, k1 = int(HOOK_KEEP * SR), int((HOOK_KEEP + 2.0) * SR)
-w = np.clip((t[:k1] - HOOK_KEEP) / 2.0, 0, 1)[:, None].astype(np.float32)
-bed[:k1] = v1[:k1] * (1 - w) + bed[:k1] * w
 out = os.path.join(FULL, "audio", "music_bed.wav")
 sf.write(out, bed, SR, subtype="FLOAT")
 peak = 20 * np.log10(np.abs(bed).max() + 1e-9)
 lv = lambda x, y: round(meter.integrated_loudness(bed[int(x * SR):int(y * SR)]), 2)
-rep = {"total": TOTAL, "crossfade_s": XF, "target_lufs": TARGET, "dip": DIP, "end_lift": END_LIFT, "hook_v1_until": HOOK_KEEP,
+rep = {"total": TOTAL, "crossfade_s": XF, "target_lufs": TARGET, "dip": DIP, "end_lift": END_LIFT, 
        "pieces": plan, "peak_dbfs": round(float(peak), 2),
-       "loudness": {"0-48.6 hook": lv(0, 48.6), "0-360": lv(0, 360), "360-566": lv(360, 566), "566-806": lv(566, 806), "806-voice end": lv(806, END_LIFT[0] - 0.9),
+       "loudness": {"hook": lv(0, CH["c02"]["start"]), "body": lv(CH["c02"]["start"], SW_ANSWER), "answer-end": lv(SW_ANSWER, END_LIFT[0] - 0.9),
                     "end screen": lv(END_LIFT[0], TOTAL - 3)}}
 json.dump(rep, open(os.path.join(HERE, "music_bed.json"), "w"), indent=1)
 print(json.dumps(rep, indent=1))
