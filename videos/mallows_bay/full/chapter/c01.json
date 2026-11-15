@@ -4,7 +4,7 @@
  "words": "../build/words.json",
  "audio_offset": 0.0,
  "clips_dir": "../segments",
- "duration": 52.734,
+ "duration": 50.729,
  "fade_out": 0.0,
  "res": 1080,
  "anim_theme": {
@@ -67,9 +67,9 @@
   },
   {
    "id": "s05",
-   "start": "t10.01",
+   "start": "t10.31",
    "sfx": false,
-   "tag": "FILM: WOODEN SHIP 'GENERAL PERSHING' LAUNCHED, 1918",
+   "tag": "FILM: WOODEN SHIP 'YPRES' LAUNCHED, SEATTLE, 1918",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
@@ -80,7 +80,7 @@
   },
   {
    "id": "s06",
-   "start": "t13.94",
+   "start": "t13.54",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
@@ -96,7 +96,7 @@
   },
   {
    "id": "s07",
-   "start": "t18.78",
+   "start": "t17.57",
    "sfx": false,
    "template": "lower_third",
    "variant": "kicker_line",
@@ -112,7 +112,7 @@
   },
   {
    "id": "s08",
-   "start": "t22.84",
+   "start": "t21.17",
    "sfx": false,
    "template": "number_clip",
    "variant": "strike_swap",
@@ -133,7 +133,7 @@
   },
   {
    "id": "s09",
-   "start": "t26.88",
+   "start": "t25.48",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -145,7 +145,7 @@
   },
   {
    "id": "s10",
-   "start": "t29.58",
+   "start": "t27.78",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
@@ -154,7 +154,7 @@
     "push": null
    },
    "params": {
-    "kicker": "IN ONE DAY",
+    "kicker": "AT ONCE",
     "number": "31",
     "unit": "ships",
     "number_at": "@thirty"
@@ -162,7 +162,7 @@
   },
   {
    "id": "s11",
-   "start": "t32.79",
+   "start": "t30.88",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -174,7 +174,7 @@
   },
   {
    "id": "s12",
-   "start": "t35.06",
+   "start": "t33.14",
    "sfx": false,
    "template": "lower_third",
    "variant": "kicker_line",
@@ -190,7 +190,7 @@
   },
   {
    "id": "s13",
-   "start": "t37.54",
+   "start": "t35.62",
    "sfx": false,
    "tag": "FILM: WASHINGTON, D.C., c.1921",
    "template": "lower_third",
@@ -207,52 +207,36 @@
   },
   {
    "id": "s14",
-   "start": "t39.76",
+   "start": "t37.84",
    "sfx": false,
-   "tag": "ILLUSTRATIVE · FILM: OLD SHIPS UNDER TOW, 1920s",
-   "template": "anim_options",
-   "variant": "list",
+   "template": "text_card",
+   "variant": "word",
+   "card": true,
    "params": {
-    "title": "Get rid of *the fleet*",
-    "numbered": false,
-    "items": [
-     {
-      "text": "Burn it",
-      "at": 0.1,
-      "strike_at": "@failed"
-     },
-     {
-      "text": "Scrap it",
-      "at": 0.5,
-      "strike_at": "@failed"
-     },
-     {
-      "text": "Remove it",
-      "at": 0.9,
-      "strike_at": "@failed"
-     }
-    ]
+    "text": "EVERYTHING FAILED.",
+    "at": "@everything"
    },
-   "bg_clip": {
+   "clip": {
     "file": "b_c01_s14.mp4",
-    "show": 0.8
-   }
+    "push": null
+   },
+   "card_bg": true
   },
   {
    "id": "s15",
-   "start": "t44.41",
+   "start": "t39.62",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c01_s15.mp4",
+    "file": "h_c01_thennow.mp4",
     "push": null
    },
    "params": {}
   },
   {
    "id": "s16",
-   "start": "t46.39",
+   "start": "t42.08",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -264,7 +248,19 @@
   },
   {
    "id": "s17",
-   "start": "t49.26",
+   "start": "t44.57",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s17.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s18",
+   "start": "t46.91",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",

@@ -2,9 +2,9 @@
  "key": "c05",
  "title": "Mallows Bay · Sold for Scrap",
  "words": "../build/words.json",
- "audio_offset": 308.444,
+ "audio_offset": 306.439,
  "clips_dir": "../segments",
- "duration": 123.454,
+ "duration": 123.455,
  "fade_out": 0.0,
  "res": 1080,
  "anim_theme": {
@@ -32,7 +32,7 @@
   },
   {
    "id": "s02",
-   "start": "t2.48",
+   "start": "t2.49",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -44,7 +44,7 @@
   },
   {
    "id": "s03",
-   "start": "t5.34",
+   "start": "t5.35",
    "sfx": false,
    "tag": "ILLUSTRATIVE · FILM: STRIPPED SHIP FITTINGS, 1927",
    "template": "anim_gauge",
@@ -188,7 +188,7 @@
   },
   {
    "id": "s10",
-   "start": "t32.65",
+   "start": "t32.66",
    "sfx": false,
    "template": "text_card",
    "variant": "number",
@@ -300,7 +300,7 @@
   },
   {
    "id": "s15",
-   "start": "t50.28",
+   "start": "t50.29",
    "sfx": false,
    "template": "text_card",
    "variant": "word",
@@ -542,7 +542,7 @@
   },
   {
    "id": "s33",
-   "start": "t111.00",
+   "start": "t111.01",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -578,7 +578,7 @@
   },
   {
    "id": "s36",
-   "start": "t119.88",
+   "start": "t119.89",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",

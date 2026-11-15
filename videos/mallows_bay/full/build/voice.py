@@ -17,7 +17,7 @@ build/words_v7.json), build/chunks.json, chapters.json, build/voice_gate.json (w
   ONLY_VOICE=1 python3 build/voice.py   # voice only (no whisper)"""
 import difflib, hashlib, json, os, re, shutil, sys, numpy as np, soundfile as sf
 HERE = os.path.dirname(os.path.abspath(__file__)); FULL = os.path.dirname(HERE); ROOT = os.path.abspath(os.path.join(FULL, "../../.."))
-NARR = os.environ.get("NARR", os.path.join(ROOT, "videos/mallows_bay/script/NARRATION_v1.txt"))
+NARR = os.environ.get("NARR", os.path.join(ROOT, "videos/mallows_bay/script/NARRATION_v2.txt"))
 STYLE_FILE = os.path.join(ROOT, "tts/voices/archive_style.npy")
 VOICE_TAG, SPEED = "archive", 0.92
 QSPEED = round(SPEED * 0.88 / 0.95, 4)          # 0.8522: the am_michael take read questions at 0.88 against 0.95

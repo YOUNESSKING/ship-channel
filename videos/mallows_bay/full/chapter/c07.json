@@ -2,7 +2,7 @@
  "key": "c07",
  "title": "Mallows Bay · One More War",
  "words": "../build/words.json",
- "audio_offset": 540.964,
+ "audio_offset": 538.96,
  "clips_dir": "../segments",
  "duration": 148.805,
  "fade_out": 0.0,
@@ -304,7 +304,7 @@
   },
   {
    "id": "s21",
-   "start": "t75.52",
+   "start": "t75.51",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -316,7 +316,7 @@
   },
   {
    "id": "s22",
-   "start": "t78.30",
+   "start": "t78.29",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",

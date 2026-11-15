@@ -2,9 +2,9 @@
  "key": "c02",
  "title": "Mallows Bay · The Ghost Fleet",
  "words": "../build/words.json",
- "audio_offset": 52.734,
+ "audio_offset": 50.729,
  "clips_dir": "../segments",
- "duration": 44.118,
+ "duration": 44.119,
  "fade_out": 0.0,
  "res": 1080,
  "anim_theme": {
@@ -39,7 +39,7 @@
   },
   {
    "id": "s03",
-   "start": "t6.23",
+   "start": "t6.24",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",

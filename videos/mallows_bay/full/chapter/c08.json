@@ -2,7 +2,7 @@
  "key": "c08",
  "title": "Mallows Bay · Why They Stayed",
  "words": "../build/words.json",
- "audio_offset": 689.769,
+ "audio_offset": 687.765,
  "clips_dir": "../segments",
  "duration": 166.229,
  "fade_out": 0.6,
@@ -27,7 +27,7 @@
   },
   {
    "id": "s02",
-   "start": "t3.83",
+   "start": "t3.82",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -339,7 +339,7 @@
   },
   {
    "id": "s24",
-   "start": "t84.94",
+   "start": "t84.93",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -477,7 +477,7 @@
   },
   {
    "id": "s34",
-   "start": "t119.69",
+   "start": "t119.70",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -513,7 +513,7 @@
   },
   {
    "id": "s37",
-   "start": "t129.96",
+   "start": "t129.95",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",

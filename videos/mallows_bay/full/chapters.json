@@ -1,77 +1,77 @@
 {
- "duration": 837.998,
+ "duration": 835.994,
  "fps": 30,
  "chapters": [
   {
    "key": "c01",
    "title": "Hook",
    "start": 0.0,
-   "voice_end": 52.284,
-   "words": 144,
-   "end": 52.734,
-   "duration": 52.734
+   "voice_end": 50.279,
+   "words": 131,
+   "end": 50.729,
+   "duration": 50.729
   },
   {
    "key": "c02",
    "title": "The Ghost Fleet",
-   "start": 52.734,
-   "voice_end": 96.402,
+   "start": 50.729,
+   "voice_end": 94.398,
    "words": 120,
-   "end": 96.852,
-   "duration": 44.118
+   "end": 94.848,
+   "duration": 44.119
   },
   {
    "key": "c03",
    "title": "A Fleet of Wood",
-   "start": 96.852,
-   "voice_end": 207.559,
+   "start": 94.848,
+   "voice_end": 205.555,
    "words": 288,
-   "end": 208.009,
+   "end": 206.005,
    "duration": 111.157
   },
   {
    "key": "c04",
    "title": "Too Late",
-   "start": 208.009,
-   "voice_end": 307.994,
+   "start": 206.005,
+   "voice_end": 305.989,
    "words": 274,
-   "end": 308.444,
-   "duration": 100.435
+   "end": 306.439,
+   "duration": 100.434
   },
   {
    "key": "c05",
    "title": "Sold for Scrap",
-   "start": 308.444,
-   "voice_end": 431.448,
+   "start": 306.439,
+   "voice_end": 429.444,
    "words": 313,
-   "end": 431.898,
-   "duration": 123.454
+   "end": 429.894,
+   "duration": 123.455
   },
   {
    "key": "c06",
    "title": "The Great Burn",
-   "start": 431.898,
-   "voice_end": 540.514,
+   "start": 429.894,
+   "voice_end": 538.51,
    "words": 303,
-   "end": 540.964,
+   "end": 538.96,
    "duration": 109.066
   },
   {
    "key": "c07",
    "title": "One More War",
-   "start": 540.964,
-   "voice_end": 689.319,
+   "start": 538.96,
+   "voice_end": 687.315,
    "words": 394,
-   "end": 689.769,
+   "end": 687.765,
    "duration": 148.805
   },
   {
    "key": "c08",
    "title": "Why They Stayed",
-   "start": 689.769,
-   "voice_end": 836.998,
+   "start": 687.765,
+   "voice_end": 834.994,
    "words": 396,
-   "end": 837.998,
+   "end": 835.994,
    "duration": 148.229
   }
  ]

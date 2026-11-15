@@ -2,9 +2,9 @@
  "key": "c04",
  "title": "Mallows Bay · Too Late",
  "words": "../build/words.json",
- "audio_offset": 208.009,
+ "audio_offset": 206.005,
  "clips_dir": "../segments",
- "duration": 100.435,
+ "duration": 100.434,
  "fade_out": 0.0,
  "res": 1080,
  "anim_theme": {

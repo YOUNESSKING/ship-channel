@@ -51,42 +51,12 @@
   },
   {
    "shot": "s14",
-   "at": 0.1,
-   "role": "tick",
-   "note": "option appears: Burn it"
+   "at": "@everything",
+   "role": "hit",
+   "note": "stamp: EVERYTHING FAILED."
   },
   {
-   "shot": "s14",
-   "at": "@failed",
-   "role": "tick",
-   "note": "option struck: Burn it"
-  },
-  {
-   "shot": "s14",
-   "at": 0.5,
-   "role": "tick",
-   "note": "option appears: Scrap it"
-  },
-  {
-   "shot": "s14",
-   "at": "@failed",
-   "role": "tick",
-   "note": "option struck: Scrap it"
-  },
-  {
-   "shot": "s14",
-   "at": 0.9,
-   "role": "tick",
-   "note": "option appears: Remove it"
-  },
-  {
-   "shot": "s14",
-   "at": "@failed",
-   "role": "tick",
-   "note": "option struck: Remove it"
-  },
-  {
-   "shot": "s17",
+   "shot": "s18",
    "at": 0.3,
    "role": "whoosh",
    "note": "map move starts (c01_dc)"

@@ -2,7 +2,7 @@
  "key": "c06",
  "title": "Mallows Bay · The Great Burn",
  "words": "../build/words.json",
- "audio_offset": 431.898,
+ "audio_offset": 429.894,
  "clips_dir": "../segments",
  "duration": 109.066,
  "fade_out": 0.0,

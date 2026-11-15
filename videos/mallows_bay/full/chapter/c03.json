@@ -2,7 +2,7 @@
  "key": "c03",
  "title": "Mallows Bay · A Fleet of Wood",
  "words": "../build/words.json",
- "audio_offset": 96.852,
+ "audio_offset": 94.848,
  "clips_dir": "../segments",
  "duration": 111.157,
  "fade_out": 0.0,
@@ -102,7 +102,7 @@
   },
   {
    "id": "s08",
-   "start": "t26.65",
+   "start": "t26.66",
    "sfx": false,
    "tag": "FILM: U.S. SHIPPING BOARD, 1918",
    "template": "lower_third",
@@ -374,7 +374,7 @@
   },
   {
    "id": "s27",
-   "start": "t97.51",
+   "start": "t97.52",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",

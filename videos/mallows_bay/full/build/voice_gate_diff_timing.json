@@ -1,9 +1,9 @@
 [
  {
   "i": 4,
-  "start": 14.064,
-  "text": "Each one cost the government more than seven hundred and fifty thousand dollars.",
-  "heard": "Each one cost the government more than $750,000.",
+  "start": 13.657,
+  "text": "Each one cost more than seven hundred and fifty thousand dollars.",
+  "heard": "each one cost more than $750,000.",
   "diffs": [
    [
     "",
@@ -16,10 +16,10 @@
   ]
  },
  {
-  "i": 6,
-  "start": 22.958,
-  "text": "Then the government sold them for about three thousand dollars each.",
-  "heard": "Then the government sold them for about $3,000 each.",
+  "i": 7,
+  "start": 23.161,
+  "text": "For about three thousand dollars each.",
+  "heard": "for about $3,000 each.",
   "diffs": [
    [
     "",
@@ -32,8 +32,8 @@
   ]
  },
  {
-  "i": 17,
-  "start": 55.709,
+  "i": 19,
+  "start": 53.705,
   "text": "On the Maryland shore of the Potomac, in Charles County, near a place called Nanjemoy, there is a small bay.",
   "heard": "On the Maryland shore of the Potomac in Charles County, near a place called Nanjamoy, there is a small bay.",
   "diffs": [
@@ -44,8 +44,8 @@
   ]
  },
  {
-  "i": 31,
-  "start": 113.428,
+  "i": 33,
+  "start": 111.424,
   "text": "On the sixth of April, the United States declared war on Germany.",
   "heard": "On the 6th of April, the United States declared war on Germany.",
   "diffs": [
@@ -56,8 +56,8 @@
   ]
  },
  {
-  "i": 55,
-  "start": 201.945,
+  "i": 57,
+  "start": 199.941,
   "text": "A hull built from keel to launch in seventeen and a half days.",
   "heard": "A hull built from keel to launch in 17.5 days.",
   "diffs": [
@@ -68,8 +68,8 @@
   ]
  },
  {
-  "i": 68,
-  "start": 249.536,
+  "i": 70,
+  "start": 247.532,
   "text": "Then, on the eleventh of November nineteen eighteen, the war ended.",
   "heard": "Then, on the 11th of November 1918, the war ended.",
   "diffs": [
@@ -80,8 +80,8 @@
   ]
  },
  {
-  "i": 76,
-  "start": 279.299,
+  "i": 78,
+  "start": 277.295,
   "text": "By the middle of nineteen twenty, the shipping board had spent more than two hundred and seventy-four million dollars on wooden and composite ships.",
   "heard": "By the middle of 1920, the shipping board had spent more than $274 million on wooden and composite ships.",
   "diffs": [
@@ -96,8 +96,8 @@
   ]
  },
  {
-  "i": 83,
-  "start": 311.049,
+  "i": 85,
+  "start": 309.045,
   "text": "In nineteen nineteen and nineteen twenty, the board was getting about two hundred thousand dollars a ship.",
   "heard": "In 1919 and 1920, the board was getting about $200,000 a ship.",
   "diffs": [
@@ -112,8 +112,8 @@
   ]
  },
  {
-  "i": 84,
-  "start": 317.936,
+  "i": 86,
+  "start": 315.931,
   "text": "By nineteen twenty-one, it sold twenty-one of them for about five thousand seven hundred dollars each.",
   "heard": "By 1921, it sold 21 of them for about $5,700 each.",
   "diffs": [
@@ -128,8 +128,8 @@
   ]
  },
  {
-  "i": 89,
-  "start": 341.219,
+  "i": 91,
+  "start": 339.215,
   "text": "The price was seven hundred and fifty thousand dollars.",
   "heard": "The price was $750,000.",
   "diffs": [
@@ -144,8 +144,8 @@
   ]
  },
  {
-  "i": 91,
-  "start": 346.23,
+  "i": 93,
+  "start": 344.226,
   "text": "That is about three thousand two hundred dollars a ship.",
   "heard": "That is about $3,200 a ship.",
   "diffs": [
@@ -160,8 +160,8 @@
   ]
  },
  {
-  "i": 110,
-  "start": 412.816,
+  "i": 112,
+  "start": 410.812,
   "text": "Sunken hulls and floating wreckage threatened their living.",
   "heard": "Sunken hulls and floating wreckage threaten their living.",
   "diffs": [
@@ -172,8 +172,8 @@
   ]
  },
  {
-  "i": 116,
-  "start": 432.348,
+  "i": 118,
+  "start": 430.344,
   "text": "On the seventh of November nineteen twenty-five, the company tried to finish the job in one go.",
   "heard": "On the 7th of November 1925, the company tried to finish the job in one go.",
   "diffs": [
@@ -184,8 +184,8 @@
   ]
  },
  {
-  "i": 135,
-  "start": 501.998,
+  "i": 137,
+  "start": 499.994,
   "text": "In the hungry years of the Depression, families rowed out to the wrecks and pried out bolts, spikes and iron, and sold them as scrap.",
   "heard": "In the hungry years of the depression, families rode out to the wrecks and pried out bolts, spikes and iron, and sold them as scrap.",
   "diffs": [
@@ -196,8 +196,8 @@
   ]
  },
  {
-  "i": 145,
-  "start": 545.254,
+  "i": 147,
+  "start": 543.25,
   "text": "And this time, the wrecks seemed to have one more job to do.",
   "heard": "And this time, the wrecks seem to have one more job to do.",
   "diffs": [
@@ -208,8 +208,8 @@
   ]
  },
  {
-  "i": 153,
-  "start": 574.275,
+  "i": 155,
+  "start": 572.271,
   "text": "Hulls would be floated in, the water pumped out, and the wood burned away on dry ground.",
   "heard": "Huls would be floated in, the water pumped out, and the wood burned away on dry ground.",
   "diffs": [
@@ -220,8 +220,8 @@
   ]
  },
  {
-  "i": 156,
-  "start": 585.845,
+  "i": 158,
+  "start": 583.841,
   "text": "According to the records, by the end of nineteen forty-three Bethlehem had spent three hundred and sixty thousand dollars.",
   "heard": "According to the records, by the end of 1943, Bethlehem had spent $360,000.",
   "diffs": [
@@ -236,8 +236,8 @@
   ]
  },
  {
-  "i": 165,
-  "start": 628.103,
+  "i": 167,
+  "start": 626.099,
   "text": "Pin the outer wrecks in place with stone, for about fifty thousand dollars.",
   "heard": "Pin the outer wrecks in place with stone for about $50,000.",
   "diffs": [
@@ -252,8 +252,8 @@
   ]
  },
  {
-  "i": 167,
-  "start": 634.654,
+  "i": 169,
+  "start": 632.649,
   "text": "It wanted the wrecks gone.",
   "heard": "It wanted the Rex gone.",
   "diffs": [
@@ -264,8 +264,8 @@
   ]
  },
  {
-  "i": 168,
-  "start": 636.687,
+  "i": 170,
+  "start": 634.683,
   "text": "In nineteen sixty-eight, Congress ordered the wrecks removed, at an estimated three hundred and fifty thousand dollars, if Maryland paid half.",
   "heard": "In 1968, Congress ordered the wrecks removed at an estimated $350,000 if Maryland paid half.",
   "diffs": [
@@ -280,8 +280,8 @@
   ]
  },
  {
-  "i": 171,
-  "start": 649.713,
+  "i": 173,
+  "start": 647.709,
   "text": "In nineteen seventy, at a hearing in Congress, a vice-president of the power company PEPCO was asked about Idamont.",
   "heard": "In 1970, at a hearing in Congress, a vice president of the power company, PEPCO, was asked about Idemont.",
   "diffs": [
@@ -292,8 +292,8 @@
   ]
  },
  {
-  "i": 184,
-  "start": 704.588,
+  "i": 186,
+  "start": 702.584,
   "text": "Then trees.",
   "heard": "than trees.",
   "diffs": [
@@ -304,8 +304,8 @@
   ]
  },
  {
-  "i": 191,
-  "start": 726.408,
+  "i": 193,
+  "start": 724.403,
   "text": "Bald eagles hunt over the bay.",
   "heard": "bold eagles hunt over the bay.",
   "diffs": [
@@ -316,8 +316,8 @@
   ]
  },
  {
-  "i": 195,
-  "start": 740.61,
+  "i": 197,
+  "start": 738.606,
   "text": "At the edge of the bay lies a steel car ferry, the Accomac.",
   "heard": "At the edge of the bay lies a steel car ferry, the Acamac.",
   "diffs": [
@@ -328,8 +328,8 @@
   ]
  },
  {
-  "i": 205,
-  "start": 785.417,
+  "i": 207,
+  "start": 783.413,
   "text": "NOAA calls it the largest wooden ship graveyard in the Western Hemisphere.",
   "heard": "Noah calls it the largest wooden ship graveyard in the Western Hemisphere.",
   "diffs": [

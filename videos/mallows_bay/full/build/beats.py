@@ -45,24 +45,25 @@ def E(anchor, src, **kw):
 
 
 B = {}
-B["c01"] = [
+B["c01"] = [   # hook v2 (owner 2026-11-15: "more engaging, high quality footage"): 2-3 s cuts, then/now wipe, fire beat
  E("Right now", "M:c01_open", map="Potomac basemap: WHITE HOUSE pin at frame 0; on 'thirty' a dashed line runs down-river to MALLOWS BAY, '≈ 30 MILES' tag"),
  E("more than a hundred ships", "P:noaa_kayaker_wrecks_mcintosh", num=dict(variant="right", number="100+", unit="ships", number_at="@hundred")),
- E("Not one or two", "P:aer_ghosts"),
- E("A whole fleet", "P:aerial_1936_full", label="MALLOWS BAY · 8 APRIL 1936"),
- E("The United States built them", "F:launch_pershing.mp4"),
+ E("Not one or two", "P:aer_shore"),
+ E("A whole fleet", "P:aerial_1936_fleet", move="in", label="MALLOWS BAY · 8 APRIL 1936"),
+ E("America built them", "F:launch_ypres.mp4"),
  E("Each one cost", "P:launch_503m_30_c", num=dict(variant="right", kicker="EACH SHIP", number="$750,000+", number_at="@seven")),
- E("Most of them were finished", "P:vessel_505a_14_c", lt=dict(kicker="TOO LATE", text="FINISHED AFTER THE WAR", at="@after")),
- E("Then the government sold them", "P:wms_1925_35368", num=dict(variant="strike_swap", lead1="COST TO BUILD", old="$750,000", lead2="SOLD FOR", new="≈ $3,000", show_at=0.05, swap_at="@three", strike_at="@three", dim="dk")),
- E("A salvage company set them on fire", "P:burn_quantico_1925_c_c", sfx=[("boom", 0.0, "the fleet on fire (wow)", {})]),
- E("Thirty-one of them burned", "P:burn_quantico_1925_a_c", num=dict(variant="right", kicker="IN ONE DAY", number="31", unit="ships", number_at="@thirty")),
- E("And still, they would not go away", "P:aer_trees"),
+ E("Most were finished", "P:vessel_505a_14_c", lt=dict(kicker="TOO LATE", text="FINISHED AFTER THE WAR", at="@after")),
+ E("So the government sold them", "P:wms_1925_35368", num=dict(variant="strike_swap", lead1="COST TO BUILD", old="$750,000", lead2="SOLD FOR", new="≈ $3,000", show_at=0.05, swap_at="@three", strike_at="@three", dim="dk")),
+ E("Then the buyers set them on fire", "P:burn_quantico_1925_c_c", move="in", sfx=[("boom", 0.0, "the fleet on fire (wow)", {})]),
+ E("Thirty-one ships went up", "P:burn_quantico_1925_a_c", num=dict(variant="right", kicker="AT ONCE", number="31", unit="ships", number_at="@thirty")),
+ E("And still, they would not go away", "P:naip_mallows_wide_080"),
  E("A steel giant tried", "P:wms_1910_25_919", lt=dict(kicker="1942–1944", text="BETHLEHEM STEEL", at="@steel")),
  E("Congress ordered them removed", "F:capitol.mp4", lt=dict(kicker="1968", text="CONGRESS ORDERS REMOVAL", at="@removed")),
- E("For a hundred years", "A:anim_options", params=dict(title="Get rid of *the fleet*", numbered=False, items=[dict(text="Burn it", at=0.1, strike_at="@failed"), dict(text="Scrap it", at=0.5, strike_at="@failed"), dict(text="Remove it", at=0.9, strike_at="@failed")]), bg="F:tow.mp4"),
- E("So why are they still here", "P:noaa_flowerpot_wrecks_olson"),
- E("The answer is hiding", "P:noaa_osprey_wreck_ruck"),
- E("And it is not what anyone", "M:c01_dc", map="Back up the river to the WHITE HOUSE pin; 'WASHINGTON' on 'Washington'"),
+ E("Everything failed", "CARD", card=dict(variant="word", text="EVERYTHING FAILED.", at="@everything"), cbg="F:tow.mp4"),
+ E("Today, trees grow", "H:c01_thennow", hero="THEN/NOW wipe: 1936 Army Air Corps aerial (rows of hulls) wipes into today's NAIP orthophoto of the same shore (tree-covered hull islands); labels 1936 / TODAY"),
+ E("Ospreys nest", "P:noaa_osprey_nest_ship_mcintosh"),
+ E("So why is the fleet still here", "P:noaa_flowerpot_wrecks_olson"),
+ E("The answer is not what anyone", "M:c01_dc", map="Back up the river to the WHITE HOUSE pin; 'WASHINGTON' on 'Washington'"),
 ]
 B["c02"] = [
  E("Start with what you would see", "P:usgs_mallows_wide"),
@@ -79,7 +80,7 @@ B["c02"] = [
  E("Yet most people", "P:dc_from_monument_1925"),
 ]
 B["c03"] = [
- E("To understand how a fleet", "P:aerial_1936_fleet", label="MALLOWS BAY · 1936"),
+ E("To understand how a fleet", "P:aerial_1936_full", label="MALLOWS BAY · 8 APRIL 1936"),
  E("In February and March", ["M:c03_uboat", "F:sink_b.mp4"], map="North Atlantic; date FEB–MAR 1917; red sinking marks around Britain; '1,000,000+ TONS SUNK' on 'million'"),
  E("Britain was running out", "F:sink_c.mp4", sfx=[("ship", 0.3, "steamer going down: groan", {"file": "groan_a__7c63fd7c.wav", "end_shot": True})]),
  E("On the sixth of April", "M:c03_war", map="Atlantic: WASHINGTON pin; date 6 APRIL 1917 on 'sixth'; tag 'WAR ON GERMANY' on 'war'"),
@@ -163,7 +164,7 @@ B["c05"] = [
  E("In October nineteen twenty-two", ["M:c05_fire_alex", "P:wms_alex_1925_34269"], map="Potomac close to D.C.: date OCT 1922; fire flash at ALEXANDRIA on 'fire'"),
  E("In April nineteen twenty-three", "M:c05_fire_ww", map="Potomac: date APRIL 1923; fire flash at WIDEWATER on 'fire'"),
  E("Five ships were destroyed", "CARD", card=dict(variant="number", kicker="WIDEWATER, APRIL 1923", number="5", unit="ships destroyed", number_at="@five"), cbg="MS:m_c05_fire_ww.mp4@end"),
- E("One of them was the Aberdeen", "CARD", card=dict(variant="line", kicker="THE RECORD-BREAKER", text="THE ABERDEEN", at="@aberdeen"), cbg="F:launch_ypres.mp4"),
+ E("One of them was the Aberdeen", "CARD", card=dict(variant="line", kicker="THE RECORD-BREAKER", text="THE ABERDEEN", at="@aberdeen"), cbg="F:christen.mp4"),
  E("She was raised", "P:wms_1910_25_920"),
  E("The local watermen", "CARD", card=dict(variant="word", text="FURIOUS.", at="@furious"), cbg="MS:m_c05_fire_ww.mp4@end", cbg_move="out"),
  E("Their shad and herring nets", "M:c05_nets", map="Potomac at Widewater: fish icons on 'shad' and 'herring'; tag 'FISHING GROUNDS'"),
