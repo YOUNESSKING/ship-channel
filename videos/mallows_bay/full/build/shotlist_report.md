@@ -2,15 +2,15 @@
 
 | chapter | dur s | shots | film % | photo % | map % | hero % | anim % | card % | of which NARA film % | generic US-Gov film % | anim over moving film % | **moving video total %** | longest shot | cues/min |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| c01 | 50.7 | 19 | 29 | 52 | 14 | 5 | 0 | 0 | 26 | 3 | 0 | **29** | 4.3 s (s09) | 11.8 |
-| c02 | 44.1 | 12 | 0 | 71 | 29 | 0 | 0 | 0 | 0 | 0 | 0 | **0** | 5.3 s (s10) | 6.8 |
+| c01 | 50.7 | 19 | 33 | 48 | 14 | 5 | 0 | 0 | 29 | 3 | 0 | **33** | 4.3 s (s09) | 11.8 |
+| c02 | 44.1 | 12 | 25 | 46 | 29 | 0 | 0 | 0 | 25 | 0 | 0 | **25** | 5.3 s (s10) | 6.8 |
 | c03 | 111.2 | 30 | 38 | 35 | 27 | 0 | 0 | 0 | 34 | 4 | 0 | **38** | 5.9 s (s01) | 10.3 |
 | c04 | 100.4 | 30 | 31 | 46 | 18 | 0 | 5 | 0 | 14 | 17 | 5 | **36** | 5.8 s (s12) | 6.0 |
-| c05 | 123.5 | 36 | 28 | 33 | 29 | 0 | 10 | 0 | 5 | 22 | 10 | **37** | 5.4 s (s21) | 10.7 |
-| c06 | 109.1 | 30 | 31 | 62 | 7 | 0 | 0 | 0 | 0 | 31 | 0 | **31** | 5.6 s (s28) | 7.7 |
-| c07 | 148.8 | 40 | 35 | 30 | 33 | 0 | 2 | 0 | 1 | 34 | 2 | **37** | 6.0 s (s10) | 10.5 |
-| c08 | 166.2 | 40 | 24 | 58 | 19 | 0 | 0 | 0 | 2 | 21 | 0 | **24** | 5.7 s (s19) | 5.1 |
-| **c01-c08** | | | **29** | **46** | **23** | **0** | **2** | **0** | **9** | **20** | **2** | **31** | | |
+| c05 | 123.5 | 36 | 28 | 28 | 35 | 0 | 10 | 0 | 5 | 22 | 10 | **37** | 5.4 s (s21) | 10.7 |
+| c06 | 109.1 | 29 | 31 | 62 | 7 | 0 | 0 | 0 | 0 | 31 | 0 | **31** | 5.6 s (s27) | 7.7 |
+| c07 | 148.8 | 41 | 45 | 18 | 34 | 0 | 2 | 0 | 11 | 34 | 2 | **47** | 6.0 s (s10) | 10.5 |
+| c08 | 166.2 | 40 | 52 | 29 | 19 | 0 | 0 | 0 | 31 | 21 | 0 | **52** | 5.7 s (s19) | 5.1 |
+| **c01-c08** | | | **37** | **36** | **24** | **0** | **2** | **0** | **18** | **20** | **2** | **40** | | |
 
 ## Pacing flags (shots > 6.0 s or < 1.2 s; end screen excluded)
 
@@ -29,7 +29,7 @@
 | c01 | s02 | 3.39 | 1.46 | number_clip | F:today_drone.mp4 | more than a hundred ships |
 | c01 | s03 | 4.85 | 2.17 | clip_plain | P:noaa_kayaker_wrecks_mcintosh | rotting in the Potomac |
 | c01 | s04 | 7.02 | 1.53 | clip_plain | F:today_kayak.mp4 | Not one or two |
-| c01 | s05 | 8.55 | 1.76 | clip_plain | P:aerial_1936_fleet | A whole fleet |
+| c01 | s05 | 8.55 | 1.76 | clip_plain | F:today_drone2.mp4 | A whole fleet |
 | c01 | s06 | 10.31 | 3.23 | clip_plain | F:launch_ypres.mp4 | America built them |
 | c01 | s07 | 13.54 | 4.03 | number_clip | P:launch_503m_30_c | Each one cost |
 | c01 | s08 | 17.57 | 3.6 | lower_third | P:vessel_505a_14_c | Most were finished |
@@ -48,15 +48,15 @@
 | c02 | s02 | 53.59 | 3.38 | map_clip | M:c02_where_a | On the Maryland shore |
 | c02 | s03 | 56.97 | 5.05 | map_clip | M:c02_where_b | near a place called |
 | c02 | s04 | 62.02 | 3.28 | clip_plain | P:noaa_aerial_kayak_wrecks_mcintosh | At low tide |
-| c02 | s05 | 65.3 | 4.33 | clip_plain | P:aer_ribs | Long ovals |
-| c02 | s06 | 69.63 | 1.6 | clip_plain | P:aer_shore2 | Some are bare ribs |
+| c02 | s05 | 65.3 | 4.33 | clip_plain | F:today_lines.mp4 | Long ovals |
+| c02 | s06 | 69.63 | 1.6 | clip_plain | F:today_ribs.mp4 | Some are bare ribs |
 | c02 | s07 | 71.23 | 2.21 | clip_plain | P:noaa_dertona_three_sisters | Some carry whole trees |
 | c02 | s08 | 73.44 | 2.97 | clip_plain | P:npc_wooden_ship_ways | Each shape is the hull |
-| c02 | s09 | 76.4 | 4.95 | number_clip | P:aer_kayaks | Federal surveys count |
+| c02 | s09 | 76.4 | 4.95 | number_clip | F:today_shorehull.mp4 | Federal surveys count |
 | c02 | s10 | 81.35 | 5.33 | number_clip | P:naip_mallows_mid_020 | NOAA counts |
 | c02 | s11 | 86.68 | 4.49 | map_clip | M:c02_crow | The bay is thirty-two miles |
 | c02 | s12 | 91.17 | 3.68 | clip_plain | P:dc_from_monument_1925 | Yet most people |
-| c03 | s01 | 94.85 | 5.93 | clip_plain | P:aerial_1936_full | To understand how a fleet |
+| c03 | s01 | 94.85 | 5.93 | clip_plain | P:poster_ships_are_coming | To understand how a fleet |
 | c03 | s02 | 100.78 | 3.28 | map_clip | M:c03_uboat | In February and March |
 | c03 | s03 | 104.06 | 3.34 | clip_plain | F:sink_b.mp4 | In February and March |
 | c03 | s04 | 107.4 | 3.9 | clip_plain | F:sink_c.mp4 | Britain was running out |
@@ -146,12 +146,12 @@
 | c05 | s28 | 401.6 | 3.61 | clip_plain | P:wms_1910_25_920 | She was raised |
 | c05 | s29 | 405.21 | 2.28 | text_card | CARD + bg MS:m_c05_fire_ww.mp4@end | The local watermen |
 | c05 | s30 | 407.49 | 3.2 | map_clip | M:c05_nets | Their shad and herring nets |
-| c05 | s31 | 410.69 | 3.75 | clip_plain | P:aer_deep | Sunken hulls and floating wreckage |
+| c05 | s31 | 410.69 | 3.75 | clip_plain | MS:m_c05_nets.mp4@end | Sunken hulls and floating wreckage |
 | c05 | s32 | 414.44 | 3.0 | clip_plain | F:capitol.mp4 | They complained all the way |
 | c05 | s33 | 417.44 | 2.79 | clip_plain | P:usgs_mallows_mid | So the company looked |
 | c05 | s34 | 420.23 | 2.88 | map_clip | M:c05_buy | In April nineteen twenty-four |
-| c05 | s35 | 423.11 | 3.21 | clip_plain | P:aer_isl_b | In April nineteen twenty-four |
-| c05 | s36 | 426.32 | 3.57 | clip_plain | P:aerial_1936_full | Around a quiet bay |
+| c05 | s35 | 423.11 | 3.21 | clip_plain | P:naip_mallows_wide_080 | In April nineteen twenty-four |
+| c05 | s36 | 426.32 | 3.57 | clip_plain | MS:m_c02_where_b.mp4@end | Around a quiet bay |
 | c06 | s01 | 429.89 | 3.63 | map_clip | M:c06_burn | On the seventh of November |
 | c06 | s02 | 433.52 | 3.15 | clip_plain | P:burn_quantico_1925_e_c | On the seventh of November |
 | c06 | s03 | 436.67 | 4.32 | number_clip | P:burn_quantico_1925_b_c | At five in the morning |
@@ -171,17 +171,16 @@
 | c06 | s17 | 488.41 | 3.32 | text_card | CARD + bg P:wms_1910_25_918 | In nineteen thirty-one |
 | c06 | s18 | 491.73 | 3.98 | text_card | CARD + bg MS:m_c06_packed.mp4@end | By the end of nineteen thirty-two |
 | c06 | s19 | 495.71 | 2.07 | clip_plain | P:usgs_mallows_close | The ships were still there |
-| c06 | s20 | 497.78 | 2.1 | clip_plain | P:aer_ribs | Now local people moved in |
-| c06 | s21 | 499.87 | 4.12 | clip_plain | P:wms_alex_1925_34261 | In the hungry years |
-| c06 | s22 | 503.99 | 4.22 | clip_plain | P:wms_1910_25_919 | In the hungry years |
-| c06 | s23 | 508.21 | 5.31 | text_card | CARD + bg P:dc_from_monument_1925 | The fight over the scrap |
-| c06 | s24 | 513.53 | 3.71 | text_card | CARD + bg MS:m_c06_packed.mp4@end | Maryland's highest court ruled |
-| c06 | s25 | 517.24 | 2.6 | clip_plain | P:wms_1910_25_921 | Anyone could take |
-| c06 | s26 | 519.84 | 3.29 | clip_plain | P:noaa_aerial_ghost_fleet_nara | That April, an Army camera plane |
-| c06 | s27 | 523.14 | 3.71 | clip_plain | P:aerial_1936_fleet | It caught the fleet |
-| c06 | s28 | 526.85 | 5.63 | text_card | CARD + bg P:wms_1925_35386 | There is an old story |
-| c06 | s29 | 532.47 | 1.67 | clip_plain | P:naip_mallows_bay_008 | It is a good story |
-| c06 | s30 | 534.14 | 4.82 | text_card | CARD + bg P:wms_1925_35383 | But the historian |
+| c06 | s20 | 497.78 | 5.12 | clip_plain | P:wms_alex_1925_34261 | Now local people moved in |
+| c06 | s21 | 502.89 | 5.32 | clip_plain | P:wms_1910_25_919 | Now local people moved in |
+| c06 | s22 | 508.21 | 5.31 | text_card | CARD + bg P:dc_from_monument_1925 | The fight over the scrap |
+| c06 | s23 | 513.53 | 3.71 | text_card | CARD + bg MS:m_c06_packed.mp4@end | Maryland's highest court ruled |
+| c06 | s24 | 517.24 | 2.6 | clip_plain | P:wms_1910_25_921 | Anyone could take |
+| c06 | s25 | 519.84 | 3.29 | clip_plain | P:noaa_aerial_ghost_fleet_nara | That April, an Army camera plane |
+| c06 | s26 | 523.14 | 3.71 | clip_plain | P:aerial_1936_fleet | It caught the fleet |
+| c06 | s27 | 526.85 | 5.63 | text_card | CARD + bg P:wms_1925_35386 | There is an old story |
+| c06 | s28 | 532.47 | 1.67 | clip_plain | P:wms_1925_35388 | It is a good story |
+| c06 | s29 | 534.14 | 4.82 | text_card | CARD + bg P:wms_1925_35383 | But the historian |
 | c07 | s01 | 538.96 | 4.17 | map_clip | M:c07_war | Then, in nineteen forty-one |
 | c07 | s02 | 543.13 | 3.8 | clip_plain | P:noaa_flowerpot_wrecks_olson | And this time |
 | c07 | s03 | 546.93 | 1.85 | clip_plain | F:steel_ways.mp4 | The new war needed steel |
@@ -194,14 +193,14 @@
 | c07 | s10 | 572.15 | 5.97 | map_clip | M:c07_basin_b | Hulls would be floated in |
 | c07 | s11 | 578.13 | 4.11 | text_card | CARD + bg MS:m_c07_basin_b.mp4@end | The target was |
 | c07 | s12 | 582.23 | 1.49 | text_card | CARD + bg F:strip_a.mp4 | It did not work |
-| c07 | s13 | 583.72 | 3.82 | clip_plain | P:aer_full | According to the records |
+| c07 | s13 | 583.72 | 3.82 | clip_plain | F:boiler.mp4 | According to the records |
 | c07 | s14 | 587.54 | 3.47 | anim_gauge | A:anim_gauge + bg F:borer.mp4 | According to the records |
 | c07 | s15 | 591.01 | 4.18 | text_card | CARD + bg P:usgs_mallows_wide | And the result was |
 | c07 | s16 | 595.19 | 4.59 | text_card | CARD + bg MS:m_c07_basin_b.mp4@end | In September nineteen forty-four |
 | c07 | s17 | 599.78 | 4.18 | clip_plain | P:noaa_dertona_three_sisters | The fleet that missed |
-| c07 | s18 | 603.97 | 1.86 | clip_plain | P:aer_creek | The basin is still there |
+| c07 | s18 | 603.97 | 1.86 | clip_plain | MS:m_c07_basin.mp4@end | The basin is still there |
 | c07 | s19 | 605.82 | 5.64 | clip_plain | P:aer_creek2 | You can still see |
-| c07 | s20 | 611.46 | 3.02 | clip_plain | P:aer_trees | After the war, the wrecks |
+| c07 | s20 | 611.46 | 3.02 | clip_plain | F:today_mound.mp4 | After the war, the wrecks |
 | c07 | s21 | 614.48 | 2.78 | map_clip | M:c07_sandy | Then, in October |
 | c07 | s22 | 617.25 | 5.53 | map_clip | M:c07_sandy_b | a company called Idamont |
 | c07 | s23 | 622.79 | 3.19 | text_card | CARD + bg MS:m_c07_sandy_b.mp4@end | The Army Corps of Engineers |
@@ -219,25 +218,26 @@
 | c07 | s35 | 665.27 | 3.42 | text_card | CARD + bg MS:m_c07_plant.mp4@end | It denied any part |
 | c07 | s36 | 668.69 | 2.86 | map_clip | M:c07_plant_b | But the wrecks were right |
 | c07 | s37 | 671.54 | 4.53 | number_clip | MS:m_c07_plant_b.mp4@end | That same year, the Army counted |
-| c07 | s38 | 676.08 | 3.24 | clip_plain | P:aer_kayaks | And Maryland's natural resources |
+| c07 | s38 | 676.08 | 3.24 | clip_plain | F:today_heron.mp4 | And Maryland's natural resources |
 | c07 | s39 | 679.32 | 3.32 | text_card | CARD + bg MS:m_c07_plant_b.mp4@end | And Maryland's natural resources |
-| c07 | s40 | 682.64 | 5.13 | clip_plain | P:aer_isl_b | Because while everyone |
+| c07 | s40 | 682.64 | 2.34 | clip_plain | F:today_eagle.mp4 | Because while everyone |
+| c07 | s41 | 684.98 | 2.79 | clip_plain | F:today_osprey.mp4 | Because while everyone |
 | c08 | s01 | 687.76 | 3.82 | clip_plain | P:usgs_mallows_close | To answer the question |
 | c08 | s02 | 691.59 | 5.06 | clip_plain | P:burn_quantico_1925_d_c | When the hulls were burned |
-| c08 | s03 | 696.65 | 3.07 | clip_plain | P:usgs_mallows_tight | Over the years, river silt |
-| c08 | s04 | 699.72 | 4.11 | clip_plain | P:aer_shore2 | Seeds blew in |
-| c08 | s05 | 703.83 | 3.18 | clip_plain | P:aer_shore | By nineteen seventy, whole trees |
+| c08 | s03 | 696.65 | 3.07 | clip_plain | F:today_ribs.mp4 | Over the years, river silt |
+| c08 | s04 | 699.72 | 4.11 | clip_plain | F:today_roots.mp4 | Seeds blew in |
+| c08 | s05 | 703.83 | 3.18 | clip_plain | F:today_flowerpot.mp4 | By nineteen seventy, whole trees |
 | c08 | s06 | 707.0 | 3.56 | text_card | CARD + bg P:noaa_aerial_kayak_wrecks_mcintosh | By nineteen seventy, whole trees |
 | c08 | s07 | 710.57 | 5.29 | clip_plain | P:aer_isl_a | The wrecks had become islands |
-| c08 | s08 | 715.86 | 2.04 | clip_plain | P:aer_river | Fish moved into the ribs |
-| c08 | s09 | 717.9 | 3.6 | text_card | CARD + bg MS:m_c06_packed.mp4@end | Largemouth bass |
-| c08 | s10 | 721.5 | 2.78 | clip_plain | P:noaa_osprey_nest_ship_mcintosh | Ospreys built nests |
+| c08 | s08 | 715.86 | 2.04 | clip_plain | F:today_shoretimbers.mp4 | Fish moved into the ribs |
+| c08 | s09 | 717.9 | 3.6 | text_card | CARD + bg MS:m_c05_nets.mp4@end | Largemouth bass |
+| c08 | s10 | 721.5 | 2.78 | clip_plain | F:today_birdwreck.mp4 | Ospreys built nests |
 | c08 | s11 | 724.28 | 2.55 | clip_plain | P:noaa_osprey_wreck_ruck | Bald eagles hunt |
-| c08 | s12 | 726.84 | 4.2 | clip_plain | P:naip_mallows_bay_008 | On one wreck |
-| c08 | s13 | 731.03 | 4.45 | text_card | CARD + bg MS:m_c07_plant_b.mp4@end | The beavers had chewed |
-| c08 | s14 | 735.48 | 3.01 | clip_plain | P:aer_ferry | Not every wreck here |
+| c08 | s12 | 726.84 | 4.2 | clip_plain | F:today_raptor.mp4 | On one wreck |
+| c08 | s13 | 731.03 | 4.45 | text_card | CARD + bg MS:m_c07_basin.mp4@end | The beavers had chewed |
+| c08 | s14 | 735.48 | 3.01 | clip_plain | F:today_accomac.mp4 | Not every wreck here |
 | c08 | s15 | 738.49 | 3.72 | lower_third | P:noaa_accomac_sassorossi | At the edge of the bay lies |
-| c08 | s16 | 742.2 | 4.22 | text_card | CARD + bg MS:m_c08_register.mp4@0.5 | She was built in |
+| c08 | s16 | 742.2 | 4.22 | text_card | CARD + bg F:today_steel.mp4 | She was built in |
 | c08 | s17 | 746.42 | 2.28 | text_card | CARD + bg MS:m_c05_tow.mp4@end | and was towed here |
 | c08 | s18 | 748.71 | 4.61 | number_clip | MS:m_c08_register.mp4@end | Ospreys have been nesting |
 | c08 | s19 | 753.32 | 5.68 | clip_plain | P:vessel_505a_42_c | And somewhere in the bay |
@@ -248,17 +248,17 @@
 | c08 | s24 | 772.7 | 4.14 | map_clip | M:c08_sanctuary_b | And in September twenty nineteen |
 | c08 | s25 | 776.84 | 1.77 | text_card | CARD + bg MS:m_c08_sanctuary_b.mp4@end | Eighteen square miles |
 | c08 | s26 | 778.61 | 4.68 | text_card | CARD + bg MS:m_c08_sanctuary.mp4@end | The first new national |
-| c08 | s27 | 783.29 | 4.83 | lower_third | P:aer_full | NOAA calls it |
+| c08 | s27 | 783.29 | 4.83 | lower_third | F:today_drone2.mp4 | NOAA calls it |
 | c08 | s28 | 788.13 | 3.24 | clip_plain | F:today_paddle.mp4 | Today you can paddle |
-| c08 | s29 | 791.37 | 3.21 | clip_plain | P:noaa_kayaker_wrecks_mcintosh_R | Today you can paddle |
-| c08 | s30 | 794.58 | 1.88 | clip_plain | P:aer_creek2 | So that is the answer |
-| c08 | s31 | 796.46 | 4.25 | clip_plain | P:noaa_dertona_three_sisters_R | The fleet is still here |
-| c08 | s32 | 800.72 | 3.16 | clip_plain | P:noaa_flowerpot_wrecks_olson_R | And while those attempts failed |
-| c08 | s33 | 803.88 | 3.58 | clip_plain | P:noaa_osprey_nest_ship_mcintosh_L | And while those attempts failed |
+| c08 | s29 | 791.37 | 3.21 | clip_plain | F:today_kayakgroup.mp4 | Today you can paddle |
+| c08 | s30 | 794.58 | 1.88 | clip_plain | F:today_drone.mp4 | So that is the answer |
+| c08 | s31 | 796.46 | 4.25 | clip_plain | F:today_mound.mp4 | The fleet is still here |
+| c08 | s32 | 800.72 | 3.16 | clip_plain | P:noaa_flowerpot_wrecks_olson | And while those attempts failed |
+| c08 | s33 | 803.88 | 3.58 | clip_plain | F:today_shorehull.mp4 | And while those attempts failed |
 | c08 | s34 | 807.46 | 3.94 | clip_plain | P:launch_503m_40_c | The same government |
-| c08 | s35 | 811.4 | 3.98 | clip_plain | P:noaa_accomac_sassorossi_R | The same government |
-| c08 | s36 | 815.38 | 2.34 | clip_plain | P:aer_deep | But the fleet will not last |
-| c08 | s37 | 817.72 | 4.24 | number_clip | P:noaa_aerial_kayak_wrecks_mcintosh_R | About seven in ten |
+| c08 | s35 | 811.4 | 3.98 | clip_plain | P:noaa_osprey_nest_ship_mcintosh | The same government |
+| c08 | s36 | 815.38 | 2.34 | clip_plain | F:today_lines.mp4 | But the fleet will not last |
+| c08 | s37 | 817.72 | 4.24 | number_clip | P:aer_deep | About seven in ten |
 | c08 | s38 | 821.96 | 4.01 | text_card | CARD + bg MS:m_c08_sanctuary_b.mp4@end | About seven in ten |
 | c08 | s39 | 825.97 | 1.89 | clip_plain | P:burn_quantico_1925_b_c | So here is the question |
 | c08 | s40 | 827.86 | 26.14 | map_clip | M:c08_endscreen | Should we try to save |

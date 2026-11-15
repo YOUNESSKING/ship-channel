@@ -8,7 +8,8 @@
     67.6
    ]
   ],
-  "tag": "FILM: PRESIDENT WILSON, 1918"
+  "tag": "FILM: PRESIDENT WILSON, 1918",
+  "slow": null
  },
  "board.mp4": {
   "reel": "bridge_of_ships_r1",
@@ -23,7 +24,8 @@
     179.6
    ]
   ],
-  "tag": "FILM: U.S. SHIPPING BOARD, 1918"
+  "tag": "FILM: U.S. SHIPPING BOARD, 1918",
+  "slow": null
  },
  "loggers.mp4": {
   "reel": "bridge_of_ships_r1",
@@ -34,7 +36,8 @@
     208.3
    ]
   ],
-  "tag": "FILM: CUTTING SHIP TIMBER, 1918"
+  "tag": "FILM: CUTTING SHIP TIMBER, 1918",
+  "slow": null
  },
  "logpond.mp4": {
   "reel": "bridge_of_ships_r1",
@@ -49,7 +52,8 @@
     247.6
    ]
   ],
-  "tag": "FILM: LOGS FOR WOODEN SHIPS, 1918"
+  "tag": "FILM: LOGS FOR WOODEN SHIPS, 1918",
+  "slow": null
  },
  "sawmill.mp4": {
   "reel": "bridge_of_ships_r1",
@@ -60,7 +64,8 @@
     291.6
    ]
   ],
-  "tag": "FILM: SAWING SHIP TIMBER, 1918"
+  "tag": "FILM: SAWING SHIP TIMBER, 1918",
+  "slow": null
  },
  "borer.mp4": {
   "reel": "bridge_of_ships_r1",
@@ -71,7 +76,8 @@
     307.6
    ]
   ],
-  "tag": "FILM: BUILDING A WOODEN HULL, 1918"
+  "tag": "FILM: BUILDING A WOODEN HULL, 1918",
+  "slow": null
  },
  "hullint.mp4": {
   "reel": "bridge_of_ships_r1",
@@ -82,7 +88,8 @@
     321.6
    ]
   ],
-  "tag": "FILM: INSIDE A WOODEN HULL, 1918"
+  "tag": "FILM: INSIDE A WOODEN HULL, 1918",
+  "slow": null
  },
  "frames.mp4": {
   "reel": "bridge_of_ships_r1",
@@ -93,7 +100,8 @@
     335.6
    ]
   ],
-  "tag": "FILM: WOODEN HULLS ON THE WAYS, 1918"
+  "tag": "FILM: WOODEN HULLS ON THE WAYS, 1918",
+  "slow": null
  },
  "christen.mp4": {
   "reel": "bridge_of_ships_r1",
@@ -104,7 +112,8 @@
     348.9
    ]
   ],
-  "tag": "FILM: A LAUNCHING, SEATTLE, 1918"
+  "tag": "FILM: A LAUNCHING, SEATTLE, 1918",
+  "slow": null
  },
  "launch_ypres.mp4": {
   "reel": "bridge_of_ships_r1",
@@ -115,7 +124,8 @@
     360.5
    ]
   ],
-  "tag": "FILM: WOODEN SHIP 'YPRES' LAUNCHED, SEATTLE, 1918"
+  "tag": "FILM: WOODEN SHIP 'YPRES' LAUNCHED, SEATTLE, 1918",
+  "slow": null
  },
  "launch_pershing.mp4": {
   "reel": "bridge_of_ships_r1",
@@ -126,7 +136,8 @@
     375.5
    ]
   ],
-  "tag": "FILM: WOODEN SHIP 'GENERAL PERSHING' LAUNCHED, 1918"
+  "tag": "FILM: WOODEN SHIP 'GENERAL PERSHING' LAUNCHED, 1918",
+  "slow": null
  },
  "workers.mp4": {
   "reel": "bridge_of_ships_r1",
@@ -137,7 +148,8 @@
     505.6
    ]
   ],
-  "tag": "ILLUSTRATIVE \u00b7 FILM: SHIPYARD WORKERS, 1918"
+  "tag": "ILLUSTRATIVE \u00b7 FILM: SHIPYARD WORKERS, 1918",
+  "slow": null
  },
  "torch.mp4": {
   "reel": "bridge_of_ships_r1",
@@ -152,7 +164,8 @@
     483.6
    ]
   ],
-  "tag": "ILLUSTRATIVE \u00b7 FILM: CUTTING STEEL, 1918"
+  "tag": "ILLUSTRATIVE \u00b7 FILM: CUTTING STEEL, 1918",
+  "slow": null
  },
  "pay.mp4": {
   "reel": "bridge_of_ships_r2",
@@ -163,7 +176,8 @@
     29.6
    ]
   ],
-  "tag": "ILLUSTRATIVE \u00b7 FILM: SHIPYARD PAY DAY, 1918"
+  "tag": "ILLUSTRATIVE \u00b7 FILM: SHIPYARD PAY DAY, 1918",
+  "slow": null
  },
  "steel_ways.mp4": {
   "reel": "bridge_of_ships_r2",
@@ -174,7 +188,8 @@
     175.6
    ]
   ],
-  "tag": "ILLUSTRATIVE \u00b7 FILM: A STEEL HULL ON THE WAYS, 1918"
+  "tag": "ILLUSTRATIVE \u00b7 FILM: A STEEL HULL ON THE WAYS, 1918",
+  "slow": null
  },
  "uboat_crew.mp4": {
   "reel": "u35_submarine",
@@ -193,7 +208,8 @@
     131.6
    ]
   ],
-  "tag": "FILM: GERMAN U-BOAT U-35, 1917"
+  "tag": "FILM: GERMAN U-BOAT U-35, 1917",
+  "slow": null
  },
  "uboat_cmdr.mp4": {
   "reel": "u35_submarine",
@@ -212,7 +228,8 @@
     191.6
    ]
   ],
-  "tag": "FILM: GERMAN U-BOAT U-35, 1917"
+  "tag": "FILM: GERMAN U-BOAT U-35, 1917",
+  "slow": null
  },
  "sink_a.mp4": {
   "reel": "u35_submarine",
@@ -223,7 +240,8 @@
     359.6
    ]
   ],
-  "tag": "FILM: ITALIAN STEAMER SUNK BY U-35, 1917"
+  "tag": "FILM: ITALIAN STEAMER SUNK BY U-35, 1917",
+  "slow": null
  },
  "sink_b.mp4": {
   "reel": "u35_submarine",
@@ -238,7 +256,8 @@
     449.6
    ]
   ],
-  "tag": "FILM: GREEK STEAMER 'INDIA' SUNK BY U-35, 1917"
+  "tag": "FILM: GREEK STEAMER 'INDIA' SUNK BY U-35, 1917",
+  "slow": null
  },
  "sink_c.mp4": {
   "reel": "u35_submarine",
@@ -249,7 +268,8 @@
     652.3
    ]
   ],
-  "tag": "FILM: BRITISH STEAMER 'CORFU' SUNK BY U-35, 1917"
+  "tag": "FILM: BRITISH STEAMER 'CORFU' SUNK BY U-35, 1917",
+  "slow": null
  },
  "sink_d.mp4": {
   "reel": "u35_submarine",
@@ -260,7 +280,8 @@
     699.8
    ]
   ],
-  "tag": "FILM: BRITISH STEAMER 'PATAGONIA' SUNK BY U-35, 1917"
+  "tag": "FILM: BRITISH STEAMER 'PATAGONIA' SUNK BY U-35, 1917",
+  "slow": null
  },
  "laidup.mp4": {
   "reel": "scrapping_ship_1199",
@@ -271,7 +292,8 @@
     8.15
    ]
   ],
-  "tag": "ILLUSTRATIVE \u00b7 FILM: LAID-UP STEEL FREIGHTERS, 1927"
+  "tag": "ILLUSTRATIVE \u00b7 FILM: LAID-UP STEEL FREIGHTERS, 1927",
+  "slow": null
  },
  "boiler.mp4": {
   "reel": "scrapping_ship_1199",
@@ -298,7 +320,8 @@
     179.6
    ]
   ],
-  "tag": "ILLUSTRATIVE \u00b7 FILM: A STEAMER'S BOILER LIFTED OUT, 1927"
+  "tag": "ILLUSTRATIVE \u00b7 FILM: A STEAMER'S BOILER LIFTED OUT, 1927",
+  "slow": null
  },
  "strip_a.mp4": {
   "reel": "scrapping_ship_1199",
@@ -325,7 +348,8 @@
     78.05
    ]
   ],
-  "tag": "ILLUSTRATIVE \u00b7 FILM: STRIPPED SHIP FITTINGS, 1927"
+  "tag": "ILLUSTRATIVE \u00b7 FILM: STRIPPED SHIP FITTINGS, 1927",
+  "slow": null
  },
  "tow.mp4": {
   "reel": "scrapping_ship_1640",
@@ -348,7 +372,8 @@
     371.6
    ]
   ],
-  "tag": "ILLUSTRATIVE \u00b7 FILM: OLD SHIPS UNDER TOW, 1920s"
+  "tag": "ILLUSTRATIVE \u00b7 FILM: OLD SHIPS UNDER TOW, 1920s",
+  "slow": null
  },
  "dc_pan.mp4": {
   "reel": "washington_dc_1921",
@@ -363,7 +388,8 @@
     173.6
    ]
   ],
-  "tag": "FILM: WASHINGTON, D.C., c.1921"
+  "tag": "FILM: WASHINGTON, D.C., c.1921",
+  "slow": null
  },
  "capitol.mp4": {
   "reel": "washington_dc_1921",
@@ -426,7 +452,8 @@
     305.6
    ]
   ],
-  "tag": "FILM: WASHINGTON, D.C., c.1921"
+  "tag": "FILM: WASHINGTON, D.C., c.1921",
+  "slow": null
  },
  "ww_frames.mp4": {
   "reel": "wartime_shipbuilding",
@@ -437,7 +464,8 @@
     117.6
    ]
   ],
-  "tag": "FILM: WOODEN FRAMES ON THE WAYS, 1918"
+  "tag": "FILM: WOODEN FRAMES ON THE WAYS, 1918",
+  "slow": null
  },
  "launch_c.mp4": {
   "reel": "wartime_shipbuilding",
@@ -452,7 +480,8 @@
     391.6
    ]
   ],
-  "tag": "ILLUSTRATIVE \u00b7 FILM: A LAUNCH, 1918"
+  "tag": "ILLUSTRATIVE \u00b7 FILM: A LAUNCH, 1918",
+  "slow": null
  },
  "today_drone.mp4": {
   "reel": "hq_noaa_wk309_birds",
@@ -463,7 +492,8 @@
     3.25
    ]
   ],
-  "tag": "NOAA \u00b7 MALLOWS BAY TODAY"
+  "tag": "NOAA \u00b7 MALLOWS BAY TODAY",
+  "slow": null
  },
  "today_kayak.mp4": {
   "reel": "hq_dvids_mallows_bay_2015",
@@ -474,7 +504,8 @@
     5.8
    ]
   ],
-  "tag": "DVIDS \u00b7 MALLOWS BAY, OCT 2015"
+  "tag": "DVIDS \u00b7 MALLOWS BAY, OCT 2015",
+  "slow": null
  },
  "today_timbers.mp4": {
   "reel": "hq_dvids_mallows_bay_2015",
@@ -485,7 +516,8 @@
     41.8
    ]
   ],
-  "tag": "DVIDS \u00b7 MALLOWS BAY, OCT 2015"
+  "tag": "DVIDS \u00b7 MALLOWS BAY, OCT 2015",
+  "slow": null
  },
  "today_roots.mp4": {
   "reel": "hq_dvids_mallows_bay_2015",
@@ -496,7 +528,8 @@
     32.7
    ]
   ],
-  "tag": "DVIDS \u00b7 MALLOWS BAY, OCT 2015"
+  "tag": "DVIDS \u00b7 MALLOWS BAY, OCT 2015",
+  "slow": null
  },
  "today_lines.mp4": {
   "reel": "hq_dvids_mallows_bay_2015",
@@ -507,7 +540,8 @@
     20.8
    ]
   ],
-  "tag": "DVIDS \u00b7 MALLOWS BAY, OCT 2015"
+  "tag": "DVIDS \u00b7 MALLOWS BAY, OCT 2015",
+  "slow": 1.3
  },
  "today_paddle.mp4": {
   "reel": "hq_dvids_mallows_bay_2015",
@@ -518,7 +552,176 @@
     52.6
    ]
   ],
-  "tag": "DVIDS \u00b7 MALLOWS BAY, OCT 2015"
+  "tag": "DVIDS \u00b7 MALLOWS BAY, OCT 2015",
+  "slow": null
+ },
+ "today_ribs.mp4": {
+  "reel": "hq_dvids_mallows_bay_2015",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    6.2,
+    9.8
+   ]
+  ],
+  "tag": "DVIDS \u00b7 MALLOWS BAY, OCT 2015",
+  "slow": null
+ },
+ "today_accomac.mp4": {
+  "reel": "hq_dvids_mallows_bay_2015",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    10.2,
+    16.8
+   ]
+  ],
+  "tag": "DVIDS \u00b7 THE ACCOMAC (1928 FERRY), 2015",
+  "slow": null
+ },
+ "today_mound.mp4": {
+  "reel": "hq_dvids_mallows_bay_2015",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    33.2,
+    37.8
+   ]
+  ],
+  "tag": "DVIDS \u00b7 MALLOWS BAY, OCT 2015",
+  "slow": 1.15
+ },
+ "today_shorehull.mp4": {
+  "reel": "hq_dvids_mallows_bay_2015",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    58.2,
+    65.8
+   ]
+  ],
+  "tag": "DVIDS \u00b7 MALLOWS BAY, OCT 2015",
+  "slow": null
+ },
+ "today_flowerpot.mp4": {
+  "reel": "hq_noaa_wk149_proposed",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    29.1,
+    31.9
+   ]
+  ],
+  "tag": "NOAA \u00b7 MALLOWS BAY, 2017",
+  "slow": 1.3
+ },
+ "today_shoretimbers.mp4": {
+  "reel": "hq_noaa_wk149_proposed",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    37.1,
+    39.9
+   ]
+  ],
+  "tag": "NOAA \u00b7 MALLOWS BAY, 2017",
+  "slow": 1.3
+ },
+ "today_kayakgroup.mp4": {
+  "reel": "hq_noaa_wk149_proposed",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    45.1,
+    47.9
+   ]
+  ],
+  "tag": "NOAA \u00b7 MALLOWS BAY, 2017",
+  "slow": 1.3
+ },
+ "today_raptor.mp4": {
+  "reel": "hq_noaa_wk149_proposed",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    70.1,
+    74.8
+   ]
+  ],
+  "tag": "NOAA \u00b7 MALLOWS BAY, 2017",
+  "slow": 1.3
+ },
+ "today_drone2.mp4": {
+  "reel": "hq_noaa_bald_eagles",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    82.1,
+    84.9
+   ]
+  ],
+  "tag": "NOAA \u00b7 MALLOWS BAY TODAY",
+  "slow": 1.3
+ },
+ "today_eagle.mp4": {
+  "reel": "hq_noaa_bald_eagles",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    61.1,
+    63.9
+   ]
+  ],
+  "tag": "NOAA \u00b7 BALD EAGLE, MALLOWS BAY",
+  "slow": 1.3
+ },
+ "today_birdwreck.mp4": {
+  "reel": "hq_noaa_wk240_sanctuary",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    25.1,
+    27.9
+   ]
+  ],
+  "tag": "NOAA \u00b7 MALLOWS BAY, 2019",
+  "slow": 1.3
+ },
+ "today_osprey.mp4": {
+  "reel": "hq_noaa_osprey",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    64.1,
+    66.9
+   ]
+  ],
+  "tag": "NOAA \u00b7 OSPREY, MALLOWS BAY",
+  "slow": 1.3
+ },
+ "today_steel.mp4": {
+  "reel": "hq_dvids_mallows_bay_2015",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    66.2,
+    72.8
+   ]
+  ],
+  "tag": "DVIDS \u00b7 RUSTED STEEL WRECKAGE, MALLOWS BAY, 2015",
+  "slow": null
+ },
+ "today_heron.mp4": {
+  "reel": "hq_noaa_wk240_sanctuary",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    37.1,
+    39.9
+   ]
+  ],
+  "tag": "NOAA \u00b7 MALLOWS BAY, 2019",
+  "slow": 1.3
  },
  "hog_crowd.mp4": {
   "reel": "hog_island_1917",
@@ -537,6 +740,7 @@
     94.8
    ]
   ],
-  "tag": "ILLUSTRATIVE \u00b7 FILM: SHIPYARD JOB-SEEKERS, 1917"
+  "tag": "ILLUSTRATIVE \u00b7 FILM: SHIPYARD JOB-SEEKERS, 1917",
+  "slow": null
  }
 }

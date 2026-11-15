@@ -186,10 +186,11 @@
    "id": "s13",
    "start": "t44.76",
    "sfx": false,
+   "tag": "ILLUSTRATIVE · FILM: A STEAMER'S BOILER LIFTED OUT, 1927",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c07_s13.mp4",
+    "file": "f_c07_s13.mp4",
     "push": null
    },
    "params": {}
@@ -273,7 +274,7 @@
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c07_s18.mp4",
+    "file": "s_c07_s18.mp4",
     "push": null
    },
    "params": {}
@@ -294,10 +295,11 @@
    "id": "s20",
    "start": "t72.50",
    "sfx": false,
+   "tag": "DVIDS · MALLOWS BAY, OCT 2015",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c07_s20.mp4",
+    "file": "f_c07_s20.mp4",
     "push": null
    },
    "params": {}
@@ -570,10 +572,11 @@
    "id": "s38",
    "start": "t137.12",
    "sfx": false,
+   "tag": "NOAA · MALLOWS BAY, 2019",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c07_s38.mp4",
+    "file": "f_c07_s38.mp4",
     "push": null
    },
    "params": {}
@@ -601,10 +604,24 @@
    "id": "s40",
    "start": "t143.68",
    "sfx": false,
+   "tag": "NOAA · BALD EAGLE, MALLOWS BAY",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c07_s40.mp4",
+    "file": "f_c07_s40.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s41",
+   "start": "t146.02",
+   "sfx": false,
+   "tag": "NOAA · OSPREY, MALLOWS BAY",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s41.mp4",
     "push": null
    },
    "params": {}

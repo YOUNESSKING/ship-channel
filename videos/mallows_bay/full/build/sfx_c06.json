@@ -62,25 +62,25 @@
    "note": "stamp: DISSOLVED."
   },
   {
-   "shot": "s23",
+   "shot": "s22",
    "at": "@court",
    "role": "pop",
    "note": "card: TO COURT"
   },
   {
-   "shot": "s24",
+   "shot": "s23",
    "at": "@abandoned",
    "role": "pop",
    "note": "card: ABANDONED"
   },
   {
-   "shot": "s28",
+   "shot": "s27",
    "at": "@brothels",
    "role": "pop",
    "note": "card: BROTHELS & WHISKEY STILLS?"
   },
   {
-   "shot": "s30",
+   "shot": "s29",
    "at": "@no",
    "role": "pop",
    "note": "card: NO EVIDENCE"

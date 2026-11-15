@@ -41,10 +41,11 @@
    "id": "s03",
    "start": "t8.88",
    "sfx": false,
+   "tag": "DVIDS · MALLOWS BAY, OCT 2015",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c08_s03.mp4",
+    "file": "f_c08_s03.mp4",
     "push": null
    },
    "params": {}
@@ -53,10 +54,11 @@
    "id": "s04",
    "start": "t11.96",
    "sfx": false,
+   "tag": "DVIDS · MALLOWS BAY, OCT 2015",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c08_s04.mp4",
+    "file": "f_c08_s04.mp4",
     "push": null
    },
    "params": {}
@@ -65,10 +67,11 @@
    "id": "s05",
    "start": "t16.06",
    "sfx": false,
+   "tag": "NOAA · MALLOWS BAY, 2017",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c08_s05.mp4",
+    "file": "f_c08_s05.mp4",
     "push": null
    },
    "params": {}
@@ -108,10 +111,11 @@
    "id": "s08",
    "start": "t28.09",
    "sfx": false,
+   "tag": "NOAA · MALLOWS BAY, 2017",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c08_s08.mp4",
+    "file": "f_c08_s08.mp4",
     "push": null
    },
    "params": {}
@@ -139,10 +143,11 @@
    "id": "s10",
    "start": "t33.74",
    "sfx": false,
+   "tag": "NOAA · MALLOWS BAY, 2019",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c08_s10.mp4",
+    "file": "f_c08_s10.mp4",
     "push": null
    },
    "params": {}
@@ -163,10 +168,11 @@
    "id": "s12",
    "start": "t39.07",
    "sfx": false,
+   "tag": "NOAA · MALLOWS BAY, 2017",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c08_s12.mp4",
+    "file": "f_c08_s12.mp4",
     "push": null
    },
    "params": {}
@@ -194,10 +200,11 @@
    "id": "s14",
    "start": "t47.71",
    "sfx": false,
+   "tag": "DVIDS · THE ACCOMAC (1928 FERRY), 2015",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c08_s14.mp4",
+    "file": "f_c08_s14.mp4",
     "push": null
    },
    "params": {}
@@ -391,10 +398,11 @@
    "id": "s27",
    "start": "t95.53",
    "sfx": false,
+   "tag": "NOAA · MALLOWS BAY TODAY",
    "template": "lower_third",
    "variant": "kicker_line",
    "clip": {
-    "file": "p_c08_s27.mp4",
+    "file": "f_c08_s27.mp4",
     "push": null
    },
    "params": {
@@ -420,10 +428,11 @@
    "id": "s29",
    "start": "t103.60",
    "sfx": false,
+   "tag": "NOAA · MALLOWS BAY, 2017",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c08_s29.mp4",
+    "file": "f_c08_s29.mp4",
     "push": null
    },
    "params": {}
@@ -432,10 +441,11 @@
    "id": "s30",
    "start": "t106.82",
    "sfx": false,
+   "tag": "NOAA · MALLOWS BAY TODAY",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c08_s30.mp4",
+    "file": "f_c08_s30.mp4",
     "push": null
    },
    "params": {}
@@ -444,10 +454,11 @@
    "id": "s31",
    "start": "t108.70",
    "sfx": false,
+   "tag": "DVIDS · MALLOWS BAY, OCT 2015",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c08_s31.mp4",
+    "file": "f_c08_s31.mp4",
     "push": null
    },
    "params": {}
@@ -468,10 +479,11 @@
    "id": "s33",
    "start": "t116.11",
    "sfx": false,
+   "tag": "DVIDS · MALLOWS BAY, OCT 2015",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c08_s33.mp4",
+    "file": "f_c08_s33.mp4",
     "push": null
    },
    "params": {}
@@ -504,10 +516,11 @@
    "id": "s36",
    "start": "t127.61",
    "sfx": false,
+   "tag": "DVIDS · MALLOWS BAY, OCT 2015",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c08_s36.mp4",
+    "file": "f_c08_s36.mp4",
     "push": null
    },
    "params": {}

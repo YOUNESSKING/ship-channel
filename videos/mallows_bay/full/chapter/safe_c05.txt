@@ -5,12 +5,10 @@ safe_area.js adjusted:
   size 19->25.4: THE CONDITION
   size 19->25.4: WIDEWATER, APRIL 1923
   size 19->25.4: THE RECORD-BREAKER
-  wrap: THE CONDITION
-  fit x0.98: NEVER TO SAIL AGAIN
   lift 33px: 1921
   lift 33px: 1922 AUCTION
-  lift 19px: THE BUYERWESTERN MARINE & SALV
+  lift 27px: THE BUYERWESTERN MARINE & SALV
   lift 82px: 0.0 $K
   lift 82px: 0.0 $K
-  lift 20px: THE BUYERWESTERN MARINE & SALV
+  lift 12px: THE BUYERWESTERN MARINE & SALV
 PASS: no text breaks the size / safe-area / font rules (101.2 s checked every 0.5 s)

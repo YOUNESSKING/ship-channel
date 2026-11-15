@@ -65,10 +65,11 @@
    "id": "s05",
    "start": "t14.57",
    "sfx": false,
+   "tag": "DVIDS · MALLOWS BAY, OCT 2015",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c02_s05.mp4",
+    "file": "f_c02_s05.mp4",
     "push": null
    },
    "params": {}
@@ -77,10 +78,11 @@
    "id": "s06",
    "start": "t18.90",
    "sfx": false,
+   "tag": "DVIDS · MALLOWS BAY, OCT 2015",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c02_s06.mp4",
+    "file": "f_c02_s06.mp4",
     "push": null
    },
    "params": {}
@@ -113,10 +115,11 @@
    "id": "s09",
    "start": "t25.67",
    "sfx": false,
+   "tag": "DVIDS · MALLOWS BAY, OCT 2015",
    "template": "number_clip",
    "variant": "right",
    "clip": {
-    "file": "p_c02_s09.mp4",
+    "file": "f_c02_s09.mp4",
     "push": null
    },
    "params": {

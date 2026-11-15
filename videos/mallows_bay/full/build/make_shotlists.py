@@ -21,8 +21,9 @@ CH = {c["key"]: c for c in json.load(open(os.path.join(FULL, "chapters.json")))[
 sys.path.insert(0, HERE)
 from beats import FILMS, B
 FW = {}
-for _k, (_r, _w, _t) in FILMS.items():
-    FW[_k + ".mp4"] = {"reel": _r, "clip_in": 0.0, "windows": _w, "tag": _t}
+for _k, _v in FILMS.items():
+    _r, _w, _t = _v[:3]
+    FW[_k + ".mp4"] = {"reel": _r, "clip_in": 0.0, "windows": _w, "tag": _t, "slow": _v[3] if len(_v) > 3 else None}
 def wiki_src(src): return src, None
 json.dump(FW, open(os.path.join(HERE, "film_windows.json"), "w"), indent=1)
 END_SCREEN = 18.0          # end-screen hold after the last word (music bed + end map)
@@ -131,6 +132,7 @@ for ck in ["c01", "c02", "c03", "c04", "c05", "c06", "c07", "c08"]:
                 clipfile = f"f_{ck}_{sid}.mp4"
                 seg = dict(file=clipfile, kind="film", clip=clip, reel=FW[clip]["reel"], reel_in=ss, dur=need, label=b.get("label") if k == 0 else None,
                            note=flag)
+                if FW[clip].get("slow"): seg["slow"] = FW[clip]["slow"]   # short clean window played slowed (segment keeps the shot length)
                 if kd == "G": seg.update(generic=True, tag=FW[clip]["tag"]); shot["tag"] = FW[clip]["tag"]   # v2: tag drawn on top, not burned in
                 elif FW[clip].get("tag") and not shot.get("tag"): shot["tag"] = FW[clip]["tag"]   # Mallows: every archive film shot is tagged
                 uses.setdefault(clip, []).append(a)

@@ -11,7 +11,6 @@ safe_area.js adjusted:
   size 24->25.4: 100
   size 19->25.4: SPENT BY MID-1920
   size 22->25.4: WOODEN + COMPOSITE SHIPS
-  fit x0.77: ≈ 1 ship a day
-  wrap: OF THE WOODEN SHIPS
+  fit x0.91: ≈ 1 ship a day
   lift 8px: 0
 PASS: no text breaks the size / safe-area / font rules (76.3 s checked every 0.5 s)

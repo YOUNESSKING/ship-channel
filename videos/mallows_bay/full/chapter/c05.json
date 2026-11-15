@@ -522,7 +522,7 @@
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c05_s31.mp4",
+    "file": "s_c05_s31.mp4",
     "push": null
    },
    "params": {}
@@ -583,7 +583,7 @@
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c05_s36.mp4",
+    "file": "s_c05_s36.mp4",
     "push": null
    },
    "params": {}

@@ -71,10 +71,11 @@
    "id": "s05",
    "start": "t8.55",
    "sfx": false,
+   "tag": "NOAA · MALLOWS BAY TODAY",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c01_s05.mp4",
+    "file": "f_c01_s05.mp4",
     "push": null
    },
    "params": {}
