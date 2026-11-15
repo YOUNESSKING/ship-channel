@@ -4,7 +4,6 @@ const S = ShipK(), B = S.B, G = S.G, w = S.w, wt = S.wt, END = S.END;
 
 const NB = S.P("NORTHBEND");
 S.camera([[0, NB[0] + 300, NB[1], 1.0], [END, NB[0] + 220, NB[1], 1.5]]);
-S.label("OREGON", G(44.0, -120.5), { t: wt("Oregon", 1.6), anchor: "c", size: 50 });
 S.pin(NB, "NORTH BEND, OREGON", { t: wt("Oregon", 1.6), anchor: "r", color: "#D9572B" });
 S.date("1 DEC 1917", wt("December", 3.0));
 S.finish();

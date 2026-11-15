@@ -22,8 +22,8 @@
     </style>
   </head>
   <body>
-    <div id="root" data-composition-id="main" data-start="0" data-duration="5.88" data-width="1920" data-height="1080">
-      <div id="scene" class="clip" data-start="0" data-duration="5.88" data-track-index="0">
+    <div id="root" data-composition-id="main" data-start="0" data-duration="6.42" data-width="1920" data-height="1080">
+      <div id="scene" class="clip" data-start="0" data-duration="6.42" data-track-index="0">
         <div id="world">
           <img id="relief" src="assets/relief.jpg" alt="" />
           <svg id="overlay" viewBox="0 0 2880 1620" xmlns="http://www.w3.org/2000/svg"></svg>
@@ -37,14 +37,17 @@
       </div>
     </div>
     <script>
-// BASEMAP: potomac
-// 'Most were anchored off Widewater, Virginia, near the Marine base at Quantico.' pins on their words.
+// BASEMAP: baycl
+// 'Hulls would be floated in, the water pumped out, and the wood burned away on dry ground.' hull into the basin, flash on 'burned'.
 const S = ShipK(), B = S.B, G = S.G, w = S.w, wt = S.wt, END = S.END;
 
-const WW = S.P("WIDEWATER"), Q = S.P("QUANTICO");
-S.camera([[0, WW[0] + 60, WW[1] - 40, 1.2], [END, WW[0] + 40, WW[1] - 30, 1.7]]);
-S.pin(WW, "WIDEWATER, VIRGINIA", { t: wt("Widewater", 0.6), anchor: "l", color: "#D9572B" });
-S.pin(Q, "MARINE BASE, QUANTICO", { t: wt("Quantico", 3.8), anchor: "l", rings: false });
+const BA = S.P("BASIN");
+S.camera([[0, BA[0], BA[1], 3.0], [END, BA[0], BA[1], 3.4]]);
+S.ring(BA, { t: 0.0, r: 46, color: "#D9572B" });
+S.route([[BA[0] - 160, BA[1] - 60], [BA[0] - 60, BA[1] - 20], BA], { t: wt("floated", 0.4), dur: 1.4, head: "ship", headSize: 1.2, width: 3 });
+S.tag("PUMP OUT", BA, { t: wt("pumped", 2.2), anchor: "b", gap: 70 });
+S.flashAt(BA, wt("burned", 4.2), { r: 40, keep: true, sfx: false });
+S.tag("BURN", BA, { t: wt("burned", 4.2) + 0.1, anchor: "t", gap: 70, boxColor: "rgba(150,40,30,.92)" });
 S.finish();
 
       window.__timelines = window.__timelines || {}; window.__timelines["main"] = B.tl;
