@@ -407,10 +407,11 @@
    "id": "s28",
    "start": "t100.36",
    "sfx": false,
+   "tag": "DVIDS · MALLOWS BAY, OCT 2015",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c08_s28.mp4",
+    "file": "f_c08_s28.mp4",
     "push": null
    },
    "params": {}

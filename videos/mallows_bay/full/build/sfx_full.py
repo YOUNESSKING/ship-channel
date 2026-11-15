@@ -66,6 +66,7 @@ def bed_of(k, s):
     clip = ((s.get("clip") or {}).get("file") or "")
     seg = SEGS.get((k, s["id"], clip)); tpl = s.get("template")
     if tpl == "anim_gauge": return "drone"
+    if seg and seg["kind"] == "film" and seg.get("clip", "").startswith("today_"): return "waves"   # modern video of the bay: river, not projector
     if seg and seg["kind"] == "film": return "projector"
     if seg and seg["kind"] == "photo" and re.match(r"(aer_|naip_|usgs_|noaa_)", seg["photo"]) and "ghost_fleet_nara" not in seg["photo"]: return "waves"
     return None

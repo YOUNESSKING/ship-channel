@@ -3037,6 +3037,774 @@
      "not_shows": "unusable"
     }
    ]
+  },
+  {
+   "stem": "hq_noaa_mallows_bg",
+   "group": "HQ",
+   "file": "src/film/hq_noaa_mallows_bg.mp4",
+   "title": "NOAA ONMS Mallows Bay-Potomac River sanctuary homepage background loop (mallows-highlight-bg-1080.mp4)",
+   "url": "https://sanctuaries.noaa.gov/mallows-potomac/ (file https://sanctuaries.noaa.gov/media/videos/mallows-highlight-bg-1080.mp4)",
+   "rights": "No credit on page (homepage background video). Same shots appear in NOAA \"Mallows Bay-Potomac River National Marine Sanctuary\" (wk240), credited: Cinematography David Ruck/NOAA, Nick Zachar/NOAA, Matt McIntosh/NOAA; \"Additional footage courtesy of Marine Robotics and Remote Sensing, Duke University\". NOAA staff work = PD; OWNER CHECK that the drone shots are McIntosh/NOAA, not Duke.",
+   "duration": 10.1,
+   "res": "2048x1080 24p, silent, no text",
+   "sheets": [
+    "hq_noaa_mallows_bg_1.jpg"
+   ],
+   "shots": [
+    {
+     "in": 0.0,
+     "out": 2.9,
+     "shows": "DRONE top-down: three kayaks (white, yellow, red) paddle past an overgrown hull outline and a line of rib stumps on calm grey water",
+     "not_shows": "not a specific named ship; date not stated (c. 2019)"
+    },
+    {
+     "in": 3.0,
+     "out": 4.9,
+     "shows": "great blue heron and Canada goose standing at a muddy creek edge",
+     "not_shows": "not a wreck; location only implied (sanctuary area)"
+    },
+    {
+     "in": 5.0,
+     "out": 6.9,
+     "shows": "great blue heron flying low over open water",
+     "not_shows": "no wreck in frame"
+    },
+    {
+     "in": 7.0,
+     "out": 10.0,
+     "shows": "DRONE low orbit: a hull outline of rib stumps fully ringed by shrubs/trees (\"flower-pot\" wreck), still water",
+     "not_shows": "ship not identified; not the 1925 burn"
+    }
+   ]
+  },
+  {
+   "stem": "hq_noaa_wk240_sanctuary",
+   "group": "HQ",
+   "file": "src/film/hq_noaa_wk240_sanctuary.mp4",
+   "title": "NOAA Earth Is Blue: \"Mallows Bay-Potomac River National Marine Sanctuary\" (July 2019)",
+   "url": "https://sanctuaries.noaa.gov/earthisblue/wk240-mallows-bay-patomic-river.html",
+   "rights": "End credits (on screen, verbatim): \"Directed by Nick Zachar/NOAA | Cinematography David Ruck/NOAA, Nick Zachar/NOAA, Matt McIntosh/NOAA | Additional footage courtesy of Marine Robotics and Remote Sensing, Duke University | Editor Nick Zachar/NOAA\". NOAA-staff shots = PD; Duke shots are NOT PD (avoid).",
+   "duration": 91.8,
+   "res": "1280x676 (letterboxed 1.89:1) 24p; title text burned into many shots",
+   "sheets": [
+    "hq_noaa_wk240_sanctuary_1.jpg",
+    "hq_noaa_wk240_sanctuary_2.jpg",
+    "hq_noaa_wk240_sanctuary_3.jpg",
+    "hq_noaa_wk240_sanctuary_4.jpg"
+   ],
+   "shots": [
+    {
+     "in": 0.0,
+     "out": 4.9,
+     "shows": "black, then title \"DOWNSTREAM FROM YOUR NATION'S CAPITAL\" over a kayaker POV",
+     "not_shows": "burned-in title text"
+    },
+    {
+     "in": 5.0,
+     "out": 9.9,
+     "shows": "animated satellite map zoom to Mallows Bay star; sanctuary boundary map",
+     "not_shows": "NOAA graphic - use our own maps"
+    },
+    {
+     "in": 10.0,
+     "out": 11.9,
+     "shows": "low kayak-level shot along the dark weathered side of a wooden hull, sun flare",
+     "not_shows": "ship not named"
+    },
+    {
+     "in": 12.0,
+     "out": 13.9,
+     "shows": "underwater murk, then hull side; text \"THE PAST RESTS JUST BENEATH THE SURFACE\"",
+     "not_shows": "burned-in text"
+    },
+    {
+     "in": 14.0,
+     "out": 14.9,
+     "shows": "archival photo of hulks (NOAA graphic still)",
+     "not_shows": "archival still, source unstated in video - use NARA originals instead"
+    },
+    {
+     "in": 15.0,
+     "out": 24.9,
+     "shows": "AERIAL mosaic of many hull outlines; low drone over rib lines with a tree-topped hull; titles \"A TREASURE TROVE\", \"AN ECOLOGICAL OASIS\"",
+     "not_shows": "LIKELY DUKE UNIVERSITY footage (credited \"additional footage\") - NOT PD, do not use; burned-in text"
+    },
+    {
+     "in": 25.0,
+     "out": 27.9,
+     "shows": "telephoto: low wreck with collapsed cabin/superstructure at the waterline, ospreys/gulls on it, piling at left",
+     "not_shows": "ship not named; not the Accomac (no steel bow visible)"
+    },
+    {
+     "in": 28.0,
+     "out": 29.9,
+     "shows": "great blue heron + Canada goose at creek edge",
+     "not_shows": "not a wreck"
+    },
+    {
+     "in": 30.0,
+     "out": 36.9,
+     "shows": "school kids with binoculars on shore; text \"FOSTERS EDUCATION\"",
+     "not_shows": "people, burned-in text"
+    },
+    {
+     "in": 37.0,
+     "out": 39.9,
+     "shows": "great blue heron flying over open water (clean)",
+     "not_shows": "no wreck"
+    },
+    {
+     "in": 40.0,
+     "out": 48.9,
+     "shows": "kids, kayak cleanup on beach; text \"PROMOTES STEWARDSHIP\"",
+     "not_shows": "people/text"
+    },
+    {
+     "in": 49.0,
+     "out": 53.9,
+     "shows": "drone low orbit of the overgrown \"flower-pot\" hull (same as bg loop) with text \"PROTECTS OUR HERITAGE\"",
+     "not_shows": "burned-in text - use hq_noaa_mallows_bg 7-10 instead"
+    },
+    {
+     "in": 54.0,
+     "out": 60.9,
+     "shows": "ranger with kids; fisherman in boat among pilings; kayak group far off; text",
+     "not_shows": "people/text"
+    },
+    {
+     "in": 61.0,
+     "out": 61.9,
+     "shows": "DRONE: kayaks near overgrown hull (clean 1 s), then \"TO FLOAT AMONG THE GHOST FLEET\" text to 66",
+     "not_shows": "text from 62"
+    },
+    {
+     "in": 67.0,
+     "out": 69.9,
+     "shows": "DRONE low pass over a collapsed wooden hull: ribs and planking awash, grassy hull top, shore behind (clean)",
+     "not_shows": "ship not named; possibly Duke - OWNER CHECK"
+    },
+    {
+     "in": 70.0,
+     "out": 73.9,
+     "shows": "two kayakers launching from beach, others behind (clean)",
+     "not_shows": "modern visitors only"
+    },
+    {
+     "in": 74.0,
+     "out": 79.9,
+     "shows": "DRONE: lone kayaker over rows of rib stubs; end title text",
+     "not_shows": "burned-in text"
+    },
+    {
+     "in": 80.0,
+     "out": 91.8,
+     "shows": "end cards and credits",
+     "not_shows": "unusable"
+    }
+   ]
+  },
+  {
+   "stem": "hq_noaa_wk149_proposed",
+   "group": "HQ",
+   "file": "src/film/hq_noaa_wk149_proposed.mp4",
+   "title": "NOAA Earth Is Blue: \"Mallows Bay - A proposed national marine sanctuary\" (September 2017)",
+   "url": "https://sanctuaries.noaa.gov/earthisblue/wk149-mallows-bay.html",
+   "rights": "End credits (on screen, verbatim): \"Footage by: David Ruck, Kate Thompson/NOAA | Produced/Edited by: Brendan Fay | Music: Hot and Calm - Killer Tracks, About You - Killer Tracks, Coming Home - Killer Tracks\". Footage = NOAA staff = PD; music is Killer Tracks (licensed) - strip audio. Brendan Fay's employer not stated (editing only).",
+   "duration": 95.6,
+   "res": "1280x720 24p; caption boxes + small earth-is-blue bug bottom-right",
+   "sheets": [
+    "hq_noaa_wk149_proposed_1.jpg",
+    "hq_noaa_wk149_proposed_2.jpg",
+    "hq_noaa_wk149_proposed_3.jpg",
+    "hq_noaa_wk149_proposed_4.jpg"
+   ],
+   "shots": [
+    {
+     "in": 0.0,
+     "out": 1.9,
+     "shows": "telephoto at water level: long dark steel hull of the Accomac lying in the river, trees behind (clean)",
+     "not_shows": "Accomac = 1928 car ferry, NOT a WWI wooden steamer"
+    },
+    {
+     "in": 2.0,
+     "out": 6.9,
+     "shows": "same Accomac shot with title \"MALLOWS BAY / Potomac River, Maryland\" (2-5), clean again at 6",
+     "not_shows": "text 2-5"
+    },
+    {
+     "in": 7.0,
+     "out": 15.9,
+     "shows": "visitors at the overlook fence; caption box 9-14",
+     "not_shows": "people; caption"
+    },
+    {
+     "in": 16.0,
+     "out": 20.9,
+     "shows": "visitors on the pier, kayaker, Accomac hull in far background (clean)",
+     "not_shows": "modern visitors"
+    },
+    {
+     "in": 21.0,
+     "out": 28.9,
+     "shows": "shore tree, then wide river; caption 21-25",
+     "not_shows": "no wreck detail"
+    },
+    {
+     "in": 29.0,
+     "out": 31.9,
+     "shows": "telephoto: wreck overgrown with trees (a dead tree rising from the hull) - \"flower-pot\" wreck (clean)",
+     "not_shows": "ship not named"
+    },
+    {
+     "in": 32.0,
+     "out": 36.9,
+     "shows": "same with caption \"Almost 100 World War One wooden steamships...\"",
+     "not_shows": "caption"
+    },
+    {
+     "in": 37.0,
+     "out": 39.9,
+     "shows": "shoreline: grey hull timbers and ribs stranded in the shallows with shrubs growing through (clean)",
+     "not_shows": "ship not named"
+    },
+    {
+     "in": 40.0,
+     "out": 43.9,
+     "shows": "same with caption",
+     "not_shows": "caption"
+    },
+    {
+     "in": 44.0,
+     "out": 47.9,
+     "shows": "kayak group crossing far off along wooded shore (45-47 clean)",
+     "not_shows": "no wreck detail"
+    },
+    {
+     "in": 48.0,
+     "out": 61.9,
+     "shows": "cleanup volunteers, kayakers, canoe; captions",
+     "not_shows": "people/captions"
+    },
+    {
+     "in": 62.0,
+     "out": 68.9,
+     "shows": "misty shore; caption",
+     "not_shows": "caption"
+    },
+    {
+     "in": 69.0,
+     "out": 74.9,
+     "shows": "telephoto: a low black wreck ridge with ribs; an osprey/eagle perched, then takes off and flies past (70-74 clean)",
+     "not_shows": "bird species not certain at this size; ship not named"
+    },
+    {
+     "in": 75.0,
+     "out": 80.9,
+     "shows": "kayaker paddling (75 clean), then \"To learn more\" text",
+     "not_shows": "text"
+    },
+    {
+     "in": 81.0,
+     "out": 95.6,
+     "shows": "credits/end cards",
+     "not_shows": "unusable"
+    }
+   ]
+  },
+  {
+   "stem": "hq_noaa_wk309_birds",
+   "group": "HQ",
+   "file": "src/film/hq_noaa_wk309_birds.mp4",
+   "title": "NOAA Earth Is Blue: \"Birds of Mallows Bay\"",
+   "url": "https://sanctuaries.noaa.gov/earthisblue/wk309-birds-of-mallows-bay.html",
+   "rights": "Page transcript credits (verbatim): \"Footage: Paul Chetirkin/ NOAA Matt McIntosh/ NOAA Shannon Shikles/ NOAA Nick Zachar/ NOAA Writer/ Editor: Kevin Sanchez Farez/ NOAA Music: Universal Production Music\". Footage = NOAA staff = PD; music licensed - strip audio.",
+   "duration": 100.9,
+   "res": "1280x676 (letterboxed) 24p; caption boxes bottom-left + earth-is-blue bug",
+   "sheets": [
+    "hq_noaa_wk309_birds_1.jpg",
+    "hq_noaa_wk309_birds_2.jpg",
+    "hq_noaa_wk309_birds_3.jpg",
+    "hq_noaa_wk309_birds_4.jpg"
+   ],
+   "shots": [
+    {
+     "in": 0.5,
+     "out": 3.5,
+     "shows": "DRONE push past the burned-out rusty hull (Accomac) out over rows of hull outlines stretching across the bay, autumn shore (clean until ~3.5)",
+     "not_shows": "Accomac is the 1928 ferry; the hull rows are the WWI fleet but no single ship named"
+    },
+    {
+     "in": 4.0,
+     "out": 10.9,
+     "shows": "DRONE continues over the hull rows and a long flat barge-like hulk; caption box lower-left",
+     "not_shows": "caption - crop top 60%"
+    },
+    {
+     "in": 11.0,
+     "out": 19.9,
+     "shows": "DRONE top-down over green water: hull outlines, a kayaker; caption",
+     "not_shows": "caption"
+    },
+    {
+     "in": 20.0,
+     "out": 29.9,
+     "shows": "telephoto: birds on pilings and a stump in front of a line of hull remains; caption",
+     "not_shows": "caption"
+    },
+    {
+     "in": 30.0,
+     "out": 38.9,
+     "shows": "bald eagle in bare tree; caption",
+     "not_shows": "no wreck"
+    },
+    {
+     "in": 39.0,
+     "out": 48.9,
+     "shows": "eagle soaring in blue sky; caption",
+     "not_shows": "no wreck"
+    },
+    {
+     "in": 49.0,
+     "out": 49.9,
+     "shows": "telephoto: osprey on the low wreck with collapsed cabin (clean 1 s), osprey flights over it 50-58 with caption",
+     "not_shows": "caption 50-58"
+    },
+    {
+     "in": 59.0,
+     "out": 59.9,
+     "shows": "same wreck clean",
+     "not_shows": "-"
+    },
+    {
+     "in": 60.0,
+     "out": 85.9,
+     "shows": "osprey nests in trees; herons; captions",
+     "not_shows": "no wreck"
+    },
+    {
+     "in": 86.0,
+     "out": 92.9,
+     "shows": "telephoto: the rusted Accomac bow with an osprey nest on top; caption 86-91, clean ~92",
+     "not_shows": "Accomac (1928 ferry), not WWI"
+    },
+    {
+     "in": 93.0,
+     "out": 100.9,
+     "shows": "credits",
+     "not_shows": "unusable"
+    }
+   ]
+  },
+  {
+   "stem": "hq_noaa_bald_eagles",
+   "group": "HQ",
+   "file": "src/film/hq_noaa_bald_eagles.mp4",
+   "title": "NOAA Earth Is Blue: \"Bald Eagles\" (January 2022)",
+   "url": "https://sanctuaries.noaa.gov/earthisblue/bald-eagles.html",
+   "rights": "End credits (on screen, verbatim): \"Cinematography Nick Zachar/NOAA | Drone Cinematography Matt McIntosh/NOAA | Editor Nick Zachar/NOAA\". NOAA staff = PD. Strip audio (music not credited; treat as licensed).",
+   "duration": 114.8,
+   "res": "1280x720 24p; caption boxes + earth-is-blue bug bottom-right",
+   "sheets": [
+    "hq_noaa_bald_eagles_1.jpg",
+    "hq_noaa_bald_eagles_2.jpg",
+    "hq_noaa_bald_eagles_3.jpg",
+    "hq_noaa_bald_eagles_4.jpg"
+   ],
+   "shots": [
+    {
+     "in": 1.0,
+     "out": 1.9,
+     "shows": "kayak group on a creek (clean)",
+     "not_shows": "people"
+    },
+    {
+     "in": 7.0,
+     "out": 8.9,
+     "shows": "osprey on a large nest built on the Accomac's rusted superstructure; osprey lands (caption)",
+     "not_shows": "caption; Accomac = 1928 ferry"
+    },
+    {
+     "in": 11.0,
+     "out": 13.9,
+     "shows": "osprey nest on rusted Accomac deck machinery; caption",
+     "not_shows": "caption"
+    },
+    {
+     "in": 17.0,
+     "out": 18.9,
+     "shows": "turtle and low hull remains awash (clean 17-18)",
+     "not_shows": "ship not named"
+    },
+    {
+     "in": 34.0,
+     "out": 40.9,
+     "shows": "TWO BALD EAGLES on a nest atop the rusted Accomac superstructure (39-40 clean; caption 34-38, 41-49)",
+     "not_shows": "Accomac, not a WWI wooden steamer"
+    },
+    {
+     "in": 49.0,
+     "out": 55.9,
+     "shows": "bald eagle lands on the Accomac bow nest, wings spread (50-52 caption box only upper-left corner)",
+     "not_shows": "caption; Accomac"
+    },
+    {
+     "in": 56.0,
+     "out": 63.9,
+     "shows": "bald eagle soaring against blue sky (61-63 clean)",
+     "not_shows": "no wreck"
+    },
+    {
+     "in": 64.0,
+     "out": 69.9,
+     "shows": "eagle flies from the Accomac bow; caption",
+     "not_shows": "caption"
+    },
+    {
+     "in": 77.0,
+     "out": 94.9,
+     "shows": "DRONE over the bay: overgrown hulls and hull lines, kayakers far below (82-84 and 92-93 clean; captions elsewhere)",
+     "not_shows": "ships not named"
+    },
+    {
+     "in": 95.0,
+     "out": 114.7,
+     "shows": "end cards/credits",
+     "not_shows": "unusable"
+    }
+   ]
+  },
+  {
+   "stem": "hq_noaa_osprey",
+   "group": "HQ",
+   "file": "src/film/hq_noaa_osprey.mp4",
+   "title": "NOAA Earth Is Blue: \"Meet the Osprey\" (September 2023)",
+   "url": "https://sanctuaries.noaa.gov/earthisblue/meet-the-osprey.html",
+   "rights": "End credits (on screen, verbatim): \"Producer Nick Zachar/NOAA | Footage Nick Zachar/NOAA | Writer/Editor BriAna Alvarado/NOAA | Music Universal Production Music\". NOAA staff = PD; strip audio.",
+   "duration": 150.1,
+   "res": "1280x720 24p; captions + bug",
+   "sheets": [
+    "hq_noaa_osprey_1.jpg",
+    "hq_noaa_osprey_2.jpg",
+    "hq_noaa_osprey_3.jpg",
+    "hq_noaa_osprey_4.jpg",
+    "hq_noaa_osprey_5.jpg"
+   ],
+   "shots": [
+    {
+     "in": 11.0,
+     "out": 13.9,
+     "shows": "osprey pair on a stick nest in a tree (clean 11-13)",
+     "not_shows": "NO wreck in any shot of this film"
+    },
+    {
+     "in": 35.0,
+     "out": 36.9,
+     "shows": "osprey on a large tree nest, hazy river behind (clean)",
+     "not_shows": "no wreck"
+    },
+    {
+     "in": 64.0,
+     "out": 66.9,
+     "shows": "osprey on nest (clean)",
+     "not_shows": "no wreck"
+    },
+    {
+     "in": 106.0,
+     "out": 107.9,
+     "shows": "close osprey on nest (clean)",
+     "not_shows": "no wreck"
+    }
+   ]
+  },
+  {
+   "stem": "hq_noaa_beavers",
+   "group": "HQ",
+   "file": "src/film/hq_noaa_beavers.mp4",
+   "title": "NOAA Earth Is Blue: \"Beavers of Mallows Bay-Potomac River National Marine Sanctuary\" (September 2023)",
+   "url": "https://sanctuaries.noaa.gov/earthisblue/beavers-of-mallows-bay-potomac-river-national-marine-sanctuary.html",
+   "rights": "End credits (on screen, verbatim): \"Producer Nick Zachar/NOAA | Footage Nick Zachar/NOAA, Matt McIntosh/NOAA | Writer/Editor BriAna Alvarado/NOAA | Music Universal Production Music\". NOAA staff = PD; strip audio.",
+   "duration": 135.1,
+   "res": "1280x720 24p; captions + bug",
+   "sheets": [
+    "hq_noaa_beavers_1.jpg",
+    "hq_noaa_beavers_2.jpg",
+    "hq_noaa_beavers_3.jpg",
+    "hq_noaa_beavers_4.jpg",
+    "hq_noaa_beavers_5.jpg"
+   ],
+   "shots": [
+    {
+     "in": 16.0,
+     "out": 18.9,
+     "shows": "DRONE over a flooded creek/beaver pond in the Mallows Bay woods (caption 16-17, clean 18)",
+     "not_shows": "NO wrecks in this film"
+    },
+    {
+     "in": 62.0,
+     "out": 64.9,
+     "shows": "beaver-gnawed tree trunk in wet woods (clean 62-64)",
+     "not_shows": "no wreck"
+    },
+    {
+     "in": 98.0,
+     "out": 102.9,
+     "shows": "beaver lodge in a flooded forest pond (caption 98-100, clean 101-102)",
+     "not_shows": "no wreck"
+    }
+   ]
+  },
+  {
+   "stem": "hq_dvids_mallows_bay_2015",
+   "group": "HQ",
+   "file": "src/film/hq_dvids_mallows_bay_2015.mp4",
+   "title": "DVIDS 432074 \"Mallows Bay\" - Defense Media Activity, DoD News Features (taken 26 Oct 2015)",
+   "url": "https://www.dvidshub.net/video/432074/mallows-bay (file https://d34w7g4gy10iej.cloudfront.net/video/1511/DOD_102849482/DOD_102849482-1024x576-1769k.mp4)",
+   "rights": "DVIDS page (verbatim): \"Video by Sgt. Patrick Doran and EJ Hersom\" | \"Defense Media Activity - DoD News Features\" | \"PUBLIC DOMAIN\" | \"This work, Mallows Bay, by Patrick Doran and EJ Hersom, identified by DVIDS, must comply with the restrictions shown on https://www.dvidshub.net/about/copyright.\"",
+   "duration": 75.1,
+   "res": "1024x576 (best rendition DVIDS serves; no 720/1080 file found) 30p, phone/action-cam look; no text except a lower third at 22-25",
+   "sheets": [
+    "hq_dvids_mallows_bay_2015_1.jpg",
+    "hq_dvids_mallows_bay_2015_2.jpg",
+    "hq_dvids_mallows_bay_2015_3.jpg"
+   ],
+   "shots": [
+    {
+     "in": 1.0,
+     "out": 5.9,
+     "shows": "KAYAK POV gliding along a broken wooden hull edge: planks, ribs and debris at the waterline, paddle tip at 4",
+     "not_shows": "ship not named"
+    },
+    {
+     "in": 6.0,
+     "out": 9.9,
+     "shows": "kayak POV: rib stumps and a fallen frame timber standing out of reflective water",
+     "not_shows": "ship not named"
+    },
+    {
+     "in": 10.0,
+     "out": 16.9,
+     "shows": "the Accomac's rusted steel side with rows of portholes, a bare autumn tree growing out of the top - static, clean",
+     "not_shows": "ACCOMAC (1928 ferry), NOT a WWI wooden steamer"
+    },
+    {
+     "in": 17.0,
+     "out": 20.9,
+     "shows": "from shore: wide bay with long lines of hull remains across the water, autumn",
+     "not_shows": "ships not named"
+    },
+    {
+     "in": 21.0,
+     "out": 26.9,
+     "shows": "interview: historian Don Shomette at the bay (lower third 22-25 \"Don Shomette Guide/Historian\")",
+     "not_shows": "person on camera; DoD News bug in lower third"
+    },
+    {
+     "in": 27.0,
+     "out": 32.9,
+     "shows": "kayak POV (pink bow) approaching a hull end overgrown with a tangle of shrubs/roots (\"flower-pot\")",
+     "not_shows": "ship not named"
+    },
+    {
+     "in": 33.0,
+     "out": 37.9,
+     "shows": "kayak POV along a low grassy hull mound with autumn trees",
+     "not_shows": "-"
+    },
+    {
+     "in": 38.0,
+     "out": 43.9,
+     "shows": "kayak POV past weathered splintered frame timbers sticking up from clear shallow water",
+     "not_shows": "-"
+    },
+    {
+     "in": 44.0,
+     "out": 52.9,
+     "shows": "kayak POV: big flat bleached hull timber with ribs, a canoe of two people passing behind",
+     "not_shows": "-"
+    },
+    {
+     "in": 53.0,
+     "out": 57.9,
+     "shows": "Shomette talking (no lower third)",
+     "not_shows": "person"
+    },
+    {
+     "in": 58.0,
+     "out": 65.9,
+     "shows": "handheld from kayak: long overgrown hull lying along the autumn shore, pilings",
+     "not_shows": "-"
+    },
+    {
+     "in": 66.0,
+     "out": 72.9,
+     "shows": "telephoto: twisted rusted steel wreckage in a marsh, reflections",
+     "not_shows": "probably the Accomac/steel debris, not a wooden steamer"
+    },
+    {
+     "in": 73.0,
+     "out": 75.1,
+     "shows": "black",
+     "not_shows": "-"
+    }
+   ]
+  },
+  {
+   "stem": "hq_wartime_shipbuilding_1080",
+   "group": "HQ",
+   "file": "src/film/hq_wartime_shipbuilding_1080.mp4",
+   "title": "111-H-1166 \"Wartime Ship Building\" - NARA 5 Mbps 1080p file (same film as wartime_shipbuilding.mp4, which was a 480p transcode)",
+   "url": "https://catalog.archives.gov/id/24671 (file https://catalog.archives.gov/medialz/mopix/111/h/111-h-1166_5Mbps.mp4)",
+   "rights": "NARA useRestriction: {\"note\": \"Some or all of this material may be restricted by copyright or other intellectual property rights restrictions.\", \"specificUseRestrictions\": [\"Copyright\"], \"status\": \"Restricted - Possibly\"} - footage 1917-18 published pre-1931 => US PD by age; compilation by US Army. OWNER CHECK",
+   "duration": 521.5,
+   "res": "1920x1080 24p, 4:3 picture pillarboxed (active ~1440x1080); visibly sharper than the 480p copy, still a dupe-generation print",
+   "sheets": [
+    "hq_wartime_shipbuilding_1080_1.jpg",
+    "hq_wartime_shipbuilding_1080_2.jpg",
+    "hq_wartime_shipbuilding_1080_3.jpg",
+    "hq_wartime_shipbuilding_1080_4.jpg",
+    "hq_wartime_shipbuilding_1080_5.jpg",
+    "hq_wartime_shipbuilding_1080_6.jpg",
+    "hq_wartime_shipbuilding_1080_7.jpg",
+    "hq_wartime_shipbuilding_1080_8.jpg",
+    "hq_wartime_shipbuilding_1080_9.jpg",
+    "hq_wartime_shipbuilding_1080_10.jpg",
+    "hq_wartime_shipbuilding_1080_11.jpg",
+    "hq_wartime_shipbuilding_1080_12.jpg",
+    "hq_wartime_shipbuilding_1080_13.jpg",
+    "hq_wartime_shipbuilding_1080_14.jpg",
+    "hq_wartime_shipbuilding_1080_15.jpg",
+    "hq_wartime_shipbuilding_1080_16.jpg",
+    "hq_wartime_shipbuilding_1080_17.jpg",
+    "hq_wartime_shipbuilding_1080_18.jpg"
+   ],
+   "shots": [
+    {
+     "in": 0.0,
+     "out": 6.0,
+     "shows": "NARA logo card, black",
+     "not_shows": "unusable"
+    },
+    {
+     "in": 6.0,
+     "out": 20.0,
+     "shows": "row of hulls on the ways under derricks, seen across water (shipyard skyline)",
+     "not_shows": "yard not named; likely Hog Island (steel)"
+    },
+    {
+     "in": 20.0,
+     "out": 24.0,
+     "shows": "board meeting at a table (same as Bridge of Ships r1 146-180)",
+     "not_shows": "duplicate of 111-M-148 material"
+    },
+    {
+     "in": 24.0,
+     "out": 36.0,
+     "shows": "flag-raising crowd outside a building; flag against sky",
+     "not_shows": "NARA: War Shipping Board building, Washington DC - not verifiable on screen"
+    },
+    {
+     "in": 36.0,
+     "out": 112.0,
+     "shows": "big outdoor crowd and speakers on a railed stand at a shipyard ceremony (flag-raising), crowd waving",
+     "not_shows": "speakers not identified on screen; dark print"
+    },
+    {
+     "in": 112.0,
+     "out": 124.0,
+     "shows": "wooden hull frames standing on the ways behind staging; then a hull under gantry [1080 sheet check: 114-117.9 = wooden hull frames on the ways under staging/ladders; 118-119 = workers inside a hull]",
+     "not_shows": "wooden frames (112-118) vs steel (120-124) - check frame-by-frame before captioning"
+    },
+    {
+     "in": 124.0,
+     "out": 144.0,
+     "shows": "worker with boring tool on heavy timbers; timbers/beams being shaped in a mill (same as Bridge of Ships r1 262-308)",
+     "not_shows": "duplicate of 111-M-148 r1; yard not named"
+    },
+    {
+     "in": 144.0,
+     "out": 168.0,
+     "shows": "steel hull bottoms on the ways; machine-shop floor from above",
+     "not_shows": "steel; duplicates 111-M-148"
+    },
+    {
+     "in": 168.0,
+     "out": 204.0,
+     "shows": "forging press, trip-hammer, rivets, propellers (duplicates 111-M-148 r1 600-760)",
+     "not_shows": "steel; duplicate"
+    },
+    {
+     "in": 204.0,
+     "out": 216.0,
+     "shows": "Hurley drives a rivet at Port Newark among workers (dup of r2 248-272)",
+     "not_shows": "duplicate"
+    },
+    {
+     "in": 216.0,
+     "out": 268.0,
+     "shows": "crowd, bulkhead section lifted by crane, signalman (dup of r2 370-430)",
+     "not_shows": "duplicate; steel"
+    },
+    {
+     "in": 268.0,
+     "out": 300.0,
+     "shows": "torch cutting, riveters, stern framing (dup)",
+     "not_shows": "duplicate; steel"
+    },
+    {
+     "in": 300.0,
+     "out": 320.0,
+     "shows": "dark interior; crowd with Schwab/Hurley (dup); black at 312",
+     "not_shows": "dark"
+    },
+    {
+     "in": 320.0,
+     "out": 364.0,
+     "shows": "launching crowd waving flags at the bow of a hull; ship's side sliding past with bunting",
+     "not_shows": "NARA scope: freighter Liberty at Newark NJ - name not legible here; steel"
+    },
+    {
+     "in": 364.0,
+     "out": 392.0,
+     "shows": "hull slides away between the staging (several angles)",
+     "not_shows": "steel freighter; which ship not on screen"
+    },
+    {
+     "in": 392.0,
+     "out": 424.0,
+     "shows": "crowd; sponsor party at a hull, flowers; hull on ways",
+     "not_shows": "names not on screen"
+    },
+    {
+     "in": 424.0,
+     "out": 440.0,
+     "shows": "new hull afloat with flag and bunting, tug alongside",
+     "not_shows": "steel"
+    },
+    {
+     "in": 440.0,
+     "out": 472.0,
+     "shows": "another launch: hull slides down the ways between staging, flags",
+     "not_shows": "NARA scope: destroyer Dallas / freighters Coyote and Saccarappa at Hog Island - but Coyote was a WOODEN ship launched at Passaic NJ (Foundation Co.), so the scope note is not reliable"
+    },
+    {
+     "in": 472.0,
+     "out": 480.0,
+     "shows": "freighter afloat dressed with flags",
+     "not_shows": "steel"
+    },
+    {
+     "in": 480.0,
+     "out": 496.0,
+     "shows": "ship's side with name \"SACCARAPPA\" painted on the bow; plating",
+     "not_shows": "Saccarappa = steel Hog Island freighter"
+    },
+    {
+     "in": 496.0,
+     "out": 521.0,
+     "shows": "workers on deck; huge crowd of workers at a gate",
+     "not_shows": "location not stated"
+    }
+   ]
   }
  ]
 }

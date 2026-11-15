@@ -454,6 +454,72 @@
   ],
   "tag": "ILLUSTRATIVE \u00b7 FILM: A LAUNCH, 1918"
  },
+ "today_drone.mp4": {
+  "reel": "hq_noaa_wk309_birds",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    0.6,
+    3.25
+   ]
+  ],
+  "tag": "NOAA \u00b7 MALLOWS BAY TODAY"
+ },
+ "today_kayak.mp4": {
+  "reel": "hq_dvids_mallows_bay_2015",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    1.2,
+    5.8
+   ]
+  ],
+  "tag": "DVIDS \u00b7 MALLOWS BAY, OCT 2015"
+ },
+ "today_timbers.mp4": {
+  "reel": "hq_dvids_mallows_bay_2015",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    38.2,
+    41.8
+   ]
+  ],
+  "tag": "DVIDS \u00b7 MALLOWS BAY, OCT 2015"
+ },
+ "today_roots.mp4": {
+  "reel": "hq_dvids_mallows_bay_2015",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    27.2,
+    32.7
+   ]
+  ],
+  "tag": "DVIDS \u00b7 MALLOWS BAY, OCT 2015"
+ },
+ "today_lines.mp4": {
+  "reel": "hq_dvids_mallows_bay_2015",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    17.2,
+    20.8
+   ]
+  ],
+  "tag": "DVIDS \u00b7 MALLOWS BAY, OCT 2015"
+ },
+ "today_paddle.mp4": {
+  "reel": "hq_dvids_mallows_bay_2015",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    44.2,
+    52.6
+   ]
+  ],
+  "tag": "DVIDS \u00b7 MALLOWS BAY, OCT 2015"
+ },
  "hog_crowd.mp4": {
   "reel": "hog_island_1917",
   "clip_in": 0.0,

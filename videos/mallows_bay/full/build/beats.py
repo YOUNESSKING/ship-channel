@@ -36,6 +36,12 @@ FILMS = {
  "capitol": ("washington_dc_1921", [[174.4, 182.8], [183.65, 194.05], [195.15, 202.55], [204.4, 211.3], [212.15, 216.3], [217.65, 227.8], [228.65, 234.3], [235.15, 246.05], [246.9, 253.3], [254.65, 267.3], [268.4, 275.55], [276.9, 283.55], [284.4, 293.8], [296.4, 305.6]], "FILM: WASHINGTON, D.C., c.1921"),
  "ww_frames": ("wartime_shipbuilding", [[114.0, 117.6]], "FILM: WOODEN FRAMES ON THE WAYS, 1918"),
  "launch_c": ("wartime_shipbuilding", [[364.4, 378.6], [384.0, 391.6]], "ILLUSTRATIVE · FILM: A LAUNCH, 1918"),
+ "today_drone": ("hq_noaa_wk309_birds", [[0.6, 3.25]], "NOAA · MALLOWS BAY TODAY"),
+ "today_kayak": ("hq_dvids_mallows_bay_2015", [[1.2, 5.8]], "DVIDS · MALLOWS BAY, OCT 2015"),
+ "today_timbers": ("hq_dvids_mallows_bay_2015", [[38.2, 41.8]], "DVIDS · MALLOWS BAY, OCT 2015"),
+ "today_roots": ("hq_dvids_mallows_bay_2015", [[27.2, 32.7]], "DVIDS · MALLOWS BAY, OCT 2015"),
+ "today_lines": ("hq_dvids_mallows_bay_2015", [[17.2, 20.8]], "DVIDS · MALLOWS BAY, OCT 2015"),
+ "today_paddle": ("hq_dvids_mallows_bay_2015", [[44.2, 52.6]], "DVIDS · MALLOWS BAY, OCT 2015"),
  "hog_crowd": ("hog_island_1917", [[46.3, 79.3], [86.4, 89.55], [91.9, 94.8]], "ILLUSTRATIVE · FILM: SHIPYARD JOB-SEEKERS, 1917"),
 }
 
@@ -47,8 +53,9 @@ def E(anchor, src, **kw):
 B = {}
 B["c01"] = [   # hook v2 (owner 2026-11-15: "more engaging, high quality footage"): 2-3 s cuts, then/now wipe, fire beat
  E("Right now", "M:c01_open", map="Potomac basemap: WHITE HOUSE pin at frame 0; on 'thirty' a dashed line runs down-river to MALLOWS BAY, '≈ 30 MILES' tag"),
- E("more than a hundred ships", "P:noaa_kayaker_wrecks_mcintosh", num=dict(variant="right", number="100+", unit="ships", number_at="@hundred")),
- E("Not one or two", "P:aer_shore"),
+ E("more than a hundred ships", "F:today_drone.mp4", num=dict(variant="right", number="100+", unit="ships", number_at="@hundred")),
+ E("rotting in the Potomac", "P:noaa_kayaker_wrecks_mcintosh"),
+ E("Not one or two", "F:today_kayak.mp4"),
  E("A whole fleet", "P:aerial_1936_fleet", move="in", label="MALLOWS BAY · 8 APRIL 1936"),
  E("America built them", "F:launch_ypres.mp4"),
  E("Each one cost", "P:launch_503m_30_c", num=dict(variant="right", kicker="EACH SHIP", number="$750,000+", number_at="@seven")),
@@ -56,13 +63,13 @@ B["c01"] = [   # hook v2 (owner 2026-11-15: "more engaging, high quality footage
  E("So the government sold them", "P:wms_1925_35368", num=dict(variant="strike_swap", lead1="COST TO BUILD", old="$750,000", lead2="SOLD FOR", new="≈ $3,000", show_at=0.05, swap_at="@three", strike_at="@three", dim="dk")),
  E("Then the buyers set them on fire", "P:burn_quantico_1925_c_c", move="in", sfx=[("boom", 0.0, "the fleet on fire (wow)", {})]),
  E("Thirty-one ships went up", "P:burn_quantico_1925_a_c", num=dict(variant="right", kicker="AT ONCE", number="31", unit="ships", number_at="@thirty")),
- E("And still, they would not go away", "P:naip_mallows_wide_080"),
+ E("And still, they would not go away", "F:today_timbers.mp4"),
  E("A steel giant tried", "P:wms_1910_25_919", lt=dict(kicker="1942–1944", text="BETHLEHEM STEEL", at="@steel")),
  E("Congress ordered them removed", "F:capitol.mp4", lt=dict(kicker="1968", text="CONGRESS ORDERS REMOVAL", at="@removed")),
  E("Everything failed", "CARD", card=dict(variant="word", text="EVERYTHING FAILED.", at="@everything"), cbg="F:tow.mp4"),
  E("Today, trees grow", "H:c01_thennow", hero="THEN/NOW wipe: 1936 Army Air Corps aerial (rows of hulls) wipes into today's NAIP orthophoto of the same shore (tree-covered hull islands); labels 1936 / TODAY"),
  E("Ospreys nest", "P:noaa_osprey_nest_ship_mcintosh"),
- E("So why is the fleet still here", "P:noaa_flowerpot_wrecks_olson"),
+ E("So why is the fleet still here", "F:today_roots.mp4"),
  E("The answer is not what anyone", "M:c01_dc", map="Back up the river to the WHITE HOUSE pin; 'WASHINGTON' on 'Washington'"),
 ]
 B["c02"] = [
@@ -269,7 +276,7 @@ B["c08"] = [
  E("Eighteen square miles", "CARD", card=dict(variant="number", kicker="THE SANCTUARY", number="18", unit="sq mi", number_at="@eighteen"), cbg="MS:m_c08_sanctuary_b.mp4@end"),
  E("The first new national", "CARD", card=dict(variant="line", kicker="FIRST NEW MARINE SANCTUARY", text="IN NEARLY 20 YEARS", at="@twenty"), cbg="MS:m_c08_sanctuary.mp4@end"),
  E("NOAA calls it", "P:aer_full", lt=dict(kicker="NOAA", text="LARGEST WOODEN SHIP GRAVEYARD IN THE WESTERN HEMISPHERE", at="@largest")),
- E("Today you can paddle", ["P:noaa_kayaker_wrecks_mcintosh_L", "P:noaa_kayaker_wrecks_mcintosh_R"]),
+ E("Today you can paddle", ["F:today_paddle.mp4", "P:noaa_kayaker_wrecks_mcintosh_R"]),
  E("So that is the answer", "P:aer_creek2", sfx=[("boom", 0.0, "the answer", {})]),
  E("The fleet is still here", "P:noaa_dertona_three_sisters_R"),
  E("And while those attempts failed", ["P:noaa_flowerpot_wrecks_olson_R", "P:noaa_osprey_nest_ship_mcintosh_L"]),

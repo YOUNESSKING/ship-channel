@@ -2,15 +2,15 @@
 
 | chapter | dur s | shots | film % | photo % | map % | hero % | anim % | card % | of which NARA film % | generic US-Gov film % | anim over moving film % | **moving video total %** | longest shot | cues/min |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| c01 | 50.7 | 18 | 14 | 67 | 14 | 5 | 0 | 0 | 11 | 3 | 0 | **14** | 4.3 s (s08) | 11.8 |
+| c01 | 50.7 | 19 | 29 | 52 | 14 | 5 | 0 | 0 | 26 | 3 | 0 | **29** | 4.3 s (s09) | 11.8 |
 | c02 | 44.1 | 12 | 0 | 71 | 29 | 0 | 0 | 0 | 0 | 0 | 0 | **0** | 5.3 s (s10) | 6.8 |
 | c03 | 111.2 | 30 | 38 | 35 | 27 | 0 | 0 | 0 | 34 | 4 | 0 | **38** | 5.9 s (s01) | 10.3 |
 | c04 | 100.4 | 30 | 31 | 46 | 18 | 0 | 5 | 0 | 14 | 17 | 5 | **36** | 5.8 s (s12) | 6.0 |
 | c05 | 123.5 | 36 | 28 | 33 | 29 | 0 | 10 | 0 | 5 | 22 | 10 | **37** | 5.4 s (s21) | 10.7 |
 | c06 | 109.1 | 30 | 31 | 62 | 7 | 0 | 0 | 0 | 0 | 31 | 0 | **31** | 5.6 s (s28) | 7.7 |
 | c07 | 148.8 | 40 | 35 | 30 | 33 | 0 | 2 | 0 | 1 | 34 | 2 | **37** | 6.0 s (s10) | 10.5 |
-| c08 | 166.2 | 40 | 21 | 60 | 19 | 0 | 0 | 0 | 0 | 21 | 0 | **21** | 5.7 s (s19) | 5.1 |
-| **c01-c08** | | | **28** | **47** | **23** | **0** | **2** | **0** | **8** | **20** | **2** | **30** | | |
+| c08 | 166.2 | 40 | 24 | 58 | 19 | 0 | 0 | 0 | 2 | 21 | 0 | **24** | 5.7 s (s19) | 5.1 |
+| **c01-c08** | | | **29** | **46** | **23** | **0** | **2** | **0** | **9** | **20** | **2** | **31** | | |
 
 ## Pacing flags (shots > 6.0 s or < 1.2 s; end screen excluded)
 
@@ -26,23 +26,24 @@
 | ch | shot | start (abs s) | dur | template | source | cut on |
 |---|---|---|---|---|---|---|
 | c01 | s01 | 0.0 | 3.39 | map_clip | M:c01_open | Right now |
-| c01 | s02 | 3.39 | 3.63 | number_clip | P:noaa_kayaker_wrecks_mcintosh | more than a hundred ships |
-| c01 | s03 | 7.02 | 1.53 | clip_plain | P:aer_shore | Not one or two |
-| c01 | s04 | 8.55 | 1.76 | clip_plain | P:aerial_1936_fleet | A whole fleet |
-| c01 | s05 | 10.31 | 3.23 | clip_plain | F:launch_ypres.mp4 | America built them |
-| c01 | s06 | 13.54 | 4.03 | number_clip | P:launch_503m_30_c | Each one cost |
-| c01 | s07 | 17.57 | 3.6 | lower_third | P:vessel_505a_14_c | Most were finished |
-| c01 | s08 | 21.17 | 4.31 | number_clip | P:wms_1925_35368 | So the government sold them |
-| c01 | s09 | 25.48 | 2.29 | clip_plain | P:burn_quantico_1925_c_c | Then the buyers set them on fire |
-| c01 | s10 | 27.78 | 3.1 | number_clip | P:burn_quantico_1925_a_c | Thirty-one ships went up |
-| c01 | s11 | 30.88 | 2.27 | clip_plain | P:naip_mallows_wide_080 | And still, they would not go away |
-| c01 | s12 | 33.14 | 2.48 | lower_third | P:wms_1910_25_919 | A steel giant tried |
-| c01 | s13 | 35.62 | 2.22 | lower_third | F:capitol.mp4 | Congress ordered them removed |
-| c01 | s14 | 37.84 | 1.77 | text_card | CARD + bg F:tow.mp4 | Everything failed |
-| c01 | s15 | 39.62 | 2.46 | clip_plain | H:c01_thennow | Today, trees grow |
-| c01 | s16 | 42.08 | 2.49 | clip_plain | P:noaa_osprey_nest_ship_mcintosh | Ospreys nest |
-| c01 | s17 | 44.57 | 2.34 | clip_plain | P:noaa_flowerpot_wrecks_olson | So why is the fleet still here |
-| c01 | s18 | 46.91 | 3.82 | map_clip | M:c01_dc | The answer is not what anyone |
+| c01 | s02 | 3.39 | 1.46 | number_clip | F:today_drone.mp4 | more than a hundred ships |
+| c01 | s03 | 4.85 | 2.17 | clip_plain | P:noaa_kayaker_wrecks_mcintosh | rotting in the Potomac |
+| c01 | s04 | 7.02 | 1.53 | clip_plain | F:today_kayak.mp4 | Not one or two |
+| c01 | s05 | 8.55 | 1.76 | clip_plain | P:aerial_1936_fleet | A whole fleet |
+| c01 | s06 | 10.31 | 3.23 | clip_plain | F:launch_ypres.mp4 | America built them |
+| c01 | s07 | 13.54 | 4.03 | number_clip | P:launch_503m_30_c | Each one cost |
+| c01 | s08 | 17.57 | 3.6 | lower_third | P:vessel_505a_14_c | Most were finished |
+| c01 | s09 | 21.17 | 4.31 | number_clip | P:wms_1925_35368 | So the government sold them |
+| c01 | s10 | 25.48 | 2.29 | clip_plain | P:burn_quantico_1925_c_c | Then the buyers set them on fire |
+| c01 | s11 | 27.78 | 3.1 | number_clip | P:burn_quantico_1925_a_c | Thirty-one ships went up |
+| c01 | s12 | 30.88 | 2.27 | clip_plain | F:today_timbers.mp4 | And still, they would not go away |
+| c01 | s13 | 33.14 | 2.48 | lower_third | P:wms_1910_25_919 | A steel giant tried |
+| c01 | s14 | 35.62 | 2.22 | lower_third | F:capitol.mp4 | Congress ordered them removed |
+| c01 | s15 | 37.84 | 1.77 | text_card | CARD + bg F:tow.mp4 | Everything failed |
+| c01 | s16 | 39.62 | 2.46 | clip_plain | H:c01_thennow | Today, trees grow |
+| c01 | s17 | 42.08 | 2.49 | clip_plain | P:noaa_osprey_nest_ship_mcintosh | Ospreys nest |
+| c01 | s18 | 44.57 | 2.34 | clip_plain | F:today_roots.mp4 | So why is the fleet still here |
+| c01 | s19 | 46.91 | 3.82 | map_clip | M:c01_dc | The answer is not what anyone |
 | c02 | s01 | 50.73 | 2.86 | clip_plain | P:usgs_mallows_wide | Start with what you would see |
 | c02 | s02 | 53.59 | 3.38 | map_clip | M:c02_where_a | On the Maryland shore |
 | c02 | s03 | 56.97 | 5.05 | map_clip | M:c02_where_b | near a place called |
@@ -248,7 +249,7 @@
 | c08 | s25 | 776.84 | 1.77 | text_card | CARD + bg MS:m_c08_sanctuary_b.mp4@end | Eighteen square miles |
 | c08 | s26 | 778.61 | 4.68 | text_card | CARD + bg MS:m_c08_sanctuary.mp4@end | The first new national |
 | c08 | s27 | 783.29 | 4.83 | lower_third | P:aer_full | NOAA calls it |
-| c08 | s28 | 788.13 | 3.24 | clip_plain | P:noaa_kayaker_wrecks_mcintosh_L | Today you can paddle |
+| c08 | s28 | 788.13 | 3.24 | clip_plain | F:today_paddle.mp4 | Today you can paddle |
 | c08 | s29 | 791.37 | 3.21 | clip_plain | P:noaa_kayaker_wrecks_mcintosh_R | Today you can paddle |
 | c08 | s30 | 794.58 | 1.88 | clip_plain | P:aer_creek2 | So that is the answer |
 | c08 | s31 | 796.46 | 4.25 | clip_plain | P:noaa_dertona_three_sisters_R | The fleet is still here |

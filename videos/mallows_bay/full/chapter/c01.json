@@ -29,10 +29,11 @@
    "id": "s02",
    "start": "t3.39",
    "sfx": false,
+   "tag": "NOAA · MALLOWS BAY TODAY",
    "template": "number_clip",
    "variant": "right",
    "clip": {
-    "file": "p_c01_s02.mp4",
+    "file": "f_c01_s02.mp4",
     "push": null
    },
    "params": {
@@ -43,7 +44,7 @@
   },
   {
    "id": "s03",
-   "start": "t7.02",
+   "start": "t4.85",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -55,37 +56,50 @@
   },
   {
    "id": "s04",
-   "start": "t8.55",
+   "start": "t7.02",
    "sfx": false,
+   "tag": "DVIDS · MALLOWS BAY, OCT 2015",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c01_s04.mp4",
+    "file": "f_c01_s04.mp4",
     "push": null
    },
    "params": {}
   },
   {
    "id": "s05",
-   "start": "t10.31",
+   "start": "t8.55",
    "sfx": false,
-   "tag": "FILM: WOODEN SHIP 'YPRES' LAUNCHED, SEATTLE, 1918",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "f_c01_s05.mp4",
+    "file": "p_c01_s05.mp4",
     "push": null
    },
    "params": {}
   },
   {
    "id": "s06",
+   "start": "t10.31",
+   "sfx": false,
+   "tag": "FILM: WOODEN SHIP 'YPRES' LAUNCHED, SEATTLE, 1918",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c01_s06.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
    "start": "t13.54",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
    "clip": {
-    "file": "p_c01_s06.mp4",
+    "file": "p_c01_s07.mp4",
     "push": null
    },
    "params": {
@@ -95,13 +109,13 @@
    }
   },
   {
-   "id": "s07",
+   "id": "s08",
    "start": "t17.57",
    "sfx": false,
    "template": "lower_third",
    "variant": "kicker_line",
    "clip": {
-    "file": "p_c01_s07.mp4",
+    "file": "p_c01_s08.mp4",
     "push": null
    },
    "params": {
@@ -111,13 +125,13 @@
    }
   },
   {
-   "id": "s08",
+   "id": "s09",
    "start": "t21.17",
    "sfx": false,
    "template": "number_clip",
    "variant": "strike_swap",
    "clip": {
-    "file": "p_c01_s08.mp4",
+    "file": "p_c01_s09.mp4",
     "push": null
    },
    "params": {
@@ -132,25 +146,25 @@
    }
   },
   {
-   "id": "s09",
+   "id": "s10",
    "start": "t25.48",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c01_s09.mp4",
+    "file": "p_c01_s10.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s10",
+   "id": "s11",
    "start": "t27.78",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
    "clip": {
-    "file": "p_c01_s10.mp4",
+    "file": "p_c01_s11.mp4",
     "push": null
    },
    "params": {
@@ -161,25 +175,26 @@
    }
   },
   {
-   "id": "s11",
+   "id": "s12",
    "start": "t30.88",
    "sfx": false,
+   "tag": "DVIDS · MALLOWS BAY, OCT 2015",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c01_s11.mp4",
+    "file": "f_c01_s12.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s12",
+   "id": "s13",
    "start": "t33.14",
    "sfx": false,
    "template": "lower_third",
    "variant": "kicker_line",
    "clip": {
-    "file": "p_c01_s12.mp4",
+    "file": "p_c01_s13.mp4",
     "push": null
    },
    "params": {
@@ -189,14 +204,14 @@
    }
   },
   {
-   "id": "s13",
+   "id": "s14",
    "start": "t35.62",
    "sfx": false,
    "tag": "FILM: WASHINGTON, D.C., c.1921",
    "template": "lower_third",
    "variant": "kicker_line",
    "clip": {
-    "file": "f_c01_s13.mp4",
+    "file": "f_c01_s14.mp4",
     "push": null
    },
    "params": {
@@ -206,7 +221,7 @@
    }
   },
   {
-   "id": "s14",
+   "id": "s15",
    "start": "t37.84",
    "sfx": false,
    "template": "text_card",
@@ -217,13 +232,13 @@
     "at": "@everything"
    },
    "clip": {
-    "file": "b_c01_s14.mp4",
+    "file": "b_c01_s15.mp4",
     "push": null
    },
    "card_bg": true
   },
   {
-   "id": "s15",
+   "id": "s16",
    "start": "t39.62",
    "sfx": false,
    "template": "clip_plain",
@@ -235,20 +250,8 @@
    "params": {}
   },
   {
-   "id": "s16",
-   "start": "t42.08",
-   "sfx": false,
-   "template": "clip_plain",
-   "variant": "push",
-   "clip": {
-    "file": "p_c01_s16.mp4",
-    "push": null
-   },
-   "params": {}
-  },
-  {
    "id": "s17",
-   "start": "t44.57",
+   "start": "t42.08",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -260,6 +263,19 @@
   },
   {
    "id": "s18",
+   "start": "t44.57",
+   "sfx": false,
+   "tag": "DVIDS · MALLOWS BAY, OCT 2015",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c01_s18.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s19",
    "start": "t46.91",
    "sfx": false,
    "template": "map_clip",
