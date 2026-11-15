@@ -1,0 +1,17 @@
+safe_area.js adjusted:
+  size 19->25.4: EACH SHIP
+  size 19->25.4: TOO LATE
+  size 19->25.4: COST TO BUILD
+  size 19->25.4: SOLD FOR
+  size 19->25.4: IN ONE DAY
+  size 19->25.4: 1942–1944
+  size 19->25.4: 1968
+  fit x0.90: 100+ ships
+  fit x0.81: $750,000+
+  lift 19px: TOO LATEFINISHED AFTER THE WAR
+  lift 19px: 1942–1944BETHLEHEM STEEL
+  lift 19px: 1968CONGRESS ORDERS REMOVAL
+  lift 20px: TOO LATEFINISHED AFTER THE WAR
+  lift 20px: 1942–1944BETHLEHEM STEEL
+  lift 20px: 1968CONGRESS ORDERS REMOVAL
+PASS: no text breaks the size / safe-area / font rules (47.9 s checked every 0.5 s)

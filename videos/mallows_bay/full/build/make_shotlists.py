@@ -189,7 +189,7 @@ for ck in ["c01", "c02", "c03", "c04", "c05", "c06", "c07", "c08"]:
             elif kd == "A":
                 tpl = src[2:]; p = dict(b["params"]); var = p.pop("variant", None) or {"anim_options": "list", "anim_xray": "animal", "anim_gauge": "bars"}[tpl]
                 shot.update(template=tpl, variant=var, params=p)
-                if bgfile: shot["bg_clip"] = {"file": bgfile, "show": 0.5}
+                if bgfile: shot["bg_clip"] = {"file": bgfile, "show": 0.8}   # Mallows: the moving film must read clearly under the block (no dark cards)
             elif "num" in b and k == 0:
                 p = dict(b["num"]); var = p.pop("variant")
                 if var == "right": p.pop("dim", None)

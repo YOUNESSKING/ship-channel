@@ -1,0 +1,18 @@
+safe_area.js adjusted:
+  size 19->25.4: 16 APRIL 1917
+  size 19->25.4: IN 18 MONTHS
+  size 19->25.4: NAVAL ARCHITECT
+  size 19->25.4: FERRIS DESIGN
+  size 19->25.4: CARGO · COAL-FIRED
+  size 19->25.4: SEPT 1918
+  size 19->25.4: THE BUILDER’S CLAIM
+  size 19->25.4: THE RECORD SHIP
+  fit x0.96: EMERGENCY FLEET CORPORATION
+  fit x0.85: 1,000 ships
+  fit x0.92: 3,500 tons
+  fit x0.59: 80,000+ workers
+  lift 18px: 16 APRIL 1917EMERGENCY FLEET C
+  lift 19px: NAVAL ARCHITECTTHEODORE FERRIS
+  lift 20px: 16 APRIL 1917EMERGENCY FLEET C
+  lift 20px: NAVAL ARCHITECTTHEODORE FERRIS
+PASS: no text breaks the size / safe-area / font rules (110.9 s checked every 0.5 s)
