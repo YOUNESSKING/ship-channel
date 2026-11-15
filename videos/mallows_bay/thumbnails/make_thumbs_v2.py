@@ -4,11 +4,16 @@ a true number where one exists, one then/now split, 1-3 true words, Anton white 
 a soft dark gradient only behind the words, nothing in the bottom-right 300x160 (timestamp) or top-right (hover icons).
 Real public-domain images only, no repaint, no AI. Sea-only grade per study section 10.
 
-V1 "GHOST FLEET"     NOAA ONMS staff drone video (hq_noaa_wk309_birds, 1.6 s): hull rows in blue water, rusty wreck in front.
-V2 "1936 | TODAY"    NARA 18-AA-70-44 (Army Air Corps aerial, Mallows Bay, 8 Apr 1936) | the same NOAA drone shot (2.2 s).
-V3 "$3,200 A SHIP"   NOAA photo (Matt McIntosh): a kayaker among the hull rows.
+Revised after CRITIQUE_1_ctr.md and CRITIQUE_2_truth_rights_design.md: red element = white word on a red box, stroke 9 +
+shadow, sharpen <= 1.1 after resize, crops that show a hull shape, frame dates instead of TODAY.
+V3 "$3,200 A SHIP"   NOAA photo (Matt McIntosh): hull rows (+ kayaker). Main upload.
+V2 "1936 | 2020"     NARA 18-AA-70-44 (Army Air Corps aerial of Mallows Bay, flown 6 Mar 1936) | NOAA ONMS staff drone video
+                     (hq_noaa_wk309_birds, published Nov 2020, 1.2 s). Test & Compare.
+V1 "TOO LATE"        the same NOAA drone frame, the burned hulk's bow + rows. Test & Compare, OWNER CHECK on the words.
+The foreground hulk is a burned wooden hull of unknown name (NOT the Accomac).
 Truth: GHOST FLEET = the common name (NOAA, MD DNR). $3,200 = $750,000 / 233 ships, 12 Sept 1922 auction (FACTCHECK_A,
-narration "about three thousand two hundred dollars a ship"). 1936 = the aerial's own date; TODAY = 2010s NOAA footage."""
+narration "about three thousand two hundred dollars a ship"). 1936 = the aerial's own date; 1936 / 2020 = the frames' own dates. TOO LATE = FACT C19 /
+narration (no wooden ship reached a port in Europe while the fighting lasted)."""
 import os, subprocess, colorsys, numpy as np
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance, ImageFilter
 HERE = os.path.dirname(os.path.abspath(__file__)); ROOT = os.path.abspath(os.path.join(HERE, "../../.."))
@@ -48,51 +53,65 @@ def word_shade(im, box, strength=0.55):
     x0, y0, x1, y1 = box; m = Image.new("L", (W, H), 0); ImageDraw.Draw(m).rounded_rectangle(box, 60, fill=int(255 * strength))
     m = m.filter(ImageFilter.GaussianBlur(70)); dark = Image.new("RGB", (W, H), (5, 8, 14)); return Image.composite(dark, im, m)
 
+def shadow(im, draw_fn, off=(6, 8), alpha=170, blur=6):
+    m = Image.new("L", im.size, 0); draw_fn(ImageDraw.Draw(m), 255)
+    m = m.transform(m.size, Image.AFFINE, (1, 0, -off[0], 0, 1, -off[1])).filter(ImageFilter.GaussianBlur(blur))
+    return Image.composite(Image.new("RGB", im.size, INK), im, m.point(lambda v: v * alpha // 255))
+
 def words(im, parts, x, y, size):
-    d = ImageDraw.Draw(im); f = ImageFont.truetype(FONT, size)
-    for w, col in parts:
-        d.text((x, y), w, font=f, fill=col, stroke_width=4, stroke_fill=INK); x += d.textlength(w + " ", font=f)
-    return x
+    """White words, 9 px stroke + drop shadow (critique 2: the 4 px stroke vanished at 168x94)."""
+    f = ImageFont.truetype(FONT, size); d0 = ImageDraw.Draw(im); xs = []
+    for w, col in parts: xs.append(x); x += d0.textlength(w + " ", font=f)
+    def draw(d, fill):
+        for (w, _), xx in zip(parts, xs): d.text((xx, y), w, font=f, fill=fill, stroke_width=9, stroke_fill=fill)
+    im2 = shadow(im, draw); d = ImageDraw.Draw(im2)
+    for (w, col), xx in zip(parts, xs): d.text((xx, y), w, font=f, fill=col, stroke_width=9, stroke_fill=INK)
+    im.paste(im2); return x
+
+def boxword(im, w, x, y, size, pad=14):
+    """The one red element: white word on a solid #E0352B box (critique 1: red text on the sea vanishes in greyscale)."""
+    f = ImageFont.truetype(FONT, size); d = ImageDraw.Draw(im); l, t, r, b = d.textbbox((x, y), w, font=f)
+    box = (l - pad, t - pad, r + pad, b + pad)
+    im2 = shadow(im, lambda dd, fill: dd.rectangle(box, fill=fill)); d = ImageDraw.Draw(im2)
+    d.rectangle(box, fill=RED); d.text((x, y), w, font=f, fill=WHITE, stroke_width=3, stroke_fill=INK)
+    im.paste(im2); return r + pad + int(size * 0.18)
 
 def save(im, name):
     im.save(os.path.join(HERE, name + ".jpg"), quality=93)
     im.resize((168, 94), Image.LANCZOS).save(os.path.join(HERE, name + "_sidebar.png"))
 
-drone = frame("hq_noaa_wk309_birds.mp4", 1.6, (1280, 612, 0, 32))
-drone = ImageEnhance.Sharpness(drone).enhance(1.3)
+def sharp(im, k=1.1): return ImageEnhance.Sharpness(im).enhance(k)   # <= 1.1, after the resize (critique 2: halos)
+drone = frame("hq_noaa_wk309_birds.mp4", 1.2, (1280, 612, 0, 32))   # t 1.2: the hulk's bow shows (critique 1)
 
-# V1 GHOST FLEET: full drone frame, words top-left over the far water/treeline.
-v1 = sea_grade(cover(drone, cx=0.25, cy=0.6))
-v1 = ImageEnhance.Contrast(v1).enhance(1.08)
-v1 = word_shade(v1, (10, 10, 900, 230))
-words(v1, [("GHOST", WHITE), ("FLEET", RED)], 44, 18, 170)
-save(v1, "V1_ghost_fleet")
+# V1 TOO LATE (owner check: FACT C19, none reached a European port while the fighting lasted; fallback BURNED)
+v1 = sharp(sea_grade(cover(drone, cx=0.0, cy=0.75)))
+v1 = ImageEnhance.Contrast(v1).enhance(1.06)
+v1 = word_shade(v1, (10, 10, 820, 230))
+x = words(v1, [("TOO", WHITE)], 50, 22, 165); boxword(v1, "LATE", x, 22, 165)
+save(v1, "V1_too_late")
 
-# V2 split 1936 | TODAY: left = the 1936 rows, right = the drone rows today. White 8 px divider.
+# V2 split 1936 | 2020: the frames' own dates (critique 2: the NOAA film is from Nov 2020, so not TODAY).
 old = Image.open(os.path.join(SRC, "photos/aerial_1936_fleet.jpg")).convert("L")
-old = Image.merge("RGB", [old] * 3)
-old = old.crop((560, 230, 1180, 816))            # the hull rows, larger
-left = cover(old, 640, 720, 0.5, 0.5); a = np.asarray(left).astype(np.float32)
-a = 255 * (a / 255) ** 1.9                       # pull the washed-out water down to mid-grey so the hulls read
-left = Image.fromarray(np.clip(a * np.array([0.93, 0.98, 1.04]), 0, 255).astype(np.uint8))
-left = ImageEnhance.Contrast(left).enhance(1.25)   # cool, slightly down so it reads as 'then'
-rows = ImageEnhance.Sharpness(frame("hq_noaa_wk309_birds.mp4", 2.2, (1280, 612, 0, 32))).enhance(1.3)
-right = sea_grade(cover(rows, 640, 720, cx=0.35, cy=0.5))   # the hull rows today
+old = Image.merge("RGB", [old] * 3).crop((980, 0, 1300, 360))         # fewer, larger hulls + the shore (critique 1)
+a = np.asarray(cover(old, 640, 720)).astype(np.float32); a = 255 * (a / 255) ** 1.6
+left = ImageEnhance.Contrast(Image.fromarray(np.clip(a * np.array([0.93, 0.98, 1.04]), 0, 255).astype(np.uint8))).enhance(1.15)
+right = sharp(sea_grade(cover(drone, 640, 720, cx=0.0, cy=0.5)))
 v2 = Image.new("RGB", (W, H)); v2.paste(left, (0, 0)); v2.paste(right, (640, 0))
-v2 = word_shade(v2, (0, 0, 500, 200), 0.6); v2 = word_shade(v2, (640, 0, 1120, 200), 0.6)
+v2 = word_shade(v2, (0, 0, 470, 200), 0.6); v2 = word_shade(v2, (640, 0, 1100, 200), 0.6)
 ImageDraw.Draw(v2).rectangle((636, 0, 643, H), fill=WHITE)
-words(v2, [("1936", WHITE)], 36, 14, 150); words(v2, [("TODAY", RED)], 676, 14, 150)
-save(v2, "V2_1936_today")
+words(v2, [("1936", WHITE)], 40, 28, 140); boxword(v2, "2020", 690, 28, 140)
+save(v2, "V2_1936_2020")
 
-# V3 $3,200 A SHIP: the kayaker among the rows (blue, colour, wrecks).
+# V3 $3,200 A SHIP (main upload): recrop so the hulls, not the kayak, carry the picture.
 k = Image.open(os.path.join(SRC, "photos/noaa_kayaker_wrecks_mcintosh.jpg")).convert("RGB")
-v3 = sea_grade(cover(k, cx=0.5, cy=0.6, zoom=1.0))
-v3 = ImageEnhance.Contrast(ImageEnhance.Sharpness(v3).enhance(1.4)).enhance(1.06)
-v3 = word_shade(v3, (10, 10, 980, 230))
-x = words(v3, [("$3,200", RED)], 44, 18, 170); words(v3, [("A SHIP", WHITE)], x - 10, 18, 170)
+v3 = sharp(sea_grade(cover(k, cx=0.62, cy=0.80, zoom=1.15)))
+v3 = ImageEnhance.Contrast(v3).enhance(1.06)
+v3 = word_shade(v3, (10, 10, 1000, 240), 0.7)
+x = boxword(v3, "$3,200", 50, 22, 165); words(v3, [("A SHIP", WHITE)], x, 22, 165)
 save(v3, "V3_3200_a_ship")
 
+NAMES = ["V3_3200_a_ship", "V2_1936_2020", "V1_too_late"]
 strip = Image.new("RGB", (168 * 3 + 40, 114), (15, 15, 15))
-for i, n in enumerate(["V1_ghost_fleet", "V2_1936_today", "V3_3200_a_ship"]):
+for i, n in enumerate(NAMES):
     strip.paste(Image.open(os.path.join(HERE, n + "_sidebar.png")), (10 + i * 178, 10))
-strip.save(os.path.join(HERE, "sidebar_strip_v2.png")); print("ok")
+strip.save(os.path.join(HERE, "sidebar_strip_v2.png")); strip.convert("L").save(os.path.join(HERE, "sidebar_strip_v2_grey.png")); print("ok")

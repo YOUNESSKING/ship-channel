@@ -97,3 +97,10 @@ hook and shot-list gates were not stopped at. **No money was spent**: vidIQ titl
   grade, study s10), bright, wrecks as subject, one true number, one then/now split, Anton white + red #E0352B, corners clear.
   V1 GHOST FLEET (NOAA drone, hull rows + rusty wreck; upload with this), V2 1936 | TODAY split (NARA 18-AA-70-44 | NOAA drone),
   V3 $3,200 A SHIP (NOAA kayaker photo; $750,000 / 233 ships). The v1 T1-T3 (two B&W) are kept but not used.
+- **Thumbnails v2, after two critiques** (`thumbnails/CRITIQUE_1_ctr.md`, `CRITIQUE_2_truth_rights_design.md`): red element is now a white
+  word on a red box (red text vanished in the greyscale test), stroke 9 + shadow, crops that show a hull shape, sharpen <= 1.1.
+  Main **V3 "$3,200 A SHIP"**; Test & Compare **V2 "1936 | 2020"** (frames' own dates: the NOAA drone film is from Nov 2020, so not
+  "TODAY") and **V1 "TOO LATE"** (owner OK needed; fallback "BURNED"). "GHOST FLEET" dropped (repeats the title; never spoken).
+  Critique notes left for the owner: the foreground hulk in the NOAA drone shot is NOT the Accomac (HQ_FOOTAGE label wrong); the hook
+  says "about three thousand dollars", line 77 says "three thousand two hundred" (thumbnail matches line 77); the 1936 aerial was
+  flown 6 Mar 1936 (8 Apr = print date).
