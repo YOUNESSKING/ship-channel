@@ -1,0 +1,78 @@
+{
+ "duration": 821.739,
+ "fps": 30,
+ "chapters": [
+  {
+   "key": "c01",
+   "title": "Hook",
+   "start": 0.0,
+   "voice_end": 52.284,
+   "words": 144,
+   "end": 52.734,
+   "duration": 52.734
+  },
+  {
+   "key": "c02",
+   "title": "The Ghost Fleet",
+   "start": 52.734,
+   "voice_end": 96.402,
+   "words": 120,
+   "end": 96.852,
+   "duration": 44.118
+  },
+  {
+   "key": "c03",
+   "title": "A Fleet of Wood",
+   "start": 96.852,
+   "voice_end": 207.559,
+   "words": 288,
+   "end": 208.009,
+   "duration": 111.157
+  },
+  {
+   "key": "c04",
+   "title": "Too Late",
+   "start": 208.009,
+   "voice_end": 297.863,
+   "words": 244,
+   "end": 298.313,
+   "duration": 90.304
+  },
+  {
+   "key": "c05",
+   "title": "Sold for Scrap",
+   "start": 298.313,
+   "voice_end": 421.317,
+   "words": 313,
+   "end": 421.767,
+   "duration": 123.454
+  },
+  {
+   "key": "c06",
+   "title": "The Great Burn",
+   "start": 421.767,
+   "voice_end": 512.61,
+   "words": 252,
+   "end": 513.06,
+   "duration": 91.293
+  },
+  {
+   "key": "c07",
+   "title": "One More War",
+   "start": 513.06,
+   "voice_end": 657.656,
+   "words": 385,
+   "end": 658.106,
+   "duration": 145.046
+  },
+  {
+   "key": "c08",
+   "title": "Why They Stayed",
+   "start": 658.106,
+   "voice_end": 820.739,
+   "words": 435,
+   "end": 821.739,
+   "duration": 163.633
+  }
+ ]
+}

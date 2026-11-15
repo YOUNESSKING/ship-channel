@@ -1,4 +1,4 @@
-"""v8 pronunciation gate: the whisper transcript of every Archive chunk (build/voice_gate.json, written by voice.py) against
+"""pronunciation gate: the whisper transcript of every Archive chunk (build/voice_gate.json, written by voice.py) against
 the script. Digits whisper prints are spelled out first, then both sides are compared word by word; every difference is
 listed for listening. usage: python3 build/voice_gate.py [model]   (no model = the cached small.en timing transcript; small.en /
 medium.en = a fresh, stricter transcript of audio/voice_archive.wav per chunk)"""

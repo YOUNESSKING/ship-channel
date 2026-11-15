@@ -46,3 +46,7 @@ Web check 2026-10-31 confirmed only Bastogne (Merriam-Webster ba-STONE); the res
 | towed (back) | exact phonemes `tʰˈoʊd` | `tˈoʊd` heard "told" by whisper small.en (borderline; base.en heard "towed") | Oriskany v8 (Archive) |
 Archive voice (owner pick 2026-11-10): the British-blend vowels make r-less "her" and "saw/soar" merges likelier; gate every new script with
 `videos/oriskany/full/build/voice_gate.py small.en` (whisper diff) and a names clip (`build/names_clip.py`).
+| Accomac | exact phonemes `ˈækəmæk` | `ɐkˈɑːmæk` (a-KAH-mak) → `ˈækəmæk` (AK-uh-mak) | Mallows Bay |
+| bass (fish) | exact phonemes `bˈæs` (in context, with the comma) | `bˈeɪs` ("base") → `bˈæs` | Mallows Bay |
+| largemouth | exact phonemes `lˈɑːɹdʒmaʊθ` | `lˈɑːɹdʒɛməθ` → `lˈɑːɹdʒmaʊθ` | Mallows Bay |
+| Nanjemoy, Potomac, Widewater, Quantico, NOAA | (as written) | `nˈændʒɪmˌɔɪ`, `pətˈoʊmək`, fine; NOAA = "Noah" | Mallows Bay |

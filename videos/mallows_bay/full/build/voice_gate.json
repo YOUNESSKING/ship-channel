@@ -1,0 +1,1298 @@
+[
+ {
+  "i": 0,
+  "start": 0.35,
+  "text": "Right now, about thirty miles from the White House, more than a hundred ships are rotting in the Potomac River.",
+  "heard": "Right now, about 30 miles from the White House, more than a hundred ships are rotting in the Potomac River."
+ },
+ {
+  "i": 1,
+  "start": 7.14,
+  "text": "Not one or two.",
+  "heard": "not one or two."
+ },
+ {
+  "i": 2,
+  "start": 8.668,
+  "text": "A whole fleet.",
+  "heard": "a whole fleet."
+ },
+ {
+  "i": 3,
+  "start": 10.125,
+  "text": "The United States built them to win the First World War.",
+  "heard": "The United States built them to win the First World War."
+ },
+ {
+  "i": 4,
+  "start": 14.064,
+  "text": "Each one cost the government more than seven hundred and fifty thousand dollars.",
+  "heard": "Each one cost the government more than $750,000."
+ },
+ {
+  "i": 5,
+  "start": 18.902,
+  "text": "Most of them were finished after the war was already over.",
+  "heard": "Most of them were finished after the war was already over."
+ },
+ {
+  "i": 6,
+  "start": 22.958,
+  "text": "Then the government sold them for about three thousand dollars each.",
+  "heard": "Then the government sold them for about $3,000 each."
+ },
+ {
+  "i": 7,
+  "start": 26.998,
+  "text": "A salvage company set them on fire.",
+  "heard": "A salvage company set them on fire."
+ },
+ {
+  "i": 8,
+  "start": 29.7,
+  "text": "Thirty-one of them burned in a single day.",
+  "heard": "31 of them burned in a single day."
+ },
+ {
+  "i": 9,
+  "start": 32.913,
+  "text": "And still, they would not go away.",
+  "heard": "and still, they would not go away."
+ },
+ {
+  "i": 10,
+  "start": 35.181,
+  "text": "A steel giant tried to break them up.",
+  "heard": "A steel giant tried to break them up."
+ },
+ {
+  "i": 11,
+  "start": 37.66,
+  "text": "Congress ordered them removed.",
+  "heard": "Congress ordered them removed."
+ },
+ {
+  "i": 12,
+  "start": 39.881,
+  "text": "For a hundred years, everyone who tried to get rid of this fleet failed.",
+  "heard": "For a hundred years, everyone who tried to get rid of this fleet failed."
+ },
+ {
+  "i": 13,
+  "start": 44.527,
+  "text": "So why are they still here?",
+  "heard": "So why are they still here?"
+ },
+ {
+  "i": 14,
+  "start": 46.512,
+  "text": "The answer is hiding in the wrecks themselves.",
+  "heard": "The answer is hiding in the wrecks themselves."
+ },
+ {
+  "i": 15,
+  "start": 49.384,
+  "text": "And it is not what anyone in Washington planned.",
+  "heard": "and it is not what anyone in Washington planned."
+ },
+ {
+  "i": 16,
+  "start": 53.184,
+  "text": "Start with what you would see from the air.",
+  "heard": "Start with what you would see from the air."
+ },
+ {
+  "i": 17,
+  "start": 55.709,
+  "text": "On the Maryland shore of the Potomac, in Charles County, near a place called Nanjemoy, there is a small bay.",
+  "heard": "On the Maryland shore of the Potomac in Charles County, near a place called Nanjamoy, there is a small bay."
+ },
+ {
+  "i": 18,
+  "start": 62.492,
+  "text": "Mallows Bay.",
+  "heard": "Mallows Bay."
+ },
+ {
+  "i": 19,
+  "start": 64.142,
+  "text": "At low tide, dark shapes rise out of the water.",
+  "heard": "At low tide, dark shapes rise out of the water."
+ },
+ {
+  "i": 20,
+  "start": 67.421,
+  "text": "Long ovals, all about the same size, lying side by side.",
+  "heard": "Long ovals all about the same size, lying side by side."
+ },
+ {
+  "i": 21,
+  "start": 71.754,
+  "text": "Some are bare ribs.",
+  "heard": "Some are bare ribs."
+ },
+ {
+  "i": 22,
+  "start": 73.351,
+  "text": "Some carry whole trees.",
+  "heard": "Some carry whole trees."
+ },
+ {
+  "i": 23,
+  "start": 75.561,
+  "text": "Each shape is the hull of a wooden steamship.",
+  "heard": "Each shape is the hull of a wooden steamship."
+ },
+ {
+  "i": 24,
+  "start": 78.527,
+  "text": "Federal surveys count more than a hundred of them from the First World War alone.",
+  "heard": "Federal surveys count more than a hundred of them from the First World War alone."
+ },
+ {
+  "i": 25,
+  "start": 83.474,
+  "text": "NOAA counts one hundred and forty-one known shipwrecks in and around the bay.",
+  "heard": "NOAA counts 141 known shipwrecks in and around the Bay."
+ },
+ {
+  "i": 26,
+  "start": 88.804,
+  "text": "The bay is thirty-two miles from the White House, as the crow flies.",
+  "heard": "The bay is 32 miles from the White House as the crow flies."
+ },
+ {
+  "i": 27,
+  "start": 93.296,
+  "text": "Yet most people in Washington have never heard of it.",
+  "heard": "Yet most people in Washington have never heard of it."
+ },
+ {
+  "i": 28,
+  "start": 97.302,
+  "text": "To understand how a fleet ended up here, go back to the spring of nineteen seventeen.",
+  "heard": "To understand how a fleet ended up here, go back to the spring of 1917."
+ },
+ {
+  "i": 29,
+  "start": 102.904,
+  "text": "In February and March of nineteen seventeen, German U-boats sank more than a million tons of shipping.",
+  "heard": "In February and March of 1917, German U-boats sank more than a million tons of shipping."
+ },
+ {
+  "i": 30,
+  "start": 109.528,
+  "text": "Britain was running out of ships faster than it could build them.",
+  "heard": "Britain was running out of ships faster than it could build them."
+ },
+ {
+  "i": 31,
+  "start": 113.428,
+  "text": "On the sixth of April, the United States declared war on Germany.",
+  "heard": "On the 6th of April, the United States declared war on Germany."
+ },
+ {
+  "i": 32,
+  "start": 117.746,
+  "text": "Now it had to send an army across the Atlantic.",
+  "heard": "Now it had to send an army across the Atlantic."
+ },
+ {
+  "i": 33,
+  "start": 120.927,
+  "text": "And it did not have the ships to carry it.",
+  "heard": "and it did not have the ships to carry it."
+ },
+ {
+  "i": 34,
+  "start": 123.627,
+  "text": "Ten days later, the government created the Emergency Fleet Corporation.",
+  "heard": "Ten days later, the government created the Emergency Fleet Corporation."
+ },
+ {
+  "i": 35,
+  "start": 128.028,
+  "text": "Its job was to build ships faster than the U-boats could sink them.",
+  "heard": "Its job was to build ships faster than the U-boats could sink them."
+ },
+ {
+  "i": 36,
+  "start": 132.527,
+  "text": "Steel was short.",
+  "heard": "Steel was short."
+ },
+ {
+  "i": 37,
+  "start": 134.045,
+  "text": "Shipyards were full.",
+  "heard": "Shipyards were full."
+ },
+ {
+  "i": 38,
+  "start": 135.696,
+  "text": "So someone proposed something that sounded almost old-fashioned.",
+  "heard": "So someone proposed something that sounded almost old-fashioned."
+ },
+ {
+  "i": 39,
+  "start": 139.845,
+  "text": "Build the ships out of wood.",
+  "heard": "Build the ships out of wood."
+ },
+ {
+  "i": 40,
+  "start": 142.075,
+  "text": "America had forests, and it had carpenters.",
+  "heard": "America had forests and it had carpenters."
+ },
+ {
+  "i": 41,
+  "start": 145.096,
+  "text": "The plan called for as many as a thousand wooden steamships in eighteen months.",
+  "heard": "The plan called for as many as a thousand wooden steamships in 18 months."
+ },
+ {
+  "i": 42,
+  "start": 150.507,
+  "text": "The standard design came from a naval architect named Theodore Ferris.",
+  "heard": "The standard design came from a naval architect named Theodore Ferris."
+ },
+ {
+  "i": 43,
+  "start": 155.1,
+  "text": "A wooden hull about two hundred and eighty-one feet long.",
+  "heard": "a wooden hull about 281 feet long."
+ },
+ {
+  "i": 44,
+  "start": 158.783,
+  "text": "It carried about three thousand five hundred tons of cargo, and it burned coal.",
+  "heard": "It carried about 3,500 tons of cargo, and it burned coal."
+ },
+ {
+  "i": 45,
+  "start": 164.132,
+  "text": "Its top speed was about ten knots.",
+  "heard": "Its top speed was about 10 knots."
+ },
+ {
+  "i": 46,
+  "start": 166.724,
+  "text": "Slow, even then.",
+  "heard": "Slow even then."
+ },
+ {
+  "i": 47,
+  "start": 168.331,
+  "text": "But it could be built almost anywhere there was timber and water.",
+  "heard": "But it could be built almost anywhere there was timber and water."
+ },
+ {
+  "i": 48,
+  "start": 172.511,
+  "text": "By nineteen nineteen, the government counted eighty-seven yards building wooden ships.",
+  "heard": "By 1919, the government counted 87 yards building wooden ships."
+ },
+ {
+  "i": 49,
+  "start": 177.914,
+  "text": "On the Pacific coast, on the Gulf coast and along the Atlantic.",
+  "heard": "on the Pacific coast, on the Gulf coast, and along the Atlantic."
+ },
+ {
+  "i": 50,
+  "start": 182.291,
+  "text": "At the peak, in September nineteen eighteen, more than eighty thousand people were building wooden ships.",
+  "heard": "At the peak in September 1918, more than 80,000 people were building wooden ships."
+ },
+ {
+  "i": 51,
+  "start": 188.707,
+  "text": "The first one slid into the water in Oregon on the first of December, nineteen seventeen.",
+  "heard": "The first one slid into the water in Oregon on the 1st of December, 1917."
+ },
+ {
+  "i": 52,
+  "start": 194.487,
+  "text": "She was called the North Bend.",
+  "heard": "She was called the North Bend."
+ },
+ {
+  "i": 53,
+  "start": 196.488,
+  "text": "Remember that name.",
+  "heard": "Remember that name."
+ },
+ {
+  "i": 54,
+  "start": 198.335,
+  "text": "In Aberdeen, Washington, a yard claimed a record.",
+  "heard": "In Aberdeen, Washington, a yard claimed a record."
+ },
+ {
+  "i": 55,
+  "start": 201.945,
+  "text": "A hull built from keel to launch in seventeen and a half days.",
+  "heard": "A hull built from keel to launch in 17.5 days."
+ },
+ {
+  "i": 56,
+  "start": 205.844,
+  "text": "They named her the Aberdeen.",
+  "heard": "They named her the Aberdeen."
+ },
+ {
+  "i": 57,
+  "start": 208.459,
+  "text": "On paper, it looked like a miracle.",
+  "heard": "On paper, it looked like a miracle."
+ },
+ {
+  "i": 58,
+  "start": 210.901,
+  "text": "In the water, it was something else.",
+  "heard": "In the water, it was something else."
+ },
+ {
+  "i": 59,
+  "start": 213.495,
+  "text": "The timber was often green.",
+  "heard": "The timber was often green."
+ },
+ {
+  "i": 60,
+  "start": 215.522,
+  "text": "Freshly cut wood shrinks as it dries, and the seams of the hulls opened.",
+  "heard": "Freshly cut wood shrinks as it dries and the seams of the hulls opened."
+ },
+ {
+  "i": 61,
+  "start": 220.254,
+  "text": "Many of the ships leaked.",
+  "heard": "many of the ships leaked."
+ },
+ {
+  "i": 62,
+  "start": 222.468,
+  "text": "Wood is not as strong as steel, so a wooden hull could only be built so long.",
+  "heard": "Wood is not as strong as steel, so a wooden hull could only be built so long."
+ },
+ {
+  "i": 63,
+  "start": 227.358,
+  "text": "The ships were small for ocean cargo, and they burned a lot of coal.",
+  "heard": "The ships were small for ocean cargo, and they burned a lot of coal."
+ },
+ {
+  "i": 64,
+  "start": 231.57,
+  "text": "The government's own shipping board said they were suited only for short trips.",
+  "heard": "The government's own shipping board said they were suited only for short trips."
+ },
+ {
+  "i": 65,
+  "start": 236.456,
+  "text": "And they were late.",
+  "heard": "and they were late."
+ },
+ {
+  "i": 66,
+  "start": 237.903,
+  "text": "By the end of October nineteen eighteen, only ninety-two wooden and composite ships had been delivered.",
+  "heard": "By the end of October 1918, only 92 wooden and composite ships had been delivered."
+ },
+ {
+  "i": 67,
+  "start": 244.717,
+  "text": "Then, on the eleventh of November nineteen eighteen, the war ended.",
+  "heard": "Then, on the 11th of November 1918, the war ended."
+ },
+ {
+  "i": 68,
+  "start": 249.381,
+  "text": "According to the government's own historic survey, not one of the wooden ships reached a port in Europe while the fighting lasted.",
+  "heard": "According to the government's own historic survey, not one of the wooden ships reached a port in Europe while the fighting lasted."
+ },
+ {
+  "i": 69,
+  "start": 257.378,
+  "text": "But the yards kept building.",
+  "heard": "but the yards kept building."
+ },
+ {
+  "i": 70,
+  "start": 259.239,
+  "text": "Contracts had been signed.",
+  "heard": "contracts had been signed."
+ },
+ {
+  "i": 71,
+  "start": 261.233,
+  "text": "Workers had to be paid.",
+  "heard": "workers had to be paid."
+ },
+ {
+  "i": 72,
+  "start": 263.308,
+  "text": "Hundreds of hulls were already on the ways.",
+  "heard": "Hundreds of hulls were already on the ways."
+ },
+ {
+  "i": 73,
+  "start": 266.431,
+  "text": "In the end, three hundred and twenty-two of them were finished.",
+  "heard": "In the end, 322 of them were finished."
+ },
+ {
+  "i": 74,
+  "start": 269.886,
+  "text": "About seven in ten were delivered after the war was already over.",
+  "heard": "about seven in 10 were delivered after the war was already over."
+ },
+ {
+  "i": 75,
+  "start": 274.48,
+  "text": "By the middle of nineteen twenty, the shipping board had spent more than two hundred and seventy-four million dollars on wooden and composite ships.",
+  "heard": "By the middle of 1920, the shipping board had spent more than $274 million on wooden and composite ships."
+ },
+ {
+  "i": 76,
+  "start": 283.542,
+  "text": "For a short time after the war, they were put to work.",
+  "heard": "For a short time after the war, they were put to work."
+ },
+ {
+  "i": 77,
+  "start": 286.791,
+  "text": "Some of them did cross the Atlantic, carrying coal and cargo.",
+  "heard": "Some of them did cross the Atlantic, carrying coal and cargo."
+ },
+ {
+  "i": 78,
+  "start": 291.241,
+  "text": "Then world shipping slumped.",
+  "heard": "then world shipping slumped."
+ },
+ {
+  "i": 79,
+  "start": 293.259,
+  "text": "There were suddenly too many ships, and nobody wanted slow, leaky wooden ones.",
+  "heard": "There were suddenly too many ships, and nobody wanted slow, leaky wooden ones."
+ },
+ {
+  "i": 80,
+  "start": 298.763,
+  "text": "So the government tried to sell them.",
+  "heard": "so the government tried to sell them."
+ },
+ {
+  "i": 81,
+  "start": 300.918,
+  "text": "In nineteen nineteen and nineteen twenty, the board was getting about two hundred thousand dollars a ship.",
+  "heard": "In 1919 and 1920, the board was getting about $200,000 a ship."
+ },
+ {
+  "i": 82,
+  "start": 307.805,
+  "text": "By nineteen twenty-one, it sold twenty-one of them for about five thousand seven hundred dollars each.",
+  "heard": "By 1921, it sold 21 of them for about $5,700 each."
+ },
+ {
+  "i": 83,
+  "start": 314.377,
+  "text": "The rest were tied up in long rows, waiting.",
+  "heard": "The rest were tied up in long rows, waiting."
+ },
+ {
+  "i": 84,
+  "start": 317.305,
+  "text": "The biggest gathering was in the James River, in Virginia.",
+  "heard": "The biggest gathering was in the James River in Virginia."
+ },
+ {
+  "i": 85,
+  "start": 321.356,
+  "text": "On the twelfth of September nineteen twenty-two, the government gave up.",
+  "heard": "On the 12th of September 1922, the government gave up."
+ },
+ {
+  "i": 86,
+  "start": 325.812,
+  "text": "It auctioned off two hundred and thirty-three wooden steamships in a single lot.",
+  "heard": "It auctioned off 233 wooden steamships in a single lot."
+ },
+ {
+  "i": 87,
+  "start": 331.088,
+  "text": "The price was seven hundred and fifty thousand dollars.",
+  "heard": "The price was $750,000."
+ },
+ {
+  "i": 88,
+  "start": 334.692,
+  "text": "For all of them.",
+  "heard": "for all of them."
+ },
+ {
+  "i": 89,
+  "start": 336.099,
+  "text": "That is about three thousand two hundred dollars a ship.",
+  "heard": "That is about $3,200 a ship."
+ },
+ {
+  "i": 90,
+  "start": 339.754,
+  "text": "The buyer's company was called Western Marine and Salvage.",
+  "heard": "The buyer's company was called Western Marine and Salvage."
+ },
+ {
+  "i": 91,
+  "start": 343.63,
+  "text": "And the deal came with one condition.",
+  "heard": "and the deal came with one condition."
+ },
+ {
+  "i": 92,
+  "start": 345.973,
+  "text": "The ships could never sail as steamers again.",
+  "heard": "The ships could never sail as steamers again."
+ },
+ {
+  "i": 93,
+  "start": 348.718,
+  "text": "They had to be broken up.",
+  "heard": "they had to be broken up."
+ },
+ {
+  "i": 94,
+  "start": 350.944,
+  "text": "The plan was simple.",
+  "heard": "The plan was simple."
+ },
+ {
+  "i": 95,
+  "start": 352.629,
+  "text": "Strip out the engines, the boilers and everything metal.",
+  "heard": "Strip out the engines, the boilers, and everything metal."
+ },
+ {
+  "i": 96,
+  "start": 356.136,
+  "text": "Then burn the wooden hulls down to the waterline and collect what was left.",
+  "heard": "Then burn the wooden hulls down to the water line and collect what was left."
+ },
+ {
+  "i": 97,
+  "start": 361.064,
+  "text": "The company towed the ships up the Potomac.",
+  "heard": "The company towed the ships up the Potomac."
+ },
+ {
+  "i": 98,
+  "start": 363.812,
+  "text": "Some went to Alexandria, just across the river from Washington.",
+  "heard": "Some went to Alexandria, just across the river from Washington."
+ },
+ {
+  "i": 99,
+  "start": 368.004,
+  "text": "Most were anchored off Widewater, Virginia, near the Marine base at Quantico.",
+  "heard": "Most were anchored off Widewater, Virginia, near the marine base at Quantico."
+ },
+ {
+  "i": 100,
+  "start": 373.431,
+  "text": "It went wrong almost at once.",
+  "heard": "It went wrong almost at once."
+ },
+ {
+  "i": 101,
+  "start": 375.566,
+  "text": "In October nineteen twenty-two, a fire broke out on two of the ships at Alexandria, blamed on a cigarette.",
+  "heard": "In October 1922, a fire broke out on two of the ships at Alexandria, blamed on a cigarette."
+ },
+ {
+  "i": 102,
+  "start": 383.23,
+  "text": "In April nineteen twenty-three, fire broke out again, this time at Widewater.",
+  "heard": "In April 1923, fire broke out again, this time at wide water."
+ },
+ {
+  "i": 103,
+  "start": 388.47,
+  "text": "Five ships were destroyed.",
+  "heard": "Five ships were destroyed."
+ },
+ {
+  "i": 104,
+  "start": 390.386,
+  "text": "One of them was the Aberdeen, the record-breaker.",
+  "heard": "One of them was the Aberdeen, the record breaker."
+ },
+ {
+  "i": 105,
+  "start": 393.592,
+  "text": "She was raised, and later burned again, as a test.",
+  "heard": "She was raised and later burned again as a test."
+ },
+ {
+  "i": 106,
+  "start": 397.2,
+  "text": "The local watermen were furious.",
+  "heard": "the local watermen were furious."
+ },
+ {
+  "i": 107,
+  "start": 399.481,
+  "text": "Their shad and herring nets were in the same water.",
+  "heard": "Their shad and herring nets were in the same water."
+ },
+ {
+  "i": 108,
+  "start": 402.685,
+  "text": "Sunken hulls and floating wreckage threatened their living.",
+  "heard": "Sunken hulls and floating wreckage threaten their living."
+ },
+ {
+  "i": 109,
+  "start": 406.434,
+  "text": "They complained all the way to Washington.",
+  "heard": "They complained all the way to Washington."
+ },
+ {
+  "i": 110,
+  "start": 409.438,
+  "text": "So the company looked for a place out of the way.",
+  "heard": "so the company looked for a place out of the way."
+ },
+ {
+  "i": 111,
+  "start": 412.227,
+  "text": "In April nineteen twenty-four, it bought land on the Maryland side, across from Widewater.",
+  "heard": "In April 1924, it bought land on the Maryland side, across from Widewater."
+ },
+ {
+  "i": 112,
+  "start": 418.318,
+  "text": "Around a quiet bay.",
+  "heard": "around a quiet bay."
+ },
+ {
+  "i": 113,
+  "start": 420.267,
+  "text": "Mallows Bay.",
+  "heard": "Mallows Bay."
+ },
+ {
+  "i": 114,
+  "start": 422.217,
+  "text": "On the seventh of November nineteen twenty-five, the company tried to finish the job in one go.",
+  "heard": "On the 7th of November 1925, the company tried to finish the job in one go."
+ },
+ {
+  "i": 115,
+  "start": 428.667,
+  "text": "At five in the morning, thirty-one ships were set on fire at once.",
+  "heard": "At 5 in the morning, 31 ships were set on fire at once."
+ },
+ {
+  "i": 116,
+  "start": 432.987,
+  "text": "Across the river, at the Marine base at Quantico, sentries saw the glow.",
+  "heard": "Across the river, at the marine base at Quantico, sentries saw the glow."
+ },
+ {
+  "i": 117,
+  "start": 437.674,
+  "text": "The newspaper said it looked like the red ball of the sun.",
+  "heard": "The newspaper said it looked like the red ball of the sun."
+ },
+ {
+  "i": 118,
+  "start": 441.069,
+  "text": "A Marine Corps plane flew over and photographed the blaze.",
+  "heard": "A Marine Corps plane flew over and photographed the blaze."
+ },
+ {
+  "i": 119,
+  "start": 445.025,
+  "text": "One reporter wrote that as the decks burned, rats poured off the ships.",
+  "heard": "One reporter wrote that as the decks burned, rats poured off the ships."
+ },
+ {
+  "i": 120,
+  "start": 449.898,
+  "text": "When it was over, the company had what it came for.",
+  "heard": "When it was over, the company had what it came for."
+ },
+ {
+  "i": 121,
+  "start": 452.918,
+  "text": "A little iron and steel, pulled from the ashes.",
+  "heard": "a little iron and steel pulled from the ashes."
+ },
+ {
+  "i": 122,
+  "start": 456.348,
+  "text": "Over the next years, the burned hulls were packed into Mallows Bay.",
+  "heard": "Over the next years, the burned hulls were packed into Mallows Bay."
+ },
+ {
+  "i": 123,
+  "start": 460.249,
+  "text": "In all, the company said, it brought one hundred and sixty-nine ships here.",
+  "heard": "In all, the company said, it brought 169 ships here."
+ },
+ {
+  "i": 124,
+  "start": 465.27,
+  "text": "It never made the money it hoped for.",
+  "heard": "It never made the money it hoped for."
+ },
+ {
+  "i": 125,
+  "start": 467.491,
+  "text": "Then came the Great Depression.",
+  "heard": "Then came the Great Depression."
+ },
+ {
+  "i": 126,
+  "start": 469.635,
+  "text": "In nineteen thirty-one, the company stopped work.",
+  "heard": "In 1931, the company stopped work."
+ },
+ {
+  "i": 127,
+  "start": 472.955,
+  "text": "By the end of nineteen thirty-two, it had been dissolved.",
+  "heard": "By the end of 1932, it had been dissolved."
+ },
+ {
+  "i": 128,
+  "start": 476.934,
+  "text": "The ships were still there.",
+  "heard": "The ships were still there."
+ },
+ {
+  "i": 129,
+  "start": 479.002,
+  "text": "Now local people moved in.",
+  "heard": "Now local people moved in."
+ },
+ {
+  "i": 130,
+  "start": 481.099,
+  "text": "In the hungry years of the Depression, families rowed out to the wrecks and pried out bolts, spikes and iron, and sold them as scrap.",
+  "heard": "In the hungry years of the depression, families rode out to the wrecks and pried out bolts, spikes and iron, and sold them as scrap."
+ },
+ {
+  "i": 131,
+  "start": 489.439,
+  "text": "The fight over the scrap ended up in court.",
+  "heard": "The fight over the scrap ended up in court."
+ },
+ {
+  "i": 132,
+  "start": 492.193,
+  "text": "In January nineteen thirty-six, Maryland's highest court ruled that the wrecks had been abandoned.",
+  "heard": "In January 1936, Maryland's highest court ruled that the wrecks had been abandoned."
+ },
+ {
+  "i": 133,
+  "start": 498.462,
+  "text": "Anyone could take what was left.",
+  "heard": "anyone could take what was left."
+ },
+ {
+  "i": 134,
+  "start": 501.066,
+  "text": "There is an old story that the wrecks hid floating brothels and whiskey stills in those years.",
+  "heard": "There is an old story that the wrecks hid floating brothels and whiskey stills in those years."
+ },
+ {
+  "i": 135,
+  "start": 506.692,
+  "text": "It is a good story.",
+  "heard": "It is a good story."
+ },
+ {
+  "i": 136,
+  "start": 508.36,
+  "text": "But the historian who wrote the official survey found no evidence for it.",
+  "heard": "But the historian who wrote the official survey found no evidence for it."
+ },
+ {
+  "i": 137,
+  "start": 513.51,
+  "text": "Then, in nineteen forty-one, America went to war again.",
+  "heard": "Then in 1941, America went to war again."
+ },
+ {
+  "i": 138,
+  "start": 517.35,
+  "text": "And this time, the wrecks seemed to have one more job to do.",
+  "heard": "And this time, the wrecks seem to have one more job to do."
+ },
+ {
+  "i": 139,
+  "start": 521.149,
+  "text": "The new war needed steel.",
+  "heard": "The new war needed steel."
+ },
+ {
+  "i": 140,
+  "start": 523.001,
+  "text": "Every scrap drive in the country was collecting pots, pans and old cars.",
+  "heard": "Every scrap drive in the country was collecting pots, pans, and old cars."
+ },
+ {
+  "i": 141,
+  "start": 528.092,
+  "text": "And in Mallows Bay, there were thousands of tons of iron sitting in the mud.",
+  "heard": "And in Mallows Bay, there were thousands of tons of iron sitting in the mud."
+ },
+ {
+  "i": 142,
+  "start": 532.818,
+  "text": "In nineteen forty-two, the government hired one of the biggest steel companies in the country.",
+  "heard": "In 1942, the government hired one of the biggest steel companies in the country."
+ },
+ {
+  "i": 143,
+  "start": 538.514,
+  "text": "Bethlehem Steel.",
+  "heard": "Bethlehem Steel."
+ },
+ {
+  "i": 144,
+  "start": 540.306,
+  "text": "The plan was clever.",
+  "heard": "The plan was clever."
+ },
+ {
+  "i": 145,
+  "start": 541.989,
+  "text": "Bethlehem built a basin at the edge of the bay, with dams and gates.",
+  "heard": "Bethlehem built a basin at the edge of the bay with dams and gates."
+ },
+ {
+  "i": 146,
+  "start": 546.37,
+  "text": "Hulls would be floated in, the water pumped out, and the wood burned away on dry ground.",
+  "heard": "Huls would be floated in, the water pumped out, and the wood burned away on dry ground."
+ },
+ {
+  "i": 147,
+  "start": 552.346,
+  "text": "The target was up to twenty thousand tons of scrap metal.",
+  "heard": "The target was up to 20,000 tons of scrap metal."
+ },
+ {
+  "i": 148,
+  "start": 556.453,
+  "text": "It did not work.",
+  "heard": "It did not work."
+ },
+ {
+  "i": 149,
+  "start": 557.94,
+  "text": "According to the records, by the end of nineteen forty-three Bethlehem had spent three hundred and sixty thousand dollars.",
+  "heard": "According to the records, by the end of 1943, Bethlehem had spent $360,000."
+ },
+ {
+  "i": 150,
+  "start": 565.226,
+  "text": "And the result was, quote, a very small recovery of metal.",
+  "heard": "And the result was, quote, a very small recovery of metal."
+ },
+ {
+  "i": 151,
+  "start": 569.412,
+  "text": "In September nineteen forty-four, the government ended the contract.",
+  "heard": "In September 1944, the government ended the contract."
+ },
+ {
+  "i": 152,
+  "start": 574.004,
+  "text": "The fleet that missed one world war had now missed a second.",
+  "heard": "The fleet that missed one world war had now missed a second."
+ },
+ {
+  "i": 153,
+  "start": 578.185,
+  "text": "The basin is still there.",
+  "heard": "The basin is still there."
+ },
+ {
+  "i": 154,
+  "start": 580.042,
+  "text": "You can still see its outline from the air, at the mouth of a creek at the edge of the bay.",
+  "heard": "you can still see its outline from the air, at the mouth of a creek at the edge of the bay."
+ },
+ {
+  "i": 155,
+  "start": 585.678,
+  "text": "After the war, the wrecks were mostly forgotten.",
+  "heard": "After the war, the wrecks were mostly forgotten."
+ },
+ {
+  "i": 156,
+  "start": 588.695,
+  "text": "Then, in October nineteen sixty-three, a company called Idamont bought the farm on Sandy Point, right beside the bay.",
+  "heard": "Then, in October 1963, a company called Idamont bought the farm on Sandy Point, right beside the bay."
+ },
+ {
+  "i": 157,
+  "start": 597.007,
+  "text": "The Army Corps of Engineers offered a cheap fix.",
+  "heard": "The Army Corps of Engineers offered a cheap fix."
+ },
+ {
+  "i": 158,
+  "start": 600.199,
+  "text": "Pin the outer wrecks in place with stone, for about fifty thousand dollars.",
+  "heard": "Pin the outer wrecks in place with stone for about $50,000."
+ },
+ {
+  "i": 159,
+  "start": 605.007,
+  "text": "The landowner said no.",
+  "heard": "The landowner said no."
+ },
+ {
+  "i": 160,
+  "start": 606.749,
+  "text": "It wanted the wrecks gone.",
+  "heard": "It wanted the Rex gone."
+ },
+ {
+  "i": 161,
+  "start": 608.782,
+  "text": "In nineteen sixty-eight, Congress ordered the wrecks removed, at an estimated three hundred and fifty thousand dollars, if Maryland paid half.",
+  "heard": "In 1968, Congress ordered the wrecks removed at an estimated $350,000 if Maryland paid half."
+ },
+ {
+  "i": 162,
+  "start": 617.78,
+  "text": "Maryland would not pay.",
+  "heard": "Maryland would not pay."
+ },
+ {
+  "i": 163,
+  "start": 620.022,
+  "text": "And here is the twist.",
+  "heard": "And here is the twist."
+ },
+ {
+  "i": 164,
+  "start": 621.808,
+  "text": "In nineteen seventy, at a hearing in Congress, a vice-president of the power company PEPCO was asked about Idamont.",
+  "heard": "In 1970, at a hearing in Congress, a vice president of the power company, PEPCO, was asked about Idemont."
+ },
+ {
+  "i": 165,
+  "start": 629.705,
+  "text": "Under oath, he called it a dummy corporation, formed by PEPCO.",
+  "heard": "Under oath, he called it a dummy corporation, formed by Pepco."
+ },
+ {
+  "i": 166,
+  "start": 634.261,
+  "text": "The power company had been quietly buying the land beside the fleet for a new power plant.",
+  "heard": "The power company had been quietly buying the land beside the fleet for a new power plant."
+ },
+ {
+  "i": 167,
+  "start": 639.486,
+  "text": "It denied any part in the push to remove the wrecks.",
+  "heard": "It denied any part in the push to remove the wrecks."
+ },
+ {
+  "i": 168,
+  "start": 642.908,
+  "text": "But the wrecks were right in front of its land.",
+  "heard": "but the wrecks were right in front of its land."
+ },
+ {
+  "i": 169,
+  "start": 645.764,
+  "text": "That same year, Maryland's natural resources department said clearing the wrecks would serve no public interest.",
+  "heard": "That same year, Maryland's Natural Resources Department said clearing the wrecks would serve no public interest."
+ },
+ {
+  "i": 170,
+  "start": 653.099,
+  "text": "Because while everyone had been arguing about the ships, something else had moved in.",
+  "heard": "because while everyone had been arguing about the ships, something else had moved in."
+ },
+ {
+  "i": 171,
+  "start": 658.556,
+  "text": "To answer the question, go back out on the water.",
+  "heard": "To answer the question, go back out on the water."
+ },
+ {
+  "i": 172,
+  "start": 662.05,
+  "text": "When the hulls were burned, their bottoms were left in the mud, packed with dirt and ash.",
+  "heard": "When the hulls were burned, their bottoms were left in the mud, packed with dirt and ash."
+ },
+ {
+  "i": 173,
+  "start": 667.106,
+  "text": "Over the years, river silt filled them up.",
+  "heard": "Over the years, River Silt filled them up."
+ },
+ {
+  "i": 174,
+  "start": 670.181,
+  "text": "Seeds blew in.",
+  "heard": "Seeds blew in."
+ },
+ {
+  "i": 175,
+  "start": 671.617,
+  "text": "Then bushes.",
+  "heard": "then bushes."
+ },
+ {
+  "i": 176,
+  "start": 672.925,
+  "text": "Then trees.",
+  "heard": "than trees."
+ },
+ {
+  "i": 177,
+  "start": 674.286,
+  "text": "By nineteen seventy, whole trees were growing out of the hulks, like plants in giant flowerpots.",
+  "heard": "By 1970, whole trees were growing out of the hulks, like plants in giant flower pots."
+ },
+ {
+  "i": 178,
+  "start": 681.026,
+  "text": "The wrecks had become islands.",
+  "heard": "the wrecks had become islands."
+ },
+ {
+  "i": 179,
+  "start": 683.214,
+  "text": "Ship-shaped islands, with their own trees.",
+  "heard": "ship-shaped islands with their own trees."
+ },
+ {
+  "i": 180,
+  "start": 686.317,
+  "text": "Fish moved into the ribs.",
+  "heard": "Fish moved into the ribs."
+ },
+ {
+  "i": 181,
+  "start": 688.36,
+  "text": "Largemouth bass, striped bass, shad, herring.",
+  "heard": "largemouth bass striped bass shad herring"
+ },
+ {
+  "i": 182,
+  "start": 691.966,
+  "text": "Ospreys built nests on the high timbers.",
+  "heard": "Ospreys built nests on the high timbers."
+ },
+ {
+  "i": 183,
+  "start": 694.744,
+  "text": "Bald eagles hunt over the bay.",
+  "heard": "bold eagles hunt over the bay."
+ },
+ {
+  "i": 184,
+  "start": 697.298,
+  "text": "On one wreck, surveyors found a beaver lodge built inside the hull.",
+  "heard": "On one wreck, surveyors found a beaver lodge built inside the hull."
+ },
+ {
+  "i": 185,
+  "start": 701.494,
+  "text": "The beavers had chewed an exit hole right through the side of the ship.",
+  "heard": "The beavers had chewed an exit hole right through the side of the ship."
+ },
+ {
+  "i": 186,
+  "start": 705.939,
+  "text": "Not every wreck here is from the First World War.",
+  "heard": "Not every wreck here is from the First World War."
+ },
+ {
+  "i": 187,
+  "start": 708.946,
+  "text": "At the edge of the bay lies a steel car ferry, the Accomac.",
+  "heard": "At the edge of the bay lies a steel car ferry, the Acamac."
+ },
+ {
+  "i": 188,
+  "start": 712.664,
+  "text": "She was built in nineteen twenty-eight, burned in nineteen sixty-four, and was towed here years later.",
+  "heard": "She was built in 1928, burned in 1964, and was towed here years later."
+ },
+ {
+  "i": 189,
+  "start": 719.167,
+  "text": "Ospreys have been nesting on her since at least nineteen eighty-six.",
+  "heard": "Ospreys have been nesting on her since at least 1986."
+ },
+ {
+  "i": 190,
+  "start": 723.778,
+  "text": "And somewhere in the bay lies the North Bend.",
+  "heard": "and somewhere in the bay lies the North Bend."
+ },
+ {
+  "i": 191,
+  "start": 726.639,
+  "text": "The very first wooden ship of the program.",
+  "heard": "the very first wooden ship of the program."
+ },
+ {
+  "i": 192,
+  "start": 729.459,
+  "text": "The ship that started it all ended up here too.",
+  "heard": "The ship that started it all ended up here too."
+ },
+ {
+  "i": 193,
+  "start": 732.785,
+  "text": "So that is the answer.",
+  "heard": "So that is the answer."
+ },
+ {
+  "i": 194,
+  "start": 734.666,
+  "text": "The fleet is still here because every attempt to make money from it failed.",
+  "heard": "The fleet is still here because every attempt to make money from it failed."
+ },
+ {
+  "i": 195,
+  "start": 739.117,
+  "text": "The salvage company failed.",
+  "heard": "the salvage company failed."
+ },
+ {
+  "i": 196,
+  "start": 741.206,
+  "text": "The steel giant failed.",
+  "heard": "the steel giant failed."
+ },
+ {
+  "i": 197,
+  "start": 743.051,
+  "text": "The plan to clear them out failed.",
+  "heard": "The plan to clear them out failed."
+ },
+ {
+  "i": 198,
+  "start": 745.585,
+  "text": "And while they failed, the river turned the fleet into something nobody planned.",
+  "heard": "And while they failed, the river turned the fleet into something nobody planned."
+ },
+ {
+  "i": 199,
+  "start": 750.161,
+  "text": "A habitat.",
+  "heard": "A Habitat."
+ },
+ {
+  "i": 200,
+  "start": 751.705,
+  "text": "In April twenty fifteen, the wrecks were listed on the National Register of Historic Places.",
+  "heard": "In April 2015, the wrecks were listed on the National Register of Historic Places."
+ },
+ {
+  "i": 201,
+  "start": 757.841,
+  "text": "And in September twenty nineteen, the bay and the river around it became the Mallows Bay-Potomac River National Marine Sanctuary.",
+  "heard": "And in September 2019, the bay and the river around it became the Mallow's Bay Potomac River National Marine Sanctuary."
+ },
+ {
+  "i": 202,
+  "start": 766.22,
+  "text": "Eighteen square miles.",
+  "heard": "18 square miles."
+ },
+ {
+  "i": 203,
+  "start": 767.992,
+  "text": "The first new national marine sanctuary in nearly twenty years.",
+  "heard": "the first new national marine sanctuary in nearly 20 years."
+ },
+ {
+  "i": 204,
+  "start": 772.674,
+  "text": "NOAA calls it the largest wooden ship graveyard in the Western Hemisphere.",
+  "heard": "Noah calls it the largest wooden ship graveyard in the Western Hemisphere."
+ },
+ {
+  "i": 205,
+  "start": 777.808,
+  "text": "The same government that paid a fortune to build these ships, and then sold them off to be destroyed, now protects them by law.",
+  "heard": "The same government that paid a fortune to build these ships, and then sold them off to be destroyed, now protects them by law."
+ },
+ {
+  "i": 206,
+  "start": 785.726,
+  "text": "Today you can paddle a kayak through the fleet.",
+  "heard": "Today you can paddle a kayak through the fleet."
+ },
+ {
+  "i": 207,
+  "start": 788.646,
+  "text": "At low tide, you can drift right over the ribs of ships built to fight the Kaiser.",
+  "heard": "At low tide, you can drift right over the ribs of ships built to fight the Kaiser."
+ },
+ {
+  "i": 208,
+  "start": 794.428,
+  "text": "But the fleet will not last forever.",
+  "heard": "but the fleet will not last forever."
+ },
+ {
+  "i": 209,
+  "start": 796.77,
+  "text": "Wood rots.",
+  "heard": "wood rods."
+ },
+ {
+  "i": 210,
+  "start": 798.081,
+  "text": "About seven in ten of the wrecks that could be seen in nineteen ninety-eight now sit just under the surface, even at low tide.",
+  "heard": "About 7 in 10 of the wrecks that could be seen in 1998 now sit just under the surface, even at low tide."
+ },
+ {
+  "i": 211,
+  "start": 806.33,
+  "text": "Year by year, the ghost fleet is sinking into the river it was never meant to reach.",
+  "heard": "year by year the ghost fleet is sinking into the river it was never meant to reach"
+ },
+ {
+  "i": 212,
+  "start": 811.833,
+  "text": "So here is the question.",
+  "heard": "So here is the question."
+ },
+ {
+  "i": 213,
+  "start": 813.722,
+  "text": "Should we try to save what is left of it?",
+  "heard": "Should we try to save what is left of it?"
+ },
+ {
+  "i": 214,
+  "start": 816.223,
+  "text": "Or let the river finish the job?",
+  "heard": "or let the river finish the job."
+ },
+ {
+  "i": 215,
+  "start": 818.61,
+  "text": "Tell us what you think in the comments.",
+  "heard": "Tell us what you think in the comments."
+ }
+]
