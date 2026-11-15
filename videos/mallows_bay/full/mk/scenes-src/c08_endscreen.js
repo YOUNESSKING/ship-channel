@@ -8,5 +8,5 @@ S.camera([[0, MID[0] + 420, MID[1], 0.95], [END, MID[0] + 450, MID[1] - 20, 1.02
 S.pin(MB, "MALLOWS BAY", { t: 0.0, anchor: "l", color: "#D9572B" });
 S.pin(WH, "THE WHITE HOUSE", { t: 0.0, anchor: "l", rings: false });
 S.route([WH, MB], { t: 0.0, dur: 0.01, dash: [14, 10], width: 4, color: "rgba(243,238,226,.7)" });
-S.card('<div style="font-size:64px;letter-spacing:.08em;line-height:1.15">SAVE IT?<br><span style="color:#D9572B">OR LET IT GO?</span></div><div style="font-size:40px;letter-spacing:.2em;margin-top:14px;color:#cfd8de">TELL US IN THE COMMENTS</div>', wt("Tell", 4.6), { left: 110, top: 150, width: 720 });
+S.card('<div style="font-size:64px;letter-spacing:.08em;line-height:1.15">SAVE IT?<br><span style="color:#D9572B">OR LET IT GO?</span></div><div style="font-size:40px;letter-spacing:.2em;margin-top:14px;color:#cfd8de">TELL US IN THE COMMENTS</div>', wt("Tell", 4.6), { left: 110, top: 400, width: 720 });
 S.finish();

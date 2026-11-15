@@ -1,0 +1,4 @@
+safe_area.js adjusted:
+  size 19->25.4: WWI STEAMSHIPS
+  size 19->25.4: KNOWN SHIPWRECKS (NOAA)
+PASS: no text breaks the size / safe-area / font rules (31.9 s checked every 0.5 s)
