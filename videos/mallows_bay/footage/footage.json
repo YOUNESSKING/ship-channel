@@ -1,0 +1,3042 @@
+{
+ "photos": [
+  {
+   "stem": "burn_quantico_1925_a",
+   "group": "A",
+   "file": "src/photos/burn_quantico_1925_a.jpg",
+   "title": "111-SC-94283: Burning Wooden Transports, Quantico, Virginia",
+   "url": "https://catalog.archives.gov/id/405228042",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"}",
+   "date": "1925-11-07",
+   "shows": "AERIAL, 7 Nov 1925: a long line of hulls lashed together burning, white smoke pouring downwind; wooded shore and river in the foreground",
+   "not_shows": "Place is disputed: Signal Corps card says 'Quantico, Va.', Evening Star 8 Nov says 'burned yesterday at Widewater, Va.', AP (Paris Express) says the hulls were taken from Widewater to Sandy Point on the Maryland side and burned - caption only as 'on the Potomac'; print mounted on a NARA caption card: crop to the photo area before use (colour target at bottom); a cropped version src/photos/burn_quantico_1925_a_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 3580
+  },
+  {
+   "stem": "burn_quantico_1925_b",
+   "group": "A",
+   "file": "src/photos/burn_quantico_1925_b.jpg",
+   "title": "111-SC-94284: Burning Wooden Transports, Quantico, Virginia",
+   "url": "https://catalog.archives.gov/id/405228045",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"}",
+   "date": "1925-11-07",
+   "shows": "AERIAL, 7 Nov 1925: the burning raft of hulls seen from above, a dense smoke wall rolling off the line; small boat nearby",
+   "not_shows": "same caveats as _a (caption place 'Quantico'); exact ship names not identifiable; a cropped version src/photos/burn_quantico_1925_b_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 3593
+  },
+  {
+   "stem": "burn_quantico_1925_c",
+   "group": "A",
+   "file": "src/photos/burn_quantico_1925_c.jpg",
+   "title": "111-SC-94285: Burning Wooden Transports, Quantico, Virginia",
+   "url": "https://catalog.archives.gov/id/405228048",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"}",
+   "date": "1925-11-07",
+   "shows": "AERIAL close: the end hull of the raft burning, smoke streaming over the river; an aircraft's shadow / small aircraft visible",
+   "not_shows": "same caveats; individual ships not identifiable; a cropped version src/photos/burn_quantico_1925_c_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 3650
+  },
+  {
+   "stem": "burn_quantico_1925_d",
+   "group": "A",
+   "file": "src/photos/burn_quantico_1925_d.jpg",
+   "title": "111-SC-94286: Burning Wooden Transports, Quantico, Virginia",
+   "url": "https://catalog.archives.gov/id/405228051",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"}",
+   "date": "1925-11-07",
+   "shows": "AERIAL: stepped row of hulls, each burning, smoke billowing; open water",
+   "not_shows": "same caveats; the best 'row of pyres' frame; a cropped version src/photos/burn_quantico_1925_d_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 3583
+  },
+  {
+   "stem": "burn_quantico_1925_e",
+   "group": "A",
+   "file": "src/photos/burn_quantico_1925_e.jpg",
+   "title": "111-SC-94287: Burning Wooden Transports, Quantico, Virginia",
+   "url": "https://catalog.archives.gov/id/405228054",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"}",
+   "date": "1925-11-07",
+   "shows": "AERIAL: the whole raft (about a dozen+ hulls visible) burning side by side; long NARA caption on the card: 'After the World War hundreds of wooden ships were towed into the Potomac... More than $30,000,000 had been expended on those here shown lashed together and being burned for the scrap...'",
+   "not_shows": "caption figures ($30,000,000; 'hundreds') are the 1925 caption's claims, not checked; place 'Quantico' on card; photo is small on a large card - crop needed; a cropped version src/photos/burn_quantico_1925_e_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 2982
+  },
+  {
+   "stem": "es1925_burn_upper_pa",
+   "group": "A",
+   "file": "src/photos/es1925_burn_upper_pa.jpg",
+   "title": "Evening Star 8 Nov 1925 p.2 - upper photo (P&A Photo), crop",
+   "url": "https://www.loc.gov/resource/sn83045462/1925-11-08/ed-1/?sp=2",
+   "rights": "The Library of Congress believes that the newspapers in Chronicling America are in the public domain or have no known copyright restrictions. Newspapers published in the United States more than 95 years ago are in the public domain in their entirety. [...] Photo credited \"P&A Photo\" (Pacific & Atlantic, press agency), published 1925.",
+   "date": "1925-11-08",
+   "shows": "Evening Star 8 Nov 1925 p.2, upper photo (credited 'P&A Photo'): close view of the stripped wooden hulls burning side by side, flames and smoke over the hulls",
+   "not_shows": "newspaper halftone (coarse dots, low resolution); press-agency photo published 1925 = PD by age, but the photographer is a commercial agency (not federal)",
+   "w": 2970,
+   "h": 1280
+  },
+  {
+   "stem": "es1925_burn_aerial_marine",
+   "group": "A",
+   "file": "src/photos/es1925_burn_aerial_marine.jpg",
+   "title": "Evening Star 8 Nov 1925 p.2 - \"View of the vessels from a Marine Corps photograph plane\", crop",
+   "url": "https://www.loc.gov/resource/sn83045462/1925-11-08/ed-1/?sp=2",
+   "rights": "The Library of Congress believes that the newspapers in Chronicling America are in the public domain or have no known copyright restrictions. Newspapers published in the United States more than 95 years ago are in the public domain in their entirety. [...] US Marine Corps photograph (federal) published 1925.",
+   "date": "1925-11-08",
+   "shows": "Evening Star 8 Nov 1925 p.2, lower photo: 'View of the vessels from a Marine Corps photograph plane' - the burning line of hulls off a wooded point, an aircraft visible over the water",
+   "not_shows": "newspaper halftone; probably a print of the same Marine Corps sortie as the 111-SC aerials (not proven)",
+   "w": 2230,
+   "h": 1710
+  },
+  {
+   "stem": "es1925_schilt_portrait",
+   "group": "A",
+   "file": "src/photos/es1925_schilt_portrait.jpg",
+   "title": "Evening Star 8 Nov 1925 p.2 - \"Lieut. Schilt\" portrait, crop",
+   "url": "https://www.loc.gov/resource/sn83045462/1925-11-08/ed-1/?sp=2",
+   "rights": "The Library of Congress believes that the newspapers in Chronicling America are in the public domain or have no known copyright restrictions. Newspapers published in the United States more than 95 years ago are in the public domain in their entirety. [...]",
+   "date": "1925-11-08",
+   "shows": "Evening Star 8 Nov 1925 p.2: portrait captioned 'LIEUT. SCHILT' (flying helmet), pilot of the photo plane per the article 'Brave Death in Air to Get Photograph'",
+   "not_shows": "identity as Christian F. Schilt is UNVERIFIED (FACT_SHEET D18); tiny halftone, only usable as a small inset",
+   "w": 470,
+   "h": 760
+  },
+  {
+   "stem": "evening_star_1925_11_08_p2",
+   "group": "A",
+   "file": "src/photos/evening_star_1925_11_08_p2.jpg",
+   "title": "The Sunday Star (Evening Star), Washington, 8 Nov 1925, Part 1 p.2",
+   "url": "https://www.loc.gov/resource/sn83045462/1925-11-08/ed-1/?sp=2",
+   "rights": "The Library of Congress believes that the newspapers in Chronicling America are in the public domain or have no known copyright restrictions. Newspapers published in the United States more than 95 years ago are in the public domain in their entirety. [...]",
+   "date": "1925-11-08",
+   "shows": "Full page: The Sunday Star (Washington) 8 Nov 1925 p.2, headline 'OLD WAR RELICS CONSIGNED BY FLAMES TO DAVY JONES' LOCKER' with both burn photos, the caption text and the 'Brave Death in Air to Get Photograph' story",
+   "not_shows": "full page 6556x8317; use as a newspaper-page reveal / zoom",
+   "w": 6556,
+   "h": 8317
+  },
+  {
+   "stem": "evening_star_1925_11_06_p12",
+   "group": "A",
+   "file": "src/photos/evening_star_1925_11_06_p12.jpg",
+   "title": "Evening Star, Washington, 6 Nov 1925 p.12",
+   "url": "https://www.loc.gov/resource/sn83045462/1925-11-06/ed-1/?sp=12",
+   "rights": "The Library of Congress believes that the newspapers in Chronicling America are in the public domain or have no known copyright restrictions. Newspapers published in the United States more than 95 years ago are in the public domain in their entirety. [...]",
+   "date": "1925-11-06",
+   "shows": "Full page: Evening Star 6 Nov 1925 p.12 (mostly ads); small news item bottom-left",
+   "not_shows": "page is dominated by ads; use the article crop",
+   "w": 6550,
+   "h": 8317
+  },
+  {
+   "stem": "es1925_11_06_ships_to_be_burned_article",
+   "group": "A",
+   "file": "src/photos/es1925_11_06_ships_to_be_burned_article.jpg",
+   "title": "Evening Star 6 Nov 1925 p.12 - \"Ships to Be Burned Tomorrow\", crop",
+   "url": "https://www.loc.gov/resource/sn83045462/1925-11-06/ed-1/?sp=12",
+   "rights": "The Library of Congress believes that the newspapers in Chronicling America are in the public domain or have no known copyright restrictions. Newspapers published in the United States more than 95 years ago are in the public domain in their entirety. [...]",
+   "date": "1925-11-06",
+   "shows": "Crop: Evening Star 6 Nov 1925, 'Ships to Be Burned Tomorrow': 31 wooden vessels, stripped of metal, at Widewater, Va., just below Quantico; burn postponed one day; under the US Army Engineer, Maj. J. A. O'Connor",
+   "not_shows": "text only",
+   "w": 1015,
+   "h": 957
+  },
+  {
+   "stem": "paris_express_1925_11_12_p7",
+   "group": "A",
+   "file": "src/photos/paris_express_1925_11_12_p7.jpg",
+   "title": "The Paris Express (Paris, Ark.), 12 Nov 1925 p.7",
+   "url": "https://www.loc.gov/resource/sn89051220/1925-11-12/ed-1/?sp=7",
+   "rights": "The Library of Congress believes that the newspapers in Chronicling America are in the public domain or have no known copyright restrictions. Newspapers published in the United States more than 95 years ago are in the public domain in their entirety. [...]",
+   "date": "1925-11-12",
+   "shows": "Full page: The Paris Express (Paris, Ark.) 12 Nov 1925 p.7 with the AP story",
+   "not_shows": "mostly ads",
+   "w": 4565,
+   "h": 6493
+  },
+  {
+   "stem": "px1925_hulls_burned_article",
+   "group": "A",
+   "file": "src/photos/px1925_hulls_burned_article.jpg",
+   "title": "Paris Express 12 Nov 1925 p.7 - AP \"Hulls of 31 War-Time Ships Burned for Salvage\", crop",
+   "url": "https://www.loc.gov/resource/sn89051220/1925-11-12/ed-1/?sp=7",
+   "rights": "The Library of Congress believes that the newspapers in Chronicling America are in the public domain or have no known copyright restrictions. Newspapers published in the United States more than 95 years ago are in the public domain in their entirety. [...]",
+   "date": "1925-11-12",
+   "shows": "Crop: AP story 'HULLS OF 31 WAR-TIME SHIPS BURNED FOR SALVAGE' (Washington, Nov. 7): taken from Widewater to Sandy Point on the Maryland side, covered with wire netting and burned; 300 tons of metal per vessel; Western Marine Salvage still has 209",
+   "not_shows": "text only; AP figures not independently checked",
+   "w": 685,
+   "h": 1396
+  },
+  {
+   "stem": "aerial_mallows_1936_b",
+   "group": "A",
+   "file": "src/photos/aerial_mallows_1936_b.jpg",
+   "title": "18-AA-70-44: Maryland - Little Falls through Mallows Bay",
+   "url": "https://catalog.archives.gov/id/23941133",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"}",
+   "date": "",
+   "shows": "AERIAL 8 Apr 1936 (Air Corps, rec'd from Bolling Field): 'Mallows Bay, Md. - on Potomac River below Quantico and between Sandy Point and Liverpool Point' - dozens of hulks packed in rows in the bay, one ship afloat offshore, the creek mouth and marsh",
+   "not_shows": "the money shot for 'the fleet that stayed'; on its file card (crop to the photo); NARA title on the record wrongly reads 'Little Falls through Mallows Bay' (folder title)",
+   "w": 3840,
+   "h": 2962
+  },
+  {
+   "stem": "aerial_mallows_1936_a",
+   "group": "E",
+   "file": "src/photos/aerial_mallows_1936_a.jpg",
+   "title": "18-AA-70-43: Maryland - Little Falls through Mallows Bay",
+   "url": "https://catalog.archives.gov/id/23941131",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"}",
+   "date": "",
+   "shows": "AERIAL Jan 1933 (card: 'Little Falls, Md. & Va.', 'Great Falls'): the Potomac gorge above Washington with the C&O canal side",
+   "not_shows": "NOT Mallows Bay: upstream Potomac near Little Falls/Great Falls; filed in the same NARA folder; a cropped version src/photos/aerial_mallows_1936_a_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 2962
+  },
+  {
+   "stem": "noaa_aerial_ghost_fleet_nara",
+   "group": "A",
+   "file": "src/photos/noaa_aerial_ghost_fleet_nara.jpg",
+   "title": "NOAA ONMS web image 20200430-aerial-mallows-1000.jpg",
+   "url": "https://sanctuaries.noaa.gov/mallows-potomac/shipwrecks/",
+   "rights": "Page credit verbatim: \"Image courtesy of National Archives\" (1936 Army Air Corps aerial = US Gov work, PD)",
+   "date": "1936-04-08",
+   "shows": "NOAA web copy of the 1936 Air Corps aerial of the hulks in Mallows Bay ('Image courtesy of National Archives')",
+   "not_shows": "duplicate of aerial_mallows_1936_b at only 1000 px; use the NARA scan",
+   "w": 1000,
+   "h": 563
+  },
+  {
+   "stem": "he_vessels_destroyed_1923",
+   "group": "A",
+   "file": "src/photos/he_vessels_destroyed_1923.jpg",
+   "title": "How vessels are destroyed in the Virginia shipyards. Alex, Va. (LC-H234- A-5879-a [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016892405/",
+   "rights": "No known restrictions on publication. For more information, see Harris & Ewing Photographs - Rights and Restrictions Information http://www.loc.gov/rr/print/res/140_harr.html",
+   "date": "[1923 June]",
+   "shows": "Harris & Ewing, June 1923 'How vessels are destroyed in the Virginia shipyards, Alex., Va.': a cut-down hull with its upperworks torn open beside a tall crane, weeds and scrap in front",
+   "not_shows": "Alexandria scrapping yard, not Mallows Bay; the hull type (wood or steel) is not clear in the photo",
+   "w": 3840,
+   "h": 2975
+  },
+  {
+   "stem": "wms_alex_1925_34261",
+   "group": "A",
+   "file": "src/photos/wms_alex_1925_34261.jpg",
+   "title": "Western Marine & Salvage Co., Alex, VA (LC-F8- 34261 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016839256/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[1925]",
+   "shows": "Western Marine & Salvage, Alexandria [1925]: a workman breaking pipe and valve scrap in a heap of fittings",
+   "not_shows": "date is LoC's estimate from the negative range; not a wooden hull; not Mallows Bay",
+   "w": 3840,
+   "h": 3096
+  },
+  {
+   "stem": "wms_alex_1925_34263",
+   "group": "A",
+   "file": "src/photos/wms_alex_1925_34263.jpg",
+   "title": "Western Marine & Salvage Co., Alex, VA (LC-F8- 34263 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016839257/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[1925]",
+   "shows": "WM&S Alexandria [1925]: a ship's hull moored at the yard, two derrick cranes hoisting machinery out of it onto the bank",
+   "not_shows": "hull looks steel-sided freighter with a funnel - may NOT be one of the wooden ships; date estimated",
+   "w": 3840,
+   "h": 3078
+  },
+  {
+   "stem": "wms_alex_1925_34267",
+   "group": "A",
+   "file": "src/photos/wms_alex_1925_34267.jpg",
+   "title": "Western Marine & Salvage Co., Alex, VA (LC-F8- 34267 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016839258/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[1925]",
+   "shows": "WM&S Alexandria [1925]: several stripped hulls moored together, cranes behind, reflections on calm water",
+   "not_shows": "mix of hulls; wooden vs steel not certain; date estimated",
+   "w": 3840,
+   "h": 3056
+  },
+  {
+   "stem": "wms_alex_1925_34269",
+   "group": "A",
+   "file": "src/photos/wms_alex_1925_34269.jpg",
+   "title": "Western Marine & Salvage Co., Alex, VA (LC-F8- 34269 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016839259/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[1925]",
+   "shows": "WM&S Alexandria [1925]: scrap yard with heaps of cable, plates, machinery; workers; hulls and cranes behind",
+   "not_shows": "not Mallows Bay; date estimated",
+   "w": 3840,
+   "h": 3090
+  },
+  {
+   "stem": "wms_alex_1925_34273",
+   "group": "A",
+   "file": "src/photos/wms_alex_1925_34273.jpg",
+   "title": "Western Marine & Salvage Co., Alex, VA (LC-F8- 34273 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016839260/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[1925]",
+   "shows": "WM&S Alexandria [1925]: a long hull with its deckhouses smashed and torn off, smokestack stumps",
+   "not_shows": "wooden hull probable but not proven; date estimated",
+   "w": 3840,
+   "h": 3079
+  },
+  {
+   "stem": "wms_1925_35368",
+   "group": "A",
+   "file": "src/photos/wms_1925_35368.jpg",
+   "title": "Western Marine & Salvage Co. (LC-F8- 35368 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016839742/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[1925]",
+   "shows": "WM&S [1925]: bows of two blunt WOODEN cargo hulls pressed together among other laid-up hulls, river water in front",
+   "not_shows": "the best close-up of the wooden steamers before burning; place not on the negative (Alexandria/Widewater area by collection context)",
+   "w": 3840,
+   "h": 3089
+  },
+  {
+   "stem": "wms_1925_35380",
+   "group": "A",
+   "file": "src/photos/wms_1925_35380.jpg",
+   "title": "Western Marine & Salvage Co. (LC-F8- 35380 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016839750/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[1925]",
+   "shows": "WM&S [1925]: a long line of stripped hulks moored across the river, wreckage on deck",
+   "not_shows": "place not named; date estimated; negative has a white tape strip at top",
+   "w": 3840,
+   "h": 3109
+  },
+  {
+   "stem": "wms_1925_35383",
+   "group": "A",
+   "file": "src/photos/wms_1925_35383.jpg",
+   "title": "Western Marine & Salvage Co. (LC-F8- 35383 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016839751/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[1925]",
+   "shows": "WM&S [1925]: a row of wooden hulls with deckhouses, a broken mast/pile in the foreground, more hulls in the distance",
+   "not_shows": "place not named (possibly the Widewater anchorage); date estimated",
+   "w": 3840,
+   "h": 3124
+  },
+  {
+   "stem": "wms_1925_35386",
+   "group": "A",
+   "file": "src/photos/wms_1925_35386.jpg",
+   "title": "Western Marine & Salvage Co. (LC-F8- 35386 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016839752/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[1925]",
+   "shows": "WM&S [1925]: hulks along the horizon seen across choppy water",
+   "not_shows": "small subjects; place not named",
+   "w": 3840,
+   "h": 3141
+  },
+  {
+   "stem": "wms_1925_35388",
+   "group": "A",
+   "file": "src/photos/wms_1925_35388.jpg",
+   "title": "Western Marine & Salvage Co. (LC-F8- 35388 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016839753/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[1925]",
+   "shows": "WM&S [1925]: six men in overcoats and hats outside a small wooden railway station",
+   "not_shows": "people not identified; station sign not legible; not a ship image",
+   "w": 3840,
+   "h": 3087
+  },
+  {
+   "stem": "wms_1910_25_918",
+   "group": "A",
+   "file": "src/photos/wms_1910_25_918.jpg",
+   "title": "Western Marine & Salvage Co. (LC-F82- 918 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016825355/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[between 1910 and 1925]",
+   "shows": "WM&S: inside a big steel shop shed: piles of ship machinery and timber beside rail tracks",
+   "not_shows": "LoC date range 1910-1925; the shed (likely the former Virginia Shipbuilding plant, Alexandria) is not named",
+   "w": 3840,
+   "h": 3033
+  },
+  {
+   "stem": "wms_1910_25_919",
+   "group": "A",
+   "file": "src/photos/wms_1910_25_919.jpg",
+   "title": "Western Marine & Salvage Co. (LC-F82- 919 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016825356/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[between 1910 and 1925]",
+   "shows": "WM&S: a field of salvaged ship machinery - winches, steering gear, propellers - stretching to the river and buildings",
+   "not_shows": "same caveats; the 'stripped of metal' visual",
+   "w": 3840,
+   "h": 3033
+  },
+  {
+   "stem": "wms_1910_25_920",
+   "group": "A",
+   "file": "src/photos/wms_1910_25_920.jpg",
+   "title": "Western Marine & Salvage Co. (LC-F82- 920 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016825357/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[between 1910 and 1925]",
+   "shows": "WM&S: tumbled timber cribbing and beams with boilers/tanks stacked behind, a gantry crane",
+   "not_shows": "same caveats",
+   "w": 3840,
+   "h": 3036
+  },
+  {
+   "stem": "wms_1910_25_921",
+   "group": "A",
+   "file": "src/photos/wms_1910_25_921.jpg",
+   "title": "Western Marine & Salvage Co. (LC-F82- 921 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016825358/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[between 1910 and 1925]",
+   "shows": "WM&S: row of ship boilers/steam machinery lined up in front of a large shop building and water tower",
+   "not_shows": "same caveats",
+   "w": 3840,
+   "h": 3045
+  },
+  {
+   "stem": "wms_1910_25_922",
+   "group": "A",
+   "file": "src/photos/wms_1910_25_922.jpg",
+   "title": "Western Marine & Salvage Co. (LC-F82- 922 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016825359/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[between 1910 and 1925]",
+   "shows": "WM&S: inside a shop: heaps of piping coils and bent tube scrap",
+   "not_shows": "same caveats",
+   "w": 3840,
+   "h": 3040
+  },
+  {
+   "stem": "wms_1910_25_923",
+   "group": "A",
+   "file": "src/photos/wms_1910_25_923.jpg",
+   "title": "Western Marine & Salvage Co. (LC-F82- 923 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016825360/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[between 1910 and 1925]",
+   "shows": "WM&S: second view of the machinery field (near-duplicate of 919)",
+   "not_shows": "near-duplicate",
+   "w": 3840,
+   "h": 3053
+  },
+  {
+   "stem": "noaa_accomac_sassorossi",
+   "group": "A",
+   "file": "src/photos/noaa_accomac_sassorossi.jpg",
+   "title": "NOAA ONMS web image 20221110-accomac-02-1000.jpg (Accomac)",
+   "url": "https://sanctuaries.noaa.gov/mallows-potomac/shipwrecks/",
+   "rights": "Page credit verbatim: \"(Photo: Will Sassorossi/NOAA)\" (US Gov work, PD)",
+   "date": "",
+   "shows": "TODAY: the hull of Accomac (rusty steel car-ferry hull) lying in the river at Mallows Bay, osprey nests at bow and stern (Photo: Will Sassorossi/NOAA)",
+   "not_shows": "Accomac is a 1928 ferry, NOT one of the WWI wooden steamers; 1000 px only",
+   "w": 1000,
+   "h": 563
+  },
+  {
+   "stem": "noaa_aowa_mcintosh",
+   "group": "A",
+   "file": "src/photos/noaa_aowa_mcintosh.jpg",
+   "title": "NOAA ONMS web image 20221110-aowa-national-archives-01-1000.jpg (Aowa)",
+   "url": "https://sanctuaries.noaa.gov/mallows-potomac/shipwrecks/",
+   "rights": "Page credit verbatim: \"(Photo: Matt McIntosh/NOAA)\" - but file name says national-archives; archival image, PD either way if NARA - VERIFY",
+   "date": "",
+   "shows": "Archival photo of a hull launch seen from the ways: a wooden steamer (Aowa per NOAA page) sliding off, spectators in the foreground",
+   "not_shows": "NOAA page credits 'Photo: Matt McIntosh/NOAA' but the image is clearly an archival print and the file name says 'national-archives' - confirm the source before crediting; 1000 px",
+   "w": 1000,
+   "h": 563
+  },
+  {
+   "stem": "noaa_dertona_three_sisters",
+   "group": "A",
+   "file": "src/photos/noaa_dertona_three_sisters.jpg",
+   "title": "NOAA ONMS web image 20221115-dertona-02-1000.jpg (Moosabee and Dertona)",
+   "url": "https://sanctuaries.noaa.gov/mallows-potomac/shipwrecks/",
+   "rights": "Page credit verbatim: \"(Photo: Tyler Smith/NOAA)\" (US Gov work, PD)",
+   "date": "",
+   "shows": "TODAY: overgrown hull islands (Moosabee and Dertona, 'Three Sisters') in a cove, trees growing on the hulls (Photo: Tyler Smith/NOAA)",
+   "not_shows": "1000 px; which hull is which is only given by the NOAA caption",
+   "w": 1000,
+   "h": 563
+  },
+  {
+   "stem": "noaa_aerial_kayak_wrecks_mcintosh",
+   "group": "A",
+   "file": "src/photos/noaa_aerial_kayak_wrecks_mcintosh.jpg",
+   "title": "NOAA ONMS web image 20201113-mpnms-aerial-kayakwrecks-mattmcintosh.jpg",
+   "url": "https://sanctuaries.noaa.gov/mallows-potomac/involved/council.html",
+   "rights": "Page credit verbatim: \"Photo: Matt McIntosh/NOAA\" (US Gov work, PD)",
+   "date": "2020",
+   "shows": "TODAY drone view: a kayaker among the outlines of sunken hulls in Mallows Bay, wooded Maryland shore (Photo: Matt McIntosh/NOAA)",
+   "not_shows": "1600 px",
+   "w": 1600,
+   "h": 900
+  },
+  {
+   "stem": "noaa_kayaker_wrecks_mcintosh",
+   "group": "A",
+   "file": "src/photos/noaa_kayaker_wrecks_mcintosh.jpg",
+   "title": "NOAA ONMS web image 20211025-mallows-kayaker-1000.jpg",
+   "url": "https://sanctuaries.noaa.gov/mallows-potomac/visit/water.html",
+   "rights": "Page credit verbatim: \"Photo: Matt McIntosh/NOAA\" (US Gov work, PD)",
+   "date": "2021",
+   "shows": "TODAY drone view: rows of hull outlines and ribs at the surface, a kayaker in blue in the foreground (Photo: Matt McIntosh/NOAA)",
+   "not_shows": "1000 px; page alt text mislabels it as a buoy",
+   "w": 1000,
+   "h": 563
+  },
+  {
+   "stem": "noaa_osprey_nest_ship_mcintosh",
+   "group": "A",
+   "file": "src/photos/noaa_osprey_nest_ship_mcintosh.jpg",
+   "title": "NOAA ONMS web image 20200430-mb-nest-on-ship-1000.jpg",
+   "url": "https://sanctuaries.noaa.gov/mallows-potomac/about/",
+   "rights": "Page credit verbatim: \"Photo: Matt McIntosh/NOAA\" (US Gov work, PD)",
+   "date": "2020",
+   "shows": "TODAY: osprey nest on the rusted bow of a wreck (Photo: Matt McIntosh/NOAA)",
+   "not_shows": "likely the Accomac (steel ferry), not a wooden steamer - check",
+   "w": 1000,
+   "h": 563
+  },
+  {
+   "stem": "noaa_osprey_wreck_ruck",
+   "group": "A",
+   "file": "src/photos/noaa_osprey_wreck_ruck.jpg",
+   "title": "NOAA ONMS web image 20200430-mallows-osprey-1000.jpg",
+   "url": "https://sanctuaries.noaa.gov/mallows-potomac/shipwrecks/",
+   "rights": "Page credit verbatim: \"Photo: David J. Ruck/NOAA\" (NOAA staff photo = US Gov work, PD; confirm employee status)",
+   "date": "",
+   "shows": "TODAY: an osprey perched on the broken ribs of a wooden hull at the waterline (Photo: David J. Ruck/NOAA)",
+   "not_shows": "1000 px; confirm Ruck is a NOAA employee (credit reads '/NOAA')",
+   "w": 1000,
+   "h": 527
+  },
+  {
+   "stem": "noaa_flowerpot_wrecks_olson",
+   "group": "A",
+   "file": "src/photos/noaa_flowerpot_wrecks_olson.jpg",
+   "title": "NOAA ONMS web image 20240423-flower-pot-wrecks-1000.jpg",
+   "url": "https://sanctuaries.noaa.gov/mallows-potomac/science/ecology/",
+   "rights": "Page credit verbatim: \"Photo: Kevin Olson/NOAA\" (US Gov work, PD)",
+   "date": "2024",
+   "shows": "TODAY drone view: 'flower-pot' hulls overgrown with trees in a creek mouth (Photo: Kevin Olson/NOAA)",
+   "not_shows": "1000 px",
+   "w": 1000,
+   "h": 563
+  },
+  {
+   "stem": "naip_mallows_wrecks_004",
+   "group": "A",
+   "file": "src/photos/naip_mallows_wrecks_004.jpg",
+   "title": "USGS NAIP orthoimagery export (004)",
+   "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer",
+   "rights": "USGS service copyrightText: \"USGS, USDA, The National Map: Orthoimagery. January 09, 2025.\" (US Government work, public domain)",
+   "date": "NAIP (recent; service Jan 2025)",
+   "shows": "USGS/USDA NAIP orthophoto (summer), bbox -77.2735,38.4718 to -77.2645,38.4758: the hull outlines in Mallows Bay clearly visible as dark shapes in the water and as tree-covered 'hull islands' along the shore",
+   "not_shows": "NAIP mosaic date not stamped on the export (service says data Jan 2025); 3840x2160 at ~0.3 m/px upsampled from 0.6 m",
+   "w": 3840,
+   "h": 2160
+  },
+  {
+   "stem": "naip_mallows_bay_008",
+   "group": "A",
+   "file": "src/photos/naip_mallows_bay_008.jpg",
+   "title": "USGS NAIP orthoimagery export (008)",
+   "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer",
+   "rights": "USGS service copyrightText: \"USGS, USDA, The National Map: Orthoimagery. January 09, 2025.\" (US Government work, public domain)",
+   "date": "NAIP (recent; service Jan 2025)",
+   "shows": "NAIP orthophoto, bbox centred 38.4726N 77.2686W, 0.008 deg tall: the bay, the creek, the hull outlines and the park access road",
+   "not_shows": "faint hulls; water turbid",
+   "w": 3840,
+   "h": 2160
+  },
+  {
+   "stem": "naip_mallows_mid_020",
+   "group": "A",
+   "file": "src/photos/naip_mallows_mid_020.jpg",
+   "title": "USGS NAIP orthoimagery export (020)",
+   "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer",
+   "rights": "USGS service copyrightText: \"USGS, USDA, The National Map: Orthoimagery. January 09, 2025.\" (US Government work, public domain)",
+   "date": "NAIP (recent; service Jan 2025)",
+   "shows": "NAIP orthophoto, 0.02 deg tall: the Maryland shore around Mallows Bay and the river",
+   "not_shows": "hulls not visible at this scale; mosaic seams",
+   "w": 3840,
+   "h": 2160
+  },
+  {
+   "stem": "naip_mallows_wide_080",
+   "group": "A",
+   "file": "src/photos/naip_mallows_wide_080.jpg",
+   "title": "USGS NAIP orthoimagery export (080)",
+   "url": "https://imagery.nationalmap.gov/arcgis/rest/services/USGSNAIPImagery/ImageServer",
+   "rights": "USGS service copyrightText: \"USGS, USDA, The National Map: Orthoimagery. January 09, 2025.\" (US Government work, public domain)",
+   "date": "NAIP (recent; service Jan 2025)",
+   "shows": "NAIP orthophoto, 0.08 deg tall: the Potomac bend with Quantico airfield (Virginia side, upper left) and Nanjemoy peninsula",
+   "not_shows": "seams between NAIP tiles; wrecks not visible",
+   "w": 3840,
+   "h": 2160
+  },
+  {
+   "stem": "usgs_mallows_tight",
+   "group": "A",
+   "file": "src/photos/usgs_mallows_tight.jpg",
+   "title": "USGS The National Map, Imagery Only basemap export",
+   "url": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer",
+   "rights": "USGS service copyrightText: \"USDA, USGS The National Map: Orthoimagery. Data refreshed June, 2024.\" (US Government work, public domain)",
+   "date": "recent (service data June 2024)",
+   "shows": "USGS Imagery Only basemap, 0.01 deg tall: Mallows Bay shore with faint hull shapes",
+   "not_shows": "older/different mosaic than NAIP; hulls faint",
+   "w": 4096,
+   "h": 2304
+  },
+  {
+   "stem": "usgs_mallows_close",
+   "group": "A",
+   "file": "src/photos/usgs_mallows_close.jpg",
+   "title": "USGS The National Map, Imagery Only basemap export",
+   "url": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer",
+   "rights": "USGS service copyrightText: \"USDA, USGS The National Map: Orthoimagery. Data refreshed June, 2024.\" (US Government work, public domain)",
+   "date": "recent (service data June 2024)",
+   "shows": "USGS Imagery Only basemap, 0.022 deg tall: the bay and creek",
+   "not_shows": "hulls barely visible; seam lines in water",
+   "w": 4096,
+   "h": 2304
+  },
+  {
+   "stem": "usgs_mallows_mid",
+   "group": "A",
+   "file": "src/photos/usgs_mallows_mid.jpg",
+   "title": "USGS The National Map, Imagery Only basemap export",
+   "url": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer",
+   "rights": "USGS service copyrightText: \"USDA, USGS The National Map: Orthoimagery. Data refreshed June, 2024.\" (US Government work, public domain)",
+   "date": "recent (service data June 2024)",
+   "shows": "USGS Imagery Only basemap, 0.06 deg: the river and both shores, Quantico on the Virginia side",
+   "not_shows": "colour seams in water",
+   "w": 4096,
+   "h": 2304
+  },
+  {
+   "stem": "usgs_mallows_wide",
+   "group": "A",
+   "file": "src/photos/usgs_mallows_wide.jpg",
+   "title": "USGS The National Map, Imagery Only basemap export",
+   "url": "https://basemap.nationalmap.gov/arcgis/rest/services/USGSImageryOnly/MapServer",
+   "rights": "USGS service copyrightText: \"USDA, USGS The National Map: Orthoimagery. Data refreshed June, 2024.\" (US Government work, public domain)",
+   "date": "recent (service data June 2024)",
+   "shows": "USGS Imagery Only basemap, 0.2 deg: the Potomac from Quantico/Widewater down past Mallows Bay to the Nanjemoy peninsula - good for a map move",
+   "not_shows": "mosaic colour seams; no labels",
+   "w": 4096,
+   "h": 2304
+  },
+  {
+   "stem": "ferris_christening_1918_a",
+   "group": "B",
+   "file": "src/photos/ferris_christening_1918_a.jpg",
+   "title": "111-SC-6885: 111-SC-6885 - Christening the first wood ship of the Ferris type to be launched on the Atlantic Coast",
+   "url": "https://catalog.archives.gov/id/55174600",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"}",
+   "date": "1918-03-19",
+   "shows": "19 Mar 1918, Foundation Shipbuilding Co., Harrison (Passaic River), N.J.: launching of the COYOTE, first Ferris-type wooden ship on the Atlantic Coast - general view, Coyote on the ways with two more hulls building, crowd (Lt. E.M. deBerri, Signal Corps)",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; a cropped version src/photos/ferris_christening_1918_a_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 3033
+  },
+  {
+   "stem": "ferris_christening_1918_b",
+   "group": "B",
+   "file": "src/photos/ferris_christening_1918_b.jpg",
+   "title": "111-SC-6889: 111-SC-6889 - Christening the first wood ship of the Ferris type to be launched on the Atlantic Coast",
+   "url": "https://catalog.archives.gov/id/55174608",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"}",
+   "date": "1918-03-19",
+   "shows": "Same launch: crowded grandstand and the Coyote's bow/prow on the ways, flags",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; a cropped version src/photos/ferris_christening_1918_b_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 3033
+  },
+  {
+   "stem": "ferris_christening_1918_c",
+   "group": "B",
+   "file": "src/photos/ferris_christening_1918_c.jpg",
+   "title": "111-SC-6890: 111-SC-6890 - Christening the first wood ship of the Ferris type to be launched on the Atlantic Coast",
+   "url": "https://catalog.archives.gov/id/55174610",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"}",
+   "date": "1918-03-19",
+   "shows": "Same launch: Coyote's hull on the ways with bunting, staging around it, car in front",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; a cropped version src/photos/ferris_christening_1918_c_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 3033
+  },
+  {
+   "stem": "launch_503m_16",
+   "group": "B",
+   "file": "src/photos/launch_503m_16.jpg",
+   "title": "165-WW-503M-16: Ship Building - Wooden - Launchings [165-WW-503M-16]",
+   "url": "https://catalog.archives.gov/id/45548090",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "Close-up: Miss Phyllis Hughes (fur collar, flowers) christening the COYOTE, 19 Mar 1918; card: 'first wooden ship launched on Atlantic coast... Ferris wooden ship type... speed of ten knots'",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; photographer '(C) Und. & Und.' (Underwood & Underwood) - commercial press photo, NARA marks Unrestricted; a cropped version src/photos/launch_503m_16_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 2635
+  },
+  {
+   "stem": "launch_503m_01",
+   "group": "B",
+   "file": "src/photos/launch_503m_01.jpg",
+   "title": "165-WW-503M-1: Ship Building - Wooden - Launchings [165-WW-503M-1]",
+   "url": "https://catalog.archives.gov/id/45548060",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "June 1918, Kearny N.J.: launching of two wooden ships 'Congaree' and 'Cowete' 15 minutes apart - workers on the launching platform under a hull named COPPA? (bow lettering)",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; Central News Photo Service (commercial); bow name partly legible - do not name the ship on screen; a cropped version src/photos/launch_503m_01_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 2635
+  },
+  {
+   "stem": "launch_503m_05",
+   "group": "B",
+   "file": "src/photos/launch_503m_05.jpg",
+   "title": "165-WW-503M-5: Ship Building - Wooden - Launchings [165-WW-503M-5]",
+   "url": "https://catalog.archives.gov/id/45548068",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "'Speeding up shipbuilding': one minute after the Accoma left the ways at a N.J. yard, workmen lower the first beam of the next keel; the launched Accoma floats beyond",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; Central News Photo Service; 'Accoma' is NOT the Accomac ferry at Mallows Bay; a cropped version src/photos/launch_503m_05_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 2635
+  },
+  {
+   "stem": "launch_503m_10",
+   "group": "B",
+   "file": "src/photos/launch_503m_10.jpg",
+   "title": "165-WW-503M-10: Ship Building - Wooden - Launchings [165-WW-503M-10]",
+   "url": "https://catalog.archives.gov/id/45548078",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "U.S.S. Accoma sliding off the ways at the Foundation Co. yard, N.Y. (1918) - photo stored rotated 90 deg on the card",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; rotate 90 deg; Accoma is not the Accomac; a cropped version src/photos/launch_503m_10_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 2635
+  },
+  {
+   "stem": "launch_503m_20",
+   "group": "B",
+   "file": "src/photos/launch_503m_20.jpg",
+   "title": "165-WW-503M-20: Ship Building - Wooden - Launchings [165-WW-503M-20]",
+   "url": "https://catalog.archives.gov/id/45548098",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "Morey & Thomas, Jacksonville, Fla., 27 Jun 1918: hull no. 378 launched, splash, crowd",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; small photo on the card",
+   "w": 3840,
+   "h": 2635
+  },
+  {
+   "stem": "launch_503m_30",
+   "group": "B",
+   "file": "src/photos/launch_503m_30.jpg",
+   "title": "165-WW-503M-30: Ship Building - Wooden - Launchings [165-WW-503M-30]",
+   "url": "https://catalog.archives.gov/id/45548118",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "Launching the S.S. TOLO at the Passaic River shipyards, 26 Oct 1918: a blunt wooden hull sliding down between the staging (bow-on)",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; '(C) Und. & Und.'; a cropped version src/photos/launch_503m_30_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 2635
+  },
+  {
+   "stem": "launch_503m_40",
+   "group": "B",
+   "file": "src/photos/launch_503m_40.jpg",
+   "title": "165-WW-503M-40: Ship Building - Wooden - Launchings [165-WW-503M-40]",
+   "url": "https://catalog.archives.gov/id/45548138",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "Same 'Speeding up shipbuilding' story: the Accoma just off the ways (bow-on), workers start the next keel in the foreground",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; Central News Photo Service; a cropped version src/photos/launch_503m_40_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 2635
+  },
+  {
+   "stem": "launch_503m_50",
+   "group": "B",
+   "file": "src/photos/launch_503m_50.jpg",
+   "title": "165-WW-503M-50: Ship Building - Wooden - Launchings [165-WW-503M-50]",
+   "url": "https://catalog.archives.gov/id/45548158",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "McEachern Ship Co., Astoria, Ore., 11 Sep 1918: launch of S.S. KLAMATH, hull no. 664, flags overhead (EFC photo)",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; a cropped version src/photos/launch_503m_50_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 2635
+  },
+  {
+   "stem": "vessel_505a_04",
+   "group": "B",
+   "file": "src/photos/vessel_505a_04.jpg",
+   "title": "165-WW-505A-4: Ship Building - Wooden - Vessels [165-WW-505A-4]",
+   "url": "https://catalog.archives.gov/id/45548455",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "S.S. ANDRA of the EFC, bow-on in dazzle camouflage, 18 Aug 1918",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; Andra hull type (wood/steel) not stated on the card; a cropped version src/photos/vessel_505a_04_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 2635
+  },
+  {
+   "stem": "vessel_505a_14",
+   "group": "B",
+   "file": "src/photos/vessel_505a_14.jpg",
+   "title": "165-WW-505A-14: Ship Building - Wooden - Vessels [165-WW-505A-14]",
+   "url": "https://catalog.archives.gov/id/45548475",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "Trial trip of S.S. BOXLEY from Grant Smith-Porter Co., Portland, Ore., Sept 1918: dazzle-painted wooden steamer under way, smoke, flag",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; a cropped version src/photos/vessel_505a_14_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 2635
+  },
+  {
+   "stem": "vessel_505a_22",
+   "group": "B",
+   "file": "src/photos/vessel_505a_22.jpg",
+   "title": "165-WW-505A-22: Ship Building - Wooden - Vessels [165-WW-505A-22]",
+   "url": "https://catalog.archives.gov/id/45548491",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "S.S. CUMBERLAND of the EFC in dazzle camouflage, at anchor",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; not stated whether wooden; a cropped version src/photos/vessel_505a_22_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 2635
+  },
+  {
+   "stem": "vessel_505a_32",
+   "group": "B",
+   "file": "src/photos/vessel_505a_32.jpg",
+   "title": "165-WW-505A-32: Ship Building - Wooden - Vessels [165-WW-505A-32]",
+   "url": "https://catalog.archives.gov/id/45548511",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "Hull 204 'LAFORGE', McBride & Law, Beaumont, Texas, 26 Feb 1919: dazzle-painted hull at a fitting-out quay, crane",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; a cropped version src/photos/vessel_505a_32_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 2635
+  },
+  {
+   "stem": "vessel_505a_42",
+   "group": "B",
+   "file": "src/photos/vessel_505a_42.jpg",
+   "title": "165-WW-505A-42: Ship Building - Wooden - Vessels [165-WW-505A-42]",
+   "url": "https://catalog.archives.gov/id/45548531",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "Kruse & Banks yards, North Bend, Oregon, June 1918: bow of the completed wooden steamer 'North Bend' (photo stored rotated)",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; rotate 90 deg; a cropped version src/photos/vessel_505a_42_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 2635
+  },
+  {
+   "stem": "pacific_american_wooden_1917",
+   "group": "B",
+   "file": "src/photos/pacific_american_wooden_1917.jpg",
+   "title": "165-EO-2C(1): Wooden ship built for United States Shipping Board Emergency Fleet Corporation, by Pacific American Fisheries, Bellingham, Washington, 1918. Grosart Studio.",
+   "url": "https://catalog.archives.gov/id/533163",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"}",
+   "date": "",
+   "shows": "Wooden EFC steamer in dazzle camouflage at Pacific American Fisheries, Bellingham, Wash. (hull no. 1201, 30 Oct 1918 on the print; NARA: 1918, Grosart Studio)",
+   "not_shows": "NARA date field reads 1917 in the series - print says Oct 30 1918",
+   "w": 3000,
+   "h": 2275
+  },
+  {
+   "stem": "efc_building_ships",
+   "group": "B",
+   "file": "src/photos/efc_building_ships.jpg",
+   "title": "165-WW-273A-53: Merchant Marine - Well-Known Vessels - BUILDING SHIPS FOR U.S. GOVERNMENT UNDER DIRECTION OF EMERGENCY FLEET CORPORATION. Middle Atlantic District. S.S. Berwyn Hull No. 1243, 9-26-18. Bethlehem Shipbuilding Corp., Ltd",
+   "url": "https://catalog.archives.gov/id/45500012",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "S.S. BERWYN (hull 1243) afloat in dazzle paint, Bethlehem Sparrows Point, Md., 26 Sep 1918",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; STEEL ship, not wooden",
+   "w": 3840,
+   "h": 2637
+  },
+  {
+   "stem": "alabama_dd_wooden",
+   "group": "B",
+   "file": "src/photos/alabama_dd_wooden.jpg",
+   "title": "165-WW-500A-6: Ship Building - Wooden - Alabama Drydock And Shipbuilding Co. - ALABAMA DRY DOCK & SHIPBLDG. CO., GULF DEPT. MOBILE, ALA. CONSTRUCTION OF WOODEN SHIPS FOR EMERGENCY FLEET CORPORATION.",
+   "url": "https://catalog.archives.gov/id/55249751",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "Alabama Dry Dock & Shipbuilding Co., Mobile, 1917: site being prepared - test piles and launching ways for standard wooden ships, hulls 332-333 (panorama)",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; two-part panorama",
+   "w": 3840,
+   "h": 1526
+  },
+  {
+   "stem": "alabama_dd_hull332_1918",
+   "group": "B",
+   "file": "src/photos/alabama_dd_hull332_1918.jpg",
+   "title": "165-WW-500A-8: Ship Building - Wooden - Alabama Drydock And Shipbuilding Co. - PROGRESS OF CONSTRUCTION ON Hull No. 332, wooden ship for U.S. Shipping Board.",
+   "url": "https://catalog.archives.gov/id/55249756",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "Alabama Dry Dock, Mobile: hull no. 332 wooden ship in frame on the ways with stacked timber, pile driver (print stamped 'Nov 30 1917')",
+   "not_shows": "NARA says 11/30/1918; print stamp reads 1917 - use 'late 1917'; panorama on card, crop",
+   "w": 3840,
+   "h": 1745
+  },
+  {
+   "stem": "alabama_dd_ways_1918",
+   "group": "B",
+   "file": "src/photos/alabama_dd_ways_1918.jpg",
+   "title": "165-WW-500A-10: Ship Building - Wooden - Alabama Drydock And Shipbuilding Co. - LAUNCHING WAYS NUMBERS 2 & 3 nearing completion with keel laid for wooden ship for U.S. Shipping Board.",
+   "url": "https://catalog.archives.gov/id/55249762",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "Alabama Dry Dock, Mobile: launching ways 2 & 3 nearing completion with keel laid; four-masted schooners in the river behind (print stamped 'Oct 30 1917')",
+   "not_shows": "date conflict as above; schooners are not EFC ships",
+   "w": 3840,
+   "h": 1842
+  },
+  {
+   "stem": "freeport_me_yard_1918",
+   "group": "B",
+   "file": "src/photos/freeport_me_yard_1918.jpg",
+   "title": "165-WW-501A-1: Ship Building - Wooden - Freeport SB Co., Maine - WOODEN SHIP CONSTRUCTION. FREEPORT SHIPBUILDING CO., FREEPORT, MAINE. Panorama of the yards showing wooden vessel under construction.",
+   "url": "https://catalog.archives.gov/id/55249767",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "Freeport Shipbuilding Co., Freeport, Maine, 21 Jan 1918: snowy panorama of the yard, a wooden hull under construction (U.S. Shipping Board photo)",
+   "not_shows": "small hull in a wide winter panorama",
+   "w": 3840,
+   "h": 1600
+  },
+  {
+   "stem": "jahncke_madisonville_yard",
+   "group": "B",
+   "file": "src/photos/jahncke_madisonville_yard.jpg",
+   "title": "165-WW-504A-22: Ship Building - Wooden - Miscellaneous Companies - JAHNCKE SHIPBUILDING CO. INC., MADISONVILLE, LOUISIANA. General view showing shipways and plant.",
+   "url": "https://catalog.archives.gov/id/55249775",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "Jahncke Shipbuilding Co., Madisonville, La., 30 Sep 1917: panorama of the riverside yard and ways under construction (U.S. Shipping Board photo)",
+   "not_shows": "Jahncke later built Bayou Teche (a Mallows wreck) - the photo itself shows no named hull; very wide panorama",
+   "w": 3840,
+   "h": 850
+  },
+  {
+   "stem": "wooden_construction_1918",
+   "group": "B",
+   "file": "src/photos/wooden_construction_1918.jpg",
+   "title": "165-WW-504A-40: Ship Building - Wooden - Miscellaneous Companies - WOODEN SHIP CONSTRUCTION.",
+   "url": "https://catalog.archives.gov/id/55249777",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "21 Jun 1918: three-part panorama of a large wooden-ship yard with many hulls on the ways and timber stacks (photographer I. Underhill)",
+   "not_shows": "yard not named on the record; panorama, crop",
+   "w": 3840,
+   "h": 970
+  },
+  {
+   "stem": "national_sb_hulls",
+   "group": "B",
+   "file": "src/photos/national_sb_hulls.jpg",
+   "title": "165-WW-504A-72: Ship Building - Wooden - Miscellaneous Companies - VIEW SHOWING HULLS UNDER CONSTRUCTION.",
+   "url": "https://catalog.archives.gov/id/55249779",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "National Shipbuilding Co., Orange, Texas (1918): panorama of several hulls in frame under derricks",
+   "not_shows": "panorama on card; probably wooden but card says only 'hulls'",
+   "w": 3840,
+   "h": 1882
+  },
+  {
+   "stem": "keel_laid_tribune",
+   "group": "B",
+   "file": "src/photos/keel_laid_tribune.jpg",
+   "title": "165-WW-509A-33: Ship Building - Wooden - Miscellaneous Companies - HOW A KEEL IS LAID.",
+   "url": "https://catalog.archives.gov/id/55249782",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"} (series: American Unofficial Collection of WWI Photographs - many are commercial press/company photos; NARA marks them Unrestricted)",
+   "date": "",
+   "shows": "New York Tribune picture page 9 Jun 1918 'How a Keel Is Laid': a wooden hull leaving the ways at Portland (Foundation Co.) and the next keel laid within seconds",
+   "not_shows": "a printed newspaper page photographed on a card; commercial newspaper photos",
+   "w": 3840,
+   "h": 1767
+  },
+  {
+   "stem": "wooden_ships_ways_gulf_1918",
+   "group": "B",
+   "file": "src/photos/wooden_ships_ways_gulf_1918.jpg",
+   "title": "111-SC-2290: 111-SC-2290 - Lumbering in Alabama, Florida, Louisiana, and Mississippi - Wooden ships on the ways",
+   "url": "https://catalog.archives.gov/id/55165935",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"}",
+   "date": "1918-01",
+   "shows": "Jan 1918 (Lt. Lentz, Signal Corps), 'Lumbering in Ala., Fla., La. & Miss.': wooden ships on the ways in a Gulf yard, smokestacks behind",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; yard and town not named; a cropped version src/photos/wooden_ships_ways_gulf_1918_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 3032
+  },
+  {
+   "stem": "wooden_ship_launched_gulf_1918",
+   "group": "B",
+   "file": "src/photos/wooden_ship_launched_gulf_1918.jpg",
+   "title": "111-SC-2293: 111-SC-2293 - Lumbering in Alabama, Florida, Louisiana, and Mississippi - Wooden ship (launched)",
+   "url": "https://catalog.archives.gov/id/55165941",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"}",
+   "date": "1918-01",
+   "shows": "Jan 1918 (Signal Corps): a newly launched wooden steamer afloat beside a timber yard, Gulf states",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; ship not named; a cropped version src/photos/wooden_ship_launched_gulf_1918_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 3032
+  },
+  {
+   "stem": "loggers_fir_wa_a",
+   "group": "B",
+   "file": "src/photos/loggers_fir_wa_a.jpg",
+   "title": "111-SC-2410: 111-SC-2410 - Lumbering - Cutting trees for wooden ship construction.  Loggers at work on a large Douglas Fir tree - State of Washington",
+   "url": "https://catalog.archives.gov/id/55166177",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"}",
+   "date": "1918-01",
+   "shows": "Jan 1918 (Signal Corps): loggers with axes and saw at the base of a huge Douglas fir, 'cutting trees for wooden ship construction', State of Washington",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; a cropped version src/photos/loggers_fir_wa_a_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 3032
+  },
+  {
+   "stem": "loggers_fir_wa_b",
+   "group": "B",
+   "file": "src/photos/loggers_fir_wa_b.jpg",
+   "title": "111-SC-2415: 111-SC-2415 - Lumbering - timber for wooden ships (State of Washington).  Loggers at work on Douglas fir tree for use in construction of wooden ships.",
+   "url": "https://catalog.archives.gov/id/55166187",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"}",
+   "date": "1918-01",
+   "shows": "Jan 1918 (Signal Corps): loggers on springboards cutting a giant Douglas fir for wooden ships, Washington",
+   "not_shows": "print mounted on a NARA caption card: crop to the photo area before use; a cropped version src/photos/loggers_fir_wa_b_c.jpg also exists (made outside this pass)",
+   "w": 3840,
+   "h": 3032
+  },
+  {
+   "stem": "bain_astoria_almost_complete",
+   "group": "B",
+   "file": "src/photos/bain_astoria_almost_complete.jpg",
+   "title": "McEachern Yard, Astoria -- wooden ship almost complete (LC-B2- 4249-8 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2014704926/",
+   "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+   "date": "[between ca. 1915 and ca. 1920]",
+   "shows": "McEachern Yard, Astoria, Ore.: big wooden hull almost complete under a canvas shelter, scaffolding (Bain News)",
+   "not_shows": "LoC date 'between ca. 1915 and ca. 1920'",
+   "w": 3840,
+   "h": 2724
+  },
+  {
+   "stem": "bain_astoria_interior",
+   "group": "B",
+   "file": "src/photos/bain_astoria_interior.jpg",
+   "title": "McEachern Yard, Astoria -- interior wooden ship (LC-B2- 4249-10 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2014704928/",
+   "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+   "date": "[between ca. 1915 and ca. 1920]",
+   "shows": "McEachern Yard, Astoria: inside a wooden hull - rows of massive frames and ceiling planks, keelson down the middle",
+   "not_shows": "date range as above; superb 'skeleton' image",
+   "w": 3840,
+   "h": 2810
+  },
+  {
+   "stem": "bain_portland_supple_ballin",
+   "group": "B",
+   "file": "src/photos/bain_portland_supple_ballin.jpg",
+   "title": "Wooden ships at Supple & Ballin Yards, Portland, Ore. (LC-B2- 4249-11 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2014704929/",
+   "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+   "date": "[between ca. 1915 and ca. 1920]",
+   "shows": "Wooden ships in frame at Supple & Ballin yards, Portland, Ore.",
+   "not_shows": "date range as above",
+   "w": 3840,
+   "h": 2781
+  },
+  {
+   "stem": "bain_peninsula_yard_portland",
+   "group": "B",
+   "file": "src/photos/bain_peninsula_yard_portland.jpg",
+   "title": "Peninsula yard, Portland, Ore. (LC-B2- 4249-9 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2014704927/",
+   "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+   "date": "[between ca. 1915 and ca. 1920]",
+   "shows": "Peninsula yard, Portland, Ore.: wooden ship almost complete on the ways, timber in foreground (negative also captioned McEachern Yards, Astoria - double caption)",
+   "not_shows": "caption on the negative is ambiguous (two yard names)",
+   "w": 3840,
+   "h": 2800
+  },
+  {
+   "stem": "bain_columbia_motor_schooners",
+   "group": "B",
+   "file": "src/photos/bain_columbia_motor_schooners.jpg",
+   "title": "Columbia Engineering works, Oregon -- Auxiliary Motor Schooners (LC-B2- 4249-12 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2014704930/",
+   "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+   "date": "[between ca. 1915 and ca. 1920]",
+   "shows": "Columbia Engineering Works, Oregon: sheds and frames for auxiliary motor schooners",
+   "not_shows": "motor schooners, not the EFC steamers",
+   "w": 3840,
+   "h": 2797
+  },
+  {
+   "stem": "npc_wooden_ship_ways",
+   "group": "B",
+   "file": "src/photos/npc_wooden_ship_ways.jpg",
+   "title": "Wooden ship on ways (LC-F81- 4355 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016821892/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[between 1909 and 1920]",
+   "shows": "National Photo Co. 'Wooden ship on ways': planked wooden hull bow next to a hull in frame",
+   "not_shows": "date 1909-1920; yard not named",
+   "w": 3840,
+   "h": 2761
+  },
+  {
+   "stem": "npc_wooden_ship",
+   "group": "B",
+   "file": "src/photos/npc_wooden_ship.jpg",
+   "title": "Wooden ship (LC-F81- 4356 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016821893/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[between 1909 and 1920]",
+   "shows": "'Wooden ship': looking down the inside of an unplanked wooden hull, frames and floor timbers, workers",
+   "not_shows": "date/yard not named",
+   "w": 3840,
+   "h": 2743
+  },
+  {
+   "stem": "npc_wood_ship_bldg",
+   "group": "B",
+   "file": "src/photos/npc_wood_ship_bldg.jpg",
+   "title": "Wood ship bldg. (LC-F81- 4364 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016821899/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[between 1909 and 1920]",
+   "shows": "'Wood ship bldg.': frames rising on the ways, shores and staging",
+   "not_shows": "date/yard not named",
+   "w": 3840,
+   "h": 2791
+  },
+  {
+   "stem": "npc_hog_island_yards",
+   "group": "B",
+   "file": "src/photos/npc_hog_island_yards.jpg",
+   "title": "Hog Island ship yards (LC-F81- 4353 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016821890/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[between 1909 and 1920]",
+   "shows": "Hog Island yards: workers outside the CANTEEN/ENTRANCE reading the 'Hog Island News' at noon",
+   "not_shows": "Hog Island built STEEL ships",
+   "w": 3840,
+   "h": 2788
+  },
+  {
+   "stem": "npc_ny_ship_building_co",
+   "group": "B",
+   "file": "src/photos/npc_ny_ship_building_co.jpg",
+   "title": "N.Y. Ship Building Co. (LC-F81- 4354 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016821891/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[between 1909 and 1920]",
+   "shows": "N.Y. Ship Building Co. (Camden, N.J.): a steel hull in a covered shipway",
+   "not_shows": "STEEL ship; date 1909-1920",
+   "w": 2778,
+   "h": 3840
+  },
+  {
+   "stem": "vsc_betsy_bell_1919",
+   "group": "B",
+   "file": "src/photos/vsc_betsy_bell_1919.jpg",
+   "title": "Virginia Shipbuilding Corp., Alexandria, Va. Betsy Bell after launching, May 24, 1919; Gunston Hall in background (LC-F82- 10020 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016852526/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "1919 May 24.",
+   "shows": "Virginia Shipbuilding Corp., Alexandria, Va.: steel freighter BETSY BELL after launching, 24 May 1919, GUNSTON HALL in the background",
+   "not_shows": "steel ships; same Alexandria yard area later used by Western Marine & Salvage",
+   "w": 3840,
+   "h": 3043
+  },
+  {
+   "stem": "vsc_shipways_1919",
+   "group": "B",
+   "file": "src/photos/vsc_shipways_1919.jpg",
+   "title": "Shipways, Virginia Shipbuilding Corp., Feb 14, '19 (LC-F82- 10059 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016852554/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "1917 Nov.",
+   "shows": "Virginia Shipbuilding Corp. shipways, Alexandria, 14 Feb 1919: steel hulls in frame, cranes, plates in foreground",
+   "not_shows": "LoC date field says 1917 Nov.; negative says Feb 14 '19; steel ships",
+   "w": 3840,
+   "h": 3041
+  },
+  {
+   "stem": "efc_gunston_hall_launch_1919",
+   "group": "B",
+   "file": "src/photos/efc_gunston_hall_launch_1919.jpg",
+   "title": "EMERGENCY FLEET CORPORATION. LAUNCHING OF GUNSTON HALL AT ALEXANDRIA, BUILT FOR THE CORPORATION (LC-H261- 30043 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016869744/",
+   "rights": "No known restrictions on publication. For more information, see Harris & Ewing Photographs - Rights and Restrictions Information http://www.loc.gov/rr/print/res/140_harr.html",
+   "date": "1919.",
+   "shows": "Harris & Ewing 1919: crowd and bunting under the bow of the GUNSTON HALL at Alexandria before launch",
+   "not_shows": "steel ship",
+   "w": 3840,
+   "h": 2868
+  },
+  {
+   "stem": "schwab_hurley_1918",
+   "group": "B",
+   "file": "src/photos/schwab_hurley_1918.jpg",
+   "title": "Schwab - Mrs. E.J. Carnes - Hurley (LC-B2- 4733-8 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2014707844/",
+   "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+   "date": "[1918 Oct. 14]",
+   "shows": "14 Oct 1918: Charles Schwab, Mrs. E.J. Carnes and Edward N. Hurley on a launching platform beside a riveted steel hull (Bain)",
+   "not_shows": "a launch of a steel ship (Bain series 'Allies' at Newark?)",
+   "w": 3840,
+   "h": 2615
+  },
+  {
+   "stem": "schwab_greets_workers_1918",
+   "group": "B",
+   "file": "src/photos/schwab_greets_workers_1918.jpg",
+   "title": "Schwab greets ship workers (LC-B2- 4733-13 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2014707849/",
+   "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+   "date": "[1918 Oct. 14]",
+   "shows": "14 Oct 1918: 'Schwab greets ship workers' - crowd around Schwab at a shipyard launching stand",
+   "not_shows": "steel-ship yard",
+   "w": 3840,
+   "h": 2643
+  },
+  {
+   "stem": "hurley_1916",
+   "group": "B",
+   "file": "src/photos/hurley_1916.jpg",
+   "title": "E.N. Hurley (LC-B2- 3899-9 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2014702042/",
+   "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+   "date": "1916 June 29 (date created or published later by Bain)",
+   "shows": "Portrait: E.N. Hurley, 29 Jun 1916 (Bain)",
+   "not_shows": "1916, before he became Shipping Board chairman (1917)",
+   "w": 2797,
+   "h": 3840
+  },
+  {
+   "stem": "denman_brent_1917",
+   "group": "B",
+   "file": "src/photos/denman_brent_1917.jpg",
+   "title": "BRENT, THEODORE, SHIPPING BOARD; DENMAN, WILLIAM, SHIPPING BOARD CHAIRMAN (LC-H261- 6494 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016867009/",
+   "rights": "No known restrictions on publication. For more information, see Harris & Ewing Photographs - Rights and Restrictions Information http://www.loc.gov/rr/print/res/140_harr.html",
+   "date": "1917.",
+   "shows": "1917: Theodore Brent and William Denman, Shipping Board chairman, standing in the street (Harris & Ewing)",
+   "not_shows": "Denman led the Board in 1917 when the wooden program started",
+   "w": 2852,
+   "h": 3840
+  },
+  {
+   "stem": "poster_tidal_wave_1918",
+   "group": "B",
+   "file": "src/photos/poster_tidal_wave_1918.jpg",
+   "title": "The tidal wave--July 4, 1918--95 ships launched United States Shipping Board Emergency Fleet Corporation / (POS - US .U556, no. 1 (C size) [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2003652820/",
+   "rights": "No known restrictions on publication. For information see \"World War I Posters\" http://www.loc.gov/rr/print/res/243_wwipos.html",
+   "date": "[1918]",
+   "shows": "USSB/EFC poster 'The Tidal Wave - July 4, 1918 - 95 Ships Launched'",
+   "not_shows": "poster art; '95 ships' is the poster's claim",
+   "w": 2585,
+   "h": 3840
+  },
+  {
+   "stem": "poster_launching_victory_ship",
+   "group": "B",
+   "file": "src/photos/poster_launching_victory_ship.jpg",
+   "title": "Launching another victory ship United States Shipping Board, Emergency Fleet Corporation / (POS - US .P455, no. 3 (E size) [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2003652809/",
+   "rights": "No known restrictions on publication. For information see \"World War I Posters\" (http://lcweb.loc.gov/rr/print/res/243_wwipos.html)",
+   "date": "[1918]",
+   "shows": "USSB/EFC poster 'Launching Another Victory Ship' (Joseph Pennell lithograph of the launch of the 'Lake Janet', Great Lakes Engineering Works)",
+   "not_shows": "a Great Lakes steel freighter, not a wooden ship",
+   "w": 3840,
+   "h": 3087
+  },
+  {
+   "stem": "poster_teamwork_wins",
+   "group": "B",
+   "file": "src/photos/poster_teamwork_wins.jpg",
+   "title": "Teamwork wins - United States Shipping Board Emergency Fleet Corporation (POS - US .K58, no. 1 (C size) [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2002719757/",
+   "rights": "No known restrictions on publication. For information see \"World War I Posters\" (http://lcweb.loc.gov/rr/print/res/243_wwipos.html)",
+   "date": "[1917]",
+   "shows": "USSB/EFC poster 'Teamwork Wins' (riveters under the flag)",
+   "not_shows": "steel riveting imagery",
+   "w": 3071,
+   "h": 3840
+  },
+  {
+   "stem": "poster_ships_are_coming",
+   "group": "B",
+   "file": "src/photos/poster_ships_are_coming.jpg",
+   "title": "The ships are coming United States Shipping Board, Emergency Fleet Corporation / (POS - US .D38, no. 1 (C size) [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2002709073/",
+   "rights": "No known restrictions on publication. For information see \"World War I Posters\" (http://lcweb.loc.gov/rr/print/res/243_wwipos.html)",
+   "date": "[1917]",
+   "shows": "USSB/EFC poster 'The Ships Are Coming' (eagle over a shipyard)",
+   "not_shows": "",
+   "w": 3096,
+   "h": 3840
+  },
+  {
+   "stem": "poster_rivets_bayonets",
+   "group": "B",
+   "file": "src/photos/poster_rivets_bayonets.jpg",
+   "title": "Rivets are bayonets - Drive them home! (POS - US .S47, no. 1 (C size) [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2002722565/",
+   "rights": "No known restrictions on publication. For information see \"World War I Posters\" http://www.loc.gov/rr/print/res/243_wwipos.html",
+   "date": "[1917]",
+   "shows": "USSB/EFC poster 'Rivets Are Bayonets - Drive Them Home!' (J.E. Sheridan)",
+   "not_shows": "steel-ship imagery",
+   "w": 2532,
+   "h": 3840
+  },
+  {
+   "stem": "poster_hip_hip_another_ship",
+   "group": "B",
+   "file": "src/photos/poster_hip_hip_another_ship.jpg",
+   "title": "Hip-hip! Another ship - another victory United States Shipping Board, Emergency Fleet Corporation / (POS - US .W77, no. 1 (H size) [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2003652811/",
+   "rights": "No known restrictions on publication. For information see \"World War I Posters\" (http://lcweb.loc.gov/rr/print/res/243_wwipos.html)",
+   "date": "[1918]",
+   "shows": "USSB/EFC poster 'hip-hip! Another Ship - Another Victory'",
+   "not_shows": "",
+   "w": 3064,
+   "h": 3840
+  },
+  {
+   "stem": "poster_shoot_ships_schwab",
+   "group": "B",
+   "file": "src/photos/poster_shoot_ships_schwab.jpg",
+   "title": "4-P-45: Shoot Ships to Germany and help America Win- Schwab",
+   "url": "https://catalog.archives.gov/id/512484",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"}",
+   "date": "",
+   "shows": "USSB/EFC shipyard poster 'Shoot Ships to Germany and help America Win - Schwab' with a dazzle-painted freighter",
+   "not_shows": "NARA 4-P-45 scan of a shipyard placard",
+   "w": 2173,
+   "h": 3000
+  },
+  {
+   "stem": "poster_working_with_schwab",
+   "group": "B",
+   "file": "src/photos/poster_working_with_schwab.jpg",
+   "title": "4-P-46: \"Are You Working With Schwab? Charles M. Schwab, Director of the General Emergency Fleet Coropration says, \"I want everyone in the yards to understand that when we succeed in building these ships, the credit will belong to the men who actually built them. I want all the men in the shipyards to feel that they are working with me, not for me.\"",
+   "url": "https://catalog.archives.gov/id/512485",
+   "rights": "NARA useRestriction: {\"status\": \"Unrestricted\"}",
+   "date": "",
+   "shows": "USSB/EFC poster 'Are You Working With Schwab?' with a photo of Schwab in a shipyard and his quote",
+   "not_shows": "",
+   "w": 2023,
+   "h": 3000
+  },
+  {
+   "stem": "uboat_in_ny_1917",
+   "group": "C",
+   "file": "src/photos/uboat_in_ny_1917.jpg",
+   "title": "German U-Boat in N.Y. (LC-B2- 4378-15 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2014705736/",
+   "rights": "No known restrictions on publication. For more information, see George Grantham Bain Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/274_bain.html",
+   "date": "[1917]",
+   "shows": "Bain 1917 'German U-Boat in N.Y.': a captured German submarine hull on display on land, crowd",
+   "not_shows": "a display hull (likely the UC-5 exhibition boat), not at sea",
+   "w": 3840,
+   "h": 2618
+  },
+  {
+   "stem": "dc_from_monument_1925",
+   "group": "D",
+   "file": "src/photos/dc_from_monument_1925.jpg",
+   "title": "[View of Washington, D.C.] from Wash. Monument (LC-F81- 37539 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016850591/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[1925]",
+   "shows": "National Photo Co. [1925]: view from the Washington Monument over the temporary Navy/Munitions buildings toward the Potomac and the river bridges",
+   "not_shows": "the Potomac is in the distance; date estimated",
+   "w": 3840,
+   "h": 2763
+  },
+  {
+   "stem": "quantico_birdseye_1918",
+   "group": "D",
+   "file": "src/photos/quantico_birdseye_1918.jpg",
+   "title": "Birdseye view, N.D. Marine Barracks, Quantico, Va. (PAN US MILITARY - Camps no. 5 (F size) [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2007664091/",
+   "rights": "No known restrictions on publication. No renewal found in Copyright Office.",
+   "date": "c1918.",
+   "shows": "Panorama c1918: 'Birdseye view, N.D. Marine Barracks, Quantico, Va.' - the base and the Potomac beyond",
+   "not_shows": "very wide panorama (3840x618); 1918, not 1925",
+   "w": 3840,
+   "h": 618
+  },
+  {
+   "stem": "quantico_marines_1925",
+   "group": "D",
+   "file": "src/photos/quantico_marines_1925.jpg",
+   "title": "C.U. - Quantico marines, [10/31/25] (LC-F8- 38106 [P&P])",
+   "url": "https://www.loc.gov/pictures/item/2016841281/",
+   "rights": "No known restrictions on publication. For more information, see National Photo Company Collection - Rights and Restrictions Information https://www.loc.gov/rr/print/res/275_npco.html",
+   "date": "[1925 October 31]",
+   "shows": "31 Oct 1925: Quantico Marines football team in a muddy scrimmage vs Catholic University",
+   "not_shows": "football, not aviation; only useful as '1925 Quantico Marines' colour",
+   "w": 3840,
+   "h": 3105
+  }
+ ],
+ "films": [
+  {
+   "stem": "bridge_of_ships_r1",
+   "group": "B",
+   "file": "src/film/bridge_of_ships_r1.mp4",
+   "title": "111-M-148 \"Our Bridge of Ships\" (1918), reel 1 of 2 - US Official War Film, Signal Corps / CPI Division of Films",
+   "url": "https://catalog.archives.gov/id/35513",
+   "rights": "NARA useRestriction: {\"status\": \"Undetermined\"} - US Army Signal Corps / Committee on Public Information film = US Gov work; also published 1918 (pre-1931) => PD",
+   "duration": 849.1,
+   "res": "480p H.264 (transcoded from NARA mp4)",
+   "sheets": [
+    "bridge_of_ships_r1_01.jpg",
+    "bridge_of_ships_r1_02.jpg",
+    "bridge_of_ships_r1_03.jpg",
+    "bridge_of_ships_r1_04.jpg",
+    "bridge_of_ships_r1_05.jpg",
+    "bridge_of_ships_r1_06.jpg",
+    "bridge_of_ships_r1_07.jpg",
+    "bridge_of_ships_r1_08.jpg",
+    "bridge_of_ships_r1_09.jpg",
+    "bridge_of_ships_r1_10.jpg",
+    "bridge_of_ships_r1_11.jpg",
+    "bridge_of_ships_r1_12.jpg"
+   ],
+   "shots": [
+    {
+     "in": 0.0,
+     "out": 14.0,
+     "shows": "NARA leader card \"111 M 148 RL 1 of 2\", then black",
+     "not_shows": "unusable leader; trim"
+    },
+    {
+     "in": 14.0,
+     "out": 20.0,
+     "shows": "title card \"Official Film No. 148, Signal Corps U.S.A.\"",
+     "not_shows": "text card only"
+    },
+    {
+     "in": 20.0,
+     "out": 38.0,
+     "shows": "main title \"Our Bridge of Ships - United States Official War Film - released by Division of Films, Committee on Public Information\"",
+     "not_shows": "text card; dates the film to the 1918 CPI release"
+    },
+    {
+     "in": 38.0,
+     "out": 64.0,
+     "shows": "intertitle \"When the last smoke of this war clears away ... building a fleet of ships\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 64.0,
+     "out": 68.0,
+     "shows": "President Woodrow Wilson seated at a desk in a library (1918)",
+     "not_shows": "not a shipyard; no speech audio (silent)"
+    },
+    {
+     "in": 68.0,
+     "out": 78.0,
+     "shows": "intertitle \"When we can build ships faster than the U-Boats can sink them, the submarine peril will vanish...\"",
+     "not_shows": "text only; attributed quote"
+    },
+    {
+     "in": 78.0,
+     "out": 84.0,
+     "shows": "Shipping Board chairman (E.N. Hurley, per catalog) at desk reading papers; close-up of his face 82-84",
+     "not_shows": "identity from NARA description, not captioned on screen at this point"
+    },
+    {
+     "in": 84.0,
+     "out": 100.0,
+     "shows": "intertitle \"The working men of America can perform no greater patriotic service than by helping to build ships...\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 100.0,
+     "out": 104.0,
+     "shows": "Wilson at desk again",
+     "not_shows": "reuse of the 64-68 setup"
+    },
+    {
+     "in": 104.0,
+     "out": 128.0,
+     "shows": "intertitle \"E.N. Hurley, Chairman of the United States Shipping Board ... campaign to build 1,600 ships, with 6,000,000 tonnage in one year\"",
+     "not_shows": "text only; 1,600 is the 1918 target, not ships built"
+    },
+    {
+     "in": 128.0,
+     "out": 142.0,
+     "shows": "intertitle \"The United States can and will build ships. This means Victory...\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 142.0,
+     "out": 146.0,
+     "shows": "portrait close-up of Hurley",
+     "not_shows": ""
+    },
+    {
+     "in": 146.0,
+     "out": 180.0,
+     "shows": "men around a boardroom table (Shipping Board meeting), papers passed",
+     "not_shows": "board members not named on screen"
+    },
+    {
+     "in": 180.0,
+     "out": 192.0,
+     "shows": "intertitle \"The cry of outraged humanity has penetrated the deep forests of the South and West where 470 wooden ships with a tonnage of 1,666,000 are being rushed\"",
+     "not_shows": "text only; 470 is the 1918 claim, not the final count"
+    },
+    {
+     "in": 192.0,
+     "out": 210.0,
+     "shows": "loggers chopping a huge tree, tall trunks in forest",
+     "not_shows": "forest location not named (West Coast fir per catalog context)"
+    },
+    {
+     "in": 210.0,
+     "out": 224.0,
+     "shows": "intertitle \"These logs, transformed into a fleet of wooden ships, will carry ammunition...\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 224.0,
+     "out": 248.0,
+     "shows": "log pond and logging railway: logs dumped into water, log rafts, man walking on logs",
+     "not_shows": "which mill/state not named"
+    },
+    {
+     "in": 248.0,
+     "out": 262.0,
+     "shows": "intertitle \"The shriek of the saw mill is heard in every forest. This mill will turn out millions of feet of ship timber this year\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 262.0,
+     "out": 292.0,
+     "shows": "sawmill interior: logs rolled onto carriage, big saw cutting ship timber, sawn baulks",
+     "not_shows": "mill not named"
+    },
+    {
+     "in": 292.0,
+     "out": 302.0,
+     "shows": "intertitle \"Wooden ship-joiners and millmen like these render a patriotic service...\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 302.0,
+     "out": 308.0,
+     "shows": "worker with a pneumatic/boring tool on heavy timbers inside a wooden hull",
+     "not_shows": "yard not named"
+    },
+    {
+     "in": 308.0,
+     "out": 318.0,
+     "shows": "intertitle \"The men who are making this 3125-ton ship are bringing victory a step nearer\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 318.0,
+     "out": 322.0,
+     "shows": "interior of a wooden hull: workers on the floor timbers under the frames (bright opening at the end)",
+     "not_shows": "yard not named"
+    },
+    {
+     "in": 322.0,
+     "out": 332.0,
+     "shows": "intertitle \"Formerly it took five months to build an 8000 ton ship. Now Uncle Sam builds one in 55 days and soon will do it in 27 days\" (with roll/scroll artefacts)",
+     "not_shows": "text only; propaganda claim"
+    },
+    {
+     "in": 332.0,
+     "out": 336.0,
+     "shows": "wooden hulls in frame on the ways behind scaffolding",
+     "not_shows": "yard not named"
+    },
+    {
+     "in": 336.0,
+     "out": 344.0,
+     "shows": "intertitle \"Miss Frances Ann Harlow starts the 'Ypres' on its way from a Seattle shipyard...\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 344.0,
+     "out": 352.0,
+     "shows": "sponsor with flowers and ribbons; christening / ribbon cutting at the bow",
+     "not_shows": ""
+    },
+    {
+     "in": 352.0,
+     "out": 360.0,
+     "shows": "launch: hull slides down the ways seen from behind, between rows of staging poles",
+     "not_shows": "the 'Ypres' per title card; wooden hull type not verifiable on screen"
+    },
+    {
+     "in": 360.0,
+     "out": 370.0,
+     "shows": "intertitle \"The 'General Pershing,' first of the wooden 'Victory Ships' to be launched...\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 370.0,
+     "out": 380.0,
+     "shows": "launch of a hull with flags, camera pans along the stern sliding past (motion blur)",
+     "not_shows": "the 'General Pershing' per title; not Mallows Bay"
+    },
+    {
+     "in": 380.0,
+     "out": 388.0,
+     "shows": "General Pershing and staff officers walk past a Ford car (France)",
+     "not_shows": "not a shipyard; France, not US"
+    },
+    {
+     "in": 388.0,
+     "out": 408.0,
+     "shows": "intertitle \"An example of what Uncle Sam can do ... Hog Island with 50 ways completed in 6 months\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 408.0,
+     "out": 430.0,
+     "shows": "pile driving at Hog Island: workers guide a pile, rows of cut-off piles",
+     "not_shows": "Hog Island is a STEEL-ship yard; not wooden ships"
+    },
+    {
+     "in": 430.0,
+     "out": 440.0,
+     "shows": "intertitle \"Scenes at the greatest shipyard, Hog Island, Phila. Pa.\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 440.0,
+     "out": 448.0,
+     "shows": "Hog Island ways: steel hull frames under gantry cranes",
+     "not_shows": "steel ships, not wooden"
+    },
+    {
+     "in": 448.0,
+     "out": 462.0,
+     "shows": "workers on a steel deck/keel plate on the ways; plates being laid",
+     "not_shows": "steel ships"
+    },
+    {
+     "in": 462.0,
+     "out": 484.0,
+     "shows": "close-up: oxy-acetylene torch cutting a round hole in steel plate, sparks",
+     "not_shows": "steel work, not wooden"
+    },
+    {
+     "in": 484.0,
+     "out": 492.0,
+     "shows": "wide shot: workers on deck plating of a hull on the ways",
+     "not_shows": "steel ships"
+    },
+    {
+     "in": 492.0,
+     "out": 506.0,
+     "shows": "huge crowd of shipyard workers (shift change / arriving)",
+     "not_shows": "Hog Island workers; not wooden-ship yard"
+    },
+    {
+     "in": 506.0,
+     "out": 512.0,
+     "shows": "intertitle \"Beginning the day in one of America's shipyards\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 512.0,
+     "out": 518.0,
+     "shows": "steel plates stacked in yard under cranes",
+     "not_shows": "steel"
+    },
+    {
+     "in": 518.0,
+     "out": 524.0,
+     "shows": "intertitle \"Expert pattern layers at work\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 524.0,
+     "out": 532.0,
+     "shows": "men chalking patterns on a steel plate on the floor",
+     "not_shows": "steel"
+    },
+    {
+     "in": 532.0,
+     "out": 544.0,
+     "shows": "overhead gantry crane lifts a steel plate in a fabrication yard",
+     "not_shows": "steel"
+    },
+    {
+     "in": 544.0,
+     "out": 552.0,
+     "shows": "intertitle \"Heavy steel plate is like tissue paper to the punching machine\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 552.0,
+     "out": 562.0,
+     "shows": "punching machine close-up",
+     "not_shows": "steel"
+    },
+    {
+     "in": 562.0,
+     "out": 568.0,
+     "shows": "intertitle \"Reaming a steel deck plate\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 568.0,
+     "out": 584.0,
+     "shows": "reamer close-up; man at a drill press",
+     "not_shows": "steel"
+    },
+    {
+     "in": 584.0,
+     "out": 596.0,
+     "shows": "intertitle \"Making it hot for the Kaiser. Steel plate is heated and made into various shapes\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 596.0,
+     "out": 620.0,
+     "shows": "furnace glow, men handling hot plate (dark)",
+     "not_shows": "steel; dark exposure"
+    },
+    {
+     "in": 620.0,
+     "out": 628.0,
+     "shows": "ladle pouring molten metal",
+     "not_shows": "foundry; not a shipyard per se"
+    },
+    {
+     "in": 628.0,
+     "out": 638.0,
+     "shows": "intertitle \"Our boys are making the stars fly in the shipyards over here...\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 638.0,
+     "out": 656.0,
+     "shows": "furnace / forge press, men at a large press",
+     "not_shows": "steel"
+    },
+    {
+     "in": 656.0,
+     "out": 666.0,
+     "shows": "intertitle \"Even the trip-hammer seems to say 'Let's go; we've got to get these 1,600 ships ready...'\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 666.0,
+     "out": 676.0,
+     "shows": "trip-hammer forging, sparks",
+     "not_shows": "steel"
+    },
+    {
+     "in": 676.0,
+     "out": 686.0,
+     "shows": "intertitle \"The ship's propeller weighs 5,200 pounds and is cast in one solid piece\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 686.0,
+     "out": 704.0,
+     "shows": "propellers in a machine shop, worker beside",
+     "not_shows": "steel/bronze propellers"
+    },
+    {
+     "in": 704.0,
+     "out": 710.0,
+     "shows": "intertitle \"Infinite care is taken to balance the propeller properly\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 710.0,
+     "out": 738.0,
+     "shows": "propeller blade machining; men grinding a blade",
+     "not_shows": ""
+    },
+    {
+     "in": 738.0,
+     "out": 750.0,
+     "shows": "intertitle \"When the final Government test is passed, the propeller is so perfect that a five-cent piece will unbalance it\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 750.0,
+     "out": 766.0,
+     "shows": "men balancing a propeller on a stand",
+     "not_shows": ""
+    },
+    {
+     "in": 766.0,
+     "out": 776.0,
+     "shows": "intertitle \"These parts, made by men of a hundred different trades, are classified and distributed...\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 776.0,
+     "out": 808.0,
+     "shows": "high-angle view of a large machine-shop/storage floor with parts",
+     "not_shows": ""
+    },
+    {
+     "in": 808.0,
+     "out": 820.0,
+     "shows": "intertitle \"23,000 shipbuilders on their way to the noontime lunch...\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 820.0,
+     "out": 840.0,
+     "shows": "huge crowd of shipyard workers, high angle",
+     "not_shows": "Hog Island workers presumably; not stated on screen"
+    },
+    {
+     "in": 840.0,
+     "out": 842.0,
+     "shows": "workers lined up in front of a wooden shed",
+     "not_shows": "cut off by reel end"
+    },
+    {
+     "in": 842.0,
+     "out": 849.0,
+     "shows": "tape dropout, \"END OF RECORDING\" card",
+     "not_shows": "unusable"
+    }
+   ]
+  },
+  {
+   "stem": "bridge_of_ships_r2",
+   "group": "B",
+   "file": "src/film/bridge_of_ships_r2.mp4",
+   "title": "111-M-148 \"Our Bridge of Ships\" (1918), reel 2 of 2",
+   "url": "https://catalog.archives.gov/id/35513",
+   "rights": "NARA useRestriction: {\"status\": \"Undetermined\"} - US Gov work (Signal Corps/CPI), 1918 => PD",
+   "duration": 726.8,
+   "res": "480p H.264 (transcoded from NARA mp4)",
+   "sheets": [
+    "bridge_of_ships_r2_01.jpg",
+    "bridge_of_ships_r2_02.jpg",
+    "bridge_of_ships_r2_03.jpg",
+    "bridge_of_ships_r2_04.jpg",
+    "bridge_of_ships_r2_05.jpg",
+    "bridge_of_ships_r2_06.jpg",
+    "bridge_of_ships_r2_07.jpg",
+    "bridge_of_ships_r2_08.jpg",
+    "bridge_of_ships_r2_09.jpg",
+    "bridge_of_ships_r2_10.jpg",
+    "bridge_of_ships_r2_11.jpg"
+   ],
+   "shots": [
+    {
+     "in": 0.0,
+     "out": 12.0,
+     "shows": "NARA leader \"111 M 148 RL 2 of 2\", black",
+     "not_shows": "unusable"
+    },
+    {
+     "in": 12.0,
+     "out": 16.0,
+     "shows": "intertitle \"Pay day. Uncle Sam is a generous employer.\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 16.0,
+     "out": 30.0,
+     "shows": "long queue of shipyard workers outside wooden pay sheds / \"Baldwins\" store",
+     "not_shows": "yard not named on screen (likely Hog Island area)"
+    },
+    {
+     "in": 30.0,
+     "out": 38.0,
+     "shows": "intertitle \"Every means of comfort is aimed at for the shipbuilders. Spacious, sanitary board houses...\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 38.0,
+     "out": 44.0,
+     "shows": "new two-storey boarding house for shipyard workers",
+     "not_shows": "location not named"
+    },
+    {
+     "in": 44.0,
+     "out": 48.0,
+     "shows": "faint (under-exposed) intertitle about homes for shipbuilders",
+     "not_shows": "nearly unreadable"
+    },
+    {
+     "in": 48.0,
+     "out": 60.0,
+     "shows": "rows of new workers' cottages; carpenter on ladder at a new house",
+     "not_shows": "location not named"
+    },
+    {
+     "in": 60.0,
+     "out": 66.0,
+     "shows": "faint intertitle \"Soldiers of the sledge taking the oath of allegiance\"",
+     "not_shows": "underexposed"
+    },
+    {
+     "in": 66.0,
+     "out": 80.0,
+     "shows": "mass meeting in a shed: workers raise hands taking the oath, flag on wall",
+     "not_shows": "location not named"
+    },
+    {
+     "in": 80.0,
+     "out": 84.0,
+     "shows": "intertitle \"These are the men who will beat the submarine off the seas with sledge hammers\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 84.0,
+     "out": 94.0,
+     "shows": "enormous crowd of shipyard workers, high angle",
+     "not_shows": "location not named"
+    },
+    {
+     "in": 94.0,
+     "out": 96.0,
+     "shows": "intertitle \"Mr. Hurley inspects the progress of the work in one of the yards\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 96.0,
+     "out": 108.0,
+     "shows": "Hurley and party climbing through staging and walking on steel frames",
+     "not_shows": "steel yard"
+    },
+    {
+     "in": 108.0,
+     "out": 116.0,
+     "shows": "intertitle \"The men who help build these ships are giving their country as valuable service...\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 116.0,
+     "out": 120.0,
+     "shows": "two workers hammering on steel deck plating",
+     "not_shows": "steel"
+    },
+    {
+     "in": 120.0,
+     "out": 128.0,
+     "shows": "intertitle \"Each soldier abroad requires four tons of supplies a year...\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 128.0,
+     "out": 176.0,
+     "shows": "steel ship on the ways: bottom plating, frames rising, gantries, high-angle views of hulls under construction",
+     "not_shows": "STEEL hulls (not wooden)"
+    },
+    {
+     "in": 176.0,
+     "out": 192.0,
+     "shows": "intertitle \"Every shipyard is a fort for freedom - every man behind a riveting machine...\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 192.0,
+     "out": 232.0,
+     "shows": "riveting gangs: close-ups of pneumatic riveting on steel frames, riveters on staging",
+     "not_shows": "steel"
+    },
+    {
+     "in": 232.0,
+     "out": 248.0,
+     "shows": "intertitle \"Mr. Hurley, inventor of the pneumatic drill and hammer ... lends a hand in the Port Newark shipyard\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 248.0,
+     "out": 272.0,
+     "shows": "Hurley (bowler hat) drives a rivet among workers at Port Newark (Submarine Boat Corp. yard)",
+     "not_shows": "steel fabricated ships; not wooden"
+    },
+    {
+     "in": 272.0,
+     "out": 282.0,
+     "shows": "intertitle \"Ship bottoms are fewer now than before the war, yet the demand for them is much greater\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 282.0,
+     "out": 292.0,
+     "shows": "worker at a frame; intertitle \"The completed stern showing the propeller shaft\"",
+     "not_shows": "steel"
+    },
+    {
+     "in": 294.0,
+     "out": 306.0,
+     "shows": "stern framing / shaft bossing from below",
+     "not_shows": "steel"
+    },
+    {
+     "in": 306.0,
+     "out": 314.0,
+     "shows": "intertitle \"The bulkheads are built after the ship's hull is completed\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 314.0,
+     "out": 350.0,
+     "shows": "workers fitting/riveting deck plating; gangs on plating",
+     "not_shows": "steel"
+    },
+    {
+     "in": 350.0,
+     "out": 370.0,
+     "shows": "intertitle \"'The sooner we finish these ships, the sooner the war will be ended' ... The giant cranes do their bit\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 370.0,
+     "out": 412.0,
+     "shows": "crane lifts a whole prefabricated steel bulkhead section and swings it into a hull",
+     "not_shows": "steel prefabrication (Hog Island / Newark style)"
+    },
+    {
+     "in": 412.0,
+     "out": 430.0,
+     "shows": "signalman on deck directing the crane",
+     "not_shows": "steel"
+    },
+    {
+     "in": 430.0,
+     "out": 444.0,
+     "shows": "intertitle \"Every rivet driven is a step toward victory for Uncle Sam...\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 444.0,
+     "out": 462.0,
+     "shows": "riveter on deck plating; close-ups of rivets",
+     "not_shows": "steel"
+    },
+    {
+     "in": 462.0,
+     "out": 480.0,
+     "shows": "intertitle \"The acetylene torch which was used to repair the Kaiser's ships (damaged by their own crews in American ports)...\"",
+     "not_shows": "text only; refers to interned German ships"
+    },
+    {
+     "in": 480.0,
+     "out": 508.0,
+     "shows": "acetylene torch cutting/welding close-ups",
+     "not_shows": "steel"
+    },
+    {
+     "in": 508.0,
+     "out": 520.0,
+     "shows": "intertitle \"Another 7,500 tons nearer victory...\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 520.0,
+     "out": 536.0,
+     "shows": "steel hull slides down the ways (launch), view from the ways",
+     "not_shows": "steel ship; name not on screen"
+    },
+    {
+     "in": 536.0,
+     "out": 548.0,
+     "shows": "new freighter afloat off the \"New York Shipbuilding Corporation\" sheds",
+     "not_shows": "Camden NJ, steel"
+    },
+    {
+     "in": 548.0,
+     "out": 556.0,
+     "shows": "intertitle \"Ships of steel, wood and now concrete are being built to join the great U.S. Merchant Marine\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 556.0,
+     "out": 576.0,
+     "shows": "officials on a concrete-ship form; concrete hull forms",
+     "not_shows": "concrete ships, not wooden"
+    },
+    {
+     "in": 576.0,
+     "out": 592.0,
+     "shows": "intertitle \"The New York Shipbuilding Corporation, Camden, N.J. in launching the Tuckahoe in 27 days smashes the world's launching record\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 592.0,
+     "out": 608.0,
+     "shows": "crowd under the bow of the Tuckahoe on the ways",
+     "not_shows": "steel ship, Camden NJ"
+    },
+    {
+     "in": 608.0,
+     "out": 636.0,
+     "shows": "launch of the Tuckahoe: hull slides away down the ways (seen from the ways)",
+     "not_shows": "steel ship (May 1918)"
+    },
+    {
+     "in": 636.0,
+     "out": 660.0,
+     "shows": "vast crowd of workers and guests at the launching",
+     "not_shows": ""
+    },
+    {
+     "in": 660.0,
+     "out": 672.0,
+     "shows": "intertitle \"Edward N. Hurley, Chairman U.S. Shipping Board addressing shipworkers and guests at launching ceremony\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 672.0,
+     "out": 688.0,
+     "shows": "Hurley speaking on the stand among the crowd",
+     "not_shows": "silent"
+    },
+    {
+     "in": 688.0,
+     "out": 696.0,
+     "shows": "intertitle \"Charles M. Schwab, Director General, Emergency Fleet Corporation congratulates shipyard workers...\"",
+     "not_shows": "text only"
+    },
+    {
+     "in": 696.0,
+     "out": 716.0,
+     "shows": "Schwab speaking to the crowd from the stand",
+     "not_shows": "silent"
+    },
+    {
+     "in": 716.0,
+     "out": 727.0,
+     "shows": "black, \"END OF RECORDING\"",
+     "not_shows": "unusable"
+    }
+   ]
+  },
+  {
+   "stem": "wartime_shipbuilding",
+   "group": "B",
+   "file": "src/film/wartime_shipbuilding.mp4",
+   "title": "111-H-1166 \"Wartime Ship Building\" (WWI footage, 1936 Signal Corps compilation)",
+   "url": "https://catalog.archives.gov/id/24671",
+   "rights": "NARA useRestriction: {\"note\": \"Some or all of this material may be restricted by copyright or other intellectual property rights restrictions.\", \"specificUseRestrictions\": [\"Copyright\"], \"status\": \"Restricted - Possibly\"} - footage 1917-18 published pre-1931 => US PD by age; compilation by US Army. OWNER CHECK",
+   "duration": 521.5,
+   "res": "480p H.264 (transcoded from NARA mp4)",
+   "sheets": [
+    "wartime_shipbuilding_01.jpg",
+    "wartime_shipbuilding_02.jpg",
+    "wartime_shipbuilding_03.jpg",
+    "wartime_shipbuilding_04.jpg",
+    "wartime_shipbuilding_05.jpg",
+    "wartime_shipbuilding_06.jpg",
+    "wartime_shipbuilding_07.jpg",
+    "wartime_shipbuilding_08.jpg"
+   ],
+   "shots": [
+    {
+     "in": 0.0,
+     "out": 6.0,
+     "shows": "NARA logo card, black",
+     "not_shows": "unusable"
+    },
+    {
+     "in": 6.0,
+     "out": 20.0,
+     "shows": "row of hulls on the ways under derricks, seen across water (shipyard skyline)",
+     "not_shows": "yard not named; likely Hog Island (steel)"
+    },
+    {
+     "in": 20.0,
+     "out": 24.0,
+     "shows": "board meeting at a table (same as Bridge of Ships r1 146-180)",
+     "not_shows": "duplicate of 111-M-148 material"
+    },
+    {
+     "in": 24.0,
+     "out": 36.0,
+     "shows": "flag-raising crowd outside a building; flag against sky",
+     "not_shows": "NARA: War Shipping Board building, Washington DC - not verifiable on screen"
+    },
+    {
+     "in": 36.0,
+     "out": 112.0,
+     "shows": "big outdoor crowd and speakers on a railed stand at a shipyard ceremony (flag-raising), crowd waving",
+     "not_shows": "speakers not identified on screen; dark print"
+    },
+    {
+     "in": 112.0,
+     "out": 124.0,
+     "shows": "wooden hull frames standing on the ways behind staging; then a hull under gantry",
+     "not_shows": "wooden frames (112-118) vs steel (120-124) - check frame-by-frame before captioning"
+    },
+    {
+     "in": 124.0,
+     "out": 144.0,
+     "shows": "worker with boring tool on heavy timbers; timbers/beams being shaped in a mill (same as Bridge of Ships r1 262-308)",
+     "not_shows": "duplicate of 111-M-148 r1; yard not named"
+    },
+    {
+     "in": 144.0,
+     "out": 168.0,
+     "shows": "steel hull bottoms on the ways; machine-shop floor from above",
+     "not_shows": "steel; duplicates 111-M-148"
+    },
+    {
+     "in": 168.0,
+     "out": 204.0,
+     "shows": "forging press, trip-hammer, rivets, propellers (duplicates 111-M-148 r1 600-760)",
+     "not_shows": "steel; duplicate"
+    },
+    {
+     "in": 204.0,
+     "out": 216.0,
+     "shows": "Hurley drives a rivet at Port Newark among workers (dup of r2 248-272)",
+     "not_shows": "duplicate"
+    },
+    {
+     "in": 216.0,
+     "out": 268.0,
+     "shows": "crowd, bulkhead section lifted by crane, signalman (dup of r2 370-430)",
+     "not_shows": "duplicate; steel"
+    },
+    {
+     "in": 268.0,
+     "out": 300.0,
+     "shows": "torch cutting, riveters, stern framing (dup)",
+     "not_shows": "duplicate; steel"
+    },
+    {
+     "in": 300.0,
+     "out": 320.0,
+     "shows": "dark interior; crowd with Schwab/Hurley (dup); black at 312",
+     "not_shows": "dark"
+    },
+    {
+     "in": 320.0,
+     "out": 364.0,
+     "shows": "launching crowd waving flags at the bow of a hull; ship's side sliding past with bunting",
+     "not_shows": "NARA scope: freighter Liberty at Newark NJ - name not legible here; steel"
+    },
+    {
+     "in": 364.0,
+     "out": 392.0,
+     "shows": "hull slides away between the staging (several angles)",
+     "not_shows": "steel freighter; which ship not on screen"
+    },
+    {
+     "in": 392.0,
+     "out": 424.0,
+     "shows": "crowd; sponsor party at a hull, flowers; hull on ways",
+     "not_shows": "names not on screen"
+    },
+    {
+     "in": 424.0,
+     "out": 440.0,
+     "shows": "new hull afloat with flag and bunting, tug alongside",
+     "not_shows": "steel"
+    },
+    {
+     "in": 440.0,
+     "out": 472.0,
+     "shows": "another launch: hull slides down the ways between staging, flags",
+     "not_shows": "NARA scope: destroyer Dallas / freighters Coyote and Saccarappa at Hog Island - but Coyote was a WOODEN ship launched at Passaic NJ (Foundation Co.), so the scope note is not reliable"
+    },
+    {
+     "in": 472.0,
+     "out": 480.0,
+     "shows": "freighter afloat dressed with flags",
+     "not_shows": "steel"
+    },
+    {
+     "in": 480.0,
+     "out": 496.0,
+     "shows": "ship's side with name \"SACCARAPPA\" painted on the bow; plating",
+     "not_shows": "Saccarappa = steel Hog Island freighter"
+    },
+    {
+     "in": 496.0,
+     "out": 521.0,
+     "shows": "workers on deck; huge crowd of workers at a gate",
+     "not_shows": "location not stated"
+    }
+   ]
+  },
+  {
+   "stem": "hog_island_1917",
+   "group": "B",
+   "file": "src/film/hog_island_1917.mp4",
+   "title": "FC-FC-119 [Construction of the Hog Island Shipyard, Philadelphia] (Ford Educational Weekly, 1917)",
+   "url": "https://catalog.archives.gov/id/90736",
+   "rights": "NARA useRestriction: {\"note\": \"All rights were conveyed to the U.S. Government on Nov. 28, 1962. However, proprietary rights  or existing copyright in footage obtained from other sources by Ford Motor Company may exist.\", \"specificUseRestrictions\": [\"Copyright\"], \"status\": \"Restricted - Possibly\"} - Ford footage released 1917-18 (pre-1931 => US PD by age). OWNER CHECK",
+   "duration": 606.8,
+   "res": "480p H.264 (transcoded from NARA mp4)",
+   "sheets": [
+    "hog_island_1917_01.jpg",
+    "hog_island_1917_02.jpg",
+    "hog_island_1917_03.jpg",
+    "hog_island_1917_04.jpg",
+    "hog_island_1917_05.jpg",
+    "hog_island_1917_06.jpg",
+    "hog_island_1917_07.jpg",
+    "hog_island_1917_08.jpg",
+    "hog_island_1917_09.jpg"
+   ],
+   "shots": [
+    {
+     "in": 0.0,
+     "out": 4.0,
+     "shows": "NARA logo",
+     "not_shows": "unusable"
+    },
+    {
+     "in": 4.0,
+     "out": 24.0,
+     "shows": "worker connecting steam hoses; steam thawing frozen ground/logs around pilings",
+     "not_shows": "winter 1917-18; Hog Island (steel-ship yard)"
+    },
+    {
+     "in": 24.0,
+     "out": 44.0,
+     "shows": "rows of blocks/logs laid for a slipway; distant derricks along the river",
+     "not_shows": "Hog Island, not a wooden-ship yard"
+    },
+    {
+     "in": 44.0,
+     "out": 100.0,
+     "shows": "crowds of job-seekers outside the \"CANTEEN\" and \"ENTRANCE\" sheds, close faces, smiling workers; police/guards check passes",
+     "not_shows": "Hog Island hiring 1917; no ships yet"
+    },
+    {
+     "in": 100.0,
+     "out": 118.0,
+     "shows": "guards inspect passes; workers seated eating",
+     "not_shows": ""
+    },
+    {
+     "in": 118.0,
+     "out": 156.0,
+     "shows": "steam pile-drivers driving timber piles, close-ups of pile and hammer",
+     "not_shows": "piles for slipway foundations, not ship hulls"
+    },
+    {
+     "in": 156.0,
+     "out": 194.0,
+     "shows": "labourers with picks and shovels; close-ups of workers' faces",
+     "not_shows": ""
+    },
+    {
+     "in": 194.0,
+     "out": 240.0,
+     "shows": "panoramas of the swampy yard: pile fields, construction shacks, cranes, snow",
+     "not_shows": "construction of the yard, no hulls"
+    },
+    {
+     "in": 240.0,
+     "out": 310.0,
+     "shows": "carpenters cutting/fitting timber grillage, adze work, sawing pile heads",
+     "not_shows": "foundation timber, not ship timber"
+    },
+    {
+     "in": 310.0,
+     "out": 360.0,
+     "shows": "piles and pile-driver towers against the sky (long static shots 330-358)",
+     "not_shows": ""
+    },
+    {
+     "in": 360.0,
+     "out": 450.0,
+     "shows": "sweeping panoramas: stacks of piles, railway sidings, steam shovels, launching-slip site, river beyond",
+     "not_shows": "no ships on the ways yet"
+    },
+    {
+     "in": 450.0,
+     "out": 490.0,
+     "shows": "gangs among cut-off piles; pile fields",
+     "not_shows": ""
+    },
+    {
+     "in": 490.0,
+     "out": 560.0,
+     "shows": "dark/under-exposed shots, black gaps (490, 510-540, 555)",
+     "not_shows": "mostly unusable"
+    },
+    {
+     "in": 560.0,
+     "out": 607.0,
+     "shows": "steam shovel; slipway foundations with derricks; pile fields with workers",
+     "not_shows": "no hulls"
+    }
+   ]
+  },
+  {
+   "stem": "shipyard_launch_1919",
+   "group": "B",
+   "file": "src/film/shipyard_launch_1919.mp4",
+   "title": "FC-FC-54 Gar Wood and Speed Boat / Ship Construction / ... (Ford, 1919)",
+   "url": "https://catalog.archives.gov/id/7414638",
+   "rights": "NARA useRestriction: {\"note\": \"All rights were conveyed to the U.S. Government on Nov. 28, 1962. However, proprietary rights  or existing copyright in footage obtained from other sources by Ford Motor Company may exist.\", \"specificUseRestrictions\": [\"Copyright\"], \"status\": \"Restricted - Possibly\"} - pre-1931. OWNER CHECK",
+   "duration": 631.1,
+   "res": "480p H.264 (transcoded from NARA mp4)",
+   "sheets": [
+    "shipyard_launch_1919_01.jpg",
+    "shipyard_launch_1919_02.jpg",
+    "shipyard_launch_1919_03.jpg",
+    "shipyard_launch_1919_04.jpg",
+    "shipyard_launch_1919_05.jpg",
+    "shipyard_launch_1919_06.jpg",
+    "shipyard_launch_1919_07.jpg",
+    "shipyard_launch_1919_08.jpg",
+    "shipyard_launch_1919_09.jpg"
+   ],
+   "shots": [
+    {
+     "in": 0.0,
+     "out": 8.0,
+     "shows": "NARA logo, black",
+     "not_shows": "unusable"
+    },
+    {
+     "in": 8.0,
+     "out": 122.0,
+     "shows": "(a) Gar Wood speedboat \"DYC\" racing, Detroit Yacht Club; mechanics",
+     "not_shows": "NOT relevant (speedboat); blown-out highlights"
+    },
+    {
+     "in": 122.0,
+     "out": 128.0,
+     "shows": "group of shipyard workers posing on a dock",
+     "not_shows": "yard not named"
+    },
+    {
+     "in": 128.0,
+     "out": 138.0,
+     "shows": "shipyard: hull on the ways with several four-masted sailing vessels fitting out behind",
+     "not_shows": "yard and ship names unknown; sailing ships are not the EFC steamers; 1919 per Ford catalog"
+    },
+    {
+     "in": 138.0,
+     "out": 144.0,
+     "shows": "hull in frame/planking on the ways behind staging, close",
+     "not_shows": "wooden or steel not certain at this size; check before captioning as wooden"
+    },
+    {
+     "in": 144.0,
+     "out": 154.0,
+     "shows": "newly launched steamer afloat beside the ways, flags",
+     "not_shows": "name/yard unknown; not a Ferris steamer for sure"
+    },
+    {
+     "in": 154.0,
+     "out": 164.0,
+     "shows": "black / fade",
+     "not_shows": "unusable"
+    },
+    {
+     "in": 164.0,
+     "out": 174.0,
+     "shows": "launching ways and spectators; hull afloat with tug, crowd on the bank",
+     "not_shows": "yard unknown (Ford catalog: 1919)"
+    },
+    {
+     "in": 174.0,
+     "out": 625.0,
+     "shows": "(c-f) factory interiors, child eating jam, food plant, ice skating/barrel jumping, lambs and car, unloading ore ship (300-356), aircraft at an airfield, picnic, rowing, beach, soldiers' parade, Detroit police trucks",
+     "not_shows": "NOT relevant to the ghost fleet (Ford Educational Weekly miscellany)"
+    }
+   ]
+  },
+  {
+   "stem": "scrapping_ship_1640",
+   "group": "D",
+   "file": "src/film/scrapping_ship_1640.mp4",
+   "title": "FC-FC-1640 Scrapping a Ship (Ford, 1926)",
+   "url": "https://catalog.archives.gov/id/91936",
+   "rights": "NARA useRestriction: {\"note\": \"All rights were conveyed to the U.S. Government on Nov. 28, 1962. However, proprietary rights  or existing copyright in footage obtained from other sources by Ford Motor Company may exist.\", \"specificUseRestrictions\": [\"Copyright\"], \"status\": \"Restricted - Possibly\"} - 1926 Ford-made footage (pre-1931). OWNER CHECK",
+   "duration": 403.5,
+   "res": "480p H.264 (transcoded from NARA mp4)",
+   "sheets": [
+    "scrapping_ship_1640_01.jpg",
+    "scrapping_ship_1640_02.jpg",
+    "scrapping_ship_1640_03.jpg",
+    "scrapping_ship_1640_04.jpg",
+    "scrapping_ship_1640_05.jpg",
+    "scrapping_ship_1640_06.jpg"
+   ],
+   "shots": [
+    {
+     "in": 0.0,
+     "out": 4.0,
+     "shows": "ID card \"200-FC-1640\"",
+     "not_shows": "unusable"
+    },
+    {
+     "in": 4.0,
+     "out": 34.0,
+     "shows": "crane loads wooden beams into a railway gondola; worker loads sacks and mattresses onto a rail car",
+     "not_shows": "Ford River Rouge plant, Michigan (Ford catalog), 1926; ships are STEEL Shipping Board freighters, not the wooden fleet"
+    },
+    {
+     "in": 34.0,
+     "out": 70.0,
+     "shows": "hull of a partially dismantled steel ship: crane lifts side sections, workers on top",
+     "not_shows": "steel hull; not Mallows Bay; ship not named"
+    },
+    {
+     "in": 70.0,
+     "out": 138.0,
+     "shows": "static wide shots: crane removing pieces from two cut-down hulls beside a quay (hazy)",
+     "not_shows": "long static takes; steel hulls"
+    },
+    {
+     "in": 138.0,
+     "out": 168.0,
+     "shows": "workers breaking concrete in a hull / cutting with torches",
+     "not_shows": ""
+    },
+    {
+     "in": 168.0,
+     "out": 228.0,
+     "shows": "propeller (screw) being lifted out of the water by crane with workers; close-ups of the screw swinging",
+     "not_shows": "steel freighter"
+    },
+    {
+     "in": 228.0,
+     "out": 270.0,
+     "shows": "huge piles of scrap beside rail tracks",
+     "not_shows": ""
+    },
+    {
+     "in": 270.0,
+     "out": 284.0,
+     "shows": "tugboat close",
+     "not_shows": ""
+    },
+    {
+     "in": 284.0,
+     "out": 372.0,
+     "shows": "tugs towing a line of ships across open water (Lake/river), several vessels in tow",
+     "not_shows": "Ford's purchase of USSB ships - towing to the Rouge; NOT the wooden fleet"
+    },
+    {
+     "in": 372.0,
+     "out": 398.0,
+     "shows": "tug passing close; ship in tow head-on",
+     "not_shows": ""
+    },
+    {
+     "in": 398.0,
+     "out": 404.0,
+     "shows": "\"End of Recording\" card",
+     "not_shows": "unusable"
+    }
+   ]
+  },
+  {
+   "stem": "scrapping_ship_1199",
+   "group": "D",
+   "file": "src/film/scrapping_ship_1199.mp4",
+   "title": "FC-FC-1199 [Scrapping a Ship] (Ford, 1927)",
+   "url": "https://catalog.archives.gov/id/91688",
+   "rights": "NARA useRestriction: {\"note\": \"All rights were conveyed to the U.S. Government on Nov. 28, 1962. However, proprietary rights  or existing copyright in footage obtained from other sources by Ford Motor Company may exist.\", \"specificUseRestrictions\": [\"Copyright\"], \"status\": \"Restricted - Possibly\"} - 1927. OWNER CHECK",
+   "duration": 262.4,
+   "res": "480p H.264 (transcoded from NARA mp4)",
+   "sheets": [
+    "scrapping_ship_1199_01.jpg",
+    "scrapping_ship_1199_02.jpg",
+    "scrapping_ship_1199_03.jpg",
+    "scrapping_ship_1199_04.jpg"
+   ],
+   "shots": [
+    {
+     "in": 0.0,
+     "out": 4.0,
+     "shows": "ID card \"200-FC-1199\"",
+     "not_shows": "unusable"
+    },
+    {
+     "in": 4.0,
+     "out": 9.0,
+     "shows": "ships at anchor offshore, a tug in the foreground",
+     "not_shows": "Ford catalog 1927; steel USSB freighters bought by Ford, not the wooden fleet"
+    },
+    {
+     "in": 9.0,
+     "out": 14.0,
+     "shows": "line of laid-up steel freighters moored side by side",
+     "not_shows": "best \"idle fleet\" look in this set, but steel ships, place unknown (Ford tow, likely Great Lakes/Detroit River)"
+    },
+    {
+     "in": 14.0,
+     "out": 24.0,
+     "shows": "tug close; tugs pulling a freighter through an open bascule drawbridge",
+     "not_shows": "River Rouge, Detroit (Ford)"
+    },
+    {
+     "in": 24.0,
+     "out": 40.0,
+     "shows": "hull partly cut down at a quay; deck with mooring line coiled; worker",
+     "not_shows": "steel"
+    },
+    {
+     "in": 40.0,
+     "out": 48.0,
+     "shows": "sign \"PILOT HOUSE\"; men in a wooden pilot house",
+     "not_shows": ""
+    },
+    {
+     "in": 48.0,
+     "out": 80.0,
+     "shows": "salvage stockpiles on shore: screws, machinery, anchors, engine-room telegraphs lined up",
+     "not_shows": "steel-ship fittings; good analogue for \"stripped of metal\" but NOT the Alexandria stripping"
+    },
+    {
+     "in": 80.0,
+     "out": 104.0,
+     "shows": "lifeboats on shore; crane lifts smokestack onto a rail flatcar",
+     "not_shows": ""
+    },
+    {
+     "in": 104.0,
+     "out": 124.0,
+     "shows": "crane lifts a section; partly dismantled hull beside a canal",
+     "not_shows": ""
+    },
+    {
+     "in": 124.0,
+     "out": 150.0,
+     "shows": "hull side; engine-room / deck interior; catwalks",
+     "not_shows": ""
+    },
+    {
+     "in": 150.0,
+     "out": 180.0,
+     "shows": "boiler lifted out; triple-expansion engine lifted by crane",
+     "not_shows": ""
+    },
+    {
+     "in": 180.0,
+     "out": 200.0,
+     "shows": "locomotive hauling flatcars with boilers",
+     "not_shows": ""
+    },
+    {
+     "in": 200.0,
+     "out": 240.0,
+     "shows": "hull plates being lifted; bow section in the water; screw shaft raised",
+     "not_shows": ""
+    },
+    {
+     "in": 240.0,
+     "out": 262.0,
+     "shows": "(not reviewed in detail) further scrapping shots and end",
+     "not_shows": "check before use"
+    }
+   ]
+  },
+  {
+   "stem": "u35_submarine",
+   "group": "C",
+   "file": "src/film/u35_submarine.mp4",
+   "title": "FC-FC-4219 [Captured German Submarine Film] - U-35 in the Mediterranean, 1917 (US release titles c.1919)",
+   "url": "https://catalog.archives.gov/id/93351",
+   "rights": "NARA useRestriction: {\"note\": \"All rights were conveyed to the U.S. Government on Nov. 28, 1962. However, proprietary rights  or existing copyright in footage obtained from other sources by Ford Motor Company may exist.\", \"specificUseRestrictions\": [\"Copyright\"], \"status\": \"Restricted - Possibly\"} - German 1917 footage, US release c.1919 (pre-1931 => US PD by age). OWNER CHECK",
+   "duration": 705.3,
+   "res": "480p H.264 (transcoded from NARA mp4)",
+   "sheets": [
+    "u35_submarine_01.jpg",
+    "u35_submarine_02.jpg",
+    "u35_submarine_03.jpg",
+    "u35_submarine_04.jpg",
+    "u35_submarine_05.jpg",
+    "u35_submarine_06.jpg",
+    "u35_submarine_07.jpg",
+    "u35_submarine_08.jpg",
+    "u35_submarine_09.jpg",
+    "u35_submarine_10.jpg"
+   ],
+   "shots": [
+    {
+     "in": 0.0,
+     "out": 4.0,
+     "shows": "black",
+     "not_shows": "unusable"
+    },
+    {
+     "in": 4.0,
+     "out": 70.0,
+     "shows": "American-release intertitles (\"Presented without Malice or Prejudice...\", \"Officers and crew of the Submarine U-35...\", Proverbs quote, \"German Submarine U-35 under orders to begin unrestricted operations ... February 1st 1917...\")",
+     "not_shows": "text cards, edges cropped; editorialised US release titles"
+    },
+    {
+     "in": 70.0,
+     "out": 90.0,
+     "shows": "U-35 crew on deck in harbour (Cattaro/Pola supply base), officers salute, boat alongside",
+     "not_shows": "German/Austrian base, not US waters"
+    },
+    {
+     "in": 90.0,
+     "out": 96.0,
+     "shows": "intertitle \"At the command 'Let go the lines'... U-35 starts out to prey on the entente and neutral ships\"",
+     "not_shows": "text"
+    },
+    {
+     "in": 96.0,
+     "out": 132.0,
+     "shows": "U-boat alongside its depot ship; crew boarding; leaving harbour among mountains",
+     "not_shows": ""
+    },
+    {
+     "in": 132.0,
+     "out": 150.0,
+     "shows": "intertitle \"The U-Boat commander 'shooting the sun' takes observations...\"",
+     "not_shows": "text"
+    },
+    {
+     "in": 150.0,
+     "out": 192.0,
+     "shows": "commander (Lothar von Arnauld de la Periere) and officers with sextant/charts on the conning tower; telegraph dial; crew in the conning-tower rail",
+     "not_shows": "commander not named on screen"
+    },
+    {
+     "in": 192.0,
+     "out": 210.0,
+     "shows": "intertitle \"After a long engagement, the Italian steamer Stromboli ... bound for Genoa from Baltimore, is forced to surrender\"",
+     "not_shows": "text"
+    },
+    {
+     "in": 210.0,
+     "out": 228.0,
+     "shows": "steamer (Stromboli) seen from the U-boat's conning tower",
+     "not_shows": ""
+    },
+    {
+     "in": 228.0,
+     "out": 240.0,
+     "shows": "intertitle \"Dangling ropes bear silent witness to the departed life boats...\"",
+     "not_shows": "text"
+    },
+    {
+     "in": 240.0,
+     "out": 252.0,
+     "shows": "steamer's bow; black",
+     "not_shows": ""
+    },
+    {
+     "in": 252.0,
+     "out": 258.0,
+     "shows": "intertitle \"The bombing crew of the U-35 boards the steamer\"",
+     "not_shows": "text"
+    },
+    {
+     "in": 258.0,
+     "out": 294.0,
+     "shows": "U-boat's boat rows to the steamer; boarding party at the hull",
+     "not_shows": ""
+    },
+    {
+     "in": 294.0,
+     "out": 300.0,
+     "shows": "intertitle \"The fuse is ignited\"",
+     "not_shows": "text"
+    },
+    {
+     "in": 300.0,
+     "out": 360.0,
+     "shows": "the steamer seen from the U-boat deck: scuttling charge, ship settles by the stern and sinks; empty sea",
+     "not_shows": "ITALIAN steamer sunk by German U-boat 1917; not a US ship"
+    },
+    {
+     "in": 360.0,
+     "out": 372.0,
+     "shows": "intertitle \"The Greek steamer India, 2933 tons with coal from Cardiff to Oran is stopped\"",
+     "not_shows": "text"
+    },
+    {
+     "in": 372.0,
+     "out": 450.0,
+     "shows": "Greek steamer India, name on hull; lists, breaks and sinks; smoke on empty water",
+     "not_shows": "sinking of a Greek ship, Mediterranean 1917"
+    },
+    {
+     "in": 450.0,
+     "out": 456.0,
+     "shows": "intertitle \"Cleaning the guns for further action\"",
+     "not_shows": "text"
+    },
+    {
+     "in": 456.0,
+     "out": 510.0,
+     "shows": "U-boat crew cleaning and working the deck gun",
+     "not_shows": ""
+    },
+    {
+     "in": 510.0,
+     "out": 516.0,
+     "shows": "intertitle \"The Spanish Steamer Asuarka is sighted outside the danger zone\"",
+     "not_shows": "text"
+    },
+    {
+     "in": 516.0,
+     "out": 534.0,
+     "shows": "crew on conning tower signalling with flags",
+     "not_shows": ""
+    },
+    {
+     "in": 534.0,
+     "out": 540.0,
+     "shows": "intertitle \"Using the camouflaged periscope to signal 'Send boat'\"",
+     "not_shows": "text"
+    },
+    {
+     "in": 540.0,
+     "out": 558.0,
+     "shows": "flag signals on periscope; distant steamer",
+     "not_shows": ""
+    },
+    {
+     "in": 558.0,
+     "out": 570.0,
+     "shows": "intertitle \"As the Asuarka has no contraband, the steamer is released...\"",
+     "not_shows": "text"
+    },
+    {
+     "in": 570.0,
+     "out": 594.0,
+     "shows": "ship's boat comes alongside, papers examined; boat rows away",
+     "not_shows": ""
+    },
+    {
+     "in": 594.0,
+     "out": 606.0,
+     "shows": "intertitle \"Sinking of the English Steamer Corfu, 3695 tons with iron ore from Genoa\"",
+     "not_shows": "text"
+    },
+    {
+     "in": 606.0,
+     "out": 654.0,
+     "shows": "British steamer Corfu settles and sinks, bow rises and vanishes",
+     "not_shows": "British ship, 1917"
+    },
+    {
+     "in": 654.0,
+     "out": 666.0,
+     "shows": "intertitle \"The sinking of the English steamer Patagonia 3832 tons bound for Cuba loaded with sugar\"",
+     "not_shows": "text"
+    },
+    {
+     "in": 666.0,
+     "out": 702.0,
+     "shows": "Patagonia low in the water, rolls over and sinks",
+     "not_shows": "British ship, 1917"
+    },
+    {
+     "in": 702.0,
+     "out": 705.0,
+     "shows": "\"End of Recording\" card",
+     "not_shows": "unusable"
+    }
+   ]
+  },
+  {
+   "stem": "washington_dc_1921",
+   "group": "D",
+   "file": "src/film/washington_dc_1921.mp4",
+   "title": "FC-FC-208 [Washington, D.C.] (Ford, 1921)",
+   "url": "https://catalog.archives.gov/id/90811",
+   "rights": "NARA useRestriction: {\"note\": \"All rights were conveyed to the U.S. Government on Nov. 28, 1962. However, proprietary rights  or existing copyright in footage obtained from other sources by Ford Motor Company may exist.\", \"specificUseRestrictions\": [\"Copyright\"], \"status\": \"Restricted - Possibly\"} - pre-1931. OWNER CHECK",
+   "duration": 682.6,
+   "res": "480p H.264 (transcoded from NARA mp4)",
+   "sheets": [
+    "washington_dc_1921_01.jpg",
+    "washington_dc_1921_02.jpg",
+    "washington_dc_1921_03.jpg",
+    "washington_dc_1921_04.jpg",
+    "washington_dc_1921_05.jpg",
+    "washington_dc_1921_06.jpg",
+    "washington_dc_1921_07.jpg",
+    "washington_dc_1921_08.jpg",
+    "washington_dc_1921_09.jpg",
+    "washington_dc_1921_10.jpg"
+   ],
+   "shots": [
+    {
+     "in": 0.0,
+     "out": 10.0,
+     "shows": "black",
+     "not_shows": "unusable"
+    },
+    {
+     "in": 10.0,
+     "out": 90.0,
+     "shows": "old brick town houses, shops, horse wagons, colonial houses, church (Ford catalog: includes Carlisle House where Washington joined Braddock = ALEXANDRIA, VA streets)",
+     "not_shows": "street names not on screen; c.1921"
+    },
+    {
+     "in": 90.0,
+     "out": 96.0,
+     "shows": "daguerreotype of John Wilkes Booth",
+     "not_shows": "not relevant"
+    },
+    {
+     "in": 96.0,
+     "out": 106.0,
+     "shows": "business street with parked cars",
+     "not_shows": ""
+    },
+    {
+     "in": 106.0,
+     "out": 144.0,
+     "shows": "Capitol interior: busts and statues in the Rotunda (dark)",
+     "not_shows": ""
+    },
+    {
+     "in": 144.0,
+     "out": 174.0,
+     "shows": "panorama of Washington from the Washington Monument (hazy): Mall, Capitol in distance",
+     "not_shows": "Potomac not clearly visible in this stretch"
+    },
+    {
+     "in": 174.0,
+     "out": 306.0,
+     "shows": "Capitol exterior; Scottish Rite Temple; Pennsylvania Ave; Red Cross building; Treasury; equestrian statues; Old Post Office; Library; White House/other monuments",
+     "not_shows": "DC landmarks c.1921, not the river"
+    },
+    {
+     "in": 306.0,
+     "out": 346.0,
+     "shows": "high-angle views over the city rooftops from the Monument; Mall",
+     "not_shows": "hazy"
+    },
+    {
+     "in": 346.0,
+     "out": 408.0,
+     "shows": "military funeral procession: cavalry, caisson, officers and dignitaries on foot (likely Unknown Soldier, 11 Nov 1921)",
+     "not_shows": "event not captioned; do not name it without checking"
+    },
+    {
+     "in": 408.0,
+     "out": 438.0,
+     "shows": "Jackson statue (\"Our Federal Union...\"); Lincoln Memorial (still under construction/new)",
+     "not_shows": ""
+    },
+    {
+     "in": 438.0,
+     "out": 510.0,
+     "shows": "crowd at the Arlington Memorial Amphitheater ceremony",
+     "not_shows": "event not captioned"
+    },
+    {
+     "in": 510.0,
+     "out": 576.0,
+     "shows": "Capitol grounds, Library of Congress, statues (Daniel Webster), Capitol dome",
+     "not_shows": ""
+    },
+    {
+     "in": 576.0,
+     "out": 594.0,
+     "shows": "\"Capital Hotel\" (Alexandria?) old balconied hotel",
+     "not_shows": "location not certain"
+    },
+    {
+     "in": 594.0,
+     "out": 606.0,
+     "shows": "bronze plaque (illegible at 480p)",
+     "not_shows": ""
+    },
+    {
+     "in": 606.0,
+     "out": 678.0,
+     "shows": "old Alexandria-type streets and churches",
+     "not_shows": ""
+    },
+    {
+     "in": 678.0,
+     "out": 683.0,
+     "shows": "End of Recording",
+     "not_shows": "unusable"
+    }
+   ]
+  },
+  {
+   "stem": "dirigible_washington_1920",
+   "group": "D",
+   "file": "src/film/dirigible_washington_1920.mp4",
+   "title": "428-NPC-3470 Seaplane activities; dirigible over Washington, D.C.",
+   "url": "https://catalog.archives.gov/id/76832",
+   "rights": "NARA useRestriction: {\"status\": \"Undetermined\"} - US Navy film (US Gov work, PD)",
+   "duration": 643.7,
+   "res": "480p H.264 (transcoded from NARA mp4)",
+   "sheets": [
+    "dirigible_washington_1920_01.jpg",
+    "dirigible_washington_1920_02.jpg",
+    "dirigible_washington_1920_03.jpg",
+    "dirigible_washington_1920_04.jpg",
+    "dirigible_washington_1920_05.jpg",
+    "dirigible_washington_1920_06.jpg",
+    "dirigible_washington_1920_07.jpg",
+    "dirigible_washington_1920_08.jpg",
+    "dirigible_washington_1920_09.jpg"
+   ],
+   "shots": [
+    {
+     "in": 0.0,
+     "out": 4.0,
+     "shows": "black",
+     "not_shows": "unusable"
+    },
+    {
+     "in": 4.0,
+     "out": 526.0,
+     "shows": "Navy flying boats/seaplanes (biplane patrol boats marked \"SP-1/2/3\", \"U.S. Navy\") at a naval air station: crews, ground handling, taxiing and take-offs on open water",
+     "not_shows": "aircraft types look early-1930s, so NARA's \"1920\" date is doubtful; place not stated (Anacostia?); NOT relevant to the ghost fleet"
+    },
+    {
+     "in": 526.0,
+     "out": 606.0,
+     "shows": "aerial views from an aircraft: airships (blimps) flying over a city and countryside, river/shore below",
+     "not_shows": "city not identified on screen; Potomac not identifiable at this size"
+    },
+    {
+     "in": 606.0,
+     "out": 640.0,
+     "shows": "small aircraft/airships against the sky; Washington Monument top at ~630",
+     "not_shows": "low contrast"
+    },
+    {
+     "in": 640.0,
+     "out": 644.0,
+     "shows": "end",
+     "not_shows": "unusable"
+    }
+   ]
+  }
+ ]
+}

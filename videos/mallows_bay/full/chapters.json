@@ -1,5 +1,5 @@
 {
- "duration": 821.739,
+ "duration": 837.998,
  "fps": 30,
  "chapters": [
   {
@@ -33,46 +33,46 @@
    "key": "c04",
    "title": "Too Late",
    "start": 208.009,
-   "voice_end": 297.863,
-   "words": 244,
-   "end": 298.313,
-   "duration": 90.304
+   "voice_end": 307.994,
+   "words": 274,
+   "end": 308.444,
+   "duration": 100.435
   },
   {
    "key": "c05",
    "title": "Sold for Scrap",
-   "start": 298.313,
-   "voice_end": 421.317,
+   "start": 308.444,
+   "voice_end": 431.448,
    "words": 313,
-   "end": 421.767,
+   "end": 431.898,
    "duration": 123.454
   },
   {
    "key": "c06",
    "title": "The Great Burn",
-   "start": 421.767,
-   "voice_end": 512.61,
-   "words": 252,
-   "end": 513.06,
-   "duration": 91.293
+   "start": 431.898,
+   "voice_end": 540.514,
+   "words": 303,
+   "end": 540.964,
+   "duration": 109.066
   },
   {
    "key": "c07",
    "title": "One More War",
-   "start": 513.06,
-   "voice_end": 657.656,
-   "words": 385,
-   "end": 658.106,
-   "duration": 145.046
+   "start": 540.964,
+   "voice_end": 689.319,
+   "words": 394,
+   "end": 689.769,
+   "duration": 148.805
   },
   {
    "key": "c08",
    "title": "Why They Stayed",
-   "start": 658.106,
-   "voice_end": 820.739,
-   "words": 435,
-   "end": 821.739,
-   "duration": 163.633
+   "start": 689.769,
+   "voice_end": 836.998,
+   "words": 396,
+   "end": 837.998,
+   "duration": 148.229
   }
  ]
 }

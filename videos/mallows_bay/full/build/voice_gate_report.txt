@@ -3,25 +3,24 @@
   55.71 # 17  [('nanjemoy', 'nanjamoy')]   | heard: On the Maryland shore of the Potomac in Charles County, near a place called Nanjamoy, there is a small bay.
  113.43 # 31  [('sixth', 'six')]   | heard: On the 6th of April, the United States declared war on Germany.
  201.94 # 55  [('seventeen and a half', 'seventeenfive')]   | heard: A hull built from keel to launch in 17.5 days.
- 244.72 # 67  [('eleventh', 'eleven')]   | heard: Then, on the 11th of November 1918, the war ended.
- 274.48 # 75  [('', 'dollars'), ('dollars', '')]   | heard: By the middle of 1920, the shipping board had spent more than $274 million on wooden and composite ships.
- 300.92 # 81  [('', 'dollars'), ('dollars', '')]   | heard: In 1919 and 1920, the board was getting about $200,000 a ship.
- 307.81 # 82  [('', 'dollars'), ('dollars', '')]   | heard: By 1921, it sold 21 of them for about $5,700 each.
- 331.09 # 87  [('', 'dollars'), ('dollars', '')]   | heard: The price was $750,000.
- 336.10 # 89  [('', 'dollars'), ('dollars', '')]   | heard: That is about $3,200 a ship.
- 402.69 #108  [('threatened', 'threaten')]   | heard: Sunken hulls and floating wreckage threaten their living.
- 422.22 #114  [('seventh', 'seven')]   | heard: On the 7th of November 1925, the company tried to finish the job in one go.
- 481.10 #130  [('rowed', 'rode')]   | heard: In the hungry years of the depression, families rode out to the wrecks and pried out bolts, spikes and iron, and sold them as scrap.
- 517.35 #138  [('seemed', 'seem')]   | heard: And this time, the wrecks seem to have one more job to do.
- 546.37 #146  [('hulls', 'huls')]   | heard: Huls would be floated in, the water pumped out, and the wood burned away on dry ground.
- 557.94 #149  [('', 'dollars'), ('dollars', '')]   | heard: According to the records, by the end of 1943, Bethlehem had spent $360,000.
- 600.20 #158  [('', 'dollars'), ('dollars', '')]   | heard: Pin the outer wrecks in place with stone for about $50,000.
- 606.75 #160  [('wrecks', 'rex')]   | heard: It wanted the Rex gone.
- 608.78 #161  [('', 'dollars'), ('dollars', '')]   | heard: In 1968, Congress ordered the wrecks removed at an estimated $350,000 if Maryland paid half.
- 621.81 #164  [('idamont', 'idemont')]   | heard: In 1970, at a hearing in Congress, a vice president of the power company, PEPCO, was asked about Idemont.
- 672.92 #176  [('then', 'than')]   | heard: than trees.
- 694.74 #183  [('bald', 'bold')]   | heard: bold eagles hunt over the bay.
- 708.95 #187  [('accomac', 'acamac')]   | heard: At the edge of the bay lies a steel car ferry, the Acamac.
- 772.67 #204  [('noaa', 'noah')]   | heard: Noah calls it the largest wooden ship graveyard in the Western Hemisphere.
- 796.77 #209  [('rots', 'rods')]   | heard: wood rods.
-26 of 216 chunks differ
+ 249.54 # 68  [('eleventh', 'eleven')]   | heard: Then, on the 11th of November 1918, the war ended.
+ 279.30 # 76  [('', 'dollars'), ('dollars', '')]   | heard: By the middle of 1920, the shipping board had spent more than $274 million on wooden and composite ships.
+ 311.05 # 83  [('', 'dollars'), ('dollars', '')]   | heard: In 1919 and 1920, the board was getting about $200,000 a ship.
+ 317.94 # 84  [('', 'dollars'), ('dollars', '')]   | heard: By 1921, it sold 21 of them for about $5,700 each.
+ 341.22 # 89  [('', 'dollars'), ('dollars', '')]   | heard: The price was $750,000.
+ 346.23 # 91  [('', 'dollars'), ('dollars', '')]   | heard: That is about $3,200 a ship.
+ 412.82 #110  [('threatened', 'threaten')]   | heard: Sunken hulls and floating wreckage threaten their living.
+ 432.35 #116  [('seventh', 'seven')]   | heard: On the 7th of November 1925, the company tried to finish the job in one go.
+ 502.00 #135  [('rowed', 'rode')]   | heard: In the hungry years of the depression, families rode out to the wrecks and pried out bolts, spikes and iron, and sold them as scrap.
+ 545.25 #145  [('seemed', 'seem')]   | heard: And this time, the wrecks seem to have one more job to do.
+ 574.27 #153  [('hulls', 'huls')]   | heard: Huls would be floated in, the water pumped out, and the wood burned away on dry ground.
+ 585.85 #156  [('', 'dollars'), ('dollars', '')]   | heard: According to the records, by the end of 1943, Bethlehem had spent $360,000.
+ 628.10 #165  [('', 'dollars'), ('dollars', '')]   | heard: Pin the outer wrecks in place with stone for about $50,000.
+ 634.65 #167  [('wrecks', 'rex')]   | heard: It wanted the Rex gone.
+ 636.69 #168  [('', 'dollars'), ('dollars', '')]   | heard: In 1968, Congress ordered the wrecks removed at an estimated $350,000 if Maryland paid half.
+ 649.71 #171  [('idamont', 'idemont')]   | heard: In 1970, at a hearing in Congress, a vice president of the power company, PEPCO, was asked about Idemont.
+ 704.59 #184  [('then', 'than')]   | heard: than trees.
+ 726.41 #191  [('bald', 'bold')]   | heard: bold eagles hunt over the bay.
+ 740.61 #195  [('accomac', 'acamac')]   | heard: At the edge of the bay lies a steel car ferry, the Acamac.
+ 785.42 #205  [('noaa', 'noah')]   | heard: Noah calls it the largest wooden ship graveyard in the Western Hemisphere.
+25 of 218 chunks differ
