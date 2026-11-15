@@ -1,0 +1,150 @@
+{
+ "chapter": "c05",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": "@sell",
+   "role": "hit",
+   "note": "stamp: FOR SALE."
+  },
+  {
+   "shot": "s03",
+   "at": "@two",
+   "role": "hit",
+   "note": "gauge hero bar lands: 1919–20 SALES",
+   "offset_after": 0.8
+  },
+  {
+   "shot": "s05",
+   "at": "@five",
+   "role": "hit",
+   "note": "gauge hero bar lands: 1921",
+   "offset_after": 0.8
+  },
+  {
+   "shot": "s07",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c05_james)"
+  },
+  {
+   "shot": "s08",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c05_auction)"
+  },
+  {
+   "shot": "s09",
+   "at": "@two",
+   "role": "pop",
+   "note": "card number lands: 233"
+  },
+  {
+   "shot": "s10",
+   "at": "@seven",
+   "role": "pop",
+   "note": "card number lands: $750,000"
+  },
+  {
+   "shot": "s11",
+   "at": "@all",
+   "role": "hit",
+   "note": "stamp: FOR ALL OF THEM."
+  },
+  {
+   "shot": "s12",
+   "at": "@three",
+   "role": "hit",
+   "note": "gauge hero bar lands: 1922 AUCTION",
+   "offset_after": 0.8
+  },
+  {
+   "shot": "s13",
+   "at": "@western",
+   "role": "tick",
+   "note": "label: WESTERN MARINE & SALVAGE CO."
+  },
+  {
+   "shot": "s14",
+   "at": "@never",
+   "role": "pop",
+   "note": "card: NEVER TO SAIL AGAIN"
+  },
+  {
+   "shot": "s15",
+   "at": "@broken",
+   "role": "hit",
+   "note": "stamp: BROKEN UP."
+  },
+  {
+   "shot": "s19",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c05_tow)"
+  },
+  {
+   "shot": "s20",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c05_alex)"
+  },
+  {
+   "shot": "s21",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c05_widewater)"
+  },
+  {
+   "shot": "s23",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c05_fire_alex)"
+  },
+  {
+   "shot": "s25",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c05_fire_ww)"
+  },
+  {
+   "shot": "s26",
+   "at": "@five",
+   "role": "pop",
+   "note": "card number lands: 5"
+  },
+  {
+   "shot": "s27",
+   "at": "@aberdeen",
+   "role": "pop",
+   "note": "card: THE ABERDEEN"
+  },
+  {
+   "shot": "s29",
+   "at": "@furious",
+   "role": "hit",
+   "note": "stamp: FURIOUS."
+  },
+  {
+   "shot": "s30",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c05_nets)"
+  },
+  {
+   "shot": "s34",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c05_buy)"
+  }
+ ],
+ "film_shots": [
+  "s03",
+  "s05",
+  "s12",
+  "s17",
+  "s27",
+  "s32"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

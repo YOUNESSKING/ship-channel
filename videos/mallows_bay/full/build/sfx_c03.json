@@ -1,0 +1,140 @@
+{
+ "chapter": "c03",
+ "cues": [
+  {
+   "shot": "s02",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_uboat)"
+  },
+  {
+   "shot": "s04",
+   "at": 0.3,
+   "role": "ship",
+   "note": "steamer going down: groan",
+   "file": "groan_a__7c63fd7c.wav",
+   "end_shot": "s04"
+  },
+  {
+   "shot": "s05",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_war)"
+  },
+  {
+   "shot": "s06",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c03_army)"
+  },
+  {
+   "shot": "s07",
+   "at": 0.3,
+   "role": "ship",
+   "note": "steamer going down on screen (sink_d.mp4)",
+   "file": "groan_a__7c63fd7c.wav",
+   "end_shot": "s07"
+  },
+  {
+   "shot": "s08",
+   "at": "@emergency",
+   "role": "tick",
+   "note": "label: EMERGENCY FLEET CORPORATION"
+  },
+  {
+   "shot": "s13",
+   "at": "@wood",
+   "role": "hit",
+   "note": "stamp: WOOD."
+  },
+  {
+   "shot": "s15",
+   "at": "@thousand",
+   "role": "pop",
+   "note": "number lands: 1,000"
+  },
+  {
+   "shot": "s16",
+   "at": "@theodore",
+   "role": "tick",
+   "note": "label: THEODORE FERRIS"
+  },
+  {
+   "shot": "s17",
+   "at": "@two",
+   "role": "pop",
+   "note": "number lands: 281"
+  },
+  {
+   "shot": "s18",
+   "at": "@three",
+   "role": "pop",
+   "note": "number lands: 3,500"
+  },
+  {
+   "shot": "s19",
+   "at": "@ten",
+   "role": "pop",
+   "note": "number lands: 10"
+  },
+  {
+   "shot": "s22",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_yards)"
+  },
+  {
+   "shot": "s23",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c03_coasts)"
+  },
+  {
+   "shot": "s24",
+   "at": "@eighty",
+   "role": "pop",
+   "note": "number lands: 80,000+"
+  },
+  {
+   "shot": "s26",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_northbend)"
+  },
+  {
+   "shot": "s28",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_aberdeen)"
+  },
+  {
+   "shot": "s29",
+   "at": "@seventeen",
+   "role": "pop",
+   "note": "number lands: 17½"
+  },
+  {
+   "shot": "s30",
+   "at": "@aberdeen",
+   "role": "pop",
+   "note": "card: THE ABERDEEN"
+  }
+ ],
+ "film_shots": [
+  "s03",
+  "s04",
+  "s07",
+  "s08",
+  "s09",
+  "s10",
+  "s11",
+  "s13",
+  "s14",
+  "s15",
+  "s24",
+  "s29",
+  "s30"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

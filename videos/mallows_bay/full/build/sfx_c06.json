@@ -1,0 +1,94 @@
+{
+ "chapter": "c06",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c06_burn)"
+  },
+  {
+   "shot": "s03",
+   "at": 0.0,
+   "role": "boom",
+   "note": "the great burn (wow)"
+  },
+  {
+   "shot": "s03",
+   "at": "@thirty",
+   "role": "pop",
+   "note": "number lands: 31"
+  },
+  {
+   "shot": "s05",
+   "at": "@red",
+   "role": "tick",
+   "note": "label: “LIKE THE RED BALL OF THE SUN”"
+  },
+  {
+   "shot": "s07",
+   "at": "@plane",
+   "role": "tick",
+   "note": "label: LIEUT. SCHILT"
+  },
+  {
+   "shot": "s13",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c06_packed)"
+  },
+  {
+   "shot": "s14",
+   "at": "@one",
+   "role": "pop",
+   "note": "card number lands: 169"
+  },
+  {
+   "shot": "s16",
+   "at": "@depression",
+   "role": "hit",
+   "note": "stamp: THE DEPRESSION."
+  },
+  {
+   "shot": "s17",
+   "at": "@stopped",
+   "role": "pop",
+   "note": "card: WORK STOPS"
+  },
+  {
+   "shot": "s18",
+   "at": "@dissolved",
+   "role": "hit",
+   "note": "stamp: DISSOLVED."
+  },
+  {
+   "shot": "s23",
+   "at": "@court",
+   "role": "pop",
+   "note": "card: TO COURT"
+  },
+  {
+   "shot": "s24",
+   "at": "@abandoned",
+   "role": "pop",
+   "note": "card: ABANDONED"
+  },
+  {
+   "shot": "s28",
+   "at": "@brothels",
+   "role": "pop",
+   "note": "card: BROTHELS & WHISKEY STILLS?"
+  },
+  {
+   "shot": "s30",
+   "at": "@no",
+   "role": "pop",
+   "note": "card: NO EVIDENCE"
+  }
+ ],
+ "film_shots": [
+  "s16"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

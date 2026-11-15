@@ -1,0 +1,336 @@
+{
+ "wilson.mp4": {
+  "reel": "bridge_of_ships_r1",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    64.3,
+    67.8
+   ]
+  ],
+  "tag": "FILM: PRESIDENT WILSON, 1918"
+ },
+ "board.mp4": {
+  "reel": "bridge_of_ships_r1",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    146.3,
+    179.7
+   ]
+  ],
+  "tag": "FILM: U.S. SHIPPING BOARD, 1918"
+ },
+ "loggers.mp4": {
+  "reel": "bridge_of_ships_r1",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    192.3,
+    209.7
+   ]
+  ],
+  "tag": "FILM: CUTTING SHIP TIMBER, 1918"
+ },
+ "logpond.mp4": {
+  "reel": "bridge_of_ships_r1",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    224.3,
+    247.7
+   ]
+  ],
+  "tag": "FILM: LOGS FOR WOODEN SHIPS, 1918"
+ },
+ "sawmill.mp4": {
+  "reel": "bridge_of_ships_r1",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    262.3,
+    291.7
+   ]
+  ],
+  "tag": "FILM: SAWING SHIP TIMBER, 1918"
+ },
+ "borer.mp4": {
+  "reel": "bridge_of_ships_r1",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    302.3,
+    307.7
+   ]
+  ],
+  "tag": "FILM: BUILDING A WOODEN HULL, 1918"
+ },
+ "hullint.mp4": {
+  "reel": "bridge_of_ships_r1",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    318.3,
+    321.7
+   ]
+  ],
+  "tag": "FILM: INSIDE A WOODEN HULL, 1918"
+ },
+ "frames.mp4": {
+  "reel": "bridge_of_ships_r1",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    332.3,
+    335.7
+   ]
+  ],
+  "tag": "FILM: WOODEN HULLS ON THE WAYS, 1918"
+ },
+ "christen.mp4": {
+  "reel": "bridge_of_ships_r1",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    344.3,
+    351.7
+   ]
+  ],
+  "tag": "FILM: A LAUNCHING, SEATTLE, 1918"
+ },
+ "launch_ypres.mp4": {
+  "reel": "bridge_of_ships_r1",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    352.3,
+    359.7
+   ]
+  ],
+  "tag": "FILM: WOODEN SHIP 'YPRES' LAUNCHED, SEATTLE, 1918"
+ },
+ "launch_pershing.mp4": {
+  "reel": "bridge_of_ships_r1",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    370.3,
+    379.7
+   ]
+  ],
+  "tag": "FILM: WOODEN SHIP 'GENERAL PERSHING' LAUNCHED, 1918"
+ },
+ "workers.mp4": {
+  "reel": "bridge_of_ships_r1",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    492.3,
+    505.7
+   ],
+   [
+    820.3,
+    839.7
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 FILM: SHIPYARD WORKERS, 1918"
+ },
+ "torch.mp4": {
+  "reel": "bridge_of_ships_r1",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    462.3,
+    483.7
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 FILM: CUTTING STEEL, 1918"
+ },
+ "pay.mp4": {
+  "reel": "bridge_of_ships_r2",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    16.3,
+    29.7
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 FILM: SHIPYARD PAY DAY, 1918"
+ },
+ "steel_ways.mp4": {
+  "reel": "bridge_of_ships_r2",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    128.3,
+    175.7
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 FILM: A STEEL HULL ON THE WAYS, 1918"
+ },
+ "uboat_crew.mp4": {
+  "reel": "u35_submarine",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    96.3,
+    131.7
+   ]
+  ],
+  "tag": "FILM: GERMAN U-BOAT U-35, 1917"
+ },
+ "uboat_cmdr.mp4": {
+  "reel": "u35_submarine",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    150.3,
+    191.7
+   ]
+  ],
+  "tag": "FILM: GERMAN U-BOAT U-35, 1917"
+ },
+ "sink_a.mp4": {
+  "reel": "u35_submarine",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    300.3,
+    359.7
+   ]
+  ],
+  "tag": "FILM: ITALIAN STEAMER SUNK BY U-35, 1917"
+ },
+ "sink_b.mp4": {
+  "reel": "u35_submarine",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    372.3,
+    449.7
+   ]
+  ],
+  "tag": "FILM: GREEK STEAMER 'INDIA' SUNK BY U-35, 1917"
+ },
+ "sink_c.mp4": {
+  "reel": "u35_submarine",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    606.3,
+    653.7
+   ]
+  ],
+  "tag": "FILM: BRITISH STEAMER 'CORFU' SUNK BY U-35, 1917"
+ },
+ "sink_d.mp4": {
+  "reel": "u35_submarine",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    666.3,
+    701.7
+   ]
+  ],
+  "tag": "FILM: BRITISH STEAMER 'PATAGONIA' SUNK BY U-35, 1917"
+ },
+ "laidup.mp4": {
+  "reel": "scrapping_ship_1199",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    9.2,
+    13.9
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 FILM: LAID-UP STEEL FREIGHTERS, 1927"
+ },
+ "boiler.mp4": {
+  "reel": "scrapping_ship_1199",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    150.3,
+    179.7
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 FILM: A STEAMER'S BOILER LIFTED OUT, 1927"
+ },
+ "strip_a.mp4": {
+  "reel": "scrapping_ship_1199",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    48.3,
+    79.7
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 FILM: STRIPPED SHIP FITTINGS, 1927"
+ },
+ "tow.mp4": {
+  "reel": "scrapping_ship_1640",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    284.3,
+    371.7
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 FILM: OLD SHIPS UNDER TOW, 1920s"
+ },
+ "dc_pan.mp4": {
+  "reel": "washington_dc_1921",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    144.3,
+    173.7
+   ]
+  ],
+  "tag": "FILM: WASHINGTON, D.C., c.1921"
+ },
+ "capitol.mp4": {
+  "reel": "washington_dc_1921",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    174.3,
+    305.7
+   ]
+  ],
+  "tag": "FILM: WASHINGTON, D.C., c.1921"
+ },
+ "ww_frames.mp4": {
+  "reel": "wartime_shipbuilding",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    112.3,
+    117.7
+   ]
+  ],
+  "tag": "FILM: WOODEN FRAMES ON THE WAYS, 1918"
+ },
+ "launch_c.mp4": {
+  "reel": "wartime_shipbuilding",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    364.3,
+    391.7
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 FILM: A LAUNCH, 1918"
+ },
+ "hog_crowd.mp4": {
+  "reel": "hog_island_1917",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    44.3,
+    99.7
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 FILM: SHIPYARD JOB-SEEKERS, 1917"
+ }
+}

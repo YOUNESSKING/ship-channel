@@ -1,0 +1,102 @@
+{
+ "chapter": "c01",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c01_open)"
+  },
+  {
+   "shot": "s02",
+   "at": "@hundred",
+   "role": "pop",
+   "note": "number lands: 100+"
+  },
+  {
+   "shot": "s06",
+   "at": "@seven",
+   "role": "pop",
+   "note": "number lands: $750,000+"
+  },
+  {
+   "shot": "s07",
+   "at": "@after",
+   "role": "tick",
+   "note": "label: FINISHED AFTER THE WAR"
+  },
+  {
+   "shot": "s09",
+   "at": 0.0,
+   "role": "boom",
+   "note": "the fleet on fire (wow)"
+  },
+  {
+   "shot": "s10",
+   "at": "@thirty",
+   "role": "pop",
+   "note": "number lands: 31"
+  },
+  {
+   "shot": "s12",
+   "at": "@steel",
+   "role": "tick",
+   "note": "label: BETHLEHEM STEEL"
+  },
+  {
+   "shot": "s13",
+   "at": "@removed",
+   "role": "tick",
+   "note": "label: CONGRESS ORDERS REMOVAL"
+  },
+  {
+   "shot": "s14",
+   "at": 0.1,
+   "role": "tick",
+   "note": "option appears: Burn it"
+  },
+  {
+   "shot": "s14",
+   "at": "@failed",
+   "role": "tick",
+   "note": "option struck: Burn it"
+  },
+  {
+   "shot": "s14",
+   "at": 0.5,
+   "role": "tick",
+   "note": "option appears: Scrap it"
+  },
+  {
+   "shot": "s14",
+   "at": "@failed",
+   "role": "tick",
+   "note": "option struck: Scrap it"
+  },
+  {
+   "shot": "s14",
+   "at": 0.9,
+   "role": "tick",
+   "note": "option appears: Remove it"
+  },
+  {
+   "shot": "s14",
+   "at": "@failed",
+   "role": "tick",
+   "note": "option struck: Remove it"
+  },
+  {
+   "shot": "s17",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c01_dc)"
+  }
+ ],
+ "film_shots": [
+  "s05",
+  "s13",
+  "s14"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

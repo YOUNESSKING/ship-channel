@@ -1,0 +1,278 @@
+{
+ "key": "c01",
+ "title": "Mallows Bay · Hook",
+ "words": "../build/words.json",
+ "audio_offset": 0.0,
+ "clips_dir": "../segments",
+ "duration": 52.734,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c01_open.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t3.39",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c01_s02.mp4",
+    "push": null
+   },
+   "params": {
+    "number": "100+",
+    "unit": "ships",
+    "number_at": "@hundred"
+   }
+  },
+  {
+   "id": "s03",
+   "start": "t7.02",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s03.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s04",
+   "start": "t8.55",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s04.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t10.01",
+   "sfx": false,
+   "tag": "FILM: WOODEN SHIP 'GENERAL PERSHING' LAUNCHED, 1918",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c01_s05.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s06",
+   "start": "t13.94",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c01_s06.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "EACH SHIP",
+    "number": "$750,000+",
+    "number_at": "@seven"
+   }
+  },
+  {
+   "id": "s07",
+   "start": "t18.78",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c01_s07.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "TOO LATE",
+    "text": "FINISHED AFTER THE WAR",
+    "at": "@after"
+   }
+  },
+  {
+   "id": "s08",
+   "start": "t22.84",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "strike_swap",
+   "clip": {
+    "file": "p_c01_s08.mp4",
+    "push": null
+   },
+   "params": {
+    "lead1": "COST TO BUILD",
+    "old": "$750,000",
+    "lead2": "SOLD FOR",
+    "new": "≈ $3,000",
+    "show_at": 0.05,
+    "swap_at": "@three",
+    "strike_at": "@three",
+    "dim": "dk"
+   }
+  },
+  {
+   "id": "s09",
+   "start": "t26.88",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s09.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
+   "start": "t29.58",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c01_s10.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "IN ONE DAY",
+    "number": "31",
+    "unit": "ships",
+    "number_at": "@thirty"
+   }
+  },
+  {
+   "id": "s11",
+   "start": "t32.79",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s11.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s12",
+   "start": "t35.06",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c01_s12.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "1942–1944",
+    "text": "BETHLEHEM STEEL",
+    "at": "@steel"
+   }
+  },
+  {
+   "id": "s13",
+   "start": "t37.54",
+   "sfx": false,
+   "tag": "FILM: WASHINGTON, D.C., c.1921",
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "f_c01_s13.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "1968",
+    "text": "CONGRESS ORDERS REMOVAL",
+    "at": "@removed"
+   }
+  },
+  {
+   "id": "s14",
+   "start": "t39.76",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · FILM: OLD SHIPS UNDER TOW, 1920s",
+   "template": "anim_options",
+   "variant": "list",
+   "params": {
+    "title": "Get rid of *the fleet*",
+    "numbered": false,
+    "items": [
+     {
+      "text": "Burn it",
+      "at": 0.1,
+      "strike_at": "@failed"
+     },
+     {
+      "text": "Scrap it",
+      "at": 0.5,
+      "strike_at": "@failed"
+     },
+     {
+      "text": "Remove it",
+      "at": 0.9,
+      "strike_at": "@failed"
+     }
+    ]
+   },
+   "bg_clip": {
+    "file": "b_c01_s14.mp4",
+    "show": 0.5
+   }
+  },
+  {
+   "id": "s15",
+   "start": "t44.41",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s15.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s16",
+   "start": "t46.39",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s16.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s17",
+   "start": "t49.26",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c01_dc.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

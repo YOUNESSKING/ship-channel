@@ -1,0 +1,437 @@
+{
+ "key": "c03",
+ "title": "Mallows Bay · A Fleet of Wood",
+ "words": "../build/words.json",
+ "audio_offset": 96.852,
+ "clips_dir": "../segments",
+ "duration": 111.157,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s01.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t5.93",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_uboat.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t9.21",
+   "sfx": false,
+   "tag": "FILM: GREEK STEAMER 'INDIA' SUNK BY U-35, 1917",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s03.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s04",
+   "start": "t12.56",
+   "sfx": false,
+   "tag": "FILM: BRITISH STEAMER 'CORFU' SUNK BY U-35, 1917",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s04.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t16.46",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_war.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s06",
+   "start": "t20.77",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_army.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t23.95",
+   "sfx": false,
+   "tag": "FILM: BRITISH STEAMER 'PATAGONIA' SUNK BY U-35, 1917",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s07.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s08",
+   "start": "t26.65",
+   "sfx": false,
+   "tag": "FILM: U.S. SHIPPING BOARD, 1918",
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "f_c03_s08.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "16 APRIL 1917",
+    "text": "EMERGENCY FLEET CORPORATION",
+    "at": "@emergency"
+   }
+  },
+  {
+   "id": "s09",
+   "start": "t31.06",
+   "sfx": false,
+   "tag": "FILM: GERMAN U-BOAT U-35, 1917",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s09.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
+   "start": "t35.55",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · FILM: A STEEL HULL ON THE WAYS, 1918",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s10.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
+   "start": "t37.07",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · FILM: SHIPYARD JOB-SEEKERS, 1917",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s11.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s12",
+   "start": "t38.72",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s12.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s13",
+   "start": "t42.87",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "word",
+   "card": true,
+   "params": {
+    "text": "WOOD.",
+    "at": "@wood"
+   },
+   "clip": {
+    "file": "b_c03_s13.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s14",
+   "start": "t45.10",
+   "sfx": false,
+   "tag": "FILM: CUTTING SHIP TIMBER, 1918",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s14.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s15",
+   "start": "t48.12",
+   "sfx": false,
+   "tag": "FILM: SAWING SHIP TIMBER, 1918",
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "f_c03_s15.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "IN 18 MONTHS",
+    "number": "1,000",
+    "unit": "ships",
+    "number_at": "@thousand"
+   }
+  },
+  {
+   "id": "s16",
+   "start": "t53.53",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c03_s16.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "NAVAL ARCHITECT",
+    "text": "THEODORE FERRIS",
+    "at": "@theodore"
+   }
+  },
+  {
+   "id": "s17",
+   "start": "t58.13",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c03_s17.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "FERRIS DESIGN",
+    "number": "281",
+    "unit": "ft",
+    "number_at": "@two"
+   }
+  },
+  {
+   "id": "s18",
+   "start": "t61.81",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c03_s18.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "CARGO · COAL-FIRED",
+    "number": "3,500",
+    "unit": "tons",
+    "number_at": "@three"
+   }
+  },
+  {
+   "id": "s19",
+   "start": "t67.16",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c03_s19.mp4",
+    "push": null
+   },
+   "params": {
+    "number": "10",
+    "unit": "knots",
+    "number_at": "@ten"
+   }
+  },
+  {
+   "id": "s20",
+   "start": "t69.75",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s20.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s21",
+   "start": "t71.36",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s21.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s22",
+   "start": "t75.54",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_yards.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s23",
+   "start": "t80.94",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_coasts.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s24",
+   "start": "t85.32",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · FILM: SHIPYARD WORKERS, 1918",
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "f_c03_s24.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "SEPT 1918",
+    "number": "80,000+",
+    "unit": "workers",
+    "number_at": "@eighty"
+   }
+  },
+  {
+   "id": "s25",
+   "start": "t88.44",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s25.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s26",
+   "start": "t91.73",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_northbend.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s27",
+   "start": "t97.51",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s27.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s28",
+   "start": "t101.36",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_aberdeen.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s29",
+   "start": "t104.97",
+   "sfx": false,
+   "tag": "FILM: WOODEN SHIP 'YPRES' LAUNCHED, SEATTLE, 1918",
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "f_c03_s29.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "THE BUILDER'S CLAIM",
+    "number": "17½",
+    "unit": "days",
+    "number_at": "@seventeen"
+   }
+  },
+  {
+   "id": "s30",
+   "start": "t108.87",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "THE RECORD SHIP",
+    "text": "THE ABERDEEN",
+    "at": "@aberdeen",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s30.mp4",
+    "push": null
+   },
+   "card_bg": true
+  }
+ ]
+}

@@ -1,0 +1,442 @@
+{
+ "key": "c06",
+ "title": "Mallows Bay · The Great Burn",
+ "words": "../build/words.json",
+ "audio_offset": 431.898,
+ "clips_dir": "../segments",
+ "duration": 109.066,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c06_burn.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t3.63",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s02.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t6.78",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c06_s03.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "5 A.M.",
+    "number": "31",
+    "unit": "ships",
+    "number_at": "@thirty"
+   }
+  },
+  {
+   "id": "s04",
+   "start": "t11.10",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s04.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t15.79",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c06_s05.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "EVENING STAR · 7 NOV 1925",
+    "text": "“LIKE THE RED BALL OF THE SUN”",
+    "at": "@red"
+   }
+  },
+  {
+   "id": "s06",
+   "start": "t19.18",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s06.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t22.84",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c06_s07.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "THE PILOT (EVENING STAR)",
+    "text": "LIEUT. SCHILT",
+    "at": "@plane"
+   }
+  },
+  {
+   "id": "s08",
+   "start": "t27.56",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s08.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s09",
+   "start": "t32.43",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s09.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
+   "start": "t35.45",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s10.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
+   "start": "t38.88",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s11.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s12",
+   "start": "t42.87",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s12.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s13",
+   "start": "t45.23",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c06_packed.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s14",
+   "start": "t49.13",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "BROUGHT INTO MALLOWS BAY",
+    "number": "169",
+    "unit": "ships",
+    "number_at": "@one",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s14.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s15",
+   "start": "t54.15",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s15.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s16",
+   "start": "t56.37",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "word",
+   "card": true,
+   "params": {
+    "text": "THE DEPRESSION.",
+    "at": "@depression"
+   },
+   "clip": {
+    "file": "b_c06_s16.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s17",
+   "start": "t58.52",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "1931",
+    "text": "WORK STOPS",
+    "at": "@stopped",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s17.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s18",
+   "start": "t61.84",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "word",
+   "card": true,
+   "params": {
+    "text": "DISSOLVED.",
+    "at": "@dissolved"
+   },
+   "clip": {
+    "file": "b_c06_s18.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s19",
+   "start": "t65.81",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s19.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s20",
+   "start": "t67.88",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s20.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s21",
+   "start": "t69.98",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s21.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s22",
+   "start": "t74.10",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s22.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s23",
+   "start": "t78.32",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "STEINBRAKER v. CROUSE · JAN 1936",
+    "text": "TO COURT",
+    "at": "@court",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s23.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s24",
+   "start": "t83.63",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "MARYLAND COURT OF APPEALS · JAN 1936",
+    "text": "ABANDONED",
+    "at": "@abandoned",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s24.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s25",
+   "start": "t87.34",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s25.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s26",
+   "start": "t89.95",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s26.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s27",
+   "start": "t93.24",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s27.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s28",
+   "start": "t96.95",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "A LEGEND",
+    "text": "BROTHELS & WHISKEY STILLS?",
+    "at": "@brothels",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s28.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s29",
+   "start": "t102.58",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s29.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s30",
+   "start": "t104.25",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "NATIONAL REGISTER SURVEY",
+    "text": "NO EVIDENCE",
+    "at": "@no",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s30.mp4",
+    "push": null
+   },
+   "card_bg": true
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+ "chapter": "c04",
+ "cues": [
+  {
+   "shot": "s10",
+   "at": "@short",
+   "role": "pop",
+   "note": "card: “SHORT TRIPS” ONLY"
+  },
+  {
+   "shot": "s12",
+   "at": "@one",
+   "role": "pop",
+   "note": "number lands: ≈ 1"
+  },
+  {
+   "shot": "s13",
+   "at": "@ninety",
+   "role": "pop",
+   "note": "card number lands: 92"
+  },
+  {
+   "shot": "s14",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c04_armistice)"
+  },
+  {
+   "shot": "s15",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c04_europe)"
+  },
+  {
+   "shot": "s21",
+   "at": "@three",
+   "role": "pop",
+   "note": "card number lands: 322"
+  },
+  {
+   "shot": "s22",
+   "at": "@seven",
+   "role": "pop",
+   "note": "gauge counts: OF THE WOODEN SHIPS"
+  },
+  {
+   "shot": "s24",
+   "at": "@two",
+   "role": "pop",
+   "note": "card number lands: $274M"
+  },
+  {
+   "shot": "s27",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c04_service)"
+  },
+  {
+   "shot": "s28",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c04_cross)"
+  }
+ ],
+ "film_shots": [
+  "s07",
+  "s12",
+  "s17",
+  "s19",
+  "s22",
+  "s24",
+  "s29"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

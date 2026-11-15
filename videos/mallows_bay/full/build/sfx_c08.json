@@ -1,0 +1,86 @@
+{
+ "chapter": "c08",
+ "cues": [
+  {
+   "shot": "s09",
+   "at": "@largemouth",
+   "role": "pop",
+   "note": "card: BASS · SHAD · HERRING"
+  },
+  {
+   "shot": "s13",
+   "at": "@exit",
+   "role": "pop",
+   "note": "card: A BEAVER LODGE INSIDE A HULL"
+  },
+  {
+   "shot": "s15",
+   "at": "@accomac",
+   "role": "tick",
+   "note": "label: THE ACCOMAC"
+  },
+  {
+   "shot": "s16",
+   "at": "@built",
+   "role": "pop",
+   "note": "card: BUILT AS A FERRY"
+  },
+  {
+   "shot": "s17",
+   "at": "@towed",
+   "role": "hit",
+   "note": "stamp: TOWED HERE."
+  },
+  {
+   "shot": "s18",
+   "at": "@nineteen",
+   "role": "pop",
+   "note": "number lands: 1986"
+  },
+  {
+   "shot": "s21",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c08_register)"
+  },
+  {
+   "shot": "s23",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c08_sanctuary)"
+  },
+  {
+   "shot": "s25",
+   "at": "@eighteen",
+   "role": "pop",
+   "note": "card number lands: 18"
+  },
+  {
+   "shot": "s26",
+   "at": "@twenty",
+   "role": "pop",
+   "note": "card: IN NEARLY 20 YEARS"
+  },
+  {
+   "shot": "s27",
+   "at": "@largest",
+   "role": "tick",
+   "note": "label: LARGEST WOODEN SHIP GRAVEYARD IN THE WESTERN HEMISPHERE"
+  },
+  {
+   "shot": "s30",
+   "at": 0.0,
+   "role": "boom",
+   "note": "the answer"
+  },
+  {
+   "shot": "s40",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c08_endscreen)"
+  }
+ ],
+ "film_shots": [],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

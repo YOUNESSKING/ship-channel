@@ -1,0 +1,569 @@
+{
+ "key": "c08",
+ "title": "Mallows Bay · Why They Stayed",
+ "words": "../build/words.json",
+ "audio_offset": 689.769,
+ "clips_dir": "../segments",
+ "duration": 166.229,
+ "fade_out": 0.6,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s01.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t3.83",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s02.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t8.88",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s03.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s04",
+   "start": "t11.96",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s04.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t16.06",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s05.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s06",
+   "start": "t19.24",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "BY 1970",
+    "text": "TREES IN THE HULLS",
+    "at": "@flowerpots",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c08_s06.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s07",
+   "start": "t22.80",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s07.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s08",
+   "start": "t28.09",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s08.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s09",
+   "start": "t30.13",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "IN THE WRECKS TODAY",
+    "text": "BASS · SHAD · HERRING",
+    "at": "@largemouth",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c08_s09.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s10",
+   "start": "t33.74",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s10.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
+   "start": "t36.52",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s11.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s12",
+   "start": "t39.07",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s12.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s13",
+   "start": "t43.27",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "SURVEYORS FOUND",
+    "text": "A BEAVER LODGE INSIDE A HULL",
+    "at": "@exit",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c08_s13.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s14",
+   "start": "t47.71",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s14.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s15",
+   "start": "t50.72",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c08_s15.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "STEEL CAR FERRY",
+    "text": "THE ACCOMAC",
+    "at": "@accomac"
+   }
+  },
+  {
+   "id": "s16",
+   "start": "t54.44",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "1928",
+    "text": "BUILT AS A FERRY",
+    "at": "@built",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c08_s16.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s17",
+   "start": "t58.66",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "word",
+   "card": true,
+   "params": {
+    "text": "TOWED HERE.",
+    "at": "@towed"
+   },
+   "clip": {
+    "file": "b_c08_s17.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s18",
+   "start": "t60.94",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "s_c08_s18.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "OSPREYS ON THE ACCOMAC SINCE",
+    "number": "1986",
+    "number_at": "@nineteen"
+   }
+  },
+  {
+   "id": "s19",
+   "start": "t65.55",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s19.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s20",
+   "start": "t71.23",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "s_c08_s20.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s21",
+   "start": "t74.56",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c08_register.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s22",
+   "start": "t77.62",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "NATIONAL REGISTER",
+    "text": "HISTORIC PLACES",
+    "at": "@historic",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c08_s22.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s23",
+   "start": "t80.70",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c08_sanctuary.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s24",
+   "start": "t84.94",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c08_sanctuary_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s25",
+   "start": "t89.08",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "THE SANCTUARY",
+    "number": "18",
+    "unit": "sq mi",
+    "number_at": "@eighteen",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c08_s25.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s26",
+   "start": "t90.85",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "FIRST NEW MARINE SANCTUARY",
+    "text": "IN NEARLY 20 YEARS",
+    "at": "@twenty",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c08_s26.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s27",
+   "start": "t95.53",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c08_s27.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "NOAA",
+    "text": "LARGEST WOODEN SHIP GRAVEYARD IN THE WESTERN HEMISPHERE",
+    "at": "@largest"
+   }
+  },
+  {
+   "id": "s28",
+   "start": "t100.36",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s28.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s29",
+   "start": "t103.60",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s29.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s30",
+   "start": "t106.82",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s30.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s31",
+   "start": "t108.70",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s31.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s32",
+   "start": "t112.95",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s32.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s33",
+   "start": "t116.11",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s33.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s34",
+   "start": "t119.69",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s34.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s35",
+   "start": "t123.63",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s35.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s36",
+   "start": "t127.61",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s36.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s37",
+   "start": "t129.96",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s37.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s38",
+   "start": "t134.19",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "VISIBLE IN 1998, NOW UNDER WATER",
+    "number": "7 IN 10",
+    "number_at": "@seven",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c08_s38.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s39",
+   "start": "t138.20",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s39.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s40",
+   "start": "t140.09",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c08_endscreen.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

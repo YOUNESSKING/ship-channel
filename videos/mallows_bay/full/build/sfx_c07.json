@@ -1,0 +1,169 @@
+{
+ "chapter": "c07",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_war)"
+  },
+  {
+   "shot": "s04",
+   "at": "@pots",
+   "role": "pop",
+   "note": "card: POTS · PANS · OLD CARS"
+  },
+  {
+   "shot": "s06",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_1942)"
+  },
+  {
+   "shot": "s07",
+   "at": "@bethlehem",
+   "role": "hit",
+   "note": "stamp: BETHLEHEM STEEL."
+  },
+  {
+   "shot": "s09",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_basin)"
+  },
+  {
+   "shot": "s10",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c07_basin_b)"
+  },
+  {
+   "shot": "s11",
+   "at": "@twenty",
+   "role": "pop",
+   "note": "card number lands: 20,000"
+  },
+  {
+   "shot": "s12",
+   "at": "@work",
+   "role": "hit",
+   "note": "stamp: IT DID NOT WORK."
+  },
+  {
+   "shot": "s15",
+   "at": "@very",
+   "role": "pop",
+   "note": "card: “A VERY SMALL RECOVERY OF METAL”"
+  },
+  {
+   "shot": "s16",
+   "at": "@ended",
+   "role": "pop",
+   "note": "card: CONTRACT ENDED"
+  },
+  {
+   "shot": "s21",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_sandy)"
+  },
+  {
+   "shot": "s22",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c07_sandy_b)"
+  },
+  {
+   "shot": "s23",
+   "at": "@cheap",
+   "role": "pop",
+   "note": "card: A CHEAP FIX"
+  },
+  {
+   "shot": "s24",
+   "at": "@fifty",
+   "role": "pop",
+   "note": "number lands: $50,000"
+  },
+  {
+   "shot": "s25",
+   "at": "@no",
+   "role": "hit",
+   "note": "stamp: NO."
+  },
+  {
+   "shot": "s27",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_dc1968)"
+  },
+  {
+   "shot": "s28",
+   "at": "@three",
+   "role": "pop",
+   "note": "card number lands: $350,000"
+  },
+  {
+   "shot": "s29",
+   "at": "@not",
+   "role": "pop",
+   "note": "card: WOULD NOT PAY"
+  },
+  {
+   "shot": "s30",
+   "at": "@twist",
+   "role": "hit",
+   "note": "stamp: THE TWIST."
+  },
+  {
+   "shot": "s31",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_hearing)"
+  },
+  {
+   "shot": "s32",
+   "at": "@pepco",
+   "role": "pop",
+   "note": "card: PEPCO"
+  },
+  {
+   "shot": "s33",
+   "at": "@dummy",
+   "role": "pop",
+   "note": "card: “A DUMMY CORPORATION”"
+  },
+  {
+   "shot": "s34",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_plant)"
+  },
+  {
+   "shot": "s35",
+   "at": "@denied",
+   "role": "pop",
+   "note": "card: DENIED ANY PART"
+  },
+  {
+   "shot": "s36",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_plant_b)"
+  },
+  {
+   "shot": "s37",
+   "at": "@ninety",
+   "role": "pop",
+   "note": "number lands: 99"
+  }
+ ],
+ "film_shots": [
+  "s03",
+  "s04",
+  "s12",
+  "s14"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}
