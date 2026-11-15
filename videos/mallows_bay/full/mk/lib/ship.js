@@ -41,7 +41,12 @@ window.ShipK = function () {
   S.PL = { REEF: [30.04258, -87.00662], SSUS: [30.11913, -86.77925], PENS: [30.42, -87.22], NASP: [30.35, -87.29], DESTIN: [30.393, -86.496],
     BREM: [47.565, -122.627], SF: [37.80, -122.40], GG: [37.81, -122.52], MARE: [38.09, -122.27], TOKYO: [35.45, 139.85],
     BEAU: [30.08, -94.10], SABINE: [29.70, -93.85], CORPUS: [27.80, -97.40], DC: [38.90, -77.03], ATL: [33.75, -84.39],
-    BNY: [40.7003, -73.9729], HANOI: [21.03, 105.85], TRUCBACH: [21.047, 105.838], YANKEE: [17.5, 108.5] };
+    BNY: [40.7003, -73.9729], HANOI: [21.03, 105.85], TRUCBACH: [21.047, 105.838], YANKEE: [17.5, 108.5],
+    // Mallows Bay (FACTCHECK_C: GNIS bay point; White House; FACTCHECK_B: Sandy Point just north of the bay, Widewater opposite)
+    WH: [38.8977, -77.0365], MALLOWS: [38.4726, -77.2686], QUANTICO: [38.5221, -77.2930], WIDEWATER: [38.445, -77.318],
+    ALEX: [38.8048, -77.0469], SANDY: [38.487, -77.262], BASIN: [38.466, -77.262], NANJ: [38.455, -77.215],
+    NORTHBEND: [43.4065, -124.2243], ABERDEEN: [46.9754, -123.8157], JAMES: [37.13, -76.65], BERLIN: [52.52, 13.40],
+    FRANCE: [47.5, -2.5], BRITAIN: [51.5, -1.5], NYC: [40.70, -74.00], ARMEUR: [49.0, 2.3] };
   S.P = (k) => S.G(...S.PL[k]);
   S.path = (ll) => ll.map((p) => S.G(p[0], p[1]));
   // ---- spoken words -> scene seconds ----
