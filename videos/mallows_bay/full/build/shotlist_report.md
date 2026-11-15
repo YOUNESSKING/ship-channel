@@ -3,7 +3,7 @@
 | chapter | dur s | shots | film % | photo % | map % | hero % | anim % | card % | of which NARA film % | generic US-Gov film % | anim over moving film % | **moving video total %** | longest shot | cues/min |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | c01 | 52.7 | 17 | 12 | 67 | 13 | 0 | 9 | 0 | 12 | 0 | 9 | **20** | 4.8 s (s06) | 17.1 |
-| c02 | 44.1 | 12 | 8 | 62 | 29 | 0 | 0 | 0 | 8 | 0 | 0 | **8** | 5.3 s (s10) | 6.8 |
+| c02 | 44.1 | 12 | 0 | 71 | 29 | 0 | 0 | 0 | 0 | 0 | 0 | **0** | 5.3 s (s10) | 6.8 |
 | c03 | 111.2 | 30 | 38 | 35 | 27 | 0 | 0 | 0 | 34 | 4 | 0 | **38** | 5.9 s (s01) | 10.3 |
 | c04 | 100.4 | 30 | 31 | 46 | 18 | 0 | 5 | 0 | 14 | 17 | 5 | **36** | 5.8 s (s12) | 6.0 |
 | c05 | 123.5 | 36 | 28 | 33 | 29 | 0 | 10 | 0 | 5 | 22 | 10 | **37** | 5.4 s (s21) | 10.7 |
@@ -53,7 +53,7 @@
 | c02 | s09 | 78.41 | 4.95 | number_clip | P:aer_kayaks | Federal surveys count |
 | c02 | s10 | 83.35 | 5.33 | number_clip | P:naip_mallows_mid_020 | NOAA counts |
 | c02 | s11 | 88.68 | 4.49 | map_clip | M:c02_crow | The bay is thirty-two miles |
-| c02 | s12 | 93.18 | 3.68 | clip_plain | F:dc_pan.mp4 | Yet most people |
+| c02 | s12 | 93.18 | 3.68 | clip_plain | P:dc_from_monument_1925 | Yet most people |
 | c03 | s01 | 96.85 | 5.93 | clip_plain | P:aerial_1936_fleet | To understand how a fleet |
 | c03 | s02 | 102.78 | 3.28 | map_clip | M:c03_uboat | In February and March |
 | c03 | s03 | 106.06 | 3.34 | clip_plain | F:sink_b.mp4 | In February and March |

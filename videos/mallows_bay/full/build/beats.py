@@ -76,7 +76,7 @@ B["c02"] = [
  E("Federal surveys count", "P:aer_kayaks", num=dict(variant="right", kicker="WWI STEAMSHIPS", number="100+", number_at="@hundred")),
  E("NOAA counts", "P:naip_mallows_mid_020", num=dict(variant="right", kicker="KNOWN SHIPWRECKS (NOAA)", number="141", number_at="@one")),
  E("The bay is thirty-two miles", "M:c02_crow", map="WHITE HOUSE -> bay straight line; '32 MILES · AS THE CROW FLIES' on 'thirty-two'"),
- E("Yet most people", "F:dc_pan.mp4"),
+ E("Yet most people", "P:dc_from_monument_1925"),
 ]
 B["c03"] = [
  E("To understand how a fleet", "P:aerial_1936_fleet", label="MALLOWS BAY · 1936"),

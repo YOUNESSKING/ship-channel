@@ -157,11 +157,10 @@
    "id": "s12",
    "start": "t40.44",
    "sfx": false,
-   "tag": "FILM: WASHINGTON, D.C., c.1921",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "f_c02_s12.mp4",
+    "file": "p_c02_s12.mp4",
     "push": null
    },
    "params": {}
