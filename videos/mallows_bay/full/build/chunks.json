@@ -1,0 +1,1935 @@
+{
+ "voice": "archive (bm_fable 0.40 + am_michael 0.40 + bm_lewis 0.20)",
+ "style_md5": "c9ce4988",
+ "speed": 0.92,
+ "question_speed": 0.8522,
+ "duration": 800.085,
+ "chunks": [
+  {
+   "text": "Right now, about thirty miles from the White House, more than a hundred ships are rotting in the Potomac River.",
+   "start": 0.35,
+   "end": 6.54,
+   "chapter": "c01",
+   "para": 0,
+   "speed": 0.92,
+   "file": "807be7bfd891.wav"
+  },
+  {
+   "text": "Not one or two.",
+   "start": 7.14,
+   "end": 8.368,
+   "chapter": "c01",
+   "para": 1,
+   "speed": 0.92,
+   "file": "76ce869752c9.wav"
+  },
+  {
+   "text": "A whole fleet.",
+   "start": 8.668,
+   "end": 9.825,
+   "chapter": "c01",
+   "para": 1,
+   "speed": 0.92,
+   "file": "b0ef114adb6e.wav"
+  },
+  {
+   "text": "The United States built them to win the First World War.",
+   "start": 10.125,
+   "end": 13.464,
+   "chapter": "c01",
+   "para": 1,
+   "speed": 0.92,
+   "file": "7eb419bab5ad.wav"
+  },
+  {
+   "text": "Each one cost the government more than seven hundred and fifty thousand dollars.",
+   "start": 14.064,
+   "end": 18.602,
+   "chapter": "c01",
+   "para": 2,
+   "speed": 0.92,
+   "file": "61bb119992be.wav"
+  },
+  {
+   "text": "Not one of them reached a European port while the fighting lasted.",
+   "start": 18.902,
+   "end": 22.695,
+   "chapter": "c01",
+   "para": 2,
+   "speed": 0.92,
+   "file": "773dda42d296.wav"
+  },
+  {
+   "text": "Then the government sold them for about three thousand dollars each.",
+   "start": 23.295,
+   "end": 27.035,
+   "chapter": "c01",
+   "para": 3,
+   "speed": 0.92,
+   "file": "fd71aab59ce3.wav"
+  },
+  {
+   "text": "A salvage company set them on fire.",
+   "start": 27.335,
+   "end": 29.736,
+   "chapter": "c01",
+   "para": 3,
+   "speed": 0.92,
+   "file": "67d2bb71df65.wav"
+  },
+  {
+   "text": "Thirty-one of them burned in a single day.",
+   "start": 30.036,
+   "end": 32.65,
+   "chapter": "c01",
+   "para": 3,
+   "speed": 0.92,
+   "file": "7d5469795aca.wav"
+  },
+  {
+   "text": "And still, they would not go away.",
+   "start": 33.25,
+   "end": 35.218,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "06c5fe05772a.wav"
+  },
+  {
+   "text": "A steel giant tried to break them up.",
+   "start": 35.518,
+   "end": 37.697,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "8b03756ad949.wav"
+  },
+  {
+   "text": "The Army tried to clear them out.",
+   "start": 37.997,
+   "end": 39.874,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "3487fcc6a224.wav"
+  },
+  {
+   "text": "For a hundred years, everyone who tried to get rid of this fleet failed.",
+   "start": 40.174,
+   "end": 44.221,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "4b2d5c2a9909.wav"
+  },
+  {
+   "text": "So why are they still here?",
+   "start": 44.821,
+   "end": 46.506,
+   "chapter": "c01",
+   "para": 5,
+   "speed": 0.8522,
+   "file": "be518c6d2ce9.wav"
+  },
+  {
+   "text": "The answer is hiding in the wrecks themselves.",
+   "start": 46.806,
+   "end": 49.378,
+   "chapter": "c01",
+   "para": 5,
+   "speed": 0.92,
+   "file": "79003a2988da.wav"
+  },
+  {
+   "text": "And it is not what anyone in Washington planned.",
+   "start": 49.678,
+   "end": 52.577,
+   "chapter": "c01",
+   "para": 5,
+   "speed": 0.92,
+   "file": "df18c0165689.wav"
+  },
+  {
+   "text": "Start with what you would see from the air.",
+   "start": 53.477,
+   "end": 55.703,
+   "chapter": "c02",
+   "para": 6,
+   "speed": 0.92,
+   "file": "c80839462bb8.wav"
+  },
+  {
+   "text": "On the Maryland shore of the Potomac, in Charles County, near a place called Nanjemoy, there is a small bay.",
+   "start": 56.003,
+   "end": 62.485,
+   "chapter": "c02",
+   "para": 6,
+   "speed": 0.92,
+   "file": "e0ff4735a964.wav"
+  },
+  {
+   "text": "Mallows Bay.",
+   "start": 62.785,
+   "end": 63.835,
+   "chapter": "c02",
+   "para": 6,
+   "speed": 0.92,
+   "file": "2039bb7ec4ae.wav"
+  },
+  {
+   "text": "At low tide, dark shapes rise out of the water.",
+   "start": 64.435,
+   "end": 67.415,
+   "chapter": "c02",
+   "para": 7,
+   "speed": 0.92,
+   "file": "3bd98b0b0ffa.wav"
+  },
+  {
+   "text": "Long ovals, all about the same size, lying side by side.",
+   "start": 67.715,
+   "end": 71.747,
+   "chapter": "c02",
+   "para": 7,
+   "speed": 0.92,
+   "file": "4f6ffe45158b.wav"
+  },
+  {
+   "text": "Some are bare ribs.",
+   "start": 72.047,
+   "end": 73.344,
+   "chapter": "c02",
+   "para": 7,
+   "speed": 0.92,
+   "file": "d4d922282779.wav"
+  },
+  {
+   "text": "Some carry whole trees.",
+   "start": 73.644,
+   "end": 75.254,
+   "chapter": "c02",
+   "para": 7,
+   "speed": 0.92,
+   "file": "8c24b426e188.wav"
+  },
+  {
+   "text": "Each shape is the hull of a wooden steamship.",
+   "start": 75.854,
+   "end": 78.52,
+   "chapter": "c02",
+   "para": 8,
+   "speed": 0.92,
+   "file": "f0053f697c3d.wav"
+  },
+  {
+   "text": "Federal surveys count more than a hundred of them from the First World War alone.",
+   "start": 78.82,
+   "end": 83.467,
+   "chapter": "c02",
+   "para": 8,
+   "speed": 0.92,
+   "file": "d6289db13577.wav"
+  },
+  {
+   "text": "NOAA counts one hundred and forty-one known shipwrecks in and around the bay.",
+   "start": 83.767,
+   "end": 88.497,
+   "chapter": "c02",
+   "para": 8,
+   "speed": 0.92,
+   "file": "b847f72ce075.wav"
+  },
+  {
+   "text": "The bay is thirty-two miles from the White House, as the crow flies.",
+   "start": 89.097,
+   "end": 93.29,
+   "chapter": "c02",
+   "para": 9,
+   "speed": 0.92,
+   "file": "56aaf1876126.wav"
+  },
+  {
+   "text": "Commuters drive past the turnoff every day.",
+   "start": 93.59,
+   "end": 96.242,
+   "chapter": "c02",
+   "para": 9,
+   "speed": 0.92,
+   "file": "370ac1f47fc0.wav"
+  },
+  {
+   "text": "Most of them have no idea the fleet is there.",
+   "start": 96.542,
+   "end": 99.425,
+   "chapter": "c02",
+   "para": 9,
+   "speed": 0.92,
+   "file": "f5c97cc91411.wav"
+  },
+  {
+   "text": "To understand how a fleet ended up here, go back to the spring of nineteen seventeen.",
+   "start": 100.325,
+   "end": 105.327,
+   "chapter": "c03",
+   "para": 10,
+   "speed": 0.92,
+   "file": "638a77a891c3.wav"
+  },
+  {
+   "text": "In February and March of nineteen seventeen, German U-boats sank more than a million tons of shipping.",
+   "start": 105.927,
+   "end": 112.252,
+   "chapter": "c03",
+   "para": 11,
+   "speed": 0.92,
+   "file": "930b4caf72c9.wav"
+  },
+  {
+   "text": "Britain was running out of ships faster than it could build them.",
+   "start": 112.552,
+   "end": 115.852,
+   "chapter": "c03",
+   "para": 11,
+   "speed": 0.92,
+   "file": "69fea0b720db.wav"
+  },
+  {
+   "text": "On the sixth of April, the United States declared war on Germany.",
+   "start": 116.452,
+   "end": 120.469,
+   "chapter": "c03",
+   "para": 12,
+   "speed": 0.92,
+   "file": "582b794e2747.wav"
+  },
+  {
+   "text": "Now it had to send an army across the Atlantic.",
+   "start": 120.769,
+   "end": 123.65,
+   "chapter": "c03",
+   "para": 12,
+   "speed": 0.92,
+   "file": "28ebcce5b72f.wav"
+  },
+  {
+   "text": "And it did not have the ships to carry it.",
+   "start": 123.95,
+   "end": 126.05,
+   "chapter": "c03",
+   "para": 12,
+   "speed": 0.92,
+   "file": "599f310f7db5.wav"
+  },
+  {
+   "text": "Ten days later, the government created the Emergency Fleet Corporation.",
+   "start": 126.65,
+   "end": 130.751,
+   "chapter": "c03",
+   "para": 13,
+   "speed": 0.92,
+   "file": "cfb01c31421d.wav"
+  },
+  {
+   "text": "Its job was to build ships faster than the U-boats could sink them.",
+   "start": 131.051,
+   "end": 134.95,
+   "chapter": "c03",
+   "para": 13,
+   "speed": 0.92,
+   "file": "6ad099bf6ca6.wav"
+  },
+  {
+   "text": "Steel was short.",
+   "start": 135.55,
+   "end": 136.769,
+   "chapter": "c03",
+   "para": 14,
+   "speed": 0.92,
+   "file": "2aba3c7e9b97.wav"
+  },
+  {
+   "text": "Shipyards were full.",
+   "start": 137.069,
+   "end": 138.419,
+   "chapter": "c03",
+   "para": 14,
+   "speed": 0.92,
+   "file": "123f645acec3.wav"
+  },
+  {
+   "text": "So someone proposed something that sounded almost old-fashioned.",
+   "start": 138.719,
+   "end": 142.568,
+   "chapter": "c03",
+   "para": 14,
+   "speed": 0.92,
+   "file": "c4dc10510990.wav"
+  },
+  {
+   "text": "Build the ships out of wood.",
+   "start": 142.868,
+   "end": 144.499,
+   "chapter": "c03",
+   "para": 14,
+   "speed": 0.92,
+   "file": "b73730f22a62.wav"
+  },
+  {
+   "text": "America had forests, and it had carpenters.",
+   "start": 145.099,
+   "end": 147.82,
+   "chapter": "c03",
+   "para": 15,
+   "speed": 0.92,
+   "file": "50aced297a5f.wav"
+  },
+  {
+   "text": "The plan called for as many as a thousand wooden steamships in eighteen months.",
+   "start": 148.12,
+   "end": 152.93,
+   "chapter": "c03",
+   "para": 15,
+   "speed": 0.92,
+   "file": "3b688e598624.wav"
+  },
+  {
+   "text": "The standard design came from a naval architect named Theodore Ferris.",
+   "start": 153.53,
+   "end": 157.823,
+   "chapter": "c03",
+   "para": 16,
+   "speed": 0.92,
+   "file": "07478ebc9e40.wav"
+  },
+  {
+   "text": "A wooden hull about two hundred and eighty-one feet long.",
+   "start": 158.123,
+   "end": 161.506,
+   "chapter": "c03",
+   "para": 16,
+   "speed": 0.92,
+   "file": "a17647497152.wav"
+  },
+  {
+   "text": "It carried about three thousand five hundred tons of cargo, and it burned coal.",
+   "start": 161.806,
+   "end": 166.555,
+   "chapter": "c03",
+   "para": 16,
+   "speed": 0.92,
+   "file": "533fc5e2b424.wav"
+  },
+  {
+   "text": "Its top speed was about ten knots.",
+   "start": 167.155,
+   "end": 169.447,
+   "chapter": "c03",
+   "para": 17,
+   "speed": 0.92,
+   "file": "6f4b053dbe9c.wav"
+  },
+  {
+   "text": "Slow, even then.",
+   "start": 169.747,
+   "end": 171.054,
+   "chapter": "c03",
+   "para": 17,
+   "speed": 0.92,
+   "file": "ecc3cd2ca894.wav"
+  },
+  {
+   "text": "But it could be built almost anywhere there was timber and water.",
+   "start": 171.354,
+   "end": 174.934,
+   "chapter": "c03",
+   "para": 17,
+   "speed": 0.92,
+   "file": "b632b85738d9.wav"
+  },
+  {
+   "text": "By nineteen nineteen, the government counted eighty-seven yards building wooden ships.",
+   "start": 175.534,
+   "end": 180.637,
+   "chapter": "c03",
+   "para": 18,
+   "speed": 0.92,
+   "file": "6ec54416192a.wav"
+  },
+  {
+   "text": "In Washington State, in Oregon, in Texas, in Georgia, along the Gulf and up the Atlantic coast.",
+   "start": 180.937,
+   "end": 187.54,
+   "chapter": "c03",
+   "para": 18,
+   "speed": 0.92,
+   "file": "cf1d312e927c.wav"
+  },
+  {
+   "text": "At the peak, in September nineteen eighteen, more than eighty thousand people were building wooden ships.",
+   "start": 188.14,
+   "end": 193.956,
+   "chapter": "c03",
+   "para": 19,
+   "speed": 0.92,
+   "file": "a148e0c4ba52.wav"
+  },
+  {
+   "text": "The first one slid into the water in Oregon on the first of December, nineteen seventeen.",
+   "start": 194.556,
+   "end": 200.036,
+   "chapter": "c03",
+   "para": 20,
+   "speed": 0.92,
+   "file": "e2405127613b.wav"
+  },
+  {
+   "text": "She was called the North Bend.",
+   "start": 200.336,
+   "end": 202.037,
+   "chapter": "c03",
+   "para": 20,
+   "speed": 0.92,
+   "file": "26a6acc1b10f.wav"
+  },
+  {
+   "text": "Remember that name.",
+   "start": 202.337,
+   "end": 203.584,
+   "chapter": "c03",
+   "para": 20,
+   "speed": 0.92,
+   "file": "bedaa0cebe45.wav"
+  },
+  {
+   "text": "In Aberdeen, Washington, a yard claimed a record.",
+   "start": 204.184,
+   "end": 207.494,
+   "chapter": "c03",
+   "para": 21,
+   "speed": 0.92,
+   "file": "9dbf823387f1.wav"
+  },
+  {
+   "text": "A hull built from keel to launch in seventeen and a half days.",
+   "start": 207.794,
+   "end": 211.393,
+   "chapter": "c03",
+   "para": 21,
+   "speed": 0.92,
+   "file": "8403cd81f3dc.wav"
+  },
+  {
+   "text": "They named her the Aberdeen.",
+   "start": 211.693,
+   "end": 213.408,
+   "chapter": "c03",
+   "para": 21,
+   "speed": 0.92,
+   "file": "5a8c662ad35c.wav"
+  },
+  {
+   "text": "On paper, it looked like a miracle.",
+   "start": 214.308,
+   "end": 216.45,
+   "chapter": "c04",
+   "para": 22,
+   "speed": 0.92,
+   "file": "31a20ef67742.wav"
+  },
+  {
+   "text": "In the water, it was something else.",
+   "start": 216.75,
+   "end": 218.744,
+   "chapter": "c04",
+   "para": 22,
+   "speed": 0.92,
+   "file": "df51183fa42a.wav"
+  },
+  {
+   "text": "The timber was often green.",
+   "start": 219.344,
+   "end": 221.071,
+   "chapter": "c04",
+   "para": 23,
+   "speed": 0.92,
+   "file": "b5278a3a9fd7.wav"
+  },
+  {
+   "text": "Freshly cut wood shrinks as it dries, and the seams of the hulls opened.",
+   "start": 221.371,
+   "end": 225.803,
+   "chapter": "c04",
+   "para": 23,
+   "speed": 0.92,
+   "file": "54ede050ceae.wav"
+  },
+  {
+   "text": "Many of the ships leaked.",
+   "start": 226.103,
+   "end": 227.717,
+   "chapter": "c04",
+   "para": 23,
+   "speed": 0.92,
+   "file": "b5c8babe2298.wav"
+  },
+  {
+   "text": "Wood is not as strong as steel, so a wooden hull could only be built so long.",
+   "start": 228.317,
+   "end": 232.907,
+   "chapter": "c04",
+   "para": 24,
+   "speed": 0.92,
+   "file": "b9defba8caf7.wav"
+  },
+  {
+   "text": "The ships were small for ocean cargo, and they burned a lot of coal.",
+   "start": 233.207,
+   "end": 237.119,
+   "chapter": "c04",
+   "para": 24,
+   "speed": 0.92,
+   "file": "a35aac77b3f6.wav"
+  },
+  {
+   "text": "The government's own shipping board said they were suited only for short trips.",
+   "start": 237.419,
+   "end": 241.705,
+   "chapter": "c04",
+   "para": 24,
+   "speed": 0.92,
+   "file": "23eb1b04e328.wav"
+  },
+  {
+   "text": "And they were late.",
+   "start": 242.305,
+   "end": 243.452,
+   "chapter": "c04",
+   "para": 25,
+   "speed": 0.92,
+   "file": "5b00961a9ad1.wav"
+  },
+  {
+   "text": "By the end of October nineteen eighteen, only ninety-two wooden and composite ships had been delivered.",
+   "start": 243.752,
+   "end": 249.965,
+   "chapter": "c04",
+   "para": 25,
+   "speed": 0.92,
+   "file": "23b1a15233c4.wav"
+  },
+  {
+   "text": "Then, on the eleventh of November nineteen eighteen, the war ended.",
+   "start": 250.565,
+   "end": 254.629,
+   "chapter": "c04",
+   "para": 26,
+   "speed": 0.92,
+   "file": "f0590d6dd4e0.wav"
+  },
+  {
+   "text": "According to the government's own historic survey, not one of the wooden ships reached a port in Europe while the fighting lasted.",
+   "start": 255.229,
+   "end": 262.627,
+   "chapter": "c04",
+   "para": 27,
+   "speed": 0.92,
+   "file": "fc9c45dfded2.wav"
+  },
+  {
+   "text": "But the yards kept building.",
+   "start": 263.227,
+   "end": 264.788,
+   "chapter": "c04",
+   "para": 28,
+   "speed": 0.92,
+   "file": "76dfbf42d1b4.wav"
+  },
+  {
+   "text": "Contracts had been signed.",
+   "start": 265.088,
+   "end": 266.782,
+   "chapter": "c04",
+   "para": 28,
+   "speed": 0.92,
+   "file": "d84c1a91683b.wav"
+  },
+  {
+   "text": "Workers had to be paid.",
+   "start": 267.082,
+   "end": 268.857,
+   "chapter": "c04",
+   "para": 28,
+   "speed": 0.92,
+   "file": "e73897bdec48.wav"
+  },
+  {
+   "text": "Hundreds of hulls were already on the ways.",
+   "start": 269.157,
+   "end": 271.68,
+   "chapter": "c04",
+   "para": 28,
+   "speed": 0.92,
+   "file": "779345642b6e.wav"
+  },
+  {
+   "text": "In the end, three hundred and twenty-two of them were finished.",
+   "start": 272.28,
+   "end": 275.434,
+   "chapter": "c04",
+   "para": 29,
+   "speed": 0.92,
+   "file": "6f09de8bc94b.wav"
+  },
+  {
+   "text": "About seven in ten were delivered after the war was already over.",
+   "start": 275.734,
+   "end": 279.728,
+   "chapter": "c04",
+   "para": 29,
+   "speed": 0.92,
+   "file": "6e84289a478b.wav"
+  },
+  {
+   "text": "By the middle of nineteen twenty, the shipping board had spent more than two hundred and seventy-four million dollars on wooden and composite ships.",
+   "start": 280.328,
+   "end": 288.791,
+   "chapter": "c04",
+   "para": 30,
+   "speed": 0.92,
+   "file": "040cce58d0d8.wav"
+  },
+  {
+   "text": "For a short time after the war, they were put to work.",
+   "start": 289.391,
+   "end": 292.34,
+   "chapter": "c04",
+   "para": 31,
+   "speed": 0.92,
+   "file": "0c04c8e48602.wav"
+  },
+  {
+   "text": "Some of them did cross the Atlantic, carrying coal and cargo.",
+   "start": 292.64,
+   "end": 296.49,
+   "chapter": "c04",
+   "para": 31,
+   "speed": 0.92,
+   "file": "c3074020f093.wav"
+  },
+  {
+   "text": "Then world shipping slumped.",
+   "start": 297.09,
+   "end": 298.807,
+   "chapter": "c04",
+   "para": 32,
+   "speed": 0.92,
+   "file": "76489aced6e2.wav"
+  },
+  {
+   "text": "There were suddenly too many ships, and nobody wanted slow, leaky wooden ones.",
+   "start": 299.107,
+   "end": 303.711,
+   "chapter": "c04",
+   "para": 32,
+   "speed": 0.92,
+   "file": "4b91d339913c.wav"
+  },
+  {
+   "text": "So the government tried to sell them.",
+   "start": 304.611,
+   "end": 306.467,
+   "chapter": "c05",
+   "para": 33,
+   "speed": 0.92,
+   "file": "f902c4d40020.wav"
+  },
+  {
+   "text": "In nineteen nineteen and nineteen twenty, the board was getting about two hundred thousand dollars a ship.",
+   "start": 306.767,
+   "end": 313.053,
+   "chapter": "c05",
+   "para": 33,
+   "speed": 0.92,
+   "file": "71aa3e5b6826.wav"
+  },
+  {
+   "text": "By nineteen twenty-one, it sold twenty-one of them for about five thousand seven hundred dollars each.",
+   "start": 313.653,
+   "end": 319.626,
+   "chapter": "c05",
+   "para": 34,
+   "speed": 0.92,
+   "file": "0fbb875b99a6.wav"
+  },
+  {
+   "text": "The rest were tied up in long rows, waiting.",
+   "start": 320.226,
+   "end": 322.854,
+   "chapter": "c05",
+   "para": 35,
+   "speed": 0.92,
+   "file": "3bfee8bcf143.wav"
+  },
+  {
+   "text": "The biggest gathering was in the James River, in Virginia.",
+   "start": 323.154,
+   "end": 326.605,
+   "chapter": "c05",
+   "para": 35,
+   "speed": 0.92,
+   "file": "7028077be278.wav"
+  },
+  {
+   "text": "On the twelfth of September nineteen twenty-two, the government gave up.",
+   "start": 327.205,
+   "end": 331.361,
+   "chapter": "c05",
+   "para": 36,
+   "speed": 0.92,
+   "file": "623292e9a58f.wav"
+  },
+  {
+   "text": "It auctioned off two hundred and thirty-three wooden steamships in a single lot.",
+   "start": 331.661,
+   "end": 336.337,
+   "chapter": "c05",
+   "para": 36,
+   "speed": 0.92,
+   "file": "74f4ec199da5.wav"
+  },
+  {
+   "text": "The price was seven hundred and fifty thousand dollars.",
+   "start": 336.937,
+   "end": 340.241,
+   "chapter": "c05",
+   "para": 37,
+   "speed": 0.92,
+   "file": "c5a0099b6509.wav"
+  },
+  {
+   "text": "For all of them.",
+   "start": 340.541,
+   "end": 341.648,
+   "chapter": "c05",
+   "para": 37,
+   "speed": 0.92,
+   "file": "d9a0df641a12.wav"
+  },
+  {
+   "text": "That is about three thousand two hundred dollars a ship.",
+   "start": 341.948,
+   "end": 345.003,
+   "chapter": "c05",
+   "para": 37,
+   "speed": 0.92,
+   "file": "4d1dd21cdc1a.wav"
+  },
+  {
+   "text": "The buyer's company was called Western Marine and Salvage.",
+   "start": 345.603,
+   "end": 349.179,
+   "chapter": "c05",
+   "para": 38,
+   "speed": 0.92,
+   "file": "a29d326cb8bc.wav"
+  },
+  {
+   "text": "And the deal came with one condition.",
+   "start": 349.479,
+   "end": 351.521,
+   "chapter": "c05",
+   "para": 38,
+   "speed": 0.92,
+   "file": "8ced87dd9968.wav"
+  },
+  {
+   "text": "The ships could never sail as steamers again.",
+   "start": 351.821,
+   "end": 354.267,
+   "chapter": "c05",
+   "para": 38,
+   "speed": 0.92,
+   "file": "1aab591c331f.wav"
+  },
+  {
+   "text": "They had to be broken up.",
+   "start": 354.567,
+   "end": 356.193,
+   "chapter": "c05",
+   "para": 38,
+   "speed": 0.92,
+   "file": "bf20a8bb38bb.wav"
+  },
+  {
+   "text": "The plan was simple.",
+   "start": 356.793,
+   "end": 358.178,
+   "chapter": "c05",
+   "para": 39,
+   "speed": 0.92,
+   "file": "9661ead425da.wav"
+  },
+  {
+   "text": "Strip out the engines, the boilers and everything metal.",
+   "start": 358.478,
+   "end": 361.684,
+   "chapter": "c05",
+   "para": 39,
+   "speed": 0.92,
+   "file": "60ee36241c79.wav"
+  },
+  {
+   "text": "Then burn the wooden hulls down to the waterline and collect what was left.",
+   "start": 361.984,
+   "end": 366.313,
+   "chapter": "c05",
+   "para": 39,
+   "speed": 0.92,
+   "file": "b39154714867.wav"
+  },
+  {
+   "text": "The company towed the ships up the Potomac.",
+   "start": 366.913,
+   "end": 369.361,
+   "chapter": "c05",
+   "para": 40,
+   "speed": 0.92,
+   "file": "fbf1780379c5.wav"
+  },
+  {
+   "text": "Some went to Alexandria, just across the river from Washington.",
+   "start": 369.661,
+   "end": 373.552,
+   "chapter": "c05",
+   "para": 40,
+   "speed": 0.92,
+   "file": "ddc9e9f4de25.wav"
+  },
+  {
+   "text": "Most were anchored off Widewater, Virginia, near the Marine base at Quantico.",
+   "start": 373.852,
+   "end": 378.68,
+   "chapter": "c05",
+   "para": 40,
+   "speed": 0.92,
+   "file": "d25bfaf7e9f0.wav"
+  },
+  {
+   "text": "It went wrong almost at once.",
+   "start": 379.28,
+   "end": 381.115,
+   "chapter": "c05",
+   "para": 41,
+   "speed": 0.92,
+   "file": "962ea962c0c1.wav"
+  },
+  {
+   "text": "In October nineteen twenty-two, a fire broke out on two of the ships at Alexandria, blamed on a cigarette.",
+   "start": 381.415,
+   "end": 388.479,
+   "chapter": "c05",
+   "para": 41,
+   "speed": 0.92,
+   "file": "9d29e27197bc.wav"
+  },
+  {
+   "text": "In April nineteen twenty-three, a kerosene stove started another fire, at Widewater.",
+   "start": 389.079,
+   "end": 394.722,
+   "chapter": "c05",
+   "para": 42,
+   "speed": 0.92,
+   "file": "91183c7a5c92.wav"
+  },
+  {
+   "text": "Marines from Quantico came out to fight it.",
+   "start": 395.022,
+   "end": 397.711,
+   "chapter": "c05",
+   "para": 42,
+   "speed": 0.92,
+   "file": "47826cace4d3.wav"
+  },
+  {
+   "text": "Five more hulls burned.",
+   "start": 398.011,
+   "end": 399.546,
+   "chapter": "c05",
+   "para": 42,
+   "speed": 0.92,
+   "file": "b966889d4415.wav"
+  },
+  {
+   "text": "The local watermen were furious.",
+   "start": 400.146,
+   "end": 402.127,
+   "chapter": "c05",
+   "para": 43,
+   "speed": 0.92,
+   "file": "18d87b3ae487.wav"
+  },
+  {
+   "text": "Their shad and herring nets were in the same water.",
+   "start": 402.427,
+   "end": 405.331,
+   "chapter": "c05",
+   "para": 43,
+   "speed": 0.92,
+   "file": "d3bee82c74bf.wav"
+  },
+  {
+   "text": "Sunken hulls and floating wreckage threatened their living.",
+   "start": 405.631,
+   "end": 409.08,
+   "chapter": "c05",
+   "para": 43,
+   "speed": 0.92,
+   "file": "28f8e7814187.wav"
+  },
+  {
+   "text": "In September nineteen twenty-three, they wrote to the Secretary of Commerce, Herbert Hoover.",
+   "start": 409.68,
+   "end": 414.809,
+   "chapter": "c05",
+   "para": 44,
+   "speed": 0.92,
+   "file": "20602eb566ab.wav"
+  },
+  {
+   "text": "So the company looked for a place out of the way.",
+   "start": 415.409,
+   "end": 417.898,
+   "chapter": "c05",
+   "para": 45,
+   "speed": 0.92,
+   "file": "8961da2af87d.wav"
+  },
+  {
+   "text": "In April nineteen twenty-four, it bought land on the Maryland side, across from Widewater.",
+   "start": 418.198,
+   "end": 423.989,
+   "chapter": "c05",
+   "para": 45,
+   "speed": 0.92,
+   "file": "bcb53665414a.wav"
+  },
+  {
+   "text": "Around a quiet bay.",
+   "start": 424.289,
+   "end": 425.638,
+   "chapter": "c05",
+   "para": 45,
+   "speed": 0.92,
+   "file": "fae6e751d1c4.wav"
+  },
+  {
+   "text": "Mallows Bay.",
+   "start": 426.238,
+   "end": 427.288,
+   "chapter": "c05",
+   "para": 46,
+   "speed": 0.92,
+   "file": "2039bb7ec4ae.wav"
+  },
+  {
+   "text": "On the seventh of November nineteen twenty-five, the company tried to finish the job in one go.",
+   "start": 428.188,
+   "end": 434.038,
+   "chapter": "c06",
+   "para": 47,
+   "speed": 0.92,
+   "file": "492ad09d7397.wav"
+  },
+  {
+   "text": "Thirty-one ships were set on fire at once.",
+   "start": 434.638,
+   "end": 437.243,
+   "chapter": "c06",
+   "para": 48,
+   "speed": 0.92,
+   "file": "938cbe4759ee.wav"
+  },
+  {
+   "text": "The fire was so big that the Marines at Quantico, across the river, turned out to fight it.",
+   "start": 437.843,
+   "end": 443.524,
+   "chapter": "c06",
+   "para": 49,
+   "speed": 0.92,
+   "file": "73137a185e8a.wav"
+  },
+  {
+   "text": "Nobody had warned them.",
+   "start": 443.824,
+   "end": 445.405,
+   "chapter": "c06",
+   "para": 49,
+   "speed": 0.92,
+   "file": "3cc6b0f5a073.wav"
+  },
+  {
+   "text": "A Marine Corps plane flew over and photographed the blaze.",
+   "start": 445.705,
+   "end": 449.06,
+   "chapter": "c06",
+   "para": 49,
+   "speed": 0.92,
+   "file": "d7b84b522e59.wav"
+  },
+  {
+   "text": "As the decks burned, rats poured off the ships.",
+   "start": 449.66,
+   "end": 452.357,
+   "chapter": "c06",
+   "para": 50,
+   "speed": 0.92,
+   "file": "2a7b16c0b39f.wav"
+  },
+  {
+   "text": "When it was over, the company had what it came for.",
+   "start": 452.957,
+   "end": 455.677,
+   "chapter": "c06",
+   "para": 51,
+   "speed": 0.92,
+   "file": "44543a89bdb4.wav"
+  },
+  {
+   "text": "A little iron and steel, pulled from the ashes.",
+   "start": 455.977,
+   "end": 458.808,
+   "chapter": "c06",
+   "para": 51,
+   "speed": 0.92,
+   "file": "276d7512203e.wav"
+  },
+  {
+   "text": "Over the next years, the burned hulls were packed into Mallows Bay.",
+   "start": 459.408,
+   "end": 463.009,
+   "chapter": "c06",
+   "para": 52,
+   "speed": 0.92,
+   "file": "36580855f70a.wav"
+  },
+  {
+   "text": "In all, the company said, it brought one hundred and sixty-nine ships here.",
+   "start": 463.309,
+   "end": 467.73,
+   "chapter": "c06",
+   "para": 52,
+   "speed": 0.92,
+   "file": "2aaca2b360b7.wav"
+  },
+  {
+   "text": "It never made the money it hoped for.",
+   "start": 468.33,
+   "end": 470.251,
+   "chapter": "c06",
+   "para": 53,
+   "speed": 0.92,
+   "file": "99f232b66eb7.wav"
+  },
+  {
+   "text": "Scrap prices fell.",
+   "start": 470.551,
+   "end": 471.937,
+   "chapter": "c06",
+   "para": 53,
+   "speed": 0.92,
+   "file": "e50ec29bf81f.wav"
+  },
+  {
+   "text": "Then came the Great Depression.",
+   "start": 472.237,
+   "end": 474.081,
+   "chapter": "c06",
+   "para": 53,
+   "speed": 0.92,
+   "file": "93e1936c04f2.wav"
+  },
+  {
+   "text": "In nineteen thirty-one, the company stopped work.",
+   "start": 474.381,
+   "end": 477.4,
+   "chapter": "c06",
+   "para": 53,
+   "speed": 0.92,
+   "file": "35957e75531a.wav"
+  },
+  {
+   "text": "By the end of nineteen thirty-two, it had been dissolved.",
+   "start": 477.7,
+   "end": 481.079,
+   "chapter": "c06",
+   "para": 53,
+   "speed": 0.92,
+   "file": "5f60ff6f99cb.wav"
+  },
+  {
+   "text": "The ships were still there.",
+   "start": 481.68,
+   "end": 483.148,
+   "chapter": "c06",
+   "para": 54,
+   "speed": 0.92,
+   "file": "2d87dc28b74f.wav"
+  },
+  {
+   "text": "Now local people moved in.",
+   "start": 483.748,
+   "end": 485.545,
+   "chapter": "c06",
+   "para": 55,
+   "speed": 0.92,
+   "file": "cd58ed10c70e.wav"
+  },
+  {
+   "text": "In the hungry years of the Depression, families rowed out to the wrecks and pried out bolts, spikes and iron, and sold them as scrap.",
+   "start": 485.845,
+   "end": 493.585,
+   "chapter": "c06",
+   "para": 55,
+   "speed": 0.92,
+   "file": "0720ec5c3f14.wav"
+  },
+  {
+   "text": "The company's backers went to court.",
+   "start": 494.185,
+   "end": 496.26,
+   "chapter": "c06",
+   "para": 56,
+   "speed": 0.92,
+   "file": "37bddb258f7d.wav"
+  },
+  {
+   "text": "In January nineteen thirty-six, Maryland's highest court ruled that the wrecks had been abandoned.",
+   "start": 496.56,
+   "end": 502.529,
+   "chapter": "c06",
+   "para": 56,
+   "speed": 0.92,
+   "file": "8d92d009ab0a.wav"
+  },
+  {
+   "text": "Anyone could take what was left.",
+   "start": 502.829,
+   "end": 504.833,
+   "chapter": "c06",
+   "para": 56,
+   "speed": 0.92,
+   "file": "24f0beba14d4.wav"
+  },
+  {
+   "text": "There is an old story that the wrecks hid floating brothels and whiskey stills in those years.",
+   "start": 505.433,
+   "end": 510.759,
+   "chapter": "c06",
+   "para": 57,
+   "speed": 0.92,
+   "file": "c58e2745567b.wav"
+  },
+  {
+   "text": "It is a good story.",
+   "start": 511.059,
+   "end": 512.426,
+   "chapter": "c06",
+   "para": 57,
+   "speed": 0.92,
+   "file": "dc16645d6cfc.wav"
+  },
+  {
+   "text": "But the historian who wrote the official survey found no evidence for it.",
+   "start": 512.726,
+   "end": 516.976,
+   "chapter": "c06",
+   "para": 57,
+   "speed": 0.92,
+   "file": "bfacaa107d98.wav"
+  },
+  {
+   "text": "Then, in nineteen forty-one, America went to war again.",
+   "start": 517.876,
+   "end": 521.416,
+   "chapter": "c07",
+   "para": 58,
+   "speed": 0.92,
+   "file": "945e0ef2ff9d.wav"
+  },
+  {
+   "text": "And this time, the wrecks seemed to have one more job to do.",
+   "start": 521.716,
+   "end": 524.915,
+   "chapter": "c07",
+   "para": 58,
+   "speed": 0.92,
+   "file": "c5d18c8ad6d0.wav"
+  },
+  {
+   "text": "The new war needed steel.",
+   "start": 525.515,
+   "end": 527.067,
+   "chapter": "c07",
+   "para": 59,
+   "speed": 0.92,
+   "file": "56e17e021276.wav"
+  },
+  {
+   "text": "Every scrap drive in the country was collecting pots, pans and old cars.",
+   "start": 527.367,
+   "end": 532.158,
+   "chapter": "c07",
+   "para": 59,
+   "speed": 0.92,
+   "file": "bd7e0068034f.wav"
+  },
+  {
+   "text": "And in Mallows Bay, there were thousands of tons of iron sitting in the mud.",
+   "start": 532.458,
+   "end": 536.584,
+   "chapter": "c07",
+   "para": 59,
+   "speed": 0.92,
+   "file": "55899a15700c.wav"
+  },
+  {
+   "text": "In nineteen forty-two, the government brought in one of the biggest steel companies in the country.",
+   "start": 537.184,
+   "end": 542.656,
+   "chapter": "c07",
+   "para": 60,
+   "speed": 0.92,
+   "file": "508684b32198.wav"
+  },
+  {
+   "text": "Bethlehem Steel.",
+   "start": 542.956,
+   "end": 544.148,
+   "chapter": "c07",
+   "para": 60,
+   "speed": 0.92,
+   "file": "7f29c4205ef2.wav"
+  },
+  {
+   "text": "The plan was clever.",
+   "start": 544.748,
+   "end": 546.13,
+   "chapter": "c07",
+   "para": 61,
+   "speed": 0.92,
+   "file": "26e83d1a43c1.wav"
+  },
+  {
+   "text": "Bethlehem built a basin at the edge of the bay, with dams and gates.",
+   "start": 546.43,
+   "end": 550.512,
+   "chapter": "c07",
+   "para": 61,
+   "speed": 0.92,
+   "file": "a484a896b7fa.wav"
+  },
+  {
+   "text": "Hulls would be floated in, the water pumped out, and the wood burned away on dry ground.",
+   "start": 550.812,
+   "end": 556.187,
+   "chapter": "c07",
+   "para": 61,
+   "speed": 0.92,
+   "file": "4d5c01350a1d.wav"
+  },
+  {
+   "text": "The target was up to twenty thousand tons of scrap metal.",
+   "start": 556.787,
+   "end": 560.295,
+   "chapter": "c07",
+   "para": 62,
+   "speed": 0.92,
+   "file": "5dc2f680653a.wav"
+  },
+  {
+   "text": "It did not work.",
+   "start": 560.895,
+   "end": 562.082,
+   "chapter": "c07",
+   "para": 63,
+   "speed": 0.92,
+   "file": "78d04a3541c9.wav"
+  },
+  {
+   "text": "By the end of nineteen forty-three, Bethlehem had spent three hundred and sixty thousand dollars.",
+   "start": 562.382,
+   "end": 568.041,
+   "chapter": "c07",
+   "para": 63,
+   "speed": 0.92,
+   "file": "d727a0992a0b.wav"
+  },
+  {
+   "text": "And the official verdict was, quote, a very small recovery of metal.",
+   "start": 568.341,
+   "end": 572.496,
+   "chapter": "c07",
+   "para": 63,
+   "speed": 0.92,
+   "file": "92cdcf4e0503.wav"
+  },
+  {
+   "text": "In September nineteen forty-four, the contract was ended.",
+   "start": 573.096,
+   "end": 576.849,
+   "chapter": "c07",
+   "para": 64,
+   "speed": 0.92,
+   "file": "3d50f046a1fe.wav"
+  },
+  {
+   "text": "The fleet that missed one world war had now missed a second.",
+   "start": 577.149,
+   "end": 580.73,
+   "chapter": "c07",
+   "para": 64,
+   "speed": 0.92,
+   "file": "f1b983b7f489.wav"
+  },
+  {
+   "text": "The basin is still there.",
+   "start": 581.33,
+   "end": 582.887,
+   "chapter": "c07",
+   "para": 65,
+   "speed": 0.92,
+   "file": "f236254bf29c.wav"
+  },
+  {
+   "text": "You can see its outline from the air, at the mouth of a creek on the south side of the bay.",
+   "start": 583.187,
+   "end": 588.294,
+   "chapter": "c07",
+   "para": 65,
+   "speed": 0.92,
+   "file": "31f234840b7b.wav"
+  },
+  {
+   "text": "After the war, the wrecks were mostly forgotten.",
+   "start": 588.894,
+   "end": 591.611,
+   "chapter": "c07",
+   "para": 66,
+   "speed": 0.92,
+   "file": "dd0ffdfcf820.wav"
+  },
+  {
+   "text": "Then, in the nineteen sixties, a new plan came to clear them out for good.",
+   "start": 591.911,
+   "end": 596.318,
+   "chapter": "c07",
+   "para": 66,
+   "speed": 0.92,
+   "file": "cba092119063.wav"
+  },
+  {
+   "text": "The Army Corps of Engineers studied removing them.",
+   "start": 596.918,
+   "end": 599.935,
+   "chapter": "c07",
+   "para": 67,
+   "speed": 0.92,
+   "file": "a59f0e046735.wav"
+  },
+  {
+   "text": "Congress approved it.",
+   "start": 600.235,
+   "end": 601.742,
+   "chapter": "c07",
+   "para": 67,
+   "speed": 0.92,
+   "file": "d3fefc6dba80.wav"
+  },
+  {
+   "text": "The wrecks were a danger to boats, it was said, and an eyesore.",
+   "start": 602.042,
+   "end": 605.491,
+   "chapter": "c07",
+   "para": 67,
+   "speed": 0.92,
+   "file": "def57de671bd.wav"
+  },
+  {
+   "text": "And here is the twist.",
+   "start": 606.091,
+   "end": 607.578,
+   "chapter": "c07",
+   "para": 68,
+   "speed": 0.92,
+   "file": "262e91a6ee4b.wav"
+  },
+  {
+   "text": "The man pushing hardest for the clean-up was working for a front company.",
+   "start": 607.878,
+   "end": 612.047,
+   "chapter": "c07",
+   "para": 68,
+   "speed": 0.92,
+   "file": "3c4a30a99da7.wav"
+  },
+  {
+   "text": "Behind it was the local power company, PEPCO.",
+   "start": 612.347,
+   "end": 615.258,
+   "chapter": "c07",
+   "para": 68,
+   "speed": 0.92,
+   "file": "2627906a2384.wav"
+  },
+  {
+   "text": "PEPCO wanted the land nearby for a power plant.",
+   "start": 615.858,
+   "end": 618.801,
+   "chapter": "c07",
+   "para": 69,
+   "speed": 0.92,
+   "file": "8b9cbf4e7174.wav"
+  },
+  {
+   "text": "A bay full of rotting ships did not fit that plan.",
+   "start": 619.101,
+   "end": 622.098,
+   "chapter": "c07",
+   "para": 69,
+   "speed": 0.92,
+   "file": "ba65dcc2e974.wav"
+  },
+  {
+   "text": "In nineteen seventy, Maryland's natural resources department looked at the removal plan.",
+   "start": 622.698,
+   "end": 628.432,
+   "chapter": "c07",
+   "para": 70,
+   "speed": 0.92,
+   "file": "b32fa71202a9.wav"
+  },
+  {
+   "text": "And it said clearing the wrecks would serve no public interest.",
+   "start": 628.732,
+   "end": 631.944,
+   "chapter": "c07",
+   "para": 70,
+   "speed": 0.92,
+   "file": "1d6d44ee4e8c.wav"
+  },
+  {
+   "text": "Because while everyone had been arguing about the ships, something else had moved in.",
+   "start": 632.544,
+   "end": 637.1,
+   "chapter": "c07",
+   "para": 71,
+   "speed": 0.92,
+   "file": "34dd692779a0.wav"
+  },
+  {
+   "text": "To answer the question, go back out on the water.",
+   "start": 638.0,
+   "end": 640.894,
+   "chapter": "c08",
+   "para": 72,
+   "speed": 0.92,
+   "file": "4a4622c50035.wav"
+  },
+  {
+   "text": "When the hulls were burned, their bottoms were left in the mud, packed with dirt and ash.",
+   "start": 641.494,
+   "end": 646.251,
+   "chapter": "c08",
+   "para": 73,
+   "speed": 0.92,
+   "file": "d07017e8689e.wav"
+  },
+  {
+   "text": "Over the years, river silt filled them up.",
+   "start": 646.551,
+   "end": 649.025,
+   "chapter": "c08",
+   "para": 73,
+   "speed": 0.92,
+   "file": "eebb389d23fc.wav"
+  },
+  {
+   "text": "Seeds blew in.",
+   "start": 649.625,
+   "end": 650.762,
+   "chapter": "c08",
+   "para": 74,
+   "speed": 0.92,
+   "file": "4537f7fc0633.wav"
+  },
+  {
+   "text": "Then bushes.",
+   "start": 651.062,
+   "end": 652.069,
+   "chapter": "c08",
+   "para": 74,
+   "speed": 0.92,
+   "file": "c206653c2880.wav"
+  },
+  {
+   "text": "Then trees.",
+   "start": 652.369,
+   "end": 653.43,
+   "chapter": "c08",
+   "para": 74,
+   "speed": 0.92,
+   "file": "f2590150fb60.wav"
+  },
+  {
+   "text": "A congressional report in nineteen seventy said the hulks looked like huge flowerpots.",
+   "start": 653.73,
+   "end": 659.052,
+   "chapter": "c08",
+   "para": 74,
+   "speed": 0.92,
+   "file": "45b8e2285ae3.wav"
+  },
+  {
+   "text": "The wrecks had become islands.",
+   "start": 659.652,
+   "end": 661.54,
+   "chapter": "c08",
+   "para": 75,
+   "speed": 0.92,
+   "file": "a26f4fd00787.wav"
+  },
+  {
+   "text": "Ship-shaped islands, with their own trees.",
+   "start": 661.84,
+   "end": 664.342,
+   "chapter": "c08",
+   "para": 75,
+   "speed": 0.92,
+   "file": "45392f824769.wav"
+  },
+  {
+   "text": "Fish moved into the ribs.",
+   "start": 664.942,
+   "end": 666.686,
+   "chapter": "c08",
+   "para": 76,
+   "speed": 0.92,
+   "file": "3717653af260.wav"
+  },
+  {
+   "text": "Largemouth bass, striped bass, shad, herring.",
+   "start": 666.986,
+   "end": 669.95,
+   "chapter": "c08",
+   "para": 76,
+   "speed": 0.92,
+   "file": "e7fbc6c5de16.wav"
+  },
+  {
+   "text": "Ospreys built nests on the high timbers.",
+   "start": 670.55,
+   "end": 673.028,
+   "chapter": "c08",
+   "para": 77,
+   "speed": 0.92,
+   "file": "4f0b964d169c.wav"
+  },
+  {
+   "text": "Bald eagles hunt over the bay.",
+   "start": 673.328,
+   "end": 675.282,
+   "chapter": "c08",
+   "para": 77,
+   "speed": 0.92,
+   "file": "d9239c90bd2e.wav"
+  },
+  {
+   "text": "On one wreck, surveyors found a beaver lodge built inside the hull.",
+   "start": 675.882,
+   "end": 679.778,
+   "chapter": "c08",
+   "para": 78,
+   "speed": 0.92,
+   "file": "a25f81a3cbda.wav"
+  },
+  {
+   "text": "The beavers had chewed an exit hole right through the side of the ship.",
+   "start": 680.078,
+   "end": 683.923,
+   "chapter": "c08",
+   "para": 78,
+   "speed": 0.92,
+   "file": "a38f0637f30a.wav"
+  },
+  {
+   "text": "Not every wreck here is from the First World War.",
+   "start": 684.523,
+   "end": 687.231,
+   "chapter": "c08",
+   "para": 79,
+   "speed": 0.92,
+   "file": "23553038f0b4.wav"
+  },
+  {
+   "text": "At the edge of the bay lies a steel car ferry, the Accomac.",
+   "start": 687.531,
+   "end": 690.948,
+   "chapter": "c08",
+   "para": 79,
+   "speed": 0.92,
+   "file": "4fd34f6ee1f2.wav"
+  },
+  {
+   "text": "She was built in nineteen twenty-eight, burned in nineteen sixty-four, and was towed here years later.",
+   "start": 691.248,
+   "end": 697.152,
+   "chapter": "c08",
+   "para": 79,
+   "speed": 0.92,
+   "file": "1f5c9aea6c8d.wav"
+  },
+  {
+   "text": "Ospreys have been nesting on her since at least nineteen eighty-six.",
+   "start": 697.752,
+   "end": 701.762,
+   "chapter": "c08",
+   "para": 80,
+   "speed": 0.92,
+   "file": "e55d2c04bc9f.wav"
+  },
+  {
+   "text": "And somewhere in the bay lies the North Bend.",
+   "start": 702.362,
+   "end": 704.924,
+   "chapter": "c08",
+   "para": 81,
+   "speed": 0.92,
+   "file": "a3ddd1115873.wav"
+  },
+  {
+   "text": "The very first wooden ship of the program.",
+   "start": 705.224,
+   "end": 707.744,
+   "chapter": "c08",
+   "para": 81,
+   "speed": 0.92,
+   "file": "e06929cf736c.wav"
+  },
+  {
+   "text": "The ship that started it all ended up here too.",
+   "start": 708.044,
+   "end": 710.77,
+   "chapter": "c08",
+   "para": 81,
+   "speed": 0.92,
+   "file": "34073af429b0.wav"
+  },
+  {
+   "text": "So that is the answer.",
+   "start": 711.37,
+   "end": 712.95,
+   "chapter": "c08",
+   "para": 82,
+   "speed": 0.92,
+   "file": "e16af6249696.wav"
+  },
+  {
+   "text": "The fleet is still here because every attempt to make money from it failed.",
+   "start": 713.25,
+   "end": 717.401,
+   "chapter": "c08",
+   "para": 82,
+   "speed": 0.92,
+   "file": "5e2009b91033.wav"
+  },
+  {
+   "text": "The salvage company failed.",
+   "start": 717.701,
+   "end": 719.49,
+   "chapter": "c08",
+   "para": 82,
+   "speed": 0.92,
+   "file": "3356fb1d5094.wav"
+  },
+  {
+   "text": "The steel giant failed.",
+   "start": 719.79,
+   "end": 721.335,
+   "chapter": "c08",
+   "para": 82,
+   "speed": 0.92,
+   "file": "40d909b37646.wav"
+  },
+  {
+   "text": "The power company's clean-up failed.",
+   "start": 721.635,
+   "end": 723.734,
+   "chapter": "c08",
+   "para": 82,
+   "speed": 0.92,
+   "file": "23f0cae06f07.wav"
+  },
+  {
+   "text": "And while they failed, the river turned the fleet into something nobody planned.",
+   "start": 724.334,
+   "end": 728.609,
+   "chapter": "c08",
+   "para": 83,
+   "speed": 0.92,
+   "file": "9efd3a6eb7f9.wav"
+  },
+  {
+   "text": "A habitat.",
+   "start": 728.909,
+   "end": 729.854,
+   "chapter": "c08",
+   "para": 83,
+   "speed": 0.92,
+   "file": "1abeb9df58d8.wav"
+  },
+  {
+   "text": "In April twenty fifteen, the wrecks were listed on the National Register of Historic Places.",
+   "start": 730.454,
+   "end": 735.99,
+   "chapter": "c08",
+   "para": 84,
+   "speed": 0.92,
+   "file": "1984dbb4b655.wav"
+  },
+  {
+   "text": "And in September twenty nineteen, the bay and the river around it became the Mallows Bay-Potomac River National Marine Sanctuary.",
+   "start": 736.59,
+   "end": 744.669,
+   "chapter": "c08",
+   "para": 85,
+   "speed": 0.92,
+   "file": "00f02f62251a.wav"
+  },
+  {
+   "text": "Eighteen square miles.",
+   "start": 744.969,
+   "end": 746.44,
+   "chapter": "c08",
+   "para": 85,
+   "speed": 0.92,
+   "file": "9754b588f1a0.wav"
+  },
+  {
+   "text": "The first new national marine sanctuary in nearly twenty years.",
+   "start": 746.74,
+   "end": 750.822,
+   "chapter": "c08",
+   "para": 85,
+   "speed": 0.92,
+   "file": "65b78f8e4712.wav"
+  },
+  {
+   "text": "NOAA calls it the largest wooden ship graveyard in the Western Hemisphere.",
+   "start": 751.422,
+   "end": 755.957,
+   "chapter": "c08",
+   "para": 86,
+   "speed": 0.92,
+   "file": "a48a5747de84.wav"
+  },
+  {
+   "text": "The same government that paid a fortune to build these ships, and then paid people to destroy them, now protects them by law.",
+   "start": 756.557,
+   "end": 763.909,
+   "chapter": "c08",
+   "para": 87,
+   "speed": 0.92,
+   "file": "50d8b7129cf6.wav"
+  },
+  {
+   "text": "Today you can paddle a kayak through the fleet.",
+   "start": 764.509,
+   "end": 767.129,
+   "chapter": "c08",
+   "para": 88,
+   "speed": 0.92,
+   "file": "bc4b418cf1fc.wav"
+  },
+  {
+   "text": "At low tide, you can drift right over the ribs of ships built to fight the Kaiser.",
+   "start": 767.429,
+   "end": 772.611,
+   "chapter": "c08",
+   "para": 88,
+   "speed": 0.92,
+   "file": "e1b499445404.wav"
+  },
+  {
+   "text": "But the fleet will not last forever.",
+   "start": 773.211,
+   "end": 775.253,
+   "chapter": "c08",
+   "para": 89,
+   "speed": 0.92,
+   "file": "6d4da1914524.wav"
+  },
+  {
+   "text": "Wood rots.",
+   "start": 775.553,
+   "end": 776.565,
+   "chapter": "c08",
+   "para": 89,
+   "speed": 0.92,
+   "file": "340c279d67de.wav"
+  },
+  {
+   "text": "About seven in ten of the hulls that could be seen in nineteen ninety-eight now sit just under the surface at low water.",
+   "start": 776.865,
+   "end": 784.076,
+   "chapter": "c08",
+   "para": 89,
+   "speed": 0.92,
+   "file": "5fdf0669b23b.wav"
+  },
+  {
+   "text": "Year by year, the ghost fleet is sinking into the river it was never meant to reach.",
+   "start": 784.676,
+   "end": 789.579,
+   "chapter": "c08",
+   "para": 90,
+   "speed": 0.92,
+   "file": "be3fd8f7caa3.wav"
+  },
+  {
+   "text": "So here is the question.",
+   "start": 790.179,
+   "end": 791.768,
+   "chapter": "c08",
+   "para": 91,
+   "speed": 0.92,
+   "file": "8842cbc824e8.wav"
+  },
+  {
+   "text": "Should we try to save what is left of it?",
+   "start": 792.068,
+   "end": 794.269,
+   "chapter": "c08",
+   "para": 91,
+   "speed": 0.8522,
+   "file": "147e749b2ac8.wav"
+  },
+  {
+   "text": "Or let the river finish the job?",
+   "start": 794.569,
+   "end": 796.656,
+   "chapter": "c08",
+   "para": 91,
+   "speed": 0.8522,
+   "file": "09a1d0a534e1.wav"
+  },
+  {
+   "text": "Tell us what you think in the comments.",
+   "start": 796.956,
+   "end": 799.085,
+   "chapter": "c08",
+   "para": 91,
+   "speed": 0.92,
+   "file": "e55f38a729be.wav"
+  }
+ ]
+}
