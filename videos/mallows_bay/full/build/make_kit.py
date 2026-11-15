@@ -20,9 +20,9 @@ H = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><title>Mallow
 <p class="note">Not scored in vidIQ yet (scoring costs credits: owner approval needed). Alternates for Test &amp; Compare: “America Built a Fleet to Beat the U-Boats. Now It's Rotting in This Bay.” · “Why Nobody Could Get Rid of America's Ghost Fleet”. Rule: 3 titles scored ≥ 85 before publishing.</p>
 <h2>2. Thumbnails</h2>
 <div class="thumbs">
-<figure><img src="../../thumbnails/T1_ghost_fleet_1936.jpg"><figcaption><b>T1, upload with this one</b><br>T1_ghost_fleet_1936.jpg</figcaption></figure>
-<figure><img src="../../thumbnails/T2_ghost_fleet_today.jpg"><figcaption>T2, Test &amp; Compare<br>T2_ghost_fleet_today.jpg</figcaption></figure>
-<figure><img src="../../thumbnails/T3_set_on_fire.jpg"><figcaption>T3, Test &amp; Compare<br>T3_set_on_fire.jpg</figcaption></figure>
+<figure><img src="../../thumbnails/V1_ghost_fleet.jpg"><figcaption><b>V1, upload with this one</b><br>V1_ghost_fleet.jpg</figcaption></figure>
+<figure><img src="../../thumbnails/V2_1936_today.jpg"><figcaption>V2, Test &amp; Compare<br>V2_1936_today.jpg</figcaption></figure>
+<figure><img src="../../thumbnails/V3_3200_a_ship.jpg"><figcaption>V3, Test &amp; Compare<br>V3_3200_a_ship.jpg</figcaption></figure>
 </div><p class="note">Judge the Test &amp; Compare winner on day 7–14, not day 1. Space this video ≥ 2 days from the Oriskany upload.</p>
 <h2>3. Upload settings</h2><table><tr><th>Setting</th><th>Value</th></tr>
 <tr><td>Altered or synthetic content</td><td class="tick">YES (AI narration; maps and graphics made for this channel)</td></tr>

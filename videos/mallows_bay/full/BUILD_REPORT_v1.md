@@ -93,3 +93,7 @@ hook and shot-list gates were not stopped at. **No money was spent**: vidIQ titl
 - **Checks (v2 master):** SOUND LOCK OK (-14.0 LUFS, TP -2.7 dBTP, LRA 2.2 LU, 97 cues, 52 beds); safe-text PASS c01-c08; blackdetect 0;
   contact sheet `FINAL_SHEET_v2.jpg` looked at.
 - **Owner check:** NOAA wk240 shots (heron, bird on wreck) are ground/telephoto shots credited to NOAA; confirm they are NOAA staff footage.
+- **Thumbnails v2** (`thumbnails/make_thumbs_v2.py`), built to `research/thumbnails/THUMBNAIL_STUDY.md`: colour, blue sea (sea-only
+  grade, study s10), bright, wrecks as subject, one true number, one then/now split, Anton white + red #E0352B, corners clear.
+  V1 GHOST FLEET (NOAA drone, hull rows + rusty wreck; upload with this), V2 1936 | TODAY split (NARA 18-AA-70-44 | NOAA drone),
+  V3 $3,200 A SHIP (NOAA kayaker photo; $750,000 / 233 ships). The v1 T1-T3 (two B&W) are kept but not used.
