@@ -141,3 +141,10 @@ already uses. Judge on day 7–14 data (watch-time share), not day 1.
   overlay), NARA 18-AA-70-44 (Unrestricted), NOAA photo by Matt McIntosh (US Gov work). The NOAA *Accomac* photos (Sassorossi,
   McIntosh) are the only images where a whole ship reads instantly, but *Accomac* is a 1928 ferry, not one of the WWI
   fleet; keep it for the video, not the thumbnail promise of "100+ ships".
+
+## Owner decision 2026-11-15
+Owner rejected V1-V3 ("none of these are good") and asked for vidIQ thumbnails. Two made with `vidiq_generate_thumbnail`
+(44 credits, references: FF "Why The USS Arizona Can Never Be Raised" and Historsea "Philadelphia's Forgotten Warship Fleet"):
+`AI1_ghost_fleet.jpg` (vidIQ self-score 86) and `AI2_30_miles_from_dc.jpg` (86). Both are AI images, not real photos.
+Truth notes: AI2 shows the Capitol dome on the horizon, which cannot be seen from Mallows Bay (32 mi away): dramatised.
+Both water colours are bluer and clearer than the real Potomac.
