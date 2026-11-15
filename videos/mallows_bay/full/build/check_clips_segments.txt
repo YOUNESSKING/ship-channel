@@ -1,0 +1,90 @@
+videos/mallows_bay/full/segments/f_c01_s05.mp4: BLOB    3.97-  4.20s  dark blob up to 26% of the frame
+videos/mallows_bay/full/segments/f_c01_s13.mp4: BLOB    0.97-  1.23s  dark blob up to 28% of the frame
+videos/mallows_bay/full/segments/f_c01_s13.mp4: BLOB    1.37-  2.63s  dark blob up to 30% of the frame
+videos/mallows_bay/full/segments/f_c02_s12.mp4: BLOB    0.00-  4.10s  dark blob up to 80% of the frame
+videos/mallows_bay/full/segments/f_c03_s03.mp4: OK
+videos/mallows_bay/full/segments/f_c03_s04.mp4: OK
+videos/mallows_bay/full/segments/f_c03_s07.mp4: OK
+videos/mallows_bay/full/segments/f_c03_s08.mp4: BLOB    0.00-  4.80s  dark blob up to 67% of the frame
+videos/mallows_bay/full/segments/f_c03_s09.mp4: OK
+videos/mallows_bay/full/segments/f_c03_s10.mp4: OK
+videos/mallows_bay/full/segments/f_c03_s11.mp4: BLOB    1.00-  1.23s  dark blob up to 30% of the frame
+videos/mallows_bay/full/segments/f_c03_s11.mp4: CUT     1.47s       internal cut / dissolve inside the segment
+videos/mallows_bay/full/segments/f_c03_s14.mp4: BLOB    0.00-  3.43s  dark blob up to 90% of the frame
+videos/mallows_bay/full/segments/f_c03_s15.mp4: BLOB    0.00-  5.83s  dark blob up to 79% of the frame
+videos/mallows_bay/full/segments/f_c03_s24.mp4: OK
+videos/mallows_bay/full/segments/f_c03_s29.mp4: OK
+videos/mallows_bay/full/segments/f_c04_s07.mp4: BLOB    0.90-  1.13s  dark blob up to 47% of the frame
+videos/mallows_bay/full/segments/f_c04_s12.mp4: BLOB    0.00-  6.27s  dark blob up to 75% of the frame
+videos/mallows_bay/full/segments/f_c04_s17.mp4: BLOB    0.00-  1.27s  dark blob up to 78% of the frame
+videos/mallows_bay/full/segments/f_c04_s17.mp4: BLOB    1.30-  2.27s  dark blob up to 68% of the frame
+videos/mallows_bay/full/segments/f_c04_s19.mp4: BLOB    0.00-  1.50s  dark blob up to 70% of the frame
+videos/mallows_bay/full/segments/f_c04_s19.mp4: BLOB    1.63-  2.50s  dark blob up to 71% of the frame
+videos/mallows_bay/full/segments/f_c04_s29.mp4: OK
+videos/mallows_bay/full/segments/f_c05_s17.mp4: OK
+videos/mallows_bay/full/segments/f_c05_s32.mp4: BLOB    0.23-  1.77s  dark blob up to 32% of the frame
+videos/mallows_bay/full/segments/f_c05_s32.mp4: BLOB    1.83-  2.37s  dark blob up to 29% of the frame
+videos/mallows_bay/full/segments/f_c05_s32.mp4: BLOB    2.80-  3.03s  dark blob up to 27% of the frame
+videos/mallows_bay/full/segments/f_c07_s03.mp4: OK
+videos/mallows_bay/full/segments/b_c01_s14.mp4: BLOB    0.00-  1.27s  dark blob up to 100% of the frame
+videos/mallows_bay/full/segments/b_c01_s14.mp4: BLOB    1.33-  5.07s  dark blob up to 100% of the frame
+videos/mallows_bay/full/segments/b_c03_s13.mp4: BLOB    0.00-  2.63s  dark blob up to 71% of the frame
+videos/mallows_bay/full/segments/b_c03_s30.mp4: BLOB    0.00-  0.77s  dark blob up to 31% of the frame
+videos/mallows_bay/full/segments/b_c03_s30.mp4: BLOB    0.83-  2.70s  dark blob up to 55% of the frame
+videos/mallows_bay/full/segments/b_c04_s10.mp4: OK
+videos/mallows_bay/full/segments/b_c04_s13.mp4: OK
+videos/mallows_bay/full/segments/b_c04_s21.mp4: OK
+videos/mallows_bay/full/segments/b_c04_s22.mp4: OK
+videos/mallows_bay/full/segments/b_c04_s24.mp4: BLOB    3.20-  3.47s  dark blob up to 27% of the frame
+videos/mallows_bay/full/segments/b_c05_s01.mp4: BLOB    0.00-  2.83s  dark blob up to 92% of the frame
+videos/mallows_bay/full/segments/b_c05_s03.mp4: BLOB    0.00-  4.43s  dark blob up to 81% of the frame
+videos/mallows_bay/full/segments/b_c05_s05.mp4: BLOB    3.10-  3.70s  dark blob up to 54% of the frame
+videos/mallows_bay/full/segments/b_c05_s05.mp4: BLOB    3.80-  4.63s  dark blob up to 40% of the frame
+videos/mallows_bay/full/segments/b_c05_s05.mp4: CUT     1.73s       internal cut / dissolve inside the segment
+videos/mallows_bay/full/segments/b_c05_s05.mp4: CUT     3.03s       internal cut / dissolve inside the segment
+videos/mallows_bay/full/segments/b_c05_s05.mp4: CUT     3.70s       internal cut / dissolve inside the segment
+videos/mallows_bay/full/segments/b_c05_s09.mp4: BLOB    0.00-  5.63s  dark blob up to 94% of the frame
+videos/mallows_bay/full/segments/b_c05_s10.mp4: OK
+videos/mallows_bay/full/segments/b_c05_s11.mp4: BLOB    0.00-  1.77s  dark blob up to 94% of the frame
+videos/mallows_bay/full/segments/b_c05_s12.mp4: BLOB    0.00-  0.87s  dark blob up to 83% of the frame
+videos/mallows_bay/full/segments/b_c05_s12.mp4: BLOB    0.93-  4.07s  dark blob up to 100% of the frame
+videos/mallows_bay/full/segments/b_c05_s14.mp4: OK
+videos/mallows_bay/full/segments/b_c05_s15.mp4: OK
+videos/mallows_bay/full/segments/b_c05_s26.mp4: BLOB    0.00-  2.27s  dark blob up to 54% of the frame
+videos/mallows_bay/full/segments/b_c05_s27.mp4: OK
+videos/mallows_bay/full/segments/b_c05_s29.mp4: BLOB    0.00-  2.63s  dark blob up to 54% of the frame
+videos/mallows_bay/full/segments/b_c06_s14.mp4: OK
+videos/mallows_bay/full/segments/b_c06_s16.mp4: BLOB    0.00-  2.57s  dark blob up to 83% of the frame
+videos/mallows_bay/full/segments/b_c06_s17.mp4: OK
+videos/mallows_bay/full/segments/b_c06_s18.mp4: BLOB    0.00-  4.33s  dark blob up to 47% of the frame
+videos/mallows_bay/full/segments/b_c06_s23.mp4: OK
+videos/mallows_bay/full/segments/b_c06_s24.mp4: BLOB    0.00-  4.07s  dark blob up to 47% of the frame
+videos/mallows_bay/full/segments/b_c06_s28.mp4: OK
+videos/mallows_bay/full/segments/b_c06_s30.mp4: OK
+videos/mallows_bay/full/segments/b_c07_s04.mp4: OK
+videos/mallows_bay/full/segments/b_c07_s07.mp4: BLOB    0.00-  2.13s  dark blob up to 47% of the frame
+videos/mallows_bay/full/segments/b_c07_s11.mp4: BLOB    0.00-  4.47s  dark blob up to 55% of the frame
+videos/mallows_bay/full/segments/b_c07_s12.mp4: BLOB    0.00-  1.90s  dark blob up to 74% of the frame
+videos/mallows_bay/full/segments/b_c07_s14.mp4: OK
+videos/mallows_bay/full/segments/b_c07_s15.mp4: BLOB    2.90-  3.30s  dark blob up to 28% of the frame
+videos/mallows_bay/full/segments/b_c07_s15.mp4: BLOB    3.43-  3.63s  dark blob up to 28% of the frame
+videos/mallows_bay/full/segments/b_c07_s15.mp4: BLOB    3.80-  4.10s  dark blob up to 28% of the frame
+videos/mallows_bay/full/segments/b_c07_s16.mp4: BLOB    0.00-  4.93s  dark blob up to 55% of the frame
+videos/mallows_bay/full/segments/b_c07_s23.mp4: BLOB    0.00-  3.53s  dark blob up to 49% of the frame
+videos/mallows_bay/full/segments/b_c07_s25.mp4: BLOB    0.00-  2.10s  dark blob up to 49% of the frame
+videos/mallows_bay/full/segments/b_c07_s28.mp4: BLOB    0.00-  5.33s  dark blob up to 87% of the frame
+videos/mallows_bay/full/segments/b_c07_s29.mp4: BLOB    0.00-  2.60s  dark blob up to 87% of the frame
+videos/mallows_bay/full/segments/b_c07_s30.mp4: OK
+videos/mallows_bay/full/segments/b_c07_s32.mp4: BLOB    0.00-  4.00s  dark blob up to 94% of the frame
+videos/mallows_bay/full/segments/b_c07_s33.mp4: BLOB    0.00-  4.90s  dark blob up to 94% of the frame
+videos/mallows_bay/full/segments/b_c07_s35.mp4: BLOB    0.00-  3.77s  dark blob up to 47% of the frame
+videos/mallows_bay/full/segments/b_c07_s39.mp4: BLOB    0.00-  3.67s  dark blob up to 46% of the frame
+videos/mallows_bay/full/segments/b_c08_s06.mp4: OK
+videos/mallows_bay/full/segments/b_c08_s09.mp4: BLOB    0.00-  3.97s  dark blob up to 47% of the frame
+videos/mallows_bay/full/segments/b_c08_s13.mp4: BLOB    0.00-  4.80s  dark blob up to 46% of the frame
+videos/mallows_bay/full/segments/b_c08_s16.mp4: BLOB    0.00-  4.57s  dark blob up to 46% of the frame
+videos/mallows_bay/full/segments/b_c08_s17.mp4: BLOB    0.00-  2.63s  dark blob up to 69% of the frame
+videos/mallows_bay/full/segments/b_c08_s22.mp4: BLOB    0.00-  3.43s  dark blob up to 48% of the frame
+videos/mallows_bay/full/segments/b_c08_s25.mp4: BLOB    0.00-  2.13s  dark blob up to 41% of the frame
+videos/mallows_bay/full/segments/b_c08_s26.mp4: BLOB    0.00-  5.03s  dark blob up to 41% of the frame
+videos/mallows_bay/full/segments/b_c08_s38.mp4: BLOB    0.00-  4.37s  dark blob up to 41% of the frame

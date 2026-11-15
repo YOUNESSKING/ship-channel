@@ -19,7 +19,7 @@ FILMS = {
  "launch_ypres": ("bridge_of_ships_r1", [[353.7, 360.5]], "FILM: WOODEN SHIP 'YPRES' LAUNCHED, SEATTLE, 1918"),
  "launch_pershing": ("bridge_of_ships_r1", [[371.1, 375.5]], "FILM: WOODEN SHIP 'GENERAL PERSHING' LAUNCHED, 1918"),
  "workers": ("bridge_of_ships_r1", [[492.4, 505.6]], "ILLUSTRATIVE · FILM: SHIPYARD WORKERS, 1918"),
- "torch": ("bridge_of_ships_r1", [[462.4, 483.6]], "ILLUSTRATIVE · FILM: CUTTING STEEL, 1918"),
+ "torch": ("bridge_of_ships_r1", [[466.0, 474.8], [475.2, 483.6]], "ILLUSTRATIVE · FILM: CUTTING STEEL, 1918"),
  "pay": ("bridge_of_ships_r2", [[16.4, 29.6]], "ILLUSTRATIVE · FILM: SHIPYARD PAY DAY, 1918"),
  "steel_ways": ("bridge_of_ships_r2", [[129.15, 175.6]], "ILLUSTRATIVE · FILM: A STEEL HULL ON THE WAYS, 1918"),
  "uboat_crew": ("u35_submarine", [[96.4, 98.55], [100.65, 114.3], [117.9, 131.6]], "FILM: GERMAN U-BOAT U-35, 1917"),
@@ -36,7 +36,7 @@ FILMS = {
  "capitol": ("washington_dc_1921", [[174.4, 182.8], [183.65, 194.05], [195.15, 202.55], [204.4, 211.3], [212.15, 216.3], [217.65, 227.8], [228.65, 234.3], [235.15, 246.05], [246.9, 253.3], [254.65, 267.3], [268.4, 275.55], [276.9, 283.55], [284.4, 293.8], [296.4, 305.6]], "FILM: WASHINGTON, D.C., c.1921"),
  "ww_frames": ("wartime_shipbuilding", [[114.0, 117.6]], "FILM: WOODEN FRAMES ON THE WAYS, 1918"),
  "launch_c": ("wartime_shipbuilding", [[364.4, 378.6], [384.0, 391.6]], "ILLUSTRATIVE · FILM: A LAUNCH, 1918"),
- "hog_crowd": ("hog_island_1917", [[44.4, 79.3], [86.4, 89.55], [91.9, 94.8]], "ILLUSTRATIVE · FILM: SHIPYARD JOB-SEEKERS, 1917"),
+ "hog_crowd": ("hog_island_1917", [[46.3, 79.3], [86.4, 89.55], [91.9, 94.8]], "ILLUSTRATIVE · FILM: SHIPYARD JOB-SEEKERS, 1917"),
 }
 
 
