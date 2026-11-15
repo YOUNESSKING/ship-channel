@@ -72,3 +72,13 @@ hook and shot-list gates were not stopped at. **No money was spent**: vidIQ titl
 2. Listen to `voice_sample/names_mallows.mp3` (Nanjemoy, Accomac, Idamont, PEPCO...).
 3. Owner rights check on the Ford-collection films (section 3).
 4. Space the upload from Oriskany (2-3 a week max, different cluster: OK).
+
+## 8. Final checks (master `mallows_bay_full_v1.mp4`, 14:16)
+| check | result |
+|---|---|
+| `check_sound_lock.py` static + render | **SOUND LOCK OK**: -14.0 LUFS, TP -1.9 dBTP, LRA 2.2 LU (floor 1.7), linear loudnorm, music under speech -24.4 dB, 3 big beats >= +1 LU, 100 cues within 3 frames, every cue silent by its shot end, 54 beds on cuts |
+| safe-text (every chapter, 0.5 s) | **PASS** c01-c08 (`chapter/safe_c0*.txt`) |
+| blackdetect 0.25 s / 0.06 | **0** |
+| film segments, `tools/film/check_clips.py` | 0 internal cuts; BLOB = dark archive scenes (`build/check_clips_segments.txt`) |
+| shots over 6 s | 0 (end-screen map excepted) · clip reuse clean |
+| contact sheet | `FINAL_SHEET_v1.jpg` looked at |
