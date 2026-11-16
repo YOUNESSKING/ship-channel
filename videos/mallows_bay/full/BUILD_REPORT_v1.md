@@ -104,3 +104,5 @@ hook and shot-list gates were not stopped at. **No money was spent**: vidIQ titl
   Critique notes left for the owner: the foreground hulk in the NOAA drone shot is NOT the Accomac (HQ_FOOTAGE label wrong); the hook
   says "about three thousand dollars", line 77 says "three thousand two hundred" (thumbnail matches line 77); the 1936 aerial was
   flown 6 Mar 1936 (8 Apr = print date).
+- **Delivered 2026-11-16 (owner asked):** master (14:14, md5 fad078dacfc8f983fb7dac8f23771955) + upload kit PDF + thumbnails
+  AI1, AI2, V1-V3 in one Gofile folder: https://gofile.io/d/vs2X0V1m (all md5 checked).
