@@ -1,0 +1,1998 @@
+{
+ "voice": "archive (bm_fable 0.40 + am_michael 0.40 + bm_lewis 0.20)",
+ "style_md5": "c9ce4988",
+ "speed": 0.92,
+ "question_speed": 0.8522,
+ "duration": 811.029,
+ "chunks": [
+  {
+   "text": "On the first of July, nineteen forty-six, the United States dropped an atomic bomb on one of its own battleships.",
+   "start": 0.35,
+   "end": 7.487,
+   "chapter": "c01",
+   "para": 0,
+   "speed": 0.92,
+   "file": "0dac33a04c3b.wav"
+  },
+  {
+   "text": "The Navy had painted her bright orange, so the bomber could not miss.",
+   "start": 8.087,
+   "end": 12.218,
+   "chapter": "c01",
+   "para": 1,
+   "speed": 0.92,
+   "file": "b638c985ef49.wav"
+  },
+  {
+   "text": "The bomb missed her by about a third of a mile.",
+   "start": 12.518,
+   "end": 15.14,
+   "chapter": "c01",
+   "para": 1,
+   "speed": 0.92,
+   "file": "a57ea10f50ed.wav"
+  },
+  {
+   "text": "When the smoke cleared, she was still floating.",
+   "start": 15.44,
+   "end": 17.772,
+   "chapter": "c01",
+   "para": 1,
+   "speed": 0.92,
+   "file": "3b95d0cce54b.wav"
+  },
+  {
+   "text": "Three weeks later, they tried again.",
+   "start": 18.372,
+   "end": 20.436,
+   "chapter": "c01",
+   "para": 2,
+   "speed": 0.92,
+   "file": "aac08b2f2799.wav"
+  },
+  {
+   "text": "A second atomic bomb, this time under the water, about a thousand yards away.",
+   "start": 20.736,
+   "end": 25.551,
+   "chapter": "c01",
+   "para": 2,
+   "speed": 0.92,
+   "file": "5b0470c2aac8.wav"
+  },
+  {
+   "text": "It sank a battleship and an aircraft carrier nearby.",
+   "start": 25.851,
+   "end": 28.876,
+   "chapter": "c01",
+   "para": 2,
+   "speed": 0.92,
+   "file": "ce7d4a4b8637.wav"
+  },
+  {
+   "text": "She was still floating.",
+   "start": 29.176,
+   "end": 30.497,
+   "chapter": "c01",
+   "para": 2,
+   "speed": 0.92,
+   "file": "d1923a32d155.wav"
+  },
+  {
+   "text": "This is the USS Nevada.",
+   "start": 31.097,
+   "end": 33.225,
+   "chapter": "c01",
+   "para": 3,
+   "speed": 0.92,
+   "file": "39672d51bcfc.wav"
+  },
+  {
+   "text": "The battleship that survived two atomic bombs.",
+   "start": 33.525,
+   "end": 36.361,
+   "chapter": "c01",
+   "para": 3,
+   "speed": 0.92,
+   "file": "3228823a656d.wav"
+  },
+  {
+   "text": "It was not the first time she refused to die.",
+   "start": 36.961,
+   "end": 39.633,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "eaa03e8d9b26.wav"
+  },
+  {
+   "text": "Five years earlier, at Pearl Harbor, she was the only battleship that got under way.",
+   "start": 39.933,
+   "end": 44.863,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "94689cf799cd.wav"
+  },
+  {
+   "text": "So if two atomic bombs could not sink her, what did?",
+   "start": 45.463,
+   "end": 49.026,
+   "chapter": "c01",
+   "para": 5,
+   "speed": 0.8522,
+   "file": "95994b8a28ee.wav"
+  },
+  {
+   "text": "And where is she now?",
+   "start": 49.326,
+   "end": 50.626,
+   "chapter": "c01",
+   "para": 5,
+   "speed": 0.8522,
+   "file": "76d2c589bec4.wav"
+  },
+  {
+   "text": "For more than seventy years, nobody could say.",
+   "start": 50.926,
+   "end": 53.591,
+   "chapter": "c01",
+   "para": 5,
+   "speed": 0.92,
+   "file": "dd7315c268e8.wav"
+  },
+  {
+   "text": "Start with the place.",
+   "start": 54.491,
+   "end": 55.775,
+   "chapter": "c02",
+   "para": 6,
+   "speed": 0.92,
+   "file": "d3c48cdf0b78.wav"
+  },
+  {
+   "text": "Bikini Atoll, in the Marshall Islands, in the middle of the Pacific.",
+   "start": 56.075,
+   "end": 60.079,
+   "chapter": "c02",
+   "para": 6,
+   "speed": 0.92,
+   "file": "29cfea9d3807.wav"
+  },
+  {
+   "text": "A ring of small islands around a lagoon about twenty miles long.",
+   "start": 60.379,
+   "end": 64.403,
+   "chapter": "c02",
+   "para": 6,
+   "speed": 0.92,
+   "file": "23fd18dc4a42.wav"
+  },
+  {
+   "text": "Its people, one hundred and sixty-two of them, had already been moved off the atoll in March.",
+   "start": 65.003,
+   "end": 70.467,
+   "chapter": "c02",
+   "para": 7,
+   "speed": 0.92,
+   "file": "ce9fc143f421.wav"
+  },
+  {
+   "text": "In the summer of nineteen forty-six, the lagoon held a fleet.",
+   "start": 70.767,
+   "end": 74.469,
+   "chapter": "c02",
+   "para": 7,
+   "speed": 0.92,
+   "file": "b6a85bcfd552.wav"
+  },
+  {
+   "text": "About ninety target ships, anchored on purpose where an atomic bomb would fall.",
+   "start": 74.769,
+   "end": 79.43,
+   "chapter": "c02",
+   "para": 7,
+   "speed": 0.92,
+   "file": "a1c43be272f2.wav"
+  },
+  {
+   "text": "The operation was called Crossroads.",
+   "start": 80.03,
+   "end": 82.285,
+   "chapter": "c02",
+   "para": 8,
+   "speed": 0.92,
+   "file": "b35a1ae4dae6.wav"
+  },
+  {
+   "text": "Its question was simple.",
+   "start": 82.585,
+   "end": 84.197,
+   "chapter": "c02",
+   "para": 8,
+   "speed": 0.92,
+   "file": "3ae568d12c5c.wav"
+  },
+  {
+   "text": "What does an atomic bomb do to a navy?",
+   "start": 84.497,
+   "end": 86.967,
+   "chapter": "c02",
+   "para": 8,
+   "speed": 0.8522,
+   "file": "019bb6a0e8f7.wav"
+  },
+  {
+   "text": "About forty-two thousand men took part, with two hundred and forty-two ships and one hundred and fifty-six aircraft.",
+   "start": 87.567,
+   "end": 94.75,
+   "chapter": "c02",
+   "para": 9,
+   "speed": 0.92,
+   "file": "03426abccefa.wav"
+  },
+  {
+   "text": "Cameras were set up on towers, on islands, and in planes.",
+   "start": 95.05,
+   "end": 98.714,
+   "chapter": "c02",
+   "para": 9,
+   "speed": 0.92,
+   "file": "ce3c3d359d07.wav"
+  },
+  {
+   "text": "The targets were old American warships, captured German and Japanese ships, and small craft.",
+   "start": 99.314,
+   "end": 105.213,
+   "chapter": "c02",
+   "para": 10,
+   "speed": 0.92,
+   "file": "7fae3d20fc5d.wav"
+  },
+  {
+   "text": "Many carried animals.",
+   "start": 105.513,
+   "end": 107.08,
+   "chapter": "c02",
+   "para": 10,
+   "speed": 0.92,
+   "file": "f84c34b6b807.wav"
+  },
+  {
+   "text": "Goats, pigs and rats were placed on board to see what the blast would do to a living crew.",
+   "start": 107.38,
+   "end": 112.661,
+   "chapter": "c02",
+   "para": 10,
+   "speed": 0.92,
+   "file": "8ebf0f15a154.wav"
+  },
+  {
+   "text": "At the centre of it all was one ship.",
+   "start": 113.261,
+   "end": 115.423,
+   "chapter": "c02",
+   "para": 11,
+   "speed": 0.92,
+   "file": "8b915f192a21.wav"
+  },
+  {
+   "text": "The Navy chose her as the bull's-eye.",
+   "start": 115.723,
+   "end": 117.993,
+   "chapter": "c02",
+   "para": 11,
+   "speed": 0.92,
+   "file": "2cffe68d081f.wav"
+  },
+  {
+   "text": "The point the bomber would aim at.",
+   "start": 118.293,
+   "end": 120.241,
+   "chapter": "c02",
+   "para": 11,
+   "speed": 0.92,
+   "file": "480b87814c4e.wav"
+  },
+  {
+   "text": "They painted her international orange, with white trim, so she would stand out from every other ship in the lagoon.",
+   "start": 120.841,
+   "end": 127.27,
+   "chapter": "c02",
+   "para": 12,
+   "speed": 0.92,
+   "file": "17269547825c.wav"
+  },
+  {
+   "text": "A flashing light on board marked her for the bombardier.",
+   "start": 127.57,
+   "end": 130.783,
+   "chapter": "c02",
+   "para": 12,
+   "speed": 0.92,
+   "file": "5dc305a82494.wav"
+  },
+  {
+   "text": "On the twenty-eighth of May, she had sailed into the lagoon with a crew of four hundred and three.",
+   "start": 131.383,
+   "end": 136.406,
+   "chapter": "c02",
+   "para": 13,
+   "speed": 0.92,
+   "file": "55ee592d12bc.wav"
+  },
+  {
+   "text": "On the thirtieth of June, the crew left her.",
+   "start": 136.707,
+   "end": 139.149,
+   "chapter": "c02",
+   "para": 13,
+   "speed": 0.92,
+   "file": "4f411c7bf616.wav"
+  },
+  {
+   "text": "Behind them, in her pilot house, they left goats and rats.",
+   "start": 139.449,
+   "end": 142.928,
+   "chapter": "c02",
+   "para": 13,
+   "speed": 0.92,
+   "file": "a5907c8dae99.wav"
+  },
+  {
+   "text": "Why this ship?",
+   "start": 143.528,
+   "end": 144.592,
+   "chapter": "c02",
+   "para": 14,
+   "speed": 0.8522,
+   "file": "aa9951dc4c49.wav"
+  },
+  {
+   "text": "Why make the Nevada the target?",
+   "start": 144.892,
+   "end": 147.063,
+   "chapter": "c02",
+   "para": 14,
+   "speed": 0.8522,
+   "file": "8164844e93cc.wav"
+  },
+  {
+   "text": "To understand what the Navy was aiming at, go back to a Sunday morning in Hawaii.",
+   "start": 147.363,
+   "end": 152.264,
+   "chapter": "c02",
+   "para": 14,
+   "speed": 0.92,
+   "file": "056ff441a6cc.wav"
+  },
+  {
+   "text": "Pearl Harbor.",
+   "start": 153.164,
+   "end": 154.082,
+   "chapter": "c03",
+   "para": 15,
+   "speed": 0.92,
+   "file": "a1354f5d14cf.wav"
+  },
+  {
+   "text": "The seventh of December, nineteen forty-one.",
+   "start": 154.382,
+   "end": 157.055,
+   "chapter": "c03",
+   "para": 15,
+   "speed": 0.92,
+   "file": "67e07b6f7383.wav"
+  },
+  {
+   "text": "Along the east side of Ford Island lay the Pacific Fleet's battleships, most of them moored in pairs.",
+   "start": 157.355,
+   "end": 163.583,
+   "chapter": "c03",
+   "para": 15,
+   "speed": 0.92,
+   "file": "504120f74f37.wav"
+  },
+  {
+   "text": "The Nevada lay alone, at the end of the line, just astern of the USS Arizona.",
+   "start": 164.183,
+   "end": 169.439,
+   "chapter": "c03",
+   "para": 16,
+   "speed": 0.92,
+   "file": "d698e871e8d8.wav"
+  },
+  {
+   "text": "At about one minute past eight, Japanese planes came over the harbour.",
+   "start": 170.039,
+   "end": 174.321,
+   "chapter": "c03",
+   "para": 17,
+   "speed": 0.92,
+   "file": "75ecd502f936.wav"
+  },
+  {
+   "text": "Within minutes, a torpedo tore into the Nevada's port bow.",
+   "start": 174.621,
+   "end": 178.098,
+   "chapter": "c03",
+   "para": 17,
+   "speed": 0.92,
+   "file": "8cc0ce073c25.wav"
+  },
+  {
+   "text": "It was a Sunday, and many officers were ashore.",
+   "start": 178.698,
+   "end": 181.431,
+   "chapter": "c03",
+   "para": 18,
+   "speed": 0.92,
+   "file": "f5d0365d9e76.wav"
+  },
+  {
+   "text": "The senior officer on board was a reserve lieutenant commander named Francis Thomas.",
+   "start": 181.731,
+   "end": 186.91,
+   "chapter": "c03",
+   "para": 18,
+   "speed": 0.92,
+   "file": "95d4616ce82e.wav"
+  },
+  {
+   "text": "Then the Arizona blew up.",
+   "start": 187.51,
+   "end": 189.205,
+   "chapter": "c03",
+   "para": 19,
+   "speed": 0.92,
+   "file": "ff00e0bcb3c5.wav"
+  },
+  {
+   "text": "Burning oil spread across the water and drifted toward the Nevada.",
+   "start": 189.505,
+   "end": 193.378,
+   "chapter": "c03",
+   "para": 19,
+   "speed": 0.92,
+   "file": "5bdb3d24212f.wav"
+  },
+  {
+   "text": "Staying meant burning with the Arizona.",
+   "start": 193.978,
+   "end": 196.287,
+   "chapter": "c03",
+   "para": 20,
+   "speed": 0.92,
+   "file": "aba31c9864be.wav"
+  },
+  {
+   "text": "So the crew did something no other battleship managed that morning.",
+   "start": 196.587,
+   "end": 200.314,
+   "chapter": "c03",
+   "para": 20,
+   "speed": 0.92,
+   "file": "19580ade0a33.wav"
+  },
+  {
+   "text": "They got her moving.",
+   "start": 200.614,
+   "end": 201.883,
+   "chapter": "c03",
+   "para": 20,
+   "speed": 0.92,
+   "file": "936371624ac4.wav"
+  },
+  {
+   "text": "A battleship normally left her berth with the help of tugs.",
+   "start": 202.483,
+   "end": 205.884,
+   "chapter": "c03",
+   "para": 21,
+   "speed": 0.92,
+   "file": "c4550c3fbbf6.wav"
+  },
+  {
+   "text": "There were no tugs.",
+   "start": 206.184,
+   "end": 207.419,
+   "chapter": "c03",
+   "para": 21,
+   "speed": 0.92,
+   "file": "af1eb81f48f5.wav"
+  },
+  {
+   "text": "Her engineers raised steam on their own.",
+   "start": 207.719,
+   "end": 210.044,
+   "chapter": "c03",
+   "para": 21,
+   "speed": 0.92,
+   "file": "10168de19f92.wav"
+  },
+  {
+   "text": "Chief Boatswain Edwin Hill led a party onto the quay under fire.",
+   "start": 210.644,
+   "end": 214.622,
+   "chapter": "c03",
+   "para": 22,
+   "speed": 0.92,
+   "file": "dbadadf3eedf.wav"
+  },
+  {
+   "text": "They cast off her lines.",
+   "start": 214.922,
+   "end": 216.519,
+   "chapter": "c03",
+   "para": 22,
+   "speed": 0.92,
+   "file": "fba25f16d178.wav"
+  },
+  {
+   "text": "Then Hill swam back out to the ship.",
+   "start": 216.819,
+   "end": 218.976,
+   "chapter": "c03",
+   "para": 22,
+   "speed": 0.92,
+   "file": "c10b54663135.wav"
+  },
+  {
+   "text": "At about twenty to nine, without tugs, the Nevada backed away from her berth and headed down the channel toward the open sea.",
+   "start": 219.576,
+   "end": 226.948,
+   "chapter": "c03",
+   "para": 23,
+   "speed": 0.92,
+   "file": "6f2e7f1c187c.wav"
+  },
+  {
+   "text": "A single battleship, on fire, moving past the wreckage of the fleet.",
+   "start": 227.548,
+   "end": 231.7,
+   "chapter": "c03",
+   "para": 24,
+   "speed": 0.92,
+   "file": "3e91243bee74.wav"
+  },
+  {
+   "text": "The Japanese saw her too.",
+   "start": 232.3,
+   "end": 233.951,
+   "chapter": "c03",
+   "para": 25,
+   "speed": 0.92,
+   "file": "e970df64e4c7.wav"
+  },
+  {
+   "text": "In the second wave, dive bombers went for her.",
+   "start": 234.251,
+   "end": 236.806,
+   "chapter": "c03",
+   "para": 25,
+   "speed": 0.92,
+   "file": "e00aa7e5f27a.wav"
+  },
+  {
+   "text": "She was hit by at least six bombs.",
+   "start": 237.406,
+   "end": 239.384,
+   "chapter": "c03",
+   "para": 26,
+   "speed": 0.92,
+   "file": "0e7592c4ae66.wav"
+  },
+  {
+   "text": "Her forward decks were on fire.",
+   "start": 239.684,
+   "end": 241.586,
+   "chapter": "c03",
+   "para": 26,
+   "speed": 0.92,
+   "file": "513f0f74c51e.wav"
+  },
+  {
+   "text": "Water was pouring in.",
+   "start": 241.886,
+   "end": 243.286,
+   "chapter": "c03",
+   "para": 26,
+   "speed": 0.92,
+   "file": "eabfe2c2215c.wav"
+  },
+  {
+   "text": "Now there was a new danger.",
+   "start": 243.886,
+   "end": 245.585,
+   "chapter": "c03",
+   "para": 27,
+   "speed": 0.92,
+   "file": "598e18845873.wav"
+  },
+  {
+   "text": "If she sank in the narrow channel, she could block it, and trap the whole fleet inside Pearl Harbor.",
+   "start": 245.885,
+   "end": 251.642,
+   "chapter": "c03",
+   "para": 27,
+   "speed": 0.92,
+   "file": "112d509bdbc0.wav"
+  },
+  {
+   "text": "She was ordered out of the channel.",
+   "start": 252.242,
+   "end": 254.019,
+   "chapter": "c03",
+   "para": 28,
+   "speed": 0.92,
+   "file": "db663ad74416.wav"
+  },
+  {
+   "text": "At about ten past nine, she ran aground near Hospital Point.",
+   "start": 254.319,
+   "end": 258.408,
+   "chapter": "c03",
+   "para": 28,
+   "speed": 0.92,
+   "file": "ea169f986c4b.wav"
+  },
+  {
+   "text": "On the forecastle, Chief Boatswain Hill was trying to let go the anchors when bombs exploded around him.",
+   "start": 259.008,
+   "end": 264.925,
+   "chapter": "c03",
+   "para": 29,
+   "speed": 0.92,
+   "file": "29e35699f0c5.wav"
+  },
+  {
+   "text": "He was killed.",
+   "start": 265.225,
+   "end": 266.218,
+   "chapter": "c03",
+   "para": 29,
+   "speed": 0.92,
+   "file": "5d17355614a1.wav"
+  },
+  {
+   "text": "He was awarded the Medal of Honor.",
+   "start": 266.518,
+   "end": 268.521,
+   "chapter": "c03",
+   "para": 29,
+   "speed": 0.92,
+   "file": "dff5bca0e4ea.wav"
+  },
+  {
+   "text": "Below decks, Machinist Donald Ross stayed in a dynamo room full of smoke and steam until he was blinded and knocked unconscious.",
+   "start": 269.121,
+   "end": 277.369,
+   "chapter": "c03",
+   "para": 30,
+   "speed": 0.92,
+   "file": "f21c81b503e5.wav"
+  },
+  {
+   "text": "When he came round, he went back to work.",
+   "start": 277.669,
+   "end": 279.899,
+   "chapter": "c03",
+   "para": 30,
+   "speed": 0.92,
+   "file": "052932fd22d7.wav"
+  },
+  {
+   "text": "He collapsed a second time.",
+   "start": 280.199,
+   "end": 281.938,
+   "chapter": "c03",
+   "para": 30,
+   "speed": 0.92,
+   "file": "edceba40f258.wav"
+  },
+  {
+   "text": "He also received the Medal of Honor.",
+   "start": 282.238,
+   "end": 284.552,
+   "chapter": "c03",
+   "para": 30,
+   "speed": 0.92,
+   "file": "af4e9c6d5f4e.wav"
+  },
+  {
+   "text": "Later that morning, tugs pulled her free and pushed her across the channel.",
+   "start": 285.152,
+   "end": 289.161,
+   "chapter": "c03",
+   "para": 31,
+   "speed": 0.92,
+   "file": "7cefd352b1fa.wav"
+  },
+  {
+   "text": "At a quarter to eleven, she was grounded a second time, stern first, at Waipio Point.",
+   "start": 289.461,
+   "end": 294.894,
+   "chapter": "c03",
+   "para": 31,
+   "speed": 0.92,
+   "file": "f276ebac9cd3.wav"
+  },
+  {
+   "text": "The channel stayed open.",
+   "start": 295.194,
+   "end": 296.675,
+   "chapter": "c03",
+   "para": 31,
+   "speed": 0.92,
+   "file": "eacec5bd34d3.wav"
+  },
+  {
+   "text": "Close to sixty of her men were killed.",
+   "start": 297.275,
+   "end": 299.406,
+   "chapter": "c03",
+   "para": 32,
+   "speed": 0.92,
+   "file": "e00c70b67cdd.wav"
+  },
+  {
+   "text": "More than a hundred were wounded.",
+   "start": 299.706,
+   "end": 301.465,
+   "chapter": "c03",
+   "para": 32,
+   "speed": 0.92,
+   "file": "5b53581d3926.wav"
+  },
+  {
+   "text": "But the Nevada had done what no other battleship did that day.",
+   "start": 301.765,
+   "end": 305.341,
+   "chapter": "c03",
+   "para": 32,
+   "speed": 0.92,
+   "file": "a63ee7da6179.wav"
+  },
+  {
+   "text": "She had fought back, and she had moved.",
+   "start": 305.641,
+   "end": 307.673,
+   "chapter": "c03",
+   "para": 32,
+   "speed": 0.92,
+   "file": "5f390407908a.wav"
+  },
+  {
+   "text": "By the next day, she had settled onto the bottom in shallow water.",
+   "start": 308.573,
+   "end": 312.2,
+   "chapter": "c04",
+   "para": 33,
+   "speed": 0.92,
+   "file": "e5761cf06a3f.wav"
+  },
+  {
+   "text": "For most ships, that would have been the end of the story.",
+   "start": 312.5,
+   "end": 315.378,
+   "chapter": "c04",
+   "para": 33,
+   "speed": 0.92,
+   "file": "183b1698e778.wav"
+  },
+  {
+   "text": "Divers spent more than fifteen hundred hours inside her flooded hull.",
+   "start": 315.978,
+   "end": 320.108,
+   "chapter": "c04",
+   "para": 34,
+   "speed": 0.92,
+   "file": "22b926522c83.wav"
+  },
+  {
+   "text": "Two salvage men died from poison gas that had built up in her compartments.",
+   "start": 320.408,
+   "end": 325.209,
+   "chapter": "c04",
+   "para": 34,
+   "speed": 0.92,
+   "file": "87ee15667455.wav"
+  },
+  {
+   "text": "On the twelfth of February, nineteen forty-two, the Nevada floated again.",
+   "start": 325.809,
+   "end": 330.187,
+   "chapter": "c04",
+   "para": 35,
+   "speed": 0.92,
+   "file": "a82df25e6b96.wav"
+  },
+  {
+   "text": "In April she sailed for Puget Sound, on the West Coast, to be rebuilt.",
+   "start": 330.487,
+   "end": 335.062,
+   "chapter": "c04",
+   "para": 35,
+   "speed": 0.92,
+   "file": "d4ff8d95a3ef.wav"
+  },
+  {
+   "text": "She came back to the war in nineteen forty-three, off the frozen island of Attu, in the Aleutians.",
+   "start": 335.662,
+   "end": 341.768,
+   "chapter": "c04",
+   "para": 36,
+   "speed": 0.92,
+   "file": "dcbfc3588c1a.wav"
+  },
+  {
+   "text": "Then she crossed to the Atlantic.",
+   "start": 342.368,
+   "end": 344.347,
+   "chapter": "c04",
+   "para": 37,
+   "speed": 0.92,
+   "file": "796eb184a353.wav"
+  },
+  {
+   "text": "On the sixth of June, nineteen forty-four, she was off Utah Beach in Normandy, firing on German positions ahead of the landings.",
+   "start": 344.647,
+   "end": 352.73,
+   "chapter": "c04",
+   "para": 37,
+   "speed": 0.92,
+   "file": "8a329caf1a10.wav"
+  },
+  {
+   "text": "Of all the battleships at Pearl Harbor that morning, the Nevada was the only one at D-Day.",
+   "start": 353.33,
+   "end": 358.615,
+   "chapter": "c04",
+   "para": 38,
+   "speed": 0.92,
+   "file": "97033e95f1c5.wav"
+  },
+  {
+   "text": "That day alone, she fired hundreds of her big fourteen-inch shells.",
+   "start": 359.215,
+   "end": 363.008,
+   "chapter": "c04",
+   "para": 39,
+   "speed": 0.92,
+   "file": "f70c0df5f55a.wav"
+  },
+  {
+   "text": "On the twenty-fifth of June, she shelled the fortress port of Cherbourg.",
+   "start": 363.608,
+   "end": 367.456,
+   "chapter": "c04",
+   "para": 40,
+   "speed": 0.92,
+   "file": "96874cc6456f.wav"
+  },
+  {
+   "text": "German batteries fired back and straddled her more than twenty times.",
+   "start": 367.756,
+   "end": 371.966,
+   "chapter": "c04",
+   "para": 40,
+   "speed": 0.92,
+   "file": "210d11a1e359.wav"
+  },
+  {
+   "text": "She was not hit.",
+   "start": 372.266,
+   "end": 373.432,
+   "chapter": "c04",
+   "para": 40,
+   "speed": 0.92,
+   "file": "a156c0663536.wav"
+  },
+  {
+   "text": "In August, she moved to the Mediterranean and duelled the heavy guns at Toulon, in southern France.",
+   "start": 373.732,
+   "end": 379.958,
+   "chapter": "c04",
+   "para": 40,
+   "speed": 0.92,
+   "file": "b80897488b59.wav"
+  },
+  {
+   "text": "Then she went back to the Pacific.",
+   "start": 380.558,
+   "end": 382.3,
+   "chapter": "c04",
+   "para": 41,
+   "speed": 0.92,
+   "file": "c7dc9850398e.wav"
+  },
+  {
+   "text": "In February nineteen forty-five, she was off Iwo Jima.",
+   "start": 382.6,
+   "end": 386.348,
+   "chapter": "c04",
+   "para": 41,
+   "speed": 0.92,
+   "file": "7af1b75bc06c.wav"
+  },
+  {
+   "text": "In March, off Okinawa, a kamikaze crashed into her deck near her number three turret.",
+   "start": 386.948,
+   "end": 392.438,
+   "chapter": "c04",
+   "para": 42,
+   "speed": 0.92,
+   "file": "20e394f2909a.wav"
+  },
+  {
+   "text": "Eleven men were killed.",
+   "start": 392.738,
+   "end": 394.256,
+   "chapter": "c04",
+   "para": 42,
+   "speed": 0.92,
+   "file": "3f77757001ca.wav"
+  },
+  {
+   "text": "Days later, a shore battery hit her.",
+   "start": 394.856,
+   "end": 397.035,
+   "chapter": "c04",
+   "para": 43,
+   "speed": 0.92,
+   "file": "d0accc0d1ba0.wav"
+  },
+  {
+   "text": "Two more were killed.",
+   "start": 397.335,
+   "end": 398.581,
+   "chapter": "c04",
+   "para": 43,
+   "speed": 0.92,
+   "file": "32c36c718d0d.wav"
+  },
+  {
+   "text": "She kept firing.",
+   "start": 398.881,
+   "end": 400.063,
+   "chapter": "c04",
+   "para": 43,
+   "speed": 0.92,
+   "file": "1a1e3ed9e605.wav"
+  },
+  {
+   "text": "She finished the war with seven battle stars.",
+   "start": 400.663,
+   "end": 403.177,
+   "chapter": "c04",
+   "para": 44,
+   "speed": 0.92,
+   "file": "68c5a588d5aa.wav"
+  },
+  {
+   "text": "She was also one of the oldest battleships the Navy still had.",
+   "start": 403.477,
+   "end": 406.967,
+   "chapter": "c04",
+   "para": 44,
+   "speed": 0.92,
+   "file": "05384b4b03c7.wav"
+  },
+  {
+   "text": "Launched in nineteen fourteen.",
+   "start": 407.267,
+   "end": 409.187,
+   "chapter": "c04",
+   "para": 44,
+   "speed": 0.92,
+   "file": "254e7c7dde07.wav"
+  },
+  {
+   "text": "Built for a different kind of war.",
+   "start": 409.487,
+   "end": 411.288,
+   "chapter": "c04",
+   "para": 44,
+   "speed": 0.92,
+   "file": "9199bd9f60ae.wav"
+  },
+  {
+   "text": "When the war ended, the Navy had more battleships than it needed.",
+   "start": 411.888,
+   "end": 415.409,
+   "chapter": "c04",
+   "para": 45,
+   "speed": 0.92,
+   "file": "d0b674765e81.wav"
+  },
+  {
+   "text": "Old ones were going to the scrapyard.",
+   "start": 415.709,
+   "end": 417.882,
+   "chapter": "c04",
+   "para": 45,
+   "speed": 0.92,
+   "file": "6be65329e600.wav"
+  },
+  {
+   "text": "The Nevada had survived a torpedo, bombs, a beaching, a kamikaze and shore batteries on two oceans.",
+   "start": 418.482,
+   "end": 425.435,
+   "chapter": "c04",
+   "para": 46,
+   "speed": 0.92,
+   "file": "50e2b086c0d3.wav"
+  },
+  {
+   "text": "That made her exactly what the Crossroads planners wanted.",
+   "start": 425.735,
+   "end": 429.188,
+   "chapter": "c04",
+   "para": 46,
+   "speed": 0.92,
+   "file": "aeb44b8a8ab8.wav"
+  },
+  {
+   "text": "A tough old ship to test the most powerful weapon ever made.",
+   "start": 429.488,
+   "end": 433.198,
+   "chapter": "c04",
+   "para": 46,
+   "speed": 0.92,
+   "file": "bb0ce7b4c857.wav"
+  },
+  {
+   "text": "The first of July, nineteen forty-six.",
+   "start": 434.098,
+   "end": 436.83,
+   "chapter": "c05",
+   "para": 47,
+   "speed": 0.92,
+   "file": "080a4c25ed9a.wav"
+  },
+  {
+   "text": "Test Able.",
+   "start": 437.13,
+   "end": 438.12,
+   "chapter": "c05",
+   "para": 47,
+   "speed": 0.92,
+   "file": "faee12de701f.wav"
+  },
+  {
+   "text": "From Kwajalein, a few hours' flight away, a B-29 bomber named Dave's Dream took off with the bomb.",
+   "start": 438.72,
+   "end": 445.145,
+   "chapter": "c05",
+   "para": 48,
+   "speed": 0.92,
+   "file": "807810f3a5d6.wav"
+  },
+  {
+   "text": "The Nevada's own crew watched from a transport about twenty-one miles away.",
+   "start": 445.745,
+   "end": 450.231,
+   "chapter": "c05",
+   "para": 49,
+   "speed": 0.92,
+   "file": "9c9c4a628cb5.wav"
+  },
+  {
+   "text": "At thirty-four seconds past nine in the morning, the bomb went off, about five hundred and twenty feet above the lagoon.",
+   "start": 450.831,
+   "end": 457.888,
+   "chapter": "c05",
+   "para": 50,
+   "speed": 0.92,
+   "file": "eebe498d08c5.wav"
+  },
+  {
+   "text": "Its force was about twenty thousand tons of TNT.",
+   "start": 458.488,
+   "end": 462.05,
+   "chapter": "c05",
+   "para": 51,
+   "speed": 0.92,
+   "file": "962e89efaee6.wav"
+  },
+  {
+   "text": "It was the same type of bomb that destroyed Nagasaki less than a year earlier.",
+   "start": 462.35,
+   "end": 466.955,
+   "chapter": "c05",
+   "para": 51,
+   "speed": 0.92,
+   "file": "e1b9ae39f0df.wav"
+  },
+  {
+   "text": "But the bomb did not explode over the Nevada.",
+   "start": 467.555,
+   "end": 470.212,
+   "chapter": "c05",
+   "para": 52,
+   "speed": 0.92,
+   "file": "3a8c77b0e1b7.wav"
+  },
+  {
+   "text": "It went off about a third of a mile away.",
+   "start": 470.512,
+   "end": 472.94,
+   "chapter": "c05",
+   "para": 52,
+   "speed": 0.92,
+   "file": "eb897eb11d53.wav"
+  },
+  {
+   "text": "Almost on top of the transport Gilliam.",
+   "start": 473.24,
+   "end": 475.721,
+   "chapter": "c05",
+   "para": 52,
+   "speed": 0.92,
+   "file": "3e0587f124bc.wav"
+  },
+  {
+   "text": "Nobody ever found out exactly why it missed.",
+   "start": 476.321,
+   "end": 479.264,
+   "chapter": "c05",
+   "para": 53,
+   "speed": 0.92,
+   "file": "06e93f53d84c.wav"
+  },
+  {
+   "text": "Five ships sank.",
+   "start": 479.864,
+   "end": 481.135,
+   "chapter": "c05",
+   "para": 54,
+   "speed": 0.92,
+   "file": "5b903a1b7b47.wav"
+  },
+  {
+   "text": "The Gilliam and the transport Carlisle went down first.",
+   "start": 481.435,
+   "end": 484.52,
+   "chapter": "c05",
+   "para": 54,
+   "speed": 0.92,
+   "file": "aa5258022cf0.wav"
+  },
+  {
+   "text": "Then the destroyers Lamson and Anderson.",
+   "start": 484.82,
+   "end": 487.31,
+   "chapter": "c05",
+   "para": 54,
+   "speed": 0.92,
+   "file": "244ef17e9de6.wav"
+  },
+  {
+   "text": "The next day, the Japanese cruiser Sakawa followed them.",
+   "start": 487.61,
+   "end": 491.124,
+   "chapter": "c05",
+   "para": 54,
+   "speed": 0.92,
+   "file": "8fc11a5e1c48.wav"
+  },
+  {
+   "text": "The Nevada was hit by the blast and the heat.",
+   "start": 491.724,
+   "end": 494.321,
+   "chapter": "c05",
+   "para": 55,
+   "speed": 0.92,
+   "file": "537a926be656.wav"
+  },
+  {
+   "text": "Both of her topmasts came down.",
+   "start": 494.621,
+   "end": 496.624,
+   "chapter": "c05",
+   "para": 55,
+   "speed": 0.92,
+   "file": "9f4ed36f49bd.wav"
+  },
+  {
+   "text": "Her superstructure was dished in.",
+   "start": 496.924,
+   "end": 498.982,
+   "chapter": "c05",
+   "para": 55,
+   "speed": 0.92,
+   "file": "ea020915cd8b.wav"
+  },
+  {
+   "text": "Fires broke out on her decks.",
+   "start": 499.282,
+   "end": 501.212,
+   "chapter": "c05",
+   "para": 55,
+   "speed": 0.92,
+   "file": "ce67cb7c1463.wav"
+  },
+  {
+   "text": "Her boilers were put out of action.",
+   "start": 501.512,
+   "end": 503.465,
+   "chapter": "c05",
+   "para": 55,
+   "speed": 0.92,
+   "file": "664e6cb3af88.wav"
+  },
+  {
+   "text": "But her hull was almost untouched.",
+   "start": 504.065,
+   "end": 506.175,
+   "chapter": "c05",
+   "para": 56,
+   "speed": 0.92,
+   "file": "4b85ac3036b4.wav"
+  },
+  {
+   "text": "And in her pilot house, the Navy's inspectors found the goats and rats.",
+   "start": 506.475,
+   "end": 510.754,
+   "chapter": "c05",
+   "para": 56,
+   "speed": 0.92,
+   "file": "ba30645bd052.wav"
+  },
+  {
+   "text": "The report says they were apparently unaffected by the heat and the blast.",
+   "start": 511.054,
+   "end": 515.208,
+   "chapter": "c05",
+   "para": 56,
+   "speed": 0.92,
+   "file": "13907ebc8119.wav"
+  },
+  {
+   "text": "The orange ship had taken an atomic bomb, and she was still floating.",
+   "start": 515.808,
+   "end": 519.837,
+   "chapter": "c05",
+   "para": 57,
+   "speed": 0.92,
+   "file": "c4d8021fbc8b.wav"
+  },
+  {
+   "text": "The first test had sunk five ships out of about ninety.",
+   "start": 520.737,
+   "end": 524.038,
+   "chapter": "c06",
+   "para": 58,
+   "speed": 0.92,
+   "file": "fd913b6a7f99.wav"
+  },
+  {
+   "text": "The bomb had not wiped out the fleet.",
+   "start": 524.338,
+   "end": 526.443,
+   "chapter": "c06",
+   "para": 58,
+   "speed": 0.92,
+   "file": "8c785f3578aa.wav"
+  },
+  {
+   "text": "The second test would be very different.",
+   "start": 526.743,
+   "end": 529.074,
+   "chapter": "c06",
+   "para": 58,
+   "speed": 0.92,
+   "file": "7c8ddef59dce.wav"
+  },
+  {
+   "text": "The twenty-fifth of July, nineteen forty-six.",
+   "start": 529.674,
+   "end": 532.741,
+   "chapter": "c06",
+   "para": 59,
+   "speed": 0.92,
+   "file": "f8de3890cf8e.wav"
+  },
+  {
+   "text": "Test Baker.",
+   "start": 533.041,
+   "end": 534.084,
+   "chapter": "c06",
+   "para": 59,
+   "speed": 0.92,
+   "file": "6a26b51a3203.wav"
+  },
+  {
+   "text": "This time the bomb was not dropped.",
+   "start": 534.684,
+   "end": 536.776,
+   "chapter": "c06",
+   "para": 60,
+   "speed": 0.92,
+   "file": "841f76135c86.wav"
+  },
+  {
+   "text": "It hung under a landing ship, ninety feet beneath the surface of the lagoon.",
+   "start": 537.076,
+   "end": 541.491,
+   "chapter": "c06",
+   "para": 60,
+   "speed": 0.92,
+   "file": "c4038be71782.wav"
+  },
+  {
+   "text": "At about eight thirty-five in the morning, it went off.",
+   "start": 542.091,
+   "end": 545.126,
+   "chapter": "c06",
+   "para": 61,
+   "speed": 0.92,
+   "file": "7592bc778270.wav"
+  },
+  {
+   "text": "Another bomb of about twenty kilotons.",
+   "start": 545.426,
+   "end": 547.745,
+   "chapter": "c06",
+   "para": 61,
+   "speed": 0.92,
+   "file": "6720d9a7fa03.wav"
+  },
+  {
+   "text": "A column of water rose about a mile into the air.",
+   "start": 548.345,
+   "end": 551.506,
+   "chapter": "c06",
+   "para": 62,
+   "speed": 0.92,
+   "file": "713e56216e80.wav"
+  },
+  {
+   "text": "Millions of tons of seawater lifted out of the lagoon, then fell back onto the fleet.",
+   "start": 551.806,
+   "end": 556.758,
+   "chapter": "c06",
+   "para": 62,
+   "speed": 0.92,
+   "file": "70f30c4bc486.wav"
+  },
+  {
+   "text": "The old battleship Arkansas was about two hundred and forty yards away.",
+   "start": 557.358,
+   "end": 561.808,
+   "chapter": "c06",
+   "para": 63,
+   "speed": 0.92,
+   "file": "7726cb2d2001.wav"
+  },
+  {
+   "text": "She went down.",
+   "start": 562.108,
+   "end": 563.176,
+   "chapter": "c06",
+   "para": 63,
+   "speed": 0.92,
+   "file": "2df6baf1aed5.wav"
+  },
+  {
+   "text": "The aircraft carrier Saratoga, about three hundred and eighty yards away, sank that afternoon.",
+   "start": 563.476,
+   "end": 569.176,
+   "chapter": "c06",
+   "para": 63,
+   "speed": 0.92,
+   "file": "e1360e1de7a7.wav"
+  },
+  {
+   "text": "Four days later, the Japanese battleship Nagato sank too.",
+   "start": 569.476,
+   "end": 573.249,
+   "chapter": "c06",
+   "para": 63,
+   "speed": 0.92,
+   "file": "b39b7791c127.wav"
+  },
+  {
+   "text": "The Nevada was about a thousand and sixty yards from the bomb.",
+   "start": 573.849,
+   "end": 577.48,
+   "chapter": "c06",
+   "para": 64,
+   "speed": 0.92,
+   "file": "f90f7fddd3dd.wav"
+  },
+  {
+   "text": "Her crew watched from sixteen miles away.",
+   "start": 577.78,
+   "end": 580.21,
+   "chapter": "c06",
+   "para": 64,
+   "speed": 0.92,
+   "file": "1b7e08566176.wav"
+  },
+  {
+   "text": "The shock hit her hull.",
+   "start": 580.51,
+   "end": 581.999,
+   "chapter": "c06",
+   "para": 64,
+   "speed": 0.92,
+   "file": "79ae78805452.wav"
+  },
+  {
+   "text": "Some compartments aft flooded.",
+   "start": 582.299,
+   "end": 584.19,
+   "chapter": "c06",
+   "para": 64,
+   "speed": 0.92,
+   "file": "a2d4da31685e.wav"
+  },
+  {
+   "text": "She took a slight list.",
+   "start": 584.49,
+   "end": 585.837,
+   "chapter": "c06",
+   "para": 64,
+   "speed": 0.92,
+   "file": "4a22f8994e7e.wav"
+  },
+  {
+   "text": "And she was still floating.",
+   "start": 586.437,
+   "end": 587.863,
+   "chapter": "c06",
+   "para": 65,
+   "speed": 0.92,
+   "file": "21e757a60da7.wav"
+  },
+  {
+   "text": "She was not the only one.",
+   "start": 588.463,
+   "end": 589.963,
+   "chapter": "c06",
+   "para": 66,
+   "speed": 0.92,
+   "file": "ec50edbbb37c.wav"
+  },
+  {
+   "text": "The old battleships New York and Pennsylvania also came through both tests.",
+   "start": 590.263,
+   "end": 594.992,
+   "chapter": "c06",
+   "para": 66,
+   "speed": 0.92,
+   "file": "65b1e9c9c360.wav"
+  },
+  {
+   "text": "But the Nevada was the one they had aimed the first bomb at.",
+   "start": 595.292,
+   "end": 598.554,
+   "chapter": "c06",
+   "para": 66,
+   "speed": 0.92,
+   "file": "9f5a1a91c191.wav"
+  },
+  {
+   "text": "And she had now taken both.",
+   "start": 598.854,
+   "end": 600.542,
+   "chapter": "c06",
+   "para": 66,
+   "speed": 0.92,
+   "file": "a58538c5b07d.wav"
+  },
+  {
+   "text": "But this time, surviving was the problem.",
+   "start": 601.142,
+   "end": 603.621,
+   "chapter": "c06",
+   "para": 67,
+   "speed": 0.92,
+   "file": "088aef1745d0.wav"
+  },
+  {
+   "text": "The water that fell on the fleet carried the bomb's radiation.",
+   "start": 603.921,
+   "end": 607.526,
+   "chapter": "c06",
+   "para": 67,
+   "speed": 0.92,
+   "file": "ecc0131ea8c9.wav"
+  },
+  {
+   "text": "The Navy's inspectors called the Nevada highly radioactive, inside and outside.",
+   "start": 608.126,
+   "end": 613.458,
+   "chapter": "c06",
+   "para": 68,
+   "speed": 0.92,
+   "file": "4596d7d43751.wav"
+  },
+  {
+   "text": "Sailors tried to wash the target ships down with hoses, chemicals and lye.",
+   "start": 614.058,
+   "end": 618.702,
+   "chapter": "c06",
+   "para": 69,
+   "speed": 0.92,
+   "file": "d7323a8d8ebe.wav"
+  },
+  {
+   "text": "It did not work.",
+   "start": 619.002,
+   "end": 620.189,
+   "chapter": "c06",
+   "para": 69,
+   "speed": 0.92,
+   "file": "78d04a3541c9.wav"
+  },
+  {
+   "text": "The contamination stayed for weeks.",
+   "start": 620.489,
+   "end": 622.519,
+   "chapter": "c06",
+   "para": 69,
+   "speed": 0.92,
+   "file": "7c8097e44064.wav"
+  },
+  {
+   "text": "The Nevada had survived two atomic bombs.",
+   "start": 623.119,
+   "end": 625.873,
+   "chapter": "c06",
+   "para": 70,
+   "speed": 0.92,
+   "file": "aa5783b50353.wav"
+  },
+  {
+   "text": "Now nobody could live on her.",
+   "start": 626.173,
+   "end": 628.131,
+   "chapter": "c06",
+   "para": 70,
+   "speed": 0.92,
+   "file": "b9ea3efe4008.wav"
+  },
+  {
+   "text": "On the twenty-ninth of August, nineteen forty-six, at Kwajalein, the Nevada was decommissioned.",
+   "start": 629.031,
+   "end": 634.862,
+   "chapter": "c07",
+   "para": 71,
+   "speed": 0.92,
+   "file": "f424e78b8b03.wav"
+  },
+  {
+   "text": "The ship that refused to sink was still afloat.",
+   "start": 635.162,
+   "end": 638.02,
+   "chapter": "c07",
+   "para": 71,
+   "speed": 0.92,
+   "file": "856da6a04b90.wav"
+  },
+  {
+   "text": "But her life as a warship was over.",
+   "start": 638.32,
+   "end": 640.613,
+   "chapter": "c07",
+   "para": 71,
+   "speed": 0.92,
+   "file": "5188ba7193a5.wav"
+  },
+  {
+   "text": "The Navy studied her for almost two more years.",
+   "start": 641.213,
+   "end": 643.83,
+   "chapter": "c07",
+   "para": 72,
+   "speed": 0.92,
+   "file": "4a69b2366393.wav"
+  },
+  {
+   "text": "In May nineteen forty-seven, she was towed to Pearl Harbor, the same harbour she had escaped from, for radiological tests.",
+   "start": 644.13,
+   "end": 651.914,
+   "chapter": "c07",
+   "para": 72,
+   "speed": 0.92,
+   "file": "92856f6776c7.wav"
+  },
+  {
+   "text": "Then the Navy decided how she would end.",
+   "start": 652.514,
+   "end": 655.138,
+   "chapter": "c07",
+   "para": 73,
+   "speed": 0.92,
+   "file": "42d635fa9671.wav"
+  },
+  {
+   "text": "She would be one last target.",
+   "start": 655.438,
+   "end": 657.18,
+   "chapter": "c07",
+   "para": 73,
+   "speed": 0.92,
+   "file": "ae3b16ed83d6.wav"
+  },
+  {
+   "text": "On the twenty-sixth of July, nineteen forty-eight, a tug towed her out to sea, southwest of Oahu.",
+   "start": 657.78,
+   "end": 663.998,
+   "chapter": "c07",
+   "para": 74,
+   "speed": 0.92,
+   "file": "527c466e257c.wav"
+  },
+  {
+   "text": "First, new secret explosives were tested on her.",
+   "start": 664.598,
+   "end": 667.692,
+   "chapter": "c07",
+   "para": 75,
+   "speed": 0.92,
+   "file": "805fb186cbdd.wav"
+  },
+  {
+   "text": "They ripped holes in her sides.",
+   "start": 667.992,
+   "end": 669.74,
+   "chapter": "c07",
+   "para": 75,
+   "speed": 0.92,
+   "file": "c0e0793afd08.wav"
+  },
+  {
+   "text": "She did not sink.",
+   "start": 670.04,
+   "end": 671.253,
+   "chapter": "c07",
+   "para": 75,
+   "speed": 0.92,
+   "file": "7a5074dff2a5.wav"
+  },
+  {
+   "text": "Days of bombs and rockets followed.",
+   "start": 671.853,
+   "end": 674.127,
+   "chapter": "c07",
+   "para": 76,
+   "speed": 0.92,
+   "file": "b66cff82625d.wav"
+  },
+  {
+   "text": "She was still floating.",
+   "start": 674.427,
+   "end": 675.748,
+   "chapter": "c07",
+   "para": 76,
+   "speed": 0.92,
+   "file": "d1923a32d155.wav"
+  },
+  {
+   "text": "On her last day, the cruisers Astoria and Pasadena opened fire.",
+   "start": 676.348,
+   "end": 680.683,
+   "chapter": "c07",
+   "para": 77,
+   "speed": 0.92,
+   "file": "835dd22bd4fd.wav"
+  },
+  {
+   "text": "Then the battleship Iowa joined them.",
+   "start": 680.983,
+   "end": 683.06,
+   "chapter": "c07",
+   "para": 77,
+   "speed": 0.92,
+   "file": "76bbfe7d043e.wav"
+  },
+  {
+   "text": "In about twenty minutes, the three ships fired two hundred and eighty-seven shells at her.",
+   "start": 683.66,
+   "end": 688.634,
+   "chapter": "c07",
+   "para": 78,
+   "speed": 0.92,
+   "file": "6ee05fbd2eef.wav"
+  },
+  {
+   "text": "Twenty-seven of them came from the Iowa's sixteen-inch guns.",
+   "start": 688.934,
+   "end": 692.385,
+   "chapter": "c07",
+   "para": 78,
+   "speed": 0.92,
+   "file": "13de59fa6592.wav"
+  },
+  {
+   "text": "The Nevada was burning.",
+   "start": 692.985,
+   "end": 694.576,
+   "chapter": "c07",
+   "para": 79,
+   "speed": 0.92,
+   "file": "f65653790133.wav"
+  },
+  {
+   "text": "She was still floating.",
+   "start": 694.876,
+   "end": 696.197,
+   "chapter": "c07",
+   "para": 79,
+   "speed": 0.92,
+   "file": "d1923a32d155.wav"
+  },
+  {
+   "text": "In the end, it took torpedo bombers.",
+   "start": 696.797,
+   "end": 699.203,
+   "chapter": "c07",
+   "para": 80,
+   "speed": 0.92,
+   "file": "6164b44acf00.wav"
+  },
+  {
+   "text": "Several torpedoes hit her.",
+   "start": 699.503,
+   "end": 701.196,
+   "chapter": "c07",
+   "para": 80,
+   "speed": 0.92,
+   "file": "9654f8d86f3d.wav"
+  },
+  {
+   "text": "Then one smashed into her side, amidships.",
+   "start": 701.496,
+   "end": 704.191,
+   "chapter": "c07",
+   "para": 80,
+   "speed": 0.92,
+   "file": "46e7ad43a65b.wav"
+  },
+  {
+   "text": "She rolled over, and sank.",
+   "start": 704.791,
+   "end": 706.496,
+   "chapter": "c07",
+   "para": 81,
+   "speed": 0.92,
+   "file": "b4c3cc128d98.wav"
+  },
+  {
+   "text": "The admiral who watched her go said, \"She was a grand old ship.\"",
+   "start": 707.096,
+   "end": 710.773,
+   "chapter": "c07",
+   "para": 82,
+   "speed": 0.92,
+   "file": "772bb557d68c.wav"
+  },
+  {
+   "text": "She had survived Pearl Harbor.",
+   "start": 711.373,
+   "end": 713.166,
+   "chapter": "c07",
+   "para": 83,
+   "speed": 0.92,
+   "file": "73bbb408a7d6.wav"
+  },
+  {
+   "text": "Two oceans of war.",
+   "start": 713.466,
+   "end": 714.87,
+   "chapter": "c07",
+   "para": 83,
+   "speed": 0.92,
+   "file": "680cfa451e46.wav"
+  },
+  {
+   "text": "Two atomic bombs.",
+   "start": 715.17,
+   "end": 716.581,
+   "chapter": "c07",
+   "para": 83,
+   "speed": 0.92,
+   "file": "f2a226dbaca9.wav"
+  },
+  {
+   "text": "In the end, it took four days, three warships and the aircraft of her own navy to sink her.",
+   "start": 716.881,
+   "end": 722.271,
+   "chapter": "c07",
+   "para": 83,
+   "speed": 0.92,
+   "file": "4f42b2d8d022.wav"
+  },
+  {
+   "text": "According to the archaeologists who later studied her, she took something else down with her.",
+   "start": 722.871,
+   "end": 727.746,
+   "chapter": "c07",
+   "para": 84,
+   "speed": 0.92,
+   "file": "b5b2270aa444.wav"
+  },
+  {
+   "text": "Three fourteen-inch guns that had once belonged to the USS Arizona, her neighbour on Battleship Row.",
+   "start": 728.046,
+   "end": 734.492,
+   "chapter": "c07",
+   "para": 84,
+   "speed": 0.92,
+   "file": "b51521843fa8.wav"
+  },
+  {
+   "text": "So that is what sank her.",
+   "start": 735.092,
+   "end": 736.67,
+   "chapter": "c07",
+   "para": 85,
+   "speed": 0.92,
+   "file": "c3c404518e53.wav"
+  },
+  {
+   "text": "Her own navy.",
+   "start": 736.97,
+   "end": 738.056,
+   "chapter": "c07",
+   "para": 85,
+   "speed": 0.92,
+   "file": "e8826c2913c1.wav"
+  },
+  {
+   "text": "But for more than seventy years, nobody knew exactly where she lay.",
+   "start": 738.956,
+   "end": 742.733,
+   "chapter": "c08",
+   "para": 86,
+   "speed": 0.92,
+   "file": "4f9620e0424f.wav"
+  },
+  {
+   "text": "The logs from nineteen forty-eight gave only rough positions.",
+   "start": 743.033,
+   "end": 746.967,
+   "chapter": "c08",
+   "para": 86,
+   "speed": 0.92,
+   "file": "d1061efb2d39.wav"
+  },
+  {
+   "text": "And the water there is nearly three miles deep.",
+   "start": 747.267,
+   "end": 750.079,
+   "chapter": "c08",
+   "para": 86,
+   "speed": 0.92,
+   "file": "6a21943deaf8.wav"
+  },
+  {
+   "text": "In twenty sixteen, a researcher with NOAA went back to those logs, the logs of the Iowa, the Astoria and the Pasadena, and worked out where she had gone down.",
+   "start": 750.679,
+   "end": 760.327,
+   "chapter": "c08",
+   "para": 87,
+   "speed": 0.92,
+   "file": "589c62676454.wav"
+  },
+  {
+   "text": "In April twenty twenty, the survey ship Pacific Constructor searched that area with an underwater robot.",
+   "start": 760.927,
+   "end": 767.523,
+   "chapter": "c08",
+   "para": 88,
+   "speed": 0.92,
+   "file": "f016b97f3eb8.wav"
+  },
+  {
+   "text": "It was run by two private companies, Ocean Infinity and SEARCH.",
+   "start": 767.823,
+   "end": 771.951,
+   "chapter": "c08",
+   "para": 88,
+   "speed": 0.92,
+   "file": "996a86559a6a.wav"
+  },
+  {
+   "text": "In May, they announced it.",
+   "start": 772.551,
+   "end": 774.164,
+   "chapter": "c08",
+   "para": 89,
+   "speed": 0.92,
+   "file": "0e5a5ea04451.wav"
+  },
+  {
+   "text": "They had found the Nevada.",
+   "start": 774.464,
+   "end": 775.908,
+   "chapter": "c08",
+   "para": 89,
+   "speed": 0.92,
+   "file": "c9d2b1b97ee2.wav"
+  },
+  {
+   "text": "She lies about sixty-five nautical miles southwest of Pearl Harbor, more than fifteen thousand four hundred feet down.",
+   "start": 776.508,
+   "end": 783.611,
+   "chapter": "c08",
+   "para": 90,
+   "speed": 0.92,
+   "file": "e5d6df8dfbc9.wav"
+  },
+  {
+   "text": "She is upside down.",
+   "start": 784.211,
+   "end": 785.675,
+   "chapter": "c08",
+   "para": 91,
+   "speed": 0.92,
+   "file": "02e7bc637c82.wav"
+  },
+  {
+   "text": "Her bow and her stern have broken away.",
+   "start": 785.975,
+   "end": 788.392,
+   "chapter": "c08",
+   "para": 91,
+   "speed": 0.92,
+   "file": "fb69d6ebc28b.wav"
+  },
+  {
+   "text": "On her stern, the number thirty-six can still be read.",
+   "start": 788.692,
+   "end": 791.894,
+   "chapter": "c08",
+   "para": 91,
+   "speed": 0.92,
+   "file": "9ced166cc225.wav"
+  },
+  {
+   "text": "She is still the property of the United States Navy, protected by federal law.",
+   "start": 792.494,
+   "end": 797.099,
+   "chapter": "c08",
+   "para": 92,
+   "speed": 0.92,
+   "file": "16ef07642745.wav"
+  },
+  {
+   "text": "Many people say she should have been saved as a museum ship.",
+   "start": 797.699,
+   "end": 800.981,
+   "chapter": "c08",
+   "para": 93,
+   "speed": 0.92,
+   "file": "5d9accf49a4a.wav"
+  },
+  {
+   "text": "Instead, her own navy used her as a target until she sank.",
+   "start": 801.281,
+   "end": 805.306,
+   "chapter": "c08",
+   "para": 93,
+   "speed": 0.92,
+   "file": "822d2d05c5ad.wav"
+  },
+  {
+   "text": "What do you think?",
+   "start": 805.906,
+   "end": 807.086,
+   "chapter": "c08",
+   "para": 94,
+   "speed": 0.8522,
+   "file": "51fc1731f950.wav"
+  },
+  {
+   "text": "Was that the right way to end the Nevada's story?",
+   "start": 807.386,
+   "end": 810.029,
+   "chapter": "c08",
+   "para": 94,
+   "speed": 0.8522,
+   "file": "1f7ec7f59a23.wav"
+  }
+ ]
+}
