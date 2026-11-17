@@ -8,6 +8,8 @@ log(){ echo "[setup $(date +%H:%M:%S)] $*"; }
 command -v ffmpeg >/dev/null || { log "ffmpeg"; (apt-get update -qq && apt-get install -y -qq ffmpeg) >/dev/null 2>&1 || sudo apt-get install -y -qq ffmpeg >/dev/null 2>&1; }
 command -v hyperframes >/dev/null || { log "hyperframes"; npm install -g hyperframes >/dev/null 2>&1; }
 log "python packages"; pip install -q numpy pillow kokoro-onnx soundfile "rembg[cpu]" reportlab fonttools brotli pypdfium2 >/dev/null 2>&1
+log "depth model + photo/whisper deps"; pip install -q onnxruntime opencv-python-headless faster-whisper av==15.1.0 pyloudnorm >/dev/null 2>&1
+[ -f /opt/models/depth_anything_v2_small.onnx ] || { mkdir -p /opt/models; curl -sSL -o /opt/models/depth_anything_v2_small.onnx "https://huggingface.co/onnx-community/depth-anything-v2-small/resolve/main/onnx/model.onnx"; }   # Small = Apache 2.0 (never Base/Large: CC BY-NC)
 log "chrome for rendering"; hyperframes browser ensure >/dev/null 2>&1
 if [ ! -d "$HOME/.claude/skills/hyperframes" ]; then
   log "claude skills"; cd /tmp
