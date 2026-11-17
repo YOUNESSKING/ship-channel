@@ -4,8 +4,8 @@ const S = ShipK(), B = S.B, END = S.END, wt = S.wt, P = S.P;
 const WR = P("WRECK");
 S.camera([[0, 1250, 900, 1.52], [END, 1250, 900, 1.5]]);
 S.icon("q", WR, { t: 0, size: 90, color: "#D9572B", bob: 10, until: wt("worked", 3.6) + 0.8 });
-const home = [S.off(WR, -11000, 9000), S.off(WR, 12000, 6000), S.off(WR, 1500, -13000)];
-const dest = [S.off(WR, -2600, 1800), S.off(WR, 2800, 1200), S.off(WR, 300, -2600)];
+const home = [S.off(WR, -24000, 16000), S.off(WR, 26000, 11000), S.off(WR, 3000, -22000)];
+const dest = [S.off(WR, -3200, 2200), S.off(WR, 3400, 1500), S.off(WR, 400, -3200)];
 const names = [["IOWA", "Iowa"], ["ASTORIA", "Astoria"], ["PASADENA", "Pasadena"]], tw = wt("worked", 3.6);
 const at = (i) => (t) => { const u = Math.min(1, Math.max(0, (t - tw) / 1.4)), e = u * u * (3 - 2 * u); return [home[i][0] + (dest[i][0] - home[i][0]) * e, home[i][1] + (dest[i][1] - home[i][1]) * e]; };
 home.forEach((p, i) => {

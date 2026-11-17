@@ -3,8 +3,8 @@
 const S = ShipK(), B = S.B, END = S.END, wt = S.wt, P = S.P;
 const WR = P("WRECK");
 S.camera([[0, 1250, 900, 1.5], [END, 1230, 905, 1.55]]);
-S.pin(WR, "NEVADA · TARGET", { t: 0.2, color: "#D9572B", anchor: "r", size: 44, gap: 40, dy: 50, ringR: 40 });
-const AS = S.off(WR, 7000, 5500), PA = S.off(WR, 6500, -6000), IO = S.off(WR, -9000, 9000);
+S.pin(WR, "NEVADA · TARGET", { t: 0.2, color: "#D9572B", anchor: "l", size: 44, gap: 40, dy: 60, ringR: 40 });
+const AS = S.off(WR, 30000, 12000), PA = S.off(WR, 27000, -14000), IO = S.off(WR, -30000, 22000);
 const ship = (kind, pt, nm, t, len, rot, anchor) => { S.ship(kind, pt, { t, len, rot, fill: "#b3cadf", stroke: "#0c1218", sw: 2.2 }); S.label(nm, pt, { t, anchor, size: 42, gap: 60, dy: -10 }); };
 ship("cru", AS, "ASTORIA", wt("Astoria", 2.0), 70, 215, "r");
 ship("cru", PA, "PASADENA", wt("Pasadena", 3.0), 70, 150, "r");

@@ -13,7 +13,7 @@ C, W, H = 6, 480, 270
 rows = (len(segs) + C - 1) // C
 sheet = Image.new("RGB", (C * W + (C + 1) * 12, 90 + rows * (H + 66)), (18, 20, 24))
 d = ImageDraw.Draw(sheet)
-d.text((14, 18), f"ORISKANY FULL · MAP SCENES ({len(segs)})", font=fT, fill=(227, 194, 122))
+d.text((14, 18), f"USS NEVADA FULL · MAP SCENES ({len(segs)})", font=fT, fill=(217, 87, 43))
 tmp = tempfile.mkdtemp()
 for i, s in enumerate(segs):
     x, y = 12 + (i % C) * (W + 12), 90 + (i // C) * (H + 66)

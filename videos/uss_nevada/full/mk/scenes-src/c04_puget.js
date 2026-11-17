@@ -6,5 +6,5 @@ S.camera([[0, MID[0] - 30, MID[1] + 10, 1.9], [END, MID[0] + 30, MID[1] - 10, 2.
 S.date("APRIL 1942", wt("April", 0.6));
 S.pin(PH, "PEARL HARBOR", { t: 0.3, color: "#f3eee2", anchor: "r", size: 40, gap: 30, dy: 10, ringR: 30 });
 S.route(S.arcPts(PH, PU, -0.1), { t: wt("Puget", 1.6) - 0.5, dur: 2.6, width: 6, color: "#D9572B", head: "ship" });
-S.pin(PU, "PUGET SOUND", { t: wt("Puget", 1.6) + 1.8, color: "#D9572B", anchor: "r", size: 48, gap: 30, dy: -10, ringR: 32 });
+S.pin(PU, "PUGET SOUND", { t: wt("Puget", 1.6) + 1.8, color: "#D9572B", anchor: "l", size: 48, gap: 30, dy: -10, ringR: 32 });
 S.finish();

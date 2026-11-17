@@ -2,8 +2,8 @@
 // Array of dots; one ORANGE dot pulses; NEVADA on 'chose', crosshair + BULL'S-EYE on "bull's", AIM POINT on 'aim'.
 const S = ShipK(), B = S.B, END = S.END, wt = S.wt, P = S.P;
 const AIM = P("AIM");
-S.camera([[0, 1500, 832, 2.0], [END, 1512, 834, 2.5]]);
-S.scatter(AIM, 38, 4200, 7, AIM, 450).forEach((p) => S.dot(p, { t: 0, r: 8, color: "#f3eee2" }));
+S.camera([[0, 1505, 833, 2.5], [END, 1512, 834, 2.9]]);
+S.scatter(AIM, 38, 4600, 7, AIM, 450).forEach((p) => S.dot(p, { t: 0, r: 10, color: "#f3eee2" }));
 S.dot(AIM, { t: 0.1, r: 12, color: "#D9572B" }); S.ring(AIM, { t: 0.1, r: 40, color: "#D9572B" });
 S.label("NEVADA", AIM, { t: wt("chose", 0.8), anchor: "r", size: 52, gap: 70, dy: 70, color: "#f7f3ea" });
 S.cross(AIM, { t: wt("bull's", 1.8), r: 52, color: "#f3eee2" });
