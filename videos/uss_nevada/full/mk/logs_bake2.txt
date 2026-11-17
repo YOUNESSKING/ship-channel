@@ -7,3 +7,8 @@ skip bikini
 skip normandy
 skip channel
 skip medit
+bikini_close 9.4 m/px elev -2..19 origin 4023926 1960437
+skip marshalls
+skip northpac
+skip atlantic
+skip oahu_sw

@@ -4,15 +4,15 @@
   11.585,
   165.5
  ],
- "zoom": 13,
+ "zoom": 14,
  "origin_world_px": [
-  2011243,
-  979813
+  4023926,
+  1960437
  ],
  "size": [
   2880,
   1620
  ],
- "meters_per_px": 18.72,
+ "meters_per_px": 9.36,
  "credit": "Terrain & bathymetry: Mapzen / AWS Terrain Tiles (open data)"
 }
