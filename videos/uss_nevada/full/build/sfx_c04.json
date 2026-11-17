@@ -1,0 +1,147 @@
+{
+ "chapter": "c04",
+ "cues": [
+  {
+   "shot": "s03",
+   "at": "@four",
+   "role": "pop",
+   "note": "number lands: 400+"
+  },
+  {
+   "shot": "s06",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c04_float)"
+  },
+  {
+   "shot": "s07",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c04_puget)"
+  },
+  {
+   "shot": "s09",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c04_attu)"
+  },
+  {
+   "shot": "s10",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c04_atlantic)"
+  },
+  {
+   "shot": "s11",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c04_utah)"
+  },
+  {
+   "shot": "s12",
+   "at": 0.0,
+   "role": "boom",
+   "note": "Nevada salvo"
+  },
+  {
+   "shot": "s13",
+   "at": "@only",
+   "role": "pop",
+   "note": "card: THE ONLY BATTLESHIP AT BOTH"
+  },
+  {
+   "shot": "s15",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c04_cherbourg)"
+  },
+  {
+   "shot": "s16",
+   "at": "@twenty",
+   "role": "pop",
+   "note": "number lands: 20+"
+  },
+  {
+   "shot": "s18",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c04_toulon)"
+  },
+  {
+   "shot": "s20",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c04_iwo)"
+  },
+  {
+   "shot": "s22",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c04_okinawa)"
+  },
+  {
+   "shot": "s23",
+   "at": 0.1,
+   "role": "impact",
+   "note": "kamikaze hit (film)"
+  },
+  {
+   "shot": "s24",
+   "at": "@eleven",
+   "role": "pop",
+   "note": "number lands: 11"
+  },
+  {
+   "shot": "s28",
+   "at": "@seven",
+   "role": "pop",
+   "note": "card number lands: 7"
+  },
+  {
+   "shot": "s30",
+   "at": "@fourteen",
+   "role": "tick",
+   "note": "label: 11 JULY 1914"
+  },
+  {
+   "shot": "s34",
+   "at": "@torpedo",
+   "role": "tick",
+   "note": "option appears: A torpedo"
+  },
+  {
+   "shot": "s34",
+   "at": "@bombs",
+   "role": "tick",
+   "note": "option appears: Bombs"
+  },
+  {
+   "shot": "s34",
+   "at": "@beaching",
+   "role": "tick",
+   "note": "option appears: A beaching"
+  }
+ ],
+ "film_shots": [
+  "s02",
+  "s03",
+  "s04",
+  "s05",
+  "s14",
+  "s19",
+  "s21",
+  "s23",
+  "s24",
+  "s25",
+  "s26",
+  "s27",
+  "s28",
+  "s32",
+  "s34",
+  "s35",
+  "s36",
+  "s37"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

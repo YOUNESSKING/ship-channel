@@ -1,0 +1,98 @@
+{
+ "chapter": "c06",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": "@five",
+   "role": "pop",
+   "note": "card number lands: 5"
+  },
+  {
+   "shot": "s04",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c06_baker)"
+  },
+  {
+   "shot": "s06",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c06_lsm)"
+  },
+  {
+   "shot": "s07",
+   "at": 0.0,
+   "role": "explosion",
+   "note": "Baker burst"
+  },
+  {
+   "shot": "s08",
+   "at": "@twenty",
+   "role": "pop",
+   "note": "number lands: ≈20"
+  },
+  {
+   "shot": "s09",
+   "at": "@mile",
+   "role": "pop",
+   "note": "number lands: ≈1"
+  },
+  {
+   "shot": "s12",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c06_dist_a)"
+  },
+  {
+   "shot": "s13",
+   "at": 0.1,
+   "role": "ship",
+   "note": "Arkansas goes down"
+  },
+  {
+   "shot": "s17",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c06_dist_b)"
+  },
+  {
+   "shot": "s18",
+   "at": "@sixteen",
+   "role": "pop",
+   "note": "number lands: 16"
+  },
+  {
+   "shot": "s24",
+   "at": "@Pennsylvania",
+   "role": "tick",
+   "note": "label: NEW YORK · PENNSYLVANIA"
+  },
+  {
+   "shot": "s29",
+   "at": "@highly",
+   "role": "pop",
+   "note": "card: “HIGHLY RADIOACTIVE, INSIDE AND OUTSIDE”"
+  }
+ ],
+ "film_shots": [
+  "s01",
+  "s02",
+  "s03",
+  "s05",
+  "s09",
+  "s11",
+  "s16",
+  "s19",
+  "s21",
+  "s22",
+  "s23",
+  "s25",
+  "s26",
+  "s27",
+  "s32",
+  "s34",
+  "s35"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

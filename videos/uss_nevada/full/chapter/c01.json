@@ -1,0 +1,233 @@
+{
+ "key": "c01",
+ "title": "USS Nevada · Hook",
+ "words": "../build/words.json",
+ "audio_offset": 0.0,
+ "clips_dir": "../segments",
+ "duration": 52.616,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c01_open.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t3.59",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · TEST ABLE, 1 JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c01_s02.mp4",
+    "push": null
+   },
+   "params": {},
+   "flash": true
+  },
+  {
+   "id": "s03",
+   "start": "t7.67",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · TEST BAKER, 25 JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c01_s03.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s04",
+   "start": "t10.36",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · USS NEVADA, BIKINI 1946",
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "f_c01_s04.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "TWO ATOMIC BOMBS",
+    "text": "SHE SURVIVED BOTH",
+    "at": "@survived"
+   }
+  },
+  {
+   "id": "s05",
+   "start": "t12.52",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · USS NEVADA, BIKINI 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c01_s05.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s06",
+   "start": "t14.90",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · A B-29 OVER BIKINI, 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c01_s06.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t16.95",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c01_miss.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s08",
+   "start": "t20.16",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS NEVADA AFTER TEST ABLE, JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c01_s08.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s09",
+   "start": "t23.09",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · TEST BAKER, 25 JULY 1946",
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "f_c01_s09.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "FROM NEVADA",
+    "number": "≈1,000",
+    "unit": "yards",
+    "number_at": "@thousand"
+   }
+  },
+  {
+   "id": "s10",
+   "start": "t27.44",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s10.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
+   "start": "t30.77",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS NEVADA AFTER TEST ABLE, JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c01_s11.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s12",
+   "start": "t32.69",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · USS NEVADA, BIKINI 1946",
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "f_c01_s12.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "BIKINI ATOLL · 1946",
+    "text": "USS NEVADA",
+    "at": "@Nevada"
+   }
+  },
+  {
+   "id": "s13",
+   "start": "t35.42",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s13.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s14",
+   "start": "t38.39",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c01_pearl.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s15",
+   "start": "t43.92",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · TEST BAKER, 25 JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c01_s15.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s16",
+   "start": "t47.78",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c01_where.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

@@ -1,0 +1,697 @@
+{
+ "key": "c03",
+ "title": "USS Nevada · The Ship That Moved",
+ "words": "../build/words.json",
+ "audio_offset": 151.289,
+ "clips_dir": "../segments",
+ "duration": 174.005,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_pearl_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t4.52",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s02.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t7.82",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_row.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s04",
+   "start": "t11.35",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_row_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t17.21",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c03_s05.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "7 DEC 1941",
+    "number": "08:01",
+    "number_at": "@one"
+   }
+  },
+  {
+   "id": "s06",
+   "start": "t21.79",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_torpedo.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t25.86",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s07.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s08",
+   "start": "t28.90",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "SENIOR OFFICER ON BOARD",
+    "text": "LT. CDR. FRANCIS J. THOMAS",
+    "at": "@Francis",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s08.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s09",
+   "start": "t34.68",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s09.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
+   "start": "t36.67",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s10.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
+   "start": "t41.15",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s11.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s12",
+   "start": "t43.75",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s12.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s13",
+   "start": "t47.78",
+   "sfx": false,
+   "tag": "FILM · PEARL HARBOR, 7 DECEMBER 1941",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s13.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s14",
+   "start": "t49.65",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s14.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s15",
+   "start": "t53.35",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s15.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s16",
+   "start": "t54.89",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "CHIEF QUARTERMASTER SEDBERRY",
+    "text": "“PREPARE TO GET UNDER WAY”",
+    "at": "@engine",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s16.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s17",
+   "start": "t58.59",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s17.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s18",
+   "start": "t62.54",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "CHIEF BOATSWAIN",
+    "text": "EDWIN J. HILL",
+    "at": "@Edwin",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s18.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s19",
+   "start": "t66.82",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s19.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s20",
+   "start": "t68.72",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s20.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s21",
+   "start": "t71.47",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_underway.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s22",
+   "start": "t75.40",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_run.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s23",
+   "start": "t79.45",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s23.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s24",
+   "start": "t84.20",
+   "sfx": false,
+   "tag": "FILM · PEARL HARBOR, 7 DECEMBER 1941",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s24.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s25",
+   "start": "t86.15",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s25.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s26",
+   "start": "t89.31",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c03_s26.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "BOMB HITS",
+    "number": "6+",
+    "number_at": "@six"
+   }
+  },
+  {
+   "id": "s27",
+   "start": "t91.58",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s27.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s28",
+   "start": "t95.78",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c03_s28.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "ENSIGN",
+    "text": "J. K. TAUSSIG JR.",
+    "at": "@Taussig"
+   }
+  },
+  {
+   "id": "s29",
+   "start": "t100.17",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s29.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s30",
+   "start": "t103.29",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s30.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s31",
+   "start": "t107.14",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_block_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s32",
+   "start": "t111.22",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_block_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s33",
+   "start": "t115.50",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_hospital.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s34",
+   "start": "t119.54",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c03_s34.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "09:10",
+    "text": "AGROUND OFF HOSPITAL POINT",
+    "at": "@aground"
+   }
+  },
+  {
+   "id": "s35",
+   "start": "t122.26",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s35.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s36",
+   "start": "t126.06",
+   "sfx": false,
+   "tag": "FILM · PEARL HARBOR, 7 DECEMBER 1941",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s36.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s37",
+   "start": "t128.48",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "CHIEF BOATSWAIN EDWIN J. HILL",
+    "text": "MEDAL OF HONOR",
+    "at": "@Medal",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s37.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s38",
+   "start": "t132.38",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "MACHINIST DONALD K. ROSS",
+    "text": "THE DYNAMO ROOM",
+    "at": "@dynamo",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s38.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s39",
+   "start": "t136.74",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s39.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s40",
+   "start": "t140.93",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s40.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s41",
+   "start": "t143.46",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s41.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s42",
+   "start": "t145.50",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "MACHINIST DONALD K. ROSS",
+    "text": "MEDAL OF HONOR",
+    "at": "@Medal",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s42.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s43",
+   "start": "t148.41",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_waipio.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s44",
+   "start": "t153.40",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s44.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s45",
+   "start": "t158.45",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "s_c03_s45.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s46",
+   "start": "t160.53",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "HER CREW",
+    "number": "≈1,500",
+    "number_at": "@fifteen",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s46.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s47",
+   "start": "t163.08",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "KILLED",
+    "number": "≈60",
+    "number_at": "@sixty",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s47.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s48",
+   "start": "t165.47",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "WOUNDED",
+    "number": "100+",
+    "number_at": "@hundred",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s48.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s49",
+   "start": "t167.53",
+   "sfx": false,
+   "tag": "FILM · PEARL HARBOR, 7 DECEMBER 1941",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s49.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s50",
+   "start": "t171.40",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s50.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

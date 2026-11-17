@@ -1,0 +1,424 @@
+{
+ "key": "c02",
+ "title": "USS Nevada · The Bull's-Eye",
+ "words": "../build/words.json",
+ "audio_offset": 52.616,
+ "clips_dir": "../segments",
+ "duration": 98.673,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_pacific.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t4.07",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · TEST ABLE, 1 JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c02_s02.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t6.22",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s03.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s04",
+   "start": "t10.84",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c02_s04.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "BIKINI ISLANDERS",
+    "number": "162",
+    "number_at": "@one"
+   }
+  },
+  {
+   "id": "s05",
+   "start": "t13.76",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s05.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s06",
+   "start": "t16.61",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_array.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t20.61",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c02_s07.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "TARGET SHIPS",
+    "number": "≈90",
+    "number_at": "@ninety"
+   }
+  },
+  {
+   "id": "s08",
+   "start": "t25.87",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "word",
+   "card": true,
+   "params": {
+    "text": "OPERATION CROSSROADS",
+    "at": "@Crossroads"
+   },
+   "clip": {
+    "file": "b_c02_s08.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s09",
+   "start": "t28.42",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · THE TARGET FLEET, BIKINI 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c02_s09.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
+   "start": "t30.34",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "THE QUESTION",
+    "text": "WHAT DOES AN ATOMIC BOMB DO TO A NAVY?",
+    "at": "@atomic",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c02_s10.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s11",
+   "start": "t33.41",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "MEN TAKING PART",
+    "number": "42,000",
+    "number_at": "@forty",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c02_s11.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s12",
+   "start": "t36.31",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · THE TARGET FLEET, BIKINI 1946",
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "f_c02_s12.mp4",
+    "push": null
+   },
+   "params": {
+    "number": "242",
+    "unit": "ships",
+    "number_at": "@two"
+   }
+  },
+  {
+   "id": "s13",
+   "start": "t38.55",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c02_s13.mp4",
+    "push": null
+   },
+   "params": {
+    "number": "156",
+    "unit": "aircraft",
+    "number_at": "@one"
+   }
+  },
+  {
+   "id": "s14",
+   "start": "t40.89",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s14.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s15",
+   "start": "t45.15",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · THE TARGET FLEET, BIKINI 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c02_s15.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s16",
+   "start": "t47.77",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s16.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s17",
+   "start": "t51.35",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · OPERATION CROSSROADS, 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c02_s17.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s18",
+   "start": "t53.22",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · OPERATION CROSSROADS, 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c02_s18.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s19",
+   "start": "t56.16",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · OPERATION CROSSROADS, 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c02_s19.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s20",
+   "start": "t59.10",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · USS NEVADA, BIKINI 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c02_s20.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s21",
+   "start": "t61.56",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_zero.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s22",
+   "start": "t66.68",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · USS NEVADA, BIKINI 1946",
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "f_c02_s22.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "THE PAINT",
+    "text": "INTERNATIONAL ORANGE",
+    "at": "@orange"
+   }
+  },
+  {
+   "id": "s23",
+   "start": "t70.40",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS NEVADA, BIKINI, JUNE 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c02_s23.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s24",
+   "start": "t73.41",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS NEVADA, BIKINI, JUNE 1946",
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "f_c02_s24.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "FOR THE BOMBARDIER",
+    "text": "A FLASHING LIGHT ON BOARD",
+    "at": "@flashing"
+   }
+  },
+  {
+   "id": "s25",
+   "start": "t77.22",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_arrive.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s26",
+   "start": "t82.55",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · THE CREW LEAVES USS NEVADA, 1946",
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "f_c02_s26.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "30 JUNE 1946",
+    "text": "THE CREW LEAVES",
+    "at": "@crew"
+   }
+  },
+  {
+   "id": "s27",
+   "start": "t85.29",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s27.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s28",
+   "start": "t89.37",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · USS NEVADA, BIKINI 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c02_s28.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s29",
+   "start": "t93.20",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_to_pearl.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "chapter": "c07",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_kwaj)"
+  },
+  {
+   "shot": "s06",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_tow_pearl)"
+  },
+  {
+   "shot": "s10",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_towout)"
+  },
+  {
+   "shot": "s12",
+   "at": 0.4,
+   "role": "charges",
+   "note": "explosives test (film)"
+  },
+  {
+   "shot": "s14",
+   "at": 0.3,
+   "role": "ship",
+   "note": "steamer going down on screen (sink_broadside.mp4)",
+   "file": "groan_a__7c63fd7c.wav",
+   "end_shot": "s14"
+  },
+  {
+   "shot": "s15",
+   "at": 0.3,
+   "role": "ship",
+   "note": "steamer going down on screen (sink_bombs.mp4)",
+   "file": "groan_a__7c63fd7c.wav",
+   "end_shot": "s15"
+  },
+  {
+   "shot": "s16",
+   "at": 0.3,
+   "role": "ship",
+   "note": "steamer going down on screen (sink_plume.mp4)",
+   "file": "groan_a__7c63fd7c.wav",
+   "end_shot": "s16"
+  },
+  {
+   "shot": "s17",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_ships)"
+  },
+  {
+   "shot": "s19",
+   "at": "@two",
+   "role": "pop",
+   "note": "card number lands: 287"
+  },
+  {
+   "shot": "s20",
+   "at": 0.0,
+   "role": "boom",
+   "note": "16-inch gun"
+  },
+  {
+   "shot": "s20",
+   "at": "@twenty",
+   "role": "pop",
+   "note": "number lands: 27"
+  },
+  {
+   "shot": "s22",
+   "at": 0.3,
+   "role": "ship",
+   "note": "steamer going down on screen (sink_stern.mp4)",
+   "file": "groan_a__7c63fd7c.wav",
+   "end_shot": "s22"
+  },
+  {
+   "shot": "s23",
+   "at": 0.3,
+   "role": "ship",
+   "note": "steamer going down on screen (sink_bursts.mp4)",
+   "file": "groan_a__7c63fd7c.wav",
+   "end_shot": "s23"
+  },
+  {
+   "shot": "s24",
+   "at": 0.2,
+   "role": "impact",
+   "note": "torpedo hits (film)"
+  },
+  {
+   "shot": "s25",
+   "at": 0.3,
+   "role": "ship",
+   "note": "steamer going down on screen (sink_hulk.mp4)",
+   "file": "groan_a__7c63fd7c.wav",
+   "end_shot": "s25"
+  },
+  {
+   "shot": "s26",
+   "at": 0.1,
+   "role": "ship",
+   "note": "she rolls over"
+  },
+  {
+   "shot": "s27",
+   "at": "@grand",
+   "role": "pop",
+   "note": "card: “SHE WAS A GRAND OLD SHIP.”"
+  },
+  {
+   "shot": "s31",
+   "at": "@four",
+   "role": "pop",
+   "note": "number lands: 4"
+  },
+  {
+   "shot": "s34",
+   "at": "@Arizona",
+   "role": "tick",
+   "note": "label: 3 OF USS ARIZONA'S GUNS"
+  },
+  {
+   "shot": "s36",
+   "at": 0.3,
+   "role": "ship",
+   "note": "steamer going down on screen (sink_splash.mp4)",
+   "file": "groan_a__7c63fd7c.wav",
+   "end_shot": "s36"
+  },
+  {
+   "shot": "s37",
+   "at": "@own",
+   "role": "hit",
+   "note": "stamp: HER OWN NAVY."
+  }
+ ],
+ "film_shots": [
+  "s03",
+  "s04",
+  "s08",
+  "s09",
+  "s11",
+  "s12",
+  "s13",
+  "s14",
+  "s15",
+  "s16",
+  "s19",
+  "s21",
+  "s22",
+  "s23",
+  "s24",
+  "s25",
+  "s26",
+  "s27",
+  "s30",
+  "s31",
+  "s32",
+  "s36",
+  "s37"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

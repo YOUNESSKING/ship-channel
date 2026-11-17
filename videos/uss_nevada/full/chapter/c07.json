@@ -1,0 +1,512 @@
+{
+ "key": "c07",
+ "title": "USS Nevada · Four Days",
+ "words": "../build/words.json",
+ "audio_offset": 652.471,
+ "clips_dir": "../segments",
+ "duration": 109.925,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_kwaj.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t3.49",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s02.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t6.46",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS NEVADA AFTER TEST ABLE, JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s03.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s04",
+   "start": "t9.62",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS NEVADA AFTER TEST ABLE, JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s04.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t12.51",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s05.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s06",
+   "start": "t15.43",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_tow_pearl.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t19.47",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s07.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s08",
+   "start": "t23.81",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS NEVADA AT PEARL HARBOR, 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s08.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s09",
+   "start": "t26.74",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · SINKING OF USS NEVADA, JULY 1948",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s09.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
+   "start": "t29.08",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_towout.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
+   "start": "t32.28",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS NEVADA TOWED TO SEA, JULY 1948",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s11.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s12",
+   "start": "t35.90",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · SINKING OF USS NEVADA, JULY 1948",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s12.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s13",
+   "start": "t39.29",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · SINKING OF USS NEVADA, JULY 1948",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s13.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s14",
+   "start": "t41.34",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · SINKING OF USS NEVADA, JULY 1948",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s14.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s15",
+   "start": "t43.15",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · SINKING OF USS NEVADA, JULY 1948",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s15.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s16",
+   "start": "t45.73",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · SINKING OF USS NEVADA, JULY 1948",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s16.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s17",
+   "start": "t47.65",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_ships.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s18",
+   "start": "t52.28",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s18.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s19",
+   "start": "t54.96",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "SHELLS IN ≈20 MINUTES",
+    "number": "287",
+    "number_at": "@two",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c07_s19.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s20",
+   "start": "t60.23",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c07_s20.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "FROM IOWA'S 16-INCH GUNS",
+    "number": "27",
+    "number_at": "@twenty"
+   }
+  },
+  {
+   "id": "s21",
+   "start": "t64.28",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · SINKING OF USS NEVADA, JULY 1948",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s21.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s22",
+   "start": "t66.17",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · SINKING OF USS NEVADA, JULY 1948",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s22.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s23",
+   "start": "t68.10",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · SINKING OF USS NEVADA, JULY 1948",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s23.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s24",
+   "start": "t70.80",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · SINKING OF USS NEVADA, JULY 1948",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s24.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s25",
+   "start": "t72.79",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · SINKING OF USS NEVADA, JULY 1948",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s25.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s26",
+   "start": "t76.09",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · SINKING OF USS NEVADA, JULY 1948",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s26.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s27",
+   "start": "t78.39",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "ADM. DEWITT C. RAMSEY, 1948",
+    "text": "“SHE WAS A GRAND OLD SHIP.”",
+    "at": "@grand",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c07_s27.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s28",
+   "start": "t82.67",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s28.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s29",
+   "start": "t84.76",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s29.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s30",
+   "start": "t86.47",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · TEST BAKER, 25 JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s30.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s31",
+   "start": "t88.18",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · SINKING OF USS NEVADA, JULY 1948",
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "f_c07_s31.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "TO SINK HER",
+    "number": "4",
+    "unit": "days",
+    "number_at": "@four"
+   }
+  },
+  {
+   "id": "s32",
+   "start": "t91.06",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · SINKING OF USS NEVADA, JULY 1948",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s32.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s33",
+   "start": "t94.17",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s33.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s34",
+   "start": "t99.35",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c07_s34.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "PER THE 2022 WRECK STUDY",
+    "text": "3 OF USS ARIZONA'S GUNS",
+    "at": "@Arizona"
+   }
+  },
+  {
+   "id": "s35",
+   "start": "t102.87",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s35.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s36",
+   "start": "t106.39",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · SINKING OF USS NEVADA, JULY 1948",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s36.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s37",
+   "start": "t108.27",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "word",
+   "card": true,
+   "params": {
+    "text": "HER OWN NAVY.",
+    "at": "@own"
+   },
+   "clip": {
+    "file": "b_c07_s37.mp4",
+    "push": null
+   },
+   "card_bg": true
+  }
+ ]
+}

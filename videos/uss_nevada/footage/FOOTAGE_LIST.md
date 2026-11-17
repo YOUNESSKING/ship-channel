@@ -8,15 +8,15 @@ Built 2026-11-17 for video 3 (USS Nevada). Files sit in `src/` (git-ignored): `s
 
 **Corrections to the scout.** (1) `nevada_evacuation` (428-NPC-18466) and `nevada_damage_bikini` (428-NPC-18494) are COLOUR and show the orange-red Nevada deck, turrets, crates and the damage: the scout listed them as B&W. (2) `111-ADC-9878` "USS Nevada is hit" is a US Navy Bureau of Aeronautics film (the last 3:40 are the USS Randolph, not Nevada). (3) The colour slides 80-GK-13512/13513, titled "USS Arizona exploding" by NARA, are widely identified as the USS Shaw magazine explosion: caption generically. (4) `nevada_scenes_colour` (428-NPC-8390) cannot be placed at Iwo Jima from the picture alone.
 
-Counts: 126 stills (122 photos, 4 map/document pages), 35 film files (286 min of film, of which 3 are cut windows of the Crossroads colour master).
+Counts: 126 stills (122 photos, 4 map/document pages), 38 film files (289 min of film, of which 6 are cut windows of the Crossroads colour master).
 
 
 ## Best items for the hook and the key beats (start here)
 
 - **Hook (orange Nevada, colour, HD):** `crossroads_mn6517_w01` 0.0-34.1 s (Nevada wide at anchor 0-4.3, hull and crew 4.3-14.6, deck under the 14-in guns 14.6-28.7, tower 28.7-34.1); `nevada_evacuation` (colour, 480p) 21-120 s (orange deck, turret from above, wake), 130-164 s (crates), 321-365 s (turret roofs); `nevada_damage_bikini` (colour, 480p) 15-285 s (the damage after Able).
-- **Able, colour HD:** `crossroads_mn6517_w03` 4.1-37.8 s (flash at ~6 s then the mushroom, one 25 s aerial shot), 53-60 s (red-rimmed mushroom), 80-131 s (column and mushroom from a ship).
-- **Baker, colour HD:** `crossroads_mn6517_w05` 0-49 s (one continuous shot of the water column and base surge from a ship/shore), 93-152 s (aerial); B&W HD from the island: `baker_enyu_hd` 20-105 s; stills `cx_baker_wilson_cloud`, `cx_baker_d10s_saratoga`.
-- **Target ships:** `crossroads_mn6517_w04` 12-36 s (Independence, hull 22), `crossroads_mn6517_w07` 29-67 s (Nagato), `crossroads_mn6517_w08` (a vessel rolling over), stills `cx_saratoga_going_down_627506`, `cx_nagato_steams_to_bikini`.
+- **Able, colour HD:** `crossroads_mn6517_w03` 4.1-37.8 s (flash at ~6 s then the mushroom, one 25 s aerial shot), 53-60 s (red-rimmed mushroom); file is 69 s only.
+- **Baker, colour HD:** `crossroads_mn6517_w05` 0-49 s (one continuous shot of the water column and base surge from a ship/shore); file is 69 s only; B&W HD from the island: `baker_enyu_hd` 20-105 s; stills `cx_baker_wilson_cloud`, `cx_baker_d10s_saratoga`.
+- **Target ships:** `crossroads_mn6517_w07` 29-67 s (Nagato), stills `cx_saratoga_going_down_627506`, `cx_nagato_steams_to_bikini`.
 - **Nevada after Able (B&W):** `nevada_after_able` 10-52 s and 192-230 s.
 - **Pearl Harbor:** stills `ph_nevada_after_attack_32583`, `ph_nevada_waipio_33020_c`, `ph_loc_nevada_beached_hospital_point`, Arizona/Battleship Row stills; the DoD colour film `pearl_harbor_attack_dod` (VERIFY).
 - **Normandy:** `d_nevada_utah_salvo_truman` (the best single picture), `d_cherbourg_nevada_231637_c`.
@@ -118,6 +118,44 @@ Counts: 126 stills (122 photos, 4 map/document pages), 35 film files (286 min of
 | 12.3-14.7 | Animal held down by hand on a table or deck | Same |
 
 
+### Film: Operation Crossroads (MN-6517), window 03: Able, 1 July 1946, in colour
+
+- record: https://archive.org/details/OperationCrossroads  
+- rights (verbatim): archive.org item "OperationCrossroads": NO licenseurl in the item metadata (collection "ephemera", uploader associate-yvonne-wang@archive.org, subject "Ephemeral Film", description "Commander joint task"). Basis: the film is a US Navy production (Commander Joint Task Force One; end card "MN 6517 NPC 1949", Naval Photographic Center), so a US federal work in the public domain. Other archive.org copies of the same film carry licenses: gov.ntis.ava13712vnb1 "licenses/publicdomain", UWMCEMC122005OperationCrossroads "publicdomain/mark/1.0", MISC1323OperationCrossroads1948 "publicdomain/mark/1.0".  
+- file: `src/film/crossroads_mn6517_w03.mp4` (69.2 s, 1920x1080 h264 24/1 fps (NARA mp4 as downloaded, not re-encoded)); sheets: `sheets/crossroads_mn6517_w03_01..01.jpg`  
+- note: Cut from archive.org OperationCrossroads (IA000015_OperationCrossroads.mov, 1920x1080 ProRes 24 fps, 24:31, colour, faded to a cyan/magenta cast: needs a grade). Navy film "Operation Crossroads: Able and Baker Day Tests", Commander Joint Task Force One, end card "MN 6517 NPC 1949" = US Navy production (federal work). Window is H.264 CRF 18 with the original audio (Navy narration) as AAC: mute it. The film is 4:3 inside a 16:9 raster (black pillars). Source window 7:56.7-9:06.0 (the cut was stopped early: the download was too slow; the rest of the Able sequence up to 10:07 is NOT in this file).  
+- how it was checked: viewed on the proxy at 2 s steps; cut times from scene detection (0.15)  
+
+| window (s) | shows | does NOT show / caveats |
+|---|---|---|
+| 0-4.1 | A B-29 above a sea of cumulus (the bomber) | Not shown to be Dave's Dream; no name legible |
+| 4.1-6.3 | Aerial of the atoll rim and lagoon from far away, the screen whitening | Before the flash |
+| 6.3-31.3 | THE FLASH: white-out for ~3 s, then the Able fireball and mushroom rising over the atoll, seen from the air in one 25 s shot | Ships are specks, no Nevada |
+| 31.3-37.8 | Fireball close, red-orange/white | Ships not visible |
+| 37.8-39.5 | Observer in a cockpit | People not identified |
+| 39.5-51.1 | Red-rimmed fireball, filling the frame | Ships not visible |
+| 51.1-53.1 | Cockpit / observer | People not identified |
+| 53.1-60.1 | The mushroom with its red glow rim, seen from the air | Ships not visible |
+| 60.1-62.5 | Sailors on a ship's deck with binoculars watching the burst | Ship not named |
+| 62.5-66.9 | Horizon from a ship, the glow at the horizon whitening | Distance shot |
+| 66.9-69.2 | Observers at the rail, a bright haze at the horizon | Ship not named |
+
+
+### Film: Operation Crossroads (MN-6517), window 05: Baker, 25 July 1946, in colour
+
+- record: https://archive.org/details/OperationCrossroads  
+- rights (verbatim): archive.org item "OperationCrossroads": NO licenseurl in the item metadata (collection "ephemera", uploader associate-yvonne-wang@archive.org, subject "Ephemeral Film", description "Commander joint task"). Basis: the film is a US Navy production (Commander Joint Task Force One; end card "MN 6517 NPC 1949", Naval Photographic Center), so a US federal work in the public domain. Other archive.org copies of the same film carry licenses: gov.ntis.ava13712vnb1 "licenses/publicdomain", UWMCEMC122005OperationCrossroads "publicdomain/mark/1.0", MISC1323OperationCrossroads1948 "publicdomain/mark/1.0".  
+- file: `src/film/crossroads_mn6517_w05.mp4` (69.0 s, 1920x1080 h264 24/1 fps (NARA mp4 as downloaded, not re-encoded)); sheets: `sheets/crossroads_mn6517_w05_01..01.jpg`  
+- note: Cut from archive.org OperationCrossroads (IA000015_OperationCrossroads.mov, 1920x1080 ProRes 24 fps, 24:31, colour, faded to a cyan/magenta cast: needs a grade). Navy film "Operation Crossroads: Able and Baker Day Tests", Commander Joint Task Force One, end card "MN 6517 NPC 1949" = US Navy production (federal work). Window is H.264 CRF 18 with the original audio (Navy narration) as AAC: mute it. The film is 4:3 inside a 16:9 raster (black pillars). Source window 18:09.5-19:18.5 (stopped early: the download was too slow; the aerial part 19:23-21:01 is NOT in this file).  
+- how it was checked: viewed on the proxy at 6 s steps; cut times from scene detection  
+
+| window (s) | shows | does NOT show / caveats |
+|---|---|---|
+| 0-49.3 | ONE LONG SHOT of Baker from a ship/shore at the horizon: the water column and base surge climb out of the lagoon, white spray collapsing outward, palm tops at the bottom edge | Ships are black specks and cannot be named. The first ~12 s are the still horizon before the burst |
+| 49.3-55.5 | Ships on the horizon under the spreading column, a low shore line | Ships specks |
+| 55.5-69 | A palm tree at the left, ships on the horizon, the cloud wall growing behind | Ships specks |
+
+
 ### Film: Operation Crossroads (MN-6517), window 06: decontamination begins, USS New York
 
 - record: https://archive.org/details/OperationCrossroads  
@@ -131,6 +169,20 @@ Counts: 126 stills (122 photos, 4 map/document pages), 35 film files (286 min of
 | 0-12 | Carrier-deck and gun activity after the tests: sailors with planes, a man at a prop, then men lifting a hatch cover | Ship not named |
 | 12-17.6 | Hull of the battleship NEW YORK with the name "NEW YORK" painted on her, white spray along her side | New York, not Nevada |
 | 17.6-41.5 | A tug or fire boat jetting water onto a battleship; mist drifting; wash-down | Ship identity only from the "NEW YORK" shot just before |
+
+
+### Film: Operation Crossroads (MN-6517), window 07: wash-down, officers on the target fleet, the Nagato
+
+- record: https://archive.org/details/OperationCrossroads  
+- rights (verbatim): archive.org item "OperationCrossroads": NO licenseurl in the item metadata (collection "ephemera", uploader associate-yvonne-wang@archive.org, subject "Ephemeral Film", description "Commander joint task"). Basis: the film is a US Navy production (Commander Joint Task Force One; end card "MN 6517 NPC 1949", Naval Photographic Center), so a US federal work in the public domain. Other archive.org copies of the same film carry licenses: gov.ntis.ava13712vnb1 "licenses/publicdomain", UWMCEMC122005OperationCrossroads "publicdomain/mark/1.0", MISC1323OperationCrossroads1948 "publicdomain/mark/1.0".  
+- file: `src/film/crossroads_mn6517_w07.mp4` (37.1 s, 1920x1080 h264 24/1 fps (NARA mp4 as downloaded, not re-encoded)); sheets: `sheets/crossroads_mn6517_w07_01..01.jpg`  
+- note: Cut from archive.org OperationCrossroads (IA000015_OperationCrossroads.mov, 1920x1080 ProRes 24 fps, 24:31, colour, faded to a cyan/magenta cast: needs a grade). Navy film "Operation Crossroads: Able and Baker Day Tests", Commander Joint Task Force One, end card "MN 6517 NPC 1949" = US Navy production (federal work). Window is H.264 CRF 18 with the original audio (Navy narration) as AAC: mute it. The film is 4:3 inside a 16:9 raster (black pillars). Source window 22:10.6-22:47.7 (stopped early: the download was too slow; the later Nagato shots to 23:17 are NOT in this file).  
+- how it was checked: viewed on the proxy at 6 s steps; approximate  
+
+| window (s) | shows | does NOT show / caveats |
+|---|---|---|
+| 0-29.6 | Fire boats and tugs spraying down damaged ships; a ship with scaffolding; then a group of officers/observers in sun helmets looking at the fleet | People not identified |
+| 29.6-36.6 | The Japanese battleship NAGATO afloat and damaged, pagoda mast, low in the water | Nagato (pagoda foremast), not Nevada |
 
 
 ### Film: 428-NPC-18466: OP. CROSSROADS NEVADA EVACUATION FOR "A" DROP - BIKINI (21 Jun 1946)
@@ -804,3 +856,5 @@ _No stills in this group._
 10. **Crossroads animals.** `cx_goats_tethered` and `able_animals_colour`, `crossroads_mn6517_w02` show goats and rats, but none is tied to Nevada's pilot house on screen. Do not caption them as Nevada's animals.
 11. **Not downloaded (candidates for later).** 428-NPC-18171 (aerial target fleet, "MS AV USS NEVADA ... LS USS NEVADA and USS INDEPENDENCE", NAID 80916), 428-NPC-18138 (NAID 80896, "LS Japanese BB NAGATO & USS NEVADA"), 428-NPC-18132 (NAID 80890), 428-NPC-18602/18606/18565/18566 (target ships, "MS USS NEVADA"), 428-NPC-18586 (radiological check, NAID 81123), 428-NPC-4313/4308 (D-Day), 428-NPC-7511 and 428-NPC-8389 (Okinawa/Iwo, 14-in muzzles), 428-NPC-11163 (NAID 2485242, colour, damage and burial at sea), 428-NPC-11161 (colour, battleships under way), 342-USAF-34282A (12.6 h of USAF Crossroads film, 11 GB, "Blandy inspecting the battleship USS Nevada" on reel 3, VERIFY). archive.org copies with a PD mark: NPC-7512, NPC-7511, NPC-8519 (Iwo Jima: Solace, Nevada, rockets), NPC-11162, NPC-11163. Also on archive.org: "USA - BB-36 USS Nevada Booklet of General Plans (1946)" (bb36bogp1946; licence not checked) for ship drawings.
 12. **Rights items to confirm before upload.** (a) The four NARA "Restricted - Possibly" reels (federal film, NARA's standing copyright note). (b) The archive.org Crossroads master has no licence field: rely on the Navy end card; the same film is PD-marked on other archive.org items (listed in the film entries). (c) `cx_loc_*` are from an album in the Ira Eaker papers: LoC says "No known restrictions on publication" but the photographers are not named. (d) The FSA/OWI items are US government (Office of War Information) prints.
+13. **Crossroads colour windows NOT cut (download too slow).** Two windows of the ProRes master (archive.org `IA000015_OperationCrossroads.mov`) were seen on the 640x360 proxy but not cut: **12:35.5-14:22.5** (burning ship, then the light carrier INDEPENDENCE with hull number 22 and her torn flight deck, wrecked superstructures; scene cuts at 12:47.8, 12:51.3, 13:10.8, 13:14, 13:36.9, 13:52.4, 13:56.6, 14:00.6, 14:04.2, 14:17.9) and **22:47.7-24:09.4** (more Nagato, then a flat-decked target vessel rolling over with oil streaming, not identified; cuts at 23:22.6, 23:37.8, 23:55.1, 24:08.1). Cut with `ffmpeg -ss <in> -i <mov URL> -t <len> -c:v libx264 -crf 18`; each needs about 2-3 GB of download.
+14. **Truncated Crossroads windows.** `crossroads_mn6517_w03` (Able) stops at source 9:06 and `crossroads_mn6517_w05` (Baker) at 19:18: the rest of each sequence (Able 9:06-10:08 column/mushroom; Baker 19:23-21:01 aerial dome and surge) was not downloaded. Re-cut from the .mov if wanted.

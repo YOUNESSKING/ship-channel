@@ -1,0 +1,109 @@
+{
+ "chapter": "c08",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c08_ocean)"
+  },
+  {
+   "shot": "s02",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c08_logs)"
+  },
+  {
+   "shot": "s03",
+   "at": "@three",
+   "role": "pop",
+   "note": "gauge counts: MILES DEEP"
+  },
+  {
+   "shot": "s04",
+   "at": "@NOAA",
+   "role": "tick",
+   "note": "label: NOAA GOES BACK TO THE 1948 LOGS"
+  },
+  {
+   "shot": "s05",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c08_logs_b)"
+  },
+  {
+   "shot": "s06",
+   "at": "@Pacific",
+   "role": "pop",
+   "note": "card: SURVEY SHIP PACIFIC CONSTRUCTOR"
+  },
+  {
+   "shot": "s07",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c08_search)"
+  },
+  {
+   "shot": "s08",
+   "at": "@Ocean",
+   "role": "pop",
+   "note": "card: OCEAN INFINITY · SEARCH INC."
+  },
+  {
+   "shot": "s09",
+   "at": "@found",
+   "role": "boom",
+   "note": "found (the answer)"
+  },
+  {
+   "shot": "s09",
+   "at": "@found",
+   "role": "hit",
+   "note": "stamp: FOUND."
+  },
+  {
+   "shot": "s10",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c08_found)"
+  },
+  {
+   "shot": "s11",
+   "at": "@fifteen",
+   "role": "pop",
+   "note": "gauge counts: FEET DOWN"
+  },
+  {
+   "shot": "s12",
+   "at": "@upside",
+   "role": "pop",
+   "note": "card: UPSIDE DOWN · BOW AND STERN BROKEN AWAY"
+  },
+  {
+   "shot": "s13",
+   "at": "@thirty",
+   "role": "pop",
+   "note": "card number lands: 36"
+  },
+  {
+   "shot": "s14",
+   "at": "@law",
+   "role": "tick",
+   "note": "label: SUNKEN MILITARY CRAFT ACT"
+  },
+  {
+   "shot": "s16",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c08_endscreen)"
+  }
+ ],
+ "film_shots": [
+  "s03",
+  "s11",
+  "s14",
+  "s15"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

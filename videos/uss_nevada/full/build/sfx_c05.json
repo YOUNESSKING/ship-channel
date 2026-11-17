@@ -1,0 +1,115 @@
+{
+ "chapter": "c05",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c05_able)"
+  },
+  {
+   "shot": "s02",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c05_flight)"
+  },
+  {
+   "shot": "s03",
+   "at": "@Dave's",
+   "role": "tick",
+   "note": "label: “DAVE'S DREAM”"
+  },
+  {
+   "shot": "s04",
+   "at": "@twenty",
+   "role": "pop",
+   "note": "number lands: 21"
+  },
+  {
+   "shot": "s05",
+   "at": "@thirty",
+   "role": "pop",
+   "note": "number lands: 09:00:34"
+  },
+  {
+   "shot": "s06",
+   "at": 0.0,
+   "role": "explosion",
+   "note": "Able burst (c05)"
+  },
+  {
+   "shot": "s07",
+   "at": "@five",
+   "role": "pop",
+   "note": "number lands: ≈520"
+  },
+  {
+   "shot": "s08",
+   "at": "@twenty",
+   "role": "pop",
+   "note": "card number lands: ≈20,000"
+  },
+  {
+   "shot": "s09",
+   "at": "@Nagasaki",
+   "role": "tick",
+   "note": "label: NAGASAKI, AUGUST 1945"
+  },
+  {
+   "shot": "s10",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c05_miss)"
+  },
+  {
+   "shot": "s11",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c05_gilliam)"
+  },
+  {
+   "shot": "s13",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c05_sunk_a)"
+  },
+  {
+   "shot": "s14",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c05_sunk_b)"
+  },
+  {
+   "shot": "s15",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c05_sunk_c)"
+  },
+  {
+   "shot": "s24",
+   "at": "@apparently",
+   "role": "pop",
+   "note": "card: “APPARENTLY UNAFFECTED BY HEAT AND PRESSURE”"
+  }
+ ],
+ "film_shots": [
+  "s04",
+  "s05",
+  "s07",
+  "s08",
+  "s09",
+  "s12",
+  "s16",
+  "s17",
+  "s18",
+  "s19",
+  "s20",
+  "s21",
+  "s22",
+  "s23",
+  "s24",
+  "s25"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

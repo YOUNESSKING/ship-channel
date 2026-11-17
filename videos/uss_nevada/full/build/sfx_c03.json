@@ -1,0 +1,133 @@
+{
+ "chapter": "c03",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_pearl_a)"
+  },
+  {
+   "shot": "s04",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_row_b)"
+  },
+  {
+   "shot": "s05",
+   "at": "@one",
+   "role": "pop",
+   "note": "number lands: 08:01"
+  },
+  {
+   "shot": "s06",
+   "at": "@torpedo",
+   "role": "impact",
+   "note": "torpedo hit (map)"
+  },
+  {
+   "shot": "s08",
+   "at": "@Francis",
+   "role": "pop",
+   "note": "card: LT. CDR. FRANCIS J. THOMAS"
+  },
+  {
+   "shot": "s09",
+   "at": 0.0,
+   "role": "boom",
+   "note": "Arizona explodes"
+  },
+  {
+   "shot": "s16",
+   "at": "@engine",
+   "role": "pop",
+   "note": "card: “PREPARE TO GET UNDER WAY”"
+  },
+  {
+   "shot": "s18",
+   "at": "@Edwin",
+   "role": "pop",
+   "note": "card: EDWIN J. HILL"
+  },
+  {
+   "shot": "s21",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_underway)"
+  },
+  {
+   "shot": "s26",
+   "at": "@six",
+   "role": "pop",
+   "note": "number lands: 6+"
+  },
+  {
+   "shot": "s28",
+   "at": "@Taussig",
+   "role": "tick",
+   "note": "label: J. K. TAUSSIG JR."
+  },
+  {
+   "shot": "s31",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_block_a)"
+  },
+  {
+   "shot": "s33",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c03_hospital)"
+  },
+  {
+   "shot": "s34",
+   "at": "@aground",
+   "role": "tick",
+   "note": "label: AGROUND OFF HOSPITAL POINT"
+  },
+  {
+   "shot": "s38",
+   "at": "@dynamo",
+   "role": "pop",
+   "note": "card: THE DYNAMO ROOM"
+  },
+  {
+   "shot": "s42",
+   "at": "@Medal",
+   "role": "pop",
+   "note": "card: MEDAL OF HONOR"
+  },
+  {
+   "shot": "s43",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_waipio)"
+  },
+  {
+   "shot": "s46",
+   "at": "@fifteen",
+   "role": "pop",
+   "note": "card number lands: ≈1,500"
+  },
+  {
+   "shot": "s47",
+   "at": "@sixty",
+   "role": "pop",
+   "note": "card number lands: ≈60"
+  },
+  {
+   "shot": "s48",
+   "at": "@hundred",
+   "role": "pop",
+   "note": "card number lands: 100+"
+  }
+ ],
+ "film_shots": [
+  "s13",
+  "s24",
+  "s36",
+  "s49"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

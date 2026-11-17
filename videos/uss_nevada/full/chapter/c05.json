@@ -1,0 +1,367 @@
+{
+ "key": "c05",
+ "title": "USS Nevada · Test Able",
+ "words": "../build/words.json",
+ "audio_offset": 453.005,
+ "clips_dir": "../segments",
+ "duration": 91.173,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c05_able.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t4.95",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c05_flight.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t7.81",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c05_s03.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "THE STRIKE AIRCRAFT",
+    "text": "“DAVE'S DREAM”",
+    "at": "@Dave's"
+   }
+  },
+  {
+   "id": "s04",
+   "start": "t11.98",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · OBSERVERS, TEST ABLE",
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "f_c05_s04.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "HER CREW WATCHED FROM",
+    "number": "21",
+    "unit": "miles",
+    "number_at": "@twenty"
+   }
+  },
+  {
+   "id": "s05",
+   "start": "t17.06",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · TEST ABLE, 1 JULY 1946",
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "f_c05_s05.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "1 JULY 1946",
+    "number": "09:00:34",
+    "number_at": "@thirty"
+   }
+  },
+  {
+   "id": "s06",
+   "start": "t19.96",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s06.mp4",
+    "push": null
+   },
+   "params": {},
+   "flash": true
+  },
+  {
+   "id": "s07",
+   "start": "t21.36",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · TEST ABLE, 1 JULY 1946",
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "f_c05_s07.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "BURST HEIGHT",
+    "number": "≈520",
+    "unit": "ft",
+    "number_at": "@five"
+   }
+  },
+  {
+   "id": "s08",
+   "start": "t24.72",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "TONS OF TNT",
+    "number": "≈20,000",
+    "number_at": "@twenty",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c05_s08.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s09",
+   "start": "t28.58",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · TEST ABLE, 1 JULY 1946",
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "f_c05_s09.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "SAME TYPE AS",
+    "text": "NAGASAKI, AUGUST 1945",
+    "at": "@Nagasaki"
+   }
+  },
+  {
+   "id": "s10",
+   "start": "t33.79",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c05_miss.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
+   "start": "t39.47",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c05_gilliam.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s12",
+   "start": "t42.55",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · TEST ABLE, 1 JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c05_s12.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s13",
+   "start": "t46.10",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c05_sunk_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s14",
+   "start": "t51.05",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c05_sunk_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s15",
+   "start": "t53.84",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c05_sunk_c.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s16",
+   "start": "t57.95",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS NEVADA AFTER TEST ABLE, JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c05_s16.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s17",
+   "start": "t60.85",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS NEVADA AFTER TEST ABLE, JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c05_s17.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s18",
+   "start": "t63.16",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS NEVADA AFTER TEST ABLE, JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c05_s18.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s19",
+   "start": "t65.51",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS NEVADA AFTER TEST ABLE, JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c05_s19.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s20",
+   "start": "t67.74",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS NEVADA AFTER TEST ABLE, JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c05_s20.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s21",
+   "start": "t70.00",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS NEVADA AFTER TEST ABLE, JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c05_s21.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s22",
+   "start": "t74.83",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS NEVADA AFTER TEST ABLE, JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c05_s22.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s23",
+   "start": "t77.24",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · OPERATION CROSSROADS, 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c05_s23.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s24",
+   "start": "t81.82",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "NAVY DAMAGE REPORT, 1946",
+    "text": "“APPARENTLY UNAFFECTED BY HEAT AND PRESSURE”",
+    "at": "@apparently",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c05_s24.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s25",
+   "start": "t86.57",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · USS NEVADA, BIKINI 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c05_s25.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

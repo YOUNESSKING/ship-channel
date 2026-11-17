@@ -1,0 +1,487 @@
+{
+ "key": "c06",
+ "title": "USS Nevada · Test Baker",
+ "words": "../build/words.json",
+ "audio_offset": 544.178,
+ "clips_dir": "../segments",
+ "duration": 108.293,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "SUNK BY TEST ABLE",
+    "number": "5",
+    "unit": "of ≈90",
+    "number_at": "@five",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s01.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s02",
+   "start": "t3.93",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · THE TARGET FLEET, BIKINI 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c06_s02.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t6.34",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · TEST BAKER, 25 JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c06_s03.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s04",
+   "start": "t9.27",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c06_baker.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t14.28",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · TEST BAKER, 25 JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c06_s05.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s06",
+   "start": "t16.67",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c06_lsm.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t21.68",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s07.mp4",
+    "push": null
+   },
+   "params": {},
+   "flash": true
+  },
+  {
+   "id": "s08",
+   "start": "t25.02",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c06_s08.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "FORCE",
+    "number": "≈20",
+    "unit": "kilotons",
+    "number_at": "@twenty"
+   }
+  },
+  {
+   "id": "s09",
+   "start": "t27.94",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · TEST BAKER, 25 JULY 1946",
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "f_c06_s09.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "WATER COLUMN",
+    "number": "≈1",
+    "unit": "mile high",
+    "number_at": "@mile"
+   }
+  },
+  {
+   "id": "s10",
+   "start": "t31.40",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s10.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
+   "start": "t33.90",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · TEST BAKER, 25 JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c06_s11.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s12",
+   "start": "t36.95",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c06_dist_a.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s13",
+   "start": "t41.70",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s13.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s14",
+   "start": "t43.07",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s14.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s15",
+   "start": "t47.75",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s15.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s16",
+   "start": "t49.07",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · JAPANESE BATTLESHIP NAGATO, 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c06_s16.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s17",
+   "start": "t53.44",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c06_dist_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s18",
+   "start": "t57.37",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c06_s18.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "HER CREW WATCHED FROM",
+    "number": "16",
+    "unit": "miles",
+    "number_at": "@sixteen"
+   }
+  },
+  {
+   "id": "s19",
+   "start": "t60.10",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · TEST BAKER, 25 JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c06_s19.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s20",
+   "start": "t61.89",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s20.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s21",
+   "start": "t64.08",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · TEST BAKER, 25 JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c06_s21.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s22",
+   "start": "t66.03",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · BATTLESHIPS IN THE TARGET ARRAY, 29 JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c06_s22.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s23",
+   "start": "t68.05",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · USS NEW YORK, BIKINI 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c06_s23.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s24",
+   "start": "t69.86",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c06_s24.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "ALSO CAME THROUGH BOTH",
+    "text": "NEW YORK · PENNSYLVANIA",
+    "at": "@Pennsylvania"
+   }
+  },
+  {
+   "id": "s25",
+   "start": "t74.88",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS NEVADA, BIKINI, JUNE 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c06_s25.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s26",
+   "start": "t78.45",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · TEST BAKER, 25 JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c06_s26.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s27",
+   "start": "t80.73",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · SPRAYING THE TARGET FLEET, 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c06_s27.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s28",
+   "start": "t83.51",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s28.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s29",
+   "start": "t87.72",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "NAVY DAMAGE REPORT, 1946",
+    "text": "“HIGHLY RADIOACTIVE, INSIDE AND OUTSIDE”",
+    "at": "@highly",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s29.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s30",
+   "start": "t93.65",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s30.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s31",
+   "start": "t96.11",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s31.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s32",
+   "start": "t98.59",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · WASHING DOWN A TARGET SHIP, 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c06_s32.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s33",
+   "start": "t100.08",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s33.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s34",
+   "start": "t102.71",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS NEVADA AFTER TEST ABLE, JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c06_s34.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s35",
+   "start": "t105.76",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS NEVADA, BIKINI, JUNE 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c06_s35.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

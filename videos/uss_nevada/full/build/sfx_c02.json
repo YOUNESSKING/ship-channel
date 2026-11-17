@@ -1,0 +1,115 @@
+{
+ "chapter": "c02",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c02_pacific)"
+  },
+  {
+   "shot": "s04",
+   "at": "@one",
+   "role": "pop",
+   "note": "number lands: 162"
+  },
+  {
+   "shot": "s06",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c02_array)"
+  },
+  {
+   "shot": "s07",
+   "at": "@ninety",
+   "role": "pop",
+   "note": "number lands: ≈90"
+  },
+  {
+   "shot": "s08",
+   "at": "@Crossroads",
+   "role": "hit",
+   "note": "stamp: OPERATION CROSSROADS"
+  },
+  {
+   "shot": "s10",
+   "at": "@atomic",
+   "role": "pop",
+   "note": "card: WHAT DOES AN ATOMIC BOMB DO TO A NAVY?"
+  },
+  {
+   "shot": "s11",
+   "at": "@forty",
+   "role": "pop",
+   "note": "card number lands: 42,000"
+  },
+  {
+   "shot": "s12",
+   "at": "@two",
+   "role": "pop",
+   "note": "number lands: 242"
+  },
+  {
+   "shot": "s13",
+   "at": "@one",
+   "role": "pop",
+   "note": "number lands: 156"
+  },
+  {
+   "shot": "s21",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c02_zero)"
+  },
+  {
+   "shot": "s22",
+   "at": "@orange",
+   "role": "tick",
+   "note": "label: INTERNATIONAL ORANGE"
+  },
+  {
+   "shot": "s24",
+   "at": "@flashing",
+   "role": "tick",
+   "note": "label: A FLASHING LIGHT ON BOARD"
+  },
+  {
+   "shot": "s25",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c02_arrive)"
+  },
+  {
+   "shot": "s26",
+   "at": "@crew",
+   "role": "tick",
+   "note": "label: THE CREW LEAVES"
+  },
+  {
+   "shot": "s29",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c02_to_pearl)"
+  }
+ ],
+ "film_shots": [
+  "s02",
+  "s08",
+  "s09",
+  "s10",
+  "s11",
+  "s12",
+  "s15",
+  "s17",
+  "s18",
+  "s19",
+  "s20",
+  "s22",
+  "s23",
+  "s24",
+  "s26",
+  "s28"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

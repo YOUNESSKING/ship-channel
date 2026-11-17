@@ -1944,6 +1944,126 @@
    ]
   },
   {
+   "stem": "crossroads_mn6517_w03",
+   "group": "A",
+   "file": "src/film/crossroads_mn6517_w03.mp4",
+   "title": "Operation Crossroads (MN-6517), window 03: Able, 1 July 1946, in colour",
+   "url": "https://archive.org/details/OperationCrossroads",
+   "rights": "archive.org item \"OperationCrossroads\": NO licenseurl in the item metadata (collection \"ephemera\", uploader associate-yvonne-wang@archive.org, subject \"Ephemeral Film\", description \"Commander joint task\"). Basis: the film is a US Navy production (Commander Joint Task Force One; end card \"MN 6517 NPC 1949\", Naval Photographic Center), so a US federal work in the public domain. Other archive.org copies of the same film carry licenses: gov.ntis.ava13712vnb1 \"licenses/publicdomain\", UWMCEMC122005OperationCrossroads \"publicdomain/mark/1.0\", MISC1323OperationCrossroads1948 \"publicdomain/mark/1.0\".",
+   "date": "1946 (film assembled 1949)",
+   "duration": 69.2,
+   "res": "1920x1080 h264 24/1 fps (NARA mp4 as downloaded, not re-encoded)",
+   "note": "Cut from archive.org OperationCrossroads (IA000015_OperationCrossroads.mov, 1920x1080 ProRes 24 fps, 24:31, colour, faded to a cyan/magenta cast: needs a grade). Navy film \"Operation Crossroads: Able and Baker Day Tests\", Commander Joint Task Force One, end card \"MN 6517 NPC 1949\" = US Navy production (federal work). Window is H.264 CRF 18 with the original audio (Navy narration) as AAC: mute it. The film is 4:3 inside a 16:9 raster (black pillars). Source window 7:56.7-9:06.0 (the cut was stopped early: the download was too slow; the rest of the Able sequence up to 10:07 is NOT in this file).",
+   "status": "viewed on the proxy at 2 s steps; cut times from scene detection (0.15)",
+   "sheets": [
+    "crossroads_mn6517_w03_01.jpg"
+   ],
+   "shots": [
+    {
+     "in": 0.0,
+     "out": 4.1,
+     "shows": "A B-29 above a sea of cumulus (the bomber)",
+     "not_shows": "Not shown to be Dave's Dream; no name legible"
+    },
+    {
+     "in": 4.1,
+     "out": 6.3,
+     "shows": "Aerial of the atoll rim and lagoon from far away, the screen whitening",
+     "not_shows": "Before the flash"
+    },
+    {
+     "in": 6.3,
+     "out": 31.3,
+     "shows": "THE FLASH: white-out for ~3 s, then the Able fireball and mushroom rising over the atoll, seen from the air in one 25 s shot",
+     "not_shows": "Ships are specks, no Nevada"
+    },
+    {
+     "in": 31.3,
+     "out": 37.8,
+     "shows": "Fireball close, red-orange/white",
+     "not_shows": "Ships not visible"
+    },
+    {
+     "in": 37.8,
+     "out": 39.5,
+     "shows": "Observer in a cockpit",
+     "not_shows": "People not identified"
+    },
+    {
+     "in": 39.5,
+     "out": 51.1,
+     "shows": "Red-rimmed fireball, filling the frame",
+     "not_shows": "Ships not visible"
+    },
+    {
+     "in": 51.1,
+     "out": 53.1,
+     "shows": "Cockpit / observer",
+     "not_shows": "People not identified"
+    },
+    {
+     "in": 53.1,
+     "out": 60.1,
+     "shows": "The mushroom with its red glow rim, seen from the air",
+     "not_shows": "Ships not visible"
+    },
+    {
+     "in": 60.1,
+     "out": 62.5,
+     "shows": "Sailors on a ship's deck with binoculars watching the burst",
+     "not_shows": "Ship not named"
+    },
+    {
+     "in": 62.5,
+     "out": 66.9,
+     "shows": "Horizon from a ship, the glow at the horizon whitening",
+     "not_shows": "Distance shot"
+    },
+    {
+     "in": 66.9,
+     "out": 69.2,
+     "shows": "Observers at the rail, a bright haze at the horizon",
+     "not_shows": "Ship not named"
+    }
+   ]
+  },
+  {
+   "stem": "crossroads_mn6517_w05",
+   "group": "A",
+   "file": "src/film/crossroads_mn6517_w05.mp4",
+   "title": "Operation Crossroads (MN-6517), window 05: Baker, 25 July 1946, in colour",
+   "url": "https://archive.org/details/OperationCrossroads",
+   "rights": "archive.org item \"OperationCrossroads\": NO licenseurl in the item metadata (collection \"ephemera\", uploader associate-yvonne-wang@archive.org, subject \"Ephemeral Film\", description \"Commander joint task\"). Basis: the film is a US Navy production (Commander Joint Task Force One; end card \"MN 6517 NPC 1949\", Naval Photographic Center), so a US federal work in the public domain. Other archive.org copies of the same film carry licenses: gov.ntis.ava13712vnb1 \"licenses/publicdomain\", UWMCEMC122005OperationCrossroads \"publicdomain/mark/1.0\", MISC1323OperationCrossroads1948 \"publicdomain/mark/1.0\".",
+   "date": "1946 (film assembled 1949)",
+   "duration": 69.0,
+   "res": "1920x1080 h264 24/1 fps (NARA mp4 as downloaded, not re-encoded)",
+   "note": "Cut from archive.org OperationCrossroads (IA000015_OperationCrossroads.mov, 1920x1080 ProRes 24 fps, 24:31, colour, faded to a cyan/magenta cast: needs a grade). Navy film \"Operation Crossroads: Able and Baker Day Tests\", Commander Joint Task Force One, end card \"MN 6517 NPC 1949\" = US Navy production (federal work). Window is H.264 CRF 18 with the original audio (Navy narration) as AAC: mute it. The film is 4:3 inside a 16:9 raster (black pillars). Source window 18:09.5-19:18.5 (stopped early: the download was too slow; the aerial part 19:23-21:01 is NOT in this file).",
+   "status": "viewed on the proxy at 6 s steps; cut times from scene detection",
+   "sheets": [
+    "crossroads_mn6517_w05_01.jpg"
+   ],
+   "shots": [
+    {
+     "in": 0.0,
+     "out": 49.3,
+     "shows": "ONE LONG SHOT of Baker from a ship/shore at the horizon: the water column and base surge climb out of the lagoon, white spray collapsing outward, palm tops at the bottom edge",
+     "not_shows": "Ships are black specks and cannot be named. The first ~12 s are the still horizon before the burst"
+    },
+    {
+     "in": 49.3,
+     "out": 55.5,
+     "shows": "Ships on the horizon under the spreading column, a low shore line",
+     "not_shows": "Ships specks"
+    },
+    {
+     "in": 55.5,
+     "out": 69.0,
+     "shows": "A palm tree at the left, ships on the horizon, the cloud wall growing behind",
+     "not_shows": "Ships specks"
+    }
+   ]
+  },
+  {
    "stem": "crossroads_mn6517_w06",
    "group": "A",
    "file": "src/film/crossroads_mn6517_w06.mp4",
@@ -1976,6 +2096,36 @@
      "out": 41.5,
      "shows": "A tug or fire boat jetting water onto a battleship; mist drifting; wash-down",
      "not_shows": "Ship identity only from the \"NEW YORK\" shot just before"
+    }
+   ]
+  },
+  {
+   "stem": "crossroads_mn6517_w07",
+   "group": "A",
+   "file": "src/film/crossroads_mn6517_w07.mp4",
+   "title": "Operation Crossroads (MN-6517), window 07: wash-down, officers on the target fleet, the Nagato",
+   "url": "https://archive.org/details/OperationCrossroads",
+   "rights": "archive.org item \"OperationCrossroads\": NO licenseurl in the item metadata (collection \"ephemera\", uploader associate-yvonne-wang@archive.org, subject \"Ephemeral Film\", description \"Commander joint task\"). Basis: the film is a US Navy production (Commander Joint Task Force One; end card \"MN 6517 NPC 1949\", Naval Photographic Center), so a US federal work in the public domain. Other archive.org copies of the same film carry licenses: gov.ntis.ava13712vnb1 \"licenses/publicdomain\", UWMCEMC122005OperationCrossroads \"publicdomain/mark/1.0\", MISC1323OperationCrossroads1948 \"publicdomain/mark/1.0\".",
+   "date": "1946 (film assembled 1949)",
+   "duration": 37.1,
+   "res": "1920x1080 h264 24/1 fps (NARA mp4 as downloaded, not re-encoded)",
+   "note": "Cut from archive.org OperationCrossroads (IA000015_OperationCrossroads.mov, 1920x1080 ProRes 24 fps, 24:31, colour, faded to a cyan/magenta cast: needs a grade). Navy film \"Operation Crossroads: Able and Baker Day Tests\", Commander Joint Task Force One, end card \"MN 6517 NPC 1949\" = US Navy production (federal work). Window is H.264 CRF 18 with the original audio (Navy narration) as AAC: mute it. The film is 4:3 inside a 16:9 raster (black pillars). Source window 22:10.6-22:47.7 (stopped early: the download was too slow; the later Nagato shots to 23:17 are NOT in this file).",
+   "status": "viewed on the proxy at 6 s steps; approximate",
+   "sheets": [
+    "crossroads_mn6517_w07_01.jpg"
+   ],
+   "shots": [
+    {
+     "in": 0.0,
+     "out": 29.6,
+     "shows": "Fire boats and tugs spraying down damaged ships; a ship with scaffolding; then a group of officers/observers in sun helmets looking at the fleet",
+     "not_shows": "People not identified"
+    },
+    {
+     "in": 29.6,
+     "out": 36.6,
+     "shows": "The Japanese battleship NAGATO afloat and damaged, pagoda mast, low in the water",
+     "not_shows": "Nagato (pagoda foremast), not Nevada"
     }
    ]
   },

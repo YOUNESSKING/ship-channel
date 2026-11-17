@@ -1,0 +1,271 @@
+{
+ "key": "c08",
+ "title": "USS Nevada · Found",
+ "words": "../build/words.json",
+ "audio_offset": 762.396,
+ "clips_dir": "../segments",
+ "duration": 90.524,
+ "fade_out": 0.6,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c08_ocean.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t4.41",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c08_logs.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t8.64",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · SINKING OF USS NEVADA, JULY 1948",
+   "template": "anim_gauge",
+   "variant": "meter",
+   "params": {
+    "kicker": "Depth at the site",
+    "value": 2.9,
+    "label": "MILES DEEP",
+    "unit": "mi",
+    "decimals": 1,
+    "max": 3,
+    "count_at": "@three",
+    "dur": 1.0
+   },
+   "bg_clip": {
+    "file": "b_c08_s03.mp4",
+    "show": 0.8
+   }
+  },
+  {
+   "id": "s04",
+   "start": "t12.05",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c08_s04.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "2016",
+    "text": "NOAA GOES BACK TO THE 1948 LOGS",
+    "at": "@NOAA"
+   }
+  },
+  {
+   "id": "s05",
+   "start": "t16.43",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c08_logs_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s06",
+   "start": "t22.30",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "APRIL 2020",
+    "text": "SURVEY SHIP PACIFIC CONSTRUCTOR",
+    "at": "@Pacific",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c08_s06.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s07",
+   "start": "t26.18",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c08_search.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s08",
+   "start": "t29.20",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "THE SEARCH TEAM",
+    "text": "OCEAN INFINITY · SEARCH INC.",
+    "at": "@Ocean",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c08_s08.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s09",
+   "start": "t33.93",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "word",
+   "card": true,
+   "params": {
+    "text": "FOUND.",
+    "at": "@found"
+   },
+   "clip": {
+    "file": "b_c08_s09.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s10",
+   "start": "t37.88",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c08_found.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
+   "start": "t42.56",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS NEVADA, BIKINI, JUNE 1946",
+   "template": "anim_gauge",
+   "variant": "meter",
+   "params": {
+    "kicker": "Depth of the wreck",
+    "value": 15400,
+    "label": "FEET DOWN",
+    "unit": "ft",
+    "decimals": 0,
+    "max": 16000,
+    "count_at": "@fifteen",
+    "dur": 1.0
+   },
+   "bg_clip": {
+    "file": "b_c08_s11.mp4",
+    "show": 0.8
+   }
+  },
+  {
+   "id": "s12",
+   "start": "t45.59",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "THE WRECK, 2020",
+    "text": "UPSIDE DOWN · BOW AND STERN BROKEN AWAY",
+    "at": "@upside",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c08_s12.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s13",
+   "start": "t50.07",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "STILL READABLE ON HER STERN",
+    "number": "36",
+    "number_at": "@thirty",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c08_s13.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s14",
+   "start": "t53.87",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · USS NEVADA, BIKINI 1946",
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "f_c08_s14.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "PROTECTED BY FEDERAL LAW",
+    "text": "SUNKEN MILITARY CRAFT ACT",
+    "at": "@law"
+   }
+  },
+  {
+   "id": "s15",
+   "start": "t59.07",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · USS NEVADA, BIKINI 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c08_s15.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s16",
+   "start": "t62.66",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c08_endscreen.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

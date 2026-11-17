@@ -1,77 +1,77 @@
 {
- "duration": 836.344,
+ "duration": 834.92,
  "fps": 30,
  "chapters": [
   {
    "key": "c01",
    "title": "Hook",
    "start": 0.0,
-   "voice_end": 53.591,
+   "voice_end": 52.166,
    "words": 146,
-   "end": 54.041,
-   "duration": 54.041
+   "end": 52.616,
+   "duration": 52.616
   },
   {
    "key": "c02",
    "title": "The Bull's-Eye",
-   "start": 54.041,
-   "voice_end": 152.264,
+   "start": 52.616,
+   "voice_end": 150.839,
    "words": 269,
-   "end": 152.714,
+   "end": 151.289,
    "duration": 98.673
   },
   {
    "key": "c03",
    "title": "The Ship That Moved",
-   "start": 152.714,
-   "voice_end": 326.268,
+   "start": 151.289,
+   "voice_end": 324.844,
    "words": 470,
-   "end": 326.718,
-   "duration": 174.004
+   "end": 325.294,
+   "duration": 174.005
   },
   {
    "key": "c04",
    "title": "Back From the Mud",
-   "start": 326.718,
-   "voice_end": 453.98,
+   "start": 325.294,
+   "voice_end": 452.555,
    "words": 337,
-   "end": 454.43,
-   "duration": 127.712
+   "end": 453.005,
+   "duration": 127.711
   },
   {
    "key": "c05",
    "title": "Test Able",
-   "start": 454.43,
-   "voice_end": 545.152,
+   "start": 453.005,
+   "voice_end": 543.728,
    "words": 237,
-   "end": 545.602,
-   "duration": 91.172
+   "end": 544.178,
+   "duration": 91.173
   },
   {
    "key": "c06",
    "title": "Test Baker",
-   "start": 545.602,
-   "voice_end": 653.445,
+   "start": 544.178,
+   "voice_end": 652.021,
    "words": 275,
-   "end": 653.895,
+   "end": 652.471,
    "duration": 108.293
   },
   {
    "key": "c07",
    "title": "Four Days",
-   "start": 653.895,
-   "voice_end": 763.37,
+   "start": 652.471,
+   "voice_end": 761.946,
    "words": 274,
-   "end": 763.82,
+   "end": 762.396,
    "duration": 109.925
   },
   {
    "key": "c08",
    "title": "Found",
-   "start": 763.82,
-   "voice_end": 835.344,
+   "start": 762.396,
+   "voice_end": 833.92,
    "words": 189,
-   "end": 836.344,
+   "end": 834.92,
    "duration": 72.524
   }
  ]
