@@ -1,0 +1,9 @@
+safe_area.js adjusted:
+  size 19->25.4: SHELLS IN ≈20 MINUTES
+  size 19->25.4: FROM IOWA’S 16-INCH GUNS
+  size 19->25.4: ADM. DEWITT C. RAMSEY, 1948
+  size 19->25.4: TO SINK HER
+  size 19->25.4: PER THE 2022 WRECK STUDY
+  lift 27px: PER THE 2022 WRECK STUDY3 OF U
+  lift 12px: PER THE 2022 WRECK STUDY3 OF U
+PASS: no text breaks the size / safe-area / font rules (109.6 s checked every 0.5 s)

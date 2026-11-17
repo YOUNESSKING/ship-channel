@@ -1,0 +1,31 @@
+safe_area.js adjusted:
+  size 24->25.4: 0
+  size 24->25.4: 1
+  size 24->25.4: 1
+  size 24->25.4: 2
+  size 24->25.4: 2
+  size 24->25.4: 3
+  size 19->25.4: 2016
+  size 19->25.4: APRIL 2020
+  size 19->25.4: THE SEARCH TEAM
+  size 24->25.4: 0
+  size 24->25.4: 3,200
+  size 24->25.4: 6,400
+  size 24->25.4: 9,600
+  size 24->25.4: 12,800
+  size 24->25.4: 16,000
+  size 19->25.4: THE WRECK, 2020
+  size 19->25.4: STILL READABLE ON HER STERN
+  size 19->25.4: PROTECTED BY FEDERAL LAW
+  fit x0.90: NOAA GOES BACK TO THE 1948 LOG
+  fit x0.71: SURVEY SHIP PACIFIC CONSTRUCTO
+  fit x0.87: OCEAN INFINITY · SEARCH INC.
+  fit x0.55: UPSIDE DOWN · BOW AND STERN BR
+  lift 8px: 0
+  lift 15px: 2016NOAA GOES BACK TO THE 1948
+  lift 8px: 0
+  lift 19px: PROTECTED BY FEDERAL LAWSUNKEN
+  wrap: THE SEARCH TEAM
+  lift 20px: 2016NOAA GOES BACK TO THE 1948
+  lift 20px: PROTECTED BY FEDERAL LAWSUNKEN
+PASS: no text breaks the size / safe-area / font rules (90.5 s checked every 0.5 s)

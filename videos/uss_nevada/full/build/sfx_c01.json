@@ -11,46 +11,46 @@
    "shot": "s02",
    "at": 0.0,
    "role": "explosion",
-   "note": "Able flash (wow 1)"
+   "note": "Able fireball (wow 1)"
   },
   {
    "shot": "s04",
+   "at": 0.3,
+   "role": "boom",
+   "note": "Baker dome (wow 2)"
+  },
+  {
+   "shot": "s05",
    "at": "@survived",
    "role": "tick",
    "note": "label: SHE SURVIVED BOTH"
   },
   {
-   "shot": "s07",
+   "shot": "s08",
    "at": 0.3,
    "role": "whoosh",
    "note": "map move starts (c01_miss)"
   },
   {
-   "shot": "s09",
-   "at": 0.6,
-   "role": "boom",
-   "note": "Baker column (wow 2)"
-  },
-  {
-   "shot": "s09",
+   "shot": "s11",
    "at": "@thousand",
    "role": "pop",
    "note": "number lands: ≈1,000"
   },
   {
-   "shot": "s12",
+   "shot": "s14",
    "at": "@Nevada",
    "role": "tick",
    "note": "label: USS NEVADA"
   },
   {
-   "shot": "s14",
+   "shot": "s17",
    "at": 0.3,
    "role": "whoosh",
    "note": "map move starts (c01_pearl)"
   },
   {
-   "shot": "s16",
+   "shot": "s19",
    "at": 0.3,
    "role": "whoosh",
    "note": "map move starts (c01_where)"
@@ -62,11 +62,13 @@
   "s04",
   "s05",
   "s06",
-  "s08",
+  "s07",
   "s09",
+  "s10",
   "s11",
-  "s12",
-  "s15"
+  "s13",
+  "s14",
+  "s18"
  ],
  "generic_video_shots": [],
  "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"

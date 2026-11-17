@@ -41,9 +41,9 @@
   },
   {
    "id": "s03",
-   "start": "t7.67",
+   "start": "t5.73",
    "sfx": false,
-   "tag": "U.S. NAVY FILM · TEST BAKER, 25 JULY 1946",
+   "tag": "U.S. NAVY COLOUR FILM (COLOUR RESTORED) · USS NEVADA, BIKINI 1946",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
@@ -54,13 +54,26 @@
   },
   {
    "id": "s04",
+   "start": "t7.67",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · TEST BAKER, 25 JULY 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c01_s04.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
    "start": "t10.36",
    "sfx": false,
    "tag": "U.S. NAVY COLOUR FILM (COLOUR RESTORED) · USS NEVADA, BIKINI 1946",
    "template": "lower_third",
    "variant": "kicker_line",
    "clip": {
-    "file": "f_c01_s04.mp4",
+    "file": "f_c01_s05.mp4",
     "push": null
    },
    "params": {
@@ -70,23 +83,10 @@
    }
   },
   {
-   "id": "s05",
+   "id": "s06",
    "start": "t12.52",
    "sfx": false,
    "tag": "U.S. NAVY COLOUR FILM (COLOUR RESTORED) · USS NEVADA, BIKINI 1946",
-   "template": "clip_plain",
-   "variant": "push",
-   "clip": {
-    "file": "f_c01_s05.mp4",
-    "push": null
-   },
-   "params": {}
-  },
-  {
-   "id": "s06",
-   "start": "t14.90",
-   "sfx": false,
-   "tag": "U.S. NAVY COLOUR FILM · A B-29 OVER BIKINI, 1946",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
@@ -97,6 +97,19 @@
   },
   {
    "id": "s07",
+   "start": "t14.90",
+   "sfx": false,
+   "tag": "U.S. NAVY COLOUR FILM · A B-29 OVER BIKINI, 1946",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c01_s07.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s08",
    "start": "t16.95",
    "sfx": false,
    "template": "map_clip",
@@ -108,27 +121,40 @@
    "params": {}
   },
   {
-   "id": "s08",
+   "id": "s09",
    "start": "t20.16",
    "sfx": false,
-   "tag": "U.S. NAVY FILM · USS NEVADA AFTER TEST ABLE, JULY 1946",
+   "tag": "U.S. NAVY FILM · TEST ABLE, 1 JULY 1946",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "f_c01_s08.mp4",
+    "file": "f_c01_s09.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s09",
+   "id": "s10",
+   "start": "t21.48",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · SINKING OF USS NEVADA, JULY 1948",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c01_s10.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
    "start": "t23.09",
    "sfx": false,
    "tag": "U.S. NAVY FILM · TEST BAKER, 25 JULY 1946",
    "template": "number_clip",
    "variant": "right",
    "clip": {
-    "file": "f_c01_s09.mp4",
+    "file": "f_c01_s11.mp4",
     "push": null
    },
    "params": {
@@ -139,39 +165,39 @@
    }
   },
   {
-   "id": "s10",
+   "id": "s12",
    "start": "t27.44",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c01_s10.mp4",
+    "file": "p_c01_s12.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s11",
+   "id": "s13",
    "start": "t30.77",
    "sfx": false,
-   "tag": "U.S. NAVY FILM · USS NEVADA AFTER TEST ABLE, JULY 1946",
+   "tag": "U.S. NAVY FILM · TEST BAKER, 25 JULY 1946",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "f_c01_s11.mp4",
+    "file": "f_c01_s13.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s12",
+   "id": "s14",
    "start": "t32.69",
    "sfx": false,
    "tag": "U.S. NAVY COLOUR FILM (COLOUR RESTORED) · USS NEVADA, BIKINI 1946",
    "template": "lower_third",
    "variant": "kicker_line",
    "clip": {
-    "file": "f_c01_s12.mp4",
+    "file": "f_c01_s14.mp4",
     "push": null
    },
    "params": {
@@ -181,20 +207,32 @@
    }
   },
   {
-   "id": "s13",
+   "id": "s15",
    "start": "t35.42",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c01_s13.mp4",
+    "file": "p_c01_s15.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s14",
+   "id": "s16",
    "start": "t38.39",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s16.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s17",
+   "start": "t40.85",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -205,20 +243,20 @@
    "params": {}
   },
   {
-   "id": "s15",
+   "id": "s18",
    "start": "t43.92",
    "sfx": false,
-   "tag": "U.S. NAVY FILM · TEST BAKER, 25 JULY 1946",
+   "tag": "U.S. NAVY FILM · SINKING OF USS NEVADA, JULY 1948",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "f_c01_s15.mp4",
+    "file": "f_c01_s18.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s16",
+   "id": "s19",
    "start": "t47.78",
    "sfx": false,
    "template": "map_clip",

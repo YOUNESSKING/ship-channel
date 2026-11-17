@@ -2,7 +2,7 @@
 
 | chapter | dur s | shots | film % | photo % | map % | hero % | anim % | card % | of which NARA film % | generic US-Gov film % | anim over moving film % | **moving video total %** | longest shot | cues/min |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| c01 | 52.6 | 16 | 55 | 12 | 33 | 0 | 0 | 0 | 55 | 0 | 0 | **55** | 5.5 s (s14) | 10.3 |
+| c01 | 52.6 | 19 | 55 | 17 | 28 | 0 | 0 | 0 | 55 | 0 | 0 | **55** | 4.8 s (s19) | 10.3 |
 | c02 | 98.7 | 29 | 45 | 30 | 24 | 0 | 0 | 0 | 37 | 9 | 0 | **45** | 5.5 s (s29) | 9.1 |
 | c03 | 174.0 | 50 | 24 | 50 | 26 | 0 | 0 | 0 | 6 | 18 | 0 | **24** | 5.9 s (s04) | 6.9 |
 | c04 | 127.7 | 37 | 48 | 22 | 27 | 0 | 3 | 0 | 42 | 7 | 3 | **52** | 5.9 s (s13) | 9.4 |
@@ -10,7 +10,7 @@
 | c06 | 108.3 | 35 | 48 | 35 | 17 | 0 | 0 | 0 | 39 | 9 | 0 | **48** | 5.9 s (s29) | 6.6 |
 | c07 | 109.9 | 37 | 56 | 30 | 14 | 0 | 0 | 0 | 46 | 10 | 0 | **56** | 5.3 s (s19) | 11.5 |
 | c08 | 90.5 | 16 | 41 | 6 | 44 | 0 | 9 | 0 | 12 | 29 | 9 | **50** | 5.9 s (s05) | 10.6 |
-| **c01-c08** | | | **45** | **28** | **26** | **0** | **1** | **0** | **33** | **12** | **1** | **47** | | |
+| **c01-c08** | | | **45** | **28** | **25** | **0** | **1** | **0** | **33** | **12** | **1** | **47** | | |
 
 ## Pacing flags (shots > 6.0 s or < 1.2 s; end screen excluded)
 
@@ -26,21 +26,24 @@
 | ch | shot | start (abs s) | dur | template | source | cut on |
 |---|---|---|---|---|---|---|
 | c01 | s01 | 0.0 | 3.59 | map_clip | M:c01_open | On the first of July |
-| c01 | s02 | 3.59 | 4.08 | clip_plain | F:able_flash.mp4 | the United States dropped |
-| c01 | s03 | 7.67 | 2.7 | clip_plain | F:baker_c_b.mp4 | Three weeks later |
-| c01 | s04 | 10.36 | 2.15 | lower_third | F:orange_wide.mp4 | She survived them both |
-| c01 | s05 | 12.52 | 2.38 | clip_plain | F:orange_close.mp4 | The Navy had painted her |
-| c01 | s06 | 14.9 | 2.05 | clip_plain | F:able_b29.mp4 | so the bomber could not miss |
-| c01 | s07 | 16.95 | 3.21 | map_clip | M:c01_miss | The first bomb missed |
-| c01 | s08 | 20.16 | 2.93 | clip_plain | F:after_broadside.mp4 | When the smoke cleared |
-| c01 | s09 | 23.09 | 4.36 | number_clip | F:baker_enyu_a.mp4 | The second bomb went off |
-| c01 | s10 | 27.44 | 3.33 | clip_plain | P:cx_saratoga_sinking_aerial_c | It sank a battleship |
-| c01 | s11 | 30.77 | 1.92 | clip_plain | F:after_distant.mp4 | She was still floating |
-| c01 | s12 | 32.69 | 2.73 | lower_third | F:orange_tower.mp4 | This is the USS Nevada |
-| c01 | s13 | 35.42 | 2.97 | clip_plain | P:ph_ship_explosion_gk13513_COLOUR | It was not the first time |
-| c01 | s14 | 38.39 | 5.53 | map_clip | M:c01_pearl | Five years earlier |
-| c01 | s15 | 43.92 | 3.86 | clip_plain | F:baker_c_c.mp4 | So if two atomic bombs |
-| c01 | s16 | 47.78 | 4.83 | map_clip | M:c01_where | And where is she now |
+| c01 | s02 | 3.59 | 2.14 | clip_plain | F:able_fireball.mp4 | the United States dropped |
+| c01 | s03 | 5.73 | 1.94 | clip_plain | F:orange_wide.mp4 | on one of its own battleships |
+| c01 | s04 | 7.67 | 2.7 | clip_plain | F:baker_enyu_a.mp4 | Three weeks later |
+| c01 | s05 | 10.36 | 2.15 | lower_third | F:orange_rail.mp4 | She survived them both |
+| c01 | s06 | 12.52 | 2.38 | clip_plain | F:orange_close.mp4 | The Navy had painted her |
+| c01 | s07 | 14.9 | 2.05 | clip_plain | F:able_b29.mp4 | so the bomber could not miss |
+| c01 | s08 | 16.95 | 3.21 | map_clip | M:c01_miss | The first bomb missed |
+| c01 | s09 | 20.16 | 1.32 | clip_plain | F:able_mush_red.mp4 | When the smoke cleared |
+| c01 | s10 | 21.48 | 1.61 | clip_plain | F:scarred.mp4 | she was still floating |
+| c01 | s11 | 23.09 | 4.36 | number_clip | F:baker_c_d.mp4 | The second bomb went off |
+| c01 | s12 | 27.44 | 3.33 | clip_plain | P:cx_saratoga_sinking_aerial_c | It sank a battleship |
+| c01 | s13 | 30.77 | 1.92 | clip_plain | F:baker_c_ships.mp4 | She was still floating |
+| c01 | s14 | 32.69 | 2.73 | lower_third | F:orange_tower.mp4 | This is the USS Nevada |
+| c01 | s15 | 35.42 | 2.97 | clip_plain | P:ph_ship_explosion_gk13513_COLOUR | It was not the first time |
+| c01 | s16 | 38.39 | 2.46 | clip_plain | P:ph_nevada_after_attack_32583 | Five years earlier |
+| c01 | s17 | 40.85 | 3.07 | map_clip | M:c01_pearl | she was the only battleship |
+| c01 | s18 | 43.92 | 3.86 | clip_plain | F:burning_close.mp4 | So if two atomic bombs |
+| c01 | s19 | 47.78 | 4.83 | map_clip | M:c01_where | And where is she now |
 | c02 | s01 | 52.62 | 4.07 | map_clip | M:c02_pacific | Start with the place |
 | c02 | s02 | 56.69 | 2.14 | clip_plain | F:able_air_b.mp4 | in the middle of the Pacific |
 | c02 | s03 | 58.83 | 4.62 | clip_plain | P:cx_bikini_1944_north_c | A ring of small islands |
@@ -62,7 +65,7 @@
 | c02 | s19 | 108.78 | 2.94 | clip_plain | F:rats.mp4 | to see what the blast |
 | c02 | s20 | 111.72 | 2.46 | clip_plain | F:orange_barrels.mp4 | At the centre of it all |
 | c02 | s21 | 114.18 | 5.12 | map_clip | M:c02_zero | The Navy chose her |
-| c02 | s22 | 119.3 | 3.72 | lower_third | F:orange_rail.mp4 | They painted her international orange |
+| c02 | s22 | 119.3 | 3.72 | lower_third | F:orange_tank.mp4 | They painted her international orange |
 | c02 | s23 | 123.02 | 3.01 | clip_plain | F:evac_roofs.mp4 | They painted her international orange |
 | c02 | s24 | 126.03 | 3.81 | lower_third | F:evac_turret.mp4 | A flashing light |
 | c02 | s25 | 129.84 | 5.32 | map_clip | M:c02_arrive | On the twenty-eighth of May |
@@ -244,7 +247,7 @@
 | c07 | s25 | 725.27 | 3.29 | clip_plain | F:sink_hulk.mp4 | Then one smashed |
 | c07 | s26 | 728.56 | 2.31 | clip_plain | F:sink_roll.mp4 | She rolled over, and sank |
 | c07 | s27 | 730.87 | 4.28 | text_card | CARD + bg F:sink_downstern.mp4 | The admiral who watched |
-| c07 | s28 | 735.14 | 2.09 | clip_plain | P:ph_nevada_after_attack_32583 | She had survived Pearl Harbor |
+| c07 | s28 | 735.14 | 2.09 | clip_plain | P:ph_nevada_waipio_33020_c | She had survived Pearl Harbor |
 | c07 | s29 | 737.24 | 1.7 | clip_plain | P:d_cherbourg_nevada_231636_c | Two oceans of war |
 | c07 | s30 | 738.94 | 1.71 | clip_plain | F:baker_c_ships.mp4 | Two atomic bombs |
 | c07 | s31 | 740.65 | 2.88 | number_clip | F:three_q.mp4 | In the end, it took four days |

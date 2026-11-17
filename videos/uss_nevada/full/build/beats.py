@@ -144,22 +144,26 @@ EXPL = lambda note: [("explosion", 0.0, note, {})]
 BOOM = lambda note, at=0.0: [("boom", at, note, {})]
 
 B = {}
-B["c01"] = [   # hook: map at frame 0, then the strongest colour Crossroads film; title promise "She survived them both" at ~10.5 s
+B["c01"] = [   # hook v2 (owner 2026-11-17: "hook filled with videos and photos that are not clear ... I want it engaging"):
+ # only 1080p colour Navy film, 1080p 1948 film and 4K stills; no shot starts on a white-out or an empty horizon; a cut every ~2.5 s
  E("On the first of July", "M:c01_open", map="Pacific -> Marshall Islands -> BIKINI ATOLL pin at frame 0 (clean); date '1 JULY 1946' on 'July', 'BIKINI ATOLL' on 'nineteen'"),
- E("the United States dropped", "F:able_flash.mp4", sfx=EXPL("Able flash (wow 1)"), flash=True),
- E("Three weeks later", "F:baker_c_b.mp4"),
- E("She survived them both", "F:orange_wide.mp4", lt=dict(kicker="TWO ATOMIC BOMBS", text="SHE SURVIVED BOTH", at="@survived")),
+ E("the United States dropped", "F:able_fireball.mp4", sfx=EXPL("Able fireball (wow 1)"), flash=True),
+ E("on one of its own battleships", "F:orange_wide.mp4"),
+ E("Three weeks later", "F:baker_enyu_a.mp4", sfx=[("boom", 0.3, "Baker dome (wow 2)", {})]),
+ E("She survived them both", "F:orange_rail.mp4", lt=dict(kicker="TWO ATOMIC BOMBS", text="SHE SURVIVED BOTH", at="@survived")),
  E("The Navy had painted her", "F:orange_close.mp4"),
  E("so the bomber could not miss", "F:able_b29.mp4"),
  E("The first bomb missed", "M:c01_miss", map="Bikini lagoon close: orange NEVADA dot = AIM POINT; burst star appears west of her; dashed line + '≈ 1/3 MILE' on 'third'"),
- E("When the smoke cleared", "F:after_broadside.mp4"),
- E("The second bomb went off", "F:baker_enyu_a.mp4", num=dict(variant="right", kicker="FROM NEVADA", number="≈1,000", unit="yards", number_at="@thousand"), sfx=[("boom", 0.6, "Baker column (wow 2)", {})]),
+ E("When the smoke cleared", "F:able_mush_red.mp4"),
+ E("she was still floating", "F:scarred.mp4"),
+ E("The second bomb went off", "F:baker_c_d.mp4", num=dict(variant="right", kicker="FROM NEVADA", number="≈1,000", unit="yards", number_at="@thousand")),
  E("It sank a battleship", "P:cx_saratoga_sinking_aerial_c", label="USS SARATOGA SINKING, 25 JULY 1946"),
- E("She was still floating", "F:after_distant.mp4"),
+ E("She was still floating", "F:baker_c_ships.mp4"),
  E("This is the USS Nevada", "F:orange_tower.mp4", lt=dict(kicker="BIKINI ATOLL · 1946", text="USS NEVADA", at="@Nevada")),
  E("It was not the first time", "P:ph_ship_explosion_gk13513_COLOUR", label="COLOUR PHOTO · PEARL HARBOR, 7 DEC 1941"),
- E("Five years earlier", "M:c01_pearl", map="Pearl Harbor: 'PEARL HARBOR · 7 DEC 1941' on 'Pearl'; NEVADA icon leaves her berth and runs down the channel on 'got under way', label 'THE ONLY BATTLESHIP UNDER WAY' on 'only'"),
- E("So if two atomic bombs", "F:baker_c_c.mp4"),
+ E("Five years earlier", "P:ph_nevada_after_attack_32583", label="USS NEVADA UNDER WAY, PEARL HARBOR, 7 DEC 1941"),
+ E("she was the only battleship", "M:c01_pearl", map="Pearl Harbor: 'PEARL HARBOR · 7 DEC 1941'; NEVADA icon runs down the channel; 'THE ONLY BATTLESHIP UNDER WAY' on 'only'"),
+ E("So if two atomic bombs", "F:burning_close.mp4"),
  E("And where is she now", "M:c01_where", map="Oahu + open ocean SW: a pulsing '?' pin far out at sea on 'where'; '70+ YEARS' on 'seventy'"),
 ]
 B["c02"] = [
@@ -183,7 +187,7 @@ B["c02"] = [
  E("to see what the blast", "F:rats.mp4"),
  E("At the centre of it all", "F:orange_barrels.mp4"),
  E("The Navy chose her", "M:c02_zero", map="Bikini lagoon: dots of the array; one ORANGE dot pulses; 'NEVADA' on 'chose', crosshair + 'BULL'S-EYE' on 'bull's', 'AIM POINT' on 'aim'"),
- E("They painted her international orange", ["F:orange_rail.mp4", "F:evac_roofs.mp4"], lt=dict(kicker="THE PAINT", text="INTERNATIONAL ORANGE", at="@orange")),
+ E("They painted her international orange", ["F:orange_tank.mp4", "F:evac_roofs.mp4"], lt=dict(kicker="THE PAINT", text="INTERNATIONAL ORANGE", at="@orange")),
  E("A flashing light", "F:evac_turret.mp4", lt=dict(kicker="FOR THE BOMBARDIER", text="A FLASHING LIGHT ON BOARD", at="@flashing")),
  E("On the twenty-eighth of May", "M:c02_arrive", map="Bikini lagoon: NEVADA (orange ship icon) sails in through the pass to her mooring; '28 MAY 1946' on 'May'; 'CREW: 403' on 'four'"),
  E("On the thirtieth of June", "F:evac_bags.mp4", lt=dict(kicker="30 JUNE 1946", text="THE CREW LEAVES", at="@crew")),
@@ -362,7 +366,7 @@ B["c07"] = [
  E("Then one smashed", "F:sink_hulk.mp4"),
  E("She rolled over, and sank", "F:sink_roll.mp4", sfx=[("ship", 0.1, "she rolls over", {})]),
  E("The admiral who watched", "CARD", card=dict(variant="line", kicker="ADM. DEWITT C. RAMSEY, 1948", text="“SHE WAS A GRAND OLD SHIP.”", at="@grand"), cbg="F:sink_downstern.mp4"),
- E("She had survived Pearl Harbor", "P:ph_nevada_after_attack_32583", label="USS NEVADA, PEARL HARBOR, 1941"),
+ E("She had survived Pearl Harbor", "P:ph_nevada_waipio_33020_c", label="USS NEVADA, PEARL HARBOR, 1941"),
  E("Two oceans of war", "P:d_cherbourg_nevada_231636_c", label="USS NEVADA OFF CHERBOURG, 1944"),
  E("Two atomic bombs", "F:baker_c_ships.mp4"),
  E("In the end, it took four days", ["F:three_q.mp4", "F:hazy_bombs.mp4"], num=dict(variant="right", kicker="TO SINK HER", number="4", unit="days", number_at="@four")),
