@@ -212,8 +212,8 @@
     66.8
    ]
   ],
-  "tag": "U.S. NAVY FILM \u00b7 TEST ABLE, 1 JULY 1946",
-  "slow": null
+  "tag": "U.S. NAVY COLOUR FILM \u00b7 WATCHING TEST ABLE FROM A SHIP",
+  "slow": 0.8
  },
  "baker_c_a.mp4": {
   "reel": "crossroads_mn6517_w05",
@@ -400,7 +400,7 @@
   "clip_in": 0.0,
   "windows": [
    [
-    365.3,
+    368.5,
     474.5
    ]
   ],
@@ -496,7 +496,7 @@
   "clip_in": 0.0,
   "windows": [
    [
-    10.2,
+    16.5,
     29.8
    ]
   ],
@@ -532,7 +532,7 @@
   "clip_in": 0.0,
   "windows": [
    [
-    82.2,
+    95.0,
     148.2
    ]
   ],
@@ -568,7 +568,7 @@
   "clip_in": 0.0,
   "windows": [
    [
-    200.5,
+    210.0,
     229.8
    ],
    [
@@ -693,7 +693,7 @@
   "windows": [
    [
     561.0,
-    583.8
+    567.5
    ]
   ],
   "tag": "U.S. NAVY COLOUR FILM \u00b7 THE TARGET FLEET, BIKINI 1946",
@@ -704,7 +704,7 @@
   "clip_in": 0.0,
   "windows": [
    [
-    0.2,
+    12.0,
     39.8
    ]
   ],
@@ -728,7 +728,7 @@
   "clip_in": 0.0,
   "windows": [
    [
-    20.2,
+    30.0,
     49.8
    ]
   ],
@@ -800,7 +800,7 @@
   "clip_in": 0.0,
   "windows": [
    [
-    15.2,
+    30.0,
     119.8
    ]
   ],
@@ -920,7 +920,7 @@
   "clip_in": 0.0,
   "windows": [
    [
-    72.9,
+    80.0,
     140.0
    ]
   ],
@@ -932,7 +932,7 @@
   "clip_in": 0.0,
   "windows": [
    [
-    70.2,
+    78.0,
     99.8
    ]
   ],
@@ -944,7 +944,7 @@
   "clip_in": 0.0,
   "windows": [
    [
-    29.8,
+    40.0,
     87.7
    ]
   ],

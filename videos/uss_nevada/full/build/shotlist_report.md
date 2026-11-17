@@ -160,7 +160,7 @@
 | c05 | s01 | 453.0 | 4.95 | map_clip | M:c05_able | The first of July |
 | c05 | s02 | 457.96 | 2.86 | map_clip | M:c05_flight | From Kwajalein |
 | c05 | s03 | 460.82 | 4.17 | lower_third | P:cx_b29_bomb_drop_aircraft_c | a B-29 bomber named |
-| c05 | s04 | 464.98 | 5.09 | number_clip | F:able_watchers.mp4 | The Nevada's own crew watched |
+| c05 | s04 | 464.98 | 5.09 | number_clip | F:able_horizon.mp4 | The Nevada's own crew watched |
 | c05 | s05 | 470.07 | 2.9 | number_clip | F:able_air_a.mp4 | At thirty-four seconds past nine |
 | c05 | s06 | 472.97 | 1.4 | clip_plain | P:cx_loc_able_flash | the bomb went off |
 | c05 | s07 | 474.37 | 3.36 | number_clip | F:able_mush_b.mp4 | about five hundred and twenty feet |

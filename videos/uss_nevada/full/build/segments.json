@@ -89,7 +89,7 @@
   "kind": "film",
   "clip": "after_broadside.mp4",
   "reel": "nevada_after_able",
-  "reel_in": 10.35,
+  "reel_in": 16.65,
   "dur": 3.33,
   "label": null,
   "note": ""
@@ -283,7 +283,7 @@
   "kind": "film",
   "clip": "target_lagoon.mp4",
   "reel": "target_ships_lagoon",
-  "reel_in": 15.35,
+  "reel_in": 30.15,
   "dur": 2.96,
   "label": null,
   "note": "",
@@ -503,7 +503,7 @@
   "kind": "film",
   "clip": "evac_bags.mp4",
   "reel": "nevada_evacuation",
-  "reel_in": 365.45,
+  "reel_in": 368.65,
   "dur": 3.14,
   "label": null,
   "note": ""
@@ -1469,7 +1469,7 @@
   "kind": "film",
   "clip": "okinawa_shore.mp4",
   "reel": "okinawa_bombardment_hd",
-  "reel_in": 29.95,
+  "reel_in": 40.15,
   "dur": 2.88,
   "label": null,
   "note": ""
@@ -1557,7 +1557,7 @@
   "kind": "film",
   "clip": "fleet_grey.mp4",
   "reel": "able_animals_colour",
-  "reel_in": 563.89,
+  "reel_in": 563.4,
   "dur": 4.22,
   "label": null,
   "note": ""
@@ -1666,13 +1666,13 @@
   "shot": "s04",
   "file": "f_c05_s04.mp4",
   "kind": "film",
-  "clip": "able_watchers.mp4",
+  "clip": "able_horizon.mp4",
   "reel": "crossroads_mn6517_w03",
-  "reel_in": 60.25,
+  "reel_in": 62.65,
   "dur": 5.49,
   "label": null,
   "note": "",
-  "slow": 0.6
+  "slow": 0.8
  },
  {
   "chapter": "c05",
@@ -1681,7 +1681,7 @@
   "kind": "film",
   "clip": "able_air_a.mp4",
   "reel": "able_drop_air",
-  "reel_in": 0.35,
+  "reel_in": 12.15,
   "dur": 3.3,
   "label": null,
   "note": ""
@@ -1810,7 +1810,7 @@
   "kind": "film",
   "clip": "after_broadside.mp4",
   "reel": "nevada_after_able",
-  "reel_in": 13.78,
+  "reel_in": 20.08,
   "dur": 3.3,
   "label": null,
   "note": ""
@@ -1932,7 +1932,7 @@
   "kind": "film",
   "clip": "able_array.mp4",
   "reel": "able_target_array",
-  "reel_in": 20.35,
+  "reel_in": 30.15,
   "dur": 4.33,
   "label": null,
   "note": "",
@@ -2189,7 +2189,7 @@
   "kind": "film",
   "clip": "nag_aerial.mp4",
   "reel": "nevada_nagato_colour",
-  "reel_in": 200.65,
+  "reel_in": 210.15,
   "dur": 2.43,
   "label": null,
   "note": ""
