@@ -1,5 +1,5 @@
 {
- "duration": 811.029,
+ "duration": 836.344,
  "fps": 30,
  "chapters": [
   {
@@ -24,55 +24,55 @@
    "key": "c03",
    "title": "The Ship That Moved",
    "start": 152.714,
-   "voice_end": 307.673,
-   "words": 418,
-   "end": 308.123,
-   "duration": 155.409
+   "voice_end": 326.268,
+   "words": 470,
+   "end": 326.718,
+   "duration": 174.004
   },
   {
    "key": "c04",
    "title": "Back From the Mud",
-   "start": 308.123,
-   "voice_end": 433.198,
-   "words": 330,
-   "end": 433.648,
-   "duration": 125.525
+   "start": 326.718,
+   "voice_end": 453.98,
+   "words": 337,
+   "end": 454.43,
+   "duration": 127.712
   },
   {
    "key": "c05",
    "title": "Test Able",
-   "start": 433.648,
-   "voice_end": 519.837,
-   "words": 223,
-   "end": 520.287,
-   "duration": 86.639
+   "start": 454.43,
+   "voice_end": 545.152,
+   "words": 237,
+   "end": 545.602,
+   "duration": 91.172
   },
   {
    "key": "c06",
    "title": "Test Baker",
-   "start": 520.287,
-   "voice_end": 628.131,
+   "start": 545.602,
+   "voice_end": 653.445,
    "words": 275,
-   "end": 628.581,
-   "duration": 108.294
+   "end": 653.895,
+   "duration": 108.293
   },
   {
    "key": "c07",
    "title": "Four Days",
-   "start": 628.581,
-   "voice_end": 738.056,
+   "start": 653.895,
+   "voice_end": 763.37,
    "words": 274,
-   "end": 738.506,
+   "end": 763.82,
    "duration": 109.925
   },
   {
    "key": "c08",
    "title": "Found",
-   "start": 738.506,
-   "voice_end": 810.029,
+   "start": 763.82,
+   "voice_end": 835.344,
    "words": 189,
-   "end": 811.029,
-   "duration": 72.523
+   "end": 836.344,
+   "duration": 72.524
   }
  ]
 }
