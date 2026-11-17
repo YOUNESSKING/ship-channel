@@ -1,6 +1,6 @@
 // BASEMAP: pearl_row
 // A torpedo track runs in from the east to Nevada's port bow; hit flash on 'torpedo'; TORPEDO HIT · PORT BOW on 'port'.
-const S = ShipK(), END = S.END, wt = S.wt, P = S.P;
+const S = ShipK(), B = S.B, END = S.END, wt = S.wt, P = S.P;
 S.camera([[0, 1370, 820, 2.1], [END, 1375, 815, 2.2]]);
 const L = S.sl(183, 0, 1.0), rot = 135, ST = { fill: "#8fb0cc", stroke: "#0c1218", sw: 2.2 };
 for (const [k, kind] of [["CA", "bb"], ["MD", "bb"], ["OK", "bb"], ["TN", "bb"], ["WV", "bb"], ["AZ", "bb"], ["AZ_O", "tr"]]) S.ship(kind, P(k), { t: 0, len: kind === "tr" ? L * 0.8 : L, rot, ...ST });

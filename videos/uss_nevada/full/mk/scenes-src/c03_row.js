@@ -1,6 +1,6 @@
 // BASEMAP: pearl_row
 // 'battleships, most of them moored in pairs.' Pairs of battleship icons appear along Ford Island's east shore.
-const S = ShipK(), END = S.END, wt = S.wt, P = S.P;
+const S = ShipK(), B = S.B, END = S.END, wt = S.wt, P = S.P;
 S.camera([[0, 1345, 840, 1.9], [END, 1350, 835, 2.0]]);
 const L = S.sl(183, 0, 1.0), rot = 135, ST = { fill: "#8fb0cc", stroke: "#0c1218", sw: 2.2 };
 const mk = (k, kind, t) => S.ship(kind, P(k), { t, len: kind === "tr" ? L * 0.8 : L, rot, ...ST });

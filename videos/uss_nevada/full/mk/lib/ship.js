@@ -314,10 +314,10 @@ window.ShipK = function () {
   const SHIP_H = { bb: 24, cru: 20, dd: 14, tr: 20, lsm: 20, tug: 28, b29: 48 };
   S.ship = (kind, pt, o = {}) => {
     const t = o.t || 0, s = S.scaleAt(t), w = (o.len || 90) / s, fill = o.fill || "#f3eee2", stroke = o.stroke || "#D9572B";
-    const h = w * (SHIP_H[kind] || 24) / 100 * (kind === "tug" ? 1 : 1);
+    const h = w * (SHIP_H[kind] || 24) / 100 * (o.fat || 2.1);
     const wrap = document.createElement("div"); wrap.style.cssText = `position:absolute;left:${pt[0]}px;top:${pt[1]}px;width:0;height:0;will-change:transform`;
     const inner = document.createElement("div"); inner.style.cssText = `position:absolute;left:0;top:0;width:${w}px;height:${h}px;filter:drop-shadow(0 0 ${6 / s}px rgba(0,0,0,.9))`;
-    inner.innerHTML = `<svg width="${w}" height="${h}" viewBox="-50 ${-(SHIP_H[kind] || 24) / 2} 100 ${SHIP_H[kind] || 24}" style="display:block;overflow:visible"><g fill="${fill}" stroke="${stroke}" stroke-width="${o.sw || 2.6}" stroke-linejoin="round">${SHIP[kind]}</g></svg>`;
+    inner.innerHTML = `<svg width="${w}" height="${h}" viewBox="-50 ${-(SHIP_H[kind] || 24) / 2} 100 ${SHIP_H[kind] || 24}" preserveAspectRatio="none" style="display:block;overflow:visible"><g fill="${fill}" stroke="${stroke}" stroke-width="${o.sw || 2.6}" stroke-linejoin="round">${SHIP[kind]}</g></svg>`;
     inner.querySelectorAll(".d").forEach((g) => { g.setAttribute("fill", o.deck || "rgba(20,28,38,.55)"); g.setAttribute("stroke", "none"); });
     wrap.appendChild(inner); document.getElementById("pins").appendChild(wrap);
     gsap.set(inner, { xPercent: -50, yPercent: -50, rotation: o.rot || 0, transformOrigin: "50% 50%" });
@@ -384,7 +384,7 @@ window.ShipK = function () {
     const L = o.len || 34, out = {}, rot = o.rot != null ? o.rot : 135;
     const list = [["AZ", "bb"], ["AZ_O", "tr"], ["TN", "bb"], ["WV", "bb"], ["MD", "bb"], ["OK", "bb"], ["CA", "bb"]];
     for (const [k, kind] of list) { if (o.only && !o.only.includes(k)) continue;
-      out[k] = S.ship(kind, S.P(k), { t: o.t || 0, len: kind === "tr" ? L * 0.8 : L, rot, fill: o.fill || "#8fb0cc", stroke: o.stroke || "#0c1218", sw: 2.2, until: o.until, dur: o.dur }); }
+      out[k] = S.ship(kind, S.P(k), { t: o.t || 0, len: kind === "tr" ? L * 0.8 : L, rot, fill: o.fill || "#b3cadf", stroke: o.stroke || "#0c1218", sw: 2.2, until: o.until, dur: o.dur }); }
     return out;
   };
   // deterministic scatter of target-ship dots around a point (metres radius), skipping a hole around `hole`
