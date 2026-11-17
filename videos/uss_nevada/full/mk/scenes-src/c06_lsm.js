@@ -17,7 +17,7 @@ const html = `<div style="position:relative;width:900px;height:560px">
 <div id="tFt" style="position:absolute;left:668px;top:430px;font-size:64px;letter-spacing:.08em">90 FT</div>
 <div style="position:absolute;left:0;top:178px;font-size:34px;letter-spacing:.2em;color:#8fb0cc">LAGOON SURFACE</div></div>`;
 const card = S.card(html, 0.3, { left: 110, top: 230, width: 900 });
-card.style.padding = "20px 20px 10px"; card.style.width = "auto"; card.style.zoom = 1.35; card.style.left = "80px"; card.style.top = "170px";
+card.style.padding = "20px 20px 10px"; card.style.width = "auto"; card.style.zoom = 1.1; card.style.left = "100px"; card.style.top = "170px";
 const hide = (id, t) => { const e = card.querySelector(id); gsap.set(e, { autoAlpha: 0 }); B.tl.to(e, { autoAlpha: 1, duration: 0.4 }, t); };
 hide("#tLsm", wt("landing", 0.6)); hide("#lsm", wt("landing", 0.6)); hide("#bomb", wt("hung", 0.3)); hide("#tBomb", wt("hung", 0.3)); hide("#dim", wt("ninety", 2.2)); hide("#tFt", wt("ninety", 2.2));
 S.finish();

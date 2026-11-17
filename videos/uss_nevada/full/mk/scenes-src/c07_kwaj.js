@@ -9,5 +9,5 @@ const a = wt("August", 1.8), d = Math.max(1.2, END - a - 1.0);
 S.route([BK, KW], { t: a, dur: d, dash: [16, 12], width: 5, color: "#D9572B", ease: "power1.inOut" });
 const nv = S.ship("bb", BK, { t: a - 0.2, len: 60, rot: 0, fill: "#f3eee2", stroke: "#D9572B", sw: 3.2 }); S.sail(nv, [BK, KW], { t: a, dur: d, ease: "power1.inOut" });
 S.pin(KW, "KWAJALEIN", { t: a + d - 0.3, color: "#f3eee2", anchor: "r", size: 48, gap: 40, ringR: 34 });
-S.tag("DECOMMISSIONED", S.off(KW, 0, 0), { t: wt("six", END - 1.2), anchor: "t", size: 48, gap: 100, boxColor: "rgba(150,40,30,.92)" });
+S.tag("DECOMMISSIONED", S.off(KW, 0, 0), { t: wt("six", END - 1.2), anchor: "l", size: 48, gap: 70, boxColor: "rgba(150,40,30,.92)" });
 S.finish();
