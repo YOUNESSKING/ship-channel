@@ -1,0 +1,18 @@
+{
+ "name": "chesa",
+ "center": [
+  38.0,
+  -76.9
+ ],
+ "zoom": 9,
+ "origin_world_px": [
+  36097,
+  49748
+ ],
+ "size": [
+  2880,
+  1620
+ ],
+ "meters_per_px": 240.93,
+ "credit": "Terrain & bathymetry: Mapzen / AWS Terrain Tiles (open data)"
+}
