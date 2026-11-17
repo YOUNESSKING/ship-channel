@@ -1,0 +1,17 @@
+safe_area.js adjusted:
+  size 19->25.4: BIKINI ISLANDERS
+  size 19->25.4: TARGET SHIPS
+  size 19->25.4: THE QUESTION
+  size 19->25.4: MEN TAKING PART
+  size 19->25.4: THE PAINT
+  size 19->25.4: FOR THE BOMBARDIER
+  size 19->25.4: 30 JUNE 1946
+  fit x0.58: WHAT DOES AN ATOMIC BOMB DO TO
+  fit x0.91: 156 aircraft
+  lift 19px: THE PAINTINTERNATIONAL ORANGE
+  lift 19px: FOR THE BOMBARDIERA FLASHING L
+  lift 19px: 30 JUNE 1946THE CREW LEAVES
+  lift 20px: THE PAINTINTERNATIONAL ORANGE
+  lift 20px: FOR THE BOMBARDIERA FLASHING L
+  lift 20px: 30 JUNE 1946THE CREW LEAVES
+PASS: no text breaks the size / safe-area / font rules (85.3 s checked every 0.5 s)
