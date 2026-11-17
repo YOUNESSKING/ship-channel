@@ -29,7 +29,7 @@ Many people say she should have been saved as a museum ship. Was using her as a 
 Credits
 Archive film: US Navy and US National Archives (Operation Crossroads, Able and Baker Day Tests, MN 6517; Navy Crossroads, Nevada and 1948 target-test films, RG 80, RG 374, RG 428, RG 434). Public domain.
 Archive photos: US National Archives (NARA: US Navy, Joint Task Force One, Pacific Fleet photographs); Library of Congress (Bain News Service, Ira Eaker papers, Crossroads album). Public domain or no known restrictions.
-Maps: terrain and bathymetry from open data; routes, positions and the wreck-site outline are approximate.
+Maps: terrain and bathymetry from Mapzen / AWS Terrain Tiles (open data); Pearl Harbor coastlines © OpenStreetMap contributors (ODbL). Routes, positions and the wreck site are approximate.
 The 2020 images of the wreck belong to Ocean Infinity and SEARCH Inc. and are not shown in this video.
 Narration: AI voice (Kokoro TTS).
 Sound effects: Epidemic Sound.
