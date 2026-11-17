@@ -1,4 +1,4 @@
-"""Mallows Bay narration (copied from the Oriskany v8 builder): the designed voice "Archive" (owner pick 2026-11-10; CLAUDE.md "Voice").
+"""USS Nevada narration (copied from the Oriskany v8 builder): the designed voice "Archive" (owner pick 2026-11-10; CLAUDE.md "Voice").
 
   Kokoro style blend bm_fable 0.40 + am_michael 0.40 + bm_lewis 0.20 (tts/voices/archive_style.npy, passed as voice=<ndarray>),
   speed 0.92; question sentences at 0.92 * 0.88 / 0.95 = 0.852 (the same relative slowdown as the am_michael take: 0.88 vs 0.95).
@@ -27,18 +27,18 @@ GAP_S, GAP_P, GAP_C = 0.3, 0.6, 0.9
 OUT_WAV = os.path.join(FULL, "audio/voice_archive.wav")
 CD = os.path.join(FULL, "audio/chunks_archive")
 TEXT_FIX = {}
-PHON_FIX = {"ɐkˈɑːmæk": "ˈækəmæk"}   # Accomac: AK-uh-mak
+PHON_FIX = {}
 # v8 gate fixes (build/PRONUNCIATION_GATE_v8.md): filled after the gate
 TEXT_FIX.update(json.load(open(os.path.join(HERE, "text_fix.json"))) if os.path.exists(os.path.join(HERE, "text_fix.json")) else {})
 PHON_FIX.update(json.load(open(os.path.join(HERE, "phon_fix.json"))) if os.path.exists(os.path.join(HERE, "phon_fix.json")) else {})
 # hook: the approved test-v4 phrase splits and pauses (speed None = SPEED, else the question speed). The SS United States
 # sentences of paragraph 5 are read from the narration file (they will be re-written after 12 November), so they are not here.
 HOOK = []
-CHAPTERS = [("c01", "Hook", "Right now"), ("c02", "The Ghost Fleet", "Start with what you would see"),
-            ("c03", "A Fleet of Wood", "To understand how a fleet"), ("c04", "Too Late", "On paper, it looked"),
-            ("c05", "Sold for Scrap", "So the government tried to sell"), ("c06", "The Great Burn", "On the seventh of November"),
-            ("c07", "One More War", "Then, in nineteen forty-one"), ("c08", "Why They Stayed", "To answer the question")]
-SPLIT = lambda p: [s.strip() for s in re.findall(r"[^.?!]+[.?!]+(?:\s|$)", p + " ") if s.strip()]
+CHAPTERS = [("c01", "Hook", "On the first of July"), ("c02", "The Bull's-Eye", "Start with the place"),
+            ("c03", "The Ship That Moved", "Pearl Harbor. The seventh"), ("c04", "Back From the Mud", "By the next day"),
+            ("c05", "Test Able", "The first of July, nineteen forty-six. Test Able."), ("c06", "Test Baker", "The first test had sunk"),
+            ("c07", "Four Days", "On the twenty-ninth of August"), ("c08", "Found", "But for more than seventy years")]
+SPLIT = lambda p: [s.strip() for s in re.findall(r"[^.?!]+[.?!]+[\"”]?(?:\s|$)", p + " ") if s.strip()]
 
 paras = [p.strip() for p in open(NARR).read().split("\n\n") if p.strip()]
 starts = {c[2]: c[0] for c in CHAPTERS}

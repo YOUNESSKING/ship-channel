@@ -245,7 +245,7 @@ for ck in ["c01", "c02", "c03", "c04", "c05", "c06", "c07", "c08"]:
     beds = []
     film_shots = [g["shot"] for g in segments if g["chapter"] == ck and g["kind"] == "film" and not g.get("generic")]   # NARA archive film only
     generic_shots = [g["shot"] for g in segments if g["chapter"] == ck and g.get("generic")]
-    chj = {"key": ck, "title": f"Mallows Bay · {ch['title']}", "words": "../build/words.json", "audio_offset": round(c0, 3),
+    chj = {"key": ck, "title": f"USS Nevada · {ch['title']}", "words": "../build/words.json", "audio_offset": round(c0, 3),
            "clips_dir": "../segments", "duration": round(cend - c0, 3), "fade_out": 0.6 if ck == "c08" else 0.0, "res": 1080,
            "anim_theme": {"hue": 205, "sat": 0.85}, "font": "oswald", "shots": shots}
     json.dump(chj, open(os.path.join(FULL, "chapter", f"{ck}.json"), "w"), indent=1, ensure_ascii=False)
