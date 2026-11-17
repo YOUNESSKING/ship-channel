@@ -1,0 +1,10 @@
+safe_area.js adjusted:
+  size 19->25.4: TWO ATOMIC BOMBS
+  size 19->25.4: FROM NEVADA
+  size 19->25.4: BIKINI ATOLL · 1946
+  fit x0.75: ≈1,000 yards
+  lift 19px: TWO ATOMIC BOMBSSHE SURVIVED B
+  lift 19px: BIKINI ATOLL · 1946USS NEVADA
+  lift 20px: TWO ATOMIC BOMBSSHE SURVIVED B
+  lift 20px: BIKINI ATOLL · 1946USS NEVADA
+PASS: no text breaks the size / safe-area / font rules (35.1 s checked every 0.5 s)
