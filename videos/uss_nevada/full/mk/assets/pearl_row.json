@@ -1,0 +1,18 @@
+{
+ "name": "pearl_row",
+ "center": [
+  21.362,
+  -157.95
+ ],
+ "zoom": 15,
+ "origin_world_px": [
+  512362,
+  3683773
+ ],
+ "size": [
+  2880,
+  1620
+ ],
+ "meters_per_px": 4.45,
+ "credit": "Terrain & bathymetry: Mapzen / AWS Terrain Tiles (open data)"
+}

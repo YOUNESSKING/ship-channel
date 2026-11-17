@@ -1,0 +1,18 @@
+{
+ "name": "normandy",
+ "center": [
+  49.6,
+  -1.0
+ ],
+ "zoom": 9,
+ "origin_world_px": [
+  63731,
+  43868
+ ],
+ "size": [
+  2880,
+  1620
+ ],
+ "meters_per_px": 198.16,
+ "credit": "Terrain & bathymetry: Mapzen / AWS Terrain Tiles (open data)"
+}

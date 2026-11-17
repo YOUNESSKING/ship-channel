@@ -1,18 +1,18 @@
 {
  "name": "pearl",
  "center": [
-  21.355,
-  -157.955
+  21.345,
+  -157.965
  ],
- "zoom": 13,
+ "zoom": 14,
  "origin_world_px": [
-  126981,
-  920379
+  255286,
+  1841694
  ],
  "size": [
   2880,
   1620
  ],
- "meters_per_px": 17.8,
+ "meters_per_px": 8.9,
  "credit": "Terrain & bathymetry: Mapzen / AWS Terrain Tiles (open data)"
 }

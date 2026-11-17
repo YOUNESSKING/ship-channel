@@ -3,8 +3,10 @@
 # Tiles are cached in tools/.tiles (git-ignored); existing jpgs are skipped (delete one to re-bake).
 set -e; cd "$(dirname "$0")"
 b() { [ -f ../assets/$1.jpg ] && { echo "skip $1"; return; }; python3 bake_sea.py "$@"; }
-b pearl     21.355 -157.955 13   # Pearl Harbor: Battleship Row, Ford Island, channel, Hospital Point
-b oahu      21.15  -158.3   9    # Oahu + the 1948 sinking area ~65 nmi SW of Pearl Harbor
+# WATERMASK=osm: OSM coastline (Overpass, cached in .tiles) overrides the DEM land/sea (Terrarium shows Pearl Harbor as land)
+WATERMASK=osm b pearl     21.345 -157.965 14   # Pearl Harbor (~25.6 km wide): Ford Island, Battleship Row, channel, Hospital Point, Waipio
+SS=1 WATERMASK=osm b pearl_row 21.362 -157.950 15   # closer: Battleship Row / Ford Island (~12.8 km wide; SS=1: Terrarium has no z16)
+WATERMASK=osm b oahu      21.15  -158.3   9    # Oahu + the 1948 sinking area ~65 nmi SW of Pearl Harbor
 b hawaii    20.5   -157.5   7    # main Hawaiian islands
 b pacific   22     170      4    # Pearl Harbor -> Bikini -> Kwajalein -> Iwo Jima / Okinawa
 b bikini    11.6   165.45   11   # Bikini Atoll lagoon (target array)
