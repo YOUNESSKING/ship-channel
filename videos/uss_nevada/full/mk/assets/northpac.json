@@ -1,0 +1,18 @@
+{
+ "name": "northpac",
+ "center": [
+  50.5,
+  -178.0
+ ],
+ "zoom": 5,
+ "origin_world_px": [
+  -1394,
+  1950
+ ],
+ "size": [
+  2880,
+  1620
+ ],
+ "meters_per_px": 3111.68,
+ "credit": "Terrain & bathymetry: Mapzen / AWS Terrain Tiles (open data)"
+}

@@ -1,0 +1,18 @@
+{
+ "name": "oahu_sw",
+ "center": [
+  21.1,
+  -158.45
+ ],
+ "zoom": 10,
+ "origin_world_px": [
+  14252,
+  114537
+ ],
+ "size": [
+  2880,
+  1620
+ ],
+ "meters_per_px": 142.62,
+ "credit": "Terrain & bathymetry: Mapzen / AWS Terrain Tiles (open data)"
+}

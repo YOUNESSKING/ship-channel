@@ -9,3 +9,8 @@ skip channel
 skip medit
 bikini_close 18.7 m/px elev -2..19 origin 2011243 979813
 marshalls 601.8 m/px elev -6202..292 origin 61656 30091
+northpac 3111.7 m/px elev -9160..5828 origin -1394 1950
+atlantic 3635.4 m/px elev -8341..4881 origin 1791 2231
+osm coast: 394 ways, 30 regions, 26 classified
+watermask: sea forced 4444619 land forced 220977
+oahu_sw 142.6 m/px elev -5523..1750 origin 14252 114537

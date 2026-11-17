@@ -190,7 +190,7 @@ window.ShipK = function () {
   // polygon from [lon,lat] rings (geo.json), outlined + filled; returns the <g>
   S.poly = (rings, o = {}) => {
     const t = o.t || 0, s = S.scaleAt(t), c = o.color || S.GOLD;
-    const d = rings.map((r) => "M" + r.map((q) => S.G(q[1], q[0]).map((v) => v.toFixed(1)).join(",")).join("L") + "Z").join("");
+    const d = rings.map((r) => "M" + r.map((q) => (o.px ? q : S.G(q[1], q[0])).map((v) => v.toFixed(1)).join(",")).join("L") + "Z").join("");
     const g = document.createElementNS(NS, "g");
     g.innerHTML = `<path d="${d}" fill="${c}" fill-opacity="${o.fill != null ? o.fill : 0.28}" stroke="${c}" stroke-width="${(o.width || 3.5) / s}" stroke-linejoin="round" style="filter:drop-shadow(0 0 ${6 / s}px ${c})"/>`;
     svg.appendChild(g);
@@ -286,6 +286,21 @@ window.ShipK = function () {
   S.mpx = (m) => m / mpp;                                              // metres -> map px (at the basemap centre latitude)
   S.off = (pt, eastM, northM) => [pt[0] + eastM / mpp, pt[1] - northM / mpp];
   S.yd = (y) => y * 0.9144;
+
+  // ---- USS Nevada places (lat, lon) ----
+  Object.assign(S.PL, {
+    PEARL: [21.345, -157.975], ENTR: [21.318, -157.968], FORD: [21.3644, -157.9600], HOSP: [21.3410, -157.9645], WAIPIO: [21.3432, -157.9720],
+    BIKINI: [11.6, 165.45], KWAJ: [8.72, 167.73], ATTU: [52.9, 173.1], PUGET: [47.56, -122.63], UTAH: [49.42, -1.18], CHERB: [49.64, -1.62],
+    TOULON: [43.12, 5.93], IWO: [24.78, 141.32], OKI: [26.3, 127.8], WRECK: [20.9, -158.95], OAHU: [21.45, -157.95], NORFOLK: [36.95, -76.3],
+    BANGOR: [54.66, -5.67], AIM: [11.583, 165.507], BURSTA: [11.583, 165.50197], BURSTB: [11.585, 165.505],
+    // Battleship Row, 7 Dec 1941 (berth centres, from the OSM shore of Ford Island; row runs NE -> SW along the island's east shore)
+    NV: [21.36438, -157.95117], AZ: [21.36296, -157.95303], AZ_O: [21.36234, -157.95236], TN: [21.36142, -157.95465], WV: [21.36081, -157.95398],
+    MD: [21.35989, -157.95628], OK: [21.35928, -157.9556], CA: [21.35819, -157.95771] });
+  // Nevada's 08:40 run: out from F-8, down the row, then the channel to the entrance (lat, lon)
+  S.RUN = [[21.36438, -157.95117], [21.36247, -157.94909], [21.35964, -157.95186], [21.3568, -157.95486], [21.35555, -157.95715], [21.35462, -157.95816],
+    [21.35222, -157.96417], [21.34862, -157.96889], [21.34183, -157.97121], [21.33383, -157.97258], [21.32744, -157.97173], [21.32104, -157.96889], [21.31544, -157.96761], [21.30745, -157.96846]];
+  S.ang = (a, b) => Math.atan2(b[1] - a[1], b[0] - a[0]) * 180 / Math.PI;
+  S.sl = (m, t = 0, k = 1.35) => m / mpp * S.scaleAt(t) * k;     // ship length in SCREEN px for a real length in metres (k = exaggeration)
   // top-down ship silhouettes, drawn pointing right (+x) in a 100 x 24 box
   const SHIP = {
     bb: '<path d="M-49 -5.5 L28 -8 L40 -5 L50 0 L40 5 L28 8 L-49 5.5 Z"/><g class="d"><circle cx="-30" cy="0" r="4.2"/><circle cx="-18" cy="0" r="4.2"/><circle cx="26" cy="0" r="4.2"/><rect x="-4" y="-4" width="14" height="8" rx="2"/></g>',
@@ -361,6 +376,25 @@ window.ShipK = function () {
     svg.appendChild(g); gsap.set(g, { autoAlpha: 0 });
     tl.fromTo(g, { autoAlpha: 0, scale: 2, svgOrigin: `${pt[0]} ${pt[1]}` }, { autoAlpha: 1, scale: 1, svgOrigin: `${pt[0]} ${pt[1]}`, duration: 0.25, ease: "power3.out", immediateRender: false }, t);
     return g;
+  };
+
+  // ---- shared pieces ----
+  // Battleship Row companions (everything except Nevada): static grey-blue icons. o: t, len (screen px), rot (deg), until, only
+  S.rowShips = (o = {}) => {
+    const L = o.len || 34, out = {}, rot = o.rot != null ? o.rot : 135;
+    const list = [["AZ", "bb"], ["AZ_O", "tr"], ["TN", "bb"], ["WV", "bb"], ["MD", "bb"], ["OK", "bb"], ["CA", "bb"]];
+    for (const [k, kind] of list) { if (o.only && !o.only.includes(k)) continue;
+      out[k] = S.ship(kind, S.P(k), { t: o.t || 0, len: kind === "tr" ? L * 0.8 : L, rot, fill: o.fill || "#8fb0cc", stroke: o.stroke || "#0c1218", sw: 2.2, until: o.until, dur: o.dur }); }
+    return out;
+  };
+  // deterministic scatter of target-ship dots around a point (metres radius), skipping a hole around `hole`
+  S.scatter = (c, n, rM, seed = 7, hole = null, holeM = 500) => {
+    let a = seed; const rnd = () => { a |= 0; a = a + 0x6D2B79F5 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; };
+    const out = []; let g = 0;
+    while (out.length < n && g++ < 2000) { const ang = rnd() * 6.283, r = Math.sqrt(rnd()) * rM, p = S.off(c, Math.cos(ang) * r * 1.25, Math.sin(ang) * r * 0.8);
+      if (hole && Math.hypot(p[0] - hole[0], p[1] - hole[1]) < holeM / mpp) continue;
+      if (out.some((q) => Math.hypot(q[0] - p[0], q[1] - p[1]) < 150 / mpp)) continue; out.push(p); }
+    return out;
   };
   S.fade = (el, t, dur = 0.5, to = 0) => tl.to(el, { autoAlpha: to, duration: dur }, t);   // fade a returned element (ship.wrap / dot / etc.)
   return S;
