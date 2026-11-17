@@ -13,3 +13,9 @@ b bikini    11.6   165.45   11   # Bikini Atoll lagoon (target array)
 b normandy  49.6   -1.0     9    # Utah Beach, Cotentin, Cherbourg
 b channel   50.0   -2.0     7    # English Channel, Normandy and southern France context
 b medit     43.0   6.5      8    # Operation Dragoon, Provence coast
+# --- added for the Nevada map scenes ---
+b bikini_close 11.585 165.50 13   # Bikini lagoon close: Able miss (1/3 mile), Baker rings (240 / 380 / 1,060 yd)
+b marshalls 10.2 166.6 8          # Bikini + Kwajalein
+b northpac  50.5 -178 5           # Attu / Aleutians
+b atlantic  42 -38 5              # US east coast -> Britain / Normandy
+WATERMASK=osm b oahu_sw 21.1 -158.45 10   # Oahu + the 1948 sinking area (~65 nmi SW of Pearl Harbor), search box 10x10 nmi

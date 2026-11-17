@@ -56,7 +56,7 @@
    "id": "s04",
    "start": "t10.36",
    "sfx": false,
-   "tag": "U.S. NAVY COLOUR FILM · USS NEVADA, BIKINI 1946",
+   "tag": "U.S. NAVY COLOUR FILM (COLOUR RESTORED) · USS NEVADA, BIKINI 1946",
    "template": "lower_third",
    "variant": "kicker_line",
    "clip": {
@@ -73,7 +73,7 @@
    "id": "s05",
    "start": "t12.52",
    "sfx": false,
-   "tag": "U.S. NAVY COLOUR FILM · USS NEVADA, BIKINI 1946",
+   "tag": "U.S. NAVY COLOUR FILM (COLOUR RESTORED) · USS NEVADA, BIKINI 1946",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
@@ -167,7 +167,7 @@
    "id": "s12",
    "start": "t32.69",
    "sfx": false,
-   "tag": "U.S. NAVY COLOUR FILM · USS NEVADA, BIKINI 1946",
+   "tag": "U.S. NAVY COLOUR FILM (COLOUR RESTORED) · USS NEVADA, BIKINI 1946",
    "template": "lower_third",
    "variant": "kicker_line",
    "clip": {

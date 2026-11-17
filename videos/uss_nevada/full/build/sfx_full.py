@@ -1,4 +1,4 @@
-"""Mallows Bay sound cues for the whole video, one timeline (tools/sound/sfx_mix_lib.py v2: locked roles + levels, real Epidemic
+"""USS Nevada sound cues (copied from Mallows Bay) for the whole video, one timeline (tools/sound/sfx_mix_lib.py v2: locked roles + levels, real Epidemic
 recordings; every cue silent by the next picture cut after its event; beds start/stop with their shots).
 Cues come from build/sfx_cNN.json (make_shotlists.py); every "@word" time is resolved with the chapter builder's own resolver
 (templates/build_chapter.py Ctx.t), so a sound lands where the text animation lands.
@@ -63,14 +63,14 @@ CUES = keep
 
 TODAY = re.compile(r"^(p|b)_c0\d_s\d+\.mp4$")
 def bed_of(k, s):
+    """USS Nevada: projector under archive film; underwater under the c08 depth gauges; drone under other gauges/option lists."""
     clip = ((s.get("clip") or {}).get("file") or "")
     seg = SEGS.get((k, s["id"], clip)); tpl = s.get("template")
-    if tpl == "anim_gauge": return "drone"
-    if seg and seg["kind"] == "film" and seg.get("clip", "").startswith("today_"): return "waves"   # modern video of the bay: river, not projector
+    if tpl == "anim_gauge": return "underwater" if k == "c08" else "drone"
+    if tpl == "anim_options": return "drone"
     if seg and seg["kind"] == "film": return "projector"
-    if seg and seg["kind"] == "photo" and re.match(r"(aer_|naip_|usgs_|noaa_)", seg["photo"]) and "ghost_fleet_nara" not in seg["photo"]: return "waves"
     return None
-SRC = {"projector": 0.0, "waves": 0.0, "drone": 0.0}
+SRC = {"projector": 0.0, "waves": 0.0, "drone": 0.0, "underwater": 0.0}
 for k in KEYS:
     run = None
     for s in CHJ[k]["shots"]:
@@ -81,7 +81,7 @@ for k in KEYS:
         if bd:
             SRC[bd] = (SRC[bd] + 37.0) % 100.0
             run = dict(role=bd, shot=sid, end_shot=sid, note={"projector": "projector loop under archive film", "waves": "water under today's bay pictures",
-                                                               "drone": "low tension drone (price / cost gauges)"}[bd], fade=0.15 if bd == "projector" else 0.4, src=SRC[bd])
+                                                               "drone": "low tension drone (gauges)", "underwater": "underwater bed (depth of the wreck)"}[bd], fade=0.15 if bd == "projector" else 0.4, src=SRC[bd])
     if run: BEDS.append(run)
 
 if __name__ == "__main__":

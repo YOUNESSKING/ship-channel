@@ -8,7 +8,7 @@ Sources: F:<key>.mp4 film · P:<photo stem> (footage/src/photos) · M:<map scene
 MS:<segment>@<sec|end> pushed still of a rendered map.
 Hook rule: highest-quality footage (the 1080p colour Navy Crossroads film, MN-6517).
 """
-T_ORANGE = "U.S. NAVY COLOUR FILM · USS NEVADA, BIKINI 1946"
+T_ORANGE = "U.S. NAVY COLOUR FILM (COLOUR RESTORED) · USS NEVADA, BIKINI 1946"
 T_X = "U.S. NAVY COLOUR FILM · OPERATION CROSSROADS, 1946"
 T_ABLE = "U.S. NAVY FILM · TEST ABLE, 1 JULY 1946"
 T_BAKER = "U.S. NAVY FILM · TEST BAKER, 25 JULY 1946"
@@ -19,13 +19,13 @@ T_PH = "FILM · PEARL HARBOR, 7 DECEMBER 1941"
 T_SALV = "U.S. NAVY FILM · SALVAGE AT PEARL HARBOR, 1942"
 FILMS = {
  # --- colour Crossroads master (archive.org OperationCrossroads, Navy MN-6517, 1080p)
- "orange_wide": ("crossroads_mn6517_w01", [[0.2, 4.1]], T_ORANGE),
- "orange_close": ("crossroads_mn6517_w01", [[4.45, 6.65]], T_ORANGE, 0.75),
- "orange_rail": ("crossroads_mn6517_w01", [[6.95, 10.45]], T_ORANGE),
- "orange_ladder": ("crossroads_mn6517_w01", [[10.75, 14.45]], T_ORANGE),
- "orange_barrels": ("crossroads_mn6517_w01", [[14.75, 22.65]], T_ORANGE),
- "orange_tank": ("crossroads_mn6517_w01", [[26.85, 28.55]], T_ORANGE, 0.6),
- "orange_tower": ("crossroads_mn6517_w01", [[28.85, 34.0]], T_ORANGE),
+ "orange_wide": ("crossroads_mn6517_w01g", [[0.2, 4.1]], T_ORANGE),
+ "orange_close": ("crossroads_mn6517_w01g", [[4.45, 6.65]], T_ORANGE, 0.75),
+ "orange_rail": ("crossroads_mn6517_w01g", [[6.95, 10.45]], T_ORANGE),
+ "orange_ladder": ("crossroads_mn6517_w01g", [[10.75, 14.45]], T_ORANGE),
+ "orange_barrels": ("crossroads_mn6517_w01g", [[14.75, 22.65]], T_ORANGE),
+ "orange_tank": ("crossroads_mn6517_w01g", [[26.85, 28.55]], T_ORANGE, 0.6),
+ "orange_tower": ("crossroads_mn6517_w01g", [[28.85, 34.0]], T_ORANGE),
  "goat_handle": ("crossroads_mn6517_w02", [[0.15, 3.6]], T_X),
  "goat_head": ("crossroads_mn6517_w02", [[3.85, 8.8]], T_X),
  "able_b29": ("crossroads_mn6517_w03", [[0.15, 4.0]], "U.S. NAVY COLOUR FILM · A B-29 OVER BIKINI, 1946"),
@@ -346,7 +346,7 @@ B["c07"] = [
  E("She would be one last target", "F:scarred.mp4"),
  E("On the twenty-sixth of July", "M:c07_towout", map="Oahu: tow line from PEARL HARBOR out to sea SW; '26 JULY 1948' on 'twenty'"),
  E("a tug towed her out", "F:tow_out.mp4"),
- E("First, new secret explosives", "F:sink_close_burn.mp4", sfx=[("charges", 0.4, "explosives test (film)", {})]),
+ E("First, new secret explosives", "F:sink_close_burn.mp4", sfx=[("explosion", 0.4, "explosives test (film)", {})]),
  E("They ripped holes", "F:deck_above.mp4"),
  E("She did not sink", "F:sink_broadside.mp4"),
  E("Days of bombs and rockets", "F:sink_bombs.mp4"),

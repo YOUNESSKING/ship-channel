@@ -15,7 +15,7 @@ window.ShipK = function () {
   const B = Battle(); const tl = B.tl;
   const world = document.getElementById("world"), fx = document.getElementById("fx"), svg = document.getElementById("overlay");
   const NS = "http://www.w3.org/2000/svg";
-  const S = { B, tl, END, GOLD: "#e3c27a", TEAL: "#7fd3d8", BLUE: "#4f8df0", RED: "#e0403a", INK: "#f3eee2", BOX: "rgba(10,24,38,.9)" };
+  const S = { B, tl, END, GOLD: "#D9572B", ORG: "#D9572B", TEAL: "#8fb0cc", STEEL: "#8fb0cc", BLUE: "#4f8df0", RED: "#e0403a", INK: "#f3eee2", BOX: "rgba(10,24,38,.9)" };
   const css = document.createElement("style");
   css.textContent = `
     .sk-f { position:absolute; left:0; top:0; will-change: transform; }
@@ -23,10 +23,10 @@ window.ShipK = function () {
               text-shadow:0 2px 6px rgba(0,0,0,.95), 0 0 3px #000; }
     .sk-box { padding:2px 14px; background:rgba(10,24,38,.9); border:2px solid #f3eee2; border-radius:3px; text-shadow:none; }
     .sk-date { position:absolute; left:90px; top:78px; font-family:Oswald; font-weight:700; font-size:46px; letter-spacing:.16em;
-               color:#e3c27a; text-shadow:0 2px 8px rgba(0,0,0,.9); white-space:nowrap; }
-    .sk-date .rule { height:3px; background:#e3c27a; margin-top:6px; transform-origin:0 50%; box-shadow:0 1px 4px rgba(0,0,0,.7); }
+               color:#f7f3ea; text-shadow:0 2px 8px rgba(0,0,0,.9); white-space:nowrap; }
+    .sk-date .rule { height:3px; background:#D9572B; margin-top:6px; transform-origin:0 50%; box-shadow:0 1px 4px rgba(0,0,0,.7); }
     .sk-card { position:absolute; font-family:Oswald; font-weight:700; color:#f4f1ea; background:rgba(12,18,26,.9);
-               border-top:6px solid #e3c27a; padding:26px 48px 30px; box-shadow:0 20px 40px rgba(0,0,0,.5); text-align:center; }
+               border-top:6px solid #D9572B; padding:26px 48px 30px; box-shadow:0 20px 40px rgba(0,0,0,.5); text-align:center; }
     #credit { font-family: Oswald; }`;
   document.head.appendChild(css);
   // ---- projection (lon wrapped into the bake's range, so Pacific bakes work across the antimeridian) ----
@@ -280,5 +280,88 @@ window.ShipK = function () {
     g.setAttribute("transform", `rotate(${ang} ${C[0]} ${C[1]})`);
     svg.appendChild(g); return g;
   };
+
+  // ================= USS Nevada additions =================
+  const mpp = M.meters_per_px;
+  S.mpx = (m) => m / mpp;                                              // metres -> map px (at the basemap centre latitude)
+  S.off = (pt, eastM, northM) => [pt[0] + eastM / mpp, pt[1] - northM / mpp];
+  S.yd = (y) => y * 0.9144;
+  // top-down ship silhouettes, drawn pointing right (+x) in a 100 x 24 box
+  const SHIP = {
+    bb: '<path d="M-49 -5.5 L28 -8 L40 -5 L50 0 L40 5 L28 8 L-49 5.5 Z"/><g class="d"><circle cx="-30" cy="0" r="4.2"/><circle cx="-18" cy="0" r="4.2"/><circle cx="26" cy="0" r="4.2"/><rect x="-4" y="-4" width="14" height="8" rx="2"/></g>',
+    cru: '<path d="M-49 -4.2 L26 -5.8 L38 -3.5 L50 0 L38 3.5 L26 5.8 L-49 4.2 Z"/><g class="d"><circle cx="-34" cy="0" r="3"/><circle cx="30" cy="0" r="3"/><rect x="-10" y="-3" width="14" height="6" rx="2"/></g>',
+    dd: '<path d="M-49 -3 L28 -4 L50 0 L28 4 L-49 3 Z"/><g class="d"><rect x="-6" y="-2.2" width="10" height="4.4" rx="1.5"/></g>',
+    tr: '<path d="M-49 -6 L36 -6.5 L50 0 L36 6.5 L-49 6 Z"/><g class="d"><rect x="-30" y="-4" width="12" height="8"/><rect x="2" y="-4" width="12" height="8"/></g>',
+    lsm: '<path d="M-49 -6 L38 -6 L50 -3 L50 3 L38 6 L-49 6 Z"/><g class="d"><rect x="-44" y="-4" width="12" height="8"/></g>',
+    tug: '<path d="M-26 -8 L18 -9 L28 0 L18 9 L-26 8 Z"/><g class="d"><rect x="-16" y="-5" width="16" height="10" rx="2"/></g>',
+    b29: '<path d="M50 0 L14 -3 L8 -22 L-1 -22 L-2 -3 L-34 -2 L-40 -9 L-47 -9 L-45 0 L-47 9 L-40 9 L-34 2 L-2 3 L-1 22 L8 22 L14 3 Z"/>',
+  };
+  const SHIP_H = { bb: 24, cru: 20, dd: 14, tr: 20, lsm: 20, tug: 28, b29: 48 };
+  S.ship = (kind, pt, o = {}) => {
+    const t = o.t || 0, s = S.scaleAt(t), w = (o.len || 90) / s, fill = o.fill || "#f3eee2", stroke = o.stroke || "#D9572B";
+    const h = w * (SHIP_H[kind] || 24) / 100 * (kind === "tug" ? 1 : 1);
+    const wrap = document.createElement("div"); wrap.style.cssText = `position:absolute;left:${pt[0]}px;top:${pt[1]}px;width:0;height:0;will-change:transform`;
+    const inner = document.createElement("div"); inner.style.cssText = `position:absolute;left:0;top:0;width:${w}px;height:${h}px;filter:drop-shadow(0 0 ${6 / s}px rgba(0,0,0,.9))`;
+    inner.innerHTML = `<svg width="${w}" height="${h}" viewBox="-50 ${-(SHIP_H[kind] || 24) / 2} 100 ${SHIP_H[kind] || 24}" style="display:block;overflow:visible"><g fill="${fill}" stroke="${stroke}" stroke-width="${o.sw || 2.6}" stroke-linejoin="round">${SHIP[kind]}</g></svg>`;
+    inner.querySelectorAll(".d").forEach((g) => { g.setAttribute("fill", o.deck || "rgba(20,28,38,.55)"); g.setAttribute("stroke", "none"); });
+    wrap.appendChild(inner); document.getElementById("pins").appendChild(wrap);
+    gsap.set(inner, { xPercent: -50, yPercent: -50, rotation: o.rot || 0, transformOrigin: "50% 50%" });
+    gsap.set(wrap, { autoAlpha: 0 });
+    tl.to(wrap, { autoAlpha: 1, duration: o.dur || 0.45, ease: "power2.out" }, t);
+    if (o.until != null) tl.to(wrap, { autoAlpha: 0, duration: 0.35 }, o.until);
+    return { wrap, inner, p0: pt, s };
+  };
+  // path sample (smooth through pts) for movers
+  const sampleHidden = (pts) => { const g = document.createElementNS(NS, "path"); g.setAttribute("d", smooth(pts)); g.setAttribute("fill", "none"); g.setAttribute("stroke", "none"); svg.appendChild(g);
+    const L = g.getTotalLength(), N = 200, a = []; for (let i = 0; i <= N; i++) { const q = g.getPointAtLength(L * i / N); a.push([q.x, q.y]); }
+    return (p) => { const f = Math.min(N, Math.max(0, p * N)), i = Math.min(N - 1, Math.floor(f)), u = f - i; const A = a[i], Bq = a[i + 1], P = a[Math.min(N, i + 4)], Q = a[Math.max(0, i - 3)];
+      return [A[0] + (Bq[0] - A[0]) * u, A[1] + (Bq[1] - A[1]) * u, Math.atan2(P[1] - Q[1], P[0] - Q[0]) * 180 / Math.PI]; }; };
+  // move a ship along pts (world px): o.t, o.dur, o.ease, o.rotAdd (deg added to the travel heading: 180 = stern first), o.keepRot
+  S.sail = (sh, pts, o = {}) => {
+    const at = sampleHidden(pts), pr = { p: 0 }, p0 = sh.p0, add = o.rotAdd || 0;
+    const upd = () => { const q = at(pr.p); gsap.set(sh.wrap, { x: q[0] - p0[0], y: q[1] - p0[1] }); if (!o.keepRot) gsap.set(sh.inner, { rotation: q[2] + add }); };
+    tl.to(pr, { p: 1, duration: o.dur || 2, ease: o.ease || "power1.inOut", onUpdate: upd, immediateRender: false }, o.t || 0);
+    return at;
+  };
+  S.turn = (sh, from, to, t, dur = 0.8) => tl.fromTo(sh.inner, { rotation: from }, { rotation: to, duration: dur, ease: "sine.inOut", immediateRender: false }, t);
+  // static circle (radius in metres, or screen px with o.px) drawn in the world; pops in
+  S.circ = (pt, rM, o = {}) => {
+    const t = o.t || 0, s = S.scaleAt(t), r = o.px ? o.px / s : rM / mpp, c = o.color || "#f3eee2";
+    const g = document.createElementNS(NS, "circle"); g.setAttribute("cx", pt[0]); g.setAttribute("cy", pt[1]); g.setAttribute("r", r);
+    g.setAttribute("fill", o.fill || "none"); g.setAttribute("stroke", c); g.setAttribute("stroke-width", (o.width || 3.5) / s);
+    if (o.dash) g.setAttribute("stroke-dasharray", `${o.dash[0] / s} ${o.dash[1] / s}`);
+    g.style.filter = `drop-shadow(0 0 ${4 / s}px ${c})`; svg.appendChild(g);
+    tl.fromTo(g, { autoAlpha: 0, scale: 0.25, svgOrigin: `${pt[0]} ${pt[1]}` }, { autoAlpha: 1, scale: 1, svgOrigin: `${pt[0]} ${pt[1]}`, duration: o.dur || 0.6, ease: "power2.out", immediateRender: true }, t);
+    if (o.until != null) tl.to(g, { autoAlpha: 0, duration: 0.35 }, o.until);
+    return g;
+  };
+  S.cross = (pt, o = {}) => {  // crosshair, screen-size radius
+    const t = o.t || 0, s = S.scaleAt(t), r = (o.r || 34) / s, c = o.color || "#f3eee2", w = 3 / s;
+    const g = document.createElementNS(NS, "g");
+    g.innerHTML = `<circle cx="${pt[0]}" cy="${pt[1]}" r="${r}" fill="none" stroke="${c}" stroke-width="${w}"/><path d="M${pt[0] - r * 1.5},${pt[1]} H${pt[0] - r * 0.45} M${pt[0] + r * 0.45},${pt[1]} H${pt[0] + r * 1.5} M${pt[0]},${pt[1] - r * 1.5} V${pt[1] - r * 0.45} M${pt[0]},${pt[1] + r * 0.45} V${pt[1] + r * 1.5}" stroke="${c}" stroke-width="${w}" fill="none"/>`;
+    g.style.filter = `drop-shadow(0 0 ${4 / s}px rgba(0,0,0,.9))`; svg.appendChild(g);
+    tl.fromTo(g, { autoAlpha: 0, scale: 1.8, svgOrigin: `${pt[0]} ${pt[1]}` }, { autoAlpha: 1, scale: 1, svgOrigin: `${pt[0]} ${pt[1]}`, duration: 0.5, ease: "power2.out", immediateRender: true }, t);
+    if (o.until != null) tl.to(g, { autoAlpha: 0, duration: 0.3 }, o.until);
+    return g;
+  };
+  S.burst = (pt, t, o = {}) => {   // blast star (screen size), pops and stays
+    const s = S.scaleAt(t), r = (o.r || 40) / s, c = o.color || "#D9572B";
+    let d = ""; for (let i = 0; i < 16; i++) { const a = i * Math.PI / 8, rr = i % 2 ? r * 0.45 : r; d += (i ? "L" : "M") + (pt[0] + Math.cos(a) * rr).toFixed(1) + "," + (pt[1] + Math.sin(a) * rr).toFixed(1); }
+    const g = document.createElementNS(NS, "g");
+    g.innerHTML = `<path d="${d}Z" fill="#fff4dc" stroke="${c}" stroke-width="${5 / s}" stroke-linejoin="round" style="filter:drop-shadow(0 0 ${12 / s}px ${c})"/><circle cx="${pt[0]}" cy="${pt[1]}" r="${r * 0.22}" fill="${c}"/>`;
+    svg.appendChild(g); gsap.set(g, { autoAlpha: 0 });
+    tl.fromTo(g, { autoAlpha: 0, scale: 0.2, svgOrigin: `${pt[0]} ${pt[1]}` }, { autoAlpha: 1, scale: 1, svgOrigin: `${pt[0]} ${pt[1]}`, duration: 0.3, ease: "back.out(2.4)", immediateRender: false }, t);
+    if (o.until != null) tl.to(g, { autoAlpha: 0, duration: 0.4 }, o.until);
+    return g;
+  };
+  S.xmark = (pt, t, o = {}) => {
+    const s = S.scaleAt(t), r = (o.r || 24) / s, c = o.color || "#e0403a";
+    const g = document.createElementNS(NS, "g");
+    g.innerHTML = `<path d="M${pt[0] - r},${pt[1] - r} L${pt[0] + r},${pt[1] + r} M${pt[0] + r},${pt[1] - r} L${pt[0] - r},${pt[1] + r}" stroke="#0c1218" stroke-width="${12 / s}" stroke-linecap="round"/><path d="M${pt[0] - r},${pt[1] - r} L${pt[0] + r},${pt[1] + r} M${pt[0] + r},${pt[1] - r} L${pt[0] - r},${pt[1] + r}" stroke="${c}" stroke-width="${7 / s}" stroke-linecap="round"/>`;
+    svg.appendChild(g); gsap.set(g, { autoAlpha: 0 });
+    tl.fromTo(g, { autoAlpha: 0, scale: 2, svgOrigin: `${pt[0]} ${pt[1]}` }, { autoAlpha: 1, scale: 1, svgOrigin: `${pt[0]} ${pt[1]}`, duration: 0.25, ease: "power3.out", immediateRender: false }, t);
+    return g;
+  };
+  S.fade = (el, t, dur = 0.5, to = 0) => tl.to(el, { autoAlpha: to, duration: dur }, t);   // fade a returned element (ship.wrap / dot / etc.)
   return S;
 };

@@ -1,0 +1,10 @@
+skip pearl
+skip pearl_row
+skip oahu
+skip hawaii
+skip pacific
+skip bikini
+skip normandy
+skip channel
+skip medit
+bikini_close 18.7 m/px elev -2..19 origin 2011243 979813

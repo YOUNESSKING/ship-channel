@@ -1,4 +1,4 @@
-"""Build one renderable HyperFrames map scene for the FULL Oriskany video.
+"""Build one renderable HyperFrames map scene for the FULL USS Nevada video.
 
 usage: python3 tools/build_full.py SCENE [SCENE ...]     (SCENE = c02_bremerton etc., or 'all')
 - The scene's time window comes from ../build/segments.json (kind 'map': t0_abs, dur); word timings from ../build/words.json.
@@ -15,10 +15,8 @@ WORDS = json.load(open(f"{FULL}/build/words.json"))
 PAD = 0.1   # rendered a little longer than the shot (build_chapter trims / pads anyway)
 
 
-def plan_segs():   # scenes RENDER_PLAN (step-1 commit) lists but the current shot lists dropped (c07_storm, c07_reefpin)
-    import subprocess
-    txt = subprocess.run(["git", "show", "15a5b66:videos/oriskany/full/build/segments.json"], cwd=FULL, capture_output=True, text=True).stdout
-    return [s for s in json.loads(txt) if s["kind"] == "map"] if txt else []
+def plan_segs():   # (Oriskany kept dropped plan-only scenes here; none for USS Nevada)
+    return []
 
 
 def build(name):

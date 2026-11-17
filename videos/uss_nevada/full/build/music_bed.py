@@ -1,4 +1,4 @@
-"""Music bed for the Mallows Bay full video (from the Oriskany v8 builder). Chris Zabriskie, Music from Neptune Flux (CC BY 4.0):
+"""Music bed for the USS Nevada full video (from the Oriskany v8 builder). Chris Zabriskie, Music from Neptune Flux (CC BY 4.0):
   main    "Stories About the World That Once Was" (neptuneflux-01, 6:55)  0 s -> c06 start, folding back into itself at the
           c03/c04 chapter cut (360 s: "Then, in two thousand three, Congress changed the rules"), BEFORE the track's own outro
           (which starts ~368 s and left a music hole at 384-400 s in v1: S2)
@@ -28,19 +28,20 @@ def at(phrase):
     for i in range(len(W)):
         if [n(w["w"]) for w in W[i:i + len(toks)]] == toks: return W[i]["start"]
     raise SystemExit("phrase not found: " + phrase)
-SW_ANSWER = round(at("So that is the answer") - 1.0, 3)
+SW_ANSWER = round(at("They had found the Nevada") - 1.0, 3)
 DIP = (0.0, 0.0, 0.0)
 END_LIFT = (CH["c08"]["voice_end"] + 0.9, 8.0)
-# Mallows Bay plan (Chris Zabriskie, Music from Neptune Flux, CC BY 4.0):
-#  main "Stories About the World That Once Was" (01) hook -> c04; "That Hopeful Future Is All I've Ever Known" (02) c05 (the sale);
-#  tension "Your Mother's Daughter" (03) c06 (the great burn); main again from 100 s for c07-c08; outro "I Should Have Been More Human"
-#  (09) from the answer to the end screen.
+# USS Nevada plan (Chris Zabriskie, Music from Neptune Flux, CC BY 4.0):
+#  main "Stories About the World That Once Was" (01) hook + c02 (Bikini); tension "Your Mother's Daughter" (03) c03 (Pearl Harbor);
+#  "That Hopeful Future Is All I've Ever Known" (02) c04 (back from the mud, the war); build "To Hide Their Secrets" (04) c05 (Test Able);
+#  main again from 100 s for c06-c07 (Baker, the end); outro "I Should Have Been More Human" (09) from the answer to the end screen.
 P = [("neptuneflux-01.m4a", "Stories About the World That Once Was", 0.0, 0.0),
-     ("neptuneflux-02.m4a", "That Hopeful Future Is All I've Ever Known", 0.0, CH["c05"]["start"]),
-     ("neptuneflux-03.m4a", "Your Mother's Daughter", 0.0, CH["c06"]["start"]),
-     ("neptuneflux-01.m4a", "Stories About the World That Once Was", 100.0, CH["c07"]["start"]),
+     ("neptuneflux-03.m4a", "Your Mother's Daughter", 0.0, CH["c03"]["start"]),
+     ("neptuneflux-02.m4a", "That Hopeful Future Is All I've Ever Known", 0.0, CH["c04"]["start"]),
+     ("neptuneflux-04.m4a", "To Hide Their Secrets", 0.0, CH["c05"]["start"]),
+     ("neptuneflux-01.m4a", "Stories About the World That Once Was", 100.0, CH["c06"]["start"]),
      ("neptuneflux-09.m4a", "I Should Have Been More Human", 0.0, SW_ANSWER)]
-LEN = {"neptuneflux-01.m4a": 414.6, "neptuneflux-02.m4a": 186.4, "neptuneflux-03.m4a": 214.0, "neptuneflux-09.m4a": 223.5}
+LEN = {"neptuneflux-04.m4a": 200.2, "neptuneflux-01.m4a": 414.6, "neptuneflux-02.m4a": 186.4, "neptuneflux-03.m4a": 214.0, "neptuneflux-09.m4a": 223.5}
 
 
 def dec(path, ss, dur):
