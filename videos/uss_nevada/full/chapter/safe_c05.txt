@@ -1,0 +1,17 @@
+safe_area.js adjusted:
+  size 19->25.4: THE STRIKE AIRCRAFT
+  size 19->25.4: HER CREW WATCHED FROM
+  size 19->25.4: 1 JULY 1946
+  size 19->25.4: BURST HEIGHT
+  size 19->25.4: TONS OF TNT
+  size 19->25.4: SAME TYPE AS
+  size 19->25.4: NAVY DAMAGE REPORT, 1946
+  wrap: HER CREW WATCHED FROM
+  fit x0.96: 09:00:34
+  fit x0.49: “APPARENTLY UNAFFECTED BY HEAT
+  lift 19px: THE STRIKE AIRCRAFT“DAVE’S DRE
+  lift 10px: HER CREW WATCHED FROM21 miles
+  lift 19px: SAME TYPE ASNAGASAKI, AUGUST 1
+  lift 20px: THE STRIKE AIRCRAFT“DAVE’S DRE
+  lift 20px: SAME TYPE ASNAGASAKI, AUGUST 1
+PASS: no text breaks the size / safe-area / font rules (83.9 s checked every 0.5 s)

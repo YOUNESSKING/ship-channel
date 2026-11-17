@@ -1,0 +1,19 @@
+safe_area.js adjusted:
+  size 19->25.4: 7 DEC 1941
+  size 19->25.4: SENIOR OFFICER ON BOARD
+  size 19->25.4: CHIEF QUARTERMASTER SEDBERRY
+  size 19->25.4: CHIEF BOATSWAIN
+  size 19->25.4: BOMB HITS
+  size 19->25.4: ENSIGN
+  size 19->25.4: 09:10
+  size 19->25.4: CHIEF BOATSWAIN EDWIN J. HILL
+  size 19->25.4: MACHINIST DONALD K. ROSS
+  size 19->25.4: MACHINIST DONALD K. ROSS
+  size 19->25.4: HER CREW
+  size 19->25.4: KILLED
+  size 19->25.4: WOUNDED
+  lift 27px: ENSIGNJ. K. TAUSSIG JR.
+  lift 27px: 09:10AGROUND OFF HOSPITAL POIN
+  lift 12px: ENSIGNJ. K. TAUSSIG JR.
+  lift 12px: 09:10AGROUND OFF HOSPITAL POIN
+PASS: no text breaks the size / safe-area / font rules (167.2 s checked every 0.5 s)

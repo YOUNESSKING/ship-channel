@@ -1,0 +1,12 @@
+safe_area.js adjusted:
+  size 19->25.4: SALVAGE DIVES
+  size 19->25.4: PEARL HARBOR → D-DAY
+  size 19->25.4: STRADDLED
+  size 19->25.4: 27 MARCH 1945
+  size 19->25.4: BATTLE STARS, WORLD WAR II
+  size 19->25.4: LAUNCHED
+  fit x0.84: THE ONLY BATTLESHIP AT BOTH
+  lift 19px: LAUNCHED11 JULY 1914
+  wrap: PEARL HARBOR → D-DAY
+  lift 20px: LAUNCHED11 JULY 1914
+PASS: no text breaks the size / safe-area / font rules (120.0 s checked every 0.5 s)
