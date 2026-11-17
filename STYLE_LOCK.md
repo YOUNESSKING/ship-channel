@@ -34,7 +34,9 @@ End changed or added.
   tagged generic b-roll, or a moving map/photo).
 - Archive film: `GRADE=none` (no Deep Time grade); `ARCHIVE_GRADE=ship` where the Oriskany build used it; pillarbox or
   upscale 4:3; trim leaders. Generic footage that is not the subject ship is marked ILLUSTRATIVE on screen.
-- A clip is reused at most twice, 3+ min apart (`build/shotlist_report.md`).
+- A clip **or photo** is used at most twice, 3+ min apart (owner 2026-11-15: "don't reuse the same photos, 2 times tops";
+  `build/shotlist_report.md`).
+- Hook must be engaging and use the highest-quality footage available (owner 2026-11-15, Mallows Bay v2 notes).
 - Text: Anton / Oswald, white with one red accent (#D9572B family / red), steel-blue secondary. No gold/yellow.
   Safe-area checker `templates/check_safe_text.js` must pass every chapter.
 - Contact sheet (one frame every 10 s) looked at before delivery; blackdetect clean; `tools/film/check_clips.py --no-cuts`.

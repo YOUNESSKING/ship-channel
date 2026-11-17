@@ -10,8 +10,10 @@ Read in this order: `CLAUDE.md` → this file → `STYLE_LOCK.md` → `reference
 - Video 1, USS Oriskany: v8 master built and checked (Archive voice). Not published yet: its SS United States lines
   (sinking planned 12 Nov 2026) must be rewritten to what happened, then v9 (fast path in BUILD_REPORT_v8.md §6). That
   work is handled in the original session, not here.
-- Video 2: **Mallows Bay** ("100+ Ships Are Rotting 30 Miles From the White House", thumbnail word GHOST FLEET),
-  plan in `research/FIRST_5_VIDEOS.md` §2. Folder to use: `videos/mallows_bay/`.
+- Video 2: **Mallows Bay**, built in session "Fleet's End v2" (`videos/mallows_bay/`, `full/BUILD_REPORT_v1.md` incl. §9
+  owner notes for v2). Delivered 2026-11-16. Read its §9 and its thumbnail critiques: they are the latest owner feedback.
+- Video 3: **USS Nevada** ("The Battleship That Survived Two Atomic Bombs", thumbnail SURVIVED 2 A-BOMBS), plan in
+  `research/FIRST_5_VIDEOS.md` §3. Folder: `videos/uss_nevada/`. Built in session "Fleet's End v3".
 
 ## Per-video pipeline (Oriskany is the worked example; copy its scripts, do not rewrite from scratch)
 1. Research: Gemini dossier (`research/GEMINI_BRIEF_v3.md` pattern) → `FACT_SHEET.md` → 3 independent fact-checkers on
