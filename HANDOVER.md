@@ -16,6 +16,22 @@ Read in this order: `CLAUDE.md` → this file → `STYLE_LOCK.md` → `reference
   owner; hook re-made on the owner's note ("not clear ... make it engaging": only HD colour film + 4K stills). Master v1 14:13, SOUND
   LOCK OK; record in `full/BUILD_REPORT_v1.md` (section 9 = open items). New tools: OSM water mask in `bake_sea.py` (WATERMASK=osm),
   depth model + deps in setup.sh.
+
+## Per-video pipeline (Oriskany is the worked example; copy its scripts, do not rewrite from scratch)
+1. Research: Gemini dossier (`research/GEMINI_BRIEF_v3.md` pattern) → `FACT_SHEET.md` → 3 independent fact-checkers on
+   official sources (`FACTCHECK_A/B/C_*.md` pattern). Gemini invents claims; nothing unverified goes in the script.
+2. Hook (`script/HOOK_v1.md` pattern) → **stop, owner approves the hook**.
+3. Full script + `NARRATION_v*.txt` (one paragraph per line), titles/thumb ideas in `script/TITLES_THUMBS.md`.
+4. Footage list + downloads + CREDITS/MANIFEST (`videos/oriskany/footage/` pattern; rights field read for every item).
+5. Voice in Archive + pronunciation gate + names clip (`full/build/voice.py`, `voice_gate.py`, `names_clip.py`).
+6. Shot lists (`full/build/make_shotlists.py`) → **stop, owner approves the shot list / test hook render** before the
+   full render.
+7. Maps (`full/mk/`), hero animations (`make_anims.py`), segments (`make_segments.py`), chapters (`render_all.sh`),
+   SFX + music + mix (`sfx_full.py`, `music_bed.py`, `mix_full.py`), all checks from STYLE_LOCK.md.
+8. Packaging: titles (vidIQ, ask before spend), thumbnails, description, upload kit PDF.
+9. Owner review of the finished video (720p preview sent; Gofile only if the owner asks).
+
+## Fresh-container setup
 - `bash setup.sh` (ffmpeg, hyperframes, kokoro-onnx, Kokoro model files). `pip install faster-whisper av==15.1.0`.
 - Paths: copied tools may still hard-code `/home/user/battle-maps` or `/home/user/prehistory-channel`; patch them to
   repo-relative paths. Oriskany scripts hard-code `videos/oriskany/...`; copy and point them at the new video folder.
