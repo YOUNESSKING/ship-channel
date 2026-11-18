@@ -3102,11 +3102,11 @@
   {
    "role": "projector",
    "file": "projector_b__5648e70b.wav",
-   "start": 544.178,
+   "start": 548.108,
    "end": 553.448,
    "level_db": -29,
    "fade": 0.25,
-   "shot": "c06:s01",
+   "shot": "c06:s02",
    "end_shot": "c06:s03",
    "note": "projector loop under archive film"
   },
