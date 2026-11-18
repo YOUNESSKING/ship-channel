@@ -26,14 +26,14 @@
 | ch | shot | start (abs s) | dur | template | source | cut on |
 |---|---|---|---|---|---|---|
 | c01 | s01 | 0.0 | 3.59 | map_clip | M:c01_open | On the first of July |
-| c01 | s02 | 3.59 | 2.14 | clip_plain | F:able_fireball.mp4 | the United States dropped |
+| c01 | s02 | 3.59 | 2.14 | clip_plain | F:able_mush_red.mp4 | the United States dropped |
 | c01 | s03 | 5.73 | 1.94 | clip_plain | F:orange_wide.mp4 | on one of its own battleships |
 | c01 | s04 | 7.67 | 2.7 | clip_plain | F:baker_enyu_a.mp4 | Three weeks later |
 | c01 | s05 | 10.36 | 2.15 | lower_third | F:orange_rail.mp4 | She survived them both |
 | c01 | s06 | 12.52 | 2.38 | clip_plain | F:orange_close.mp4 | The Navy had painted her |
 | c01 | s07 | 14.9 | 2.05 | clip_plain | F:able_b29.mp4 | so the bomber could not miss |
 | c01 | s08 | 16.95 | 3.21 | map_clip | M:c01_miss | The first bomb missed |
-| c01 | s09 | 20.16 | 1.32 | clip_plain | F:able_mush_red.mp4 | When the smoke cleared |
+| c01 | s09 | 20.16 | 1.32 | clip_plain | F:able_fireball2.mp4 | When the smoke cleared |
 | c01 | s10 | 21.48 | 1.61 | clip_plain | F:scarred.mp4 | she was still floating |
 | c01 | s11 | 23.09 | 4.36 | number_clip | F:baker_c_d.mp4 | The second bomb went off |
 | c01 | s12 | 27.44 | 3.33 | clip_plain | P:cx_saratoga_sinking_aerial_c | It sank a battleship |
