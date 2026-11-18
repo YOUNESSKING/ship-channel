@@ -305,7 +305,7 @@ B["c05"] = [
  E("The orange ship had taken", "F:orange_close.mp4"),
 ]
 B["c06"] = [
- E("The first test had sunk five", "CARD", card=dict(variant="number", kicker="SUNK BY TEST ABLE", number="5", unit="of ≈90", number_at="@five"), cbg="F:able_array.mp4"),
+ E("The first test had sunk five", "CARD", card=dict(variant="number", kicker="SUNK BY TEST ABLE", number="5", unit="of ≈90", number_at="@five"), cbg="P:cx_able_target_array_c", cbg_label="THE TARGET ARRAY, BIKINI LAGOON, 1946"),
  E("The bomb had not wiped out", "F:aerial_fleet.mp4"),
  E("The second test would be", "F:baker_c_a.mp4"),
  E("The twenty-fifth of July", "M:c06_baker", map="Bikini lagoon: '25 JULY 1946' on 'twenty'; 'TEST BAKER' stamp on 'Baker'"),
@@ -357,7 +357,7 @@ B["c07"] = [
  E("She was still floating", "F:sink_plume.mp4"),
  E("On her last day", "M:c07_ships", map="Oahu SW sea: target pin NEVADA; cruiser icons ASTORIA and PASADENA appear on their names; IOWA on 'Iowa'"),
  E("Then the battleship Iowa", "P:h_iowa_broadside_1984", label="ILLUSTRATIVE · USS IOWA FIRING, 1984"),
- E("In about twenty minutes", "CARD", card=dict(variant="number", kicker="SHELLS IN ≈20 MINUTES", number="287", number_at="@two"), cbg="MS:m_c07_ships.mp4@end"),
+ E("In about twenty minutes", "CARD", card=dict(variant="number", kicker="SHELLS IN ≈20 MINUTES", number="287", number_at="@two"), cbg="P:h_iowa_aerial_bow_1984", cbg_label="ILLUSTRATIVE · USS IOWA FIRING, 1984"),
  E("Twenty-seven of them came", "P:h_iowa_aerial_port_1984", num=dict(variant="right", kicker="FROM IOWA'S 16-INCH GUNS", number="27", number_at="@twenty"), label="ILLUSTRATIVE · USS IOWA'S 16-INCH GUNS, 1984", sfx=BOOM("16-inch gun")),
  E("The Nevada was burning", "F:burning_close.mp4"),
  E("She was still floating", "F:sink_stern.mp4"),
@@ -381,7 +381,7 @@ B["c08"] = [
  E("And the water there is nearly three", "A:anim_gauge", params=dict(variant="meter", kicker="Depth at the site", value=2.9, label="MILES DEEP", unit="mi", decimals=1, max=3, count_at="@three", dur=1.0), bg="F:shelling_b.mp4"),
  E("In twenty sixteen, a researcher", "P:i_nevada_press_release", lt=dict(kicker="2016", text="NOAA GOES BACK TO THE 1948 LOGS", at="@NOAA"), label="NAVY RECORDS ON USS NEVADA"),
  E("the logs of the Iowa", "M:c08_logs_b", map="same sea: the three log marks get labels IOWA / ASTORIA / PASADENA on their names; they converge to one AREA on 'worked'"),
- E("In April twenty twenty", "CARD", card=dict(variant="line", kicker="APRIL 2020", text="SURVEY SHIP PACIFIC CONSTRUCTOR", at="@Pacific"), cbg="MS:m_c08_logs_b.mp4@end"),
+ E("In April twenty twenty", "CARD", card=dict(variant="line", kicker="APRIL 2020", text="SURVEY SHIP PACIFIC CONSTRUCTOR", at="@Pacific"), cbg="P:i_pearl_harbor_map_47105"),
  E("searched that area", "M:c08_search", map="same sea: a 10 x 10 nmi SEARCH BOX draws on 'searched'; robot track lines sweep it"),
  E("It was run by two private", "CARD", card=dict(variant="line", kicker="THE SEARCH TEAM", text="OCEAN INFINITY · SEARCH INC.", at="@Ocean"), cbg="MS:m_c08_search.mp4@end"),
  E("In May, they announced it", "CARD", card=dict(variant="word", text="FOUND.", at="@found"), cbg="P:c_nevada_1935_c", sfx=BOOM("found (the answer)", "@found")),

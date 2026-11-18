@@ -1,0 +1,121 @@
+uss_nevada_full_v1.mp4: BLOB    0.00-  3.60s  dark blob up to 98% of the frame
+uss_nevada_full_v1.mp4: BLOB    3.73-  5.73s  dark blob up to 53% of the frame
+uss_nevada_full_v1.mp4: BLOB    7.70-  8.70s  dark blob up to 29% of the frame
+uss_nevada_full_v1.mp4: BLOB    8.90- 10.37s  dark blob up to 31% of the frame
+uss_nevada_full_v1.mp4: BLOB   20.17- 23.10s  dark blob up to 83% of the frame
+uss_nevada_full_v1.mp4: BLOB   30.80- 32.70s  dark blob up to 42% of the frame
+uss_nevada_full_v1.mp4: BLOB   35.43- 38.40s  dark blob up to 33% of the frame
+uss_nevada_full_v1.mp4: BLOB   43.93- 58.83s  dark blob up to 99% of the frame
+uss_nevada_full_v1.mp4: BLOB   63.47- 66.37s  dark blob up to 57% of the frame
+uss_nevada_full_v1.mp4: BLOB   69.23- 73.23s  dark blob up to 62% of the frame
+uss_nevada_full_v1.mp4: BLOB   78.50- 81.03s  dark blob up to 46% of the frame
+uss_nevada_full_v1.mp4: BLOB   86.03- 88.93s  dark blob up to 80% of the frame
+uss_nevada_full_v1.mp4: BLOB  103.97-104.83s  dark blob up to 42% of the frame
+uss_nevada_full_v1.mp4: BLOB  105.33-105.83s  dark blob up to 41% of the frame
+uss_nevada_full_v1.mp4: BLOB  106.50-106.93s  dark blob up to 47% of the frame
+uss_nevada_full_v1.mp4: BLOB  107.00-107.43s  dark blob up to 35% of the frame
+uss_nevada_full_v1.mp4: BLOB  107.77-108.20s  dark blob up to 48% of the frame
+uss_nevada_full_v1.mp4: BLOB  108.77-109.20s  dark blob up to 41% of the frame
+uss_nevada_full_v1.mp4: BLOB  109.63-109.83s  dark blob up to 34% of the frame
+uss_nevada_full_v1.mp4: BLOB  110.17-111.70s  dark blob up to 51% of the frame
+uss_nevada_full_v1.mp4: BLOB  114.17-119.30s  dark blob up to 57% of the frame
+uss_nevada_full_v1.mp4: BLOB  123.00-126.03s  dark blob up to 35% of the frame
+uss_nevada_full_v1.mp4: BLOB  129.83-135.37s  dark blob up to 79% of the frame
+uss_nevada_full_v1.mp4: BLOB  135.40-136.10s  dark blob up to 27% of the frame
+uss_nevada_full_v1.mp4: BLOB  136.17-136.67s  dark blob up to 27% of the frame
+uss_nevada_full_v1.mp4: BLOB  145.80-151.30s  dark blob up to 99% of the frame
+uss_nevada_full_v1.mp4: BLOB  168.53-173.10s  dark blob up to 38% of the frame
+uss_nevada_full_v1.mp4: BLOB  180.20-186.00s  dark blob up to 72% of the frame
+uss_nevada_full_v1.mp4: BLOB  195.07-199.10s  dark blob up to 45% of the frame
+uss_nevada_full_v1.mp4: BLOB  200.97-204.67s  dark blob up to 56% of the frame
+uss_nevada_full_v1.mp4: BLOB  206.20-209.90s  dark blob up to 68% of the frame
+uss_nevada_full_v1.mp4: BLOB  213.87-218.13s  dark blob up to 58% of the frame
+uss_nevada_full_v1.mp4: BLOB  220.03-222.80s  dark blob up to 68% of the frame
+uss_nevada_full_v1.mp4: BLOB  242.90-247.10s  dark blob up to 47% of the frame
+uss_nevada_full_v1.mp4: BLOB  279.80-281.53s  dark blob up to 29% of the frame
+uss_nevada_full_v1.mp4: BLOB  283.70-292.23s  dark blob up to 66% of the frame
+uss_nevada_full_v1.mp4: BLOB  297.10-299.73s  dark blob up to 34% of the frame
+uss_nevada_full_v1.mp4: BLOB  311.83-318.83s  dark blob up to 88% of the frame
+uss_nevada_full_v1.mp4: BLOB  325.30-329.57s  dark blob up to 52% of the frame
+uss_nevada_full_v1.mp4: BLOB  333.07-336.37s  dark blob up to 28% of the frame
+uss_nevada_full_v1.mp4: BLOB  339.97-340.70s  dark blob up to 34% of the frame
+uss_nevada_full_v1.mp4: BLOB  340.73-341.40s  dark blob up to 41% of the frame
+uss_nevada_full_v1.mp4: BLOB  344.53-345.07s  dark blob up to 30% of the frame
+uss_nevada_full_v1.mp4: BLOB  349.73-354.93s  dark blob up to 84% of the frame
+uss_nevada_full_v1.mp4: BLOB  357.80-363.90s  dark blob up to 90% of the frame
+uss_nevada_full_v1.mp4: BLOB  381.73-382.87s  dark blob up to 59% of the frame
+uss_nevada_full_v1.mp4: BLOB  393.00-396.43s  dark blob up to 57% of the frame
+uss_nevada_full_v1.mp4: BLOB  399.80-403.53s  dark blob up to 86% of the frame
+uss_nevada_full_v1.mp4: BLOB  404.03-404.93s  dark blob up to 57% of the frame
+uss_nevada_full_v1.mp4: BLOB  406.20-408.33s  dark blob up to 66% of the frame
+uss_nevada_full_v1.mp4: BLOB  412.00-414.10s  dark blob up to 70% of the frame
+uss_nevada_full_v1.mp4: BLOB  419.93-420.30s  dark blob up to 26% of the frame
+uss_nevada_full_v1.mp4: BLOB  437.73-441.83s  dark blob up to 65% of the frame
+uss_nevada_full_v1.mp4: BLOB  453.00-465.00s  dark blob up to 96% of the frame
+uss_nevada_full_v1.mp4: BLOB  470.07-472.97s  dark blob up to 97% of the frame
+uss_nevada_full_v1.mp4: BLOB  475.97-477.73s  dark blob up to 37% of the frame
+uss_nevada_full_v1.mp4: BLOB  481.60-486.80s  dark blob up to 33% of the frame
+uss_nevada_full_v1.mp4: BLOB  495.57-499.10s  dark blob up to 44% of the frame
+uss_nevada_full_v1.mp4: BLOB  513.87-520.77s  dark blob up to 90% of the frame
+uss_nevada_full_v1.mp4: BLOB  523.00-527.83s  dark blob up to 65% of the frame
+uss_nevada_full_v1.mp4: BLOB  530.27-539.60s  dark blob up to 91% of the frame
+uss_nevada_full_v1.mp4: BLOB  544.17-548.10s  dark blob up to 99% of the frame
+uss_nevada_full_v1.mp4: BLOB  553.47-558.47s  dark blob up to 60% of the frame
+uss_nevada_full_v1.mp4: BLOB  566.03-567.07s  dark blob up to 26% of the frame
+uss_nevada_full_v1.mp4: BLOB  567.23-568.33s  dark blob up to 26% of the frame
+uss_nevada_full_v1.mp4: BLOB  575.57-581.13s  dark blob up to 38% of the frame
+uss_nevada_full_v1.mp4: BLOB  601.57-604.90s  dark blob up to 47% of the frame
+uss_nevada_full_v1.mp4: BLOB  609.43-610.20s  dark blob up to 57% of the frame
+uss_nevada_full_v1.mp4: BLOB  612.23-614.37s  dark blob up to 55% of the frame
+uss_nevada_full_v1.mp4: BLOB  616.03-619.07s  dark blob up to 55% of the frame
+uss_nevada_full_v1.mp4: BLOB  625.00-626.00s  dark blob up to 30% of the frame
+uss_nevada_full_v1.mp4: BLOB  626.17-626.87s  dark blob up to 34% of the frame
+uss_nevada_full_v1.mp4: BLOB  626.90-627.70s  dark blob up to 36% of the frame
+uss_nevada_full_v1.mp4: BLOB  647.20-649.93s  dark blob up to 29% of the frame
+uss_nevada_full_v1.mp4: BLOB  652.47-655.97s  dark blob up to 97% of the frame
+uss_nevada_full_v1.mp4: BLOB  662.10-665.00s  dark blob up to 54% of the frame
+uss_nevada_full_v1.mp4: BLOB  667.90-671.97s  dark blob up to 99% of the frame
+uss_nevada_full_v1.mp4: BLOB  679.23-684.97s  dark blob up to 88% of the frame
+uss_nevada_full_v1.mp4: BLOB  685.03-695.63s  dark blob up to 97% of the frame
+uss_nevada_full_v1.mp4: BLOB  695.77-696.63s  dark blob up to 45% of the frame
+uss_nevada_full_v1.mp4: BLOB  696.67-697.30s  dark blob up to 42% of the frame
+uss_nevada_full_v1.mp4: BLOB  698.20-700.00s  dark blob up to 56% of the frame
+uss_nevada_full_v1.mp4: BLOB  700.13-706.37s  dark blob up to 96% of the frame
+uss_nevada_full_v1.mp4: BLOB  707.43-712.70s  dark blob up to 64% of the frame
+uss_nevada_full_v1.mp4: BLOB  716.77-728.60s  dark blob up to 99% of the frame
+uss_nevada_full_v1.mp4: BLOB  728.70-729.37s  dark blob up to 36% of the frame
+uss_nevada_full_v1.mp4: BLOB  729.40-729.77s  dark blob up to 36% of the frame
+uss_nevada_full_v1.mp4: BLOB  730.10-735.17s  dark blob up to 98% of the frame
+uss_nevada_full_v1.mp4: BLOB  738.97-746.67s  dark blob up to 98% of the frame
+uss_nevada_full_v1.mp4: BLOB  752.03-752.47s  dark blob up to 25% of the frame
+uss_nevada_full_v1.mp4: BLOB  759.07-771.07s  dark blob up to 99% of the frame
+uss_nevada_full_v1.mp4: BLOB  778.83-796.33s  dark blob up to 99% of the frame
+uss_nevada_full_v1.mp4: BLOB  800.30-804.97s  dark blob up to 99% of the frame
+uss_nevada_full_v1.mp4: BLOB  808.00-812.50s  dark blob up to 98% of the frame
+uss_nevada_full_v1.mp4: BLOB  813.57-813.80s  dark blob up to 26% of the frame
+uss_nevada_full_v1.mp4: BLOB  813.83-816.30s  dark blob up to 28% of the frame
+uss_nevada_full_v1.mp4: BLOB  816.87-817.60s  dark blob up to 29% of the frame
+uss_nevada_full_v1.mp4: BLOB  818.17-818.63s  dark blob up to 29% of the frame
+uss_nevada_full_v1.mp4: BLOB  818.67-818.93s  dark blob up to 26% of the frame
+uss_nevada_full_v1.mp4: BLOB  825.07-852.93s  dark blob up to 100% of the frame
+uss_nevada_full_v1.mp4: FLASH   3.60-  3.67s  brightness spike / burn (2 frames)
+uss_nevada_full_v1.mp4: FLASH  23.10- 23.13s  brightness spike / burn (1 frames)
+uss_nevada_full_v1.mp4: FLASH  73.23- 73.27s  brightness spike / burn (1 frames)
+uss_nevada_full_v1.mp4: FLASH 180.17-180.20s  brightness spike / burn (1 frames)
+uss_nevada_full_v1.mp4: FLASH 186.00-186.03s  brightness spike / burn (1 frames)
+uss_nevada_full_v1.mp4: FLASH 220.00-220.03s  brightness spike / burn (1 frames)
+uss_nevada_full_v1.mp4: FLASH 354.93-354.97s  brightness spike / burn (1 frames)
+uss_nevada_full_v1.mp4: FLASH 357.77-357.80s  brightness spike / burn (1 frames)
+uss_nevada_full_v1.mp4: FLASH 392.97-393.00s  brightness spike / burn (1 frames)
+uss_nevada_full_v1.mp4: FLASH 396.43-396.47s  brightness spike / burn (1 frames)
+uss_nevada_full_v1.mp4: FLASH 399.77-399.80s  brightness spike / burn (1 frames)
+uss_nevada_full_v1.mp4: FLASH 472.97-473.00s  brightness spike / burn (1 frames)
+uss_nevada_full_v1.mp4: FLASH 548.10-548.13s  brightness spike / burn (1 frames)
+uss_nevada_full_v1.mp4: FLASH 553.43-553.47s  brightness spike / burn (1 frames)
+uss_nevada_full_v1.mp4: FLASH 565.87-565.93s  brightness spike / burn (2 frames)
+uss_nevada_full_v1.mp4: FLASH 606.07-606.10s  brightness spike / burn (1 frames)
+uss_nevada_full_v1.mp4: FLASH 608.23-608.27s  brightness spike / burn (1 frames)
+uss_nevada_full_v1.mp4: FLASH 631.87-631.90s  brightness spike / burn (1 frames)
+uss_nevada_full_v1.mp4: FLASH 655.97-656.00s  brightness spike / burn (1 frames)
+uss_nevada_full_v1.mp4: FLASH 740.63-740.67s  brightness spike / burn (1 frames)
+uss_nevada_full_v1.mp4: FLASH 778.80-778.83s  brightness spike / burn (1 frames)

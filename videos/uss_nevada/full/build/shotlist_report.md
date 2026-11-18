@@ -185,7 +185,7 @@
 | c05 | s23 | 530.25 | 4.58 | clip_plain | F:goat_pen.mp4 | And in her pilot house |
 | c05 | s24 | 534.82 | 4.75 | text_card | CARD + bg F:goat_close2.mp4 | The report says |
 | c05 | s25 | 539.58 | 4.6 | clip_plain | F:orange_close.mp4 | The orange ship had taken |
-| c06 | s01 | 544.18 | 3.93 | text_card | CARD + bg F:able_array.mp4 | The first test had sunk five |
+| c06 | s01 | 544.18 | 3.93 | text_card | CARD + bg P:cx_able_target_array_c | The first test had sunk five |
 | c06 | s02 | 548.11 | 2.4 | clip_plain | F:aerial_fleet.mp4 | The bomb had not wiped out |
 | c06 | s03 | 550.51 | 2.93 | clip_plain | F:baker_c_a.mp4 | The second test would be |
 | c06 | s04 | 553.44 | 5.01 | map_clip | M:c06_baker | The twenty-fifth of July |
@@ -238,7 +238,7 @@
 | c07 | s16 | 698.2 | 1.92 | clip_plain | F:sink_plume.mp4 | She was still floating |
 | c07 | s17 | 700.12 | 4.63 | map_clip | M:c07_ships | On her last day |
 | c07 | s18 | 704.75 | 2.68 | clip_plain | P:h_iowa_broadside_1984 | Then the battleship Iowa |
-| c07 | s19 | 707.43 | 5.27 | text_card | CARD + bg MS:m_c07_ships.mp4@end | In about twenty minutes |
+| c07 | s19 | 707.43 | 5.27 | text_card | CARD + bg P:h_iowa_aerial_bow_1984 | In about twenty minutes |
 | c07 | s20 | 712.7 | 4.05 | number_clip | P:h_iowa_aerial_port_1984 | Twenty-seven of them came |
 | c07 | s21 | 716.75 | 1.89 | clip_plain | F:burning_close.mp4 | The Nevada was burning |
 | c07 | s22 | 718.65 | 1.92 | clip_plain | F:sink_stern.mp4 | She was still floating |
@@ -262,7 +262,7 @@
 | c08 | s03 | 771.04 | 3.41 | anim_gauge | A:anim_gauge + bg F:shelling_b.mp4 | And the water there is nearly three |
 | c08 | s04 | 774.45 | 4.38 | lower_third | P:i_nevada_press_release | In twenty sixteen, a researcher |
 | c08 | s05 | 778.83 | 5.87 | map_clip | M:c08_logs_b | the logs of the Iowa |
-| c08 | s06 | 784.7 | 3.88 | text_card | CARD + bg MS:m_c08_logs_b.mp4@end | In April twenty twenty |
+| c08 | s06 | 784.7 | 3.88 | text_card | CARD + bg P:i_pearl_harbor_map_47105 | In April twenty twenty |
 | c08 | s07 | 788.58 | 3.02 | map_clip | M:c08_search | searched that area |
 | c08 | s08 | 791.59 | 4.73 | text_card | CARD + bg MS:m_c08_search.mp4@end | It was run by two private |
 | c08 | s09 | 796.32 | 3.96 | text_card | CARD + bg P:c_nevada_1935_c | In May, they announced it |

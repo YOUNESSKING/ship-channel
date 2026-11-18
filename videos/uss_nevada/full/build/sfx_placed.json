@@ -3245,17 +3245,6 @@
   {
    "role": "projector",
    "file": "projector_b__5648e70b.wav",
-   "start": 707.431,
-   "end": 712.701,
-   "level_db": -29,
-   "fade": 0.25,
-   "shot": "c07:s19",
-   "end_shot": "c07:s19",
-   "note": "projector loop under archive film"
-  },
-  {
-   "role": "projector",
-   "file": "projector_b__5648e70b.wav",
    "start": 716.751,
    "end": 735.141,
    "level_db": -29,

@@ -66,7 +66,6 @@ FILMS = [
  ('f_c05_s23', 'goat_pen.mp4', 162.35, 4.98, ''),
  ('b_c05_s24', 'goat_close2.mp4', 84.35, 5.15, ''),
  ('f_c05_s25', 'orange_close.mp4', 4.45, 5.0, ''),
- ('b_c06_s01', 'able_array.mp4', 30.15, 4.33, ''),
  ('f_c06_s02', 'aerial_fleet.mp4', 22.76, 2.8, ''),
  ('f_c06_s03', 'baker_c_a.mp4', 0.35, 3.33, ''),
  ('f_c06_s05', 'baker_tw.mp4', 20.35, 2.79, ''),

@@ -58,6 +58,7 @@ SHOTS = [
  ('p_c04_s33', 'c_nevada_1927_c', 3.12, 'out', [0.5, 0.45], True, 'USS NEVADA, 1927', None),
  ('p_c05_s03', 'cx_b29_bomb_drop_aircraft_c', 4.51, 'left', [0.5, 0.45], True, 'A CROSSROADS B-29, 1946', None),
  ('p_c05_s06', 'cx_loc_able_flash', 1.75, 'right', [0.5, 0.45], True, 'TEST ABLE, 1 JULY 1946', None),
+ ('b_c06_s01', 'cx_able_target_array_c', 4.28, 'in', [0.5, 0.45], True, 'THE TARGET ARRAY, BIKINI LAGOON, 1946', None),
  ('p_c06_s07', 'cx_baker_island_palms_a_c', 3.69, 'in', [0.5, 0.45], True, 'TEST BAKER, 25 JULY 1946', None),
  ('p_c06_s08', 'cx_baker_island_palms_b_c', 3.27, 'out', [0.5, 0.45], True, 'TEST BAKER, 25 JULY 1946', None),
  ('p_c06_s10', 'cx_baker_wilson_cloud_c', 2.85, 'left', [0.5, 0.45], True, 'TEST BAKER, 25 JULY 1946', None),
@@ -76,6 +77,7 @@ SHOTS = [
  ('p_c07_s05', 'cx_hughes_interior_1948_c', 3.27, 'left', [0.5, 0.45], True, 'INSPECTING A CROSSROADS TARGET SHIP, 1948', None),
  ('p_c07_s07', 'ph_loc_nevada_beached_hospital_point', 4.69, 'right', [0.5, 0.45], True, 'USS NEVADA AT PEARL HARBOR, 7 DEC 1941', None),
  ('p_c07_s18', 'h_iowa_broadside_1984', 3.03, 'in', [0.5, 0.45], True, 'ILLUSTRATIVE · USS IOWA FIRING, 1984', None),
+ ('b_c07_s19', 'h_iowa_aerial_bow_1984', 5.62, 'in', [0.5, 0.45], True, 'ILLUSTRATIVE · USS IOWA FIRING, 1984', None),
  ('p_c07_s20', 'h_iowa_aerial_port_1984', 4.4, 'out', [0.5, 0.45], True, "ILLUSTRATIVE · USS IOWA'S 16-INCH GUNS, 1984", None),
  ('p_c07_s28', 'ph_nevada_waipio_33020_c', 2.44, 'left', [0.5, 0.45], True, 'USS NEVADA, PEARL HARBOR, 1941', None),
  ('p_c07_s29', 'd_cherbourg_nevada_231636_c', 2.05, 'right', [0.5, 0.45], True, 'USS NEVADA OFF CHERBOURG, 1944', None),
@@ -83,6 +85,7 @@ SHOTS = [
  ('p_c07_s34', 'ph_loc_arizona_height_of_fire', 3.87, 'out', [0.5, 0.45], True, 'USS ARIZONA, 7 DEC 1941', None),
  ('p_c07_s35', 'ph_arizona_32609', 3.88, 'left', [0.5, 0.45], True, None, None),
  ('p_c08_s04', 'i_nevada_press_release', 4.73, 'right', [0.5, 0.45], True, 'NAVY RECORDS ON USS NEVADA', None),
+ ('b_c08_s06', 'i_pearl_harbor_map_47105', 4.23, 'in', [0.5, 0.45], True, None, None),
  ('b_c08_s09', 'c_nevada_1935_c', 4.31, 'in', [0.5, 0.45], True, None, None),
  ('b_c08_s13', 'c_nevada_1943_boston', 4.15, 'in', [0.5, 0.45], True, None, None),
 ]
