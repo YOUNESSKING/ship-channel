@@ -5,8 +5,11 @@ safe_area.js adjusted:
   size 19->25.4: HER CREW WATCHED FROM
   size 19->25.4: ALSO CAME THROUGH BOTH
   size 19->25.4: NAVY DAMAGE REPORT, 1946
-  fit x0.94: ≈20 kilotons
-  fit x0.73: “HIGHLY RADIOACTIVE, INSIDE AN
-  lift 27px: ALSO CAME THROUGH BOTHNEW YORK
-  lift 12px: ALSO CAME THROUGH BOTHNEW YORK
+  fit x0.85: ≈20 kilotons
+  fit x0.88: ≈1 mile high
+  wrap: HER CREW WATCHED FROM
+  fit x0.59: “HIGHLY RADIOACTIVE, INSIDE AN
+  lift 10px: HER CREW WATCHED FROM16 miles
+  lift 19px: ALSO CAME THROUGH BOTHNEW YORK
+  lift 20px: ALSO CAME THROUGH BOTHNEW YORK
 PASS: no text breaks the size / safe-area / font rules (90.6 s checked every 0.5 s)
