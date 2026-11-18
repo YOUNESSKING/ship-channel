@@ -94,3 +94,7 @@ the owner's note during the build (section 4).
 3. Rights notes: four NARA reels carry NARA's generic "Restricted - Possibly" note (US Government productions; listed in
    `footage/FOOTAGE_LIST.md`); the colour Crossroads master on archive.org has no licence field (US Navy production, end card MN 6517).
 4. Space the upload from Mallows Bay (2-3 a week max). Gofile upload only if you ask.
+
+## 10. Delivered (owner asked, 2026-11-18)
+Master (14:13, md5 2483993e6a69965509d1eda207b44ea2) + upload kit PDF + thumbnails V1-V3 + names clip in one Gofile folder:
+https://gofile.io/d/LIT4BWXL (all md5 checked).
