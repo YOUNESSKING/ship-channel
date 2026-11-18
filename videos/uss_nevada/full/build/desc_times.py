@@ -6,7 +6,7 @@ MASTER = sys.argv[1]
 CH = json.load(open(os.path.join(FULL, "chapters.json")))["chapters"]
 dur = float(subprocess.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", MASTER]).decode())
 mmss = lambda t: f"{int(t // 60)}:{int(t % 60):02d}"
-NAMES = {"c01": None, "c07": "The Real Reason"}   # c01 keeps each file's own first title
+NAMES = {"c01": None}   # c01 keeps each file's own first title
 rows = [(c["key"], mmss(c["start"]), NAMES.get(c["key"], c["title"])) for c in CH]
 
 

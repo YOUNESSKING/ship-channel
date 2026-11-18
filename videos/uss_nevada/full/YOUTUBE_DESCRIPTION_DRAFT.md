@@ -1,4 +1,4 @@
-# YouTube description draft: USS Nevada full video
+# YouTube description draft: USS Oriskany full video (uss_nevada_full_v1.mp4, 14:12.9; chapter timestamps regenerated from chapters.json for the v8 Archive-voice re-time)
 
 **Upload settings to tick (do not skip):**
 - **Altered or synthetic content: YES** (AI narration; maps and graphics are made for this channel).

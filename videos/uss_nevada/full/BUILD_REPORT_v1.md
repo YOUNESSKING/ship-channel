@@ -62,11 +62,11 @@ the owner's note during the build (section 4).
 ## 6. Checks
 | check | result |
 |---|---|
-| `check_sound_lock.py` static + render | see section 8 (final master) |
+| `check_sound_lock.py` static + render | **SOUND LOCK OK** (section 8) |
 | safe-text (every chapter, 0.5 s) | **PASS** c01-c08 (`chapter/safe_c0*.txt`) |
 | shots over 6 s / numbers on words | 0 / 26 of 26 |
 | clip / photo reuse | clean |
-| blackdetect 0.25 s / 0.06 | see section 8 |
+| blackdetect 0.25 s / 0.06 | **0** |
 
 ## 7. Packaging (`thumbnails/`, `script/TITLES_THUMBS.md`, `full/YOUTUBE_DESCRIPTION_DRAFT.md`, `full/upload_kit/`)
 - Titles scored in vidIQ (40 credits): **"Two Atomic Bombs Couldn't Sink Her. Then What Did?" 94**, "This Battleship Was the
@@ -76,4 +76,21 @@ the owner's note during the build (section 4).
 - Description with chapters, sources, credits (incl. OSM attribution), tags and pinned comment; upload kit HTML + PDF.
 
 ## 8. Final master
-(filled in below after the last mix)
+- `uss_nevada_full_v1.mp4`, 852.93 s, 25,588 frames, md5 `2483993e6a69965509d1eda207b44ea2` (`build/master_md5.txt`).
+- **SOUND LOCK OK** (static + render): -14.0 LUFS, TP -1.5 dBTP, LRA 2.3 LU (floor 1.7), linear loudnorm, music under speech -24.8 dB,
+  12 big beats >= +1 LU over speech, 100 cues within 3 frames (max 1.4), every cue silent by its shot end, 46 beds on cuts.
+- ebur128 on the mp4 (`build/ebur128_v1.txt`): -14.0 LUFS, true peak -1.5 dBFS, LRA 2.3 LU. blackdetect: 0 (`build/blackdetect_v1.txt`).
+- `tools/film/check_clips.py --no-cuts` (`build/check_clips_v1.txt`, run on the master before the last two card fixes): 100 BLOB (dark
+  archive scenes and card shades, the Oriskany/Mallows pattern) + 21 one-frame FLASH = bright/dark cuts (looked at, no glitches).
+- Contact sheet `FINAL_SHEET_v1.jpg` (one frame every 10 s) looked at. Three cards that read near-black were re-backed with bright
+  photos (c06 "5 of ≈90", c07 "287", c08 "April 2020"; the c08 background is blurred by hand in `segments/b_c08_s06.mp4`: if
+  make_segments.py rebuilds it, re-apply `gblur=sigma=10,eq=brightness=-0.05:saturation=0.85`).
+- Disk: the container restarted four times during the build (render/mix stems in /dev/shm were lost twice); the last mix reused the
+  joined picture (PICTURE_SRC) and re-ran only the sound.
+
+## 9. Open items for the owner
+1. Watch the master; listen to `voice_sample/names_nevada.mp3`.
+2. Thumbnail V3 "THEY MISSED" (true for the first bomb only): OK or swap for V2 as the second Test & Compare image.
+3. Rights notes: four NARA reels carry NARA's generic "Restricted - Possibly" note (US Government productions; listed in
+   `footage/FOOTAGE_LIST.md`); the colour Crossroads master on archive.org has no licence field (US Navy production, end card MN 6517).
+4. Space the upload from Mallows Bay (2-3 a week max). Gofile upload only if you ask.
