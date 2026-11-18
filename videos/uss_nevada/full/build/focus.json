@@ -1,0 +1,314 @@
+{
+"c_loc_nevada_trial_bain": [
+0.487,
+0.627
+],
+"c_nevada_1915_trial_b_c": [
+0.347,
+0.618
+],
+"c_nevada_1918_c": [
+0.616,
+0.599
+],
+"c_nevada_1927_c": [
+0.503,
+0.479
+],
+"c_nevada_1935_c": [
+0.609,
+0.502
+],
+"c_nevada_1943_boston": [
+0.378,
+0.512
+],
+"cx_able_target_array_c": [
+0.506,
+0.689
+],
+"cx_b29_bomb_drop_aircraft_c": [
+0.622,
+0.568
+],
+"cx_baker_80g_396229": [
+0.716,
+0.75
+],
+"cx_baker_80g_396231_c": [
+0.25,
+0.75
+],
+"cx_baker_d10s_saratoga_c": [
+0.369,
+0.568
+],
+"cx_baker_island_palms_a_c": [
+0.456,
+0.599
+],
+"cx_baker_island_palms_b_c": [
+0.284,
+0.75
+],
+"cx_baker_nagato_nevada_book_c": [
+0.428,
+0.726
+],
+"cx_baker_observers_deck_c": [
+0.338,
+0.632
+],
+"cx_baker_wilson_cloud_c": [
+0.297,
+0.25
+],
+"cx_bikini_1944_north_c": [
+0.481,
+0.626
+],
+"cx_bikinians_lcm": [
+0.475,
+0.431
+],
+"cx_bikinians_loading_lst_c": [
+0.75,
+0.675
+],
+"cx_decon_new_york_saltwater_c": [
+0.669,
+0.349
+],
+"cx_decon_scrub_sea_raven_c": [
+0.388,
+0.548
+],
+"cx_goats_tethered_c": [
+0.312,
+0.573
+],
+"cx_hughes_interior_1948_c": [
+0.725,
+0.473
+],
+"cx_kwajalein_1944_c": [
+0.481,
+0.507
+],
+"cx_loc_able_flash": [
+0.45,
+0.4
+],
+"cx_monitor_hughes_towing_c": [
+0.613,
+0.618
+],
+"cx_monitor_men_deck_c": [
+0.588,
+0.386
+],
+"cx_photo_towers_c": [
+0.478,
+0.656
+],
+"cx_prinz_eugen_a_c": [
+0.328,
+0.498
+],
+"cx_saratoga_going_down_627506_c": [
+0.4,
+0.42
+],
+"cx_saratoga_sinking_aerial_c": [
+0.5,
+0.5
+],
+"cx_vips_new_york_post_able_c": [
+0.359,
+0.564
+],
+"d_cherbourg_nevada_231636_c": [
+0.466,
+0.476
+],
+"d_cherbourg_nevada_231637_c": [
+0.366,
+0.52
+],
+"d_cherbourg_return_fire_231976_c": [
+0.447,
+0.601
+],
+"d_nevada_utah_salvo_truman": [
+0.534,
+0.555
+],
+"d_task_force_utah_231247_c": [
+0.75,
+0.552
+],
+"h_iowa_aerial_bow_1984": [
+0.722,
+0.405
+],
+"h_iowa_aerial_port_1984": [
+0.609,
+0.676
+],
+"h_iowa_broadside_1984": [
+0.25,
+0.507
+],
+"i_bushps_nevada_damage_cover": [
+0.425,
+0.661
+],
+"i_nevada_press_release": [
+0.438,
+0.574
+],
+"i_pearl_harbor_map_47105": [
+0.512,
+0.73
+],
+"ph_aa_gun_crew_32543": [
+0.584,
+0.492
+],
+"ph_aerial_may_1942_276509": [
+0.484,
+0.31
+],
+"ph_aerial_oct_1941_182873": [
+0.619,
+0.636
+],
+"ph_arizona_32609": [
+0.475,
+0.45
+],
+"ph_arizona_burning_19942": [
+0.5,
+0.45
+],
+"ph_arizona_burning_32545": [
+0.359,
+0.671
+],
+"ph_arizona_burning_32608": [
+0.506,
+0.416
+],
+"ph_arizona_burning_32916": [
+0.42,
+0.5
+],
+"ph_arizona_tn_wv_32421": [
+0.516,
+0.702
+],
+"ph_burning_oil_19951": [
+0.75,
+0.744
+],
+"ph_burning_ships_32419": [
+0.5,
+0.5
+],
+"ph_burning_ships_32424": [
+0.603,
+0.69
+],
+"ph_burning_ships_32427": [
+0.75,
+0.574
+],
+"ph_burning_ships_32691": [
+0.75,
+0.694
+],
+"ph_burning_ships_33058": [
+0.469,
+0.651
+],
+"ph_gun_crew_32476": [
+0.438,
+0.75
+],
+"ph_jap_planes_33053": [
+0.338,
+0.75
+],
+"ph_loc_arizona_height_of_fire": [
+0.597,
+0.545
+],
+"ph_loc_arizona_wreck": [
+0.319,
+0.615
+],
+"ph_loc_burning_oil": [
+0.25,
+0.704
+],
+"ph_loc_nevada_beached_hospital_point": [
+0.456,
+0.398
+],
+"ph_loc_oklahoma_rescue": [
+0.681,
+0.589
+],
+"ph_loc_shaw": [
+0.434,
+0.719
+],
+"ph_loc_shaw_ablaze": [
+0.312,
+0.257
+],
+"ph_loc_west_virginia_afire": [
+0.75,
+0.457
+],
+"ph_nevada_after_attack_32583": [
+0.434,
+0.632
+],
+"ph_nevada_waipio_33020_c": [
+0.75,
+0.614
+],
+"ph_oglala_32537": [
+0.291,
+0.472
+],
+"ph_oklahoma_maryland_32486": [
+0.531,
+0.547
+],
+"ph_panorama_32792_c": [
+0.412,
+0.689
+],
+"ph_sentry_smoke_32776": [
+0.25,
+0.516
+],
+"ph_ship_explosion_gk13512_COLOUR": [
+0.7,
+0.315
+],
+"ph_ship_explosion_gk13513_COLOUR": [
+0.472,
+0.642
+],
+"ph_ships_smoke_32432": [
+0.594,
+0.75
+],
+"ph_wv_tennessee_32414": [
+0.259,
+0.605
+]
+}

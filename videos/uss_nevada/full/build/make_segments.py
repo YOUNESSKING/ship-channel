@@ -20,6 +20,7 @@ ENC = ["-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "16", "-preset", "veryf
 W, H = 1920, 1080
 SEG = json.load(open(os.path.join(HERE, "segments.json")))
 FW = json.load(open(os.path.join(HERE, "film_windows.json")))
+FOCUS = json.load(open(os.path.join(HERE, "focus.json")))   # subject point per photo (build/focus.py)
 args = sys.argv[1:]
 kinds = [a for a in args if a in ("film", "photo")] or ["film", "photo"]
 only = [a for a in args if a.endswith(".mp4")]
@@ -88,7 +89,7 @@ for s in SEG:
         clip_in = FW.get(s["clip"], {}).get("clip_in", 0.0)
         films.append((s["file"][:-4], s["clip"], round(s["reel_in"] - clip_in, 2), s["dur"], s.get("label") or s.get("tag") or ""))
     else:
-        shots.append((s["file"][:-4], s["photo"], s["dur"], s["move"], [0.5, 0.45], bool(s.get("depth")), s.get("label"), s.get("shake")))
+        shots.append((s["file"][:-4], s["photo"], s["dur"], s["move"], FOCUS.get(s["photo"], [0.5, 0.45]), bool(s.get("depth")), s.get("label"), s.get("shake")))
     if only and s["file"] not in only: continue
     if os.path.exists(out) and not only: continue
     t = time.time()
@@ -112,7 +113,7 @@ for s in SEG:
     else:
         src = photo_src(s["photo"])
         if not src: missing.append((s["file"], s["photo"] + (" (fallback: " + s["fallback"] + ")" if s.get("fallback") else ""))); continue
-        sh = {"photo": src, "move": s["move"], "focus": [0.5, 0.45], "depth": bool(s.get("depth")), "grade": "ship"}
+        sh = {"photo": src, "move": s["move"], "focus": FOCUS.get(s["photo"], [0.5, 0.45]), "depth": bool(s.get("depth")), "grade": "ship"}
         if s.get("label"): sh["label"] = s["label"]
         A.photo_shot(sh, s["dur"], out, W, H, ENC)
     print(f"{s['file']} ok ({time.time() - t:.0f}s)", flush=True)

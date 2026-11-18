@@ -44,12 +44,6 @@
    "note": "map move starts (c06_dist_a)"
   },
   {
-   "shot": "s13",
-   "at": 0.1,
-   "role": "ship",
-   "note": "Arkansas goes down"
-  },
-  {
    "shot": "s17",
    "at": 0.3,
    "role": "whoosh",

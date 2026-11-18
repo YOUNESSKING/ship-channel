@@ -43,7 +43,7 @@ def find(phrase, after):
 
 # ------------------------------------------------------------------------------------------------------------------ build
 segments = []; uses = {}; report = []; film_ptr = {}; REEL_USED = {}
-MOVES = ["in", "out", "left", "right"]; mv_i = 0
+mv_i = 0; MOVES = ["in", "out"]   # Nevada (owner 2026-11-18): zoom toward the subject (build/focus.json), no centre pans; mv_i = 0
 
 
 def film_window(clip, dur, used_at, win=None, reel_in=None):
@@ -137,7 +137,7 @@ for ck in ["c01", "c02", "c03", "c04", "c05", "c06", "c07", "c08"]:
                 elif FW[clip].get("tag") and not shot.get("tag"): shot["tag"] = FW[clip]["tag"]   # Mallows: every archive film shot is tagged
                 uses.setdefault(clip, []).append(a)
             elif kd == "P":
-                pid = src[2:]; move = b.get("move") or MOVES[mv_i % 4]; mv_i += 1
+                pid = src[2:]; move = b.get("move") or MOVES[mv_i % 2]; mv_i += 1
                 clipfile = f"p_{ck}_{sid}.mp4"
                 seg = dict(file=clipfile, kind="photo", photo=pid, dur=round(dur + 0.35, 2), move=move, depth=True,
                            label=b.get("label") if k == 0 else None, shake=b.get("shake"), fallback=b.get("fallback"))
@@ -238,8 +238,7 @@ for ck in ["c01", "c02", "c03", "c04", "c05", "c06", "c07", "c08"]:
                     for it in pr.get("items", []):
                         if it.get("hero"): cues.append(dict(shot=sid, at=it["count_at"], role="hit", note=f"gauge hero bar lands: {it['label']}", offset_after=it.get("dur", 1.0)))
                 if kd == "M" and i > 0 and kind(beats[i - 1]["src"][0]) == "M": cues.append(dict(shot=sid, at=0.1, role="tick", note=f"map beat ({src[2:]})"))
-            if kd == "F" and src[2:].startswith("sink_") and k == 0 and not b.get("sfx"):
-                cues.append(dict(shot=sid, at=0.3, role="ship", note=f"steamer going down on screen ({src[2:]})", file="groan_a__7c63fd7c.wav", end_shot=sid))
+            # (Nevada, owner 2026-11-18: no hull-groan cues on the sinking film; the Mallows 'steamer going down' rule is removed)
             report.append((ck, sid, round(a, 2), round(dur, 2), shot["template"], src + (f" + bg {b.get('bg') or b.get('cbg')}" if bgfile else ""), b["anchor"]))
     # signature beats per chapter (picture-locked)
     beds = []

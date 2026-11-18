@@ -26,30 +26,6 @@
    "note": "explosives test (film)"
   },
   {
-   "shot": "s14",
-   "at": 0.3,
-   "role": "ship",
-   "note": "steamer going down on screen (sink_broadside.mp4)",
-   "file": "groan_a__7c63fd7c.wav",
-   "end_shot": "s14"
-  },
-  {
-   "shot": "s15",
-   "at": 0.3,
-   "role": "ship",
-   "note": "steamer going down on screen (sink_bombs.mp4)",
-   "file": "groan_a__7c63fd7c.wav",
-   "end_shot": "s15"
-  },
-  {
-   "shot": "s16",
-   "at": 0.3,
-   "role": "ship",
-   "note": "steamer going down on screen (sink_plume.mp4)",
-   "file": "groan_a__7c63fd7c.wav",
-   "end_shot": "s16"
-  },
-  {
    "shot": "s17",
    "at": 0.3,
    "role": "whoosh",
@@ -74,40 +50,10 @@
    "note": "number lands: 27"
   },
   {
-   "shot": "s22",
-   "at": 0.3,
-   "role": "ship",
-   "note": "steamer going down on screen (sink_stern.mp4)",
-   "file": "groan_a__7c63fd7c.wav",
-   "end_shot": "s22"
-  },
-  {
-   "shot": "s23",
-   "at": 0.3,
-   "role": "ship",
-   "note": "steamer going down on screen (sink_bursts.mp4)",
-   "file": "groan_a__7c63fd7c.wav",
-   "end_shot": "s23"
-  },
-  {
    "shot": "s24",
    "at": 0.2,
    "role": "impact",
    "note": "torpedo hits (film)"
-  },
-  {
-   "shot": "s25",
-   "at": 0.3,
-   "role": "ship",
-   "note": "steamer going down on screen (sink_hulk.mp4)",
-   "file": "groan_a__7c63fd7c.wav",
-   "end_shot": "s25"
-  },
-  {
-   "shot": "s26",
-   "at": 0.1,
-   "role": "ship",
-   "note": "she rolls over"
   },
   {
    "shot": "s27",
@@ -126,14 +72,6 @@
    "at": "@Arizona",
    "role": "tick",
    "note": "label: 3 OF USS ARIZONA'S GUNS"
-  },
-  {
-   "shot": "s36",
-   "at": 0.3,
-   "role": "ship",
-   "note": "steamer going down on screen (sink_splash.mp4)",
-   "file": "groan_a__7c63fd7c.wav",
-   "end_shot": "s36"
   },
   {
    "shot": "s37",
