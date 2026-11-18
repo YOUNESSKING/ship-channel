@@ -1,0 +1,31 @@
+  23.21 #  6  [('a', 'one')]   | heard: The second bomb went off under the water, about 1,000 yards away.
+  93.63 # 25  [('planes', 'plains')]   | heard: Cameras were set up on towers, on islands, and in plains.
+ 111.84 # 29  [('centre', 'center')]   | heard: At the center of it all was one ship.
+ 129.96 # 34  [('eighth', 'eight')]   | heard: On the 28th of May, she had sailed into the lagoon with a crew of 403.
+ 135.28 # 35  [('thirtieth', 'thirty')]   | heard: On the 30th of June, the crew left her.
+ 152.96 # 41  [('seventh', 'seven')]   | heard: the 7th of December, 1941.
+ 168.62 # 44  [('harbour', 'harbor')]   | heard: At about one minute past eight, Japanese planes came over the harbor.
+ 206.29 # 55  [('her', 'a'), ('sedberry', 'said berry')]   | heard: But a chief quartermaster, said Berry, had already told the engine room to get ready before any officer reached the bridge.
+ 213.95 # 56  [('boatswain', 'boson'), ('quay', 'key')]   | heard: Chief Boson Edwin Hill led a party onto the key under fire.
+ 222.88 # 59  [('berth', 'birth')]   | heard: At about twenty to nine, without tugs, the Nevada backed away from her birth and headed down the channel toward the open sea.
+ 247.19 # 66  [('taussig', 'torsig')]   | heard: On the boat deck, a young ensign named Torsig was badly wounded.
+ 273.67 # 73  [('forecastle', 'folksill'), ('boatswain', 'boesen')]   | heard: On the folksill, Chief Boesen Hill was trying to let go the anchors when bombs exploded around him.
+ 311.94 # 83  [('fifteen', 'one thousand five')]   | heard: She had a crew of nearly 1,500.
+ 333.15 # 90  [('fifteen', 'one thousand five')]   | heard: Divers made more than 400 dives and spent more than 1,500 hours inside her flooded hull.
+ 364.00 # 96  [('sixth', 'six')]   | heard: On the 6th of June, 1944, she was off Utah Beach in Normandy, firing on German positions ahead of the landings.
+ 382.96 # 99  [('fifth', 'five')]   | heard: On the 25th of June, she shelled the fortress port of Cherbourg.
+ 393.09 #102  [('duelled', 'dueled')]   | heard: In August, she moved to the Mediterranean and dueled the heavy guns at Toulon in southern France.
+ 453.45 #119  [('the', '')]   | heard: 1st of July, 1946.
+ 492.60 #128  [('gilliam', 'gillium')]   | heard: almost on top of the transport gillium.
+ 500.79 #131  [('carlisle', 'car lyle')]   | heard: The Gilliam and the transport car Lyle went down first.
+ 518.64 #137  [('her decks', 'a dex')]   | heard: Fires broke out on a DEX.
+ 553.56 #147  [('fifth', 'five')]   | heard: the 25th of July, 1946.
+ 597.74 #159  [('a', 'one'), ('and', '')]   | heard: The Nevada was about 1,060 yards from the bomb.
+ 668.02 #181  [('harbour', 'harbor')]   | heard: In May 1947, she was towed to Pearl Harbor, the same harbor she had escaped from for radiological tests.
+ 681.67 #184  [('sixth', 'six')]   | heard: On the 26th of July, 1948, a tug towed her out to sea, southwest of Oahu.
+ 746.76 #205  [('archaeologists', 'archeologists')]   | heard: According to the archeologists who later studied her, she took something else down with her.
+ 751.94 #206  [('neighbour', 'neighbor')]   | heard: three 14-inch guns that had once belonged to the USS Arizona, her neighbor on Battleship Row.
+ 774.57 #212  [('noaa', 'noah')]   | heard: In 2016, a researcher with Noah went back to those logs, the logs of the Iowa, the Astoria, and the Pasadena, and worked out where she had gone down.
+ 784.82 #213  [('constructor', 'constructors')]   | heard: In April 2020, the Survey Ship Pacific Constructors searched that area with an underwater robot.
+ 831.28 #225  [('nevadas', 'nevada')]   | heard: Was that the right way to end the Nevada story?
+30 of 226 chunks differ

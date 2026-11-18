@@ -59,7 +59,7 @@ def join():
     L = os.path.join(FULL, "chapter", "join_list.txt")
     open(L, "w").write("".join(f"file '{p}'\n" for p in lst))
     # re-encode the join once (chapter renders + fixes may differ in encoder settings): one clean stream, CFR 30
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", L, "-an", "-c:v", "libx264", "-preset", "medium",
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", L, "-an", "-c:v", "libx264", "-preset", "veryfast",
                     "-crf", "16", "-pix_fmt", "yuv420p", "-r", str(FPS), "-movflags", "+faststart", JOIN + ".part.mp4"], check=True)
     os.replace(JOIN + ".part.mp4", JOIN)
     tot = round((CH["c08"]["audio_offset"] + CH["c08"]["duration"]) * FPS)

@@ -1,0 +1,2 @@
+[blackdetect @ 0x7f5c24005880] black_start:707.433 black_end:709.533 black_duration:2.1
+[blackdetect @ 0x7f5c24005880] black_start:709.567 black_end:710.067 black_duration:0.5

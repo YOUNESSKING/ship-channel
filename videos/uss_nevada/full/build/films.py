@@ -93,7 +93,6 @@ FILMS = [
  ('f_c07_s14', 'sink_broadside.mp4', 69.35, 2.21, ''),
  ('f_c07_s15', 'sink_bombs.mp4', 488.15, 2.97, ''),
  ('f_c07_s16', 'sink_plume.mp4', 98.55, 2.32, ''),
- ('b_c07_s19', 'shelling_a.mp4', 125.35, 5.67, ''),
  ('f_c07_s21', 'burning_close.mp4', 502.71, 2.29, ''),
  ('f_c07_s22', 'sink_stern.mp4', 366.35, 2.32, ''),
  ('f_c07_s23', 'sink_bursts.mp4', 185.75, 3.11, ''),

@@ -1,0 +1,396 @@
+{
+ "numbers": [
+  {
+   "shot": "c01:s11",
+   "what": "≈1,000",
+   "field": "number_at",
+   "spec": "@thousand",
+   "lands": 25.928,
+   "word_start": 25.928,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    23.09,
+    27.44
+   ],
+   "word": "thousand"
+  },
+  {
+   "shot": "c02:s04",
+   "what": "162",
+   "field": "number_at",
+   "spec": "@one",
+   "lands": 64.439,
+   "word_start": 64.439,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    63.46,
+    66.38
+   ],
+   "word": "one"
+  },
+  {
+   "shot": "c02:s07",
+   "what": "≈90",
+   "field": "number_at",
+   "spec": "@ninety",
+   "lands": 73.584,
+   "word_start": 73.584,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    73.23,
+    78.49
+   ],
+   "word": "ninety"
+  },
+  {
+   "shot": "c02:s11",
+   "what": "42,000",
+   "field": "number_at",
+   "spec": "@forty",
+   "lands": 86.402,
+   "word_start": 86.402,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    86.03,
+    88.93
+   ],
+   "word": "forty"
+  },
+  {
+   "shot": "c02:s12",
+   "what": "242",
+   "field": "number_at",
+   "spec": "@two",
+   "lands": 89.042,
+   "word_start": 89.042,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    88.93,
+    91.17
+   ],
+   "word": "two"
+  },
+  {
+   "shot": "c02:s13",
+   "what": "156",
+   "field": "number_at",
+   "spec": "@one",
+   "lands": 91.282,
+   "word_start": 91.282,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    91.17,
+    93.51
+   ],
+   "word": "one"
+  },
+  {
+   "shot": "c03:s05",
+   "what": "08:01",
+   "field": "number_at",
+   "spec": "@one",
+   "lands": 168.955,
+   "word_start": 168.955,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    168.5,
+    173.08
+   ],
+   "word": "one"
+  },
+  {
+   "shot": "c03:s26",
+   "what": "6+",
+   "field": "number_at",
+   "spec": "@six",
+   "lands": 241.694,
+   "word_start": 241.694,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    240.6,
+    242.87
+   ],
+   "word": "six"
+  },
+  {
+   "shot": "c03:s46",
+   "what": "≈1,500",
+   "field": "number_at",
+   "spec": "@fifteen",
+   "lands": 313.161,
+   "word_start": 313.161,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    311.82,
+    314.37
+   ],
+   "word": "fifteen"
+  },
+  {
+   "shot": "c03:s47",
+   "what": "≈60",
+   "field": "number_at",
+   "spec": "@sixty",
+   "lands": 314.95,
+   "word_start": 314.95,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    314.37,
+    316.76
+   ],
+   "word": "sixty"
+  },
+  {
+   "shot": "c03:s48",
+   "what": "100+",
+   "field": "number_at",
+   "spec": "@hundred",
+   "lands": 317.477,
+   "word_start": 317.477,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    316.76,
+    318.82
+   ],
+   "word": "hundred"
+  },
+  {
+   "shot": "c04:s03",
+   "what": "400+",
+   "field": "number_at",
+   "spec": "@four",
+   "lands": 334.329,
+   "word_start": 334.329,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    333.03,
+    336.35
+   ],
+   "word": "four"
+  },
+  {
+   "shot": "c04:s16",
+   "what": "20+",
+   "field": "number_at",
+   "spec": "@twenty",
+   "lands": 390.373,
+   "word_start": 390.373,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    386.99,
+    391.5
+   ],
+   "word": "twenty"
+  },
+  {
+   "shot": "c04:s24",
+   "what": "11",
+   "field": "number_at",
+   "spec": "@eleven",
+   "lands": 412.095,
+   "word_start": 412.095,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    411.97,
+    414.09
+   ],
+   "word": "Eleven"
+  },
+  {
+   "shot": "c04:s28",
+   "what": "7",
+   "field": "number_at",
+   "spec": "@seven",
+   "lands": 421.14,
+   "word_start": 421.14,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    419.9,
+    422.71
+   ],
+   "word": "seven"
+  },
+  {
+   "shot": "c05:s04",
+   "what": "21",
+   "field": "number_at",
+   "spec": "@twenty",
+   "lands": 468.122,
+   "word_start": 468.122,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    464.99,
+    470.06
+   ],
+   "word": "twenty"
+  },
+  {
+   "shot": "c05:s05",
+   "what": "09:00:34",
+   "field": "number_at",
+   "spec": "@thirty",
+   "lands": 470.328,
+   "word_start": 470.328,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    470.06,
+    472.96
+   ],
+   "word": "thirty"
+  },
+  {
+   "shot": "c05:s07",
+   "what": "≈520",
+   "field": "number_at",
+   "spec": "@five",
+   "lands": 474.748,
+   "word_start": 474.748,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    474.37,
+    477.73
+   ],
+   "word": "five"
+  },
+  {
+   "shot": "c05:s08",
+   "what": "≈20,000",
+   "field": "number_at",
+   "spec": "@twenty",
+   "lands": 478.845,
+   "word_start": 478.845,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    477.73,
+    481.58
+   ],
+   "word": "twenty"
+  },
+  {
+   "shot": "c06:s01",
+   "what": "5",
+   "field": "number_at",
+   "spec": "@five",
+   "lands": 546.108,
+   "word_start": 546.108,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    544.18,
+    548.11
+   ],
+   "word": "five"
+  },
+  {
+   "shot": "c06:s08",
+   "what": "≈20",
+   "field": "number_at",
+   "spec": "@twenty",
+   "lands": 570.517,
+   "word_start": 570.517,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    569.2,
+    572.12
+   ],
+   "word": "twenty"
+  },
+  {
+   "shot": "c06:s09",
+   "what": "≈1",
+   "field": "number_at",
+   "spec": "@mile",
+   "lands": 574.375,
+   "word_start": 574.375,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    572.12,
+    575.58
+   ],
+   "word": "mile"
+  },
+  {
+   "shot": "c06:s18",
+   "what": "16",
+   "field": "number_at",
+   "spec": "@sixteen",
+   "lands": 602.711,
+   "word_start": 602.711,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    601.55,
+    604.28
+   ],
+   "word": "sixteen"
+  },
+  {
+   "shot": "c07:s19",
+   "what": "287",
+   "field": "number_at",
+   "spec": "@two",
+   "lands": 710.17,
+   "word_start": 710.17,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    707.43,
+    712.7
+   ],
+   "word": "two"
+  },
+  {
+   "shot": "c07:s20",
+   "what": "27",
+   "field": "number_at",
+   "spec": "@twenty",
+   "lands": 712.824,
+   "word_start": 712.824,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    712.7,
+    716.75
+   ],
+   "word": "Twenty"
+  },
+  {
+   "shot": "c07:s31",
+   "what": "4",
+   "field": "number_at",
+   "spec": "@four",
+   "lands": 741.691,
+   "word_start": 741.691,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    740.65,
+    743.53
+   ],
+   "word": "four"
+  }
+ ],
+ "over_6s": [],
+ "fails": []
+}

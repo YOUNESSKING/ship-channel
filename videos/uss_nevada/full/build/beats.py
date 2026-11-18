@@ -357,7 +357,7 @@ B["c07"] = [
  E("She was still floating", "F:sink_plume.mp4"),
  E("On her last day", "M:c07_ships", map="Oahu SW sea: target pin NEVADA; cruiser icons ASTORIA and PASADENA appear on their names; IOWA on 'Iowa'"),
  E("Then the battleship Iowa", "P:h_iowa_broadside_1984", label="ILLUSTRATIVE · USS IOWA FIRING, 1984"),
- E("In about twenty minutes", "CARD", card=dict(variant="number", kicker="SHELLS IN ≈20 MINUTES", number="287", number_at="@two"), cbg="F:shelling_a.mp4"),
+ E("In about twenty minutes", "CARD", card=dict(variant="number", kicker="SHELLS IN ≈20 MINUTES", number="287", number_at="@two"), cbg="MS:m_c07_ships.mp4@end"),
  E("Twenty-seven of them came", "P:h_iowa_aerial_port_1984", num=dict(variant="right", kicker="FROM IOWA'S 16-INCH GUNS", number="27", number_at="@twenty"), label="ILLUSTRATIVE · USS IOWA'S 16-INCH GUNS, 1984", sfx=BOOM("16-inch gun")),
  E("The Nevada was burning", "F:burning_close.mp4"),
  E("She was still floating", "F:sink_stern.mp4"),

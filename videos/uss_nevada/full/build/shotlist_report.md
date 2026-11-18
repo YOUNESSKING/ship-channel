@@ -238,7 +238,7 @@
 | c07 | s16 | 698.2 | 1.92 | clip_plain | F:sink_plume.mp4 | She was still floating |
 | c07 | s17 | 700.12 | 4.63 | map_clip | M:c07_ships | On her last day |
 | c07 | s18 | 704.75 | 2.68 | clip_plain | P:h_iowa_broadside_1984 | Then the battleship Iowa |
-| c07 | s19 | 707.43 | 5.27 | text_card | CARD + bg F:shelling_a.mp4 | In about twenty minutes |
+| c07 | s19 | 707.43 | 5.27 | text_card | CARD + bg MS:m_c07_ships.mp4@end | In about twenty minutes |
 | c07 | s20 | 712.7 | 4.05 | number_clip | P:h_iowa_aerial_port_1984 | Twenty-seven of them came |
 | c07 | s21 | 716.75 | 1.89 | clip_plain | F:burning_close.mp4 | The Nevada was burning |
 | c07 | s22 | 718.65 | 1.92 | clip_plain | F:sink_stern.mp4 | She was still floating |

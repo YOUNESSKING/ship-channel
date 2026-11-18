@@ -2615,13 +2615,11 @@
   "chapter": "c07",
   "shot": "s19",
   "file": "b_c07_s19.mp4",
-  "kind": "film",
-  "clip": "shelling_a.mp4",
-  "reel": "sinking_1948_r2",
-  "reel_in": 125.35,
-  "dur": 5.67,
-  "label": null,
-  "note": "",
+  "kind": "still",
+  "src": "m_c07_ships.mp4",
+  "at": "end",
+  "dur": 5.62,
+  "move": "in",
   "under": "CARD"
  },
  {

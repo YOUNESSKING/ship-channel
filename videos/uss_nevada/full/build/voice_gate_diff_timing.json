@@ -1,7 +1,19 @@
 [
  {
+  "i": 6,
+  "start": 23.208,
+  "text": "The second bomb went off under the water, about a thousand yards away.",
+  "heard": "The second bomb went off under the water, about 1,000 yards away.",
+  "diffs": [
+   [
+    "a",
+    "one"
+   ]
+  ]
+ },
+ {
   "i": 25,
-  "start": 95.05,
+  "start": 93.626,
   "text": "Cameras were set up on towers, on islands, and in planes.",
   "heard": "Cameras were set up on towers, on islands, and in plains.",
   "diffs": [
@@ -13,7 +25,7 @@
  },
  {
   "i": 29,
-  "start": 113.261,
+  "start": 111.837,
   "text": "At the centre of it all was one ship.",
   "heard": "At the center of it all was one ship.",
   "diffs": [
@@ -25,7 +37,7 @@
  },
  {
   "i": 34,
-  "start": 131.383,
+  "start": 129.958,
   "text": "On the twenty-eighth of May, she had sailed into the lagoon with a crew of four hundred and three.",
   "heard": "On the 28th of May, she had sailed into the lagoon with a crew of 403.",
   "diffs": [
@@ -37,7 +49,7 @@
  },
  {
   "i": 35,
-  "start": 136.707,
+  "start": 135.282,
   "text": "On the thirtieth of June, the crew left her.",
   "heard": "On the 30th of June, the crew left her.",
   "diffs": [
@@ -49,7 +61,7 @@
  },
  {
   "i": 41,
-  "start": 154.382,
+  "start": 152.958,
   "text": "The seventh of December, nineteen forty-one.",
   "heard": "the 7th of December, 1941.",
   "diffs": [
@@ -61,7 +73,7 @@
  },
  {
   "i": 44,
-  "start": 170.039,
+  "start": 168.615,
   "text": "At about one minute past eight, Japanese planes came over the harbour.",
   "heard": "At about one minute past eight, Japanese planes came over the harbor.",
   "diffs": [
@@ -73,7 +85,7 @@
  },
  {
   "i": 55,
-  "start": 207.719,
+  "start": 206.295,
   "text": "But her chief quartermaster, Sedberry, had already told the engine room to get ready, before any officer reached the bridge.",
   "heard": "But a chief quartermaster, said Berry, had already told the engine room to get ready before any officer reached the bridge.",
   "diffs": [
@@ -89,7 +101,7 @@
  },
  {
   "i": 56,
-  "start": 215.377,
+  "start": 213.952,
   "text": "Chief Boatswain Edwin Hill led a party onto the quay under fire.",
   "heard": "Chief Boson Edwin Hill led a party onto the key under fire.",
   "diffs": [
@@ -105,7 +117,7 @@
  },
  {
   "i": 59,
-  "start": 224.309,
+  "start": 222.884,
   "text": "At about twenty to nine, without tugs, the Nevada backed away from her berth and headed down the channel toward the open sea.",
   "heard": "At about twenty to nine, without tugs, the Nevada backed away from her birth and headed down the channel toward the open sea.",
   "diffs": [
@@ -117,7 +129,7 @@
  },
  {
   "i": 66,
-  "start": 248.618,
+  "start": 247.194,
   "text": "On the boat deck, a young ensign named Taussig was badly wounded.",
   "heard": "On the boat deck, a young ensign named Torsig was badly wounded.",
   "diffs": [
@@ -129,7 +141,7 @@
  },
  {
   "i": 73,
-  "start": 275.099,
+  "start": 273.674,
   "text": "On the forecastle, Chief Boatswain Hill was trying to let go the anchors when bombs exploded around him.",
   "heard": "On the folksill, Chief Boesen Hill was trying to let go the anchors when bombs exploded around him.",
   "diffs": [
@@ -145,7 +157,7 @@
  },
  {
   "i": 83,
-  "start": 313.366,
+  "start": 311.941,
   "text": "She had a crew of nearly fifteen hundred.",
   "heard": "She had a crew of nearly 1,500.",
   "diffs": [
@@ -157,7 +169,7 @@
  },
  {
   "i": 90,
-  "start": 334.573,
+  "start": 333.149,
   "text": "Divers made more than four hundred dives, and spent more than fifteen hundred hours inside her flooded hull.",
   "heard": "Divers made more than 400 dives and spent more than 1,500 hours inside her flooded hull.",
   "diffs": [
@@ -169,7 +181,7 @@
  },
  {
   "i": 96,
-  "start": 365.428,
+  "start": 364.004,
   "text": "On the sixth of June, nineteen forty-four, she was off Utah Beach in Normandy, firing on German positions ahead of the landings.",
   "heard": "On the 6th of June, 1944, she was off Utah Beach in Normandy, firing on German positions ahead of the landings.",
   "diffs": [
@@ -181,7 +193,7 @@
  },
  {
   "i": 99,
-  "start": 384.39,
+  "start": 382.965,
   "text": "On the twenty-fifth of June, she shelled the fortress port of Cherbourg.",
   "heard": "On the 25th of June, she shelled the fortress port of Cherbourg.",
   "diffs": [
@@ -193,7 +205,7 @@
  },
  {
   "i": 102,
-  "start": 394.514,
+  "start": 393.089,
   "text": "In August, she moved to the Mediterranean and duelled the heavy guns at Toulon, in southern France.",
   "heard": "In August, she moved to the Mediterranean and dueled the heavy guns at Toulon in southern France.",
   "diffs": [
@@ -205,7 +217,7 @@
  },
  {
   "i": 119,
-  "start": 454.88,
+  "start": 453.455,
   "text": "The first of July, nineteen forty-six.",
   "heard": "1st of July, 1946.",
   "diffs": [
@@ -217,7 +229,7 @@
  },
  {
   "i": 128,
-  "start": 494.021,
+  "start": 492.597,
   "text": "Almost on top of the transport Gilliam.",
   "heard": "almost on top of the transport gillium.",
   "diffs": [
@@ -229,7 +241,7 @@
  },
  {
   "i": 131,
-  "start": 502.216,
+  "start": 500.791,
   "text": "The Gilliam and the transport Carlisle went down first.",
   "heard": "The Gilliam and the transport car Lyle went down first.",
   "diffs": [
@@ -241,7 +253,7 @@
  },
  {
   "i": 137,
-  "start": 520.063,
+  "start": 518.639,
   "text": "Fires broke out on her decks.",
   "heard": "Fires broke out on a DEX.",
   "diffs": [
@@ -253,7 +265,7 @@
  },
  {
   "i": 147,
-  "start": 554.989,
+  "start": 553.564,
   "text": "The twenty-fifth of July, nineteen forty-six.",
   "heard": "the 25th of July, 1946.",
   "diffs": [
@@ -265,7 +277,7 @@
  },
  {
   "i": 159,
-  "start": 599.163,
+  "start": 597.739,
   "text": "The Nevada was about a thousand and sixty yards from the bomb.",
   "heard": "The Nevada was about 1,060 yards from the bomb.",
   "diffs": [
@@ -281,7 +293,7 @@
  },
  {
   "i": 181,
-  "start": 669.444,
+  "start": 668.02,
   "text": "In May nineteen forty-seven, she was towed to Pearl Harbor, the same harbour she had escaped from, for radiological tests.",
   "heard": "In May 1947, she was towed to Pearl Harbor, the same harbor she had escaped from for radiological tests.",
   "diffs": [
@@ -293,7 +305,7 @@
  },
  {
   "i": 184,
-  "start": 683.095,
+  "start": 681.67,
   "text": "On the twenty-sixth of July, nineteen forty-eight, a tug towed her out to sea, southwest of Oahu.",
   "heard": "On the 26th of July, 1948, a tug towed her out to sea, southwest of Oahu.",
   "diffs": [
@@ -305,7 +317,7 @@
  },
  {
   "i": 205,
-  "start": 748.185,
+  "start": 746.761,
   "text": "According to the archaeologists who later studied her, she took something else down with her.",
   "heard": "According to the archeologists who later studied her, she took something else down with her.",
   "diffs": [
@@ -317,7 +329,7 @@
  },
  {
   "i": 206,
-  "start": 753.361,
+  "start": 751.937,
   "text": "Three fourteen-inch guns that had once belonged to the USS Arizona, her neighbour on Battleship Row.",
   "heard": "three 14-inch guns that had once belonged to the USS Arizona, her neighbor on Battleship Row.",
   "diffs": [
@@ -329,7 +341,7 @@
  },
  {
   "i": 212,
-  "start": 775.993,
+  "start": 774.569,
   "text": "In twenty sixteen, a researcher with NOAA went back to those logs, the logs of the Iowa, the Astoria and the Pasadena, and worked out where she had gone down.",
   "heard": "In 2016, a researcher with Noah went back to those logs, the logs of the Iowa, the Astoria, and the Pasadena, and worked out where she had gone down.",
   "diffs": [
@@ -341,7 +353,7 @@
  },
  {
   "i": 213,
-  "start": 786.241,
+  "start": 784.817,
   "text": "In April twenty twenty, the survey ship Pacific Constructor searched that area with an underwater robot.",
   "heard": "In April 2020, the Survey Ship Pacific Constructors searched that area with an underwater robot.",
   "diffs": [
@@ -353,7 +365,7 @@
  },
  {
   "i": 225,
-  "start": 832.701,
+  "start": 831.276,
   "text": "Was that the right way to end the Nevada's story?",
   "heard": "Was that the right way to end the Nevada story?",
   "diffs": [

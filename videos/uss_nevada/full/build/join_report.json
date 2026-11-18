@@ -1,0 +1,58 @@
+[
+ {
+  "chapter": "c01",
+  "start": 0.0,
+  "frames_rendered": 1579,
+  "frames_wanted": 1578,
+  "source": "/home/user/ship-channel/videos/uss_nevada/full/chapter/render_c01.mp4"
+ },
+ {
+  "chapter": "c02",
+  "start": 52.616,
+  "frames_rendered": 2961,
+  "frames_wanted": 2961,
+  "source": "/home/user/ship-channel/videos/uss_nevada/full/chapter/render_c02.mp4"
+ },
+ {
+  "chapter": "c03",
+  "start": 151.289,
+  "frames_rendered": 5221,
+  "frames_wanted": 5220,
+  "source": "/home/user/ship-channel/videos/uss_nevada/full/chapter/render_c03.mp4"
+ },
+ {
+  "chapter": "c04",
+  "start": 325.294,
+  "frames_rendered": 3832,
+  "frames_wanted": 3831,
+  "source": "/home/user/ship-channel/videos/uss_nevada/full/chapter/render_c04.mp4"
+ },
+ {
+  "chapter": "c05",
+  "start": 453.005,
+  "frames_rendered": 2736,
+  "frames_wanted": 2735,
+  "source": "/home/user/ship-channel/videos/uss_nevada/full/chapter/render_c05.mp4"
+ },
+ {
+  "chapter": "c06",
+  "start": 544.178,
+  "frames_rendered": 3249,
+  "frames_wanted": 3249,
+  "source": "/home/user/ship-channel/videos/uss_nevada/full/chapter/render_c06.mp4"
+ },
+ {
+  "chapter": "c07",
+  "start": 652.471,
+  "frames_rendered": 3298,
+  "frames_wanted": 3298,
+  "source": "/home/user/ship-channel/videos/uss_nevada/full/chapter/render_c07.mp4"
+ },
+ {
+  "chapter": "c08",
+  "start": 762.396,
+  "frames_rendered": 2716,
+  "frames_wanted": 2716,
+  "source": "/home/user/ship-channel/videos/uss_nevada/full/chapter/render_c08.mp4"
+ }
+]
