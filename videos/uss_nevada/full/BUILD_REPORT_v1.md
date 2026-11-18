@@ -98,3 +98,12 @@ the owner's note during the build (section 4).
 ## 10. Delivered (owner asked, 2026-11-18)
 Master (14:13, md5 2483993e6a69965509d1eda207b44ea2) + upload kit PDF + thumbnails V1-V3 + names clip in one Gofile folder:
 https://gofile.io/d/LIT4BWXL (all md5 checked).
+
+## 11. v2 (owner 2026-11-18)
+- Owner: "the sinking sound at 11:36, 12:01, 12:07 ... annoying, not in its place": the Mallows rule that put a hull-groan cue on every
+  sinking-film shot is removed, plus the two explicit groans (Arkansas, she rolls over): 9 cues gone, 91 left.
+- Owner: "you zoom into the white centre, not the ship": every photo now zooms in/out toward its subject (`build/focus.py`: densest-detail
+  point, 7 manual fixes in `build/focus_manual.json`), no centre pans; all 88 photo segments rebuilt, all chapters re-rendered (safe-text PASS).
+- Master `uss_nevada_full_v2.mp4` 852.93 s, md5 1c06b00f6e36bec9561e5c1a3f1036a4: **SOUND LOCK OK** -14.0 LUFS, TP -1.6, LRA 2.2,
+  91 cues within 3 frames; blackdetect 0; `FINAL_SHEET_v2.jpg` looked at. v1 deleted (disk).
+- Delivered: https://gofile.io/d/MHsM1Jd8 (master v2 + upload kit PDF + thumbnails; md5 checked).

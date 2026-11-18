@@ -11,7 +11,7 @@ Resumable: the join is skipped when chapter/joined_silent.mp4 is newer than ever
   nohup python3 build/mix_full.py > build/mix_full.log 2>&1 &"""
 import json, os, subprocess, sys
 HERE = os.path.dirname(os.path.abspath(__file__)); FULL = os.path.dirname(HERE); ROOT = os.path.abspath(os.path.join(FULL, "../../.."))
-SND = os.path.join(ROOT, "tools/sound"); WK = os.environ.get("MIX_WORK", os.path.join(FULL, "audio/mix")); OUT = os.path.join(FULL, "uss_nevada_full_v1.mp4")   # v8: the Archive voice (owner 2026-11-10), full re-time + re-render. v7: last masked words (SFX_FIX_v6.md section 8)
+SND = os.path.join(ROOT, "tools/sound"); WK = os.environ.get("MIX_WORK", os.path.join(FULL, "audio/mix")); OUT = os.path.join(FULL, "uss_nevada_full_v2.mp4")   # v8: the Archive voice (owner 2026-11-10), full re-time + re-render. v7: last masked words (SFX_FIX_v6.md section 8)
 # v6 = SFX_FIX_v6 (critic build/CRITIQUE_SFX_v5.md, owner 2026-11-08: quieter SFX). MIX_WORK=/dev/shm/... keeps the 2.6 GB of mix
 # stems off the (nearly full) disk.
 # v5 = SFX_FIX_v5 sound (owner 2026-11-08: SFX -3 dB, beds -2 dB, every effect silent by its shot's end; build/SFX_FIX_v5.md). The

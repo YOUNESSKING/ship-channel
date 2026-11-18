@@ -12,8 +12,10 @@ safe_area.js adjusted:
   size 19->25.4: HER CREW
   size 19->25.4: KILLED
   size 19->25.4: WOUNDED
-  lift 27px: ENSIGNJ. K. TAUSSIG JR.
-  lift 27px: 09:10AGROUND OFF HOSPITAL POIN
-  lift 12px: ENSIGNJ. K. TAUSSIG JR.
-  lift 12px: 09:10AGROUND OFF HOSPITAL POIN
+  fit x0.93: LT. CDR. FRANCIS J. THOMAS
+  fit x0.84: “PREPARE TO GET UNDER WAY”
+  lift 19px: ENSIGNJ. K. TAUSSIG JR.
+  lift 19px: 09:10AGROUND OFF HOSPITAL POIN
+  lift 20px: ENSIGNJ. K. TAUSSIG JR.
+  lift 20px: 09:10AGROUND OFF HOSPITAL POIN
 PASS: no text breaks the size / safe-area / font rules (167.2 s checked every 0.5 s)
