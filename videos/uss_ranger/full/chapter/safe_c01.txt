@@ -1,0 +1,12 @@
+safe_area.js adjusted:
+  size 19->25.4: THE PRICE
+  size 19->25.4: THE HEADLINES
+  size 19->25.4: ON THE BIG SCREEN
+  size 19->25.4: LENGTH
+  size 19->25.4: IN SERVICE
+  size 19->25.4: CV-61
+  lift 19px: ON THE BIG SCREENTOP GUN · STA
+  lift 19px: CV-61USS RANGER
+  lift 20px: ON THE BIG SCREENTOP GUN · STA
+  lift 20px: CV-61USS RANGER
+PASS: no text breaks the size / safe-area / font rules (33.0 s checked every 0.5 s)
