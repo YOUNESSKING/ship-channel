@@ -13,7 +13,11 @@ def page(title):
         try:
             time.sleep(3.0)
             return urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA}), timeout=60).read().decode("utf8", "replace")
-        except Exception as e: err = e; time.sleep(30 * (i + 1))
+        except urllib.error.HTTPError as e:
+            err = e
+            if e.code == 404: raise
+            time.sleep(30 * (i + 1))
+        except Exception as e: err = e; time.sleep(10)
     raise err
 def cat(title):
     h = page(title); files = []; subs = []
