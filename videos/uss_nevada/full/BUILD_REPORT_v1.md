@@ -107,3 +107,9 @@ https://gofile.io/d/LIT4BWXL (all md5 checked).
 - Master `uss_nevada_full_v2.mp4` 852.93 s, md5 1c06b00f6e36bec9561e5c1a3f1036a4: **SOUND LOCK OK** -14.0 LUFS, TP -1.6, LRA 2.2,
   91 cues within 3 frames; blackdetect 0; `FINAL_SHEET_v2.jpg` looked at. v1 deleted (disk).
 - Delivered: https://gofile.io/d/MHsM1Jd8 (master v2 + upload kit PDF + thumbnails; md5 checked).
+
+## 12. Thumbnails v2 (owner approved vidIQ spend, 2026-11-19)
+10 new real-frame thumbnails (`thumbnails/N*`, `NOTES_v2.md`, `CRITIQUE_2.md`), scored in vidIQ against title 1: main **N10 [2 A-BOMBS] 91**, Test & Compare
+N6 90 and N11 [SURVIVED] 91 (old V1 72). 151 credits used (5,703 -> 5,481; 71 more in that window were another session). Scores used a stand-in
+video ID (the video is not uploaded yet): compare them with each other only. AI1/AI2 are vidIQ-generated, labelled AI, not used.
+Upload kit updated. Thumbnails + PDF: https://gofile.io/d/8AD26sR7 (md5 checked); master stays at https://gofile.io/d/MHsM1Jd8.
