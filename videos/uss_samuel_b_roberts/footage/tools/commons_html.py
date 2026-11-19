@@ -11,9 +11,9 @@ def page(title):
     u = "https://commons.wikimedia.org/wiki/" + urllib.parse.quote(title.replace(" ", "_"), safe="/:()_,'!-.")
     for i in range(4):
         try:
-            time.sleep(1.2)
+            time.sleep(3.0)
             return urllib.request.urlopen(urllib.request.Request(u, headers={"User-Agent": UA}), timeout=60).read().decode("utf8", "replace")
-        except Exception as e: err = e; time.sleep(6 * (i + 1))
+        except Exception as e: err = e; time.sleep(30 * (i + 1))
     raise err
 def cat(title):
     h = page(title); files = []; subs = []

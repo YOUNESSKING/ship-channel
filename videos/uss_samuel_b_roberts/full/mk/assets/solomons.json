@@ -1,0 +1,18 @@
+{
+ "name": "solomons",
+ "center": [
+  -9.3,
+  159.9
+ ],
+ "zoom": 8,
+ "origin_world_px": [
+  60436,
+  33658
+ ],
+ "size": [
+  2880,
+  1620
+ ],
+ "meters_per_px": 603.46,
+ "credit": "Terrain & bathymetry: Mapzen / AWS Terrain Tiles (open data)"
+}

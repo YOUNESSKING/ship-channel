@@ -1,4 +1,4 @@
-"""USS Ranger narration (copied from the Oriskany v8 builder): the designed voice "Archive" (owner pick 2026-11-10; CLAUDE.md "Voice").
+"""USS Samuel B. Roberts narration (copied from the Oriskany v8 builder): the designed voice "Archive" (owner pick 2026-11-10; CLAUDE.md "Voice").
 
   Kokoro style blend bm_fable 0.40 + am_michael 0.40 + bm_lewis 0.20 (tts/voices/archive_style.npy, passed as voice=<ndarray>),
   speed 0.92; question sentences at 0.92 * 0.88 / 0.95 = 0.852 (the same relative slowdown as the am_michael take: 0.88 vs 0.95).
@@ -34,10 +34,10 @@ PHON_FIX.update(json.load(open(os.path.join(HERE, "phon_fix.json"))) if os.path.
 # hook: the approved test-v4 phrase splits and pauses (speed None = SPEED, else the question speed). The SS United States
 # sentences of paragraph 5 are read from the narration file (they will be re-written after 12 November), so they are not here.
 HOOK = []
-CHAPTERS = [("c01", "Hook", "In December, twenty fourteen"), ("c02", "One Cent", "Start with the place."),
-            ("c03", "Hollywood's Carrier", "San Diego Bay."), ("c04", "Thirty-Six Years", "She was built at Newport News"),
-            ("c05", "The Museum That Never Was", "She was towed north to Bremerton"), ("c06", "The Penny", "And here is the twist."),
-            ("c07", "The Last Voyage", "On the fifth of March, twenty fifteen"), ("c08", "What's Left", "Then the cutting began.")]
+CHAPTERS = [("c01", "Hook", "Almost twenty-three thousand feet"), ("c02", "Taffy Three", "Start with the place."),
+            ("c03", "The Little Ship", "To understand what the Roberts did next"), ("c04", "The Torpedo Run", "The American admiral, Clifton Sprague"),
+            ("c05", "The Duel", "But here is the twist."), ("c06", "Fifty Hours", "For the men of the Roberts, the battle was over."),
+            ("c07", "The Search", "But the first Samuel B. Roberts was gone."), ("c08", "Found", "So what did the cameras see")]
 SPLIT = lambda p: [s.strip() for s in re.findall(r"[^.?!]+[.?!]+[\"”]?(?:\s|$)", p + " ") if s.strip()]
 
 paras = [p.strip() for p in open(NARR).read().split("\n\n") if p.strip()]
