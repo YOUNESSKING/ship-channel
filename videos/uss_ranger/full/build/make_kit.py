@@ -20,9 +20,9 @@ H = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><title>USS Ra
 <p class="note">NOT yet scored in vidIQ (waits for the owner's OK on the credits). Alternates: “The Navy Got Rid of This Top Gun Carrier for One Cent” · “She Was in Top Gun. Then the Navy Let Her Go for 1¢”. Owner's working title “The Top Gun Carrier Sold for One Cent” overclaims twice (Enterprise was the main Top Gun carrier; the Navy says it was not a sale): use only if you accept that. Details: script/TITLES_THUMBS.md.</p>
 <h2>2. Thumbnails</h2>
 <div class="thumbs">
-<figure><img src="../../thumbnails/V3_one_cent.jpg"><figcaption><b>V3, upload with this one</b><br>V3_one_cent.jpg</figcaption></figure>
-<figure><img src="../../thumbnails/V1_split_1c.jpg"><figcaption>V1, Test &amp; Compare<br>V1_split_1c.jpg</figcaption></figure>
-<figure><img src="../../thumbnails/V2_for_1c.jpg"><figcaption>V2, Test &amp; Compare<br>V2_for_1c.jpg</figcaption></figure>
+<figure><img src="../../thumbnails/T1.jpg"><figcaption><b>T1 "WORTH 1¢?", upload with this one</b><br>T1.jpg</figcaption></figure>
+<figure><img src="../../thumbnails/T2.jpg"><figcaption>T2 "ONE CENT", Test &amp; Compare<br>T2.jpg</figcaption></figure>
+<figure><img src="../../thumbnails/T3.jpg"><figcaption>T3 "FOR 1¢", Test &amp; Compare<br>T3.jpg</figcaption></figure>
 </div><p class="note">Judge the Test &amp; Compare winner on day 7–14, not day 1. Space this video ≥ 2 days from the USS Nevada upload (2–3 a week max).</p>
 <h2>3. Upload settings</h2><table><tr><th>Setting</th><th>Value</th></tr>
 <tr><td>Altered or synthetic content</td><td class="tick">YES (AI narration; maps and graphics made for this channel)</td></tr>
@@ -35,7 +35,7 @@ H = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><title>USS Ra
 <h2>6. First comment (post it, then pin it)</h2><div class="box">{html.escape(pinned)}</div>
 <h2>7. Before you press Publish</h2><table>
 <tr><td>☐</td><td>Watched the master once; names sound right (listen to voice_sample/names_ranger.mp3: Bremerton, Puget Sound, Coronado, Radford, Fairview, Corpus Christi, Crosby Leader)</td></tr>
-<tr><td>☐</td><td>“Altered or synthetic content” = Yes</td></tr><tr><td>☐</td><td>Thumbnail V3 uploaded; V1 + V2 added in Test &amp; Compare</td></tr>
+<tr><td>☐</td><td>“Altered or synthetic content” = Yes</td></tr><tr><td>☐</td><td>Thumbnail T1 uploaded; T2 + T3 added in Test &amp; Compare</td></tr>
 <tr><td>☐</td><td>Description pasted; chapters show in the preview</td></tr><tr><td>☐</td><td>Tags pasted; first comment posted and pinned</td></tr></table>
 </body></html>"""
 out = os.path.join(FULL, "upload_kit/upload_kit.html"); open(out, "w").write(H)

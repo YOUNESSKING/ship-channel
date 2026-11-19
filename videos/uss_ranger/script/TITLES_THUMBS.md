@@ -25,3 +25,7 @@ Recommendation (before scoring): 2, 1, 3.
 - `V2_for_1c.jpg`: "FOR 1¢" on an F-14A launch from Ranger (1993); weakest at sidebar size.
 Not used: "SOLD FOR 1¢" (planned text): the Navy says it was not a sale. Owner's call if wanted.
 Pairing: V3 with title 2 or 3; V1 with title 1.
+
+## Thumbnails v2 (2026-11-19, no paid tools): `T1.jpg` "WORTH 1¢?" (1988 aerial, blue sea; main), `T2.jpg` "ONE CENT" (1993 bow-on),
+`T3.jpg` "FOR 1¢" (rusting hull, 2015), `T4.jpg` "1¢" then/now split. Critiques: `thumbnails/CRITIQUE_2_ctr.md`, `CRITIQUE_3_truth_rights_design.md`.
+vidIQ thumbnail/title scoring (budget up to ~400 credits, relayed by another session) still waits for the owner's direct OK in this session.
