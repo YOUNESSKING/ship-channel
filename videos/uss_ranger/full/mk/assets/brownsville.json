@@ -1,0 +1,18 @@
+{
+ "name": "brownsville",
+ "center": [
+  26.0,
+  -97.3
+ ],
+ "zoom": 10,
+ "origin_world_px": [
+  58780,
+  110644
+ ],
+ "size": [
+  2880,
+  1620
+ ],
+ "meters_per_px": 137.4,
+ "credit": "Terrain & bathymetry: Mapzen / AWS Terrain Tiles (open data)"
+}
