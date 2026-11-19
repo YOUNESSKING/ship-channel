@@ -28,6 +28,8 @@ patch it to use paths relative to this repo. Never delete or edit the source rep
 - A wow early, then every 30 s for the first 3 min; a mid-video reversal; a closing question; ending ≤ 45 s.
 - Rights: PD / CC0 / CC BY / CC BY-SA only, never NC/ND. Read each item's rights field. Log every file in
   the video's `CREDITS.md`, and every film clip in `MANIFEST.md` with what it does NOT show.
+- Owner 2026-11-18 (USS Nevada): hook only from the sharpest footage, no shot opening on white/empty/slate; photo zooms aim at the
+  subject, never the centre; no hull-groan/sinking SFX. Details: STYLE_LOCK.md sections 3-4.
 - Archive film: no "Deep Time" grade (`GRADE=none`); pillarbox or upscale old 4:3 film; trim leaders.
 - Loudness: -14 LUFS with a measured trim (STYLE_LOCK 2c-9). Renders run detached and resumable.
 - Packaging: 3 titles scored ≥ 85 in vidIQ + 2–3 thumbnails in Test & Compare; 1–3 true words on the

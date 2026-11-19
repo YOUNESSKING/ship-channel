@@ -39,6 +39,16 @@ End changed or added.
 - Hook must be engaging and use the highest-quality footage available (owner 2026-11-15, Mallows Bay v2 notes).
 - Text: Anton / Oswald, white with one red accent (#D9572B family / red), steel-blue secondary. No gold/yellow.
   Safe-area checker `templates/check_safe_text.js` must pass every chapter.
+- **Owner rules from USS Nevada (2026-11-17/18):**
+  - Hook = only the sharpest sources (1080p+ film, 4K stills); never 480p film in the hook. No hook shot may start on a white-out,
+    an empty horizon, a slate or a leader: the first frame of every shot must already show the subject. A cut every ~2.5 s.
+  - Photo moves zoom in/out **toward the subject** (ship, blast, smoke), never toward the image centre; no centre pans. Subject points
+    come from `videos/uss_nevada/full/build/focus.py` (densest-detail point) + a manual fix file, checked on a crosshair sheet before
+    building segments.
+  - Every film window is frame-checked at its start and middle (one sheet of all windows) for slates, leaders, white flashes and the
+    NARA end logo before any render.
+  - Cards over film/photos must still read bright: if a background is dark (night film, dark maps), use a bright photo instead
+    (blurred if it has its own text). Check the contact sheet for near-black cards, not only blackdetect.
 - Contact sheet (one frame every 10 s) looked at before delivery; blackdetect clean; `tools/film/check_clips.py --no-cuts`.
 
 ## 4. Sound (locked by the owner 2026-11-04/05/08; enforced by `tools/sound/check_sound_lock.py`)
@@ -53,6 +63,9 @@ End changed or added.
 - Every effect is silent by the next picture cut after its event (0.25 s fade ending on the cut; a whoosh on the cut may
   run ≤ 0.4 s into the next shot). Beds start and stop with their shots (0.25 s fades). No effect rings > 1.5 s past
   its event. Horn ≤ 2 s, ≤ 2 per video, never under speech. Per-cue trims may only cut (gain ≤ 0, lowpass, longer fade).
+- **No hull-groan / "sinking" cues** (owner 2026-11-18: "annoying, not in its place"): the `ship` role (groan/flood/bubbles) is not
+  placed automatically on sinking film any more (the Mallows "steamer going down" rule is removed from `make_shotlists.py`); use it
+  only if the owner asks for one specific moment.
 - Speech-band SNR check per word under effects (`full/build/snr_words.py`); cut or move a cue that masks a word.
 - Music: Chris Zabriskie, *Music from Neptune Flux* (CC BY 4.0), credited in the description; bed built by
   `tools/sound/make_music_bed.py` / `full/build/music_bed.py` pattern.
