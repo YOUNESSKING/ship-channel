@@ -96,7 +96,7 @@ for s in SEG:
     if s["kind"] == "film":
         src = film_src(s["reel"])
         if not os.path.exists(src): missing.append((s["file"], src)); continue
-        sh = {"film": src, "ss": s["reel_in"], "grade": "ship"}
+        sh = {"film": src, "ss": s["reel_in"], "grade": "none" if str(s["reel"]).startswith("dvids_vid") else "ship"}   # Ranger: modern colour Navy video keeps its colour (the ship grade read the grey 2015 tow as B&W)
         if s.get("label"): sh["label"] = s["label"]
         if s.get("fit"): sh["fit"] = s["fit"]
         if s["reel"] == "39085": sh["crop"] = "1440:1080:240:0"   # 208-UN-177 is pillarboxed inside 1920x1080 (as cut_clips.sh / film_windows.py)
