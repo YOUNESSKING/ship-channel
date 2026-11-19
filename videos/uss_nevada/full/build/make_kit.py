@@ -20,8 +20,8 @@ H = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><title>USS Ne
 <p class="note">vidIQ 94. Alternates for Test &amp; Compare: “This Battleship Was the Bull's-Eye for an Atomic Bomb” (92) · “The Navy Dropped an Atomic Bomb on Its Own Battleship” (89). Fallback: “The Battleship That Survived Two Atomic Bombs” (87). Never say “the only ship”: New York and Pennsylvania also survived both tests.</p>
 <h2>2. Thumbnails</h2>
 <div class="thumbs">
-<figure><img src="../../thumbnails/N10_split_lagoon_2.jpg"><figcaption><b>N10, upload with this one (vidIQ 91)</b><br>N10_split_lagoon_2.jpg</figcaption></figure>
-<figure><img src="../../thumbnails/N6_half_split_box_only.jpg"><figcaption>N6, Test &amp; Compare (90)<br>N6_half_split_box_only.jpg</figcaption></figure>
+<figure><img src="../../thumbnails/AI6_split_2_nuclear_bombs.jpg"><figcaption><b>AI6, upload with this one (owner pick; vidIQ-made from the real frames)</b><br>AI6_split_2_nuclear_bombs.jpg</figcaption></figure>
+<figure><img src="../../thumbnails/N10_split_lagoon_2.jpg"><figcaption>N10, Test &amp; Compare (real frames, vidIQ 91)<br>N10_split_lagoon_2.jpg</figcaption></figure>
 <figure><img src="../../thumbnails/N11_split_lagoon_survived.jpg"><figcaption>N11, Test &amp; Compare (91)<br>N11_split_lagoon_survived.jpg</figcaption></figure>
 </div><p class="note">Judge the Test &amp; Compare winner on day 7–14, not day 1. Space this video ≥ 2 days from the Mallows Bay upload (2–3 a week max).</p>
 <h2>3. Upload settings</h2><table><tr><th>Setting</th><th>Value</th></tr>
@@ -35,7 +35,7 @@ H = f"""<!doctype html><html lang="en"><head><meta charset="utf-8"><title>USS Ne
 <h2>6. First comment (post it, then pin it)</h2><div class="box">{html.escape(pinned)}</div>
 <h2>7. Before you press Publish</h2><table>
 <tr><td>☐</td><td>Watched the master once; names sound right (listen to voice_sample/names_nevada.mp3: Bikini, Kwajalein, Waipio, boatswain, forecastle, Cherbourg, Toulon)</td></tr>
-<tr><td>☐</td><td>“Altered or synthetic content” = Yes</td></tr><tr><td>☐</td><td>Thumbnail N10 uploaded; N6 + N11 added in Test &amp; Compare</td></tr>
+<tr><td>☐</td><td>“Altered or synthetic content” = Yes</td></tr><tr><td>☐</td><td>Thumbnail AI6 uploaded; N10 + N11 added in Test &amp; Compare</td></tr>
 <tr><td>☐</td><td>Description pasted; chapters show in the preview</td></tr><tr><td>☐</td><td>Tags pasted; first comment posted and pinned</td></tr></table>
 </body></html>"""
 out = os.path.join(FULL, "upload_kit/upload_kit.html"); open(out, "w").write(H)
