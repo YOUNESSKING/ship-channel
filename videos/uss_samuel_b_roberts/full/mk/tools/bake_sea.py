@@ -10,6 +10,9 @@ W, H = 2880, 1620
 # depth ramp (m below sea level -> colour): shallow teal shelf -> navy -> abyss
 RAMP = [(0, (58, 120, 128)), (15, (40, 98, 112)), (40, (28, 76, 98)), (80, (20, 58, 84)), (200, (14, 42, 66)),
         (1000, (9, 28, 48)), (3000, (5, 16, 30))]
+if os.environ.get('DEEP'):   # Samuel B. Roberts: deep-ocean ramp (Philippine Trench must read, never near-black)
+    RAMP = [(0, (62, 128, 136)), (100, (40, 100, 118)), (500, (30, 82, 108)), (2000, (22, 62, 94)), (4000, (16, 48, 82)),
+            (6000, (12, 36, 70)), (8000, (10, 26, 60)), (10500, (8, 18, 50))]
 LAND_LO, LAND_HI = np.array([46, 47, 42], float), np.array([78, 76, 64], float)
 GOLD = np.array([201, 180, 138], float)
 
@@ -137,7 +140,7 @@ def main(name, lat, lon, z):
     sea = ramp(depth) * (0.72 + 0.5 * hs[..., None])
     # depth contours (20, 50, 100, 200, 500, 1000, 2000 m): thin light lines
     cont = np.zeros((H, W))
-    for lv in (20, 50, 100, 200, 500, 1000, 2000):
+    for lv in ((20, 50, 100, 200, 500, 1000, 2000) if not os.environ.get('DEEP') else (200, 1000, 2000, 4000, 6000, 8000)):
         b = (depth > lv).astype(float); edge = np.abs(blur(b, 1) - 0.5) < 0.18
         cont = np.maximum(cont, edge * (0.22 if lv < 200 else 0.14))
     sea = sea * (1 - cont[..., None]) + np.array([150, 200, 210]) * cont[..., None]

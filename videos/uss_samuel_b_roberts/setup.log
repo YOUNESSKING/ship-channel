@@ -1,2 +1,17 @@
 [setup 23:18:41] hyperframes
 [setup 23:18:51] python packages
+[setup 23:20:21] depth model + photo/whisper deps
+[setup 23:20:45] chrome for rendering
+[setup 23:20:45] claude skills
+[setup 23:20:56] voice model kokoro-v1.0.onnx
+[setup 23:21:00] voice model voices-v1.0.bin
+[in#0 @ 0x55b615419dc0] Error opening input: No such file or directory
+Error opening input file /home/user/ship-channel/hannibal/audio/voice.mp3.
+Error opening input files: No such file or directory
+[in#0 @ 0x55ff7bf1ddc0] Error opening input: No such file or directory
+Error opening input file /home/user/ship-channel/ridgway/audio/voice.mp3.
+Error opening input files: No such file or directory
+[in#0 @ 0x55f32ff27dc0] Error opening input: No such file or directory
+Error opening input file /home/user/ship-channel/ridgway/assets/media/music.mp3.
+Error opening input files: No such file or directory
+[setup 23:21:06] done
