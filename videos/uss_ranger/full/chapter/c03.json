@@ -1,0 +1,346 @@
+{
+ "key": "c03",
+ "title": "USS Ranger · Hollywood's Carrier",
+ "words": "../build/words.json",
+ "audio_offset": 116.298,
+ "clips_dir": "../segments",
+ "duration": 90.258,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_sd.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t1.88",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s02.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t7.17",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "word",
+   "card": true,
+   "params": {
+    "text": "TOP GUN",
+    "at": "@Top"
+   },
+   "clip": {
+    "file": "b_c03_s03.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s04",
+   "start": "t9.23",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s04.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t12.56",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "THE MAIN CARRIER AT SEA",
+    "text": "USS ENTERPRISE (CVN-65)",
+    "at": "@Enterprise",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s05.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s06",
+   "start": "t17.87",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_coronado.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t21.97",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s07.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s08",
+   "start": "t25.59",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "TOP GUN, 1986",
+    "text": "NOT THE CARRIER. ONE OF THEM.",
+    "at": "@one",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s08.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s09",
+   "start": "t29.49",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s09.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
+   "start": "t33.27",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s10.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
+   "start": "t38.74",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "HER CREW'S NICKNAME",
+    "text": "TOP GUN OF THE PACIFIC",
+    "at": "@Pacific",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s11.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s12",
+   "start": "t41.57",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c03_s12.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "IN 1982",
+    "number": "25",
+    "unit": "years old",
+    "number_at": "@twenty"
+   }
+  },
+  {
+   "id": "s13",
+   "start": "t47.02",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "BEFORE THE FILM",
+    "number": "4",
+    "unit": "years",
+    "number_at": "@Four",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s13.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s14",
+   "start": "t49.31",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s14.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s15",
+   "start": "t51.72",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "STAR TREK IV, 1986",
+    "text": "A CARRIER CALLED ENTERPRISE",
+    "at": "@Enterprise",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s15.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s16",
+   "start": "t56.25",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s16.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s17",
+   "start": "t59.00",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s17.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s18",
+   "start": "t60.74",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_northisland.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s19",
+   "start": "t64.48",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s19.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s20",
+   "start": "t70.01",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s20.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s21",
+   "start": "t75.01",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "1991",
+    "text": "FLIGHT OF THE INTRUDER",
+    "at": "@Intruder",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s21.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s22",
+   "start": "t81.09",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s22.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s23",
+   "start": "t84.63",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS RANGER, SAN FRANCISCO BAY, 1966",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s23.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

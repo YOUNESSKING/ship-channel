@@ -1,0 +1,398 @@
+{
+ "tow_bow.mp4": {
+  "reel": "dvids_vid_393470",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    0.3,
+    5.0
+   ]
+  ],
+  "tag": "U.S. NAVY VIDEO \u00b7 EX-USS RANGER UNDER TOW, 5 MARCH 2015",
+  "slow": null
+ },
+ "tow_pass.mp4": {
+  "reel": "dvids_vid_393470",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    6.2,
+    17.0
+   ]
+  ],
+  "tag": "U.S. NAVY VIDEO \u00b7 EX-USS RANGER UNDER TOW, 5 MARCH 2015",
+  "slow": null
+ },
+ "tow_quarter.mp4": {
+  "reel": "dvids_vid_393470",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    18.2,
+    29.0
+   ]
+  ],
+  "tag": "U.S. NAVY VIDEO \u00b7 EX-USS RANGER UNDER TOW, 5 MARCH 2015",
+  "slow": null
+ },
+ "tow_long.mp4": {
+  "reel": "dvids_vid_393470",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    30.2,
+    35.8
+   ]
+  ],
+  "tag": "U.S. NAVY VIDEO \u00b7 EX-USS RANGER UNDER TOW, 5 MARCH 2015",
+  "slow": null
+ },
+ "tow_island.mp4": {
+  "reel": "dvids_vid_393470",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    36.2,
+    41.8
+   ]
+  ],
+  "tag": "U.S. NAVY VIDEO \u00b7 EX-USS RANGER UNDER TOW, 5 MARCH 2015",
+  "slow": null
+ },
+ "tow_stern.mp4": {
+  "reel": "dvids_vid_393470",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    42.2,
+    52.0
+   ]
+  ],
+  "tag": "U.S. NAVY VIDEO \u00b7 EX-USS RANGER UNDER TOW, 5 MARCH 2015",
+  "slow": null
+ },
+ "kh_fog.mp4": {
+  "reel": "dvids_vid_828554",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    0.5,
+    34.0
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY VIDEO \u00b7 EX-USS KITTY HAWK UNDER TOW, 2022",
+  "slow": null
+ },
+ "kh_fog_b.mp4": {
+  "reel": "dvids_vid_828554",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    34.5,
+    69.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY VIDEO \u00b7 EX-USS KITTY HAWK UNDER TOW, 2022",
+  "slow": null
+ },
+ "sf_a.mp4": {
+  "reel": "nara_85335",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    20.5,
+    59.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 USS RANGER, SAN FRANCISCO BAY, 1966",
+  "slow": null
+ },
+ "sf_b.mp4": {
+  "reel": "nara_85335",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    60.5,
+    129.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 USS RANGER, SAN FRANCISCO BAY, 1966",
+  "slow": null
+ },
+ "sf_c.mp4": {
+  "reel": "nara_85335",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    130.5,
+    249.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 USS RANGER, SAN FRANCISCO BAY, 1966",
+  "slow": null
+ },
+ "a7_deck.mp4": {
+  "reel": "nara_86068",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    10.5,
+    54.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 A-7A CORSAIRS ON USS RANGER, 1967-68",
+  "slow": null
+ },
+ "a7_crew.mp4": {
+  "reel": "nara_86068",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    60.5,
+    219.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 A-7A CORSAIRS ON USS RANGER, 1967-68",
+  "slow": null
+ },
+ "a7_launch.mp4": {
+  "reel": "nara_86068",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    450.5,
+    559.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 A-7A CORSAIRS ON USS RANGER, 1967-68",
+  "slow": null
+ },
+ "a7_ready.mp4": {
+  "reel": "nara_86067",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    10.5,
+    169.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 A-7A CORSAIRS ON USS RANGER, 1967-68",
+  "slow": null
+ },
+ "a7_flight.mp4": {
+  "reel": "nara_86067",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    260.5,
+    409.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 A-7A CORSAIRS IN FLIGHT, 1967",
+  "slow": null
+ },
+ "a7_cat.mp4": {
+  "reel": "nara_86067",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    420.5,
+    559.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 A-7A CORSAIRS ON USS RANGER, 1967-68",
+  "slow": null
+ },
+ "a7_wide.mp4": {
+  "reel": "nara_86191",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    10.5,
+    99.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 A-7A CORSAIRS ON USS RANGER, 1967-68",
+  "slow": null
+ },
+ "a7_tower.mp4": {
+  "reel": "nara_86191",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    180.5,
+    284.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 A-7A CORSAIRS ON USS RANGER, 1967-68",
+  "slow": null
+ },
+ "a7_pass.mp4": {
+  "reel": "nara_86191",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    300.5,
+    329.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 A-7A CORSAIRS ON USS RANGER, 1967-68",
+  "slow": null
+ },
+ "a7_bombs.mp4": {
+  "reel": "nara_86191",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    330.5,
+    519.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 A-7A CORSAIRS ON USS RANGER, 1967-68",
+  "slow": null
+ },
+ "deck70.mp4": {
+  "reel": "nara_87809",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    10.5,
+    129.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 USS RANGER FLIGHT DECK, 1970",
+  "slow": null
+ },
+ "christen_bow.mp4": {
+  "reel": "nara_79987",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    8.5,
+    59.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 CHRISTENING AT NEWPORT NEWS, SEPT 1956",
+  "slow": null
+ },
+ "christen_platform.mp4": {
+  "reel": "nara_79987",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    68.5,
+    89.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 CHRISTENING AT NEWPORT NEWS, SEPT 1956",
+  "slow": null
+ },
+ "christen_crowd.mp4": {
+  "reel": "nara_79987",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    135.5,
+    174.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 CHRISTENING AT NEWPORT NEWS, SEPT 1956",
+  "slow": null
+ },
+ "christen_low.mp4": {
+  "reel": "nara_79987",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    175.5,
+    199.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 CHRISTENING AT NEWPORT NEWS, SEPT 1956",
+  "slow": null
+ },
+ "christen_sponsor.mp4": {
+  "reel": "nara_79987",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    215.5,
+    259.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 CHRISTENING AT NEWPORT NEWS, SEPT 1956",
+  "slow": null
+ },
+ "forrestal_air.mp4": {
+  "reel": "nara_86297",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    15.5,
+    129.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 USS FORRESTAL, LEAD SHIP OF THE CLASS, 1968",
+  "slow": null
+ },
+ "a6_launch.mp4": {
+  "reel": "nara_85665",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    10.5,
+    119.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 A-6A INTRUDER LAUNCH, 1967",
+  "slow": null
+ },
+ "f14_dusk.mp4": {
+  "reel": "dvids_vid_9295",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    4.5,
+    61.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY VIDEO \u00b7 F-14D, USS THEODORE ROOSEVELT, 2005",
+  "slow": null
+ },
+ "f14_steam.mp4": {
+  "reel": "dvids_vid_9295",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    62.5,
+    99.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY VIDEO \u00b7 CATAPULT CREW, 2005",
+  "slow": null
+ },
+ "unrep.mp4": {
+  "reel": "nara_86312",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    20.5,
+    299.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 REPLENISHMENT OFF VIETNAM, 1968",
+  "slow": null
+ },
+ "forrestal_leaves.mp4": {
+  "reel": "dvids_vid_320929",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    0.5,
+    19.5
+   ]
+  ],
+  "tag": "U.S. NAVY VIDEO \u00b7 EX-USS FORRESTAL LEAVES FOR THE SCRAPYARD, 2014",
+  "slow": null
+ }
+}

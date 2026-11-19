@@ -1,0 +1,325 @@
+{
+ "key": "c08",
+ "title": "USS Ranger · What's Left",
+ "words": "../build/words.json",
+ "audio_offset": 709.532,
+ "clips_dir": "../segments",
+ "duration": 141.746,
+ "fade_out": 0.6,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s01.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t2.51",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s02.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t13.98",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "DISMANTLING",
+    "number": "2+",
+    "unit": "years",
+    "number_at": "@two",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c08_s03.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s04",
+   "start": "t16.05",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "RECYCLED · PER THE YARD",
+    "number": "56,000+",
+    "unit": "tons",
+    "number_at": "@fifty",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c08_s04.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s05",
+   "start": "t24.56",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "1 NOVEMBER 2017",
+    "text": "THE LAST SECTION COMES OUT",
+    "at": "@last",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c08_s05.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s06",
+   "start": "t30.98",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "1 NOV 1983 → 1 NOV 2017",
+    "text": "34 YEARS TO THE DAY",
+    "at": "@thirty",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c08_s06.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s07",
+   "start": "t37.18",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "A MOMENT OF SILENCE",
+    "number": "09:50",
+    "number_at": "@nine",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c08_s07.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s08",
+   "start": "t45.01",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s08.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s09",
+   "start": "t47.95",
+   "sfx": false,
+   "tag": "U.S. NAVY VIDEO · EX-USS RANGER UNDER TOW, 5 MARCH 2015",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c08_s09.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
+   "start": "t54.49",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c08_gone.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
+   "start": "t56.92",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c08_lexington.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s12",
+   "start": "t65.60",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "FROM HER MACHINERY ROOM",
+    "text": "GAUGES · WINDOWS · CONTROLS",
+    "at": "@controls",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c08_s12.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s13",
+   "start": "t73.39",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s13.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s14",
+   "start": "t77.14",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s14.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s15",
+   "start": "t83.20",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s15.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s16",
+   "start": "t90.15",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "THE FORRESTAL CLASS",
+    "text": "NONE BECAME A MUSEUM",
+    "at": "@museum",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c08_s16.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s17",
+   "start": "t92.97",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s17.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s18",
+   "start": "t102.48",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c08_indy.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s19",
+   "start": "t107.07",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s19.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s20",
+   "start": "t111.98",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "YOUR VERDICT",
+    "text": "SAVE ONE · OR ONE CENT?",
+    "at": "@right",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c08_s20.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s21",
+   "start": "t117.45",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c08_endscreen.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

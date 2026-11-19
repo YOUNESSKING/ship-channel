@@ -1,0 +1,276 @@
+{
+ "key": "c02",
+ "title": "USS Ranger · One Cent",
+ "words": "../build/words.json",
+ "audio_offset": 39.73,
+ "clips_dir": "../segments",
+ "duration": 76.568,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_puget.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t7.20",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s02.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t12.81",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "THE NAVY'S NAME",
+    "text": "INACTIVE SHIPS",
+    "at": "@inactive",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c02_s03.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s04",
+   "start": "t15.21",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · U.S. NAVY VIDEO · EX-USS KITTY HAWK UNDER TOW, 2022",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c02_s04.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t17.96",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s05.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s06",
+   "start": "t23.61",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c02_s06.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "IN RESERVE",
+    "number": "20",
+    "unit": "years",
+    "number_at": "@twenty"
+   }
+  },
+  {
+   "id": "s07",
+   "start": "t28.80",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s07.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s08",
+   "start": "t32.78",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c02_s08.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "LAST LANDING",
+    "number": "1993",
+    "number_at": "@nineteen"
+   }
+  },
+  {
+   "id": "s09",
+   "start": "t36.67",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_contract.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
+   "start": "t47.60",
+   "sfx": false,
+   "tag": "U.S. NAVY VIDEO · EX-USS RANGER UNDER TOW, 5 MARCH 2015",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c02_s10.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
+   "start": "t50.98",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "THE PRICE",
+    "number": "1¢",
+    "number_at": "@cent",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c02_s11.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s12",
+   "start": "t53.18",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "THE HEADLINES, 2014",
+    "text": "NAVY CARRIER SOLD FOR A PENNY",
+    "at": "@penny",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c02_s12.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s13",
+   "start": "t57.39",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "THE HEADLINES, 2014",
+    "text": "TOP GUN SHIP GOES FOR ONE CENT",
+    "at": "@Top",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c02_s13.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s14",
+   "start": "t60.07",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s14.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s15",
+   "start": "t61.88",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s15.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s16",
+   "start": "t64.40",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "word",
+   "card": true,
+   "params": {
+    "text": "1¢",
+    "at": "@smallest"
+   },
+   "clip": {
+    "file": "b_c02_s16.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s17",
+   "start": "t67.44",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s17.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s18",
+   "start": "t70.93",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_to_sd.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

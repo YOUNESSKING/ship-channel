@@ -1,0 +1,117 @@
+{
+ "chapter": "c06",
+ "cues": [
+  {
+   "shot": "s02",
+   "at": "@never",
+   "role": "hit",
+   "note": "the twist"
+  },
+  {
+   "shot": "s02",
+   "at": "@never",
+   "role": "hit",
+   "note": "stamp: NEVER SOLD"
+  },
+  {
+   "shot": "s03",
+   "at": "@procurement",
+   "role": "pop",
+   "note": "card: “NOT A SALES CONTRACT. IT IS A PROCUREMENT CONTRACT.”"
+  },
+  {
+   "shot": "s04",
+   "at": "@buyer",
+   "role": "pop",
+   "note": "card: THE BUYER PAYS THE NAVY"
+  },
+  {
+   "shot": "s05",
+   "at": "@customer",
+   "role": "pop",
+   "note": "card: THE NAVY PAYS THE SHIPBREAKER"
+  },
+  {
+   "shot": "s06",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c06_route)"
+  },
+  {
+   "shot": "s08",
+   "at": "@cent",
+   "role": "hit",
+   "note": "stamp: WHY 1¢?"
+  },
+  {
+   "shot": "s11",
+   "at": "@minus",
+   "role": "pop",
+   "note": "card: COST OF THE JOB − VALUE OF THE STEEL"
+  },
+  {
+   "shot": "s13",
+   "at": "@nothing",
+   "role": "pop",
+   "note": "card number lands: $0.01"
+  },
+  {
+   "shot": "s14",
+   "at": "@lowest",
+   "role": "pop",
+   "note": "card: “THE LOWEST PRICE THE NAVY COULD POSSIBLY HAVE PAID”"
+  },
+  {
+   "shot": "s16",
+   "at": "@three",
+   "role": "pop",
+   "note": "number lands: 3"
+  },
+  {
+   "shot": "s18",
+   "at": "@lowest",
+   "role": "hit",
+   "note": "stamp: LOWEST BID WINS"
+  },
+  {
+   "shot": "s19",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c06_brownsville)"
+  },
+  {
+   "shot": "s21",
+   "at": "@cent",
+   "role": "pop",
+   "note": "number lands: $0.01"
+  },
+  {
+   "shot": "s22",
+   "at": "@cent",
+   "role": "pop",
+   "note": "card number lands: $0.01"
+  },
+  {
+   "shot": "s24",
+   "at": "@three",
+   "role": "pop",
+   "note": "card number lands: $3,000,000"
+  },
+  {
+   "shot": "s27",
+   "at": "@each",
+   "role": "pop",
+   "note": "card number lands: 1¢ EACH"
+  }
+ ],
+ "film_shots": [
+  "s01",
+  "s02",
+  "s09",
+  "s21",
+  "s22",
+  "s27"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

@@ -1,0 +1,233 @@
+{
+ "key": "c07",
+ "title": "USS Ranger · The Last Voyage",
+ "words": "../build/words.json",
+ "audio_offset": 625.896,
+ "clips_dir": "../segments",
+ "duration": 83.636,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_depart.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t4.73",
+   "sfx": false,
+   "tag": "U.S. NAVY VIDEO · EX-USS RANGER UNDER TOW, 5 MARCH 2015",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s02.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t8.62",
+   "sfx": false,
+   "tag": "U.S. NAVY VIDEO · EX-USS RANGER UNDER TOW, 5 MARCH 2015",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s03.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s04",
+   "start": "t12.77",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s04.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t17.37",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "THE OCEAN TUG",
+    "text": "CROSBY LEADER",
+    "at": "@Crosby",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c07_s05.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s06",
+   "start": "t23.17",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_panama.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t28.18",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_route.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s08",
+   "start": "t33.83",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_horn.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s09",
+   "start": "t40.67",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_route_b.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
+   "start": "t45.12",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "UNDER TOW",
+    "number": "≈16,000",
+    "unit": "miles",
+    "number_at": "@sixteen",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c07_s10.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s11",
+   "start": "t48.57",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s11.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s12",
+   "start": "t50.25",
+   "sfx": false,
+   "tag": "U.S. NAVY VIDEO · EX-USS RANGER UNDER TOW, 5 MARCH 2015",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s12.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s13",
+   "start": "t53.10",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_arrive.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s14",
+   "start": "t64.22",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_channel.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s15",
+   "start": "t71.95",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "UNDER TOW",
+    "number": "129",
+    "unit": "days",
+    "number_at": "@one",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c07_s15.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s16",
+   "start": "t78.13",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s16.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

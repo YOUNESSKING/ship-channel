@@ -1,0 +1,168 @@
+{
+ "chapter": "c04",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c04_newport)"
+  },
+  {
+   "shot": "s02",
+   "at": "@christened",
+   "role": "tick",
+   "note": "label: CHRISTENED"
+  },
+  {
+   "shot": "s05",
+   "at": "@third",
+   "role": "tick",
+   "note": "label: SHIP NUMBER 3"
+  },
+  {
+   "shot": "s07",
+   "at": "@thousand",
+   "role": "pop",
+   "note": "number lands: 1,000+"
+  },
+  {
+   "shot": "s08",
+   "at": "@fifty",
+   "role": "pop",
+   "note": "card number lands: 56,000"
+  },
+  {
+   "shot": "s09",
+   "at": "@eighty",
+   "role": "pop",
+   "note": "card number lands: 80,000+"
+  },
+  {
+   "shot": "s10",
+   "at": "@commissioned",
+   "role": "tick",
+   "note": "label: COMMISSIONED"
+  },
+  {
+   "shot": "s12",
+   "at": "@Charles",
+   "role": "tick",
+   "note": "label: CAPT. CHARLES D. BOOTH II"
+  },
+  {
+   "shot": "s13",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c04_horn)"
+  },
+  {
+   "shot": "s16",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c04_westpac)"
+  },
+  {
+   "shot": "s17",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c04_vietnam)"
+  },
+  {
+   "shot": "s18",
+   "at": "@seven",
+   "role": "pop",
+   "note": "number lands: 7"
+  },
+  {
+   "shot": "s20",
+   "at": "@Corsair",
+   "role": "tick",
+   "note": "label: A-7 CORSAIR II"
+  },
+  {
+   "shot": "s22",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c04_arabian)"
+  },
+  {
+   "shot": "s24",
+   "at": "@fire",
+   "role": "pop",
+   "note": "card: FIRE IN A MAIN MACHINERY ROOM"
+  },
+  {
+   "shot": "s25",
+   "at": "@ten",
+   "role": "pop",
+   "note": "number lands: 09:50"
+  },
+  {
+   "shot": "s27",
+   "at": "@Six",
+   "role": "pop",
+   "note": "card number lands: 6"
+  },
+  {
+   "shot": "s28",
+   "at": "@thirty",
+   "role": "pop",
+   "note": "card number lands: 35"
+  },
+  {
+   "shot": "s30",
+   "at": "@November",
+   "role": "hit",
+   "note": "remember the date"
+  },
+  {
+   "shot": "s30",
+   "at": "@November",
+   "role": "hit",
+   "note": "stamp: 1 NOVEMBER"
+  },
+  {
+   "shot": "s31",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c04_gulf)"
+  },
+  {
+   "shot": "s32",
+   "at": "@Storm",
+   "role": "boom",
+   "note": "air war begins"
+  },
+  {
+   "shot": "s32",
+   "at": "@Storm",
+   "role": "pop",
+   "note": "card: DESERT STORM"
+  },
+  {
+   "shot": "s37",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c04_somalia)"
+  },
+  {
+   "shot": "s41",
+   "at": "@decommissioned",
+   "role": "pop",
+   "note": "card: DECOMMISSIONED"
+  }
+ ],
+ "film_shots": [
+  "s02",
+  "s03",
+  "s04",
+  "s05",
+  "s06",
+  "s18",
+  "s19",
+  "s20",
+  "s21"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

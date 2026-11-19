@@ -1,0 +1,78 @@
+{
+ "duration": 833.278,
+ "fps": 30,
+ "chapters": [
+  {
+   "key": "c01",
+   "title": "Hook",
+   "start": 0.0,
+   "voice_end": 39.28,
+   "words": 112,
+   "end": 39.73,
+   "duration": 39.73
+  },
+  {
+   "key": "c02",
+   "title": "One Cent",
+   "start": 39.73,
+   "voice_end": 115.848,
+   "words": 191,
+   "end": 116.298,
+   "duration": 76.568
+  },
+  {
+   "key": "c03",
+   "title": "Hollywood's Carrier",
+   "start": 116.298,
+   "voice_end": 206.106,
+   "words": 252,
+   "end": 206.556,
+   "duration": 90.258
+  },
+  {
+   "key": "c04",
+   "title": "Thirty-Six Years",
+   "start": 206.556,
+   "voice_end": 373.29,
+   "words": 433,
+   "end": 373.74,
+   "duration": 167.184
+  },
+  {
+   "key": "c05",
+   "title": "The Museum That Never Was",
+   "start": 373.74,
+   "voice_end": 506.593,
+   "words": 361,
+   "end": 507.043,
+   "duration": 133.303
+  },
+  {
+   "key": "c06",
+   "title": "The Penny",
+   "start": 507.043,
+   "voice_end": 625.446,
+   "words": 327,
+   "end": 625.896,
+   "duration": 118.853
+  },
+  {
+   "key": "c07",
+   "title": "The Last Voyage",
+   "start": 625.896,
+   "voice_end": 709.082,
+   "words": 234,
+   "end": 709.532,
+   "duration": 83.636
+  },
+  {
+   "key": "c08",
+   "title": "What's Left",
+   "start": 709.532,
+   "voice_end": 832.278,
+   "words": 337,
+   "end": 833.278,
+   "duration": 123.746
+  }
+ ]
+}

@@ -1,0 +1,426 @@
+{
+ "key": "c06",
+ "title": "USS Ranger · The Penny",
+ "words": "../build/words.json",
+ "audio_offset": 507.043,
+ "clips_dir": "../segments",
+ "duration": 118.853,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "tag": "U.S. NAVY VIDEO · EX-USS RANGER UNDER TOW, 5 MARCH 2015",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c06_s01.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t2.12",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "word",
+   "card": true,
+   "params": {
+    "text": "NEVER SOLD",
+    "at": "@never"
+   },
+   "clip": {
+    "file": "b_c06_s02.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s03",
+   "start": "t4.69",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "NAVSEA, DECEMBER 2014",
+    "text": "“NOT A SALES CONTRACT. IT IS A PROCUREMENT CONTRACT.”",
+    "at": "@procurement",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s03.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s04",
+   "start": "t11.29",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "A SALE",
+    "text": "THE BUYER PAYS THE NAVY",
+    "at": "@buyer",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s04.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s05",
+   "start": "t13.75",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "THIS DEAL",
+    "text": "THE NAVY PAYS THE SHIPBREAKER",
+    "at": "@customer",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s05.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s06",
+   "start": "t16.02",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c06_route.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t21.79",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "s_c06_s07.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s08",
+   "start": "t23.96",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "word",
+   "card": true,
+   "params": {
+    "text": "WHY 1¢?",
+    "at": "@cent"
+   },
+   "clip": {
+    "file": "b_c06_s08.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s09",
+   "start": "t26.08",
+   "sfx": false,
+   "tag": "U.S. NAVY VIDEO · EX-USS RANGER UNDER TOW, 5 MARCH 2015",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c06_s09.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
+   "start": "t27.96",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s10.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
+   "start": "t31.86",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "THE BID",
+    "text": "COST OF THE JOB − VALUE OF THE STEEL",
+    "at": "@minus",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s11.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s12",
+   "start": "t37.50",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s12.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s13",
+   "start": "t41.41",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "THE BID",
+    "number": "$0.01",
+    "number_at": "@nothing",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s13.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s14",
+   "start": "t44.25",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "THE NAVY",
+    "text": "“THE LOWEST PRICE THE NAVY COULD POSSIBLY HAVE PAID”",
+    "at": "@lowest",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s14.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s15",
+   "start": "t48.90",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s15.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s16",
+   "start": "t54.77",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c06_s16.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "SHIPBREAKERS",
+    "number": "3",
+    "number_at": "@three"
+   }
+  },
+  {
+   "id": "s17",
+   "start": "t58.23",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s17.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s18",
+   "start": "t64.99",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "word",
+   "card": true,
+   "params": {
+    "text": "LOWEST BID WINS",
+    "at": "@lowest"
+   },
+   "clip": {
+    "file": "b_c06_s18.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s19",
+   "start": "t66.90",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c06_brownsville.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s20",
+   "start": "t75.92",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "s_c06_s20.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s21",
+   "start": "t79.69",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS FORRESTAL, LEAD SHIP OF THE CLASS, 1968",
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "f_c06_s21.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "FORRESTAL · 2013",
+    "number": "$0.01",
+    "number_at": "@cent"
+   }
+  },
+  {
+   "id": "s22",
+   "start": "t87.49",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "SARATOGA · 2014",
+    "number": "$0.01",
+    "number_at": "@cent",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s22.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s23",
+   "start": "t92.22",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s23.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s24",
+   "start": "t101.58",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "CONSTELLATION · 2014",
+    "number": "$3,000,000",
+    "number_at": "@three",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s24.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s25",
+   "start": "t105.00",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s25.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s26",
+   "start": "t110.37",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s26.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s27",
+   "start": "t113.79",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "KITTY HAWK · JOHN F. KENNEDY",
+    "number": "1¢ EACH",
+    "number_at": "@each",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s27.mp4",
+    "push": null
+   }
+  }
+ ]
+}

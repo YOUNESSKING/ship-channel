@@ -1,0 +1,628 @@
+{
+ "key": "c04",
+ "title": "USS Ranger · Thirty-Six Years",
+ "words": "../build/words.json",
+ "audio_offset": 206.556,
+ "clips_dir": "../segments",
+ "duration": 167.184,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c04_newport.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t6.89",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · CHRISTENING AT NEWPORT NEWS, SEPT 1956",
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "f_c04_s02.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "29 SEPTEMBER 1956",
+    "text": "CHRISTENED",
+    "at": "@christened"
+   }
+  },
+  {
+   "id": "s03",
+   "start": "t11.17",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · CHRISTENING AT NEWPORT NEWS, SEPT 1956",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c04_s03.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s04",
+   "start": "t14.07",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · CHRISTENING AT NEWPORT NEWS, SEPT 1956",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c04_s04.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t16.80",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS FORRESTAL, LEAD SHIP OF THE CLASS, 1968",
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "f_c04_s05.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "FORRESTAL CLASS",
+    "text": "SHIP NUMBER 3",
+    "at": "@third"
+   }
+  },
+  {
+   "id": "s06",
+   "start": "t21.64",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · A-7A CORSAIRS ON USS RANGER, 1967-68",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c04_s06.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t23.39",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c04_s07.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "LENGTH",
+    "number": "1,000+",
+    "unit": "ft",
+    "number_at": "@thousand"
+   }
+  },
+  {
+   "id": "s08",
+   "start": "t25.66",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "EMPTY",
+    "number": "56,000",
+    "unit": "tons",
+    "number_at": "@fifty",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c04_s08.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s09",
+   "start": "t27.86",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "FULLY LOADED",
+    "number": "80,000+",
+    "unit": "tons",
+    "number_at": "@eighty",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c04_s09.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s10",
+   "start": "t31.01",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c04_s10.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "10 AUGUST 1957",
+    "text": "COMMISSIONED",
+    "at": "@commissioned"
+   }
+  },
+  {
+   "id": "s11",
+   "start": "t34.43",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s11.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s12",
+   "start": "t37.30",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c04_s12.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "FIRST CAPTAIN",
+    "text": "CAPT. CHARLES D. BOOTH II",
+    "at": "@Charles"
+   }
+  },
+  {
+   "id": "s13",
+   "start": "t39.97",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c04_horn.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s14",
+   "start": "t47.51",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "s_c04_s14.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s15",
+   "start": "t51.36",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s15.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s16",
+   "start": "t53.82",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c04_westpac.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s17",
+   "start": "t57.44",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c04_vietnam.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s18",
+   "start": "t62.39",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · A-7A CORSAIRS IN FLIGHT, 1967",
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "f_c04_s18.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "1964-1973",
+    "number": "7",
+    "unit": "war cruises",
+    "number_at": "@seven"
+   }
+  },
+  {
+   "id": "s19",
+   "start": "t66.29",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · A-7A CORSAIRS ON USS RANGER, 1967-68",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c04_s19.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s20",
+   "start": "t69.05",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · A-7A CORSAIRS ON USS RANGER, 1967-68",
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "f_c04_s20.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "INTO COMBAT, 1967",
+    "text": "A-7 CORSAIR II",
+    "at": "@Corsair"
+   }
+  },
+  {
+   "id": "s21",
+   "start": "t73.67",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · A-7A CORSAIRS ON USS RANGER, 1967-68",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c04_s21.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s22",
+   "start": "t76.69",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c04_arabian.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s23",
+   "start": "t82.64",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s23.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s24",
+   "start": "t85.42",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "1 NOVEMBER 1983",
+    "text": "FIRE IN A MAIN MACHINERY ROOM",
+    "at": "@fire",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c04_s24.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s25",
+   "start": "t90.48",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c04_s25.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "FIRE STARTS",
+    "number": "09:50",
+    "number_at": "@ten"
+   }
+  },
+  {
+   "id": "s26",
+   "start": "t93.80",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s26.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s27",
+   "start": "t103.61",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "KILLED",
+    "number": "6",
+    "number_at": "@Six",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c04_s27.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s28",
+   "start": "t104.67",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "INJURED",
+    "number": "35",
+    "number_at": "@thirty",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c04_s28.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s29",
+   "start": "t106.70",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s29.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s30",
+   "start": "t110.52",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "word",
+   "card": true,
+   "params": {
+    "text": "1 NOVEMBER",
+    "at": "@November"
+   },
+   "clip": {
+    "file": "b_c04_s30.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s31",
+   "start": "t115.21",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c04_gulf.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s32",
+   "start": "t124.73",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "17 JANUARY 1991",
+    "text": "DESERT STORM",
+    "at": "@Storm",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c04_s32.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s33",
+   "start": "t127.61",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s33.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s34",
+   "start": "t132.75",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s34.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s35",
+   "start": "t136.41",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s35.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s36",
+   "start": "t140.21",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s36.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s37",
+   "start": "t143.28",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c04_somalia.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s38",
+   "start": "t149.74",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s38.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s39",
+   "start": "t151.22",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s39.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s40",
+   "start": "t156.92",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s40.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s41",
+   "start": "t158.71",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "10 JULY 1993",
+    "text": "DECOMMISSIONED",
+    "at": "@decommissioned",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c04_s41.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s42",
+   "start": "t163.53",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s42.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s43",
+   "start": "t164.93",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s43.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

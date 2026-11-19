@@ -1,0 +1,444 @@
+{
+ "key": "c05",
+ "title": "USS Ranger · The Museum That Never Was",
+ "words": "../build/words.json",
+ "audio_offset": 373.74,
+ "clips_dir": "../segments",
+ "duration": 133.303,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c05_north.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t4.65",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s02.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t10.15",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "8 MARCH 2004",
+    "text": "STRUCK FROM THE NAVAL VESSEL REGISTER",
+    "at": "@struck",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c05_s03.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s04",
+   "start": "t15.50",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s04.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t19.13",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "2004",
+    "text": "ON THE DONATION LIST",
+    "at": "@donation",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c05_s05.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s06",
+   "start": "t23.59",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s06.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t28.32",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s07.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s08",
+   "start": "t32.04",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "MUSEUM CARRIERS",
+    "text": "INTREPID · MIDWAY",
+    "at": "@Midway",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c05_s08.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s09",
+   "start": "t36.18",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s09.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
+   "start": "t40.13",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "FOUNDED 2001",
+    "text": "USS RANGER FOUNDATION",
+    "at": "@Foundation",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c05_s10.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s11",
+   "start": "t49.52",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c05_fairview.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s12",
+   "start": "t54.88",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s12.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s13",
+   "start": "t58.05",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "THE NAVY'S RULE",
+    "text": "FUND THE FIRST 5 YEARS",
+    "at": "@five",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c05_s13.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s14",
+   "start": "t64.77",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "TO GET HER READY",
+    "number": "≈$10M",
+    "number_at": "@ten",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c05_s14.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s15",
+   "start": "t69.71",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "IN ALL",
+    "number": "$30M",
+    "number_at": "@thirty",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c05_s15.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s16",
+   "start": "t71.90",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "RAISED · NAVY'S COUNT",
+    "number": "≈$105,000",
+    "number_at": "@one",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c05_s16.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s17",
+   "start": "t77.38",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "START-UP BILL",
+    "number": "≈$32M",
+    "number_at": "@thirty",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c05_s17.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s18",
+   "start": "t80.67",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "FOUNDATION'S FIGURE",
+    "number": "$600,000+",
+    "number_at": "@six",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c05_s18.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s19",
+   "start": "t84.86",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s19.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s20",
+   "start": "t87.68",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "NAVY SPOKESMAN, 2012",
+    "text": "“NO ORGANIZATION HAS BEEN ABLE TO MEET THE NAVY'S MINIMUM REQUIREMENTS”",
+    "at": "@minimum",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c05_s20.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s21",
+   "start": "t95.45",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c05_bridge.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s22",
+   "start": "t101.84",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "s_c05_s22.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s23",
+   "start": "t105.69",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s23.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s24",
+   "start": "t110.29",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "ON THE DONATION LIST",
+    "number": "8",
+    "unit": "years",
+    "number_at": "@eight",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c05_s24.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s25",
+   "start": "t115.53",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "SEPTEMBER 2012",
+    "text": "OFF THE LIST: TO BE SCRAPPED",
+    "at": "@scrapped",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c05_s25.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s26",
+   "start": "t120.89",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s26.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s27",
+   "start": "t126.01",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "word",
+   "card": true,
+   "params": {
+    "text": "1¢",
+    "at": "@penny"
+   },
+   "clip": {
+    "file": "b_c05_s27.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s28",
+   "start": "t127.42",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c05_s28.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

@@ -1,0 +1,260 @@
+{
+ "key": "c01",
+ "title": "USS Ranger · Hook",
+ "words": "../build/words.json",
+ "audio_offset": 0.0,
+ "clips_dir": "../segments",
+ "duration": 39.73,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c01_open.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t4.03",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s02.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t5.61",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "THE PRICE",
+    "number": "$0.01",
+    "number_at": "@cent",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c01_s03.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s04",
+   "start": "t6.86",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "THE HEADLINES",
+    "text": "SOLD FOR A PENNY",
+    "at": "@sold",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c01_s04.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s05",
+   "start": "t9.89",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s05.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s06",
+   "start": "t12.19",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s06.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t14.00",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c01_s07.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "ON THE BIG SCREEN",
+    "text": "TOP GUN · STAR TREK IV",
+    "at": "@Top"
+   }
+  },
+  {
+   "id": "s08",
+   "start": "t16.62",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s08.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s09",
+   "start": "t18.16",
+   "sfx": false,
+   "tag": "U.S. NAVY VIDEO · EX-USS RANGER UNDER TOW, 5 MARCH 2015",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c01_s09.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
+   "start": "t20.00",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c01_s10.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "LENGTH",
+    "number": "1,000+",
+    "unit": "ft",
+    "number_at": "@thousand"
+   }
+  },
+  {
+   "id": "s11",
+   "start": "t22.20",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c01_s11.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "IN SERVICE",
+    "number": "≈36",
+    "unit": "years",
+    "number_at": "@thirty"
+   }
+  },
+  {
+   "id": "s12",
+   "start": "t25.12",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c01_s12.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "CV-61",
+    "text": "USS RANGER",
+    "at": "@Ranger"
+   }
+  },
+  {
+   "id": "s13",
+   "start": "t27.79",
+   "sfx": false,
+   "tag": "U.S. NAVY VIDEO · EX-USS RANGER UNDER TOW, 5 MARCH 2015",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c01_s13.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s14",
+   "start": "t31.18",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "word",
+   "card": true,
+   "params": {
+    "text": "WHO PAID WHOM?",
+    "at": "@paid"
+   },
+   "clip": {
+    "file": "b_c01_s14.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s15",
+   "start": "t33.34",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s15.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s16",
+   "start": "t35.64",
+   "sfx": false,
+   "tag": "U.S. NAVY VIDEO · EX-USS RANGER UNDER TOW, 5 MARCH 2015",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c01_s16.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s17",
+   "start": "t37.24",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c01_where.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

@@ -1,0 +1,92 @@
+{
+ "chapter": "c08",
+ "cues": [
+  {
+   "shot": "s03",
+   "at": "@two",
+   "role": "pop",
+   "note": "card number lands: 2+"
+  },
+  {
+   "shot": "s04",
+   "at": "@fifty",
+   "role": "pop",
+   "note": "card number lands: 56,000+"
+  },
+  {
+   "shot": "s05",
+   "at": "@last",
+   "role": "pop",
+   "note": "card: THE LAST SECTION COMES OUT"
+  },
+  {
+   "shot": "s06",
+   "at": "@thirty",
+   "role": "hit",
+   "note": "34 years"
+  },
+  {
+   "shot": "s06",
+   "at": "@thirty",
+   "role": "pop",
+   "note": "card: 34 YEARS TO THE DAY"
+  },
+  {
+   "shot": "s07",
+   "at": "@nine",
+   "role": "pop",
+   "note": "card number lands: 09:50"
+  },
+  {
+   "shot": "s10",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c08_gone)"
+  },
+  {
+   "shot": "s11",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c08_lexington)"
+  },
+  {
+   "shot": "s12",
+   "at": "@controls",
+   "role": "pop",
+   "note": "card: GAUGES · WINDOWS · CONTROLS"
+  },
+  {
+   "shot": "s16",
+   "at": "@museum",
+   "role": "pop",
+   "note": "card: NONE BECAME A MUSEUM"
+  },
+  {
+   "shot": "s18",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c08_indy)"
+  },
+  {
+   "shot": "s20",
+   "at": "@right",
+   "role": "pop",
+   "note": "card: SAVE ONE · OR ONE CENT?"
+  },
+  {
+   "shot": "s21",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c08_endscreen)"
+  }
+ ],
+ "film_shots": [
+  "s04",
+  "s05",
+  "s06",
+  "s09",
+  "s16"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

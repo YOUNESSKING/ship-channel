@@ -1,0 +1,79 @@
+{
+ "chapter": "c02",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c02_puget)"
+  },
+  {
+   "shot": "s03",
+   "at": "@inactive",
+   "role": "pop",
+   "note": "card: INACTIVE SHIPS"
+  },
+  {
+   "shot": "s06",
+   "at": "@twenty",
+   "role": "pop",
+   "note": "number lands: 20"
+  },
+  {
+   "shot": "s08",
+   "at": "@nineteen",
+   "role": "pop",
+   "note": "number lands: 1993"
+  },
+  {
+   "shot": "s09",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c02_contract)"
+  },
+  {
+   "shot": "s11",
+   "at": "@cent",
+   "role": "hit",
+   "note": "price stamp"
+  },
+  {
+   "shot": "s11",
+   "at": "@cent",
+   "role": "pop",
+   "note": "card number lands: 1¢"
+  },
+  {
+   "shot": "s12",
+   "at": "@penny",
+   "role": "pop",
+   "note": "card: NAVY CARRIER SOLD FOR A PENNY"
+  },
+  {
+   "shot": "s13",
+   "at": "@Top",
+   "role": "pop",
+   "note": "card: TOP GUN SHIP GOES FOR ONE CENT"
+  },
+  {
+   "shot": "s16",
+   "at": "@smallest",
+   "role": "hit",
+   "note": "stamp: 1¢"
+  },
+  {
+   "shot": "s18",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c02_to_sd)"
+  }
+ ],
+ "film_shots": [
+  "s03",
+  "s04",
+  "s10",
+  "s16"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

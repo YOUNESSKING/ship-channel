@@ -1,0 +1,286 @@
+[
+ {
+  "i": 3,
+  "start": 15.245,
+  "text": "The headlines said she was sold for one cent.",
+  "heard": "The headline said she was sold for one cent.",
+  "diffs": [
+   [
+    "headlines",
+    "headline"
+   ]
+  ]
+ },
+ {
+  "i": 14,
+  "start": 55.277,
+  "text": "Sailors call it the mothball fleet.",
+  "heard": "Sailors call it the Moth Bowl fleet.",
+  "diffs": [
+   [
+    "mothball",
+    "moth bowl"
+   ]
+  ]
+ },
+ {
+  "i": 17,
+  "start": 66.359,
+  "text": "Grey, silent, and tied to a pier.",
+  "heard": "gray silent and tied to appear.",
+  "diffs": [
+   [
+    "grey",
+    "gray"
+   ],
+   [
+    "a pier",
+    "appear"
+   ]
+  ]
+ },
+ {
+  "i": 19,
+  "start": 70.793,
+  "text": "Her hangar deck was empty.",
+  "heard": "her hanger deck was empty.",
+  "diffs": [
+   [
+    "hangar",
+    "hanger"
+   ]
+  ]
+ },
+ {
+  "i": 44,
+  "start": 158.202,
+  "text": "The name was already part of her story in nineteen eighty-two, at her twenty-fifth birthday.",
+  "heard": "The name was already part of her story in 1982, at her 25th birthday.",
+  "diffs": [
+   [
+    "fifth",
+    "five"
+   ]
+  ]
+ },
+ {
+  "i": 47,
+  "start": 168.361,
+  "text": "Star Trek Four needed an aircraft carrier called Enterprise.",
+  "heard": "Star Trek IV needed an aircraft carrier called Enterprise.",
+  "diffs": [
+   [
+    "four",
+    "iv"
+   ]
+  ]
+ },
+ {
+  "i": 51,
+  "start": 186.647,
+  "text": "Sailors in the background wore caps with the Ranger's own name on them.",
+  "heard": "Sailors in the background war, caps with the Ranger's own name on them.",
+  "diffs": [
+   [
+    "wore",
+    "war"
+   ]
+  ]
+ },
+ {
+  "i": 69,
+  "start": 275.722,
+  "text": "It was on the Ranger that a new attack jet, the A-7 Corsair Two, went into combat in nineteen sixty-seven.",
+  "heard": "It was on the Ranger that a new attack jet, the A-7 Corsair II, went into combat in 1967.",
+  "diffs": [
+   [
+    "two",
+    "ii"
+   ]
+  ]
+ },
+ {
+  "i": 82,
+  "start": 326.551,
+  "text": "She reached her launch position on the fifteenth of January, nineteen ninety-one.",
+  "heard": "She reached her launch position on the 15th of January, 1991.",
+  "diffs": [
+   [
+    "fifteenth",
+    "fifteen"
+   ]
+  ]
+ },
+ {
+  "i": 85,
+  "start": 339.431,
+  "text": "On the third night, one of her A-6 bombers was lost.",
+  "heard": "On the third night, one of her A6 bombers was lost.",
+  "diffs": [
+   [
+    "six",
+    ""
+   ]
+  ]
+ },
+ {
+  "i": 91,
+  "start": 365.388,
+  "text": "On the tenth of July, nineteen ninety-three, the Ranger was decommissioned.",
+  "heard": "On the 10th of July, 1993, the Ranger was decommissioned.",
+  "diffs": [
+   [
+    "tenth",
+    "ten"
+   ]
+  ]
+ },
+ {
+  "i": 96,
+  "start": 384.013,
+  "text": "On the eighth of March, two thousand four, she was struck from the Naval Vessel Register.",
+  "heard": "On the 8th of March, 2004, she was struck from the Naval Vessel Register.",
+  "diffs": [
+   [
+    "eighth",
+    "eight"
+   ]
+  ]
+ },
+ {
+  "i": 112,
+  "start": 438.633,
+  "text": "The Foundation's own estimates ran from about ten million dollars to get her ready, up to thirty million in all.",
+  "heard": "The foundation's own estimates ran from about $10 million to get her ready, up to $30 million in all.",
+  "diffs": [
+   [
+    "",
+    "dollars"
+   ],
+   [
+    "dollars",
+    ""
+   ],
+   [
+    "",
+    "dollars"
+   ]
+  ]
+ },
+ {
+  "i": 113,
+  "start": 445.762,
+  "text": "By the Navy's count, the Foundation could show about one hundred and five thousand dollars, against a start-up bill of nearly thirty-two million.",
+  "heard": "By the Navy's count, the Foundation could show about $105,000 against a startup bill of nearly $32 million.",
+  "diffs": [
+   [
+    "",
+    "dollars"
+   ],
+   [
+    "dollars",
+    ""
+   ],
+   [
+    "",
+    "dollars"
+   ]
+  ]
+ },
+ {
+  "i": 150,
+  "start": 572.148,
+  "text": "The lowest bid won.",
+  "heard": "the lowest bid one.",
+  "diffs": [
+   [
+    "won",
+    "one"
+   ]
+  ]
+ },
+ {
+  "i": 155,
+  "start": 589.229,
+  "text": "Her sister ship Forrestal had gone the same way, for one cent, in twenty thirteen.",
+  "heard": "Her sister's ship, Forrestal, had gone the same way for one cent in 2013.",
+  "diffs": [
+   [
+    "sister",
+    "sisters"
+   ]
+  ]
+ },
+ {
+  "i": 160,
+  "start": 608.74,
+  "text": "That time, the Navy paid three million dollars.",
+  "heard": "That time, the Navy paid $3 million.",
+  "diffs": [
+   [
+    "",
+    "dollars"
+   ],
+   [
+    "dollars",
+    ""
+   ]
+  ]
+ },
+ {
+  "i": 167,
+  "start": 626.346,
+  "text": "On the fifth of March, twenty fifteen, at about nine in the morning, four harbour tugs eased the Ranger away from her pier in Bremerton.",
+  "heard": "On the 5th of March, 2015, at about 9 in the morning, four harbor tugs eased the ranger away from her pier in Bremerton.",
+  "diffs": [
+   [
+    "fifth",
+    "five"
+   ],
+   [
+    "harbour",
+    "harbor"
+   ]
+  ]
+ },
+ {
+  "i": 169,
+  "start": 638.786,
+  "text": "People lined the shore to watch.",
+  "heard": "people line the shore to watch.",
+  "diffs": [
+   [
+    "lined",
+    "line"
+   ]
+  ]
+ },
+ {
+  "i": 180,
+  "start": 679.115,
+  "text": "On the twelfth of July, twenty fifteen, she reached the channel at Brownsville.",
+  "heard": "On 12 July, 2015, she reached the channel at Brownsville.",
+  "diffs": [
+   [
+    "the",
+    ""
+   ],
+   [
+    "of",
+    ""
+   ]
+  ]
+ },
+ {
+  "i": 182,
+  "start": 685.626,
+  "text": "Crowds stood on the jetties at South Padre Island to see her come in.",
+  "heard": "Crowd stood on the jetties at South Padre Island to see her come in.",
+  "diffs": [
+   [
+    "crowds",
+    "crowd"
+   ]
+  ]
+ }
+]

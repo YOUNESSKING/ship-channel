@@ -1,0 +1,77 @@
+{
+ "chapter": "c03",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_sd)"
+  },
+  {
+   "shot": "s03",
+   "at": "@Top",
+   "role": "hit",
+   "note": "stamp: TOP GUN"
+  },
+  {
+   "shot": "s05",
+   "at": "@Enterprise",
+   "role": "pop",
+   "note": "card: USS ENTERPRISE (CVN-65)"
+  },
+  {
+   "shot": "s06",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_coronado)"
+  },
+  {
+   "shot": "s08",
+   "at": "@one",
+   "role": "pop",
+   "note": "card: NOT THE CARRIER. ONE OF THEM."
+  },
+  {
+   "shot": "s11",
+   "at": "@Pacific",
+   "role": "pop",
+   "note": "card: TOP GUN OF THE PACIFIC"
+  },
+  {
+   "shot": "s12",
+   "at": "@twenty",
+   "role": "pop",
+   "note": "number lands: 25"
+  },
+  {
+   "shot": "s13",
+   "at": "@Four",
+   "role": "pop",
+   "note": "card number lands: 4"
+  },
+  {
+   "shot": "s15",
+   "at": "@Enterprise",
+   "role": "pop",
+   "note": "card: A CARRIER CALLED ENTERPRISE"
+  },
+  {
+   "shot": "s18",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_northisland)"
+  },
+  {
+   "shot": "s21",
+   "at": "@Intruder",
+   "role": "pop",
+   "note": "card: FLIGHT OF THE INTRUDER"
+  }
+ ],
+ "film_shots": [
+  "s21",
+  "s23"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

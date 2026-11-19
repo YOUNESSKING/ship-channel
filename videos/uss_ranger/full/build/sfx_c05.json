@@ -1,0 +1,112 @@
+{
+ "chapter": "c05",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c05_north)"
+  },
+  {
+   "shot": "s03",
+   "at": "@struck",
+   "role": "pop",
+   "note": "card: STRUCK FROM THE NAVAL VESSEL REGISTER"
+  },
+  {
+   "shot": "s05",
+   "at": "@donation",
+   "role": "pop",
+   "note": "card: ON THE DONATION LIST"
+  },
+  {
+   "shot": "s08",
+   "at": "@Midway",
+   "role": "pop",
+   "note": "card: INTREPID · MIDWAY"
+  },
+  {
+   "shot": "s10",
+   "at": "@Foundation",
+   "role": "pop",
+   "note": "card: USS RANGER FOUNDATION"
+  },
+  {
+   "shot": "s11",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c05_fairview)"
+  },
+  {
+   "shot": "s13",
+   "at": "@five",
+   "role": "pop",
+   "note": "card: FUND THE FIRST 5 YEARS"
+  },
+  {
+   "shot": "s14",
+   "at": "@ten",
+   "role": "pop",
+   "note": "card number lands: ≈$10M"
+  },
+  {
+   "shot": "s15",
+   "at": "@thirty",
+   "role": "pop",
+   "note": "card number lands: $30M"
+  },
+  {
+   "shot": "s16",
+   "at": "@one",
+   "role": "pop",
+   "note": "card number lands: ≈$105,000"
+  },
+  {
+   "shot": "s17",
+   "at": "@thirty",
+   "role": "pop",
+   "note": "card number lands: ≈$32M"
+  },
+  {
+   "shot": "s18",
+   "at": "@six",
+   "role": "pop",
+   "note": "card number lands: $600,000+"
+  },
+  {
+   "shot": "s20",
+   "at": "@minimum",
+   "role": "pop",
+   "note": "card: “NO ORGANIZATION HAS BEEN ABLE TO MEET THE NAVY'S MINIMUM REQUIREMENTS”"
+  },
+  {
+   "shot": "s21",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c05_bridge)"
+  },
+  {
+   "shot": "s24",
+   "at": "@eight",
+   "role": "pop",
+   "note": "card number lands: 8"
+  },
+  {
+   "shot": "s25",
+   "at": "@scrapped",
+   "role": "pop",
+   "note": "card: OFF THE LIST: TO BE SCRAPPED"
+  },
+  {
+   "shot": "s27",
+   "at": "@penny",
+   "role": "hit",
+   "note": "stamp: 1¢"
+  }
+ ],
+ "film_shots": [
+  "s27"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

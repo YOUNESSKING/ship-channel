@@ -1,0 +1,74 @@
+{
+ "chapter": "c01",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c01_open)"
+  },
+  {
+   "shot": "s03",
+   "at": "@cent",
+   "role": "hit",
+   "note": "one cent stamp"
+  },
+  {
+   "shot": "s03",
+   "at": "@cent",
+   "role": "pop",
+   "note": "card number lands: $0.01"
+  },
+  {
+   "shot": "s04",
+   "at": "@sold",
+   "role": "pop",
+   "note": "card: SOLD FOR A PENNY"
+  },
+  {
+   "shot": "s07",
+   "at": "@Top",
+   "role": "tick",
+   "note": "label: TOP GUN · STAR TREK IV"
+  },
+  {
+   "shot": "s10",
+   "at": "@thousand",
+   "role": "pop",
+   "note": "number lands: 1,000+"
+  },
+  {
+   "shot": "s11",
+   "at": "@thirty",
+   "role": "pop",
+   "note": "number lands: ≈36"
+  },
+  {
+   "shot": "s12",
+   "at": "@Ranger",
+   "role": "tick",
+   "note": "label: USS RANGER"
+  },
+  {
+   "shot": "s14",
+   "at": "@paid",
+   "role": "hit",
+   "note": "stamp: WHO PAID WHOM?"
+  },
+  {
+   "shot": "s17",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c01_where)"
+  }
+ ],
+ "film_shots": [
+  "s03",
+  "s09",
+  "s13",
+  "s14",
+  "s16"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}
