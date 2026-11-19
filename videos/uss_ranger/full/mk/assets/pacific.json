@@ -1,0 +1,18 @@
+{
+ "name": "pacific",
+ "center": [
+  22.0,
+  170.0
+ ],
+ "zoom": 4,
+ "origin_world_px": [
+  2542,
+  981
+ ],
+ "size": [
+  2880,
+  1620
+ ],
+ "meters_per_px": 9071.51,
+ "credit": "Terrain & bathymetry: Mapzen / AWS Terrain Tiles (open data)"
+}
