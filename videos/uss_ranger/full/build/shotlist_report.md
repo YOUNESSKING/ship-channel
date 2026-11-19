@@ -6,11 +6,11 @@
 | c02 | 76.6 | 20 | 35 | 45 | 20 | 0 | 0 | 0 | 8 | 27 | 0 | **35** | 5.9 s (s11) | 9.4 |
 | c03 | 90.3 | 24 | 33 | 56 | 11 | 0 | 0 | 0 | 6 | 27 | 0 | **33** | 5.6 s (s24) | 7.3 |
 | c04 | 167.2 | 48 | 37 | 41 | 21 | 0 | 0 | 0 | 18 | 19 | 0 | **37** | 6.0 s (s24) | 10.0 |
-| c05 | 133.3 | 32 | 46 | 39 | 15 | 0 | 0 | 0 | 0 | 46 | 0 | **46** | 5.9 s (s32) | 7.7 |
+| c05 | 133.3 | 32 | 49 | 36 | 15 | 0 | 0 | 0 | 3 | 46 | 0 | **49** | 5.9 s (s32) | 7.7 |
 | c06 | 118.9 | 33 | 46 | 40 | 14 | 0 | 0 | 0 | 6 | 40 | 0 | **46** | 5.9 s (s16) | 9.1 |
 | c07 | 83.6 | 21 | 34 | 19 | 47 | 0 | 0 | 0 | 8 | 26 | 0 | **34** | 5.8 s (s05) | 8.6 |
-| c08 | 141.7 | 34 | 26 | 58 | 17 | 0 | 0 | 0 | 3 | 23 | 0 | **26** | 5.9 s (s13) | 5.5 |
-| **c01-c08** | | | **37** | **43** | **20** | **0** | **0** | **0** | **8** | **29** | **0** | **37** | | |
+| c08 | 141.7 | 34 | 29 | 57 | 15 | 0 | 0 | 0 | 6 | 23 | 0 | **29** | 5.9 s (s13) | 5.5 |
+| **c01-c08** | | | **38** | **43** | **19** | **0** | **0** | **0** | **9** | **29** | **0** | **38** | | |
 
 ## Pacing flags (shots > 6.0 s or < 1.2 s; end screen excluded)
 
@@ -44,10 +44,10 @@
 | c01 | s17 | 37.24 | 2.49 | map_clip | M:c01_where | And what is left of her today |
 | c02 | s01 | 39.73 | 4.97 | map_clip | M:c02_puget | Start with the place |
 | c02 | s02 | 44.7 | 2.23 | clip_plain | P:dvids_ima_7012845 | across the water from Seattle |
-| c02 | s03 | 46.93 | 5.61 | clip_plain | P:dvids_ima_6967137 | Next to the naval shipyard |
+| c02 | s03 | 46.93 | 5.61 | clip_plain | P:nara_6450776 | Next to the naval shipyard |
 | c02 | s04 | 52.54 | 2.4 | text_card | CARD + bg F:kh_fog.mp4 | The Navy calls them inactive ships |
 | c02 | s05 | 54.94 | 2.75 | clip_plain | F:kh_fog_b.mp4 | Sailors call it the mothball fleet |
-| c02 | s06 | 57.69 | 5.65 | clip_plain | P:dvids_ima_8834182 | Old warships wait there |
+| c02 | s06 | 57.69 | 5.65 | clip_plain | P:nara_6450778 | Old warships wait there |
 | c02 | s07 | 63.34 | 5.2 | number_clip | P:dvids_ima_1799520 | For twenty years, the Ranger sat there |
 | c02 | s08 | 68.53 | 3.98 | clip_plain | P:nara_6489170 | Her catapults were cold |
 | c02 | s09 | 72.51 | 3.89 | number_clip | P:nara_6444112 | No jet had landed on her |
@@ -66,7 +66,7 @@
 | c03 | s02 | 118.17 | 5.29 | clip_plain | P:nara_6382069 | A film crew from Paramount |
 | c03 | s03 | 123.47 | 2.07 | text_card | CARD + bg P:nara_6452117 | It was called Top Gun |
 | c03 | s04 | 125.53 | 3.32 | clip_plain | P:nara_6486623 | The Navy lent the production |
-| c03 | s05 | 128.85 | 5.31 | text_card | CARD + bg P:dvids_ima_9209877 | The scenes at sea were shot |
+| c03 | s05 | 128.85 | 5.31 | text_card | CARD + bg P:nara_6405186 | The scenes at sea were shot |
 | c03 | s06 | 134.17 | 4.1 | map_clip | M:c03_coronado | But in the first weeks of filming |
 | c03 | s07 | 138.27 | 3.62 | clip_plain | P:nara_6450094 | while she was tied up |
 | c03 | s08 | 141.89 | 3.9 | text_card | CARD + bg P:nara_6486625 | So she was not the Top Gun carrier |
@@ -77,7 +77,7 @@
 | c03 | s13 | 163.31 | 2.3 | text_card | CARD + bg P:nara_6444106 | Four years before the film |
 | c03 | s14 | 165.61 | 2.41 | clip_plain | P:nara_6408684 | A year later, Hollywood came back |
 | c03 | s15 | 168.02 | 4.53 | text_card | CARD + bg P:nara_6408693 | Star Trek Four needed |
-| c03 | s16 | 172.55 | 2.75 | clip_plain | P:dvids_ima_9208863 | The real Enterprise was not available |
+| c03 | s16 | 172.55 | 2.75 | clip_plain | P:nara_6405185 | The real Enterprise was not available |
 | c03 | s17 | 175.29 | 1.75 | clip_plain | P:nara_6464137 | So the Ranger played her |
 | c03 | s18 | 177.04 | 3.74 | map_clip | M:c03_northisland | The crew spent three days |
 | c03 | s19 | 180.78 | 5.53 | clip_plain | P:nara_6445724 | for the scenes where two |
@@ -111,10 +111,10 @@
 | c04 | s23 | 280.22 | 3.03 | clip_plain | F:a7_pass.mp4 | went into combat |
 | c04 | s24 | 283.25 | 5.95 | map_clip | M:c04_arabian | In nineteen eighty, during the Iran |
 | c04 | s25 | 289.2 | 2.78 | clip_plain | P:nara_6452229 | In nineteen eighty-three, she was back |
-| c04 | s26 | 291.98 | 5.06 | text_card | CARD + bg P:nara_6444115 | On the first of November, a fire |
+| c04 | s26 | 291.98 | 5.06 | text_card | CARD + bg F:fire_drill.mp4 | On the first of November, a fire |
 | c04 | s27 | 297.03 | 3.33 | number_clip | P:nara_6478168 | It started at about ten to ten |
 | c04 | s28 | 300.36 | 3.58 | clip_plain | P:nara_6469220 | From the machinery room |
-| c04 | s29 | 303.94 | 2.35 | text_card | CARD + bg P:nara_6469207 | Her crew fought it |
+| c04 | s29 | 303.94 | 2.35 | text_card | CARD + bg P:nara_6697751 | Her crew fought it |
 | c04 | s30 | 306.29 | 3.88 | clip_plain | P:nara_6478201 | Then it flared up again |
 | c04 | s31 | 310.17 | 3.08 | text_card | CARD + bg P:nara_6469216 | Six sailors died |
 | c04 | s32 | 313.25 | 3.82 | number_clip | P:nara_6444099 | Most of the injuries |
@@ -123,11 +123,11 @@
 | c04 | s35 | 326.43 | 4.85 | lower_third | P:nara_6483806 | She reached her launch position |
 | c04 | s36 | 331.28 | 2.88 | text_card | CARD + bg P:nara_6468800 | Two days later, Desert Storm began |
 | c04 | s37 | 334.17 | 5.15 | clip_plain | P:nara_6478200 | Before dawn on the first day |
-| c04 | s38 | 339.31 | 3.65 | clip_plain | P:nara_280957271 | On the third night |
+| c04 | s38 | 339.31 | 3.65 | clip_plain | P:nara_6467556 | On the third night |
 | c04 | s39 | 342.96 | 3.81 | clip_plain | P:nara_6469206 | Over six weeks, her air wing |
 | c04 | s40 | 346.77 | 3.07 | clip_plain | P:nara_6466165 | She came home to San Diego |
 | c04 | s41 | 349.84 | 3.74 | map_clip | M:c04_somalia | And in December, nineteen ninety-two |
-| c04 | s42 | 353.58 | 2.72 | clip_plain | P:nara_6486927 | supporting the American landing |
+| c04 | s42 | 353.58 | 2.72 | clip_plain | P:nara_6485550 | supporting the American landing |
 | c04 | s43 | 356.3 | 1.48 | clip_plain | P:nara_6508124 | Operation Restore Hope |
 | c04 | s44 | 357.78 | 5.7 | clip_plain | P:nara_6486623 | Her planes flew reconnaissance |
 | c04 | s45 | 363.48 | 1.79 | clip_plain | P:nara_6483233 | That was her last cruise |
@@ -141,8 +141,8 @@
 | c05 | s05 | 392.87 | 4.46 | text_card | CARD + bg P:nara_6488133 | That opened a door |
 | c05 | s06 | 397.33 | 4.72 | clip_plain | P:nara_6484430 | Any city or group |
 | c05 | s07 | 402.06 | 3.72 | clip_plain | P:nara_6483116 | There was a precedent |
-| c05 | s08 | 405.78 | 4.14 | text_card | CARD + bg P:nara_6351406 | The Intrepid in New York |
-| c05 | s09 | 409.92 | 3.95 | clip_plain | P:nara_6353504 | Each one a museum |
+| c05 | s08 | 405.78 | 4.14 | text_card | CARD + bg P:nara_6457066 | The Intrepid in New York |
+| c05 | s09 | 409.92 | 3.95 | clip_plain | F:midway_museum.mp4 | Each one a museum |
 | c05 | s10 | 413.87 | 5.29 | text_card | CARD + bg P:nara_6475225 | One group tried to do the same |
 | c05 | s11 | 419.15 | 4.11 | clip_plain | P:nara_6477505 | started in two thousand one |
 | c05 | s12 | 423.26 | 5.36 | map_clip | M:c05_fairview | Their plan was to bring her |
@@ -184,7 +184,7 @@
 | c06 | s16 | 555.94 | 5.87 | clip_plain | P:nara_6456747 | The Navy had set this up |
 | c06 | s17 | 561.82 | 3.45 | number_clip | P:nara_6408697 | and let three shipbreakers compete |
 | c06 | s18 | 565.27 | 3.28 | clip_plain | P:dvids_ima_8834182 | Each company looked at the hull |
-| c06 | s19 | 568.55 | 3.48 | clip_plain | P:nara_7578703 | Each company looked at the hull |
+| c06 | s19 | 568.55 | 3.48 | clip_plain | P:nara_6450779 | Each company looked at the hull |
 | c06 | s20 | 572.03 | 1.92 | text_card | CARD + bg P:dvids_ima_3227810 | The lowest bid won |
 | c06 | s21 | 573.95 | 4.52 | map_clip | M:c06_brownsville | All three of those yards |
 | c06 | s22 | 578.46 | 4.5 | clip_plain | P:nara_6451640 | at the southern tip of the state |
@@ -220,10 +220,10 @@
 | c07 | s19 | 697.85 | 3.88 | text_card | CARD + bg P:nara_6486921 | The whole trip had taken |
 | c07 | s20 | 701.73 | 2.3 | clip_plain | P:nara_6483832 | A little over four months |
 | c07 | s21 | 704.03 | 5.5 | clip_plain | P:nara_6419123 | She was the second carrier |
-| c08 | s01 | 709.53 | 2.51 | clip_plain | P:dvids_ima_3227830 | Then the cutting began |
-| c08 | s02 | 712.04 | 3.69 | clip_plain | P:nara_7578687 | Shipbreaking is slow work |
-| c08 | s03 | 715.73 | 3.82 | clip_plain | P:nara_7578700 | Shipbreaking is slow work |
-| c08 | s04 | 719.55 | 3.96 | clip_plain | P:nara_7578698 | Shipbreaking is slow work |
+| c08 | s01 | 709.53 | 2.51 | clip_plain | P:dvids_ima_8834179 | Then the cutting began |
+| c08 | s02 | 712.04 | 3.69 | clip_plain | P:nara_6450774 | Shipbreaking is slow work |
+| c08 | s03 | 715.73 | 3.82 | clip_plain | F:sparks.mp4 | Shipbreaking is slow work |
+| c08 | s04 | 719.55 | 3.96 | clip_plain | P:dvids_ima_8834183 | Shipbreaking is slow work |
 | c08 | s05 | 723.51 | 2.06 | text_card | CARD + bg P:nara_6489170 | It took just over two years |
 | c08 | s06 | 725.58 | 4.41 | text_card | CARD + bg F:sf_b.mp4 | More than fifty-six thousand tons |
 | c08 | s07 | 729.99 | 4.11 | clip_plain | P:nara_7578695 | Most of the metal went |
@@ -239,7 +239,7 @@
 | c08 | s17 | 764.03 | 2.42 | map_clip | M:c08_gone | And the ship itself is gone |
 | c08 | s18 | 766.45 | 1.46 | clip_plain | P:nara_7578690 | But not all of her |
 | c08 | s19 | 767.91 | 4.84 | map_clip | M:c08_lexington | More than five tons |
-| c08 | s20 | 772.75 | 2.38 | clip_plain | MS:m_c08_lexington.mp4@end | in Corpus Christi, Texas |
+| c08 | s20 | 772.75 | 2.38 | clip_plain | P:dvids_ima_9228754 | in Corpus Christi, Texas |
 | c08 | s21 | 775.13 | 4.82 | text_card | CARD + bg P:nara_6444115 | Gauges, windows and controls |
 | c08 | s22 | 779.95 | 2.97 | clip_plain | P:nara_6475225 | went to her veterans |
 | c08 | s23 | 782.92 | 3.75 | clip_plain | P:nara_6466179 | Some of her brass and copper |

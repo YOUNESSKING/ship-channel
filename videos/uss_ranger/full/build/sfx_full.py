@@ -1,4 +1,4 @@
-"""USS Nevada sound cues (copied from Mallows Bay) for the whole video, one timeline (tools/sound/sfx_mix_lib.py v2: locked roles + levels, real Epidemic
+"""USS Ranger sound cues (copied from Mallows Bay) for the whole video, one timeline (tools/sound/sfx_mix_lib.py v2: locked roles + levels, real Epidemic
 recordings; every cue silent by the next picture cut after its event; beds start/stop with their shots).
 Cues come from build/sfx_cNN.json (make_shotlists.py); every "@word" time is resolved with the chapter builder's own resolver
 (templates/build_chapter.py Ctx.t), so a sound lands where the text animation lands.
@@ -68,7 +68,7 @@ def bed_of(k, s):
     seg = SEGS.get((k, s["id"], clip)); tpl = s.get("template")
     if tpl == "anim_gauge": return "underwater" if k == "c08" else "drone"
     if tpl == "anim_options": return "drone"
-    if seg and seg["kind"] == "film": return "projector"
+    if seg and seg["kind"] == "film": return "waves" if str(seg.get("reel", "")).startswith("dvids_vid") else "projector"   # Ranger: modern Navy video gets water, not a projector
     return None
 SRC = {"projector": 0.0, "waves": 0.0, "drone": 0.0, "underwater": 0.0}
 for k in KEYS:

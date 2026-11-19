@@ -1,10 +1,10 @@
-"""v8 pronunciation gate, step 4 (tts/PRONUNCIATION.md): every hard name of the USS Nevada script said once by the Archive voice,
+"""v8 pronunciation gate, step 4 (tts/PRONUNCIATION.md): every hard name of the USS Ranger script said once by the Archive voice,
 with the same fixes as build/voice.py. Out: videos/uss_ranger/voice_sample/names_ranger.mp3"""
 import os, subprocess, sys, numpy as np, soundfile as sf
 sys.argv = sys.argv[:1]
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 import voice as V
-NAMES = ["The USS Nevada.", "Bikini Atoll.", "The Marshall Islands.", "Operation Crossroads.", "Kwajalein.", "Oahu.", "Ford Island.", "Hospital Point.", "Waipio Point.", "Chief Boatswain Edwin Hill.", "The forecastle.", "Chief Quartermaster Sedberry.", "Ensign Taussig.", "Machinist Donald Ross.", "Attu, in the Aleutians.", "Utah Beach, Normandy.", "Cherbourg.", "Toulon.", "Iwo Jima.", "Okinawa.", "The transport Gilliam.", "The transport Carlisle.", "The cruiser Sakawa.", "The battleship Nagato.", "The Saratoga.", "Dave's Dream.", "Astoria, Pasadena and Iowa.", "Pacific Constructor.", "NOAA."]
+NAMES = ["The USS Ranger.", "Bremerton, Washington.", "Puget Sound.", "International Shipbreaking.", "Brownsville, Texas.", "Coronado.", "North Island.", "Paramount.", "Newport News, Virginia.", "Admiral Arthur Radford.", "The Forrestal class.", "Norfolk Naval Shipyard.", "Charles Booth.", "Cape Horn.", "The Gulf of Tonkin.", "The A-7 Corsair Two.", "The Arabian Sea.", "Desert Storm.", "Somalia.", "Operation Restore Hope.", "The Naval Vessel Register.", "The Intrepid.", "The Midway.", "Fairview, Oregon.", "The Columbia River.", "Portland.", "The Saratoga.", "The Constellation.", "The Kitty Hawk.", "The Crosby Leader.", "South Padre Island.", "The USS Lexington Museum.", "Corpus Christi, Texas.", "Independence."]
 sr = 24000; parts = []
 for n in NAMES:
     a, _ = V.synth(n, V.SPEED); parts += [a, np.zeros(int(0.4 * sr), np.float32)]

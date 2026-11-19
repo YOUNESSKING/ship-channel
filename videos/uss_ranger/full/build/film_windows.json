@@ -939,6 +939,86 @@
   "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 REPLENISHMENT OFF VIETNAM, 1968",
   "slow": null
  },
+ "sparks.mp4": {
+  "reel": "nara_87453",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    177.38,
+    203.08
+   ],
+   [
+    203.5,
+    207.92
+   ],
+   [
+    208.27,
+    224.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 WELDING IN A SHIPYARD, 1969",
+  "slow": null
+ },
+ "fire_drill.mp4": {
+  "reel": "nara_78768",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    10.5,
+    18.13
+   ],
+   [
+    18.57,
+    76.15
+   ],
+   [
+    76.52,
+    79.67
+   ],
+   [
+    80.05,
+    129.5
+   ],
+   [
+    240.5,
+    295.17
+   ],
+   [
+    295.52,
+    298.63
+   ],
+   [
+    299.07,
+    339.7
+   ],
+   [
+    340.05,
+    354.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FIREFIGHTING TRAINING FILM",
+  "slow": null
+ },
+ "midway_museum.mp4": {
+  "reel": "dvids_vid_881042",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    5.5,
+    12.1
+   ],
+   [
+    12.45,
+    24.51
+   ],
+   [
+    24.86,
+    29.5
+   ]
+  ],
+  "tag": "U.S. NAVY VIDEO \u00b7 USS MIDWAY MUSEUM, SAN DIEGO, 2023",
+  "slow": null
+ },
  "forrestal_leaves.mp4": {
   "reel": "dvids_vid_320929",
   "clip_in": 0.0,

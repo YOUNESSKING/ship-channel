@@ -134,10 +134,11 @@
    "id": "s09",
    "start": "t36.18",
    "sfx": false,
+   "tag": "U.S. NAVY VIDEO · USS MIDWAY MUSEUM, SAN DIEGO, 2023",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c05_s09.mp4",
+    "file": "f_c05_s09.mp4",
     "push": null
    },
    "params": {}

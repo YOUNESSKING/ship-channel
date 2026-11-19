@@ -1,0 +1,2 @@
+[hyperframes] browserGpuMode probe → software (WebGL unavailable)
+[BrowserManager] HeadlessExperimental.beginFrame probe failed after 343ms: Protocol error (HeadlessExperimental.enable): 'HeadlessExperimental.enable' wasn't found; falling back to screenshot mode.

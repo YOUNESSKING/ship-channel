@@ -1,0 +1,83 @@
+{
+ "total": 851.278,
+ "crossfade_s": 5.0,
+ "target_lufs": -20.5,
+ "dip": [
+  0.0,
+  0.0,
+  0.0
+ ],
+ "end_lift": [
+  833.178,
+  8.0
+ ],
+ "pieces": [
+  {
+   "track": "neptuneflux-01.m4a",
+   "title": "Stories About the World That Once Was",
+   "src_start": 0.0,
+   "plays_from": 0.0,
+   "plays_to": 209.056,
+   "src_end": 209.06,
+   "loudness_before": -13.11,
+   "gain_db": -7.39
+  },
+  {
+   "track": "neptuneflux-03.m4a",
+   "title": "Your Mother's Daughter",
+   "src_start": 0.0,
+   "plays_from": 204.056,
+   "plays_to": 376.24,
+   "src_end": 172.18,
+   "loudness_before": -15.49,
+   "gain_db": -5.01
+  },
+  {
+   "track": "neptuneflux-01.m4a",
+   "title": "Stories About the World That Once Was",
+   "src_start": 210.0,
+   "plays_from": 371.24,
+   "plays_to": 509.543,
+   "src_end": 348.3,
+   "loudness_before": -12.68,
+   "gain_db": -7.82
+  },
+  {
+   "track": "neptuneflux-04.m4a",
+   "title": "To Hide Their Secrets",
+   "src_start": 0.0,
+   "plays_from": 504.543,
+   "plays_to": 628.396,
+   "src_end": 123.85,
+   "loudness_before": -14.87,
+   "gain_db": -5.63
+  },
+  {
+   "track": "neptuneflux-02.m4a",
+   "title": "That Hopeful Future Is All I've Ever Known",
+   "src_start": 0.0,
+   "plays_from": 623.396,
+   "plays_to": 759.107,
+   "src_end": 135.71,
+   "loudness_before": -11.98,
+   "gain_db": -8.52
+  },
+  {
+   "track": "neptuneflux-09.m4a",
+   "title": "I Should Have Been More Human",
+   "src_start": 0.0,
+   "plays_from": 754.107,
+   "plays_to": 851.278,
+   "src_end": 97.17,
+   "loudness_before": -14.15,
+   "gain_db": -6.35
+  }
+ ],
+ "peak_dbfs": 0.48,
+ "loudness": {
+  "hook": -21.89,
+  "body": -20.51,
+  "answer-end": -20.36,
+  "end screen": -13.41
+ }
+}
