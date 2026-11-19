@@ -302,6 +302,18 @@
    "id": "s21",
    "start": "t75.01",
    "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s21.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s22",
+   "start": "t77.73",
+   "sfx": false,
    "template": "text_card",
    "variant": "line",
    "card": true,
@@ -312,32 +324,32 @@
     "kicker_at": 0.15
    },
    "clip": {
-    "file": "b_c03_s21.mp4",
+    "file": "b_c03_s22.mp4",
     "push": null
    },
    "card_bg": true
   },
   {
-   "id": "s22",
+   "id": "s23",
    "start": "t81.09",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c03_s22.mp4",
+    "file": "p_c03_s23.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s23",
+   "id": "s24",
    "start": "t84.63",
    "sfx": false,
    "tag": "U.S. NAVY FILM · USS RANGER, SAN FRANCISCO BAY, 1966",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "f_c03_s23.mp4",
+    "file": "f_c03_s24.mp4",
     "push": null
    },
    "params": {}

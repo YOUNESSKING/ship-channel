@@ -6,7 +6,7 @@ Only licences PD-USGov*/CC0/CC BY/CC BY-SA are accepted (anything else is printe
 import sys, os, re, json, time, html, subprocess, urllib.request, urllib.parse, io
 UA = "ship-channel-research/1.0 (footage research; contact via repo owner)"
 API = "https://commons.wikimedia.org/w/api.php"
-OK = re.compile(r"^(pd|cc0|cc[- ]by)", re.I)
+OK = re.compile(r"^(pd|public domain|cc0|cc[- ]by)", re.I)
 def api(**p):
     p["format"] = "json"; u = API + "?" + urllib.parse.urlencode(p)
     for i in range(5):

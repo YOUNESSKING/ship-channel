@@ -14,91 +14,97 @@
    "note": "stamp: NEVER SOLD"
   },
   {
-   "shot": "s03",
+   "shot": "s04",
    "at": "@procurement",
    "role": "pop",
    "note": "card: “NOT A SALES CONTRACT. IT IS A PROCUREMENT CONTRACT.”"
   },
   {
-   "shot": "s04",
+   "shot": "s05",
    "at": "@buyer",
    "role": "pop",
    "note": "card: THE BUYER PAYS THE NAVY"
   },
   {
-   "shot": "s05",
+   "shot": "s06",
    "at": "@customer",
    "role": "pop",
    "note": "card: THE NAVY PAYS THE SHIPBREAKER"
   },
   {
-   "shot": "s06",
+   "shot": "s07",
    "at": 0.3,
    "role": "whoosh",
    "note": "map move starts (c06_route)"
   },
   {
-   "shot": "s08",
+   "shot": "s09",
    "at": "@cent",
    "role": "hit",
    "note": "stamp: WHY 1¢?"
   },
   {
-   "shot": "s11",
+   "shot": "s12",
    "at": "@minus",
    "role": "pop",
    "note": "card: COST OF THE JOB − VALUE OF THE STEEL"
   },
   {
-   "shot": "s13",
+   "shot": "s14",
    "at": "@nothing",
    "role": "pop",
    "note": "card number lands: $0.01"
   },
   {
-   "shot": "s14",
+   "shot": "s15",
    "at": "@lowest",
    "role": "pop",
    "note": "card: “THE LOWEST PRICE THE NAVY COULD POSSIBLY HAVE PAID”"
   },
   {
-   "shot": "s16",
+   "shot": "s17",
    "at": "@three",
    "role": "pop",
    "note": "number lands: 3"
   },
   {
-   "shot": "s18",
+   "shot": "s20",
    "at": "@lowest",
    "role": "hit",
    "note": "stamp: LOWEST BID WINS"
   },
   {
-   "shot": "s19",
+   "shot": "s21",
    "at": 0.3,
    "role": "whoosh",
    "note": "map move starts (c06_brownsville)"
   },
   {
-   "shot": "s21",
+   "shot": "s25",
    "at": "@cent",
    "role": "pop",
    "note": "number lands: $0.01"
   },
   {
-   "shot": "s22",
+   "shot": "s26",
    "at": "@cent",
    "role": "pop",
    "note": "card number lands: $0.01"
   },
   {
-   "shot": "s24",
+   "shot": "s28",
+   "at": "@Constellation",
+   "role": "pop",
+   "note": "card: EX-USS CONSTELLATION"
+  },
+  {
+   "shot": "s30",
    "at": "@three",
    "role": "pop",
    "note": "card number lands: $3,000,000"
   },
   {
-   "shot": "s27",
+   "shot": "s33",
    "at": "@each",
    "role": "pop",
    "note": "card number lands: 1¢ EACH"
@@ -107,10 +113,9 @@
  "film_shots": [
   "s01",
   "s02",
-  "s09",
-  "s21",
-  "s22",
-  "s27"
+  "s25",
+  "s26",
+  "s33"
  ],
  "generic_video_shots": [],
  "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"

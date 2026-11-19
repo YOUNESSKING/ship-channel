@@ -42,14 +42,20 @@
    "id": "s03",
    "start": "t8.62",
    "sfx": false,
-   "tag": "U.S. NAVY VIDEO · EX-USS RANGER UNDER TOW, 5 MARCH 2015",
-   "template": "clip_plain",
-   "variant": "push",
-   "clip": {
-    "file": "f_c07_s03.mp4",
-    "push": null
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "THE NAVY EXPECTED",
+    "number": "4-5",
+    "unit": "months",
+    "number_at": "@four",
+    "kicker_at": 0.15
    },
-   "params": {}
+   "clip": {
+    "file": "b_c07_s03.mp4",
+    "push": null
+   }
   },
   {
    "id": "s04",
@@ -120,6 +126,18 @@
   },
   {
    "id": "s09",
+   "start": "t35.41",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "s_c07_s09.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
    "start": "t40.67",
    "sfx": false,
    "template": "map_clip",
@@ -131,7 +149,7 @@
    "params": {}
   },
   {
-   "id": "s10",
+   "id": "s11",
    "start": "t45.12",
    "sfx": false,
    "template": "text_card",
@@ -145,38 +163,69 @@
     "kicker_at": 0.15
    },
    "clip": {
-    "file": "b_c07_s10.mp4",
+    "file": "b_c07_s11.mp4",
     "push": null
    }
   },
   {
-   "id": "s11",
+   "id": "s12",
    "start": "t48.57",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c07_s11.mp4",
-    "push": null
-   },
-   "params": {}
-  },
-  {
-   "id": "s12",
-   "start": "t50.25",
-   "sfx": false,
-   "tag": "U.S. NAVY VIDEO · EX-USS RANGER UNDER TOW, 5 MARCH 2015",
-   "template": "clip_plain",
-   "variant": "push",
-   "clip": {
-    "file": "f_c07_s12.mp4",
+    "file": "p_c07_s12.mp4",
     "push": null
    },
    "params": {}
   },
   {
    "id": "s13",
+   "start": "t50.25",
+   "sfx": false,
+   "tag": "U.S. NAVY VIDEO · EX-USS RANGER UNDER TOW, 5 MARCH 2015",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s13.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s14",
    "start": "t53.10",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "12 JULY 2015",
+    "text": "BROWNSVILLE, TEXAS",
+    "at": "@Brownsville",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c07_s14.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s15",
+   "start": "t57.91",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s15.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s16",
+   "start": "t59.61",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -187,7 +236,7 @@
    "params": {}
   },
   {
-   "id": "s14",
+   "id": "s17",
    "start": "t64.22",
    "sfx": false,
    "template": "map_clip",
@@ -199,7 +248,19 @@
    "params": {}
   },
   {
-   "id": "s15",
+   "id": "s18",
+   "start": "t68.74",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "s_c07_s18.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s19",
    "start": "t71.95",
    "sfx": false,
    "template": "text_card",
@@ -213,18 +274,30 @@
     "kicker_at": 0.15
    },
    "clip": {
-    "file": "b_c07_s15.mp4",
+    "file": "b_c07_s19.mp4",
     "push": null
    }
   },
   {
-   "id": "s16",
+   "id": "s20",
+   "start": "t75.84",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s20.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s21",
    "start": "t78.13",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c07_s16.mp4",
+    "file": "p_c07_s21.mp4",
     "push": null
    },
    "params": {}

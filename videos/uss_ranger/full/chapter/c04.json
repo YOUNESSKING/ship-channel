@@ -27,13 +27,32 @@
   },
   {
    "id": "s02",
+   "start": "t3.30",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "AUGUST 1954",
+    "text": "KEEL LAID",
+    "at": "@keel",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c04_s02.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s03",
    "start": "t6.89",
    "sfx": false,
    "tag": "U.S. NAVY FILM · CHRISTENING AT NEWPORT NEWS, SEPT 1956",
    "template": "lower_third",
    "variant": "kicker_line",
    "clip": {
-    "file": "f_c04_s02.mp4",
+    "file": "f_c04_s03.mp4",
     "push": null
    },
    "params": {
@@ -43,21 +62,8 @@
    }
   },
   {
-   "id": "s03",
-   "start": "t11.17",
-   "sfx": false,
-   "tag": "U.S. NAVY FILM · CHRISTENING AT NEWPORT NEWS, SEPT 1956",
-   "template": "clip_plain",
-   "variant": "push",
-   "clip": {
-    "file": "f_c04_s03.mp4",
-    "push": null
-   },
-   "params": {}
-  },
-  {
    "id": "s04",
-   "start": "t14.07",
+   "start": "t11.17",
    "sfx": false,
    "tag": "U.S. NAVY FILM · CHRISTENING AT NEWPORT NEWS, SEPT 1956",
    "template": "clip_plain",
@@ -70,13 +76,26 @@
   },
   {
    "id": "s05",
+   "start": "t14.07",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · CHRISTENING AT NEWPORT NEWS, SEPT 1956",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c04_s05.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s06",
    "start": "t16.80",
    "sfx": false,
    "tag": "U.S. NAVY FILM · USS FORRESTAL, LEAD SHIP OF THE CLASS, 1968",
    "template": "lower_third",
    "variant": "kicker_line",
    "clip": {
-    "file": "f_c04_s05.mp4",
+    "file": "f_c04_s06.mp4",
     "push": null
    },
    "params": {
@@ -86,26 +105,26 @@
    }
   },
   {
-   "id": "s06",
+   "id": "s07",
    "start": "t21.64",
    "sfx": false,
    "tag": "U.S. NAVY FILM · A-7A CORSAIRS ON USS RANGER, 1967-68",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "f_c04_s06.mp4",
+    "file": "f_c04_s07.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s07",
+   "id": "s08",
    "start": "t23.39",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
    "clip": {
-    "file": "p_c04_s07.mp4",
+    "file": "p_c04_s08.mp4",
     "push": null
    },
    "params": {
@@ -116,7 +135,7 @@
    }
   },
   {
-   "id": "s08",
+   "id": "s09",
    "start": "t25.66",
    "sfx": false,
    "template": "text_card",
@@ -130,12 +149,12 @@
     "kicker_at": 0.15
    },
    "clip": {
-    "file": "b_c04_s08.mp4",
+    "file": "b_c04_s09.mp4",
     "push": null
    }
   },
   {
-   "id": "s09",
+   "id": "s10",
    "start": "t27.86",
    "sfx": false,
    "template": "text_card",
@@ -149,18 +168,18 @@
     "kicker_at": 0.15
    },
    "clip": {
-    "file": "b_c04_s09.mp4",
+    "file": "b_c04_s10.mp4",
     "push": null
    }
   },
   {
-   "id": "s10",
+   "id": "s11",
    "start": "t31.01",
    "sfx": false,
    "template": "lower_third",
    "variant": "kicker_line",
    "clip": {
-    "file": "p_c04_s10.mp4",
+    "file": "p_c04_s11.mp4",
     "push": null
    },
    "params": {
@@ -170,25 +189,25 @@
    }
   },
   {
-   "id": "s11",
+   "id": "s12",
    "start": "t34.43",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c04_s11.mp4",
+    "file": "p_c04_s12.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s12",
+   "id": "s13",
    "start": "t37.30",
    "sfx": false,
    "template": "lower_third",
    "variant": "kicker_line",
    "clip": {
-    "file": "p_c04_s12.mp4",
+    "file": "p_c04_s13.mp4",
     "push": null
    },
    "params": {
@@ -198,7 +217,7 @@
    }
   },
   {
-   "id": "s13",
+   "id": "s14",
    "start": "t39.97",
    "sfx": false,
    "template": "map_clip",
@@ -210,20 +229,8 @@
    "params": {}
   },
   {
-   "id": "s14",
-   "start": "t47.51",
-   "sfx": false,
-   "template": "clip_plain",
-   "variant": "push",
-   "clip": {
-    "file": "s_c04_s14.mp4",
-    "push": null
-   },
-   "params": {}
-  },
-  {
    "id": "s15",
-   "start": "t51.36",
+   "start": "t45.19",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -235,6 +242,30 @@
   },
   {
    "id": "s16",
+   "start": "t47.51",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "s_c04_s16.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s17",
+   "start": "t51.36",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s17.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s18",
    "start": "t53.82",
    "sfx": false,
    "template": "map_clip",
@@ -246,7 +277,7 @@
    "params": {}
   },
   {
-   "id": "s17",
+   "id": "s19",
    "start": "t57.44",
    "sfx": false,
    "template": "map_clip",
@@ -258,14 +289,14 @@
    "params": {}
   },
   {
-   "id": "s18",
+   "id": "s20",
    "start": "t62.39",
    "sfx": false,
    "tag": "U.S. NAVY FILM · A-7A CORSAIRS IN FLIGHT, 1967",
    "template": "number_clip",
    "variant": "right",
    "clip": {
-    "file": "f_c04_s18.mp4",
+    "file": "f_c04_s20.mp4",
     "push": null
    },
    "params": {
@@ -276,38 +307,8 @@
    }
   },
   {
-   "id": "s19",
-   "start": "t66.29",
-   "sfx": false,
-   "tag": "U.S. NAVY FILM · A-7A CORSAIRS ON USS RANGER, 1967-68",
-   "template": "clip_plain",
-   "variant": "push",
-   "clip": {
-    "file": "f_c04_s19.mp4",
-    "push": null
-   },
-   "params": {}
-  },
-  {
-   "id": "s20",
-   "start": "t69.05",
-   "sfx": false,
-   "tag": "U.S. NAVY FILM · A-7A CORSAIRS ON USS RANGER, 1967-68",
-   "template": "lower_third",
-   "variant": "kicker_line",
-   "clip": {
-    "file": "f_c04_s20.mp4",
-    "push": null
-   },
-   "params": {
-    "kicker": "INTO COMBAT, 1967",
-    "text": "A-7 CORSAIR II",
-    "at": "@Corsair"
-   }
-  },
-  {
    "id": "s21",
-   "start": "t73.67",
+   "start": "t66.29",
    "sfx": false,
    "tag": "U.S. NAVY FILM · A-7A CORSAIRS ON USS RANGER, 1967-68",
    "template": "clip_plain",
@@ -320,6 +321,36 @@
   },
   {
    "id": "s22",
+   "start": "t69.05",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · A-7A CORSAIRS ON USS RANGER, 1967-68",
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "f_c04_s22.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "INTO COMBAT, 1967",
+    "text": "A-7 CORSAIR II",
+    "at": "@Corsair"
+   }
+  },
+  {
+   "id": "s23",
+   "start": "t73.67",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · A-7A CORSAIRS ON USS RANGER, 1967-68",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c04_s23.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s24",
    "start": "t76.69",
    "sfx": false,
    "template": "map_clip",
@@ -331,19 +362,19 @@
    "params": {}
   },
   {
-   "id": "s23",
+   "id": "s25",
    "start": "t82.64",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c04_s23.mp4",
+    "file": "p_c04_s25.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s24",
+   "id": "s26",
    "start": "t85.42",
    "sfx": false,
    "template": "text_card",
@@ -356,19 +387,19 @@
     "kicker_at": 0.15
    },
    "clip": {
-    "file": "b_c04_s24.mp4",
+    "file": "b_c04_s26.mp4",
     "push": null
    },
    "card_bg": true
   },
   {
-   "id": "s25",
+   "id": "s27",
    "start": "t90.48",
    "sfx": false,
    "template": "number_clip",
    "variant": "right",
    "clip": {
-    "file": "p_c04_s25.mp4",
+    "file": "p_c04_s27.mp4",
     "push": null
    },
    "params": {
@@ -378,67 +409,84 @@
    }
   },
   {
-   "id": "s26",
+   "id": "s28",
    "start": "t93.80",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c04_s26.mp4",
+    "file": "p_c04_s28.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s27",
+   "id": "s29",
+   "start": "t97.38",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "kicker": "THE FIRST FIGHT",
+    "number": "≈1",
+    "unit": "hour",
+    "number_at": "@hour",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c04_s29.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s30",
+   "start": "t99.73",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s30.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s31",
    "start": "t103.61",
    "sfx": false,
    "template": "text_card",
    "variant": "number",
    "card": true,
    "params": {
-    "kicker": "KILLED",
+    "kicker": "KILLED · 1 NOV 1983",
     "number": "6",
     "number_at": "@Six",
     "kicker_at": 0.15
    },
    "clip": {
-    "file": "b_c04_s27.mp4",
+    "file": "b_c04_s31.mp4",
     "push": null
    }
   },
   {
-   "id": "s28",
-   "start": "t104.67",
+   "id": "s32",
+   "start": "t106.70",
    "sfx": false,
-   "template": "text_card",
-   "variant": "number",
-   "card": true,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c04_s32.mp4",
+    "push": null
+   },
    "params": {
     "kicker": "INJURED",
     "number": "35",
-    "number_at": "@thirty",
-    "kicker_at": 0.15
-   },
-   "clip": {
-    "file": "b_c04_s28.mp4",
-    "push": null
+    "number_at": "@injuries"
    }
   },
   {
-   "id": "s29",
-   "start": "t106.70",
-   "sfx": false,
-   "template": "clip_plain",
-   "variant": "push",
-   "clip": {
-    "file": "p_c04_s29.mp4",
-    "push": null
-   },
-   "params": {}
-  },
-  {
-   "id": "s30",
+   "id": "s33",
    "start": "t110.52",
    "sfx": false,
    "template": "text_card",
@@ -449,13 +497,13 @@
     "at": "@November"
    },
    "clip": {
-    "file": "b_c04_s30.mp4",
+    "file": "b_c04_s33.mp4",
     "push": null
    },
    "card_bg": true
   },
   {
-   "id": "s31",
+   "id": "s34",
    "start": "t115.21",
    "sfx": false,
    "template": "map_clip",
@@ -467,7 +515,23 @@
    "params": {}
   },
   {
-   "id": "s32",
+   "id": "s35",
+   "start": "t119.87",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c04_s35.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "15 JANUARY 1991",
+    "text": "IN POSITION",
+    "at": "@position"
+   }
+  },
+  {
+   "id": "s36",
    "start": "t124.73",
    "sfx": false,
    "template": "text_card",
@@ -480,74 +544,26 @@
     "kicker_at": 0.15
    },
    "clip": {
-    "file": "b_c04_s32.mp4",
+    "file": "b_c04_s36.mp4",
     "push": null
    },
    "card_bg": true
   },
   {
-   "id": "s33",
+   "id": "s37",
    "start": "t127.61",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c04_s33.mp4",
-    "push": null
-   },
-   "params": {}
-  },
-  {
-   "id": "s34",
-   "start": "t132.75",
-   "sfx": false,
-   "template": "clip_plain",
-   "variant": "push",
-   "clip": {
-    "file": "p_c04_s34.mp4",
-    "push": null
-   },
-   "params": {}
-  },
-  {
-   "id": "s35",
-   "start": "t136.41",
-   "sfx": false,
-   "template": "clip_plain",
-   "variant": "push",
-   "clip": {
-    "file": "p_c04_s35.mp4",
-    "push": null
-   },
-   "params": {}
-  },
-  {
-   "id": "s36",
-   "start": "t140.21",
-   "sfx": false,
-   "template": "clip_plain",
-   "variant": "push",
-   "clip": {
-    "file": "p_c04_s36.mp4",
-    "push": null
-   },
-   "params": {}
-  },
-  {
-   "id": "s37",
-   "start": "t143.28",
-   "sfx": false,
-   "template": "map_clip",
-   "variant": "baked",
-   "clip": {
-    "file": "m_c04_somalia.mp4",
+    "file": "p_c04_s37.mp4",
     "push": null
    },
    "params": {}
   },
   {
    "id": "s38",
-   "start": "t149.74",
+   "start": "t132.75",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -559,7 +575,7 @@
   },
   {
    "id": "s39",
-   "start": "t151.22",
+   "start": "t136.41",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -571,7 +587,7 @@
   },
   {
    "id": "s40",
-   "start": "t156.92",
+   "start": "t140.21",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -583,6 +599,66 @@
   },
   {
    "id": "s41",
+   "start": "t143.28",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c04_somalia.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s42",
+   "start": "t147.02",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s42.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s43",
+   "start": "t149.74",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s43.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s44",
+   "start": "t151.22",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s44.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s45",
+   "start": "t156.92",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c04_s45.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s46",
    "start": "t158.71",
    "sfx": false,
    "template": "text_card",
@@ -595,31 +671,31 @@
     "kicker_at": 0.15
    },
    "clip": {
-    "file": "b_c04_s41.mp4",
+    "file": "b_c04_s46.mp4",
     "push": null
    },
    "card_bg": true
   },
   {
-   "id": "s42",
+   "id": "s47",
    "start": "t163.53",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c04_s42.mp4",
+    "file": "p_c04_s47.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s43",
+   "id": "s48",
    "start": "t164.93",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c04_s43.mp4",
+    "file": "p_c04_s48.mp4",
     "push": null
    },
    "params": {}

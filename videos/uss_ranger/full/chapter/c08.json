@@ -39,6 +39,30 @@
   },
   {
    "id": "s03",
+   "start": "t6.20",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s03.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s04",
+   "start": "t10.02",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s04.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
    "start": "t13.98",
    "sfx": false,
    "template": "text_card",
@@ -52,12 +76,12 @@
     "kicker_at": 0.15
    },
    "clip": {
-    "file": "b_c08_s03.mp4",
+    "file": "b_c08_s05.mp4",
     "push": null
    }
   },
   {
-   "id": "s04",
+   "id": "s06",
    "start": "t16.05",
    "sfx": false,
    "template": "text_card",
@@ -71,12 +95,24 @@
     "kicker_at": 0.15
    },
    "clip": {
-    "file": "b_c08_s04.mp4",
+    "file": "b_c08_s06.mp4",
     "push": null
    }
   },
   {
-   "id": "s05",
+   "id": "s07",
+   "start": "t20.45",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s07.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s08",
    "start": "t24.56",
    "sfx": false,
    "template": "text_card",
@@ -89,13 +125,25 @@
     "kicker_at": 0.15
    },
    "clip": {
-    "file": "b_c08_s05.mp4",
+    "file": "b_c08_s08.mp4",
     "push": null
    },
    "card_bg": true
   },
   {
-   "id": "s06",
+   "id": "s09",
+   "start": "t28.10",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s09.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
    "start": "t30.98",
    "sfx": false,
    "template": "text_card",
@@ -108,13 +156,25 @@
     "kicker_at": 0.15
    },
    "clip": {
-    "file": "b_c08_s06.mp4",
+    "file": "b_c08_s10.mp4",
     "push": null
    },
    "card_bg": true
   },
   {
-   "id": "s07",
+   "id": "s11",
+   "start": "t34.24",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s11.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s12",
    "start": "t37.18",
    "sfx": false,
    "template": "text_card",
@@ -127,37 +187,61 @@
     "kicker_at": 0.15
    },
    "clip": {
-    "file": "b_c08_s07.mp4",
+    "file": "b_c08_s12.mp4",
     "push": null
    }
   },
   {
-   "id": "s08",
-   "start": "t45.01",
+   "id": "s13",
+   "start": "t39.08",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c08_s08.mp4",
+    "file": "p_c08_s13.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s09",
+   "id": "s14",
+   "start": "t45.01",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s14.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s15",
    "start": "t47.95",
    "sfx": false,
    "tag": "U.S. NAVY VIDEO · EX-USS RANGER UNDER TOW, 5 MARCH 2015",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "f_c08_s09.mp4",
+    "file": "f_c08_s15.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s10",
+   "id": "s16",
+   "start": "t51.34",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s16.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s17",
    "start": "t54.49",
    "sfx": false,
    "template": "map_clip",
@@ -169,8 +253,20 @@
    "params": {}
   },
   {
-   "id": "s11",
+   "id": "s18",
    "start": "t56.92",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s18.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s19",
+   "start": "t58.38",
    "sfx": false,
    "template": "map_clip",
    "variant": "baked",
@@ -181,7 +277,19 @@
    "params": {}
   },
   {
-   "id": "s12",
+   "id": "s20",
+   "start": "t63.22",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "s_c08_s20.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s21",
    "start": "t65.60",
    "sfx": false,
    "template": "text_card",
@@ -194,49 +302,85 @@
     "kicker_at": 0.15
    },
    "clip": {
-    "file": "b_c08_s12.mp4",
+    "file": "b_c08_s21.mp4",
     "push": null
    },
    "card_bg": true
   },
   {
-   "id": "s13",
+   "id": "s22",
+   "start": "t70.42",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s22.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s23",
    "start": "t73.39",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c08_s13.mp4",
+    "file": "p_c08_s23.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s14",
+   "id": "s24",
    "start": "t77.14",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c08_s14.mp4",
+    "file": "p_c08_s24.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s15",
+   "id": "s25",
+   "start": "t79.74",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s25.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s26",
    "start": "t83.20",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c08_s15.mp4",
+    "file": "p_c08_s26.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s16",
+   "id": "s27",
+   "start": "t85.41",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s27.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s28",
    "start": "t90.15",
    "sfx": false,
    "template": "text_card",
@@ -249,25 +393,37 @@
     "kicker_at": 0.15
    },
    "clip": {
-    "file": "b_c08_s16.mp4",
+    "file": "b_c08_s28.mp4",
     "push": null
    },
    "card_bg": true
   },
   {
-   "id": "s17",
+   "id": "s29",
    "start": "t92.97",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c08_s17.mp4",
+    "file": "p_c08_s29.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s18",
+   "id": "s30",
+   "start": "t98.06",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c08_s30.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s31",
    "start": "t102.48",
    "sfx": false,
    "template": "map_clip",
@@ -279,19 +435,19 @@
    "params": {}
   },
   {
-   "id": "s19",
+   "id": "s32",
    "start": "t107.07",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "p_c08_s19.mp4",
+    "file": "p_c08_s32.mp4",
     "push": null
    },
    "params": {}
   },
   {
-   "id": "s20",
+   "id": "s33",
    "start": "t111.98",
    "sfx": false,
    "template": "text_card",
@@ -304,13 +460,13 @@
     "kicker_at": 0.15
    },
    "clip": {
-    "file": "b_c08_s20.mp4",
+    "file": "b_c08_s33.mp4",
     "push": null
    },
    "card_bg": true
   },
   {
-   "id": "s21",
+   "id": "s34",
    "start": "t117.45",
    "sfx": false,
    "template": "map_clip",
