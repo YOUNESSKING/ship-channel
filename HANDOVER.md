@@ -26,6 +26,30 @@ Read in this order: `CLAUDE.md` → this file → `STYLE_LOCK.md` → `reference
   upload done 2026-11-19 (owner asked): https://gofile.io/d/35cTkSsB. vidIQ scoring still waits for the owner's direct OK. New tools: `build/film_cuts.py` (split film
   windows at detected cuts), `build/window_sheet.py` (one-sheet frame check of every window); DVIDS video skips the ship grade.
 
+- Video 5: **USS Samuel B. Roberts** ("The Deepest Shipwreck Ever Found", thumbnail 22,000 FT DOWN), plan in `research/FIRST_5_VIDEOS.md` §5.
+  Folder: `videos/uss_samuel_b_roberts/`. Built in session "Fleet's End v5". **Owner approval given directly by the owner on 2026-11-19 in
+  session Fleet's End v4** (recorded in `videos/uss_samuel_b_roberts/OWNER_NOTES.md`): all gates pre-approved (hook, shot list / test render),
+  vidIQ credits up to ~400 for titles + thumbnails, Gofile upload of master + upload kit PDF + thumbnails at the end; finished video by the
+  next morning. Copy the **USS Ranger** scripts (`videos/uss_ranger/full/build/`, `full/mk/`): they are the newest (see lessons below).
+  The 2022 dive footage/stills (Caladan Oceanic / Victor Vescovo) are copyrighted: describe only, never show.
+
+### Lessons from USS Ranger (video 4, read before building video 5)
+1. Copy `videos/uss_ranger/full/build/` (not Nevada): it has `film_cuts.py` (scdet cuts; `make_shotlists.py` splits film windows at
+   them), `window_sheet.py` (one sheet: start/middle/end of every film window), DVIDS video skipping the ship grade (the grade read a grey
+   colour video as B&W), `paperwork.py` / `make_kit.py` / `music_bed.py` already de-Nevada'd. Grep every copied script for the old ship name.
+2. scdet misses cuts between similar shots: after `make_segments.py film`, ALWAYS look at `build/seg_sheet.py` sheets of every film
+   segment (Ranger had a missed cut, a slate, an "End of Recording" card and a TV presenter); fix by hand in `build/film_cuts.json`.
+3. Text cards: put `dim="lt"` on every number card and back every card with a BRIGHT photo; check card brightness on the first contact
+   sheet (Ranger needed a full re-render because cards read near-black).
+4. `make_segments.py` loads segments.json at start: after any beats change, kill running segment jobs, delete the changed segments
+   (compare old/new segments.json), restart. Photo segments are slow (~40 s each): run 3 workers on disjoint file lists. Stills (`s_*`)
+   are built only when you pass their file names. Never edit a shell script that is running (bash reads it as it goes).
+5. mix_full.py: never delete `chapter/joined_silent.mp4` before a full re-mix (it would reuse the OLD master picture via PICTURE_SRC).
+6. Basemaps: check every bake (Hampton Roads with WATERMASK=osm came out inverted; re-baked without it). Map agent did 31 scenes well.
+7. Fact-check catches on Ranger: dates in the plan were wrong, "the Top Gun carrier" overclaimed, "sold" was not a sale. Expect the plan
+   in FIRST_5_VIDEOS to have errors: the 3 checkers decide, not the plan.
+8. Script length: 2,250 words = 14:11 with the Archive voice. Aim 2,300-2,500.
+
 ## Per-video pipeline (Oriskany is the worked example; copy its scripts, do not rewrite from scratch)
 1. Research: Gemini dossier (`research/GEMINI_BRIEF_v3.md` pattern) → `FACT_SHEET.md` → 3 independent fact-checkers on
    official sources (`FACTCHECK_A/B/C_*.md` pattern). Gemini invents claims; nothing unverified goes in the script.
