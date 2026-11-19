@@ -1,0 +1,2196 @@
+{
+ "voice": "archive (bm_fable 0.40 + am_michael 0.40 + bm_lewis 0.20)",
+ "style_md5": "c9ce4988",
+ "speed": 0.92,
+ "question_speed": 0.8522,
+ "duration": 878.77,
+ "chunks": [
+  {
+   "text": "Almost twenty-three thousand feet under the Philippine Sea, there is a small American warship that once charged a fleet of battleships.",
+   "start": 0.35,
+   "end": 8.251,
+   "chapter": "c01",
+   "para": 0,
+   "speed": 0.92,
+   "file": "084fdd97884a.wav"
+  },
+  {
+   "text": "She is the deepest shipwreck ever found.",
+   "start": 8.851,
+   "end": 11.255,
+   "chapter": "c01",
+   "para": 1,
+   "speed": 0.92,
+   "file": "510f0f4ab928.wav"
+  },
+  {
+   "text": "Nearly twice as deep as the Titanic.",
+   "start": 11.555,
+   "end": 14.203,
+   "chapter": "c01",
+   "para": 1,
+   "speed": 0.92,
+   "file": "7b68b292968b.wav"
+  },
+  {
+   "text": "Stand Mount Kilimanjaro on the sea floor beside her, and its summit would still be about three thousand feet under the waves.",
+   "start": 14.503,
+   "end": 21.764,
+   "chapter": "c01",
+   "para": 1,
+   "speed": 0.92,
+   "file": "fa220356483d.wav"
+  },
+  {
+   "text": "She was one of the smallest warships in the battle.",
+   "start": 22.364,
+   "end": 24.895,
+   "chapter": "c01",
+   "para": 2,
+   "speed": 0.92,
+   "file": "9c8cd4eed548.wav"
+  },
+  {
+   "text": "A destroyer escort, built for chasing submarines.",
+   "start": 25.195,
+   "end": 28.425,
+   "chapter": "c01",
+   "para": 2,
+   "speed": 0.92,
+   "file": "2fb8d9b50196.wav"
+  },
+  {
+   "text": "And on one October morning in nineteen forty-four, she was sent straight at the biggest guns in the world.",
+   "start": 28.725,
+   "end": 34.834,
+   "chapter": "c01",
+   "para": 2,
+   "speed": 0.92,
+   "file": "5b6f58aa7a92.wav"
+  },
+  {
+   "text": "This is the USS Samuel B.",
+   "start": 35.434,
+   "end": 37.658,
+   "chapter": "c01",
+   "para": 3,
+   "speed": 0.92,
+   "file": "3c9b483e2212.wav"
+  },
+  {
+   "text": "Roberts.",
+   "start": 37.958,
+   "end": 38.799,
+   "chapter": "c01",
+   "para": 3,
+   "speed": 0.92,
+   "file": "1d6f1f3bc06a.wav"
+  },
+  {
+   "text": "Her crew called her the Sammy B.",
+   "start": 39.399,
+   "end": 41.306,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "db105b7f7572.wav"
+  },
+  {
+   "text": "And that morning, her captain told them not to expect to survive.",
+   "start": 41.606,
+   "end": 45.25,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "4df72efb4c0e.wav"
+  },
+  {
+   "text": "So how did a ship this small end up this deep?",
+   "start": 45.85,
+   "end": 48.793,
+   "chapter": "c01",
+   "para": 5,
+   "speed": 0.8522,
+   "file": "540e8308fb59.wav"
+  },
+  {
+   "text": "And what did the cameras find, when someone finally reached her?",
+   "start": 49.093,
+   "end": 52.849,
+   "chapter": "c01",
+   "para": 5,
+   "speed": 0.8522,
+   "file": "0397b30eea2e.wav"
+  },
+  {
+   "text": "Start with the place.",
+   "start": 53.749,
+   "end": 55.034,
+   "chapter": "c02",
+   "para": 6,
+   "speed": 0.92,
+   "file": "d3c48cdf0b78.wav"
+  },
+  {
+   "text": "The east coast of Samar, an island in the central Philippines, on the twenty-fifth of October, nineteen forty-four.",
+   "start": 55.334,
+   "end": 62.665,
+   "chapter": "c02",
+   "para": 6,
+   "speed": 0.92,
+   "file": "01b9fd9faa2c.wav"
+  },
+  {
+   "text": "Just after dawn, a small American group was steaming off the coast.",
+   "start": 63.265,
+   "end": 67.287,
+   "chapter": "c02",
+   "para": 7,
+   "speed": 0.92,
+   "file": "c35c9e52ab65.wav"
+  },
+  {
+   "text": "Its radio call sign was Taffy Three.",
+   "start": 67.587,
+   "end": 70.17,
+   "chapter": "c02",
+   "para": 7,
+   "speed": 0.92,
+   "file": "29edc9343d2d.wav"
+  },
+  {
+   "text": "Six small escort carriers.",
+   "start": 70.77,
+   "end": 72.573,
+   "chapter": "c02",
+   "para": 8,
+   "speed": 0.92,
+   "file": "7762ac655250.wav"
+  },
+  {
+   "text": "Three destroyers.",
+   "start": 72.873,
+   "end": 74.159,
+   "chapter": "c02",
+   "para": 8,
+   "speed": 0.92,
+   "file": "82f5cd3b7e26.wav"
+  },
+  {
+   "text": "Four destroyer escorts.",
+   "start": 74.459,
+   "end": 76.168,
+   "chapter": "c02",
+   "para": 8,
+   "speed": 0.92,
+   "file": "53ab5ede0587.wav"
+  },
+  {
+   "text": "Their job was to support the troops who had landed on Leyte, to the south.",
+   "start": 76.468,
+   "end": 80.648,
+   "chapter": "c02",
+   "para": 8,
+   "speed": 0.92,
+   "file": "3e65a6b06a8a.wav"
+  },
+  {
+   "text": "Not to fight a fleet.",
+   "start": 80.948,
+   "end": 82.478,
+   "chapter": "c02",
+   "para": 8,
+   "speed": 0.92,
+   "file": "1ed03ef728cd.wav"
+  },
+  {
+   "text": "At about a quarter to seven, lookouts saw tall masts on the northern horizon.",
+   "start": 83.078,
+   "end": 87.671,
+   "chapter": "c02",
+   "para": 9,
+   "speed": 0.92,
+   "file": "88acc4276fdb.wav"
+  },
+  {
+   "text": "Then the shapes of battleships.",
+   "start": 87.971,
+   "end": 89.843,
+   "chapter": "c02",
+   "para": 9,
+   "speed": 0.92,
+   "file": "cb76bfe8b34f.wav"
+  },
+  {
+   "text": "It was the Japanese Center Force, under Vice Admiral Takeo Kurita.",
+   "start": 90.443,
+   "end": 94.974,
+   "chapter": "c02",
+   "para": 10,
+   "speed": 0.92,
+   "file": "3eb8fb4e7df7.wav"
+  },
+  {
+   "text": "Four battleships.",
+   "start": 95.274,
+   "end": 96.477,
+   "chapter": "c02",
+   "para": 10,
+   "speed": 0.92,
+   "file": "1ee517ceeb88.wav"
+  },
+  {
+   "text": "Six heavy cruisers.",
+   "start": 96.777,
+   "end": 98.33,
+   "chapter": "c02",
+   "para": 10,
+   "speed": 0.92,
+   "file": "0e75d6df7c76.wav"
+  },
+  {
+   "text": "And about a dozen destroyers.",
+   "start": 98.63,
+   "end": 100.517,
+   "chapter": "c02",
+   "para": 10,
+   "speed": 0.92,
+   "file": "43f3d016bf19.wav"
+  },
+  {
+   "text": "They had come through the San Bernardino Strait in the night.",
+   "start": 101.117,
+   "end": 104.135,
+   "chapter": "c02",
+   "para": 11,
+   "speed": 0.92,
+   "file": "caa6453f6bef.wav"
+  },
+  {
+   "text": "The American battleships and fleet carriers that could have stopped them were far to the north, chasing a Japanese decoy.",
+   "start": 104.435,
+   "end": 111.052,
+   "chapter": "c02",
+   "para": 11,
+   "speed": 0.92,
+   "file": "1a63fb745ac8.wav"
+  },
+  {
+   "text": "Nobody stood in the way.",
+   "start": 111.652,
+   "end": 113.24,
+   "chapter": "c02",
+   "para": 12,
+   "speed": 0.92,
+   "file": "e130a2770c55.wav"
+  },
+  {
+   "text": "Nobody, except Taffy Three.",
+   "start": 113.54,
+   "end": 115.558,
+   "chapter": "c02",
+   "para": 12,
+   "speed": 0.92,
+   "file": "9751e08ed13a.wav"
+  },
+  {
+   "text": "At the head of the Japanese line was the Yamato.",
+   "start": 116.158,
+   "end": 119.18,
+   "chapter": "c02",
+   "para": 13,
+   "speed": 0.92,
+   "file": "572cb15cdb4c.wav"
+  },
+  {
+   "text": "The largest battleship of the war.",
+   "start": 119.48,
+   "end": 121.49,
+   "chapter": "c02",
+   "para": 13,
+   "speed": 0.92,
+   "file": "67d5471e1b84.wav"
+  },
+  {
+   "text": "More than eight hundred and sixty feet long, with nine guns of eighteen inches.",
+   "start": 121.79,
+   "end": 126.539,
+   "chapter": "c02",
+   "para": 13,
+   "speed": 0.92,
+   "file": "e0cc997b73d9.wav"
+  },
+  {
+   "text": "Just before seven, she opened fire.",
+   "start": 127.139,
+   "end": 129.482,
+   "chapter": "c02",
+   "para": 14,
+   "speed": 0.92,
+   "file": "c65718677c21.wav"
+  },
+  {
+   "text": "Within minutes, giant shells were landing among the American carriers.",
+   "start": 129.782,
+   "end": 133.746,
+   "chapter": "c02",
+   "para": 14,
+   "speed": 0.92,
+   "file": "a79aa50c37a3.wav"
+  },
+  {
+   "text": "The Samuel B.",
+   "start": 134.346,
+   "end": 135.49,
+   "chapter": "c02",
+   "para": 15,
+   "speed": 0.92,
+   "file": "d6f5a3d48a52.wav"
+  },
+  {
+   "text": "Roberts was about three hundred feet long.",
+   "start": 135.79,
+   "end": 138.339,
+   "chapter": "c02",
+   "para": 15,
+   "speed": 0.92,
+   "file": "2ff3ee8b2ae6.wav"
+  },
+  {
+   "text": "Her biggest guns were five inches across.",
+   "start": 138.639,
+   "end": 141.171,
+   "chapter": "c02",
+   "para": 15,
+   "speed": 0.92,
+   "file": "5f6ce553f901.wav"
+  },
+  {
+   "text": "Yamato's shells were more than three times as wide.",
+   "start": 141.471,
+   "end": 144.677,
+   "chapter": "c02",
+   "para": 15,
+   "speed": 0.92,
+   "file": "826c7e56e478.wav"
+  },
+  {
+   "text": "And the Yamato weighed more than forty times as much.",
+   "start": 144.977,
+   "end": 148.09,
+   "chapter": "c02",
+   "para": 15,
+   "speed": 0.92,
+   "file": "edc284c34d62.wav"
+  },
+  {
+   "text": "On paper, it was not a battle.",
+   "start": 148.69,
+   "end": 150.656,
+   "chapter": "c02",
+   "para": 16,
+   "speed": 0.92,
+   "file": "e118f9b9ad65.wav"
+  },
+  {
+   "text": "It was a massacre waiting to happen.",
+   "start": 150.956,
+   "end": 153.028,
+   "chapter": "c02",
+   "para": 16,
+   "speed": 0.92,
+   "file": "ff0028ae5605.wav"
+  },
+  {
+   "text": "The Americans had smoke, rain, planes from the small carriers, and a handful of small ships.",
+   "start": 153.328,
+   "end": 159.12,
+   "chapter": "c02",
+   "para": 16,
+   "speed": 0.92,
+   "file": "e8b418dff90a.wav"
+  },
+  {
+   "text": "That was all.",
+   "start": 159.42,
+   "end": 160.408,
+   "chapter": "c02",
+   "para": 16,
+   "speed": 0.92,
+   "file": "252bcdbdf001.wav"
+  },
+  {
+   "text": "To understand what the Roberts did next, go back six months, to a shipyard in Houston, Texas.",
+   "start": 161.308,
+   "end": 167.209,
+   "chapter": "c03",
+   "para": 17,
+   "speed": 0.92,
+   "file": "7295b0f54f20.wav"
+  },
+  {
+   "text": "She was a John C.",
+   "start": 167.809,
+   "end": 169.154,
+   "chapter": "c03",
+   "para": 18,
+   "speed": 0.92,
+   "file": "7f42e8acf42f.wav"
+  },
+  {
+   "text": "Butler class destroyer escort, built by Brown Shipbuilding, and commissioned on the twenty-eighth of April, nineteen forty-four.",
+   "start": 169.454,
+   "end": 177.363,
+   "chapter": "c03",
+   "para": 18,
+   "speed": 0.92,
+   "file": "33559515a248.wav"
+  },
+  {
+   "text": "Destroyer escorts were the Navy's small ships.",
+   "start": 177.963,
+   "end": 180.646,
+   "chapter": "c03",
+   "para": 19,
+   "speed": 0.92,
+   "file": "1d50d69bbb54.wav"
+  },
+  {
+   "text": "Built fast and in large numbers, to guard convoys and hunt submarines.",
+   "start": 180.946,
+   "end": 185.503,
+   "chapter": "c03",
+   "para": 19,
+   "speed": 0.92,
+   "file": "994cef1525f9.wav"
+  },
+  {
+   "text": "They were never meant to face a battleship.",
+   "start": 185.803,
+   "end": 188.127,
+   "chapter": "c03",
+   "para": 19,
+   "speed": 0.92,
+   "file": "0908ba45dca8.wav"
+  },
+  {
+   "text": "She carried two five-inch guns, smaller anti-aircraft guns, three torpedoes and depth charges.",
+   "start": 188.727,
+   "end": 194.994,
+   "chapter": "c03",
+   "para": 20,
+   "speed": 0.92,
+   "file": "7fd528a3538b.wav"
+  },
+  {
+   "text": "And a crew of about two hundred and twenty men.",
+   "start": 195.294,
+   "end": 198.071,
+   "chapter": "c03",
+   "para": 20,
+   "speed": 0.92,
+   "file": "924f917aa5ca.wav"
+  },
+  {
+   "text": "Her name came from a young sailor.",
+   "start": 198.671,
+   "end": 200.506,
+   "chapter": "c03",
+   "para": 21,
+   "speed": 0.92,
+   "file": "1a725e8973d5.wav"
+  },
+  {
+   "text": "Samuel Booker Roberts was a coxswain, the driver of a landing boat, at Guadalcanal.",
+   "start": 200.806,
+   "end": 206.295,
+   "chapter": "c03",
+   "para": 21,
+   "speed": 0.92,
+   "file": "7faf04bbc7e2.wav"
+  },
+  {
+   "text": "In September, nineteen forty-two, Marines were trapped on a beach at Point Cruz.",
+   "start": 206.895,
+   "end": 211.829,
+   "chapter": "c03",
+   "para": 22,
+   "speed": 0.92,
+   "file": "4b0ab91959f4.wav"
+  },
+  {
+   "text": "Roberts took his boat in close, and drew the Japanese fire towards himself, so the other boats could take the Marines off.",
+   "start": 212.129,
+   "end": 219.416,
+   "chapter": "c03",
+   "para": 22,
+   "speed": 0.92,
+   "file": "518a7db0e30b.wav"
+  },
+  {
+   "text": "He was badly wounded, and died the next day.",
+   "start": 220.016,
+   "end": 222.741,
+   "chapter": "c03",
+   "para": 23,
+   "speed": 0.92,
+   "file": "16b9f90cdd06.wav"
+  },
+  {
+   "text": "He was twenty-one.",
+   "start": 223.041,
+   "end": 224.289,
+   "chapter": "c03",
+   "para": 23,
+   "speed": 0.92,
+   "file": "795d7770c201.wav"
+  },
+  {
+   "text": "He received the Navy Cross.",
+   "start": 224.589,
+   "end": 226.297,
+   "chapter": "c03",
+   "para": 23,
+   "speed": 0.92,
+   "file": "826eb3f82f96.wav"
+  },
+  {
+   "text": "Her captain was Lieutenant Commander Robert Copeland.",
+   "start": 226.897,
+   "end": 230.14,
+   "chapter": "c03",
+   "para": 24,
+   "speed": 0.92,
+   "file": "d9d91d586aeb.wav"
+  },
+  {
+   "text": "Not a career officer.",
+   "start": 230.44,
+   "end": 231.837,
+   "chapter": "c03",
+   "para": 24,
+   "speed": 0.92,
+   "file": "4491359f2994.wav"
+  },
+  {
+   "text": "He was a lawyer from Tacoma, Washington, born there in nineteen ten, who had joined the Naval Reserve in the nineteen thirties.",
+   "start": 232.137,
+   "end": 240.049,
+   "chapter": "c03",
+   "para": 24,
+   "speed": 0.92,
+   "file": "043ec997ec9f.wav"
+  },
+  {
+   "text": "When the war came, he went to sea.",
+   "start": 240.649,
+   "end": 242.475,
+   "chapter": "c03",
+   "para": 25,
+   "speed": 0.92,
+   "file": "3838cc440358.wav"
+  },
+  {
+   "text": "Before the Roberts, he had already commanded another destroyer escort, the Wyman.",
+   "start": 242.775,
+   "end": 247.523,
+   "chapter": "c03",
+   "para": 25,
+   "speed": 0.92,
+   "file": "fe35d0ce6d8e.wav"
+  },
+  {
+   "text": "Now he had a brand new ship of his own.",
+   "start": 247.823,
+   "end": 250.116,
+   "chapter": "c03",
+   "para": 25,
+   "speed": 0.92,
+   "file": "6ce786365f29.wav"
+  },
+  {
+   "text": "Six months after she left Houston, his ship was off Samar, with the Japanese fleet coming over the horizon.",
+   "start": 250.716,
+   "end": 257.22,
+   "chapter": "c03",
+   "para": 26,
+   "speed": 0.92,
+   "file": "68dea0b059cf.wav"
+  },
+  {
+   "text": "The American admiral, Clifton Sprague, did the only things he could.",
+   "start": 258.12,
+   "end": 262.163,
+   "chapter": "c04",
+   "para": 27,
+   "speed": 0.92,
+   "file": "cb81b2b0aec4.wav"
+  },
+  {
+   "text": "He turned his carriers away and ran.",
+   "start": 262.463,
+   "end": 264.403,
+   "chapter": "c04",
+   "para": 27,
+   "speed": 0.92,
+   "file": "c181706e74a3.wav"
+  },
+  {
+   "text": "He launched every plane he had.",
+   "start": 264.703,
+   "end": 266.744,
+   "chapter": "c04",
+   "para": 27,
+   "speed": 0.92,
+   "file": "e0278173ebea.wav"
+  },
+  {
+   "text": "He ordered his escorts to make smoke, to hide the carriers.",
+   "start": 267.044,
+   "end": 270.45,
+   "chapter": "c04",
+   "para": 27,
+   "speed": 0.92,
+   "file": "dd0778d7c4de.wav"
+  },
+  {
+   "text": "Then he sent his small ships to attack.",
+   "start": 271.05,
+   "end": 273.224,
+   "chapter": "c04",
+   "para": 28,
+   "speed": 0.92,
+   "file": "0defbef54b85.wav"
+  },
+  {
+   "text": "Destroyers and destroyer escorts, against battleships and cruisers.",
+   "start": 273.524,
+   "end": 277.763,
+   "chapter": "c04",
+   "para": 28,
+   "speed": 0.92,
+   "file": "fc8510240a72.wav"
+  },
+  {
+   "text": "The three destroyers went first.",
+   "start": 278.363,
+   "end": 280.34,
+   "chapter": "c04",
+   "para": 29,
+   "speed": 0.92,
+   "file": "569a61ed0513.wav"
+  },
+  {
+   "text": "The Johnston, the Hoel and the Heermann.",
+   "start": 280.64,
+   "end": 282.833,
+   "chapter": "c04",
+   "para": 29,
+   "speed": 0.92,
+   "file": "b19807de8142.wav"
+  },
+  {
+   "text": "The Johnston's captain, Ernest Evans, would receive the Medal of Honor.",
+   "start": 283.133,
+   "end": 287.434,
+   "chapter": "c04",
+   "para": 29,
+   "speed": 0.92,
+   "file": "576f36cac944.wav"
+  },
+  {
+   "text": "He did not survive the day.",
+   "start": 287.734,
+   "end": 289.449,
+   "chapter": "c04",
+   "para": 29,
+   "speed": 0.92,
+   "file": "1ffab5f78607.wav"
+  },
+  {
+   "text": "Then the order reached the destroyer escorts.",
+   "start": 289.749,
+   "end": 292.253,
+   "chapter": "c04",
+   "para": 29,
+   "speed": 0.92,
+   "file": "34f3bdb35179.wav"
+  },
+  {
+   "text": "Copeland spoke to his crew over the loudspeaker.",
+   "start": 292.853,
+   "end": 295.603,
+   "chapter": "c04",
+   "para": 30,
+   "speed": 0.92,
+   "file": "9f5d82b049cf.wav"
+  },
+  {
+   "text": "He later reported what he told them.",
+   "start": 295.903,
+   "end": 298.113,
+   "chapter": "c04",
+   "para": 30,
+   "speed": 0.92,
+   "file": "7fff6378021d.wav"
+  },
+  {
+   "text": "This will be a fight against overwhelming odds, from which survival cannot be expected.",
+   "start": 298.413,
+   "end": 303.509,
+   "chapter": "c04",
+   "para": 30,
+   "speed": 0.92,
+   "file": "b95db3856bdd.wav"
+  },
+  {
+   "text": "We will do what damage we can.",
+   "start": 303.809,
+   "end": 305.715,
+   "chapter": "c04",
+   "para": 30,
+   "speed": 0.92,
+   "file": "28fbaf87617f.wav"
+  },
+  {
+   "text": "At around half past seven, the Roberts came out of the smoke, and headed for a column of Japanese heavy cruisers.",
+   "start": 306.315,
+   "end": 313.174,
+   "chapter": "c04",
+   "para": 31,
+   "speed": 0.92,
+   "file": "1077a3f8b1ea.wav"
+  },
+  {
+   "text": "She closed to about four thousand yards.",
+   "start": 313.774,
+   "end": 316.218,
+   "chapter": "c04",
+   "para": 32,
+   "speed": 0.92,
+   "file": "9bf810350769.wav"
+  },
+  {
+   "text": "Two miles, from ships many times her size.",
+   "start": 316.518,
+   "end": 319.241,
+   "chapter": "c04",
+   "para": 32,
+   "speed": 0.92,
+   "file": "66641ded3ef5.wav"
+  },
+  {
+   "text": "So close, and so small, that the cruisers' big guns struggled to hit her.",
+   "start": 319.541,
+   "end": 323.908,
+   "chapter": "c04",
+   "para": 32,
+   "speed": 0.92,
+   "file": "8dcf250605c1.wav"
+  },
+  {
+   "text": "Then she fired all three of her torpedoes at the heavy cruiser Chokai, and turned back into the smoke.",
+   "start": 324.508,
+   "end": 330.315,
+   "chapter": "c04",
+   "para": 33,
+   "speed": 0.92,
+   "file": "623d4861658e.wav"
+  },
+  {
+   "text": "Her crew believed one of them hit.",
+   "start": 330.915,
+   "end": 332.9,
+   "chapter": "c04",
+   "para": 34,
+   "speed": 0.92,
+   "file": "32417e63caaa.wav"
+  },
+  {
+   "text": "In nineteen forty-four, the Navy said so too, in its own press release.",
+   "start": 333.2,
+   "end": 337.777,
+   "chapter": "c04",
+   "para": 34,
+   "speed": 0.92,
+   "file": "49ee23e6e3d2.wav"
+  },
+  {
+   "text": "That is the story that made her famous.",
+   "start": 338.077,
+   "end": 340.408,
+   "chapter": "c04",
+   "para": 34,
+   "speed": 0.92,
+   "file": "761f1eb236cb.wav"
+  },
+  {
+   "text": "But here is the twist.",
+   "start": 341.308,
+   "end": 342.844,
+   "chapter": "c05",
+   "para": 35,
+   "speed": 0.92,
+   "file": "70551753f3ba.wav"
+  },
+  {
+   "text": "Japanese records do not back it up.",
+   "start": 343.144,
+   "end": 345.589,
+   "chapter": "c05",
+   "para": 35,
+   "speed": 0.92,
+   "file": "c243eb70951b.wav"
+  },
+  {
+   "text": "Many historians now believe that none of her torpedoes hit.",
+   "start": 345.889,
+   "end": 349.807,
+   "chapter": "c05",
+   "para": 35,
+   "speed": 0.92,
+   "file": "2cefe0a0ff66.wav"
+  },
+  {
+   "text": "The Chokai was crippled that morning, and she sank.",
+   "start": 350.407,
+   "end": 353.339,
+   "chapter": "c05",
+   "para": 36,
+   "speed": 0.92,
+   "file": "2fa4d49f1d31.wav"
+  },
+  {
+   "text": "But what crippled her is still argued about.",
+   "start": 353.639,
+   "end": 356.172,
+   "chapter": "c05",
+   "para": 36,
+   "speed": 0.92,
+   "file": "1fed33141c41.wav"
+  },
+  {
+   "text": "Bombs from American planes.",
+   "start": 356.472,
+   "end": 358.285,
+   "chapter": "c05",
+   "para": 36,
+   "speed": 0.92,
+   "file": "6b7b86e5f5d0.wav"
+  },
+  {
+   "text": "A shell from one of the escort carriers.",
+   "start": 358.585,
+   "end": 360.821,
+   "chapter": "c05",
+   "para": 36,
+   "speed": 0.92,
+   "file": "e31a4337371e.wav"
+  },
+  {
+   "text": "Or the guns of the Roberts herself.",
+   "start": 361.121,
+   "end": 363.503,
+   "chapter": "c05",
+   "para": 36,
+   "speed": 0.92,
+   "file": "3a3fc3eb82db.wav"
+  },
+  {
+   "text": "What is not in doubt is what the Roberts did next.",
+   "start": 364.103,
+   "end": 367.091,
+   "chapter": "c05",
+   "para": 37,
+   "speed": 0.92,
+   "file": "0a9a2c0be6aa.wav"
+  },
+  {
+   "text": "Her torpedoes were gone.",
+   "start": 367.691,
+   "end": 369.295,
+   "chapter": "c05",
+   "para": 38,
+   "speed": 0.92,
+   "file": "cf7e83d8b302.wav"
+  },
+  {
+   "text": "She could have stayed hidden in the smoke.",
+   "start": 369.595,
+   "end": 371.599,
+   "chapter": "c05",
+   "para": 38,
+   "speed": 0.92,
+   "file": "3fb5d9ba3818.wav"
+  },
+  {
+   "text": "Instead, Copeland turned her back towards the enemy, and opened fire with her guns.",
+   "start": 371.899,
+   "end": 376.8,
+   "chapter": "c05",
+   "para": 38,
+   "speed": 0.92,
+   "file": "d22e3eb349a8.wav"
+  },
+  {
+   "text": "For close to an hour, the little ship duelled with heavy cruisers.",
+   "start": 377.4,
+   "end": 380.953,
+   "chapter": "c05",
+   "para": 39,
+   "speed": 0.92,
+   "file": "b9904e81ef38.wav"
+  },
+  {
+   "text": "Her two five-inch guns fired more than six hundred shells.",
+   "start": 381.253,
+   "end": 384.981,
+   "chapter": "c05",
+   "para": 39,
+   "speed": 0.92,
+   "file": "c2adcaaff7dd.wav"
+  },
+  {
+   "text": "One gun alone fired more than three hundred.",
+   "start": 385.281,
+   "end": 388.006,
+   "chapter": "c05",
+   "para": 39,
+   "speed": 0.92,
+   "file": "b5256c56596c.wav"
+  },
+  {
+   "text": "She took hits, and kept firing.",
+   "start": 388.606,
+   "end": 390.553,
+   "chapter": "c05",
+   "para": 40,
+   "speed": 0.92,
+   "file": "b9146afb8379.wav"
+  },
+  {
+   "text": "Then, at about nine o'clock, the shells that finished her arrived.",
+   "start": 390.853,
+   "end": 394.651,
+   "chapter": "c05",
+   "para": 40,
+   "speed": 0.92,
+   "file": "e3f344d27ea9.wav"
+  },
+  {
+   "text": "They came from the battleship Kongo.",
+   "start": 395.251,
+   "end": 397.257,
+   "chapter": "c05",
+   "para": 41,
+   "speed": 0.92,
+   "file": "b294fd22cc19.wav"
+  },
+  {
+   "text": "Fourteen-inch shells, fired as a salvo.",
+   "start": 397.557,
+   "end": 400.126,
+   "chapter": "c05",
+   "para": 41,
+   "speed": 0.92,
+   "file": "316f304c5853.wav"
+  },
+  {
+   "text": "They tore a hole in her side about forty feet long, and wrecked one of her engine rooms.",
+   "start": 400.726,
+   "end": 405.724,
+   "chapter": "c05",
+   "para": 42,
+   "speed": 0.92,
+   "file": "cb5671106f8b.wav"
+  },
+  {
+   "text": "The Roberts slowed, and stopped.",
+   "start": 406.024,
+   "end": 407.857,
+   "chapter": "c05",
+   "para": 42,
+   "speed": 0.92,
+   "file": "0b10b7117db7.wav"
+  },
+  {
+   "text": "The ship that had charged a fleet was now dead in the water, still under fire.",
+   "start": 408.157,
+   "end": 412.858,
+   "chapter": "c05",
+   "para": 42,
+   "speed": 0.92,
+   "file": "fe1f051476a3.wav"
+  },
+  {
+   "text": "At one of her guns, Gunner's Mate Third Class Paul Carr kept working.",
+   "start": 413.458,
+   "end": 417.709,
+   "chapter": "c05",
+   "para": 43,
+   "speed": 0.92,
+   "file": "422a88ebeb38.wav"
+  },
+  {
+   "text": "A powder charge had exploded inside the gun, and he was mortally wounded.",
+   "start": 418.009,
+   "end": 422.463,
+   "chapter": "c05",
+   "para": 43,
+   "speed": 0.92,
+   "file": "c755b39e67fc.wav"
+  },
+  {
+   "text": "His Silver Star citation says that he still tried, alone, to load the last shell into the gun.",
+   "start": 423.063,
+   "end": 429.107,
+   "chapter": "c05",
+   "para": 44,
+   "speed": 0.92,
+   "file": "b02028783999.wav"
+  },
+  {
+   "text": "He died there.",
+   "start": 429.407,
+   "end": 430.443,
+   "chapter": "c05",
+   "para": 44,
+   "speed": 0.92,
+   "file": "9c1c9b5767ab.wav"
+  },
+  {
+   "text": "He came from Checotah, Oklahoma.",
+   "start": 431.043,
+   "end": 433.434,
+   "chapter": "c05",
+   "para": 45,
+   "speed": 0.92,
+   "file": "5a84df79effc.wav"
+  },
+  {
+   "text": "Years later, the Navy named a frigate after him.",
+   "start": 433.734,
+   "end": 436.607,
+   "chapter": "c05",
+   "para": 45,
+   "speed": 0.92,
+   "file": "bf963cd5019a.wav"
+  },
+  {
+   "text": "The USS Carr.",
+   "start": 436.907,
+   "end": 438.315,
+   "chapter": "c05",
+   "para": 45,
+   "speed": 0.92,
+   "file": "44bff2d9a0a4.wav"
+  },
+  {
+   "text": "Shortly after nine, the order came to abandon ship.",
+   "start": 438.915,
+   "end": 442.098,
+   "chapter": "c05",
+   "para": 46,
+   "speed": 0.92,
+   "file": "fd0b19c50def.wav"
+  },
+  {
+   "text": "A little after ten in the morning, the Samuel B.",
+   "start": 442.698,
+   "end": 445.451,
+   "chapter": "c05",
+   "para": 47,
+   "speed": 0.92,
+   "file": "87548221aa75.wav"
+  },
+  {
+   "text": "Roberts went down.",
+   "start": 445.751,
+   "end": 447.096,
+   "chapter": "c05",
+   "para": 47,
+   "speed": 0.92,
+   "file": "9a4bba8648cc.wav"
+  },
+  {
+   "text": "And then something nobody expected happened.",
+   "start": 447.696,
+   "end": 450.346,
+   "chapter": "c05",
+   "para": 48,
+   "speed": 0.92,
+   "file": "ba38ac1afa7f.wav"
+  },
+  {
+   "text": "The Japanese fleet turned around.",
+   "start": 450.946,
+   "end": 453.053,
+   "chapter": "c05",
+   "para": 49,
+   "speed": 0.92,
+   "file": "e924c3ecd56a.wav"
+  },
+  {
+   "text": "Kurita had battleships and cruisers.",
+   "start": 453.653,
+   "end": 455.929,
+   "chapter": "c05",
+   "para": 50,
+   "speed": 0.92,
+   "file": "478d9b2f6d72.wav"
+  },
+  {
+   "text": "On paper, he was winning.",
+   "start": 456.229,
+   "end": 457.863,
+   "chapter": "c05",
+   "para": 50,
+   "speed": 0.92,
+   "file": "f7f44a40b978.wav"
+  },
+  {
+   "text": "And at about twenty past nine, he broke off the attack, and turned his force away to the north.",
+   "start": 458.163,
+   "end": 463.673,
+   "chapter": "c05",
+   "para": 50,
+   "speed": 0.92,
+   "file": "ca9fa7b2eda7.wav"
+  },
+  {
+   "text": "Why he did it is still debated.",
+   "start": 464.273,
+   "end": 466.291,
+   "chapter": "c05",
+   "para": 51,
+   "speed": 0.92,
+   "file": "bf2fd3e8d977.wav"
+  },
+  {
+   "text": "His ships were scattered by the smoke, and by the torpedo attacks.",
+   "start": 466.591,
+   "end": 470.412,
+   "chapter": "c05",
+   "para": 51,
+   "speed": 0.92,
+   "file": "0688e644ae1d.wav"
+  },
+  {
+   "text": "Planes from the escort carriers had been striking them all morning.",
+   "start": 470.712,
+   "end": 474.472,
+   "chapter": "c05",
+   "para": 51,
+   "speed": 0.92,
+   "file": "f6a1e3f10664.wav"
+  },
+  {
+   "text": "He believed he had been fighting fleet carriers, a much bigger force than he was.",
+   "start": 474.772,
+   "end": 479.456,
+   "chapter": "c05",
+   "para": 51,
+   "speed": 0.92,
+   "file": "cee31abb6161.wav"
+  },
+  {
+   "text": "By the time the Roberts went down, the fleet she had charged was already turning away.",
+   "start": 480.056,
+   "end": 484.929,
+   "chapter": "c05",
+   "para": 52,
+   "speed": 0.92,
+   "file": "5685af680b91.wav"
+  },
+  {
+   "text": "The small ships had done what they were sent to do.",
+   "start": 485.529,
+   "end": 488.422,
+   "chapter": "c05",
+   "para": 53,
+   "speed": 0.92,
+   "file": "bf1e09f3d5ea.wav"
+  },
+  {
+   "text": "They had made the Japanese fleet believe it was facing far more than it was.",
+   "start": 488.722,
+   "end": 493.021,
+   "chapter": "c05",
+   "para": 53,
+   "speed": 0.92,
+   "file": "392c91416486.wav"
+  },
+  {
+   "text": "Taffy Three paid for it.",
+   "start": 493.621,
+   "end": 495.375,
+   "chapter": "c05",
+   "para": 54,
+   "speed": 0.92,
+   "file": "a349b31ff5e8.wav"
+  },
+  {
+   "text": "The escort carriers Gambier Bay and Saint Lo were sunk.",
+   "start": 495.675,
+   "end": 498.999,
+   "chapter": "c05",
+   "para": 54,
+   "speed": 0.92,
+   "file": "31109445b47f.wav"
+  },
+  {
+   "text": "The Saint Lo was hit by a kamikaze.",
+   "start": 499.299,
+   "end": 501.61,
+   "chapter": "c05",
+   "para": 54,
+   "speed": 0.92,
+   "file": "9b1d769cd55d.wav"
+  },
+  {
+   "text": "So were the destroyers Johnston and Hoel.",
+   "start": 501.91,
+   "end": 504.415,
+   "chapter": "c05",
+   "para": 54,
+   "speed": 0.92,
+   "file": "9252b436878e.wav"
+  },
+  {
+   "text": "And the Samuel B.",
+   "start": 504.715,
+   "end": 505.945,
+   "chapter": "c05",
+   "para": 54,
+   "speed": 0.92,
+   "file": "9264ca699616.wav"
+  },
+  {
+   "text": "Roberts.",
+   "start": 506.245,
+   "end": 507.087,
+   "chapter": "c05",
+   "para": 54,
+   "speed": 0.92,
+   "file": "1d6f1f3bc06a.wav"
+  },
+  {
+   "text": "More than a thousand Americans were killed or missing.",
+   "start": 507.687,
+   "end": 510.92,
+   "chapter": "c05",
+   "para": 55,
+   "speed": 0.92,
+   "file": "52d65684ef45.wav"
+  },
+  {
+   "text": "But the Japanese fleet never reached the landing beaches at Leyte.",
+   "start": 511.22,
+   "end": 514.991,
+   "chapter": "c05",
+   "para": 55,
+   "speed": 0.92,
+   "file": "18f75d228e0b.wav"
+  },
+  {
+   "text": "For the men of the Roberts, the battle was over.",
+   "start": 515.891,
+   "end": 518.551,
+   "chapter": "c06",
+   "para": 56,
+   "speed": 0.92,
+   "file": "d0cb2c158003.wav"
+  },
+  {
+   "text": "The ordeal was not.",
+   "start": 518.851,
+   "end": 520.39,
+   "chapter": "c06",
+   "para": 56,
+   "speed": 0.92,
+   "file": "8a1ec8b32a72.wav"
+  },
+  {
+   "text": "About a hundred and twenty survivors were in the water, holding on to three rafts.",
+   "start": 520.99,
+   "end": 525.709,
+   "chapter": "c06",
+   "para": 57,
+   "speed": 0.92,
+   "file": "d724857ad16b.wav"
+  },
+  {
+   "text": "Many were burned.",
+   "start": 526.009,
+   "end": 527.173,
+   "chapter": "c06",
+   "para": 57,
+   "speed": 0.92,
+   "file": "43d1e9eb5807.wav"
+  },
+  {
+   "text": "Some were badly wounded.",
+   "start": 527.473,
+   "end": 529.005,
+   "chapter": "c06",
+   "para": 57,
+   "speed": 0.92,
+   "file": "6dc975e7cb36.wav"
+  },
+  {
+   "text": "They drifted for about fifty hours.",
+   "start": 529.605,
+   "end": 531.783,
+   "chapter": "c06",
+   "para": 58,
+   "speed": 0.92,
+   "file": "18860d275476.wav"
+  },
+  {
+   "text": "More than two days.",
+   "start": 532.083,
+   "end": 533.377,
+   "chapter": "c06",
+   "para": 58,
+   "speed": 0.92,
+   "file": "98ed1844c547.wav"
+  },
+  {
+   "text": "Under the sun by day, in the cold at night.",
+   "start": 533.677,
+   "end": 536.359,
+   "chapter": "c06",
+   "para": 58,
+   "speed": 0.92,
+   "file": "07cdf8d2381e.wav"
+  },
+  {
+   "text": "Sharks circled the rafts.",
+   "start": 536.659,
+   "end": 538.192,
+   "chapter": "c06",
+   "para": 58,
+   "speed": 0.92,
+   "file": "a1386c570f94.wav"
+  },
+  {
+   "text": "Men who had lived through the battle died in the water.",
+   "start": 538.492,
+   "end": 541.412,
+   "chapter": "c06",
+   "para": 58,
+   "speed": 0.92,
+   "file": "b6e6a970205a.wav"
+  },
+  {
+   "text": "At last, a patrol craft and a group of landing craft found them, and picked them up.",
+   "start": 542.012,
+   "end": 546.83,
+   "chapter": "c06",
+   "para": 59,
+   "speed": 0.92,
+   "file": "5e2cebe9117e.wav"
+  },
+  {
+   "text": "About ninety men of the Samuel B.",
+   "start": 547.43,
+   "end": 549.687,
+   "chapter": "c06",
+   "para": 60,
+   "speed": 0.92,
+   "file": "4dbb7dc726c3.wav"
+  },
+  {
+   "text": "Roberts were dead.",
+   "start": 549.987,
+   "end": 551.176,
+   "chapter": "c06",
+   "para": 60,
+   "speed": 0.92,
+   "file": "535ab127f16b.wav"
+  },
+  {
+   "text": "Out of a crew of about two hundred and twenty.",
+   "start": 551.476,
+   "end": 554.107,
+   "chapter": "c06",
+   "para": 60,
+   "speed": 0.92,
+   "file": "2b2143429ff8.wav"
+  },
+  {
+   "text": "Copeland survived.",
+   "start": 554.707,
+   "end": 556.084,
+   "chapter": "c06",
+   "para": 61,
+   "speed": 0.92,
+   "file": "931d4bf60623.wav"
+  },
+  {
+   "text": "After the war, he went back to the law in Tacoma.",
+   "start": 556.384,
+   "end": 559.182,
+   "chapter": "c06",
+   "para": 61,
+   "speed": 0.92,
+   "file": "4121da3d9009.wav"
+  },
+  {
+   "text": "He later told the story of his ship in a short book, The Spirit of the Sammy B.",
+   "start": 559.482,
+   "end": 564.105,
+   "chapter": "c06",
+   "para": 61,
+   "speed": 0.92,
+   "file": "54cdbf4599da.wav"
+  },
+  {
+   "text": "Copeland received the Navy Cross.",
+   "start": 564.705,
+   "end": 566.714,
+   "chapter": "c06",
+   "para": 62,
+   "speed": 0.92,
+   "file": "b0301c3c1baf.wav"
+  },
+  {
+   "text": "Taffy Three received the Presidential Unit Citation, for extraordinary heroism against powerful units of the Japanese fleet.",
+   "start": 567.014,
+   "end": 575.507,
+   "chapter": "c06",
+   "para": 62,
+   "speed": 0.92,
+   "file": "58fc134f9890.wav"
+  },
+  {
+   "text": "And the Navy kept her name alive.",
+   "start": 576.107,
+   "end": 578.127,
+   "chapter": "c06",
+   "para": 63,
+   "speed": 0.92,
+   "file": "c09345af61e2.wav"
+  },
+  {
+   "text": "A destroyer was named Samuel B.",
+   "start": 578.427,
+   "end": 580.504,
+   "chapter": "c06",
+   "para": 63,
+   "speed": 0.92,
+   "file": "8f19f4a47370.wav"
+  },
+  {
+   "text": "Roberts after the war.",
+   "start": 580.804,
+   "end": 582.382,
+   "chapter": "c06",
+   "para": 63,
+   "speed": 0.92,
+   "file": "4858171cba47.wav"
+  },
+  {
+   "text": "Then a frigate.",
+   "start": 582.682,
+   "end": 583.769,
+   "chapter": "c06",
+   "para": 63,
+   "speed": 0.92,
+   "file": "99ac3cd043ca.wav"
+  },
+  {
+   "text": "In nineteen eighty-eight, that frigate struck a mine in the Persian Gulf.",
+   "start": 584.069,
+   "end": 588.136,
+   "chapter": "c06",
+   "para": 63,
+   "speed": 0.92,
+   "file": "b2730e5e1b9d.wav"
+  },
+  {
+   "text": "Her crew fought the flooding and the fires, and saved her.",
+   "start": 588.436,
+   "end": 591.573,
+   "chapter": "c06",
+   "para": 63,
+   "speed": 0.92,
+   "file": "215d1151b68e.wav"
+  },
+  {
+   "text": "No one was killed.",
+   "start": 591.873,
+   "end": 593.185,
+   "chapter": "c06",
+   "para": 63,
+   "speed": 0.92,
+   "file": "e20b04335905.wav"
+  },
+  {
+   "text": "Four days later, the Navy struck back at Iranian oil platforms and warships, in an operation called Praying Mantis.",
+   "start": 593.485,
+   "end": 600.936,
+   "chapter": "c06",
+   "para": 63,
+   "speed": 0.92,
+   "file": "d987b5ff6ba6.wav"
+  },
+  {
+   "text": "But the first Samuel B.",
+   "start": 601.836,
+   "end": 603.51,
+   "chapter": "c07",
+   "para": 64,
+   "speed": 0.92,
+   "file": "9246c5e62b3e.wav"
+  },
+  {
+   "text": "Roberts was gone.",
+   "start": 603.81,
+   "end": 605.139,
+   "chapter": "c07",
+   "para": 64,
+   "speed": 0.92,
+   "file": "ac061b7481fe.wav"
+  },
+  {
+   "text": "Somewhere off Samar, in some of the deepest water on Earth.",
+   "start": 605.439,
+   "end": 609.107,
+   "chapter": "c07",
+   "para": 64,
+   "speed": 0.92,
+   "file": "919bff658e15.wav"
+  },
+  {
+   "text": "For almost seventy-eight years, nobody knew exactly where.",
+   "start": 609.707,
+   "end": 613.215,
+   "chapter": "c07",
+   "para": 65,
+   "speed": 0.92,
+   "file": "05ab465318ab.wav"
+  },
+  {
+   "text": "The problem was the depth.",
+   "start": 613.815,
+   "end": 615.502,
+   "chapter": "c07",
+   "para": 66,
+   "speed": 0.92,
+   "file": "3f9a1a79dca2.wav"
+  },
+  {
+   "text": "Off the coast of Samar, the sea floor drops away to depths that most ships, and most submarines, could never reach.",
+   "start": 615.802,
+   "end": 622.778,
+   "chapter": "c07",
+   "para": 66,
+   "speed": 0.92,
+   "file": "7accc8fcc5fd.wav"
+  },
+  {
+   "text": "At that depth, the water presses down with roughly seven hundred times the pressure at the surface.",
+   "start": 623.378,
+   "end": 628.918,
+   "chapter": "c07",
+   "para": 67,
+   "speed": 0.92,
+   "file": "434cea146e1d.wav"
+  },
+  {
+   "text": "More than ten thousand pounds on every square inch.",
+   "start": 629.218,
+   "end": 632.009,
+   "chapter": "c07",
+   "para": 67,
+   "speed": 0.92,
+   "file": "73c1a2dbea49.wav"
+  },
+  {
+   "text": "It is completely dark, and close to freezing.",
+   "start": 632.309,
+   "end": 635.073,
+   "chapter": "c07",
+   "para": 67,
+   "speed": 0.92,
+   "file": "9635ab3b3331.wav"
+  },
+  {
+   "text": "For most of history, a wreck down there was simply out of reach.",
+   "start": 635.673,
+   "end": 639.234,
+   "chapter": "c07",
+   "para": 68,
+   "speed": 0.92,
+   "file": "90ac11a499c6.wav"
+  },
+  {
+   "text": "Divers could never go there.",
+   "start": 639.534,
+   "end": 641.27,
+   "chapter": "c07",
+   "para": 68,
+   "speed": 0.92,
+   "file": "2604bd60ee73.wav"
+  },
+  {
+   "text": "Most research submarines could not either.",
+   "start": 641.57,
+   "end": 644.108,
+   "chapter": "c07",
+   "para": 68,
+   "speed": 0.92,
+   "file": "2582cdc3f62d.wav"
+  },
+  {
+   "text": "That changed with one man.",
+   "start": 644.708,
+   "end": 646.53,
+   "chapter": "c07",
+   "para": 69,
+   "speed": 0.92,
+   "file": "c8c9662c77d3.wav"
+  },
+  {
+   "text": "Victor Vescovo, an American explorer, with a submersible built to dive to the deepest parts of any ocean.",
+   "start": 646.83,
+   "end": 653.655,
+   "chapter": "c07",
+   "para": 69,
+   "speed": 0.92,
+   "file": "5a82ed6413e6.wav"
+  },
+  {
+   "text": "It was called the Limiting Factor.",
+   "start": 653.955,
+   "end": 655.73,
+   "chapter": "c07",
+   "para": 69,
+   "speed": 0.92,
+   "file": "6150ac0b847f.wav"
+  },
+  {
+   "text": "In March, twenty twenty-one, Vescovo took it down to the wreck of the Johnston, another ship from that morning.",
+   "start": 656.33,
+   "end": 662.88,
+   "chapter": "c07",
+   "para": 70,
+   "speed": 0.92,
+   "file": "53841db89b4a.wav"
+  },
+  {
+   "text": "Two years earlier, an unmanned search from the research ship Petrel had seen wreckage from her, about twenty thousand feet down.",
+   "start": 663.18,
+   "end": 670.513,
+   "chapter": "c07",
+   "para": 70,
+   "speed": 0.92,
+   "file": "5c443ec0834d.wav"
+  },
+  {
+   "text": "Vescovo went deeper, and found the rest of her.",
+   "start": 670.813,
+   "end": 673.65,
+   "chapter": "c07",
+   "para": 70,
+   "speed": 0.92,
+   "file": "c200aee11453.wav"
+  },
+  {
+   "text": "About twenty-one thousand feet down.",
+   "start": 673.95,
+   "end": 676.122,
+   "chapter": "c07",
+   "para": 70,
+   "speed": 0.92,
+   "file": "5d4d39f93296.wav"
+  },
+  {
+   "text": "The deepest shipwreck ever found.",
+   "start": 676.422,
+   "end": 678.464,
+   "chapter": "c07",
+   "para": 70,
+   "speed": 0.92,
+   "file": "6324142a1395.wav"
+  },
+  {
+   "text": "It was a record.",
+   "start": 679.064,
+   "end": 680.217,
+   "chapter": "c07",
+   "para": 71,
+   "speed": 0.92,
+   "file": "b6e14926c7da.wav"
+  },
+  {
+   "text": "It lasted about fifteen months.",
+   "start": 680.517,
+   "end": 682.552,
+   "chapter": "c07",
+   "para": 71,
+   "speed": 0.92,
+   "file": "67e1b400798d.wav"
+  },
+  {
+   "text": "In June, twenty twenty-two, Vescovo came back to Samar, with the expedition company EYOS, to look for the Roberts.",
+   "start": 683.152,
+   "end": 690.843,
+   "chapter": "c07",
+   "para": 72,
+   "speed": 0.92,
+   "file": "2a0bf9e05cdf.wav"
+  },
+  {
+   "text": "The position in the old records was not good enough.",
+   "start": 691.443,
+   "end": 694.446,
+   "chapter": "c07",
+   "para": 73,
+   "speed": 0.92,
+   "file": "93965e51b9cc.wav"
+  },
+  {
+   "text": "A naval historian on the team, Parks Stephenson, went back through the reports, and worked out a better place to search.",
+   "start": 694.746,
+   "end": 701.886,
+   "chapter": "c07",
+   "para": 73,
+   "speed": 0.92,
+   "file": "a8931788c4fb.wav"
+  },
+  {
+   "text": "A sonar specialist, Jeremie Morizet, searched the slope.",
+   "start": 702.486,
+   "end": 706.024,
+   "chapter": "c07",
+   "para": 74,
+   "speed": 0.92,
+   "file": "0ccae1c329e3.wav"
+  },
+  {
+   "text": "Sonar found a target.",
+   "start": 706.324,
+   "end": 707.908,
+   "chapter": "c07",
+   "para": 74,
+   "speed": 0.92,
+   "file": "584ebd50dfc9.wav"
+  },
+  {
+   "text": "Then the submersible went down to look.",
+   "start": 708.208,
+   "end": 710.543,
+   "chapter": "c07",
+   "para": 74,
+   "speed": 0.92,
+   "file": "a56c2f4d771d.wav"
+  },
+  {
+   "text": "Over eight days, the team made six dives.",
+   "start": 711.143,
+   "end": 713.755,
+   "chapter": "c07",
+   "para": 75,
+   "speed": 0.92,
+   "file": "527d24f61e6c.wav"
+  },
+  {
+   "text": "Each one was a trip of about four miles down, and four miles back up.",
+   "start": 714.055,
+   "end": 718.422,
+   "chapter": "c07",
+   "para": 75,
+   "speed": 0.92,
+   "file": "d9fe0a25c703.wav"
+  },
+  {
+   "text": "On the twenty-second of June, Vescovo piloted the submersible down to her himself.",
+   "start": 718.722,
+   "end": 724.02,
+   "chapter": "c07",
+   "para": 75,
+   "speed": 0.92,
+   "file": "c4133e86c7ea.wav"
+  },
+  {
+   "text": "The Navy confirmed it a few days later.",
+   "start": 724.62,
+   "end": 726.972,
+   "chapter": "c07",
+   "para": 76,
+   "speed": 0.92,
+   "file": "f621a0f1917e.wav"
+  },
+  {
+   "text": "This was the Samuel B.",
+   "start": 727.272,
+   "end": 728.894,
+   "chapter": "c07",
+   "para": 76,
+   "speed": 0.92,
+   "file": "86be04ed846a.wav"
+  },
+  {
+   "text": "Roberts.",
+   "start": 729.194,
+   "end": 730.035,
+   "chapter": "c07",
+   "para": 76,
+   "speed": 0.92,
+   "file": "1d6f1f3bc06a.wav"
+  },
+  {
+   "text": "The expedition handed its images and data to the Navy's historians, and kept the exact position private.",
+   "start": 730.335,
+   "end": 736.647,
+   "chapter": "c07",
+   "para": 76,
+   "speed": 0.92,
+   "file": "5dcae4115832.wav"
+  },
+  {
+   "text": "She lies almost six thousand nine hundred metres down.",
+   "start": 737.247,
+   "end": 740.456,
+   "chapter": "c07",
+   "para": 77,
+   "speed": 0.92,
+   "file": "357b4fb0ed65.wav"
+  },
+  {
+   "text": "About four miles.",
+   "start": 740.756,
+   "end": 742.041,
+   "chapter": "c07",
+   "para": 77,
+   "speed": 0.92,
+   "file": "9b4d2d5c8793.wav"
+  },
+  {
+   "text": "Deeper than the Johnston, by more than four hundred metres.",
+   "start": 742.341,
+   "end": 745.843,
+   "chapter": "c07",
+   "para": 77,
+   "speed": 0.92,
+   "file": "ff4fa94c3a03.wav"
+  },
+  {
+   "text": "The Titanic lies about twelve thousand five hundred feet down.",
+   "start": 746.443,
+   "end": 750.455,
+   "chapter": "c07",
+   "para": 78,
+   "speed": 0.92,
+   "file": "b981e3830d81.wav"
+  },
+  {
+   "text": "The Roberts is nearly twice as deep.",
+   "start": 750.755,
+   "end": 753.132,
+   "chapter": "c07",
+   "para": 78,
+   "speed": 0.92,
+   "file": "88c3a2aad36b.wav"
+  },
+  {
+   "text": "Guinness World Records lists her as the deepest shipwreck found to date.",
+   "start": 753.732,
+   "end": 757.983,
+   "chapter": "c07",
+   "para": 79,
+   "speed": 0.92,
+   "file": "598f5994bf2c.wav"
+  },
+  {
+   "text": "The dives to reach her were the deepest ever made to a shipwreck by a crewed vessel.",
+   "start": 758.283,
+   "end": 763.14,
+   "chapter": "c07",
+   "para": 79,
+   "speed": 0.92,
+   "file": "b6059b049ac3.wav"
+  },
+  {
+   "text": "In June twenty twenty-two, she became the deepest shipwreck ever located.",
+   "start": 763.44,
+   "end": 768.001,
+   "chapter": "c07",
+   "para": 79,
+   "speed": 0.92,
+   "file": "a993b169fee1.wav"
+  },
+  {
+   "text": "And she still holds the record.",
+   "start": 768.301,
+   "end": 770.001,
+   "chapter": "c07",
+   "para": 79,
+   "speed": 0.92,
+   "file": "c7d4a8134888.wav"
+  },
+  {
+   "text": "So what did the cameras see, down there in the dark?",
+   "start": 770.901,
+   "end": 773.923,
+   "chapter": "c08",
+   "para": 80,
+   "speed": 0.8522,
+   "file": "5e7ec1b8c64b.wav"
+  },
+  {
+   "text": "The Roberts lies in two pieces, close together, on the slope.",
+   "start": 774.523,
+   "end": 778.365,
+   "chapter": "c08",
+   "para": 81,
+   "speed": 0.92,
+   "file": "02a220e1c7cc.wav"
+  },
+  {
+   "text": "Her stern has broken away from the rest of the hull.",
+   "start": 778.965,
+   "end": 781.731,
+   "chapter": "c08",
+   "para": 82,
+   "speed": 0.92,
+   "file": "d9da25b46186.wav"
+  },
+  {
+   "text": "Her triple torpedo launcher is still on deck.",
+   "start": 782.331,
+   "end": 785.05,
+   "chapter": "c08",
+   "para": 83,
+   "speed": 0.92,
+   "file": "bcfd22976461.wav"
+  },
+  {
+   "text": "Its torpedoes were fired that October morning, at the Chokai.",
+   "start": 785.35,
+   "end": 789.12,
+   "chapter": "c08",
+   "para": 83,
+   "speed": 0.92,
+   "file": "249b3e26c1dd.wav"
+  },
+  {
+   "text": "One of her gun mounts is there too, with its breech broken.",
+   "start": 789.72,
+   "end": 793.109,
+   "chapter": "c08",
+   "para": 84,
+   "speed": 0.92,
+   "file": "6fbb28aea70c.wav"
+  },
+  {
+   "text": "And in her hull, the team saw the damage from the battleship's shells.",
+   "start": 793.709,
+   "end": 797.545,
+   "chapter": "c08",
+   "para": 85,
+   "speed": 0.92,
+   "file": "dcc5e079f50b.wav"
+  },
+  {
+   "text": "The wound that sank her, still open, after almost eighty years.",
+   "start": 797.845,
+   "end": 801.671,
+   "chapter": "c08",
+   "para": 85,
+   "speed": 0.92,
+   "file": "1b0382eb6bca.wav"
+  },
+  {
+   "text": "So that is what is down there.",
+   "start": 802.271,
+   "end": 804.121,
+   "chapter": "c08",
+   "para": 86,
+   "speed": 0.92,
+   "file": "36e191480d4d.wav"
+  },
+  {
+   "text": "A ship that was never meant to fight a battleship, lying where the battle left her.",
+   "start": 804.421,
+   "end": 808.886,
+   "chapter": "c08",
+   "para": 86,
+   "speed": 0.92,
+   "file": "a9f4570d5084.wav"
+  },
+  {
+   "text": "Three hundred feet of steel, built in Houston in a few months.",
+   "start": 809.486,
+   "end": 813.204,
+   "chapter": "c08",
+   "para": 87,
+   "speed": 0.92,
+   "file": "b2710113c64b.wav"
+  },
+  {
+   "text": "Two small guns, and three torpedoes.",
+   "start": 813.504,
+   "end": 815.904,
+   "chapter": "c08",
+   "para": 87,
+   "speed": 0.92,
+   "file": "9af6d5bd02a1.wav"
+  },
+  {
+   "text": "Sent against the largest battleship of the war, and a fleet of cruisers.",
+   "start": 816.204,
+   "end": 820.563,
+   "chapter": "c08",
+   "para": 87,
+   "speed": 0.92,
+   "file": "e637d4d7421c.wav"
+  },
+  {
+   "text": "And for almost eighty years, nobody could reach her.",
+   "start": 820.863,
+   "end": 823.839,
+   "chapter": "c08",
+   "para": 87,
+   "speed": 0.92,
+   "file": "39be8a16ab23.wav"
+  },
+  {
+   "text": "The Navy's director of naval history, Samuel Cox, put it plainly.",
+   "start": 824.439,
+   "end": 828.725,
+   "chapter": "c08",
+   "para": 88,
+   "speed": 0.92,
+   "file": "3c6b912e68bc.wav"
+  },
+  {
+   "text": "The site of the wreck marks the location of a hallowed war grave.",
+   "start": 829.025,
+   "end": 832.979,
+   "chapter": "c08",
+   "para": 88,
+   "speed": 0.92,
+   "file": "9b95c18d942a.wav"
+  },
+  {
+   "text": "Under American law, no one may disturb it without permission.",
+   "start": 833.279,
+   "end": 837.04,
+   "chapter": "c08",
+   "para": 88,
+   "speed": 0.92,
+   "file": "3584eae6472d.wav"
+  },
+  {
+   "text": "The penalty can reach a hundred thousand dollars a day.",
+   "start": 837.34,
+   "end": 840.498,
+   "chapter": "c08",
+   "para": 88,
+   "speed": 0.92,
+   "file": "ab9f767636c1.wav"
+  },
+  {
+   "text": "The cameras came, and went.",
+   "start": 841.098,
+   "end": 842.709,
+   "chapter": "c08",
+   "para": 89,
+   "speed": 0.92,
+   "file": "a93a24269536.wav"
+  },
+  {
+   "text": "The Roberts stays where she is, with the men who never left her.",
+   "start": 843.009,
+   "end": 846.547,
+   "chapter": "c08",
+   "para": 89,
+   "speed": 0.92,
+   "file": "babc22de4247.wav"
+  },
+  {
+   "text": "And she may not be alone down there.",
+   "start": 847.147,
+   "end": 848.942,
+   "chapter": "c08",
+   "para": 90,
+   "speed": 0.92,
+   "file": "c676f5ce66f7.wav"
+  },
+  {
+   "text": "The Gambier Bay, sunk that same morning, has never been found.",
+   "start": 849.242,
+   "end": 853.084,
+   "chapter": "c08",
+   "para": 90,
+   "speed": 0.92,
+   "file": "dc35f4a33f18.wav"
+  },
+  {
+   "text": "Two dives below seven thousand metres failed to reach her.",
+   "start": 853.384,
+   "end": 857.039,
+   "chapter": "c08",
+   "para": 90,
+   "speed": 0.92,
+   "file": "99fe7d563284.wav"
+  },
+  {
+   "text": "If she is ever found, she may be deeper still.",
+   "start": 857.339,
+   "end": 859.969,
+   "chapter": "c08",
+   "para": 90,
+   "speed": 0.92,
+   "file": "7445d378b72d.wav"
+  },
+  {
+   "text": "So here is the question.",
+   "start": 860.569,
+   "end": 862.158,
+   "chapter": "c08",
+   "para": 91,
+   "speed": 0.92,
+   "file": "8842cbc824e8.wav"
+  },
+  {
+   "text": "Should the search go on, to find the last ships of Taffy Three?",
+   "start": 862.458,
+   "end": 866.099,
+   "chapter": "c08",
+   "para": 91,
+   "speed": 0.8522,
+   "file": "a3fd4b0da8c7.wav"
+  },
+  {
+   "text": "Or should wrecks this deep be left in the dark, with the men who went down with them?",
+   "start": 866.399,
+   "end": 871.133,
+   "chapter": "c08",
+   "para": 91,
+   "speed": 0.8522,
+   "file": "d0f549d35fa0.wav"
+  },
+  {
+   "text": "Tell us in the comments.",
+   "start": 871.733,
+   "end": 873.153,
+   "chapter": "c08",
+   "para": 92,
+   "speed": 0.92,
+   "file": "a019084a62e6.wav"
+  },
+  {
+   "text": "And if someone in your family served off Samar, we would like to hear their story.",
+   "start": 873.453,
+   "end": 877.77,
+   "chapter": "c08",
+   "para": 92,
+   "speed": 0.92,
+   "file": "adc16b8e594d.wav"
+  }
+ ]
+}

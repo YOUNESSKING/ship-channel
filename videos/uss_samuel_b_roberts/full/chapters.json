@@ -1,0 +1,78 @@
+{
+ "duration": 878.77,
+ "fps": 30,
+ "chapters": [
+  {
+   "key": "c01",
+   "title": "Hook",
+   "start": 0.0,
+   "voice_end": 52.849,
+   "words": 141,
+   "end": 53.299,
+   "duration": 53.299
+  },
+  {
+   "key": "c02",
+   "title": "Taffy Three",
+   "start": 53.299,
+   "voice_end": 160.408,
+   "words": 265,
+   "end": 160.858,
+   "duration": 107.559
+  },
+  {
+   "key": "c03",
+   "title": "The Little Ship",
+   "start": 160.858,
+   "voice_end": 257.22,
+   "words": 244,
+   "end": 257.67,
+   "duration": 96.812
+  },
+  {
+   "key": "c04",
+   "title": "The Torpedo Run",
+   "start": 257.67,
+   "voice_end": 340.408,
+   "words": 220,
+   "end": 340.858,
+   "duration": 83.188
+  },
+  {
+   "key": "c05",
+   "title": "The Duel",
+   "start": 340.858,
+   "voice_end": 514.991,
+   "words": 461,
+   "end": 515.441,
+   "duration": 174.583
+  },
+  {
+   "key": "c06",
+   "title": "Fifty Hours",
+   "start": 515.441,
+   "voice_end": 600.936,
+   "words": 227,
+   "end": 601.386,
+   "duration": 85.945
+  },
+  {
+   "key": "c07",
+   "title": "The Search",
+   "start": 601.386,
+   "voice_end": 770.001,
+   "words": 429,
+   "end": 770.451,
+   "duration": 169.065
+  },
+  {
+   "key": "c08",
+   "title": "Found",
+   "start": 770.451,
+   "voice_end": 877.77,
+   "words": 308,
+   "end": 878.77,
+   "duration": 108.319
+  }
+ ]
+}

@@ -1,0 +1,446 @@
+[
+ {
+  "i": 14,
+  "start": 55.334,
+  "text": "The east coast of Samar, an island in the central Philippines, on the twenty-fifth of October, nineteen forty-four.",
+  "heard": "the east coast of Samar, an island in the central Philippines, on the 25th October 1944.",
+  "diffs": [
+   [
+    "fifth of",
+    "five"
+   ]
+  ]
+ },
+ {
+  "i": 20,
+  "start": 76.468,
+  "text": "Their job was to support the troops who had landed on Leyte, to the south.",
+  "heard": "Their job was to support the troops who had landed on Lady to the south.",
+  "diffs": [
+   [
+    "leyte",
+    "lady"
+   ]
+  ]
+ },
+ {
+  "i": 23,
+  "start": 87.971,
+  "text": "Then the shapes of battleships.",
+  "heard": "than the shapes of battleships.",
+  "diffs": [
+   [
+    "then",
+    "than"
+   ]
+  ]
+ },
+ {
+  "i": 24,
+  "start": 90.443,
+  "text": "It was the Japanese Center Force, under Vice Admiral Takeo Kurita.",
+  "heard": "It was the Japanese center force, under Vice Admiral Takeo Kurida.",
+  "diffs": [
+   [
+    "kurita",
+    "kurida"
+   ]
+  ]
+ },
+ {
+  "i": 25,
+  "start": 95.274,
+  "text": "Four battleships.",
+  "heard": "for battleships.",
+  "diffs": [
+   [
+    "four",
+    "for"
+   ]
+  ]
+ },
+ {
+  "i": 28,
+  "start": 101.117,
+  "text": "They had come through the San Bernardino Strait in the night.",
+  "heard": "They had come through the San Bernardino straight in the night.",
+  "diffs": [
+   [
+    "strait",
+    "straight"
+   ]
+  ]
+ },
+ {
+  "i": 40,
+  "start": 141.471,
+  "text": "Yamato's shells were more than three times as wide.",
+  "heard": "Yamado's shells were more than three times as wide.",
+  "diffs": [
+   [
+    "yamatos",
+    "yamados"
+   ]
+  ]
+ },
+ {
+  "i": 48,
+  "start": 169.454,
+  "text": "Butler class destroyer escort, built by Brown Shipbuilding, and commissioned on the twenty-eighth of April, nineteen forty-four.",
+  "heard": "Butler-class destroyer escort, built by Brown Shipbuilding, and commissioned on the 28th of April, 1944.",
+  "diffs": [
+   [
+    "eighth",
+    "eight"
+   ]
+  ]
+ },
+ {
+  "i": 49,
+  "start": 177.963,
+  "text": "Destroyer escorts were the Navy's small ships.",
+  "heard": "destroyer escorts with the Navy's small ships.",
+  "diffs": [
+   [
+    "were",
+    "with"
+   ]
+  ]
+ },
+ {
+  "i": 63,
+  "start": 232.137,
+  "text": "He was a lawyer from Tacoma, Washington, born there in nineteen ten, who had joined the Naval Reserve in the nineteen thirties.",
+  "heard": "He was a lawyer from Tacoma, Washington, born there in 1910, who had joined the Naval Reserve in the 1930s.",
+  "diffs": [
+   [
+    "thirties",
+    "thirtys"
+   ]
+  ]
+ },
+ {
+  "i": 75,
+  "start": 280.64,
+  "text": "The Johnston, the Hoel and the Heermann.",
+  "heard": "The Johnston, the Hole, and the Hearman.",
+  "diffs": [
+   [
+    "hoel",
+    "hole"
+   ],
+   [
+    "heermann",
+    "hearman"
+   ]
+  ]
+ },
+ {
+  "i": 103,
+  "start": 377.4,
+  "text": "For close to an hour, the little ship duelled with heavy cruisers.",
+  "heard": "For close to an hour, the little ship dueled with heavy cruisers.",
+  "diffs": [
+   [
+    "duelled",
+    "dueled"
+   ]
+  ]
+ },
+ {
+  "i": 108,
+  "start": 395.251,
+  "text": "They came from the battleship Kongo.",
+  "heard": "they came from the battleship Congo.",
+  "diffs": [
+   [
+    "kongo",
+    "congo"
+   ]
+  ]
+ },
+ {
+  "i": 111,
+  "start": 406.024,
+  "text": "The Roberts slowed, and stopped.",
+  "heard": "The Robert slowed and stopped.",
+  "diffs": [
+   [
+    "roberts",
+    "robert"
+   ]
+  ]
+ },
+ {
+  "i": 113,
+  "start": 413.458,
+  "text": "At one of her guns, Gunner's Mate Third Class Paul Carr kept working.",
+  "heard": "At one of her guns, Gunner's mate third-class pull car kept working.",
+  "diffs": [
+   [
+    "paul carr",
+    "pull car"
+   ]
+  ]
+ },
+ {
+  "i": 117,
+  "start": 431.043,
+  "text": "He came from Checotah, Oklahoma.",
+  "heard": "He came from Chicoda, Oklahoma.",
+  "diffs": [
+   [
+    "checotah",
+    "chicoda"
+   ]
+  ]
+ },
+ {
+  "i": 125,
+  "start": 453.653,
+  "text": "Kurita had battleships and cruisers.",
+  "heard": "Corita had battleships and cruisers.",
+  "diffs": [
+   [
+    "kurita",
+    "corita"
+   ]
+  ]
+ },
+ {
+  "i": 136,
+  "start": 495.675,
+  "text": "The escort carriers Gambier Bay and Saint Lo were sunk.",
+  "heard": "The escort carriers Gambier Bay and St. Lo was sunk.",
+  "diffs": [
+   [
+    "saint",
+    "st"
+   ],
+   [
+    "were",
+    "was"
+   ]
+  ]
+ },
+ {
+  "i": 137,
+  "start": 499.299,
+  "text": "The Saint Lo was hit by a kamikaze.",
+  "heard": "The St. Lo was hit by a kamikaze.",
+  "diffs": [
+   [
+    "saint",
+    "st"
+   ]
+  ]
+ },
+ {
+  "i": 138,
+  "start": 501.91,
+  "text": "So were the destroyers Johnston and Hoel.",
+  "heard": "So were the destroyers Johnston and Hole.",
+  "diffs": [
+   [
+    "hoel",
+    "hole"
+   ]
+  ]
+ },
+ {
+  "i": 142,
+  "start": 511.22,
+  "text": "But the Japanese fleet never reached the landing beaches at Leyte.",
+  "heard": "But the Japanese fleet never reached the landing beaches at Lady.",
+  "diffs": [
+   [
+    "leyte",
+    "lady"
+   ]
+  ]
+ },
+ {
+  "i": 145,
+  "start": 520.99,
+  "text": "About a hundred and twenty survivors were in the water, holding on to three rafts.",
+  "heard": "About 120 survivors were in the water, holding on to three rafts.",
+  "diffs": [
+   [
+    "a",
+    "one"
+   ]
+  ]
+ },
+ {
+  "i": 161,
+  "start": 567.014,
+  "text": "Taffy Three received the Presidential Unit Citation, for extraordinary heroism against powerful units of the Japanese fleet.",
+  "heard": "TAFI III received the Presidential Unit Citation for extraordinary heroism against powerful units of the Japanese fleet.",
+  "diffs": [
+   [
+    "taffy three",
+    "tafi iii"
+   ]
+  ]
+ },
+ {
+  "i": 172,
+  "start": 605.439,
+  "text": "Somewhere off Samar, in some of the deepest water on Earth.",
+  "heard": "somewhere off Samaar, in some of the deepest water on Earth.",
+  "diffs": [
+   [
+    "samar",
+    "samaar"
+   ]
+  ]
+ },
+ {
+  "i": 175,
+  "start": 615.802,
+  "text": "Off the coast of Samar, the sea floor drops away to depths that most ships, and most submarines, could never reach.",
+  "heard": "Off the coast of Samar, the sea floor drops away to depths that most ships and most submarines could never reach. The sea floor drops away to depths that most ships and most submarines could never reach.",
+  "diffs": [
+   [
+    "",
+    "the sea floor drops away to depths that most ships and most submarines could never reach"
+   ]
+  ]
+ },
+ {
+  "i": 192,
+  "start": 683.152,
+  "text": "In June, twenty twenty-two, Vescovo came back to Samar, with the expedition company EYOS, to look for the Roberts.",
+  "heard": "In June 2022, Vescovo came back to Samar with the expedition company Io's to look for the Roberts.",
+  "diffs": [
+   [
+    "eyos",
+    "ios"
+   ]
+  ]
+ },
+ {
+  "i": 194,
+  "start": 694.746,
+  "text": "A naval historian on the team, Parks Stephenson, went back through the reports, and worked out a better place to search.",
+  "heard": "A naval historian on the team, Park Steffensen, went back through the reports and worked out a better place to search.",
+  "diffs": [
+   [
+    "parks stephenson",
+    "park steffensen"
+   ]
+  ]
+ },
+ {
+  "i": 195,
+  "start": 702.486,
+  "text": "A sonar specialist, Jeremie Morizet, searched the slope.",
+  "heard": "A sonar specialist, Jeremy Morizet, searched the slope.",
+  "diffs": [
+   [
+    "jeremie",
+    "jeremy"
+   ]
+  ]
+ },
+ {
+  "i": 205,
+  "start": 737.247,
+  "text": "She lies almost six thousand nine hundred metres down.",
+  "heard": "She lies almost 6,900 meters down.",
+  "diffs": [
+   [
+    "metres",
+    "meters"
+   ]
+  ]
+ },
+ {
+  "i": 207,
+  "start": 742.341,
+  "text": "Deeper than the Johnston, by more than four hundred metres.",
+  "heard": "deeper than the Johnston by more than 400 meters.",
+  "diffs": [
+   [
+    "metres",
+    "meters"
+   ]
+  ]
+ },
+ {
+  "i": 211,
+  "start": 758.283,
+  "text": "The dives to reach her were the deepest ever made to a shipwreck by a crewed vessel.",
+  "heard": "The dives to reach her were the deepest ever made to a shipwreck by a crude vessel.",
+  "diffs": [
+   [
+    "crewed",
+    "crude"
+   ]
+  ]
+ },
+ {
+  "i": 220,
+  "start": 793.709,
+  "text": "And in her hull, the team saw the damage from the battleship's shells.",
+  "heard": "And in her hull, the team saw the damage from the battleship shells.",
+  "diffs": [
+   [
+    "battleships",
+    "battleship"
+   ]
+  ]
+ },
+ {
+  "i": 231,
+  "start": 837.34,
+  "text": "The penalty can reach a hundred thousand dollars a day.",
+  "heard": "The penalty can reach $100,000 a day.",
+  "diffs": [
+   [
+    "a",
+    "dollars one"
+   ],
+   [
+    "dollars",
+    ""
+   ]
+  ]
+ },
+ {
+  "i": 233,
+  "start": 843.009,
+  "text": "The Roberts stays where she is, with the men who never left her.",
+  "heard": "The Robert stays where she is, with the men who never left her.",
+  "diffs": [
+   [
+    "roberts",
+    "robert"
+   ]
+  ]
+ },
+ {
+  "i": 236,
+  "start": 853.384,
+  "text": "Two dives below seven thousand metres failed to reach her.",
+  "heard": "Two dives below 7,000 meters failed to reach her.",
+  "diffs": [
+   [
+    "metres",
+    "meters"
+   ]
+  ]
+ },
+ {
+  "i": 240,
+  "start": 866.399,
+  "text": "Or should wrecks this deep be left in the dark, with the men who went down with them?",
+  "heard": "Or should Rex this deep be left in the dark, with the men who went down with them?",
+  "diffs": [
+   [
+    "wrecks",
+    "rex"
+   ]
+  ]
+ }
+]
