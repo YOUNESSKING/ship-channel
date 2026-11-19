@@ -27,12 +27,20 @@ def one(url, outdir):
                 resolution_page=td(h, "Resolution:"), length=td(h, "Length:"), location=td(h, "Location:"), licence=lic, copyright_line=cr[:300])
     pre = f"dvids_{typ[:3]}_{iid}"
     if typ == "image":
-        f = os.path.join(outdir, pre + ".jpg"); b = fetch(f"https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/1503/{iid}/2000w_q95.jpg", True)
+        f = os.path.join(outdir, pre + ".jpg"); og = re.search(r'og:image" content="([^"]*)"', h).group(1); b = fetch(re.sub(r"/\d+w_q95", "/2000w_q95", og), True)
         open(f, "wb").write(b); meta["file"] = f
     else:
-        m3 = fetch(f"https://www.dvidshub.net/video/{iid}.m3u8")
-        lad = re.findall(r"RESOLUTION=(\d+)x(\d+).*?\n(https://\S+?)-hls\.m3u8", m3)
-        lad = sorted([(int(w), int(hh), u) for w, hh, u in lad if int(w) <= 1920], reverse=True)
+        lad = []
+        try:
+            m3 = fetch(f"https://www.dvidshub.net/video/{iid}.m3u8")
+            lad = re.findall(r"RESOLUTION=(\d+)x(\d+).*?\n(https://\S+?)-hls\.m3u8", m3)
+            lad = sorted([(int(w), int(hh), u) for w, hh, u in lad if int(w) <= 1920], reverse=True)
+        except Exception: pass
+        if not lad:
+            mp = re.findall(r'(https://[^"\' ]+?cloudfront\.net/video/[^"\' ]+?\.mp4)', h)
+            lad = []
+            for u in dict.fromkeys(mp):
+                m = re.search(r"-(\d+)x(\d+)-", u); lad.append((int(m.group(1)) if m else 0, int(m.group(2)) if m else 0, u[:-4]))
         w, hh, u = lad[0]; f = os.path.join(outdir, pre + ".mp4")
         subprocess.run(["curl", "-sS", "-L", "-A", UA, "-o", f, u + ".mp4"], check=True)
         meta["file"] = f; meta["w"], meta["h"] = w, hh; meta["ladder"] = [f"{a}x{b}" for a, b, _ in lad]
