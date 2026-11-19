@@ -190,6 +190,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "THE PRICE",
     "number": "1¢",
     "number_at": "@cent",

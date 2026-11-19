@@ -237,6 +237,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "TO GET HER READY",
     "number": "≈$10M",
     "number_at": "@ten",
@@ -255,6 +256,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "IN ALL",
     "number": "$30M",
     "number_at": "@thirty",
@@ -273,6 +275,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "RAISED · NAVY'S COUNT",
     "number": "≈$105,000",
     "number_at": "@one",
@@ -291,6 +294,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "START-UP BILL",
     "number": "≈$32M",
     "number_at": "@thirty",
@@ -309,6 +313,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "FOUNDATION'S FIGURE",
     "number": "$600,000+",
     "number_at": "@six",
@@ -418,6 +423,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "ON THE DONATION LIST",
     "number": "8",
     "unit": "years",

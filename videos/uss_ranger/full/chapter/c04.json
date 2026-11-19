@@ -142,6 +142,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "EMPTY",
     "number": "56,000",
     "unit": "tons",
@@ -161,6 +162,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "FULLY LOADED",
     "number": "80,000+",
     "unit": "tons",
@@ -428,6 +430,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "THE FIRST FIGHT",
     "number": "≈1",
     "unit": "hour",
@@ -459,6 +462,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "KILLED · 1 NOV 1983",
     "number": "6",
     "number_at": "@Six",

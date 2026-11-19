@@ -72,7 +72,7 @@
 | c03 | s08 | 141.89 | 3.9 | text_card | CARD + bg P:nara_6486625 | So she was not the Top Gun carrier |
 | c03 | s09 | 145.79 | 3.78 | clip_plain | P:nara_6486626 | And that was enough |
 | c03 | s10 | 149.57 | 5.47 | clip_plain | P:nara_6349608 | There is an odd twist here |
-| c03 | s11 | 155.04 | 2.83 | text_card | CARD + bg P:nara_6394646 | They called her the Top Gun |
+| c03 | s11 | 155.04 | 2.83 | text_card | CARD + bg P:nara_6410079 | They called her the Top Gun |
 | c03 | s12 | 157.86 | 5.45 | number_clip | P:nara_6382074 | The name was already part |
 | c03 | s13 | 163.31 | 2.3 | text_card | CARD + bg P:nara_6444106 | Four years before the film |
 | c03 | s14 | 165.61 | 2.41 | clip_plain | P:nara_6408684 | A year later, Hollywood came back |
@@ -114,7 +114,7 @@
 | c04 | s26 | 291.98 | 5.06 | text_card | CARD + bg F:fire_drill.mp4 | On the first of November, a fire |
 | c04 | s27 | 297.03 | 3.33 | number_clip | P:nara_6478168 | It started at about ten to ten |
 | c04 | s28 | 300.36 | 3.58 | clip_plain | P:nara_6469220 | From the machinery room |
-| c04 | s29 | 303.94 | 2.35 | text_card | CARD + bg P:nara_6697751 | Her crew fought it |
+| c04 | s29 | 303.94 | 2.35 | text_card | CARD + bg P:nara_6486045 | Her crew fought it |
 | c04 | s30 | 306.29 | 3.88 | clip_plain | P:nara_6478201 | Then it flared up again |
 | c04 | s31 | 310.17 | 3.08 | text_card | CARD + bg P:nara_6469216 | Six sailors died |
 | c04 | s32 | 313.25 | 3.82 | number_clip | P:nara_6444099 | Most of the injuries |
@@ -131,7 +131,7 @@
 | c04 | s43 | 356.3 | 1.48 | clip_plain | P:nara_6508124 | Operation Restore Hope |
 | c04 | s44 | 357.78 | 5.7 | clip_plain | P:nara_6486623 | Her planes flew reconnaissance |
 | c04 | s45 | 363.48 | 1.79 | clip_plain | P:nara_6483233 | That was her last cruise |
-| c04 | s46 | 365.27 | 4.82 | text_card | CARD + bg P:nara_6655021 | On the tenth of July |
+| c04 | s46 | 365.27 | 4.82 | text_card | CARD + bg P:dvids_ima_112224 | On the tenth of July |
 | c04 | s47 | 370.08 | 1.4 | clip_plain | P:nara_6483235 | Her crew walked off |
 | c04 | s48 | 371.48 | 2.26 | clip_plain | P:nara_6486887 | and the flight deck went quiet |
 | c05 | s01 | 373.74 | 4.65 | map_clip | M:c05_north | She was towed north to Bremerton |
@@ -174,7 +174,7 @@
 | c06 | s06 | 520.79 | 2.28 | text_card | CARD + bg P:nara_6452123 | Here, the Navy was the customer |
 | c06 | s07 | 523.07 | 5.77 | map_clip | M:c06_route | It hired a shipbreaker |
 | c06 | s08 | 528.84 | 2.17 | clip_plain | MS:m_c06_route.mp4@end | And it paid for the job |
-| c06 | s09 | 531.01 | 2.12 | text_card | CARD + bg P:nara_6483821 | So why only one cent |
+| c06 | s09 | 531.01 | 2.12 | text_card | CARD + bg P:nara_7578692 | So why only one cent |
 | c06 | s10 | 533.12 | 1.88 | clip_plain | P:dvids_ima_7012846 | Because of the steel |
 | c06 | s11 | 535.0 | 3.9 | clip_plain | P:dvids_ima_9210458 | The shipbreaker would keep everything |
 | c06 | s12 | 538.9 | 5.64 | text_card | CARD + bg P:nara_6655019 | Its price was the cost of the job |
@@ -191,7 +191,7 @@
 | c06 | s23 | 582.97 | 3.77 | clip_plain | MS:m_c06_brownsville.mp4@end | For American carriers |
 | c06 | s24 | 586.74 | 2.37 | clip_plain | P:nara_6419762 | And the Ranger was not the first |
 | c06 | s25 | 589.11 | 5.43 | number_clip | F:forrestal_air.mp4 | Her sister ship Forrestal |
-| c06 | s26 | 594.53 | 4.73 | text_card | CARD + bg F:forrestal_leaves.mp4 | Then the Saratoga |
+| c06 | s26 | 594.53 | 4.73 | text_card | CARD + bg P:dvids_ima_290724 | Then the Saratoga |
 | c06 | s27 | 599.26 | 2.53 | clip_plain | P:dvids_ima_9207837 | But the deal is not always |
 | c06 | s28 | 601.79 | 4.8 | text_card | CARD + bg P:dvids_ima_9209601 | Six months before the Ranger |
 | c06 | s29 | 606.59 | 2.03 | clip_plain | P:dvids_ima_9210504 | a carrier of the next class |
@@ -225,7 +225,7 @@
 | c08 | s03 | 715.73 | 3.82 | clip_plain | F:sparks.mp4 | Shipbreaking is slow work |
 | c08 | s04 | 719.55 | 3.96 | clip_plain | P:dvids_ima_8834183 | Shipbreaking is slow work |
 | c08 | s05 | 723.51 | 2.06 | text_card | CARD + bg P:nara_6489170 | It took just over two years |
-| c08 | s06 | 725.58 | 4.41 | text_card | CARD + bg F:sf_b.mp4 | More than fifty-six thousand tons |
+| c08 | s06 | 725.58 | 4.41 | text_card | CARD + bg P:dvids_ima_290725 | More than fifty-six thousand tons |
 | c08 | s07 | 729.99 | 4.11 | clip_plain | P:nara_7578695 | Most of the metal went |
 | c08 | s08 | 734.1 | 3.54 | text_card | CARD + bg F:sf_c.mp4 | On the morning of the first of November |
 | c08 | s09 | 737.63 | 2.88 | clip_plain | P:nara_6655021 | the last section of the Ranger came out |
@@ -240,7 +240,7 @@
 | c08 | s18 | 766.45 | 1.46 | clip_plain | P:nara_7578690 | But not all of her |
 | c08 | s19 | 767.91 | 4.84 | map_clip | M:c08_lexington | More than five tons |
 | c08 | s20 | 772.75 | 2.38 | clip_plain | P:dvids_ima_9228754 | in Corpus Christi, Texas |
-| c08 | s21 | 775.13 | 4.82 | text_card | CARD + bg P:nara_6444115 | Gauges, windows and controls |
+| c08 | s21 | 775.13 | 4.82 | text_card | CARD + bg P:nara_6486045 | Gauges, windows and controls |
 | c08 | s22 | 779.95 | 2.97 | clip_plain | P:nara_6475225 | went to her veterans |
 | c08 | s23 | 782.92 | 3.75 | clip_plain | P:nara_6466179 | Some of her brass and copper |
 | c08 | s24 | 786.67 | 2.6 | clip_plain | P:nara_6478178 | And pieces of her flight deck |

@@ -46,6 +46,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "THE NAVY EXPECTED",
     "number": "4-5",
     "unit": "months",
@@ -156,6 +157,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "UNDER TOW",
     "number": "≈16,000",
     "unit": "miles",
@@ -267,6 +269,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "UNDER TOW",
     "number": "129",
     "unit": "days",

@@ -216,6 +216,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "THE BID",
     "number": "$0.01",
     "number_at": "@nothing",
@@ -387,6 +388,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "SARATOGA · 2014",
     "number": "$0.01",
     "number_at": "@cent",
@@ -448,6 +450,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "CONSTELLATION · 2014",
     "number": "$3,000,000",
     "number_at": "@three",
@@ -490,6 +493,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "KITTY HAWK · JOHN F. KENNEDY",
     "number": "1¢ EACH",
     "number_at": "@each",

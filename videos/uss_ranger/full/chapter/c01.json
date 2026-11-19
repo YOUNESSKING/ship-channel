@@ -45,6 +45,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "THE PRICE",
     "number": "$0.01",
     "number_at": "@cent",

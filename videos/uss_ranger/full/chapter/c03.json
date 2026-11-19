@@ -196,6 +196,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "BEFORE THE FILM",
     "number": "4",
     "unit": "years",

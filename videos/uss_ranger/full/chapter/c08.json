@@ -70,6 +70,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "DISMANTLING",
     "number": "2+",
     "unit": "years",
@@ -89,6 +90,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "RECYCLED · PER THE YARD",
     "number": "56,000+",
     "unit": "tons",
@@ -182,6 +184,7 @@
    "variant": "number",
    "card": true,
    "params": {
+    "dim": "lt",
     "kicker": "A MOMENT OF SILENCE",
     "number": "09:50",
     "number_at": "@nine",
