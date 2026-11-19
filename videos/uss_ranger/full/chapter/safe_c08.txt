@@ -1,0 +1,14 @@
+safe_area.js adjusted:
+  size 19->25.4: DISMANTLING
+  size 19->25.4: RECYCLED · PER THE YARD
+  size 19->25.4: 1 NOVEMBER 2017
+  size 19->25.4: 1 NOV 1983 → 1 NOV 2017
+  size 19->25.4: A MOMENT OF SILENCE
+  size 19->25.4: FROM HER MACHINERY ROOM
+  size 19->25.4: THE FORRESTAL CLASS
+  size 19->25.4: YOUR VERDICT
+  fit x0.84: THE LAST SECTION COMES OUT
+  fit x0.80: GAUGES · WINDOWS · CONTROLS
+  wrap: THE FORRESTAL CLASS
+  fit x0.98: NONE BECAME A MUSEUM
+PASS: no text breaks the size / safe-area / font rules (141.7 s checked every 0.5 s)

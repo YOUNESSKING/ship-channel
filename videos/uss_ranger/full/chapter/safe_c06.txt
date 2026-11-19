@@ -1,0 +1,22 @@
+safe_area.js adjusted:
+  size 19->25.4: NAVSEA, DECEMBER 2014
+  size 19->25.4: A SALE
+  size 19->25.4: THIS DEAL
+  size 19->25.4: THE BID
+  size 19->25.4: THE BID
+  size 19->25.4: THE NAVY
+  size 19->25.4: SHIPBREAKERS
+  size 19->25.4: FORRESTAL · 2013
+  size 19->25.4: SARATOGA · 2014
+  size 19->25.4: JUNE 2014
+  size 19->25.4: CONSTELLATION · 2014
+  size 19->25.4: KITTY HAWK · JOHN F. KENNEDY
+  fit x0.43: “NOT A SALES CONTRACT. IT IS A
+  fit x0.97: THE BUYER PAYS THE NAVY
+  fit x0.76: THE NAVY PAYS THE SHIPBREAKER
+  fit x0.64: COST OF THE JOB − VALUE OF THE
+  fit x0.44: “THE LOWEST PRICE THE NAVY COU
+  wrap: JUNE 2014
+  fit x0.98: EX-USS CONSTELLATION
+  wrap: NAVSEA, DECEMBER 2014
+PASS: no text breaks the size / safe-area / font rules (118.7 s checked every 0.5 s)

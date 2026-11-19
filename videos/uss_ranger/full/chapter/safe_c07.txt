@@ -1,0 +1,9 @@
+safe_area.js adjusted:
+  size 19->25.4: THE NAVY EXPECTED
+  size 19->25.4: THE OCEAN TUG
+  size 19->25.4: UNDER TOW
+  size 19->25.4: 12 JULY 2015
+  size 19->25.4: UNDER TOW
+  wrap: 12 JULY 2015
+  fit x0.98: BROWNSVILLE, TEXAS
+PASS: no text breaks the size / safe-area / font rules (74.3 s checked every 0.5 s)
