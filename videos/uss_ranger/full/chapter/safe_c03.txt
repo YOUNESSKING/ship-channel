@@ -1,0 +1,17 @@
+safe_area.js adjusted:
+  size 19->25.4: THE MAIN CARRIER AT SEA
+  size 19->25.4: TOP GUN, 1986
+  size 19->25.4: HER CREW’S NICKNAME
+  size 19->25.4: IN 1982
+  size 19->25.4: BEFORE THE FILM
+  size 19->25.4: STAR TREK IV, 1986
+  size 19->25.4: 1991
+  fit x0.79: NOT THE CARRIER. ONE OF THEM.
+  fit x0.88: 25 years old
+  fit x0.81: A CARRIER CALLED ENTERPRISE
+  wrap: 1991
+  fit x0.98: FLIGHT OF THE INTRUDER
+  wrap: HER CREW’S NICKNAME
+  fit x0.98: TOP GUN OF THE PACIFIC
+  wrap: STAR TREK IV, 1986
+PASS: no text breaks the size / safe-area / font rules (80.9 s checked every 0.5 s)

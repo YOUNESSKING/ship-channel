@@ -1,0 +1,20 @@
+safe_area.js adjusted:
+  size 19->25.4: 8 MARCH 2004
+  size 19->25.4: 2004
+  size 19->25.4: MUSEUM CARRIERS
+  size 19->25.4: FOUNDED 2001
+  size 19->25.4: THE NAVY’S RULE
+  size 19->25.4: TO GET HER READY
+  size 19->25.4: IN ALL
+  size 19->25.4: RAISED · NAVY’S COUNT
+  size 19->25.4: START-UP BILL
+  size 19->25.4: FOUNDATION’S FIGURE
+  size 19->25.4: NAVY SPOKESMAN, 2012
+  size 19->25.4: ON THE DONATION LIST
+  size 19->25.4: SEPTEMBER 2012
+  fit x0.59: STRUCK FROM THE NAVAL VESSEL R
+  fit x0.98: INTREPID · MIDWAY
+  fit x0.31: “NO ORGANIZATION HAS BEEN ABLE
+  fit x0.84: OFF THE LIST: TO BE SCRAPPED
+  wrap: NAVY SPOKESMAN, 2012
+PASS: no text breaks the size / safe-area / font rules (127.3 s checked every 0.5 s)

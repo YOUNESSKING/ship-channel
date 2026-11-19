@@ -1,0 +1,14 @@
+safe_area.js adjusted:
+  size 19->25.4: THE NAVY’S NAME
+  size 19->25.4: IN RESERVE
+  size 19->25.4: LAST LANDING
+  size 19->25.4: THE CONTRACT
+  size 19->25.4: THE PRICE
+  size 19->25.4: THE HEADLINES, 2014
+  size 19->25.4: THE HEADLINES, 2014
+  fit x0.48: INTERNATIONAL SHIPBREAKING · B
+  fit x0.76: NAVY CARRIER SOLD FOR A PENNY
+  fit x0.74: TOP GUN SHIP GOES FOR ONE CENT
+  wrap: THE HEADLINES, 2014
+  wrap: THE HEADLINES, 2014
+PASS: no text breaks the size / safe-area / font rules (66.5 s checked every 0.5 s)
