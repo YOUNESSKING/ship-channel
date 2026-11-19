@@ -1,0 +1,18 @@
+{
+ "name": "hampton",
+ "center": [
+  36.98,
+  -76.35
+ ],
+ "zoom": 10,
+ "origin_world_px": [
+  74035,
+  101242
+ ],
+ "size": [
+  2880,
+  1620
+ ],
+ "meters_per_px": 122.12,
+ "credit": "Terrain & bathymetry: Mapzen / AWS Terrain Tiles (open data)"
+}

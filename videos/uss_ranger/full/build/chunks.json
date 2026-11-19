@@ -1,0 +1,1953 @@
+{
+ "voice": "archive (bm_fable 0.40 + am_michael 0.40 + bm_lewis 0.20)",
+ "style_md5": "c9ce4988",
+ "speed": 0.92,
+ "question_speed": 0.8522,
+ "duration": 821.399,
+ "chunks": [
+  {
+   "text": "In December, twenty fourteen, the United States Navy let go of an aircraft carrier for one cent.",
+   "start": 0.35,
+   "end": 6.676,
+   "chapter": "c01",
+   "para": 0,
+   "speed": 0.92,
+   "file": "73ac594104fe.wav"
+  },
+  {
+   "text": "She had flown combat missions over Vietnam and in the Gulf War.",
+   "start": 7.276,
+   "end": 11.078,
+   "chapter": "c01",
+   "para": 1,
+   "speed": 0.92,
+   "file": "92d21f3e68ab.wav"
+  },
+  {
+   "text": "She had been on the big screen, in Top Gun, and in Star Trek.",
+   "start": 11.378,
+   "end": 14.945,
+   "chapter": "c01",
+   "para": 1,
+   "speed": 0.92,
+   "file": "24a437a7d660.wav"
+  },
+  {
+   "text": "The headlines said she was sold for one cent.",
+   "start": 15.245,
+   "end": 17.901,
+   "chapter": "c01",
+   "para": 1,
+   "speed": 0.92,
+   "file": "0bdc5ee34d45.wav"
+  },
+  {
+   "text": "A single penny, for a warship more than a thousand feet long, that had served for nearly thirty-six years.",
+   "start": 18.501,
+   "end": 24.861,
+   "chapter": "c01",
+   "para": 2,
+   "speed": 0.92,
+   "file": "52f40700d37d.wav"
+  },
+  {
+   "text": "This is the USS Ranger.",
+   "start": 25.461,
+   "end": 27.532,
+   "chapter": "c01",
+   "para": 3,
+   "speed": 0.92,
+   "file": "a5ffdc2977a7.wav"
+  },
+  {
+   "text": "And the strangest part of the deal was not the price.",
+   "start": 28.132,
+   "end": 31.219,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "f46334ca546d.wav"
+  },
+  {
+   "text": "It was who paid whom.",
+   "start": 31.519,
+   "end": 33.081,
+   "chapter": "c01",
+   "para": 4,
+   "speed": 0.92,
+   "file": "981b24eb2c4c.wav"
+  },
+  {
+   "text": "So how does a ship like this end up worth less than nothing?",
+   "start": 33.681,
+   "end": 37.274,
+   "chapter": "c01",
+   "para": 5,
+   "speed": 0.8522,
+   "file": "b69ed2933803.wav"
+  },
+  {
+   "text": "And what is left of her today?",
+   "start": 37.574,
+   "end": 39.497,
+   "chapter": "c01",
+   "para": 5,
+   "speed": 0.8522,
+   "file": "dc1f914ddc77.wav"
+  },
+  {
+   "text": "Start with the place.",
+   "start": 40.397,
+   "end": 41.681,
+   "chapter": "c02",
+   "para": 6,
+   "speed": 0.92,
+   "file": "d3c48cdf0b78.wav"
+  },
+  {
+   "text": "Bremerton, Washington, on Puget Sound, across the water from Seattle.",
+   "start": 41.981,
+   "end": 46.67,
+   "chapter": "c02",
+   "para": 6,
+   "speed": 0.92,
+   "file": "8b46a5aceb28.wav"
+  },
+  {
+   "text": "Next to the naval shipyard lies a quiet row of warships nobody uses any more.",
+   "start": 47.27,
+   "end": 52.579,
+   "chapter": "c02",
+   "para": 7,
+   "speed": 0.92,
+   "file": "0d6801a69e2c.wav"
+  },
+  {
+   "text": "The Navy calls them inactive ships.",
+   "start": 52.879,
+   "end": 54.977,
+   "chapter": "c02",
+   "para": 7,
+   "speed": 0.92,
+   "file": "8e8869677aa7.wav"
+  },
+  {
+   "text": "Sailors call it the mothball fleet.",
+   "start": 55.277,
+   "end": 57.424,
+   "chapter": "c02",
+   "para": 7,
+   "speed": 0.92,
+   "file": "3bff6343da5a.wav"
+  },
+  {
+   "text": "Old warships wait there, rusting slowly, while the Navy decides what to do with them.",
+   "start": 58.024,
+   "end": 63.076,
+   "chapter": "c02",
+   "para": 8,
+   "speed": 0.92,
+   "file": "df897d3de6f9.wav"
+  },
+  {
+   "text": "For twenty years, the Ranger sat there.",
+   "start": 63.676,
+   "end": 66.059,
+   "chapter": "c02",
+   "para": 9,
+   "speed": 0.92,
+   "file": "b9f2b5340c28.wav"
+  },
+  {
+   "text": "Grey, silent, and tied to a pier.",
+   "start": 66.359,
+   "end": 68.572,
+   "chapter": "c02",
+   "para": 9,
+   "speed": 0.92,
+   "file": "0225f29023cd.wav"
+  },
+  {
+   "text": "Her catapults were cold.",
+   "start": 68.872,
+   "end": 70.493,
+   "chapter": "c02",
+   "para": 9,
+   "speed": 0.92,
+   "file": "e56773147dec.wav"
+  },
+  {
+   "text": "Her hangar deck was empty.",
+   "start": 70.793,
+   "end": 72.549,
+   "chapter": "c02",
+   "para": 9,
+   "speed": 0.92,
+   "file": "42a1591ba5f5.wav"
+  },
+  {
+   "text": "No jet had landed on her since nineteen ninety-three.",
+   "start": 72.849,
+   "end": 76.141,
+   "chapter": "c02",
+   "para": 9,
+   "speed": 0.92,
+   "file": "b772ec0fda3a.wav"
+  },
+  {
+   "text": "On the twenty-second of December, twenty fourteen, the Navy announced her future.",
+   "start": 76.742,
+   "end": 81.489,
+   "chapter": "c02",
+   "para": 10,
+   "speed": 0.92,
+   "file": "ac7f7a2ac3a7.wav"
+  },
+  {
+   "text": "A contract, to a company called International Shipbreaking, in Brownsville, Texas.",
+   "start": 81.789,
+   "end": 87.068,
+   "chapter": "c02",
+   "para": 10,
+   "speed": 0.92,
+   "file": "a6428aca28d5.wav"
+  },
+  {
+   "text": "The job was to tow her away, and take her apart.",
+   "start": 87.668,
+   "end": 90.749,
+   "chapter": "c02",
+   "para": 11,
+   "speed": 0.92,
+   "file": "1b9c28c673f8.wav"
+  },
+  {
+   "text": "The price was one cent.",
+   "start": 91.049,
+   "end": 92.651,
+   "chapter": "c02",
+   "para": 11,
+   "speed": 0.92,
+   "file": "dfd88eebcab9.wav"
+  },
+  {
+   "text": "The story spread fast.",
+   "start": 93.251,
+   "end": 94.861,
+   "chapter": "c02",
+   "para": 12,
+   "speed": 0.92,
+   "file": "ea7acda5689d.wav"
+  },
+  {
+   "text": "Navy carrier sold for a penny.",
+   "start": 95.161,
+   "end": 97.157,
+   "chapter": "c02",
+   "para": 12,
+   "speed": 0.92,
+   "file": "49030c36aad8.wav"
+  },
+  {
+   "text": "Top Gun ship goes for one cent.",
+   "start": 97.457,
+   "end": 99.536,
+   "chapter": "c02",
+   "para": 12,
+   "speed": 0.92,
+   "file": "f990ddf7139e.wav"
+  },
+  {
+   "text": "It sounded like a joke.",
+   "start": 100.136,
+   "end": 101.646,
+   "chapter": "c02",
+   "para": 13,
+   "speed": 0.92,
+   "file": "f0c883386433.wav"
+  },
+  {
+   "text": "A carrier that cost the country a fortune, given away for the smallest coin it makes.",
+   "start": 101.946,
+   "end": 106.904,
+   "chapter": "c02",
+   "para": 13,
+   "speed": 0.92,
+   "file": "a70ad834efd6.wav"
+  },
+  {
+   "text": "But nearly every part of that headline hides a surprise.",
+   "start": 107.504,
+   "end": 110.697,
+   "chapter": "c02",
+   "para": 14,
+   "speed": 0.92,
+   "file": "d9bf70a51bd1.wav"
+  },
+  {
+   "text": "To see what the Navy was letting go, go back to the summer of nineteen eighty-five.",
+   "start": 110.997,
+   "end": 116.066,
+   "chapter": "c02",
+   "para": 14,
+   "speed": 0.92,
+   "file": "7c77dc4c2d70.wav"
+  },
+  {
+   "text": "San Diego Bay.",
+   "start": 116.966,
+   "end": 118.21,
+   "chapter": "c03",
+   "para": 15,
+   "speed": 0.92,
+   "file": "fafecb7bcd50.wav"
+  },
+  {
+   "text": "A film crew from Paramount was making a movie about Navy fighter pilots.",
+   "start": 118.51,
+   "end": 123.504,
+   "chapter": "c03",
+   "para": 15,
+   "speed": 0.92,
+   "file": "83658e924dc1.wav"
+  },
+  {
+   "text": "It was called Top Gun.",
+   "start": 123.804,
+   "end": 125.271,
+   "chapter": "c03",
+   "para": 15,
+   "speed": 0.92,
+   "file": "0d7bced96ee7.wav"
+  },
+  {
+   "text": "The Navy lent the production its ships and its jets.",
+   "start": 125.871,
+   "end": 128.891,
+   "chapter": "c03",
+   "para": 16,
+   "speed": 0.92,
+   "file": "ddb370eae1ce.wav"
+  },
+  {
+   "text": "The scenes at sea were shot mostly on another carrier, the USS Enterprise.",
+   "start": 129.191,
+   "end": 133.903,
+   "chapter": "c03",
+   "para": 16,
+   "speed": 0.92,
+   "file": "f3ef4281b565.wav"
+  },
+  {
+   "text": "But in the first weeks of filming, the crew also worked on the Ranger, while she was tied up across the bay, at Coronado.",
+   "start": 134.503,
+   "end": 141.629,
+   "chapter": "c03",
+   "para": 17,
+   "speed": 0.92,
+   "file": "e3d39de2ec59.wav"
+  },
+  {
+   "text": "So she was not the Top Gun carrier.",
+   "start": 142.229,
+   "end": 144.323,
+   "chapter": "c03",
+   "para": 18,
+   "speed": 0.92,
+   "file": "bdd9b2b9043f.wav"
+  },
+  {
+   "text": "She was one of them.",
+   "start": 144.624,
+   "end": 145.825,
+   "chapter": "c03",
+   "para": 18,
+   "speed": 0.92,
+   "file": "99ac8ddc1c72.wav"
+  },
+  {
+   "text": "And that was enough to follow her for the rest of her life.",
+   "start": 146.125,
+   "end": 149.307,
+   "chapter": "c03",
+   "para": 18,
+   "speed": 0.92,
+   "file": "594a31777827.wav"
+  },
+  {
+   "text": "There is an odd twist here.",
+   "start": 149.907,
+   "end": 151.52,
+   "chapter": "c03",
+   "para": 19,
+   "speed": 0.92,
+   "file": "e2b58fe6f7cf.wav"
+  },
+  {
+   "text": "Her own crew had a nickname for her long before the movie.",
+   "start": 151.82,
+   "end": 155.074,
+   "chapter": "c03",
+   "para": 19,
+   "speed": 0.92,
+   "file": "46c54abb93d0.wav"
+  },
+  {
+   "text": "They called her the Top Gun of the Pacific.",
+   "start": 155.374,
+   "end": 157.902,
+   "chapter": "c03",
+   "para": 19,
+   "speed": 0.92,
+   "file": "5b3b9fc3dfe0.wav"
+  },
+  {
+   "text": "The name was already part of her story in nineteen eighty-two, at her twenty-fifth birthday.",
+   "start": 158.202,
+   "end": 163.351,
+   "chapter": "c03",
+   "para": 19,
+   "speed": 0.92,
+   "file": "a98641414f3f.wav"
+  },
+  {
+   "text": "Four years before the film.",
+   "start": 163.651,
+   "end": 165.349,
+   "chapter": "c03",
+   "para": 19,
+   "speed": 0.92,
+   "file": "35fa94c3f4c3.wav"
+  },
+  {
+   "text": "A year later, Hollywood came back.",
+   "start": 165.949,
+   "end": 168.061,
+   "chapter": "c03",
+   "para": 20,
+   "speed": 0.92,
+   "file": "9f128a721125.wav"
+  },
+  {
+   "text": "Star Trek Four needed an aircraft carrier called Enterprise.",
+   "start": 168.361,
+   "end": 172.286,
+   "chapter": "c03",
+   "para": 20,
+   "speed": 0.92,
+   "file": "434357bd386a.wav"
+  },
+  {
+   "text": "The real Enterprise was not available.",
+   "start": 172.886,
+   "end": 175.33,
+   "chapter": "c03",
+   "para": 21,
+   "speed": 0.92,
+   "file": "8aa87e6f7a5a.wav"
+  },
+  {
+   "text": "So the Ranger played her.",
+   "start": 175.63,
+   "end": 177.077,
+   "chapter": "c03",
+   "para": 21,
+   "speed": 0.92,
+   "file": "e91f3d248858.wav"
+  },
+  {
+   "text": "The crew spent three days filming at North Island, in San Diego, for the scenes where two of the Starship's officers sneak aboard a Navy carrier.",
+   "start": 177.377,
+   "end": 186.047,
+   "chapter": "c03",
+   "para": 21,
+   "speed": 0.92,
+   "file": "d1d46bba7e5c.wav"
+  },
+  {
+   "text": "Sailors in the background wore caps with the Ranger's own name on them.",
+   "start": 186.647,
+   "end": 190.825,
+   "chapter": "c03",
+   "para": 22,
+   "speed": 0.92,
+   "file": "6db333e37206.wav"
+  },
+  {
+   "text": "A few years after that, she had a small part in one more war film, Flight of the Intruder.",
+   "start": 191.425,
+   "end": 196.905,
+   "chapter": "c03",
+   "para": 23,
+   "speed": 0.92,
+   "file": "1f2401ce2643.wav"
+  },
+  {
+   "text": "Today, the films are the reason most people know her name.",
+   "start": 197.505,
+   "end": 200.751,
+   "chapter": "c03",
+   "para": 24,
+   "speed": 0.92,
+   "file": "fb31bd84b81b.wav"
+  },
+  {
+   "text": "But for the Navy, Hollywood was a few days in a career of nearly thirty-six years.",
+   "start": 201.051,
+   "end": 206.106,
+   "chapter": "c03",
+   "para": 24,
+   "speed": 0.92,
+   "file": "fc19c168a506.wav"
+  },
+  {
+   "text": "She was built at Newport News, Virginia.",
+   "start": 207.006,
+   "end": 209.675,
+   "chapter": "c04",
+   "para": 25,
+   "speed": 0.92,
+   "file": "2cb27121bf35.wav"
+  },
+  {
+   "text": "Her keel was laid in August, nineteen fifty-four, and she was launched two years later.",
+   "start": 209.975,
+   "end": 215.188,
+   "chapter": "c04",
+   "para": 25,
+   "speed": 0.92,
+   "file": "31017382ccb8.wav"
+  },
+  {
+   "text": "She was the third ship of the Forrestal class, the Navy's new supercarriers, built for the age of the jet.",
+   "start": 215.788,
+   "end": 222.077,
+   "chapter": "c04",
+   "para": 26,
+   "speed": 0.92,
+   "file": "269a15648711.wav"
+  },
+  {
+   "text": "More than a thousand feet long.",
+   "start": 222.377,
+   "end": 224.343,
+   "chapter": "c04",
+   "para": 26,
+   "speed": 0.92,
+   "file": "2c4d0299b2cf.wav"
+  },
+  {
+   "text": "About fifty-six thousand tons empty, and over eighty thousand fully loaded.",
+   "start": 224.643,
+   "end": 229.392,
+   "chapter": "c04",
+   "para": 26,
+   "speed": 0.92,
+   "file": "82a0d352ef9d.wav"
+  },
+  {
+   "text": "She was commissioned in August, nineteen fifty-seven, at the Norfolk Naval Shipyard in Virginia.",
+   "start": 229.992,
+   "end": 235.983,
+   "chapter": "c04",
+   "para": 27,
+   "speed": 0.92,
+   "file": "d7b4698d728b.wav"
+  },
+  {
+   "text": "Her first captain was Charles Booth.",
+   "start": 236.283,
+   "end": 238.353,
+   "chapter": "c04",
+   "para": 27,
+   "speed": 0.92,
+   "file": "23909226f6d8.wav"
+  },
+  {
+   "text": "The next summer, she sailed from the Atlantic around Cape Horn, at the bottom of South America, to join the Pacific Fleet.",
+   "start": 238.953,
+   "end": 246.196,
+   "chapter": "c04",
+   "para": 28,
+   "speed": 0.92,
+   "file": "e0cef56bde79.wav"
+  },
+  {
+   "text": "Remember that voyage.",
+   "start": 246.496,
+   "end": 247.938,
+   "chapter": "c04",
+   "para": 28,
+   "speed": 0.92,
+   "file": "f30daf786547.wav"
+  },
+  {
+   "text": "She would make it once more.",
+   "start": 248.238,
+   "end": 249.746,
+   "chapter": "c04",
+   "para": 28,
+   "speed": 0.92,
+   "file": "89ea87794f30.wav"
+  },
+  {
+   "text": "From her home ports in California, she crossed to the Western Pacific more than twenty times.",
+   "start": 250.346,
+   "end": 255.821,
+   "chapter": "c04",
+   "para": 29,
+   "speed": 0.92,
+   "file": "b60ccf3a8fb1.wav"
+  },
+  {
+   "text": "In the summer of nineteen sixty-four, she sailed for the waters off Vietnam.",
+   "start": 256.421,
+   "end": 261.073,
+   "chapter": "c04",
+   "para": 30,
+   "speed": 0.92,
+   "file": "559de74fe2df.wav"
+  },
+  {
+   "text": "Over the next nine years, she made seven cruises to the war, launching strikes from the Gulf of Tonkin.",
+   "start": 261.373,
+   "end": 267.43,
+   "chapter": "c04",
+   "para": 30,
+   "speed": 0.92,
+   "file": "e2459bdf5089.wav"
+  },
+  {
+   "text": "It was on the Ranger that a new attack jet, the A-7 Corsair Two, went into combat in nineteen sixty-seven.",
+   "start": 268.03,
+   "end": 275.077,
+   "chapter": "c04",
+   "para": 31,
+   "speed": 0.92,
+   "file": "dde979a1cd0c.wav"
+  },
+  {
+   "text": "In nineteen eighty, during the Iran hostage crisis, she waited in the Arabian Sea.",
+   "start": 275.677,
+   "end": 281.025,
+   "chapter": "c04",
+   "para": 32,
+   "speed": 0.92,
+   "file": "dfac3e6b204b.wav"
+  },
+  {
+   "text": "In nineteen eighty-three, she was back there.",
+   "start": 281.625,
+   "end": 284.105,
+   "chapter": "c04",
+   "para": 33,
+   "speed": 0.92,
+   "file": "6d9a7a10192f.wav"
+  },
+  {
+   "text": "On the first of November, a fire broke out in one of her main machinery rooms.",
+   "start": 284.405,
+   "end": 289.16,
+   "chapter": "c04",
+   "para": 33,
+   "speed": 0.92,
+   "file": "ea2d0659585b.wav"
+  },
+  {
+   "text": "It started at about ten to ten in the morning.",
+   "start": 289.46,
+   "end": 292.187,
+   "chapter": "c04",
+   "para": 33,
+   "speed": 0.92,
+   "file": "5ec4c9c20dc2.wav"
+  },
+  {
+   "text": "It burned in one of her four main machinery rooms, and spread into the space next to it.",
+   "start": 292.787,
+   "end": 297.796,
+   "chapter": "c04",
+   "para": 34,
+   "speed": 0.92,
+   "file": "724c42014d9e.wav"
+  },
+  {
+   "text": "Her crew fought it for about an hour.",
+   "start": 298.096,
+   "end": 300.146,
+   "chapter": "c04",
+   "para": 34,
+   "speed": 0.92,
+   "file": "1ad4f89fdc93.wav"
+  },
+  {
+   "text": "Then it flared up again, and burned until after midday.",
+   "start": 300.446,
+   "end": 303.724,
+   "chapter": "c04",
+   "para": 34,
+   "speed": 0.92,
+   "file": "37291e36abcd.wav"
+  },
+  {
+   "text": "Six sailors died, and thirty-five were hurt.",
+   "start": 304.324,
+   "end": 307.109,
+   "chapter": "c04",
+   "para": 35,
+   "speed": 0.92,
+   "file": "9f2cace1383a.wav"
+  },
+  {
+   "text": "Most of the injuries were from smoke, burns and heat.",
+   "start": 307.409,
+   "end": 310.632,
+   "chapter": "c04",
+   "para": 35,
+   "speed": 0.92,
+   "file": "a90c80ac84db.wav"
+  },
+  {
+   "text": "The date was the first of November.",
+   "start": 311.232,
+   "end": 313.477,
+   "chapter": "c04",
+   "para": 36,
+   "speed": 0.92,
+   "file": "902fee53de81.wav"
+  },
+  {
+   "text": "Keep that date in mind.",
+   "start": 313.777,
+   "end": 315.317,
+   "chapter": "c04",
+   "para": 36,
+   "speed": 0.92,
+   "file": "3b89bfc7ef95.wav"
+  },
+  {
+   "text": "In December, nineteen ninety, she left San Diego for the Persian Gulf.",
+   "start": 315.917,
+   "end": 320.286,
+   "chapter": "c04",
+   "para": 37,
+   "speed": 0.92,
+   "file": "215dd77b14ba.wav"
+  },
+  {
+   "text": "She reached her launch position on the fifteenth of January, nineteen ninety-one.",
+   "start": 320.586,
+   "end": 325.138,
+   "chapter": "c04",
+   "para": 37,
+   "speed": 0.92,
+   "file": "41960d586aad.wav"
+  },
+  {
+   "text": "Two days later, Desert Storm began.",
+   "start": 325.438,
+   "end": 327.721,
+   "chapter": "c04",
+   "para": 37,
+   "speed": 0.92,
+   "file": "a43e6ca5720a.wav"
+  },
+  {
+   "text": "Before dawn on the first day of the air war, her jets flew strikes against Iraq.",
+   "start": 328.321,
+   "end": 333.166,
+   "chapter": "c04",
+   "para": 38,
+   "speed": 0.92,
+   "file": "028bbeaf84dd.wav"
+  },
+  {
+   "text": "On the third night, one of her A-6 bombers was lost.",
+   "start": 333.466,
+   "end": 336.816,
+   "chapter": "c04",
+   "para": 38,
+   "speed": 0.92,
+   "file": "97d71ec7dbe7.wav"
+  },
+  {
+   "text": "Over six weeks, her air wing flew thousands of missions.",
+   "start": 337.116,
+   "end": 340.623,
+   "chapter": "c04",
+   "para": 38,
+   "speed": 0.92,
+   "file": "4e178daa8a37.wav"
+  },
+  {
+   "text": "She came home to San Diego in June.",
+   "start": 340.923,
+   "end": 343.395,
+   "chapter": "c04",
+   "para": 38,
+   "speed": 0.92,
+   "file": "3be302fe65b3.wav"
+  },
+  {
+   "text": "And in December, nineteen ninety-two, she was off Somalia, supporting the American landing there, Operation Restore Hope.",
+   "start": 343.995,
+   "end": 351.631,
+   "chapter": "c04",
+   "para": 39,
+   "speed": 0.92,
+   "file": "362b21294d14.wav"
+  },
+  {
+   "text": "Her planes flew reconnaissance, and stood ready to support the Marines going ashore.",
+   "start": 351.931,
+   "end": 357.035,
+   "chapter": "c04",
+   "para": 39,
+   "speed": 0.92,
+   "file": "4d86f1e57cb4.wav"
+  },
+  {
+   "text": "That was her last cruise.",
+   "start": 357.635,
+   "end": 359.123,
+   "chapter": "c04",
+   "para": 40,
+   "speed": 0.92,
+   "file": "be81500e2ea8.wav"
+  },
+  {
+   "text": "On the tenth of July, nineteen ninety-three, the Ranger was decommissioned.",
+   "start": 359.423,
+   "end": 363.938,
+   "chapter": "c04",
+   "para": 40,
+   "speed": 0.92,
+   "file": "64046f0036ad.wav"
+  },
+  {
+   "text": "Her crew walked off, and the flight deck went quiet.",
+   "start": 364.238,
+   "end": 367.326,
+   "chapter": "c04",
+   "para": 40,
+   "speed": 0.92,
+   "file": "17e19a24935b.wav"
+  },
+  {
+   "text": "She was towed north to Bremerton, and put into the reserve fleet.",
+   "start": 368.226,
+   "end": 371.945,
+   "chapter": "c05",
+   "para": 41,
+   "speed": 0.92,
+   "file": "c985d381cc94.wav"
+  },
+  {
+   "text": "For years, the Navy kept her in case it ever needed her again.",
+   "start": 372.545,
+   "end": 376.031,
+   "chapter": "c05",
+   "para": 42,
+   "speed": 0.92,
+   "file": "16c3ddeabdcb.wav"
+  },
+  {
+   "text": "It never did.",
+   "start": 376.331,
+   "end": 377.449,
+   "chapter": "c05",
+   "para": 42,
+   "speed": 0.92,
+   "file": "304dbf8b93fd.wav"
+  },
+  {
+   "text": "On the eighth of March, two thousand four, she was struck from the Naval Vessel Register.",
+   "start": 378.049,
+   "end": 383.091,
+   "chapter": "c05",
+   "para": 43,
+   "speed": 0.92,
+   "file": "6c25c29069cb.wav"
+  },
+  {
+   "text": "In plain words, she was no longer a Navy ship.",
+   "start": 383.391,
+   "end": 386.427,
+   "chapter": "c05",
+   "para": 43,
+   "speed": 0.92,
+   "file": "95b6e7e88fad.wav"
+  },
+  {
+   "text": "That opened a door.",
+   "start": 387.027,
+   "end": 388.395,
+   "chapter": "c05",
+   "para": 44,
+   "speed": 0.92,
+   "file": "331f18ac3587.wav"
+  },
+  {
+   "text": "The Navy put her on its donation list.",
+   "start": 388.695,
+   "end": 391.188,
+   "chapter": "c05",
+   "para": 44,
+   "speed": 0.92,
+   "file": "a90850ca8ccf.wav"
+  },
+  {
+   "text": "Any city or group that could take care of her could have her, as a museum.",
+   "start": 391.488,
+   "end": 395.613,
+   "chapter": "c05",
+   "para": 44,
+   "speed": 0.92,
+   "file": "a1268bb52555.wav"
+  },
+  {
+   "text": "There was a precedent.",
+   "start": 396.213,
+   "end": 397.471,
+   "chapter": "c05",
+   "para": 45,
+   "speed": 0.92,
+   "file": "0395a8eb5c7c.wav"
+  },
+  {
+   "text": "Carriers had been saved before.",
+   "start": 397.771,
+   "end": 399.633,
+   "chapter": "c05",
+   "para": 45,
+   "speed": 0.92,
+   "file": "a582d832f19a.wav"
+  },
+  {
+   "text": "The Intrepid in New York.",
+   "start": 399.933,
+   "end": 401.728,
+   "chapter": "c05",
+   "para": 45,
+   "speed": 0.92,
+   "file": "e15debd0d4b2.wav"
+  },
+  {
+   "text": "The Midway in San Diego.",
+   "start": 402.028,
+   "end": 403.773,
+   "chapter": "c05",
+   "para": 45,
+   "speed": 0.92,
+   "file": "03e6c157ce03.wav"
+  },
+  {
+   "text": "Each one a museum that millions of people have walked through.",
+   "start": 404.073,
+   "end": 407.423,
+   "chapter": "c05",
+   "para": 45,
+   "speed": 0.92,
+   "file": "0d3e7416e301.wav"
+  },
+  {
+   "text": "One group tried to do the same for the Ranger.",
+   "start": 408.023,
+   "end": 410.65,
+   "chapter": "c05",
+   "para": 46,
+   "speed": 0.92,
+   "file": "f16bf963118b.wav"
+  },
+  {
+   "text": "The USS Ranger Foundation, started in two thousand one by former crew and supporters.",
+   "start": 410.95,
+   "end": 416.817,
+   "chapter": "c05",
+   "para": 46,
+   "speed": 0.92,
+   "file": "ec1264fb85cf.wav"
+  },
+  {
+   "text": "Their plan was to bring her to Fairview, Oregon, on the Columbia River, near Portland.",
+   "start": 417.417,
+   "end": 422.474,
+   "chapter": "c05",
+   "para": 47,
+   "speed": 0.92,
+   "file": "32296c64c041.wav"
+  },
+  {
+   "text": "A floating museum, open to the public.",
+   "start": 422.774,
+   "end": 425.349,
+   "chapter": "c05",
+   "para": 47,
+   "speed": 0.92,
+   "file": "38191fcb0a97.wav"
+  },
+  {
+   "text": "The Navy had rules.",
+   "start": 425.949,
+   "end": 427.478,
+   "chapter": "c05",
+   "para": 48,
+   "speed": 0.92,
+   "file": "2416b26640a9.wav"
+  },
+  {
+   "text": "A new owner had to show it could pay for the first five years of running the ship.",
+   "start": 427.778,
+   "end": 432.069,
+   "chapter": "c05",
+   "para": 48,
+   "speed": 0.92,
+   "file": "4d177af85c7a.wav"
+  },
+  {
+   "text": "The Foundation's own estimates ran from about ten million dollars to get her ready, up to thirty million in all.",
+   "start": 432.669,
+   "end": 439.198,
+   "chapter": "c05",
+   "para": 49,
+   "speed": 0.92,
+   "file": "f826a7af523d.wav"
+  },
+  {
+   "text": "By the Navy's count, the Foundation could show about one hundred and five thousand dollars, against a start-up bill of nearly thirty-two million.",
+   "start": 439.798,
+   "end": 448.261,
+   "chapter": "c05",
+   "para": 50,
+   "speed": 0.92,
+   "file": "d8909360781c.wav"
+  },
+  {
+   "text": "The Foundation said it had raised more than six hundred thousand.",
+   "start": 448.561,
+   "end": 452.457,
+   "chapter": "c05",
+   "para": 50,
+   "speed": 0.92,
+   "file": "e2a758e4da57.wav"
+  },
+  {
+   "text": "Either way, it was a long way short.",
+   "start": 452.757,
+   "end": 454.976,
+   "chapter": "c05",
+   "para": 50,
+   "speed": 0.92,
+   "file": "97ed0f701401.wav"
+  },
+  {
+   "text": "A Navy spokesman put it simply.",
+   "start": 455.576,
+   "end": 457.62,
+   "chapter": "c05",
+   "para": 51,
+   "speed": 0.92,
+   "file": "7dea98fe0eb6.wav"
+  },
+  {
+   "text": "No organization had been able to meet the Navy's minimum requirements.",
+   "start": 457.92,
+   "end": 462.746,
+   "chapter": "c05",
+   "para": 51,
+   "speed": 0.92,
+   "file": "059c80842995.wav"
+  },
+  {
+   "text": "Then there was the river.",
+   "start": 463.346,
+   "end": 464.735,
+   "chapter": "c05",
+   "para": 52,
+   "speed": 0.92,
+   "file": "0d6b43ca1ab0.wav"
+  },
+  {
+   "text": "To reach Fairview, the Ranger would have had to pass a bridge across the Columbia.",
+   "start": 465.035,
+   "end": 469.434,
+   "chapter": "c05",
+   "para": 52,
+   "speed": 0.92,
+   "file": "b62c519b54dc.wav"
+  },
+  {
+   "text": "The Navy said the group never solved that problem either.",
+   "start": 469.734,
+   "end": 472.986,
+   "chapter": "c05",
+   "para": 52,
+   "speed": 0.92,
+   "file": "98f49c682251.wav"
+  },
+  {
+   "text": "The Foundation kept trying for years.",
+   "start": 473.586,
+   "end": 475.804,
+   "chapter": "c05",
+   "para": 53,
+   "speed": 0.92,
+   "file": "0d34d1aea638.wav"
+  },
+  {
+   "text": "The money never came.",
+   "start": 476.104,
+   "end": 477.584,
+   "chapter": "c05",
+   "para": 53,
+   "speed": 0.92,
+   "file": "f923c58e337c.wav"
+  },
+  {
+   "text": "After eight years on the donation list, the Navy decided it could not keep waiting.",
+   "start": 478.184,
+   "end": 483.121,
+   "chapter": "c05",
+   "para": 54,
+   "speed": 0.92,
+   "file": "cce8c903e091.wav"
+  },
+  {
+   "text": "In September, twenty twelve, it took her off the list.",
+   "start": 483.421,
+   "end": 486.702,
+   "chapter": "c05",
+   "para": 54,
+   "speed": 0.92,
+   "file": "979d709ffff9.wav"
+  },
+  {
+   "text": "She would be scrapped.",
+   "start": 487.002,
+   "end": 488.183,
+   "chapter": "c05",
+   "para": 54,
+   "speed": 0.92,
+   "file": "ebf193ab8dbb.wav"
+  },
+  {
+   "text": "Her supporters fought on.",
+   "start": 488.783,
+   "end": 490.32,
+   "chapter": "c05",
+   "para": 55,
+   "speed": 0.92,
+   "file": "7037e30929a4.wav"
+  },
+  {
+   "text": "But in December, twenty fourteen, the contract came.",
+   "start": 490.62,
+   "end": 493.603,
+   "chapter": "c05",
+   "para": 55,
+   "speed": 0.92,
+   "file": "44c08030a3df.wav"
+  },
+  {
+   "text": "The penny.",
+   "start": 493.903,
+   "end": 494.713,
+   "chapter": "c05",
+   "para": 55,
+   "speed": 0.92,
+   "file": "673db16258c5.wav"
+  },
+  {
+   "text": "And here is the twist.",
+   "start": 495.613,
+   "end": 497.1,
+   "chapter": "c06",
+   "para": 56,
+   "speed": 0.92,
+   "file": "262e91a6ee4b.wav"
+  },
+  {
+   "text": "The Ranger was never sold.",
+   "start": 497.4,
+   "end": 499.371,
+   "chapter": "c06",
+   "para": 56,
+   "speed": 0.92,
+   "file": "21a79148cca9.wav"
+  },
+  {
+   "text": "The Navy said it plainly.",
+   "start": 499.971,
+   "end": 501.563,
+   "chapter": "c06",
+   "para": 57,
+   "speed": 0.92,
+   "file": "f7b019470250.wav"
+  },
+  {
+   "text": "This is not a sales contract.",
+   "start": 501.863,
+   "end": 503.854,
+   "chapter": "c06",
+   "para": 57,
+   "speed": 0.92,
+   "file": "69dbbd61e440.wav"
+  },
+  {
+   "text": "It is a procurement contract.",
+   "start": 504.154,
+   "end": 505.977,
+   "chapter": "c06",
+   "para": 57,
+   "speed": 0.92,
+   "file": "490b1031208b.wav"
+  },
+  {
+   "text": "In a sale, the buyer pays the Navy.",
+   "start": 506.577,
+   "end": 508.73,
+   "chapter": "c06",
+   "para": 58,
+   "speed": 0.92,
+   "file": "2dfa83823309.wav"
+  },
+  {
+   "text": "Here, the Navy was the customer.",
+   "start": 509.03,
+   "end": 511.007,
+   "chapter": "c06",
+   "para": 58,
+   "speed": 0.92,
+   "file": "92cb714aff5c.wav"
+  },
+  {
+   "text": "It hired a shipbreaker to tow the carrier sixteen thousand miles, and cut her into pieces.",
+   "start": 511.307,
+   "end": 516.777,
+   "chapter": "c06",
+   "para": 58,
+   "speed": 0.92,
+   "file": "ead4c4ea41c2.wav"
+  },
+  {
+   "text": "And it paid for the job.",
+   "start": 517.077,
+   "end": 518.646,
+   "chapter": "c06",
+   "para": 58,
+   "speed": 0.92,
+   "file": "ef83b7b4d48d.wav"
+  },
+  {
+   "text": "So why only one cent?",
+   "start": 519.246,
+   "end": 521.064,
+   "chapter": "c06",
+   "para": 59,
+   "speed": 0.8522,
+   "file": "6f2b30d0e2b2.wav"
+  },
+  {
+   "text": "Because of the steel.",
+   "start": 521.364,
+   "end": 522.642,
+   "chapter": "c06",
+   "para": 59,
+   "speed": 0.92,
+   "file": "83c397667bdf.wav"
+  },
+  {
+   "text": "The shipbreaker would keep everything it cut out of her, and sell it.",
+   "start": 523.242,
+   "end": 526.838,
+   "chapter": "c06",
+   "para": 60,
+   "speed": 0.92,
+   "file": "5b6baa11d265.wav"
+  },
+  {
+   "text": "Its price was the cost of the job, minus what it expected that metal to fetch.",
+   "start": 527.138,
+   "end": 532.182,
+   "chapter": "c06",
+   "para": 60,
+   "speed": 0.92,
+   "file": "bbfd1f0bc1ac.wav"
+  },
+  {
+   "text": "For the Ranger, the scrap was worth about as much as the work.",
+   "start": 532.782,
+   "end": 536.39,
+   "chapter": "c06",
+   "para": 61,
+   "speed": 0.92,
+   "file": "68a80d0879fa.wav"
+  },
+  {
+   "text": "So the bid came down to almost nothing.",
+   "start": 536.69,
+   "end": 538.939,
+   "chapter": "c06",
+   "para": 61,
+   "speed": 0.92,
+   "file": "5b28e2b73488.wav"
+  },
+  {
+   "text": "One cent was the lowest price the Navy could possibly have paid.",
+   "start": 539.539,
+   "end": 543.584,
+   "chapter": "c06",
+   "para": 62,
+   "speed": 0.92,
+   "file": "dae5ce1b4e01.wav"
+  },
+  {
+   "text": "The Navy had set this up on purpose.",
+   "start": 544.184,
+   "end": 546.418,
+   "chapter": "c06",
+   "para": 63,
+   "speed": 0.92,
+   "file": "8be0fe756aaa.wav"
+  },
+  {
+   "text": "It wrote one contract for all of its old conventional carriers, and let three shipbreakers compete for each ship.",
+   "start": 546.718,
+   "end": 553.212,
+   "chapter": "c06",
+   "para": 63,
+   "speed": 0.92,
+   "file": "260182ff59c8.wav"
+  },
+  {
+   "text": "Each company looked at the hull, worked out what the tow and the cutting would cost, and what the metal would sell for.",
+   "start": 553.512,
+   "end": 559.968,
+   "chapter": "c06",
+   "para": 63,
+   "speed": 0.92,
+   "file": "fe8e93a759d1.wav"
+  },
+  {
+   "text": "The lowest bid won.",
+   "start": 560.268,
+   "end": 561.587,
+   "chapter": "c06",
+   "para": 63,
+   "speed": 0.92,
+   "file": "6fa1fb01b693.wav"
+  },
+  {
+   "text": "All three of those yards were in the same place.",
+   "start": 562.187,
+   "end": 564.823,
+   "chapter": "c06",
+   "para": 64,
+   "speed": 0.92,
+   "file": "6e3b38e44296.wav"
+  },
+  {
+   "text": "Brownsville, Texas, at the southern tip of the state, a short sail from the Gulf of Mexico.",
+   "start": 565.123,
+   "end": 570.908,
+   "chapter": "c06",
+   "para": 64,
+   "speed": 0.92,
+   "file": "13f6def4a985.wav"
+  },
+  {
+   "text": "For American carriers, it had become the end of the line.",
+   "start": 571.208,
+   "end": 574.378,
+   "chapter": "c06",
+   "para": 64,
+   "speed": 0.92,
+   "file": "1db1f8c541ee.wav"
+  },
+  {
+   "text": "And the Ranger was not the first.",
+   "start": 574.978,
+   "end": 577.049,
+   "chapter": "c06",
+   "para": 65,
+   "speed": 0.92,
+   "file": "25631a504ff9.wav"
+  },
+  {
+   "text": "Her sister ship Forrestal had gone the same way, for one cent, in twenty thirteen.",
+   "start": 577.349,
+   "end": 582.475,
+   "chapter": "c06",
+   "para": 65,
+   "speed": 0.92,
+   "file": "e18643d6795a.wav"
+  },
+  {
+   "text": "Then the Saratoga, in twenty fourteen.",
+   "start": 582.775,
+   "end": 585.379,
+   "chapter": "c06",
+   "para": 65,
+   "speed": 0.92,
+   "file": "881c18ec9cb6.wav"
+  },
+  {
+   "text": "Also one cent.",
+   "start": 585.679,
+   "end": 586.904,
+   "chapter": "c06",
+   "para": 65,
+   "speed": 0.92,
+   "file": "f36bc1cb0ec9.wav"
+  },
+  {
+   "text": "But the deal is not always that good.",
+   "start": 587.504,
+   "end": 589.733,
+   "chapter": "c06",
+   "para": 66,
+   "speed": 0.92,
+   "file": "ad258799ba3b.wav"
+  },
+  {
+   "text": "Six months before the Ranger, the same company had taken the Constellation, a carrier of the next class.",
+   "start": 590.033,
+   "end": 596.561,
+   "chapter": "c06",
+   "para": 66,
+   "speed": 0.92,
+   "file": "afa71210ed90.wav"
+  },
+  {
+   "text": "That time, the Navy paid three million dollars.",
+   "start": 596.861,
+   "end": 599.683,
+   "chapter": "c06",
+   "para": 66,
+   "speed": 0.92,
+   "file": "d810d7639fa0.wav"
+  },
+  {
+   "text": "So the penny was not an insult.",
+   "start": 600.283,
+   "end": 602.316,
+   "chapter": "c06",
+   "para": 67,
+   "speed": 0.92,
+   "file": "8c781987c7cf.wav"
+  },
+  {
+   "text": "It was the best deal the Navy could get.",
+   "start": 602.616,
+   "end": 605.056,
+   "chapter": "c06",
+   "para": 67,
+   "speed": 0.92,
+   "file": "bf4d57489bbe.wav"
+  },
+  {
+   "text": "Years later, two more carriers went for the same price.",
+   "start": 605.656,
+   "end": 608.776,
+   "chapter": "c06",
+   "para": 68,
+   "speed": 0.92,
+   "file": "1e9f3cee4ff0.wav"
+  },
+  {
+   "text": "The Kitty Hawk and the John F.",
+   "start": 609.076,
+   "end": 611.102,
+   "chapter": "c06",
+   "para": 68,
+   "speed": 0.92,
+   "file": "b2ed6c16eeca.wav"
+  },
+  {
+   "text": "Kennedy.",
+   "start": 611.402,
+   "end": 612.037,
+   "chapter": "c06",
+   "para": 68,
+   "speed": 0.92,
+   "file": "0025fe93d400.wav"
+  },
+  {
+   "text": "One cent each.",
+   "start": 612.337,
+   "end": 613.566,
+   "chapter": "c06",
+   "para": 68,
+   "speed": 0.92,
+   "file": "b7332628b2e0.wav"
+  },
+  {
+   "text": "On the fifth of March, twenty fifteen, at about nine in the morning, four harbour tugs eased the Ranger away from her pier in Bremerton.",
+   "start": 614.466,
+   "end": 622.459,
+   "chapter": "c07",
+   "para": 69,
+   "speed": 0.92,
+   "file": "2414cb1bee6a.wav"
+  },
+  {
+   "text": "The Navy had expected the trip to take four to five months.",
+   "start": 622.759,
+   "end": 626.307,
+   "chapter": "c07",
+   "para": 69,
+   "speed": 0.92,
+   "file": "fef4da2be310.wav"
+  },
+  {
+   "text": "People lined the shore to watch.",
+   "start": 626.907,
+   "end": 628.693,
+   "chapter": "c07",
+   "para": 70,
+   "speed": 0.92,
+   "file": "ecca85289db9.wav"
+  },
+  {
+   "text": "Some of them had served on board.",
+   "start": 628.993,
+   "end": 630.911,
+   "chapter": "c07",
+   "para": 70,
+   "speed": 0.92,
+   "file": "60ad174bbb6f.wav"
+  },
+  {
+   "text": "For the long haul, the job went to an ocean tug from Louisiana, the Crosby Leader.",
+   "start": 631.511,
+   "end": 636.704,
+   "chapter": "c07",
+   "para": 71,
+   "speed": 0.92,
+   "file": "d05bd3766d46.wav"
+  },
+  {
+   "text": "She was too big for the Panama Canal.",
+   "start": 637.304,
+   "end": 639.598,
+   "chapter": "c07",
+   "para": 72,
+   "speed": 0.92,
+   "file": "d28d45e25770.wav"
+  },
+  {
+   "text": "So there was only one way to Texas.",
+   "start": 639.898,
+   "end": 642.015,
+   "chapter": "c07",
+   "para": 72,
+   "speed": 0.92,
+   "file": "ec7dd0d0d2b9.wav"
+  },
+  {
+   "text": "All the way around South America.",
+   "start": 642.315,
+   "end": 644.507,
+   "chapter": "c07",
+   "para": 72,
+   "speed": 0.92,
+   "file": "6824ba57ffc0.wav"
+  },
+  {
+   "text": "Down the Pacific coast of two continents.",
+   "start": 645.107,
+   "end": 647.668,
+   "chapter": "c07",
+   "para": 73,
+   "speed": 0.92,
+   "file": "f99ed890c1fb.wav"
+  },
+  {
+   "text": "Around the southern tip, the same waters she had rounded in nineteen fifty-eight, as a brand new ship.",
+   "start": 647.968,
+   "end": 654.201,
+   "chapter": "c07",
+   "para": 73,
+   "speed": 0.92,
+   "file": "ddf238a80b88.wav"
+  },
+  {
+   "text": "Then north, up the Atlantic, and into the Gulf of Mexico.",
+   "start": 654.801,
+   "end": 658.652,
+   "chapter": "c07",
+   "para": 74,
+   "speed": 0.92,
+   "file": "e5d367225ed8.wav"
+  },
+  {
+   "text": "About sixteen thousand miles.",
+   "start": 659.252,
+   "end": 661.225,
+   "chapter": "c07",
+   "para": 75,
+   "speed": 0.92,
+   "file": "4e40da57e758.wav"
+  },
+  {
+   "text": "For four months, a ship that once launched jets moved at the speed of the tug in front of her.",
+   "start": 661.525,
+   "end": 666.635,
+   "chapter": "c07",
+   "para": 75,
+   "speed": 0.92,
+   "file": "e8b3573d6272.wav"
+  },
+  {
+   "text": "On the twelfth of July, twenty fifteen, she reached the channel at Brownsville.",
+   "start": 667.235,
+   "end": 671.742,
+   "chapter": "c07",
+   "para": 76,
+   "speed": 0.92,
+   "file": "fa58ab595513.wav"
+  },
+  {
+   "text": "It was a Sunday morning.",
+   "start": 672.042,
+   "end": 673.446,
+   "chapter": "c07",
+   "para": 76,
+   "speed": 0.92,
+   "file": "b19c8987eaad.wav"
+  },
+  {
+   "text": "Crowds stood on the jetties at South Padre Island to see her come in.",
+   "start": 673.746,
+   "end": 677.758,
+   "chapter": "c07",
+   "para": 76,
+   "speed": 0.92,
+   "file": "05668abb7287.wav"
+  },
+  {
+   "text": "For the last few hours, she crept up the ship channel at about four knots, a walking pace, to the yard where she would end.",
+   "start": 678.358,
+   "end": 685.489,
+   "chapter": "c07",
+   "para": 77,
+   "speed": 0.92,
+   "file": "344c0ffef4ad.wav"
+  },
+  {
+   "text": "The whole trip had taken one hundred and twenty-nine days.",
+   "start": 686.089,
+   "end": 689.675,
+   "chapter": "c07",
+   "para": 78,
+   "speed": 0.92,
+   "file": "a71ed7b364fa.wav"
+  },
+  {
+   "text": "A little over four months.",
+   "start": 689.975,
+   "end": 691.671,
+   "chapter": "c07",
+   "para": 78,
+   "speed": 0.92,
+   "file": "1ddc0ed97dc3.wav"
+  },
+  {
+   "text": "She was the second carrier to arrive that year.",
+   "start": 692.271,
+   "end": 694.754,
+   "chapter": "c07",
+   "para": 79,
+   "speed": 0.92,
+   "file": "7f3070c48de2.wav"
+  },
+  {
+   "text": "The Constellation was already there.",
+   "start": 695.054,
+   "end": 697.202,
+   "chapter": "c07",
+   "para": 79,
+   "speed": 0.92,
+   "file": "281d2cf9f3c0.wav"
+  },
+  {
+   "text": "Then the cutting began.",
+   "start": 698.102,
+   "end": 699.682,
+   "chapter": "c08",
+   "para": 80,
+   "speed": 0.92,
+   "file": "1155f03afff7.wav"
+  },
+  {
+   "text": "Shipbreaking is slow work.",
+   "start": 700.282,
+   "end": 702.11,
+   "chapter": "c08",
+   "para": 81,
+   "speed": 0.92,
+   "file": "297d7cafc067.wav"
+  },
+  {
+   "text": "First, workers strip out what can be reused or must be removed.",
+   "start": 702.41,
+   "end": 706.453,
+   "chapter": "c08",
+   "para": 81,
+   "speed": 0.92,
+   "file": "11de217148c4.wav"
+  },
+  {
+   "text": "Then the torches go to work, and the hull comes apart, section by section.",
+   "start": 706.753,
+   "end": 711.155,
+   "chapter": "c08",
+   "para": 81,
+   "speed": 0.92,
+   "file": "655267dc3bee.wav"
+  },
+  {
+   "text": "It took just over two years.",
+   "start": 711.755,
+   "end": 713.521,
+   "chapter": "c08",
+   "para": 82,
+   "speed": 0.92,
+   "file": "ff2295a3d284.wav"
+  },
+  {
+   "text": "More than fifty-six thousand tons of her were cut up and recycled.",
+   "start": 713.821,
+   "end": 717.925,
+   "chapter": "c08",
+   "para": 82,
+   "speed": 0.92,
+   "file": "afd2998e5634.wav"
+  },
+  {
+   "text": "Most of the metal went to steel mills in the United States.",
+   "start": 718.225,
+   "end": 721.736,
+   "chapter": "c08",
+   "para": 82,
+   "speed": 0.92,
+   "file": "d82d4f224341.wav"
+  },
+  {
+   "text": "On the morning of the first of November, twenty seventeen, the last section of the Ranger came out.",
+   "start": 722.336,
+   "end": 728.151,
+   "chapter": "c08",
+   "para": 83,
+   "speed": 0.92,
+   "file": "eb5fbb4c9773.wav"
+  },
+  {
+   "text": "The first of November.",
+   "start": 728.751,
+   "end": 730.175,
+   "chapter": "c08",
+   "para": 84,
+   "speed": 0.92,
+   "file": "0309189dfd7d.wav"
+  },
+  {
+   "text": "Thirty-four years to the day after the fire in her machinery room.",
+   "start": 730.475,
+   "end": 734.356,
+   "chapter": "c08",
+   "para": 84,
+   "speed": 0.92,
+   "file": "edaf456ea079.wav"
+  },
+  {
+   "text": "At nine fifty that morning, close to the minute the fire had started, the workers in Brownsville stopped for a moment of silence.",
+   "start": 734.956,
+   "end": 742.485,
+   "chapter": "c08",
+   "para": 85,
+   "speed": 0.92,
+   "file": "84f96ea1265f.wav"
+  },
+  {
+   "text": "For the six sailors who died on board.",
+   "start": 742.785,
+   "end": 745.128,
+   "chapter": "c08",
+   "para": 85,
+   "speed": 0.92,
+   "file": "656f918db018.wav"
+  },
+  {
+   "text": "So that is what happened to the carrier from the movies.",
+   "start": 745.728,
+   "end": 748.816,
+   "chapter": "c08",
+   "para": 86,
+   "speed": 0.92,
+   "file": "62f1ff667cfb.wav"
+  },
+  {
+   "text": "The Navy paid a penny to make her disappear.",
+   "start": 749.116,
+   "end": 751.666,
+   "chapter": "c08",
+   "para": 86,
+   "speed": 0.92,
+   "file": "7a8315ee3d9b.wav"
+  },
+  {
+   "text": "And the ship itself is gone.",
+   "start": 752.266,
+   "end": 754.09,
+   "chapter": "c08",
+   "para": 87,
+   "speed": 0.92,
+   "file": "dca377478f26.wav"
+  },
+  {
+   "text": "But not all of her.",
+   "start": 754.69,
+   "end": 755.85,
+   "chapter": "c08",
+   "para": 88,
+   "speed": 0.92,
+   "file": "986b51dd8123.wav"
+  },
+  {
+   "text": "More than five tons of her fittings went to the USS Lexington Museum, in Corpus Christi, Texas.",
+   "start": 756.15,
+   "end": 762.771,
+   "chapter": "c08",
+   "para": 88,
+   "speed": 0.92,
+   "file": "69ce09756d5b.wav"
+  },
+  {
+   "text": "Gauges, windows and controls from the machinery room where the six men died went to her veterans, for a memorial.",
+   "start": 763.371,
+   "end": 770.563,
+   "chapter": "c08",
+   "para": 89,
+   "speed": 0.92,
+   "file": "56d96cacc4a0.wav"
+  },
+  {
+   "text": "Some of her brass and copper was turned into dog tags.",
+   "start": 771.163,
+   "end": 774.608,
+   "chapter": "c08",
+   "para": 90,
+   "speed": 0.92,
+   "file": "943f36bd5d59.wav"
+  },
+  {
+   "text": "And pieces of her flight deck were engraved and sold, to anyone who wanted to own a part of her.",
+   "start": 774.908,
+   "end": 780.37,
+   "chapter": "c08",
+   "para": 90,
+   "speed": 0.92,
+   "file": "aa9960f4652b.wav"
+  },
+  {
+   "text": "Her sisters went the same way.",
+   "start": 780.97,
+   "end": 782.879,
+   "chapter": "c08",
+   "para": 91,
+   "speed": 0.92,
+   "file": "9b14bec6c265.wav"
+  },
+  {
+   "text": "Forrestal, Saratoga and Independence were all towed to Brownsville.",
+   "start": 783.179,
+   "end": 787.627,
+   "chapter": "c08",
+   "para": 91,
+   "speed": 0.92,
+   "file": "fd30cd318390.wav"
+  },
+  {
+   "text": "Not one of the four became a museum.",
+   "start": 787.927,
+   "end": 790.146,
+   "chapter": "c08",
+   "para": 91,
+   "speed": 0.92,
+   "file": "c77a93591d9b.wav"
+  },
+  {
+   "text": "Independence was the last.",
+   "start": 790.746,
+   "end": 792.55,
+   "chapter": "c08",
+   "para": 92,
+   "speed": 0.92,
+   "file": "16310ee88007.wav"
+  },
+  {
+   "text": "In twenty seventeen, she followed the Ranger's route, out of Bremerton and around South America, to the same yard.",
+   "start": 792.85,
+   "end": 799.95,
+   "chapter": "c08",
+   "para": 92,
+   "speed": 0.92,
+   "file": "e20bf1e50210.wav"
+  },
+  {
+   "text": "Her final voyage began while the Ranger was still being cut up.",
+   "start": 800.25,
+   "end": 804.238,
+   "chapter": "c08",
+   "para": 92,
+   "speed": 0.92,
+   "file": "a438bd44a192.wav"
+  },
+  {
+   "text": "So here is the question.",
+   "start": 804.838,
+   "end": 806.427,
+   "chapter": "c08",
+   "para": 93,
+   "speed": 0.92,
+   "file": "8842cbc824e8.wav"
+  },
+  {
+   "text": "Should the Navy have found a way to keep one of them?",
+   "start": 806.727,
+   "end": 809.455,
+   "chapter": "c08",
+   "para": 93,
+   "speed": 0.8522,
+   "file": "bebaa21961b3.wav"
+  },
+  {
+   "text": "Or was one cent the right price for a carrier nobody could afford to keep?",
+   "start": 809.755,
+   "end": 814.628,
+   "chapter": "c08",
+   "para": 93,
+   "speed": 0.8522,
+   "file": "83732be25c8f.wav"
+  },
+  {
+   "text": "Tell us in the comments.",
+   "start": 815.228,
+   "end": 816.648,
+   "chapter": "c08",
+   "para": 94,
+   "speed": 0.92,
+   "file": "a019084a62e6.wav"
+  },
+  {
+   "text": "And if you served on the Ranger, we would like to hear your story.",
+   "start": 816.948,
+   "end": 820.399,
+   "chapter": "c08",
+   "para": 94,
+   "speed": 0.92,
+   "file": "bd230e90d835.wav"
+  }
+ ]
+}
