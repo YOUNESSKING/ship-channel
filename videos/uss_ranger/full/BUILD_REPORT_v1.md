@@ -67,8 +67,15 @@ no Gofile upload. Both are one step once the owner says yes (section 9).
 - Titles: `script/TITLES_THUMBS.md` (unscored). Recommended: "Why the Navy Paid One Cent to Scrap a Top Gun Carrier".
 - Description, tags, pinned comment: `full/YOUTUBE_DESCRIPTION_DRAFT.md`; upload kit `full/upload_kit/` (HTML + PDF).
 
-## 8. Final master
-(filled after the card re-render: see the end of this file)
+## 8. Final master (after the card fix)
+- `uss_ranger_full_v1.mp4`, 851.27 s, md5 `f8f0cc14a329c3a153418bc23c35e78b` (`build/master_md5.txt`).
+- **SOUND LOCK OK** (static + render): -14.0 LUFS, TP -1.9 dBTP, LRA 2.3 LU (floor 1.7), music under speech -24.8 dB, 98 cues within 3 frames,
+  every cue silent by its shot end, 24 beds on shot cuts. ebur128 on the mp4 (`build/ebur128_v1.txt`): -14.0 LUFS, peak -1.9 dBFS, LRA 2.3 LU.
+- blackdetect 0.25 s / 0.06: **0**. safe-text PASS c01-c08 after the re-render. Contact sheet `FINAL_SHEET_v1.jpg` looked at again: the
+  near-black cards are gone; a few line cards over grey/dusk film (c02 "THE HEADLINES, 2014", c07 "THE NAVY EXPECTED", c08 "1 NOVEMBER 2017")
+  still read dim but legible: owner's call.
+- 720p preview `uss_ranger_preview_720p.mp4`; upload kit `upload_kit/USSRanger_YouTube_Upload_Kit.pdf` (4 pages).
+- Not run this time: `tools/film/check_clips.py --no-cuts` (time); every film segment was checked on `build/seg_sheet.py` sheets instead.
 
 ## 9. Open items for the owner
 1. Say yes/no to the **vidIQ title scoring** (~40 credits) and the **Gofile upload** (master + kit PDF + thumbnails): not done without your direct OK.
