@@ -17,6 +17,12 @@ Read in this order: `CLAUDE.md` → this file → `STYLE_LOCK.md` → `reference
   LOCK OK; record in `full/BUILD_REPORT_v1.md` (section 9 = open items). New tools: OSM water mask in `bake_sea.py` (WATERMASK=osm),
   depth model + deps in setup.sh.
 
+- Video 4: **USS Ranger** ("The Top Gun Carrier Sold for One Cent", thumbnail SOLD FOR 1¢), plan in `research/FIRST_5_VIDEOS.md` §4.
+  Folder: `videos/uss_ranger/`. Built in session "Fleet's End v4" with **every gate pre-approved by the owner (2026-11-19)**: do not stop
+  at the hook or shot list; finished video by the next morning. Copy the USS Nevada scripts (`videos/uss_nevada/full/build/`, `mk/`),
+  which carry the latest fixes (focus.py, no groan rule, film-window checks). Read `videos/uss_nevada/full/BUILD_REPORT_v1.md` (sections
+  4, 8, 10, 11) for the lessons. No Top Gun film clips: titles/names only.
+
 ## Per-video pipeline (Oriskany is the worked example; copy its scripts, do not rewrite from scratch)
 1. Research: Gemini dossier (`research/GEMINI_BRIEF_v3.md` pattern) → `FACT_SHEET.md` → 3 independent fact-checkers on
    official sources (`FACTCHECK_A/B/C_*.md` pattern). Gemini invents claims; nothing unverified goes in the script.
