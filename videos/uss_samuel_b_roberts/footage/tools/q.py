@@ -20,7 +20,7 @@ for q in a:
         except Exception as e: print("ERR", e); break
         for h in hs:
             s = summarize(h["_source"]["record"])
-            if s["naId"] in seen or not s["local"] or (loc and not loc.search(str(s["local"]))) or not s["dos"] or len(s["dos"]) > 3: continue
+            if s["naId"] in seen or not s["local"] or (loc and not loc.search(str(s["local"]))) or len(s["dos"]) > 8: continue
             txt = (s["title"] or "") + " " + s["note"]
             if pat and not pat.search(txt): continue
             seen.add(s["naId"]); out.write(json.dumps(s) + "\n")
