@@ -1,0 +1,58 @@
+[
+ {
+  "chapter": "c01",
+  "start": 0.0,
+  "frames_rendered": 1192,
+  "frames_wanted": 1192,
+  "source": "/home/user/ship-channel/videos/uss_ranger/full/chapter/render_c01.mp4"
+ },
+ {
+  "chapter": "c02",
+  "start": 39.73,
+  "frames_rendered": 2298,
+  "frames_wanted": 2297,
+  "source": "/home/user/ship-channel/videos/uss_ranger/full/chapter/render_c02.mp4"
+ },
+ {
+  "chapter": "c03",
+  "start": 116.298,
+  "frames_rendered": 2708,
+  "frames_wanted": 2708,
+  "source": "/home/user/ship-channel/videos/uss_ranger/full/chapter/render_c03.mp4"
+ },
+ {
+  "chapter": "c04",
+  "start": 206.556,
+  "frames_rendered": 5016,
+  "frames_wanted": 5015,
+  "source": "/home/user/ship-channel/videos/uss_ranger/full/chapter/render_c04.mp4"
+ },
+ {
+  "chapter": "c05",
+  "start": 373.74,
+  "frames_rendered": 4000,
+  "frames_wanted": 3999,
+  "source": "/home/user/ship-channel/videos/uss_ranger/full/chapter/render_c05.mp4"
+ },
+ {
+  "chapter": "c06",
+  "start": 507.043,
+  "frames_rendered": 3566,
+  "frames_wanted": 3566,
+  "source": "/home/user/ship-channel/videos/uss_ranger/full/chapter/render_c06.mp4"
+ },
+ {
+  "chapter": "c07",
+  "start": 625.896,
+  "frames_rendered": 2510,
+  "frames_wanted": 2509,
+  "source": "/home/user/ship-channel/videos/uss_ranger/full/chapter/render_c07.mp4"
+ },
+ {
+  "chapter": "c08",
+  "start": 709.532,
+  "frames_rendered": 4253,
+  "frames_wanted": 4252,
+  "source": "/home/user/ship-channel/videos/uss_ranger/full/chapter/render_c08.mp4"
+ }
+]
