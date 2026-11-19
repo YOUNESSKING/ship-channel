@@ -113,3 +113,9 @@ https://gofile.io/d/LIT4BWXL (all md5 checked).
 N6 90 and N11 [SURVIVED] 91 (old V1 72). 151 credits used (5,703 -> 5,481; 71 more in that window were another session). Scores used a stand-in
 video ID (the video is not uploaded yet): compare them with each other only. AI1/AI2 are vidIQ-generated, labelled AI, not used.
 Upload kit updated. Thumbnails + PDF: https://gofile.io/d/8AD26sR7 (md5 checked); master stays at https://gofile.io/d/MHsM1Jd8.
+
+## 13. vidIQ thumbnails (owner: "make them with vidIQ", 2026-11-19)
+Generated with vidiq_generate_thumbnail using our real N10 frame (real 1946 Nevada + real Able cloud) as the reference, so the ship keeps
+Nevada's look: **AI3 SHE SURVIVED (vidIQ self-score 97)**, AI4 split 2 A-BOMBS (91, closest to the real ship), AI5 2 A-BOMBS wide (82).
+AI images (STYLE_LOCK says real photos; owner asked for vidIQ here). Artistic licence: she was at anchor, not under way. 66 credits.
+https://gofile.io/d/3cg5jhcP (AI3-AI5 + N10, md5 checked).
