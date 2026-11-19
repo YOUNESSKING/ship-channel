@@ -23,7 +23,7 @@ Read in this order: `CLAUDE.md` → this file → `STYLE_LOCK.md` → `reference
   which carry the latest fixes (focus.py, no groan rule, film-window checks). Read `videos/uss_nevada/full/BUILD_REPORT_v1.md` (sections
   4, 8, 10, 11) for the lessons. No Top Gun film clips: titles/names only.
   **Status 2026-11-19:** built (master v1 14:11, SOUND LOCK OK), record in `videos/uss_ranger/full/BUILD_REPORT_v1.md`. vidIQ scoring and Gofile
-  upload NOT done (the pre-approval came only as a relay from another session): ask the owner. New tools: `build/film_cuts.py` (split film
+  upload done 2026-11-19 (owner asked): https://gofile.io/d/35cTkSsB. vidIQ scoring still waits for the owner's direct OK. New tools: `build/film_cuts.py` (split film
   windows at detected cuts), `build/window_sheet.py` (one-sheet frame check of every window); DVIDS video skips the ship grade.
 
 ## Per-video pipeline (Oriskany is the worked example; copy its scripts, do not rewrite from scratch)

@@ -82,3 +82,7 @@ no Gofile upload. Both are one step once the owner says yes (section 9).
 2. Title choice: your working title overclaims twice (main Top Gun carrier was Enterprise; the Navy says it was no sale).
 3. Watch the master; listen to `voice_sample/names_ranger.mp3`.
 4. Space the upload from USS Nevada (2-3 a week max).
+
+## 10. Delivered (owner asked, 2026-11-19)
+Master v1 (14:11, md5 f8f0cc14a329c3a153418bc23c35e78b, checked on Gofile) + upload kit PDF + thumbnails T1-T4 in one Gofile folder:
+https://gofile.io/d/35cTkSsB
