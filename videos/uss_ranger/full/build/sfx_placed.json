@@ -2903,17 +2903,6 @@
   {
    "role": "waves",
    "file": "waves_a__3d49f79f.wav",
-   "start": 594.533,
-   "end": 599.263,
-   "level_db": -32,
-   "fade": 0.25,
-   "shot": "c06:s26",
-   "end_shot": "c06:s26",
-   "note": "water under today's bay pictures"
-  },
-  {
-   "role": "waves",
-   "file": "waves_a__3d49f79f.wav",
    "start": 620.833,
    "end": 625.896,
    "level_db": -32,
@@ -2975,17 +2964,6 @@
    "fade": 0.25,
    "shot": "c08:s03",
    "end_shot": "c08:s03",
-   "note": "projector loop under archive film"
-  },
-  {
-   "role": "projector",
-   "file": "projector_b__5648e70b.wav",
-   "start": 725.582,
-   "end": 729.982,
-   "level_db": -29,
-   "fade": 0.25,
-   "shot": "c08:s06",
-   "end_shot": "c08:s06",
    "note": "projector loop under archive film"
   },
   {
