@@ -16,12 +16,12 @@ T_CHR = "U.S. NAVY FILM · CHRISTENING AT NEWPORT NEWS, SEPT 1956"
 T_KH = "ILLUSTRATIVE · U.S. NAVY VIDEO · EX-USS KITTY HAWK UNDER TOW, 2022"
 FILMS = {
  # --- the 2015 tow out of Bremerton (DVIDS 393470, 1080p): the only HD film of the Ranger
- "tow_bow": ("dvids_vid_393470", [[0.3, 5.0]], T_TOW),
- "tow_pass": ("dvids_vid_393470", [[6.2, 17.0]], T_TOW),
- "tow_quarter": ("dvids_vid_393470", [[18.2, 29.0]], T_TOW),
- "tow_long": ("dvids_vid_393470", [[30.2, 35.8]], T_TOW),
- "tow_island": ("dvids_vid_393470", [[36.2, 41.8]], T_TOW),
- "tow_stern": ("dvids_vid_393470", [[42.2, 52.0]], T_TOW),
+ "tow_bow": ("dvids_vid_393470", [[0.2, 6.0]], T_TOW),
+ "tow_pass": ("dvids_vid_393470", [[6.7, 18.0]], T_TOW),
+ "tow_quarter": ("dvids_vid_393470", [[18.7, 24.0], [24.7, 30.0]], T_TOW),
+ "tow_long": ("dvids_vid_393470", [[30.7, 36.5], [51.7, 59.0]], T_TOW),
+ "tow_island": ("dvids_vid_393470", [[37.2, 41.8]], T_TOW),
+ "tow_stern": ("dvids_vid_393470", [[42.2, 51.0]], T_TOW),
  # --- other carriers' tows from Bremerton (ILLUSTRATIVE)
  "kh_fog": ("dvids_vid_828554", [[0.5, 34.0]], T_KH),
  "kh_fog_b": ("dvids_vid_828554", [[34.5, 69.5]], T_KH),
@@ -31,7 +31,7 @@ FILMS = {
  "sf_c": ("nara_85335", [[130.5, 249.5]], T_SF),
  "a7_deck": ("nara_86068", [[10.5, 54.5]], T_A7),
  "a7_crew": ("nara_86068", [[60.5, 219.5]], T_A7),
- "a7_launch": ("nara_86068", [[450.5, 559.5]], T_A7),
+ "a7_launch": ("nara_86068", [[450.5, 551.0]], T_A7),
  "a7_ready": ("nara_86067", [[10.5, 169.5]], T_A7),
  "a7_flight": ("nara_86067", [[260.5, 409.5]], "U.S. NAVY FILM · A-7A CORSAIRS IN FLIGHT, 1967"),
  "a7_cat": ("nara_86067", [[420.5, 559.5]], T_A7),
@@ -51,7 +51,7 @@ FILMS = {
  "f14_dusk": ("dvids_vid_9295", [[4.5, 61.5]], "ILLUSTRATIVE · U.S. NAVY VIDEO · F-14D, USS THEODORE ROOSEVELT, 2005"),
  "f14_steam": ("dvids_vid_9295", [[62.5, 99.5]], "ILLUSTRATIVE · U.S. NAVY VIDEO · CATAPULT CREW, 2005"),
  "unrep": ("nara_86312", [[20.5, 299.5]], "ILLUSTRATIVE · U.S. NAVY FILM · REPLENISHMENT OFF VIETNAM, 1968"),
- "forrestal_leaves": ("dvids_vid_320929", [[0.5, 19.5]], "U.S. NAVY VIDEO · EX-USS FORRESTAL LEAVES FOR THE SCRAPYARD, 2014"),
+ "forrestal_leaves": ("dvids_vid_320929", [[5.7, 18.7]], "U.S. NAVY VIDEO · EX-USS FORRESTAL LEAVES FOR THE SCRAPYARD, 2014"),
 }
 
 
@@ -290,7 +290,7 @@ B["c08"] = [
  E("So that is what happened", "F:tow_island.mp4"),
  E("The Navy paid a penny", "P:dvids_ima_1799515", label="EX-USS RANGER, 2015"),
  E("And the ship itself is gone", "M:c08_gone", map="brownsville: the RANGER icon at the yard fades out on 'gone'"),
- E("But not all of her", "P:nara_7578690", label="USS RANGER RECORD PRINT, 1965"),
+ E("But not all of her", "P:nara_7578690", label="INSIDE USS RANGER, 1965"),
  E("More than five tons", "M:c08_lexington", map="gulfmex: Texas coast; BROWNSVILLE -> CORPUS CHRISTI line; pin 'USS LEXINGTON MUSEUM' on 'Lexington'; '5+ TONS' on 'five'"),
  E("in Corpus Christi, Texas", "MS:m_c08_lexington.mp4@end", move="in"),
  E("Gauges, windows and controls", "CARD", card=dict(variant="line", kicker="FROM HER MACHINERY ROOM", text="GAUGES · WINDOWS · CONTROLS", at="@controls"), cbg="P:nara_6444115"),

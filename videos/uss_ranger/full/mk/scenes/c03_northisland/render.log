@@ -1,0 +1,5 @@
+[hyperframes] browserGpuMode probe → software (WebGL unavailable)
+[BrowserManager] HeadlessExperimental.beginFrame probe failed after 299ms: Protocol error (HeadlessExperimental.enable): 'HeadlessExperimental.enable' wasn't found; falling back to screenshot mode.
+[BrowserManager] HeadlessExperimental.beginFrame probe failed after 384ms: Protocol error (HeadlessExperimental.enable): 'HeadlessExperimental.enable' wasn't found; falling back to screenshot mode.
+[non-blocking] Failed to load resource: the server responded with a status of 404 (Not Found)
+[non-blocking] Failed to load resource: the server responded with a status of 404 (Not Found)

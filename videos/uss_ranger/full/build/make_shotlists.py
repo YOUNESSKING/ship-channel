@@ -21,8 +21,17 @@ CH = {c["key"]: c for c in json.load(open(os.path.join(FULL, "chapters.json")))[
 sys.path.insert(0, HERE)
 from beats import FILMS, B
 FW = {}
+_CUTS = json.load(open(os.path.join(HERE, "film_cuts.json"))) if os.path.exists(os.path.join(HERE, "film_cuts.json")) else {}
+def _split(reel, wins):   # Ranger: never across a detected cut (build/film_cuts.py); pieces under 1.6 s dropped
+    out = []
+    for a, b in wins:
+        cs = [c for c in _CUTS.get(reel, []) if a < c < b]
+        edges = [a] + [x for c in cs for x in (c - 0.15, c + 0.2)] + [b]
+        for i in range(0, len(edges), 2):
+            if edges[i + 1] - edges[i] >= 1.6: out.append([round(edges[i], 2), round(edges[i + 1], 2)])
+    return out or wins
 for _k, _v in FILMS.items():
-    _r, _w, _t = _v[:3]
+    _r, _w, _t = _v[:3]; _w = _split(_r, _w)
     FW[_k + ".mp4"] = {"reel": _r, "clip_in": 0.0, "windows": _w, "tag": _t, "slow": _v[3] if len(_v) > 3 else None}
 def wiki_src(src): return src, None
 json.dump(FW, open(os.path.join(HERE, "film_windows.json"), "w"), indent=1)

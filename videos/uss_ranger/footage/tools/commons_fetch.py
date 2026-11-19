@@ -52,7 +52,7 @@ if __name__ == "__main__":
             stem = "commons_" + str(r["pageid"]); ext = os.path.splitext(r["url"])[1].lower()
             f = os.path.join(outdir, stem + (".jpg" if not video else ext)); tmp = f + ".part"
             if not os.path.exists(f):
-                subprocess.run(["curl", "-sS", "-L", "--retry", "5", "--retry-delay", "10", "-A", UA, "-o", tmp, r["url"]], check=True)
+                subprocess.run(["curl", "-sS", "-L", "--retry", "8", "--retry-delay", "60", "--retry-all-errors", "-A", UA, "-o", tmp, r["url"]], check=True)
                 if not video:
                     im = Image.open(tmp); im.load(); im = im.convert("RGB"); s = 3840 / max(im.size)
                     if s < 1: im = im.resize((round(im.width * s), round(im.height * s)), Image.LANCZOS)

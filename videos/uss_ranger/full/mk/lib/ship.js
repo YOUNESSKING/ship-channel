@@ -397,5 +397,30 @@ window.ShipK = function () {
     return out;
   };
   S.fade = (el, t, dur = 0.5, to = 0) => tl.to(el, { autoAlpha: to, duration: dur }, t);   // fade a returned element (ship.wrap / dot / etc.)
+  // ================= USS Ranger additions =================
+  Object.assign(S.PL, {
+    BREMERTON: [47.557, -122.632], SEATTLE: [47.606, -122.335], SANDIEGO: [32.70, -117.20], NORTHISLAND: [32.705, -117.19], CORONADO: [32.686, -117.183],
+    NEWPORTNEWS: [36.98, -76.43], CAPEHORN: [-55.98, -67.27], PANAMA: [9.08, -79.68], BROWNSVILLE: [25.95, -97.40], BRAZOS: [26.07, -97.15],
+    SOUTHPADRE: [26.10, -97.165], LEXMUS: [27.815, -97.389], FAIRVIEW: [45.546, -122.43], PORTLAND: [45.52, -122.68], COLMOUTH: [46.25, -124.05],
+    MOGADISHU: [2.04, 45.34], ARABIAN: [16, 62], HORMUZ: [26.5, 56.3], TONKIN: [20.0, 107.6], IRAN: [32.0, 54.0], PERSGULF: [27.4, 51.6] });
+  // ship icon of the Ranger: top-down carrier pointing right (flat deck, angled deck to port, island on the starboard side)
+  SHIP.cv = '<path d="M-49 6 L-49 -6 L-42 -11.5 L-12 -9 L30 -6 L44 -4 L50 0 L44 4 L30 6 Z"/><g class="d"><rect x="4" y="2" width="11" height="3.6" rx="1"/></g>';
+  SHIP_H.cv = 24;
+  S.cv = (pt, o = {}) => S.ship("cv", pt, { len: 110, fat: 1.7, fill: "#D9572B", stroke: "#f7f3ea", sw: 2.4, ...o });
+  // tow route 2015: Bremerton -> Juan de Fuca -> Pacific coast (offshore) -> round the southern tip -> up the Atlantic -> Gulf of Mexico -> Brazos Santiago.
+  // Offshore illustrative polyline (exact route unverified); TOW_PAC ends at the southern tip, TOW_ATL continues from it.
+  S.TOW_PAC = [[47.557, -122.632], [47.9, -122.62], [48.15, -123.1], [48.45, -124.9], [46.5, -125.6], [42, -126.2], [37, -124.3], [33, -120.3], [28.3, -117.2], [23.2, -112.2],
+    [17.5, -106.5], [14, -98.5], [10, -91], [5, -85.5], [-1, -82.8], [-8, -82.3], [-16, -77.3], [-26, -73.3], [-36, -75.3], [-46, -77.6], [-53, -77.4], [-56.0, -74.0], [-57.3, -69.5]];
+  S.TOW_ATL = [[-57.3, -69.5], [-57.2, -65.5], [-55.6, -61.5], [-50, -61.5], [-42, -57], [-35, -52], [-28, -46], [-22, -39.5], [-13, -35.5], [-6, -32.5], [1, -39], [6.5, -48], [11, -56],
+    [15.2, -62.2], [15.8, -70], [17.5, -78], [20.2, -84.2], [21.7, -85.8], [24, -88], [25.3, -92], [25.7, -96.2], [26.07, -97.12]];
+  S.TOW = S.TOW_PAC.concat(S.TOW_ATL.slice(1));
+  // 1958 ghost line (Atlantic -> Cape Horn -> Pacific), schematic
+  S.GHOST58 = [[-49, -56.2], [-52.5, -59], [-55, -63.5], [-56.15, -67.27], [-56.1, -70.5], [-54.3, -74.5], [-52.2, -77.3]];
+  // Brownsville ship channel (schematic centre line, from the Brazos Santiago pass to the port)
+  S.CHAN = [[26.07, -97.15], [26.06, -97.19], [26.035, -97.235], [26.0, -97.29], [25.97, -97.355], [25.952, -97.395]];
+  // normal offset of a px path (right-hand normal in screen coords), d map px
+  S.offsetPath = (pts, d) => pts.map((p, i) => { const a = pts[Math.max(0, i - 1)], b = pts[Math.min(pts.length - 1, i + 1)], dx = b[0] - a[0], dy = b[1] - a[1], L = Math.hypot(dx, dy) || 1;
+    return [p[0] - dy / L * d, p[1] + dx / L * d]; });
+  S.COL = [[46.25, -124.05], [46.2, -123.85], [46.17, -123.5], [46.14, -123.1], [46.06, -122.9], [45.88, -122.8], [45.7, -122.77], [45.64, -122.62], [45.6, -122.45]];
   return S;
 };
