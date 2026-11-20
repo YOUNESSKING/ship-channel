@@ -1,0 +1,151 @@
+{
+ "chapter": "c07",
+ "cues": [
+  {
+   "shot": "s02",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_deep)"
+  },
+  {
+   "shot": "s03",
+   "at": "@seventy",
+   "role": "pop",
+   "note": "card number lands: ≈78"
+  },
+  {
+   "shot": "s07",
+   "at": "@seven",
+   "role": "pop",
+   "note": "gauge counts: TIMES SURFACE PRESSURE"
+  },
+  {
+   "shot": "s08",
+   "at": "@ten",
+   "role": "pop",
+   "note": "card number lands: 10,000+"
+  },
+  {
+   "shot": "s15",
+   "at": "@Limiting",
+   "role": "pop",
+   "note": "card: LIMITING FACTOR"
+  },
+  {
+   "shot": "s16",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_johnston)"
+  },
+  {
+   "shot": "s21",
+   "at": "@twenty",
+   "role": "hit",
+   "note": "gauge hero bar lands: USS JOHNSTON",
+   "offset_after": 0.9
+  },
+  {
+   "shot": "s22",
+   "at": "@fifteen",
+   "role": "pop",
+   "note": "card number lands: ≈15"
+  },
+  {
+   "shot": "s23",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_search)"
+  },
+  {
+   "shot": "s31",
+   "at": "@six",
+   "role": "pop",
+   "note": "card number lands: 6"
+  },
+  {
+   "shot": "s33",
+   "at": "@piloted",
+   "role": "pop",
+   "note": "card: VESCOVO DIVES ON THE WRECK"
+  },
+  {
+   "shot": "s34",
+   "at": "@Samuel",
+   "role": "tick",
+   "note": "label: SAMUEL B. ROBERTS"
+  },
+  {
+   "shot": "s37",
+   "at": "@hundred",
+   "role": "boom",
+   "note": "depth lands"
+  },
+  {
+   "shot": "s37",
+   "at": "@six",
+   "role": "pop",
+   "note": "gauge counts: METRES DOWN (APPROX.)"
+  },
+  {
+   "shot": "s38",
+   "at": "@four",
+   "role": "pop",
+   "note": "card number lands: 400+"
+  },
+  {
+   "shot": "s39",
+   "at": "@twice",
+   "role": "hit",
+   "note": "gauge hero bar lands: SAMUEL B. ROBERTS",
+   "offset_after": 0.8
+  },
+  {
+   "shot": "s40",
+   "at": "@twice",
+   "role": "pop",
+   "note": "card number lands: ≈2×"
+  },
+  {
+   "shot": "s41",
+   "at": "@deepest",
+   "role": "pop",
+   "note": "card: DEEPEST SHIPWRECK FOUND TO DATE"
+  },
+  {
+   "shot": "s44",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c07_record)"
+  }
+ ],
+ "film_shots": [
+  "s03",
+  "s04",
+  "s05",
+  "s06",
+  "s07",
+  "s08",
+  "s09",
+  "s13",
+  "s15",
+  "s18",
+  "s19",
+  "s20",
+  "s21",
+  "s22",
+  "s29",
+  "s30",
+  "s31",
+  "s32",
+  "s33",
+  "s36",
+  "s37",
+  "s38",
+  "s39",
+  "s41",
+  "s42",
+  "s43"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

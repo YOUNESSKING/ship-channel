@@ -1,0 +1,167 @@
+{
+ "chapter": "c05",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": "@twist",
+   "role": "hit",
+   "note": "the twist"
+  },
+  {
+   "shot": "s01",
+   "at": "@twist",
+   "role": "hit",
+   "note": "stamp: DID IT HIT?"
+  },
+  {
+   "shot": "s03",
+   "at": "@none",
+   "role": "pop",
+   "note": "card: NO TORPEDO HIT"
+  },
+  {
+   "shot": "s13",
+   "at": "@six",
+   "role": "hit",
+   "note": "608"
+  },
+  {
+   "shot": "s13",
+   "at": "@six",
+   "role": "pop",
+   "note": "card number lands: 608"
+  },
+  {
+   "shot": "s14",
+   "at": "@three",
+   "role": "pop",
+   "note": "number lands: 300+"
+  },
+  {
+   "shot": "s16",
+   "at": "@providence",
+   "role": "pop",
+   "note": "card: “THE PROVIDENCE OF GOD”"
+  },
+  {
+   "shot": "s17",
+   "at": "@first",
+   "role": "impact",
+   "note": "first hit"
+  },
+  {
+   "shot": "s17",
+   "at": "@eight",
+   "role": "pop",
+   "note": "card number lands: 08:51"
+  },
+  {
+   "shot": "s18",
+   "at": "@twenty",
+   "role": "pop",
+   "note": "card number lands: ≈20"
+  },
+  {
+   "shot": "s19",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c05_kongo)"
+  },
+  {
+   "shot": "s20",
+   "at": "@Kongo",
+   "role": "tick",
+   "note": "label: KONGO"
+  },
+  {
+   "shot": "s21",
+   "at": "@salvo",
+   "role": "explosion",
+   "note": "salvo"
+  },
+  {
+   "shot": "s21",
+   "at": "@Fourteen",
+   "role": "pop",
+   "note": "number lands: 14"
+  },
+  {
+   "shot": "s22",
+   "at": "@forty",
+   "role": "pop",
+   "note": "card number lands: ≈40"
+  },
+  {
+   "shot": "s25",
+   "at": "@Paul",
+   "role": "tick",
+   "note": "label: PAUL H. CARR"
+  },
+  {
+   "shot": "s27",
+   "at": "@alone",
+   "role": "pop",
+   "note": "card: “TRIED, UNASSISTED, TO LOAD AND RAM THE LAST PROJECTILE”"
+  },
+  {
+   "shot": "s31",
+   "at": "@Carr",
+   "role": "pop",
+   "note": "card: USS CARR (FFG-52)"
+  },
+  {
+   "shot": "s33",
+   "at": "@five",
+   "role": "pop",
+   "note": "card number lands: 10:05"
+  },
+  {
+   "shot": "s34",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c05_sank)"
+  },
+  {
+   "shot": "s36",
+   "at": "@turned",
+   "role": "boom",
+   "note": "turn"
+  },
+  {
+   "shot": "s38",
+   "at": "@twenty",
+   "role": "pop",
+   "note": "number lands: ≈09:20"
+  },
+  {
+   "shot": "s47",
+   "at": "@paid",
+   "role": "explosion",
+   "note": "St. Lo"
+  },
+  {
+   "shot": "s51",
+   "at": "@thousand",
+   "role": "pop",
+   "note": "card number lands: 1,000+"
+  }
+ ],
+ "film_shots": [
+  "s06",
+  "s09",
+  "s13",
+  "s15",
+  "s16",
+  "s17",
+  "s22",
+  "s24",
+  "s29",
+  "s30",
+  "s32",
+  "s33",
+  "s42",
+  "s52"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

@@ -1,0 +1,74 @@
+{
+ "chapter": "c08",
+ "cues": [
+  {
+   "shot": "s03",
+   "at": "@stern",
+   "role": "pop",
+   "note": "card: STERN BROKEN AWAY"
+  },
+  {
+   "shot": "s06",
+   "at": "@breech",
+   "role": "pop",
+   "note": "card: A GUN MOUNT, BREECH BROKEN"
+  },
+  {
+   "shot": "s08",
+   "at": "@open",
+   "role": "pop",
+   "note": "card: THE BATTLESHIP'S HIT, STILL OPEN"
+  },
+  {
+   "shot": "s16",
+   "at": "@hallowed",
+   "role": "pop",
+   "note": "card: “A HALLOWED WAR GRAVE”"
+  },
+  {
+   "shot": "s17",
+   "at": "@disturb",
+   "role": "pop",
+   "note": "card: NO DISTURBING WITHOUT PERMISSION"
+  },
+  {
+   "shot": "s18",
+   "at": "@hundred",
+   "role": "pop",
+   "note": "card number lands: $100,000"
+  },
+  {
+   "shot": "s21",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c08_gambier)"
+  },
+  {
+   "shot": "s26",
+   "at": "@dark",
+   "role": "pop",
+   "note": "card: KEEP SEARCHING · OR LEAVE THEM IN THE DARK?"
+  },
+  {
+   "shot": "s27",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c08_endscreen)"
+  }
+ ],
+ "film_shots": [
+  "s01",
+  "s03",
+  "s06",
+  "s07",
+  "s08",
+  "s14",
+  "s17",
+  "s18",
+  "s19",
+  "s24",
+  "s26"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

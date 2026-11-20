@@ -1,0 +1,246 @@
+{
+ "key": "c01",
+ "title": "USS Ranger · Hook",
+ "words": "../build/words.json",
+ "audio_offset": 0.0,
+ "clips_dir": "../segments",
+ "duration": 53.299,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c01_open.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t3.77",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s02.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t5.63",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s03.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s04",
+   "start": "t8.73",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · ISOPOD ON THE ABYSSAL FLOOR, 2026",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c01_s04.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t11.44",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP-SEA FLOOR, 2026",
+   "template": "anim_gauge",
+   "variant": "bars",
+   "params": {
+    "kicker": "Depth, *feet*",
+    "unit": "ft",
+    "decimals": 0,
+    "max": 23000,
+    "items": [
+     {
+      "label": "TITANIC",
+      "value": 12500,
+      "at": 0.1,
+      "count_at": 0.1,
+      "dur": 0.6
+     },
+     {
+      "label": "SAMUEL B. ROBERTS",
+      "value": 22600,
+      "at": "@twice",
+      "count_at": "@twice",
+      "dur": 0.9,
+      "hero": true
+     }
+    ],
+    "note": "nearly twice as deep"
+   },
+   "bg_clip": {
+    "file": "b_c01_s05.mp4",
+    "show": 0.8
+   }
+  },
+  {
+   "id": "s06",
+   "start": "t14.38",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP-SEA FLOOR, 2026",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c01_s06.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t17.56",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "MOUNT KILIMANJARO ON THE SEA FLOOR",
+    "text": "SUMMIT ≈3,000 FT UNDER WATER",
+    "at": "@summit",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c01_s07.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s08",
+   "start": "t22.24",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s08.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s09",
+   "start": "t25.07",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s09.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
+   "start": "t28.61",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s10.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
+   "start": "t31.80",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s11.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s12",
+   "start": "t35.31",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c01_s12.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "DE-413",
+    "text": "USS SAMUEL B. ROBERTS",
+    "at": "@Samuel"
+   }
+  },
+  {
+   "id": "s13",
+   "start": "t39.28",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s13.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s14",
+   "start": "t42.53",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s14.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s15",
+   "start": "t45.73",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s15.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s16",
+   "start": "t48.97",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c01_where.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

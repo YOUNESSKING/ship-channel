@@ -1,0 +1,818 @@
+{
+ "splash_far.mp4": {
+  "reel": "nara_77765",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    76.0,
+    92.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 SHELL SPLASHES AROUND AN ESCORT CARRIER, LEYTE GULF, OCT 1944",
+  "slow": null
+ },
+ "splash_far2.mp4": {
+  "reel": "nara_77765",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    93.0,
+    109.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 SHELL SPLASHES AROUND AN ESCORT CARRIER, LEYTE GULF, OCT 1944",
+  "slow": null
+ },
+ "splash_mid.mp4": {
+  "reel": "nara_77765",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    110.5,
+    124.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 SHELL SPLASHES AROUND AN ESCORT CARRIER, LEYTE GULF, OCT 1944",
+  "slow": null
+ },
+ "cve_deck.mp4": {
+  "reel": "nara_77765",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    9.0,
+    30.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 ESCORT CARRIER FLIGHT DECK, LEYTE GULF, OCT 1944",
+  "slow": null
+ },
+ "cve_deck2.mp4": {
+  "reel": "nara_77765",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    31.0,
+    54.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 ESCORT CARRIER FLIGHT DECK, LEYTE GULF, OCT 1944",
+  "slow": null
+ },
+ "burn_cve.mp4": {
+  "reel": "nara_77732",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    176.0,
+    219.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 ESCORT CARRIER BURNING, OCT 1944",
+  "slow": null
+ },
+ "burn_cve2.mp4": {
+  "reel": "nara_77732",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    220.0,
+    264.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 ESCORT CARRIER BURNING, OCT 1944",
+  "slow": null
+ },
+ "dd_speed.mp4": {
+  "reel": "nara_77732",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    106.0,
+    134.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 A DESTROYER AT SPEED, OCT 1944",
+  "slow": null
+ },
+ "dd_fire.mp4": {
+  "reel": "nara_77716",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    61.0,
+    94.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 A U.S. WARSHIP FIRING, 1944",
+  "slow": null
+ },
+ "dd_sea.mp4": {
+  "reel": "nara_77716",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    101.0,
+    165.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 A U.S. DESTROYER AT SEA, 1944",
+  "slow": null
+ },
+ "dd_sea2.mp4": {
+  "reel": "nara_77716",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    166.0,
+    234.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 A U.S. DESTROYER AT SEA, 1944",
+  "slow": null
+ },
+ "abandon.mp4": {
+  "reel": "nara_77862",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    61.0,
+    130.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 ABANDONING SHIP, NOV 1944",
+  "slow": null
+ },
+ "abandon2.mp4": {
+  "reel": "nara_77862",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    131.0,
+    204.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 ABANDONING SHIP, NOV 1944",
+  "slow": null
+ },
+ "crew_deck.mp4": {
+  "reel": "nara_77862",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    206.0,
+    229.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 SAILORS ON DECK, NOV 1944",
+  "slow": null
+ },
+ "smoke_lay.mp4": {
+  "reel": "nara_77677",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    256.0,
+    286.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 SMOKE SCREEN, LEYTE, OCT 1944",
+  "slow": null
+ },
+ "smoke_lay2.mp4": {
+  "reel": "nara_77677",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    287.0,
+    319.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 SMOKE SCREEN, LEYTE, OCT 1944",
+  "slow": null
+ },
+ "lci_smoke.mp4": {
+  "reel": "nara_77710",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    216.0,
+    249.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 LANDING CRAFT LAYING SMOKE, LEYTE, 1944",
+  "slow": null
+ },
+ "lci_smoke2.mp4": {
+  "reel": "nara_77710",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    261.0,
+    299.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 LANDING CRAFT LAYING SMOKE, LEYTE, 1944",
+  "slow": null
+ },
+ "convoy.mp4": {
+  "reel": "nara_77675",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    9.0,
+    59.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 CONVOY ENTERS LEYTE GULF, OCT 1944",
+  "slow": null
+ },
+ "convoy_close.mp4": {
+  "reel": "nara_77675",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    121.0,
+    150.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 CONVOY ENTERS LEYTE GULF, OCT 1944",
+  "slow": null
+ },
+ "convoy_close2.mp4": {
+  "reel": "nara_77675",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    151.0,
+    184.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 CONVOY ENTERS LEYTE GULF, OCT 1944",
+  "slow": null
+ },
+ "tbm_a.mp4": {
+  "reel": "nara_77698",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    51.0,
+    134.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 TBM AVENGERS, PHILIPPINES, OCT 1944",
+  "slow": null
+ },
+ "tbm_b.mp4": {
+  "reel": "nara_77699",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    19.0,
+    89.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 TBM AVENGERS, PHILIPPINES, OCT 1944",
+  "slow": null
+ },
+ "tbm_c.mp4": {
+  "reel": "nara_77699",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    90.0,
+    159.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 TBM AVENGERS, PHILIPPINES, OCT 1944",
+  "slow": null
+ },
+ "ommaney.mp4": {
+  "reel": "nara_77938",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    9.0,
+    59.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 ESCORT CARRIER BURNING, JAN 1945",
+  "slow": null
+ },
+ "princeton.mp4": {
+  "reel": "nara_77695",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    126.0,
+    174.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 USS PRINCETON EXPLODES, LEYTE GULF, 24 OCT 1944",
+  "slow": null
+ },
+ "gun_crew.mp4": {
+  "reel": "nara_77695",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    176.0,
+    224.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 GUN CREW, LEYTE GULF, OCT 1944",
+  "slow": null
+ },
+ "cve_attack.mp4": {
+  "reel": "nara_77931",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    9.0,
+    99.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 ESCORT CARRIERS UNDER AIR ATTACK, DEC 1944",
+  "slow": null
+ },
+ "burn_oiler.mp4": {
+  "reel": "nara_77844",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    9.0,
+    109.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 A BURNING SHIP, ULITHI, NOV 1944",
+  "slow": null
+ },
+ "kitkun_land.mp4": {
+  "reel": "nara_76144",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    11.0,
+    59.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 USS KITKUN BAY (LATER TAFFY 3), MAY 1944",
+  "slow": null
+ },
+ "kitkun_more.mp4": {
+  "reel": "nara_76144",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    61.0,
+    119.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 USS KITKUN BAY (LATER TAFFY 3), MAY 1944",
+  "slow": null
+ },
+ "kitkun_crew.mp4": {
+  "reel": "nara_76144",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    231.0,
+    289.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 USS KITKUN BAY (LATER TAFFY 3), MAY 1944",
+  "slow": null
+ },
+ "gb_deck.mp4": {
+  "reel": "nara_77138",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    9.0,
+    24.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 USS GAMBIER BAY FLIGHT DECK, JUNE 1944",
+  "slow": null
+ },
+ "gb_land.mp4": {
+  "reel": "nara_77138",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    31.0,
+    49.5
+   ]
+  ],
+  "tag": "U.S. NAVY FILM \u00b7 USS GAMBIER BAY FLIGHT DECK, JUNE 1944",
+  "slow": null
+ },
+ "deep_iso.mp4": {
+  "reel": "noaa_31374",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    0.5,
+    26.0
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 ISOPOD ON THE ABYSSAL FLOOR, 2026",
+  "slow": null
+ },
+ "deep_iso2.mp4": {
+  "reel": "noaa_31374",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    26.5,
+    52.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 ISOPOD ON THE ABYSSAL FLOOR, 2026",
+  "slow": null
+ },
+ "deep_nod.mp4": {
+  "reel": "noaa_31371",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    0.5,
+    49.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
+  "slow": null
+ },
+ "deep_nod2.mp4": {
+  "reel": "noaa_31371",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    50.0,
+    99.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
+  "slow": null
+ },
+ "deep_nod3.mp4": {
+  "reel": "noaa_31371",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    100.0,
+    148.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
+  "slow": null
+ },
+ "deep_field.mp4": {
+  "reel": "noaa_29866",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    0.5,
+    43.0
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
+  "slow": null
+ },
+ "deep_field2.mp4": {
+  "reel": "noaa_29866",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    43.5,
+    86.0
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
+  "slow": null
+ },
+ "deep_field3.mp4": {
+  "reel": "noaa_29866",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    86.5,
+    129.0
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
+  "slow": null
+ },
+ "deep_field4.mp4": {
+  "reel": "noaa_29866",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    129.5,
+    172.0
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
+  "slow": null
+ },
+ "deep_field5.mp4": {
+  "reel": "noaa_29866",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    172.5,
+    215.0
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
+  "slow": null
+ },
+ "deep_field6.mp4": {
+  "reel": "noaa_29866",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    215.5,
+    260.0
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
+  "slow": null
+ },
+ "deep_life.mp4": {
+  "reel": "noaa_31426",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    0.5,
+    60.0
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
+  "slow": null
+ },
+ "deep_life2.mp4": {
+  "reel": "noaa_31426",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    60.5,
+    120.0
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
+  "slow": null
+ },
+ "deep_life3.mp4": {
+  "reel": "noaa_31426",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    120.5,
+    181.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
+  "slow": null
+ },
+ "deep_cuke.mp4": {
+  "reel": "noaa_30697",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    0.5,
+    45.0
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
+  "slow": null
+ },
+ "deep_cuke_b.mp4": {
+  "reel": "noaa_30697",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    45.5,
+    90.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
+  "slow": null
+ },
+ "deep_cuke2.mp4": {
+  "reel": "noaa_30695",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    0.5,
+    65.0
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
+  "slow": null
+ },
+ "deep_cuke2b.mp4": {
+  "reel": "noaa_30695",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    65.5,
+    130.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
+  "slow": null
+ },
+ "deep_sponge.mp4": {
+  "reel": "noaa_31377",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    0.5,
+    65.0
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA SPONGE, 2026",
+  "slow": null
+ },
+ "deep_sponge2.mp4": {
+  "reel": "noaa_31377",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    65.5,
+    130.0
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA SPONGE, 2026",
+  "slow": null
+ },
+ "deep_sponge3.mp4": {
+  "reel": "noaa_31377",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    130.5,
+    196.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA SPONGE, 2026",
+  "slow": null
+ },
+ "deep_coral.mp4": {
+  "reel": "noaa_30426",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    0.5,
+    68.0
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA CORAL, 2026",
+  "slow": null
+ },
+ "deep_coral2.mp4": {
+  "reel": "noaa_30426",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    68.5,
+    136.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA CORAL, 2026",
+  "slow": null
+ },
+ "deep_isopod16b.mp4": {
+  "reel": "noaa_13777",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    19.5,
+    38.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2016",
+  "slow": null
+ },
+ "deep_isopod16.mp4": {
+  "reel": "noaa_13777",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    0.5,
+    19.0
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2016",
+  "slow": null
+ },
+ "squid.mp4": {
+  "reel": "noaa_14718",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    0.5,
+    59.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP WATER",
+  "slow": null
+ },
+ "glass_squid.mp4": {
+  "reel": "noaa_15852",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    0.5,
+    16.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP WATER",
+  "slow": null
+ },
+ "snow.mp4": {
+  "reel": "noaa_4660",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    0.3,
+    8.8
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 'MARINE SNOW' IN THE DARK",
+  "slow": null
+ },
+ "anemone.mp4": {
+  "reel": "noaa_30114",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    0.5,
+    47.0
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA ANEMONE, 2025",
+  "slow": null
+ },
+ "anemone2.mp4": {
+  "reel": "noaa_30114",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    47.5,
+    94.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA ANEMONE, 2025",
+  "slow": null
+ },
+ "dumbo.mp4": {
+  "reel": "noaa_12253",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    0.5,
+    46.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP WATER",
+  "slow": null
+ },
+ "flapjack.mp4": {
+  "reel": "noaa_15175",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    0.5,
+    88.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 FLAPJACK OCTOPUS, 2023",
+  "slow": null
+ },
+ "angler.mp4": {
+  "reel": "noaa_29881",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    0.5,
+    31.0
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP WATER",
+  "slow": null
+ },
+ "angler2.mp4": {
+  "reel": "noaa_29881",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    31.5,
+    62.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP WATER",
+  "slow": null
+ }
+}

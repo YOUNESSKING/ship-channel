@@ -1,0 +1,331 @@
+{
+ "key": "c06",
+ "title": "USS Ranger · Fifty Hours",
+ "words": "../build/words.json",
+ "audio_offset": 543.144,
+ "clips_dir": "../segments",
+ "duration": 85.945,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · U.S. NAVY FILM · ABANDONING SHIP, NOV 1944",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c06_s01.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t5.43",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "dim": "lt",
+    "kicker": "SURVIVORS IN THE WATER",
+    "number": "≈120",
+    "number_at": "@hundred",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s02.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s03",
+   "start": "t8.51",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s03.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s04",
+   "start": "t14.04",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c06_rafts.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t18.12",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · U.S. NAVY FILM · A U.S. DESTROYER AT SEA, 1944",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c06_s05.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s06",
+   "start": "t21.10",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s06.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t22.93",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s07.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s08",
+   "start": "t26.45",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · CONVOY ENTERS LEYTE GULF, OCT 1944",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c06_s08.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s09",
+   "start": "t31.87",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "dim": "lt",
+    "kicker": "KILLED, OF ≈220",
+    "number": "≈90",
+    "number_at": "@ninety",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s09.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s10",
+   "start": "t35.91",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s10.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
+   "start": "t39.15",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s11.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s12",
+   "start": "t43.92",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "ROBERT W. COPELAND'S BOOK",
+    "text": "THE SPIRIT OF THE SAMMY-B",
+    "at": "@Spirit",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s12.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s13",
+   "start": "t49.14",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s13.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s14",
+   "start": "t51.45",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "TAFFY 3 · 25 OCTOBER 1944",
+    "text": "PRESIDENTIAL UNIT CITATION",
+    "at": "@Presidential",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s14.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s15",
+   "start": "t57.17",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s15.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s16",
+   "start": "t60.55",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s16.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s17",
+   "start": "t62.87",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s17.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s18",
+   "start": "t67.12",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s18.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s19",
+   "start": "t68.51",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c06_gulf.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s20",
+   "start": "t72.88",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s20.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s21",
+   "start": "t76.31",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s21.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s22",
+   "start": "t77.92",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "18 APRIL 1988",
+    "text": "OPERATION PRAYING MANTIS",
+    "at": "@Praying",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c06_s22.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s23",
+   "start": "t82.86",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c06_s23.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

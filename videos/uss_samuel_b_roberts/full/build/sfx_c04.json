@@ -1,0 +1,75 @@
+{
+ "chapter": "c04",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": "@Clifton",
+   "role": "tick",
+   "note": "label: CLIFTON SPRAGUE"
+  },
+  {
+   "shot": "s09",
+   "at": "@Ernest",
+   "role": "tick",
+   "note": "label: ERNEST E. EVANS"
+  },
+  {
+   "shot": "s14",
+   "at": "@survival",
+   "role": "hit",
+   "note": "quote"
+  },
+  {
+   "shot": "s14",
+   "at": "@survival",
+   "role": "pop",
+   "note": "card: “SURVIVAL COULD NOT BE EXPECTED”"
+  },
+  {
+   "shot": "s17",
+   "at": "@Newly",
+   "role": "pop",
+   "note": "card: “NEWLY INDUCTED · MARRIED · UNACCUSTOMED TO NAVY WAYS”"
+  },
+  {
+   "shot": "s18",
+   "at": "@one",
+   "role": "pop",
+   "note": "card number lands: <1"
+  },
+  {
+   "shot": "s19",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c04_run)"
+  },
+  {
+   "shot": "s21",
+   "at": "@four",
+   "role": "pop",
+   "note": "number lands: 4,000"
+  },
+  {
+   "shot": "s24",
+   "at": "@three",
+   "role": "hit",
+   "note": "three torpedoes"
+  },
+  {
+   "shot": "s24",
+   "at": "@Chokai",
+   "role": "tick",
+   "note": "label: HEAVY CRUISER CHOKAI"
+  }
+ ],
+ "film_shots": [
+  "s02",
+  "s05",
+  "s15",
+  "s17",
+  "s18",
+  "s25"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

@@ -1,0 +1,409 @@
+{
+ "key": "c03",
+ "title": "USS Ranger · The Little Ship",
+ "words": "../build/words.json",
+ "audio_offset": 160.858,
+ "clips_dir": "../segments",
+ "duration": 96.812,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · ESCORT CARRIER FLIGHT DECK, LEYTE GULF, OCT 1944",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s01.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t3.75",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_houston.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t6.83",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s03.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s04",
+   "start": "t10.78",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s04.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t12.60",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "28 APRIL 1944",
+    "text": "COMMISSIONED",
+    "at": "@commissioned",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s05.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s06",
+   "start": "t16.98",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s06.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t19.97",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s07.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s08",
+   "start": "t24.82",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s08.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s09",
+   "start": "t27.75",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c03_s09.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "MAIN GUNS",
+    "number": "2 × 5 in",
+    "number_at": "@two"
+   }
+  },
+  {
+   "id": "s10",
+   "start": "t32.11",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "dim": "lt",
+    "kicker": "TORPEDOES",
+    "number": "3",
+    "number_at": "@three",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s10.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s11",
+   "start": "t34.32",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · U.S. NAVY FILM · SAILORS ON DECK, NOV 1944",
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "f_c03_s11.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "CREW",
+    "number": "≈220",
+    "number_at": "@two"
+   }
+  },
+  {
+   "id": "s12",
+   "start": "t37.69",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · CONVOY ENTERS LEYTE GULF, OCT 1944",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s12.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s13",
+   "start": "t39.83",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · U.S. NAVY FILM · LANDING CRAFT LAYING SMOKE, LEYTE, 1944",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s13.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s14",
+   "start": "t44.29",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s14.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s15",
+   "start": "t45.92",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_guadalcanal.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s16",
+   "start": "t51.15",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · U.S. NAVY FILM · LANDING CRAFT LAYING SMOKE, LEYTE, 1944",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s16.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s17",
+   "start": "t52.79",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "COXSWAIN SAMUEL B. ROBERTS",
+    "text": "DREW THE FIRE ONTO HIS OWN BOAT",
+    "at": "@drew",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s17.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s18",
+   "start": "t55.87",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "s_c03_s18.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s19",
+   "start": "t59.04",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS GAMBIER BAY FLIGHT DECK, JUNE 1944",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s19.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s20",
+   "start": "t62.06",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "dim": "lt",
+    "kicker": "NAVY CROSS · KILLED AT GUADALCANAL",
+    "number": "21",
+    "unit": "years old",
+    "number_at": "@twenty",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s20.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s21",
+   "start": "t65.92",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c03_s21.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "LT CDR",
+    "text": "ROBERT W. COPELAND",
+    "at": "@Robert"
+   }
+  },
+  {
+   "id": "s22",
+   "start": "t71.16",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "TACOMA, WASHINGTON · BORN 1910",
+    "text": "LAWYER · NAVAL RESERVE",
+    "at": "@lawyer",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c03_s22.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s23",
+   "start": "t76.28",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · ESCORT CARRIER FLIGHT DECK, LEYTE GULF, OCT 1944",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s23.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s24",
+   "start": "t79.67",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · U.S. NAVY FILM · A U.S. DESTROYER AT SEA, 1944",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c03_s24.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s25",
+   "start": "t81.80",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s25.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s26",
+   "start": "t86.84",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s26.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s27",
+   "start": "t89.74",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c03_to_samar.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s28",
+   "start": "t93.20",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c03_s28.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

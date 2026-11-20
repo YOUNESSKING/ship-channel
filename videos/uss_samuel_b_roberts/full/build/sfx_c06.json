@@ -1,0 +1,55 @@
+{
+ "chapter": "c06",
+ "cues": [
+  {
+   "shot": "s02",
+   "at": "@hundred",
+   "role": "pop",
+   "note": "card number lands: ≈120"
+  },
+  {
+   "shot": "s04",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c06_rafts)"
+  },
+  {
+   "shot": "s09",
+   "at": "@ninety",
+   "role": "pop",
+   "note": "card number lands: ≈90"
+  },
+  {
+   "shot": "s12",
+   "at": "@Spirit",
+   "role": "pop",
+   "note": "card: THE SPIRIT OF THE SAMMY-B"
+  },
+  {
+   "shot": "s14",
+   "at": "@Presidential",
+   "role": "pop",
+   "note": "card: PRESIDENTIAL UNIT CITATION"
+  },
+  {
+   "shot": "s19",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c06_gulf)"
+  },
+  {
+   "shot": "s22",
+   "at": "@Praying",
+   "role": "pop",
+   "note": "card: OPERATION PRAYING MANTIS"
+  }
+ ],
+ "film_shots": [
+  "s01",
+  "s02",
+  "s05",
+  "s08"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

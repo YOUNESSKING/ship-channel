@@ -1,0 +1,479 @@
+{
+ "key": "c02",
+ "title": "USS Ranger · Taffy Three",
+ "words": "../build/words.json",
+ "audio_offset": 53.299,
+ "clips_dir": "../segments",
+ "duration": 107.559,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_samar.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t3.72",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s02.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t6.14",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "OFF SAMAR",
+    "text": "25 OCTOBER 1944",
+    "at": "@twenty",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c02_s03.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s04",
+   "start": "t9.85",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s04.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t14.17",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_taffy.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s06",
+   "start": "t17.35",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c02_s06.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "ESCORT CARRIERS",
+    "number": "6",
+    "number_at": "@Six"
+   }
+  },
+  {
+   "id": "s07",
+   "start": "t19.45",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c02_s07.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "DESTROYERS",
+    "number": "3",
+    "number_at": "@Three"
+   }
+  },
+  {
+   "id": "s08",
+   "start": "t21.04",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c02_s08.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "DESTROYER ESCORTS",
+    "number": "4",
+    "number_at": "@Four"
+   }
+  },
+  {
+   "id": "s09",
+   "start": "t23.05",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · CONVOY ENTERS LEYTE GULF, OCT 1944",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c02_s09.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
+   "start": "t25.09",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · CONVOY ENTERS LEYTE GULF, OCT 1944",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c02_s10.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
+   "start": "t27.53",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · USS KITKUN BAY (LATER TAFFY 3), MAY 1944",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c02_s11.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s12",
+   "start": "t29.66",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_contact.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s13",
+   "start": "t34.55",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s13.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s14",
+   "start": "t37.02",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c02_s14.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "VICE ADMIRAL",
+    "text": "TAKEO KURITA",
+    "at": "@Takeo"
+   }
+  },
+  {
+   "id": "s15",
+   "start": "t41.85",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "KURITA'S CENTER FORCE, 25 OCT",
+    "text": "4 BATTLESHIPS · 6 HEAVY CRUISERS · ≈12 DESTROYERS",
+    "at": "@Four",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c02_s15.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s16",
+   "start": "t47.70",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_route.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s17",
+   "start": "t51.02",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c02_decoy.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s18",
+   "start": "t55.94",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s18.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s19",
+   "start": "t58.23",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s19.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s20",
+   "start": "t60.12",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s20.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s21",
+   "start": "t62.74",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c02_s21.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "LARGEST BATTLESHIP OF THE WAR",
+    "text": "YAMATO",
+    "at": "@Yamato"
+   }
+  },
+  {
+   "id": "s22",
+   "start": "t68.37",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c02_s22.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "YAMATO",
+    "number": "860+",
+    "unit": "ft",
+    "number_at": "@eight"
+   }
+  },
+  {
+   "id": "s23",
+   "start": "t71.03",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c02_s23.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "MAIN GUNS",
+    "number": "9 × 18 in",
+    "number_at": "@nine"
+   }
+  },
+  {
+   "id": "s24",
+   "start": "t73.72",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · SHELL SPLASHES AROUND AN ESCORT CARRIER, LEYTE GULF, OCT 1944",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c02_s24.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s25",
+   "start": "t76.36",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s25.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s26",
+   "start": "t80.93",
+   "sfx": false,
+   "template": "number_clip",
+   "variant": "right",
+   "clip": {
+    "file": "p_c02_s26.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "SAMUEL B. ROBERTS",
+    "number": "≈306",
+    "unit": "ft",
+    "number_at": "@three"
+   }
+  },
+  {
+   "id": "s27",
+   "start": "t85.22",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "dim": "lt",
+    "kicker": "HER BIGGEST GUNS",
+    "number": "5",
+    "unit": "in",
+    "number_at": "@five",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c02_s27.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s28",
+   "start": "t88.05",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "dim": "lt",
+    "kicker": "YAMATO'S GUNS",
+    "number": "18.1",
+    "unit": "in",
+    "number_at": "@three",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c02_s28.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s29",
+   "start": "t91.56",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "dim": "lt",
+    "kicker": "YAMATO VS SAMUEL B. ROBERTS",
+    "number": "40×",
+    "unit": "heavier",
+    "number_at": "@forty",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c02_s29.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s30",
+   "start": "t95.27",
+   "sfx": false,
+   "tag": "U.S. NAVY FILM · SHELL SPLASHES AROUND AN ESCORT CARRIER, LEYTE GULF, OCT 1944",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c02_s30.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s31",
+   "start": "t99.91",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · U.S. NAVY FILM · SMOKE SCREEN, LEYTE, OCT 1944",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c02_s31.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s32",
+   "start": "t103.99",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c02_s32.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

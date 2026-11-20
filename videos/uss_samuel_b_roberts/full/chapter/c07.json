@@ -1,0 +1,705 @@
+{
+ "key": "c07",
+ "title": "USS Ranger · The Search",
+ "words": "../build/words.json",
+ "audio_offset": 629.089,
+ "clips_dir": "../segments",
+ "duration": 169.065,
+ "fade_out": 0.0,
+ "res": 1080,
+ "anim_theme": {
+  "hue": 205,
+  "sat": 0.85
+ },
+ "font": "oswald",
+ "shots": [
+  {
+   "id": "s01",
+   "start": "t0.00",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s01.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s02",
+   "start": "t3.93",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_deep.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s03",
+   "start": "t8.20",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "dim": "lt",
+    "kicker": "LOST: 1944 → 2022",
+    "number": "≈78",
+    "unit": "years",
+    "number_at": "@seventy",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c07_s03.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s04",
+   "start": "t12.31",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP WATER",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s04.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s05",
+   "start": "t14.30",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP WATER",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s05.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s06",
+   "start": "t18.60",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP WATER",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s06.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s07",
+   "start": "t21.87",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · ISOPOD ON THE ABYSSAL FLOOR, 2026",
+   "template": "anim_gauge",
+   "variant": "meter",
+   "params": {
+    "kicker": "Pressure at the *wreck*",
+    "value": 700,
+    "label": "TIMES SURFACE PRESSURE",
+    "unit": "×",
+    "decimals": 0,
+    "max": 750,
+    "count_at": "@seven",
+    "dur": 1.0
+   },
+   "bg_clip": {
+    "file": "b_c07_s07.mp4",
+    "show": 0.8
+   }
+  },
+  {
+   "id": "s08",
+   "start": "t27.71",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "dim": "lt",
+    "kicker": "ON EVERY SQUARE INCH",
+    "number": "10,000+",
+    "unit": "lb",
+    "number_at": "@ten",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c07_s08.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s09",
+   "start": "t30.80",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP WATER",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s09.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s10",
+   "start": "t34.17",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s10.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s11",
+   "start": "t38.03",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s11.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s12",
+   "start": "t40.06",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s12.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s13",
+   "start": "t43.20",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · FLAPJACK OCTOPUS, 2023",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s13.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s14",
+   "start": "t47.86",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s14.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s15",
+   "start": "t52.45",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "VICTOR VESCOVO'S SUBMERSIBLE",
+    "text": "LIMITING FACTOR",
+    "at": "@Limiting",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c07_s15.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s16",
+   "start": "t54.82",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_johnston.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s17",
+   "start": "t59.88",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s17.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s18",
+   "start": "t61.67",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP-SEA CORAL, 2026",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s18.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s19",
+   "start": "t65.27",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP-SEA FLOOR, 2026",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s19.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s20",
+   "start": "t69.31",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP-SEA FLOOR, 2026",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s20.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s21",
+   "start": "t72.44",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP-SEA FLOOR, 2026",
+   "template": "anim_gauge",
+   "variant": "bars",
+   "params": {
+    "kicker": "Deepest wreck, *2021*",
+    "unit": "ft",
+    "decimals": 0,
+    "max": 23000,
+    "items": [
+     {
+      "label": "TITANIC",
+      "value": 12500,
+      "at": 0.05,
+      "count_at": 0.05,
+      "dur": 0.3
+     },
+     {
+      "label": "USS JOHNSTON",
+      "value": 21180,
+      "at": "@twenty",
+      "count_at": "@twenty",
+      "dur": 0.9,
+      "hero": true
+     }
+    ]
+   },
+   "bg_clip": {
+    "file": "b_c07_s21.mp4",
+    "show": 0.8
+   }
+  },
+  {
+   "id": "s22",
+   "start": "t77.56",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "dim": "lt",
+    "kicker": "JOHNSTON'S RECORD LASTED",
+    "number": "≈15",
+    "unit": "months",
+    "number_at": "@fifteen",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c07_s22.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s23",
+   "start": "t81.65",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_search.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s24",
+   "start": "t85.58",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s24.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s25",
+   "start": "t87.89",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s25.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s26",
+   "start": "t89.94",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s26.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s27",
+   "start": "t93.24",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s27.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s28",
+   "start": "t97.98",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s28.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s29",
+   "start": "t100.98",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP-SEA FLOOR, 2026",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s29.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s30",
+   "start": "t106.70",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · 'MARINE SNOW' IN THE DARK",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s30.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s31",
+   "start": "t109.64",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "dim": "lt",
+    "kicker": "17-24 JUNE 2022",
+    "number": "6",
+    "unit": "dives",
+    "number_at": "@six",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c07_s31.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s32",
+   "start": "t112.55",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP-SEA FLOOR, 2026",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s32.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s33",
+   "start": "t117.22",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "22 JUNE 2022",
+    "text": "VESCOVO DIVES ON THE WRECK",
+    "at": "@piloted",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c07_s33.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s34",
+   "start": "t123.11",
+   "sfx": false,
+   "template": "lower_third",
+   "variant": "kicker_line",
+   "clip": {
+    "file": "p_c07_s34.mp4",
+    "push": null
+   },
+   "params": {
+    "kicker": "CONFIRMED BY THE U.S. NAVY",
+    "text": "SAMUEL B. ROBERTS",
+    "at": "@Samuel"
+   }
+  },
+  {
+   "id": "s35",
+   "start": "t128.83",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c07_s35.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s36",
+   "start": "t132.59",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP-SEA SPONGE, 2026",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s36.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s37",
+   "start": "t135.74",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · ISOPOD ON THE ABYSSAL FLOOR, 2026",
+   "template": "anim_gauge",
+   "variant": "meter",
+   "params": {
+    "kicker": "Depth of the *wreck*",
+    "value": 6900,
+    "label": "METRES DOWN (APPROX.)",
+    "unit": "m",
+    "decimals": 0,
+    "max": 7000,
+    "count_at": "@six",
+    "dur": 1.0
+   },
+   "bg_clip": {
+    "file": "b_c07_s37.mp4",
+    "show": 0.8
+   }
+  },
+  {
+   "id": "s38",
+   "start": "t140.83",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "dim": "lt",
+    "kicker": "DEEPER THAN JOHNSTON",
+    "number": "400+",
+    "unit": "m",
+    "number_at": "@four",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c07_s38.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s39",
+   "start": "t144.94",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP-SEA SPONGE, 2026",
+   "template": "anim_gauge",
+   "variant": "bars",
+   "params": {
+    "kicker": "Depth, *feet*",
+    "unit": "ft",
+    "decimals": 0,
+    "max": 23000,
+    "items": [
+     {
+      "label": "TITANIC",
+      "value": 12500,
+      "at": "@twelve",
+      "count_at": "@twelve",
+      "dur": 0.7
+     },
+     {
+      "label": "USS JOHNSTON",
+      "value": 21180,
+      "at": 0.1,
+      "count_at": 0.1,
+      "dur": 0.3
+     },
+     {
+      "label": "SAMUEL B. ROBERTS",
+      "value": 22600,
+      "at": "@twice",
+      "count_at": "@twice",
+      "dur": 0.8,
+      "hero": true
+     }
+    ]
+   },
+   "bg_clip": {
+    "file": "b_c07_s39.mp4",
+    "show": 0.8
+   }
+  },
+  {
+   "id": "s40",
+   "start": "t149.25",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "dim": "lt",
+    "kicker": "VS THE TITANIC",
+    "number": "≈2×",
+    "unit": "deeper",
+    "number_at": "@twice",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c07_s40.mp4",
+    "push": null
+   }
+  },
+  {
+   "id": "s41",
+   "start": "t152.23",
+   "sfx": false,
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "GUINNESS WORLD RECORDS",
+    "text": "DEEPEST SHIPWRECK FOUND TO DATE",
+    "at": "@deepest",
+    "kicker_at": 0.15
+   },
+   "clip": {
+    "file": "b_c07_s41.mp4",
+    "push": null
+   },
+   "card_bg": true
+  },
+  {
+   "id": "s42",
+   "start": "t156.78",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP-SEA FLOOR, 2026",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s42.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s43",
+   "start": "t161.93",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP-SEA FLOOR, 2016",
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "f_c07_s43.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s44",
+   "start": "t166.79",
+   "sfx": false,
+   "template": "map_clip",
+   "variant": "baked",
+   "clip": {
+    "file": "m_c07_record.mp4",
+    "push": null
+   },
+   "params": {}
+  }
+ ]
+}

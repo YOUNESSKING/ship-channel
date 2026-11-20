@@ -1,0 +1,136 @@
+{
+ "chapter": "c02",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c02_samar)"
+  },
+  {
+   "shot": "s03",
+   "at": "@twenty",
+   "role": "pop",
+   "note": "card: 25 OCTOBER 1944"
+  },
+  {
+   "shot": "s05",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c02_taffy)"
+  },
+  {
+   "shot": "s06",
+   "at": "@Six",
+   "role": "pop",
+   "note": "number lands: 6"
+  },
+  {
+   "shot": "s07",
+   "at": "@Three",
+   "role": "pop",
+   "note": "number lands: 3"
+  },
+  {
+   "shot": "s08",
+   "at": "@Four",
+   "role": "pop",
+   "note": "number lands: 4"
+  },
+  {
+   "shot": "s12",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c02_contact)"
+  },
+  {
+   "shot": "s14",
+   "at": "@Takeo",
+   "role": "tick",
+   "note": "label: TAKEO KURITA"
+  },
+  {
+   "shot": "s15",
+   "at": "@Four",
+   "role": "pop",
+   "note": "card: 4 BATTLESHIPS · 6 HEAVY CRUISERS · ≈12 DESTROYERS"
+  },
+  {
+   "shot": "s16",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c02_route)"
+  },
+  {
+   "shot": "s17",
+   "at": 0.1,
+   "role": "tick",
+   "note": "map beat (c02_decoy)"
+  },
+  {
+   "shot": "s21",
+   "at": "@Yamato",
+   "role": "tick",
+   "note": "label: YAMATO"
+  },
+  {
+   "shot": "s22",
+   "at": "@eight",
+   "role": "pop",
+   "note": "number lands: 860+"
+  },
+  {
+   "shot": "s23",
+   "at": "@nine",
+   "role": "pop",
+   "note": "number lands: 9 × 18 in"
+  },
+  {
+   "shot": "s24",
+   "at": "@fire",
+   "role": "boom",
+   "note": "first salvo"
+  },
+  {
+   "shot": "s25",
+   "at": "@shells",
+   "role": "impact",
+   "note": "straddle"
+  },
+  {
+   "shot": "s26",
+   "at": "@three",
+   "role": "pop",
+   "note": "number lands: ≈306"
+  },
+  {
+   "shot": "s27",
+   "at": "@five",
+   "role": "pop",
+   "note": "card number lands: 5"
+  },
+  {
+   "shot": "s28",
+   "at": "@three",
+   "role": "pop",
+   "note": "card number lands: 18.1"
+  },
+  {
+   "shot": "s29",
+   "at": "@forty",
+   "role": "pop",
+   "note": "card number lands: 40×"
+  }
+ ],
+ "film_shots": [
+  "s03",
+  "s09",
+  "s10",
+  "s11",
+  "s24",
+  "s30",
+  "s31"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

@@ -1,0 +1,56 @@
+{
+ "chapter": "c01",
+ "cues": [
+  {
+   "shot": "s01",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c01_open)"
+  },
+  {
+   "shot": "s05",
+   "at": "@twice",
+   "role": "hit",
+   "note": "gauge hero bar lands: SAMUEL B. ROBERTS",
+   "offset_after": 0.9
+  },
+  {
+   "shot": "s07",
+   "at": "@summit",
+   "role": "pop",
+   "note": "card: SUMMIT ≈3,000 FT UNDER WATER"
+  },
+  {
+   "shot": "s11",
+   "at": "@biggest",
+   "role": "impact",
+   "note": "splashes"
+  },
+  {
+   "shot": "s12",
+   "at": "@Samuel",
+   "role": "tick",
+   "note": "label: USS SAMUEL B. ROBERTS"
+  },
+  {
+   "shot": "s14",
+   "at": "@expect",
+   "role": "explosion",
+   "note": "St. Lo blast"
+  },
+  {
+   "shot": "s16",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c01_where)"
+  }
+ ],
+ "film_shots": [
+  "s04",
+  "s05",
+  "s06",
+  "s07"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}

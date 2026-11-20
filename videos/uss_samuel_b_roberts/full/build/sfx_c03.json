@@ -1,0 +1,86 @@
+{
+ "chapter": "c03",
+ "cues": [
+  {
+   "shot": "s02",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_houston)"
+  },
+  {
+   "shot": "s05",
+   "at": "@commissioned",
+   "role": "pop",
+   "note": "card: COMMISSIONED"
+  },
+  {
+   "shot": "s09",
+   "at": "@two",
+   "role": "pop",
+   "note": "number lands: 2 × 5 in"
+  },
+  {
+   "shot": "s10",
+   "at": "@three",
+   "role": "pop",
+   "note": "card number lands: 3"
+  },
+  {
+   "shot": "s11",
+   "at": "@two",
+   "role": "pop",
+   "note": "number lands: ≈220"
+  },
+  {
+   "shot": "s15",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_guadalcanal)"
+  },
+  {
+   "shot": "s17",
+   "at": "@drew",
+   "role": "pop",
+   "note": "card: DREW THE FIRE ONTO HIS OWN BOAT"
+  },
+  {
+   "shot": "s20",
+   "at": "@twenty",
+   "role": "pop",
+   "note": "card number lands: 21"
+  },
+  {
+   "shot": "s21",
+   "at": "@Robert",
+   "role": "tick",
+   "note": "label: ROBERT W. COPELAND"
+  },
+  {
+   "shot": "s22",
+   "at": "@lawyer",
+   "role": "pop",
+   "note": "card: LAWYER · NAVAL RESERVE"
+  },
+  {
+   "shot": "s27",
+   "at": 0.3,
+   "role": "whoosh",
+   "note": "map move starts (c03_to_samar)"
+  }
+ ],
+ "film_shots": [
+  "s01",
+  "s10",
+  "s11",
+  "s12",
+  "s13",
+  "s16",
+  "s17",
+  "s19",
+  "s22",
+  "s23",
+  "s24"
+ ],
+ "generic_video_shots": [],
+ "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"
+}
