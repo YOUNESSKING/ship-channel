@@ -209,14 +209,14 @@
 | c07 | s03 | 637.29 | 4.11 | text_card | CARD + bg F:deep_cuke.mp4 | For almost seventy-eight years |
 | c07 | s04 | 641.4 | 1.99 | clip_plain | F:glass_squid.mp4 | The problem was the depth |
 | c07 | s05 | 643.38 | 4.3 | clip_plain | P:noaa_29809 | Off the coast of Samar, the sea floor |
-| c07 | s06 | 647.68 | 3.27 | clip_plain | P:noaa_23573 | and most submarines, could never |
+| c07 | s06 | 647.68 | 3.27 | clip_plain | P:noaa_30028 | and most submarines, could never |
 | c07 | s07 | 650.96 | 5.84 | anim_gauge | A:anim_gauge + bg F:deep_iso.mp4 | At that depth, the water presses down |
 | c07 | s08 | 656.8 | 3.09 | text_card | CARD + bg F:deep_field3.mp4 | More than ten thousand pounds |
 | c07 | s09 | 659.89 | 3.36 | clip_plain | F:squid.mp4 | It is completely dark |
 | c07 | s10 | 663.26 | 3.86 | clip_plain | P:cm_NH_96797 | For most of history |
 | c07 | s11 | 667.12 | 2.04 | clip_plain | P:cm_USN_710619 | Divers could never go there |
 | c07 | s12 | 669.15 | 3.14 | clip_plain | P:cm_USN_1097019 | Most research submarines could not |
-| c07 | s13 | 672.29 | 4.66 | clip_plain | P:noaa_28962 | That changed with one man |
+| c07 | s13 | 672.29 | 4.66 | clip_plain | P:noaa_29719 | That changed with one man |
 | c07 | s14 | 676.95 | 4.59 | clip_plain | P:noaa_32188 | with a submersible built to dive |
 | c07 | s15 | 681.54 | 2.38 | text_card | CARD + bg P:noaa_27577 | It was called the Limiting Factor |
 | c07 | s16 | 683.91 | 5.06 | map_clip | M:c07_johnston | In March, twenty twenty-one |
@@ -233,7 +233,7 @@
 | c07 | s27 | 722.33 | 4.74 | clip_plain | P:nara_78682532_p01 | A naval historian on the team |
 | c07 | s28 | 727.07 | 3.0 | clip_plain | P:nara_78682532_p02 | and worked out a better place |
 | c07 | s29 | 730.07 | 5.72 | clip_plain | F:deep_cuke_b.mp4 | A sonar specialist, Jeremie Morizet |
-| c07 | s30 | 735.79 | 2.94 | clip_plain | P:noaa_29806 | Then the submersible went down |
+| c07 | s30 | 735.79 | 2.94 | clip_plain | P:noaa_29771 | Then the submersible went down |
 | c07 | s31 | 738.73 | 2.91 | text_card | CARD + bg F:deep_nod3.mp4 | Over eight days, the team made six dives |
 | c07 | s32 | 741.64 | 4.67 | clip_plain | F:deep_field4.mp4 | Each one was a trip of about four miles |
 | c07 | s33 | 746.3 | 5.9 | text_card | CARD + bg F:deep_isopod16.mp4 | On the twenty-second of June |
