@@ -43,6 +43,17 @@ for k in KEYS:
             if f in c: q[f] = c[f]
         if "end_shot" in c: q["end_shot"] = f"{k}:{c['end_shot']}"
         CUES.append(q)
+# SBR v2 (owner 2026-11-20: "sound effects too loud"; build/../CRITIQUE_SOUND_v1.md): per-cue trims, cuts only (the locked role
+# levels stay as they are): hit -3, boom -2, impact -3, explosion -4.5 dB + 6 kHz lowpass (softer transient, less limiter clamp);
+# a pop within 0.35 s of a hit / impact / boom / explosion is dropped (it stacked on the big beat).
+TRIM = {"hit": -3.0, "boom": -2.0, "impact": -3.0, "explosion": -4.5}
+for c in CUES:
+    if c["role"] in TRIM: c["gain"] = TRIM[c["role"]]
+    if c["role"] == "explosion": c["lowpass"] = 6000
+_big = [ST[c["shot"]][0] + c["at"] for c in CUES if c["role"] in TRIM]
+_n = len(CUES)
+CUES = [c for c in CUES if not (c["role"] == "pop" and any(abs(ST[c["shot"]][0] + c["at"] - t) < 0.35 for t in _big))]
+LOG.append(("all", "-", "pop", f"dropped {_n - len(CUES)} pop(s) stacked on a big beat (SBR v2)"))
 # whooshes: only on the first map of a chapter (big moves), at most WHOOSH_MAX
 out, nw = [], 0
 for c in CUES:
