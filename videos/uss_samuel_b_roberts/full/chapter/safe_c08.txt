@@ -1,0 +1,14 @@
+safe_area.js adjusted:
+  size 19->25.4: 2022 DIVES
+  size 19->25.4: 2022 DIVES
+  size 19->25.4: 25 OCTOBER 1944 → TODAY
+  size 19->25.4: SAMUEL J. COX, NAVAL HISTORY A
+  size 19->25.4: SUNKEN MILITARY CRAFT ACT
+  size 19->25.4: PENALTY, PER DAY
+  size 19->25.4: YOUR VERDICT
+  fit x0.82: A GUN MOUNT, BREECH BROKEN
+  fit x0.76: THE BATTLESHIP’S HIT, STILL OP
+  fit x0.95: “A HALLOWED WAR GRAVE”
+  fit x0.69: NO DISTURBING WITHOUT PERMISSI
+  fit x0.53: KEEP SEARCHING · OR LEAVE THEM
+PASS: no text breaks the size / safe-area / font rules (126.3 s checked every 0.5 s)
