@@ -1,0 +1,33 @@
+safe_area.js adjusted:
+  size 19->25.4: LOST: 1944 → 2022
+  size 24->25.4: 0
+  size 24->25.4: 150
+  size 24->25.4: 300
+  size 24->25.4: 450
+  size 24->25.4: 600
+  size 24->25.4: 750
+  size 19->25.4: ON EVERY SQUARE INCH
+  size 19->25.4: VICTOR VESCOVO’S SUBMERSIBLE
+  size 19->25.4: JOHNSTON’S RECORD LASTED
+  size 19->25.4: 17–24 JUNE 2022
+  size 19->25.4: 22 JUNE 2022
+  size 19->25.4: CONFIRMED BY THE U.S. NAVY
+  size 24->25.4: 0
+  size 24->25.4: 1,400
+  size 24->25.4: 2,800
+  size 24->25.4: 4,200
+  size 24->25.4: 5,600
+  size 24->25.4: 7,000
+  size 19->25.4: DEEPER THAN JOHNSTON
+  size 19->25.4: VS THE TITANIC
+  size 19->25.4: GUINNESS WORLD RECORDS
+  fit x0.95: TIMES SURFACE PRESSURE
+  wrap: SAMUEL B. ROBERTS
+  fit x0.89: DEEPEST SHIPWRECK FOUND TO DAT
+  lift 8px: 0
+  lift 27px: CONFIRMED BY THE U.S. NAVYSAMU
+  lift 8px: 0
+  lift 33px: TITANIC
+  lift 12px: CONFIRMED BY THE U.S. NAVYSAMU
+  lift 82px: 0 ft
+PASS: no text breaks the size / safe-area / font rules (155.6 s checked every 0.5 s)

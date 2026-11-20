@@ -31,7 +31,7 @@
 | c01 | s04 | 8.73 | 2.7 | clip_plain | F:deep_iso.mp4 | She is the deepest shipwreck |
 | c01 | s05 | 11.44 | 2.95 | anim_gauge | A:anim_gauge + bg F:deep_nod.mp4 | Nearly twice as deep as the Titanic |
 | c01 | s06 | 14.38 | 3.18 | clip_plain | F:deep_field.mp4 | Stand Mount Kilimanjaro |
-| c01 | s07 | 17.56 | 4.68 | text_card | CARD + bg F:deep_field2.mp4 | and its summit would still be |
+| c01 | s07 | 17.56 | 4.68 | text_card | CARD + bg P:noaa_29809 | and its summit would still be |
 | c01 | s08 | 22.24 | 2.83 | clip_plain | P:cm_80_G_288885 | She was one of the smallest warships |
 | c01 | s09 | 25.07 | 3.53 | clip_plain | P:cm_80_G_382868 | A destroyer escort, built for chasing |
 | c01 | s10 | 28.61 | 3.2 | clip_plain | P:cm_80_G_270514 | And on one October morning |
@@ -43,7 +43,7 @@
 | c01 | s16 | 48.97 | 4.33 | map_clip | M:c01_where | And what did the cameras find |
 | c02 | s01 | 53.3 | 3.71 | map_clip | M:c02_samar | Start with the place |
 | c02 | s02 | 57.01 | 2.42 | clip_plain | P:nara_134372706_p02 | an island in the central Philippines |
-| c02 | s03 | 59.43 | 3.71 | text_card | CARD + bg P:cm_NH_106573 | on the twenty-fifth of October |
+| c02 | s03 | 59.43 | 3.71 | text_card | CARD + bg P:cm_USS_Kalinin_Bay_CVE_68_underway_at_sea_circa_in | on the twenty-fifth of October |
 | c02 | s04 | 63.15 | 4.32 | clip_plain | P:cm_USS_Gambier_Bay_CVE_73_and_escorts_making_smoke | Just after dawn, a small American group |
 | c02 | s05 | 67.47 | 3.18 | map_clip | M:c02_taffy | Its radio call sign was Taffy Three |
 | c02 | s06 | 70.65 | 2.1 | number_clip | P:cm_80_G_302258 | Six small escort carriers |
@@ -55,7 +55,7 @@
 | c02 | s12 | 82.96 | 4.89 | map_clip | M:c02_contact | At about a quarter to seven |
 | c02 | s13 | 87.85 | 2.47 | clip_plain | P:cm_NH_63435 | Then the shapes of battleships |
 | c02 | s14 | 90.32 | 4.83 | lower_third | P:cm_Takeo_Kurita | It was the Japanese Center Force |
-| c02 | s15 | 95.15 | 5.84 | text_card | CARD + bg P:cm_NH_63432 | Four battleships |
+| c02 | s15 | 95.15 | 5.84 | text_card | CARD + bg P:cm_Japanese_cruiser_Kumano | Four battleships |
 | c02 | s16 | 101.0 | 3.32 | map_clip | M:c02_route | They had come through the San Bernardino |
 | c02 | s17 | 104.31 | 4.92 | map_clip | M:c02_decoy | The American battleships and fleet carriers |
 | c02 | s18 | 109.23 | 2.3 | clip_plain | P:cm_80_G_288099 | chasing a Japanese decoy |
@@ -67,9 +67,9 @@
 | c02 | s24 | 127.02 | 2.64 | clip_plain | F:splash_far.mp4 | Just before seven, she opened fire |
 | c02 | s25 | 129.66 | 4.56 | clip_plain | P:cm_80_G_287492 | Within minutes, giant shells |
 | c02 | s26 | 134.23 | 4.29 | number_clip | P:cm_John_C_Butler_class_destroyer_escort_outboard_pr | The Samuel B. Roberts was about three hundred |
-| c02 | s27 | 138.52 | 2.83 | text_card | CARD + bg P:cm_80_G_272513 | Her biggest guns were five inches |
-| c02 | s28 | 141.35 | 3.51 | text_card | CARD + bg P:cm_L42_09_06_02 | Yamato's shells were more than three times |
-| c02 | s29 | 144.86 | 3.71 | text_card | CARD + bg P:cm_NH_63473 | And the Yamato weighed more than forty |
+| c02 | s27 | 138.52 | 2.83 | text_card | CARD + bg P:cm_NH_71524 | Her biggest guns were five inches |
+| c02 | s28 | 141.35 | 3.51 | text_card | CARD + bg P:cm_Kongo_on_sea_trials_1936 | Yamato's shells were more than three times |
+| c02 | s29 | 144.86 | 3.71 | text_card | CARD + bg P:cm_Tone_1942_cropped | And the Yamato weighed more than forty |
 | c02 | s30 | 148.57 | 4.64 | clip_plain | F:splash_mid.mp4 | On paper, it was not a battle |
 | c02 | s31 | 153.21 | 4.08 | clip_plain | F:smoke_lay.mp4 | The Americans had smoke |
 | c02 | s32 | 157.29 | 3.57 | clip_plain | P:cm_Destroyers_laying_smoke_screen_during_Battle_off | and a handful of small ships |
@@ -82,7 +82,7 @@
 | c03 | s07 | 180.83 | 4.86 | clip_plain | P:cm_80_G_295001 | Built fast and in large numbers |
 | c03 | s08 | 185.68 | 2.92 | clip_plain | P:cm_NH_73090 | They were never meant to face a battleship |
 | c03 | s09 | 188.61 | 4.36 | number_clip | P:cm_BS_70488 | She carried two five-inch guns |
-| c03 | s10 | 192.97 | 2.21 | text_card | CARD + bg F:dd_sea.mp4 | three torpedoes and depth charges |
+| c03 | s10 | 192.97 | 2.21 | text_card | CARD + bg P:cm_CVE_71_launching_FM_2s_Samar_25Oct1944 | three torpedoes and depth charges |
 | c03 | s11 | 195.17 | 3.38 | number_clip | P:cm_NH_71529 | And a crew of about two hundred |
 | c03 | s12 | 198.55 | 2.13 | clip_plain | F:convoy_close2.mp4 | Her name came from a young sailor |
 | c03 | s13 | 200.69 | 4.46 | clip_plain | F:lci_smoke2.mp4 | Samuel Booker Roberts was a coxswain |
@@ -150,7 +150,7 @@
 | c05 | s19 | 416.16 | 3.98 | map_clip | M:c05_kongo | At about nine o'clock |
 | c05 | s20 | 420.14 | 2.31 | lower_third | P:cm_Kongo_under_attack | They came from the battleship Kongo |
 | c05 | s21 | 422.44 | 3.17 | number_clip | P:nara_204952541 | Fourteen-inch shells |
-| c05 | s22 | 425.61 | 5.3 | text_card | CARD + bg F:ommaney.mp4 | They tore a hole in her side |
+| c05 | s22 | 425.61 | 5.3 | text_card | CARD + bg P:cm_USS_Gambier_Bay_Under_Attack_during_Battle_of_Le | They tore a hole in her side |
 | c05 | s23 | 430.91 | 2.13 | clip_plain | P:cm_80_G_287110 | The Roberts slowed, and stopped |
 | c05 | s24 | 433.05 | 5.3 | clip_plain | F:burn_cve2.mp4 | The ship that had charged a fleet |
 | c05 | s25 | 438.35 | 4.55 | lower_third | P:cm_80_G_287113 | At one of her guns |
@@ -159,7 +159,7 @@
 | c05 | s28 | 452.05 | 2.24 | clip_plain | P:cm_NH_71528 | to load the last shell |
 | c05 | s29 | 454.3 | 1.64 | clip_plain | F:burn_oiler.mp4 | He died there |
 | c05 | s30 | 455.93 | 2.69 | text_card | CARD + bg P:cm_80_G_272915 | He came from Checotah, Oklahoma |
-| c05 | s31 | 458.62 | 5.18 | text_card | CARD + bg P:nara_6439675 | Years later, the Navy named a frigate |
+| c05 | s31 | 458.62 | 5.18 | text_card | CARD + bg P:nara_6410152 | Years later, the Navy named a frigate |
 | c05 | s32 | 463.8 | 3.78 | clip_plain | F:abandon.mp4 | Shortly after nine, the order came |
 | c05 | s33 | 467.59 | 4.26 | text_card | CARD + bg F:deep_iso2.mp4 | At five past ten |
 | c05 | s34 | 471.84 | 3.44 | map_clip | M:c05_sank | Stern first, with her bow |
@@ -182,7 +182,7 @@
 | c05 | s51 | 535.27 | 3.53 | text_card | CARD + bg P:cm_Sangamon_class_carrier_hit_off_Samar_1944 | More than a thousand Americans |
 | c05 | s52 | 538.8 | 4.34 | clip_plain | F:convoy.mp4 | But the Japanese fleet never reached |
 | c06 | s01 | 543.14 | 5.43 | clip_plain | F:abandon2.mp4 | For the men of the Roberts |
-| c06 | s02 | 548.57 | 3.08 | text_card | CARD + bg F:anemone.mp4 | About a hundred and twenty survivors |
+| c06 | s02 | 548.57 | 3.08 | text_card | CARD + bg P:nara_6406091 | About a hundred and twenty survivors |
 | c06 | s03 | 551.65 | 5.54 | clip_plain | P:cm_USS_Gambier_Bay_CVE_73_under_fire_at_Samar_1944 | holding on to three rafts |
 | c06 | s04 | 557.19 | 4.07 | map_clip | M:c06_rafts | They drifted for about fifty hours |
 | c06 | s05 | 561.26 | 2.98 | clip_plain | F:dd_sea.mp4 | Under the sun by day |
@@ -241,10 +241,10 @@
 | c07 | s35 | 757.92 | 3.76 | clip_plain | P:nara_78682532_p03 | The expedition handed its images |
 | c07 | s36 | 761.68 | 3.15 | clip_plain | F:deep_sponge2.mp4 | and kept the exact position private |
 | c07 | s37 | 764.83 | 5.09 | anim_gauge | A:anim_gauge + bg F:deep_coral2.mp4 | She lies almost six thousand nine hundred |
-| c07 | s38 | 769.92 | 4.1 | text_card | CARD + bg P:noaa_30028 | Deeper than the Johnston |
+| c07 | s38 | 769.92 | 4.1 | text_card | CARD + bg P:cm_80_G_1041330 | Deeper than the Johnston |
 | c07 | s39 | 774.03 | 4.31 | anim_gauge | A:anim_gauge + bg F:deep_sponge3.mp4 | The Titanic lies about twelve thousand |
-| c07 | s40 | 778.34 | 2.98 | text_card | CARD + bg P:noaa_29719 | The Roberts is nearly twice as deep |
-| c07 | s41 | 781.31 | 4.55 | text_card | CARD + bg P:noaa_29771 | Guinness World Records lists her |
+| c07 | s40 | 778.34 | 2.98 | text_card | CARD + bg P:cm_80_G_1044525 | The Roberts is nearly twice as deep |
+| c07 | s41 | 781.31 | 4.55 | text_card | CARD + bg P:cm_USN_1044872_Bathyscaphe_Trieste | Guinness World Records lists her |
 | c07 | s42 | 785.87 | 5.16 | clip_plain | F:deep_life3.mp4 | The dives to reach her were the deepest |
 | c07 | s43 | 791.02 | 4.86 | clip_plain | F:deep_isopod16b.mp4 | In June twenty twenty-two, she became |
 | c07 | s44 | 795.88 | 2.27 | map_clip | M:c07_record | And she still holds the record |

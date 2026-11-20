@@ -1,0 +1,12 @@
+safe_area.js adjusted:
+  size 19->25.4: SURVIVORS IN THE WATER
+  size 19->25.4: KILLED, OF ≈220
+  size 19->25.4: ROBERT W. COPELAND’S BOOK
+  size 19->25.4: TAFFY 3 · 25 OCTOBER 1944
+  size 19->25.4: 18 APRIL 1988
+  size 19->25.4: 18 APRIL 1988
+  fit x0.93: THE SPIRIT OF THE SAMMY-B
+  fit x0.91: PRESIDENTIAL UNIT CITATION
+  lift 19px: 18 APRIL 1988OPERATION PRAYING
+  lift 20px: 18 APRIL 1988OPERATION PRAYING
+PASS: no text breaks the size / safe-area / font rules (85.4 s checked every 0.5 s)

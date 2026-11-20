@@ -1,0 +1,21 @@
+safe_area.js adjusted:
+  size 19->25.4: OFF SAMAR
+  size 19->25.4: ESCORT CARRIERS
+  size 19->25.4: DESTROYERS
+  size 19->25.4: DESTROYER ESCORTS
+  size 19->25.4: VICE ADMIRAL
+  size 19->25.4: KURITA’S CENTER FORCE, 25 OCT
+  size 19->25.4: LARGEST BATTLESHIP OF THE WAR
+  size 19->25.4: YAMATO
+  size 19->25.4: MAIN GUNS
+  size 19->25.4: SAMUEL B. ROBERTS
+  size 19->25.4: HER BIGGEST GUNS
+  size 19->25.4: YAMATO’S GUNS
+  size 19->25.4: YAMATO VS SAMUEL B. ROBERTS
+  fit x0.48: 4 BATTLESHIPS · 6 HEAVY CRUISE
+  fit x0.97: 9 × 18 in
+  lift 19px: VICE ADMIRALTAKEO KURITA
+  lift 19px: LARGEST BATTLESHIP OF THE WARY
+  lift 20px: VICE ADMIRALTAKEO KURITA
+  lift 20px: LARGEST BATTLESHIP OF THE WARY
+PASS: no text breaks the size / safe-area / font rules (94.3 s checked every 0.5 s)

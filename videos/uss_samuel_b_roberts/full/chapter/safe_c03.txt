@@ -1,0 +1,13 @@
+safe_area.js adjusted:
+  size 19->25.4: 28 APRIL 1944
+  size 19->25.4: MAIN GUNS
+  size 19->25.4: TORPEDOES
+  size 19->25.4: CREW
+  size 19->25.4: COXSWAIN SAMUEL B. ROBERTS
+  size 19->25.4: NAVY CROSS · KILLED AT GUADALC
+  size 19->25.4: LT CDR
+  size 19->25.4: TACOMA, WASHINGTON · BORN 1910
+  fit x0.72: DREW THE FIRE ONTO HIS OWN BOA
+  lift 19px: LT CDRROBERT W. COPELAND
+  lift 20px: LT CDRROBERT W. COPELAND
+PASS: no text breaks the size / safe-area / font rules (72.5 s checked every 0.5 s)
