@@ -179,6 +179,7 @@ window.ShipK = function () {
     const pr = { p: 0 }, rot = head && head.querySelector(".rot");
     const upd = () => { mp.setAttribute("stroke-dashoffset", (1 - pr.p).toFixed(4)); if (head) { const q = at(Math.max(0.001, pr.p)); head.style.transform = `translate(${q[0]}px,${q[1]}px)`; rot.style.transform = `rotate(${o.head === "ship" || o.head === "jet" || o.head === "missile" ? q[2] : 0}deg)`; } };
     upd();
+    tl.fromTo(g, { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.01, immediateRender: true }, t);   // Roberts fix: no round-cap dot of the empty mask before the route starts
     tl.to(pr, { p: 1, duration: dur, ease: o.ease || "power1.inOut", onUpdate: upd, immediateRender: false }, t);
     if (o.until != null) tl.to(g, { autoAlpha: 0, duration: 0.4 }, o.until);
     return { g, at, head, end: pts[pts.length - 1] };
@@ -422,5 +423,44 @@ window.ShipK = function () {
   S.offsetPath = (pts, d) => pts.map((p, i) => { const a = pts[Math.max(0, i - 1)], b = pts[Math.min(pts.length - 1, i + 1)], dx = b[0] - a[0], dy = b[1] - a[1], L = Math.hypot(dx, dy) || 1;
     return [p[0] - dy / L * d, p[1] + dx / L * d]; });
   S.COL = [[46.25, -124.05], [46.2, -123.85], [46.17, -123.5], [46.14, -123.1], [46.06, -122.9], [45.88, -122.8], [45.7, -122.77], [45.64, -122.62], [45.6, -122.45]];
+
+  // ================= USS Samuel B. Roberts additions =================
+  Object.assign(S.PL, {
+    WRECK: [11.7, 126.15],      // APPROX. (position private); chosen where the baked depth is ~6,900 m
+    WRECK_W: [11.7, 126.5],     // APPROX. locator used on the wide Western Pacific map (offset east so the ring clears the coast)
+    TAFFY: [11.7, 126.0],       // APPROX. Taffy 3 at dawn
+    SANBERN: [12.55, 124.25], SIBUYAN: [12.6, 122.8], LEYTEGULF: [10.8, 125.4], SAMARC: [12.0, 125.1],
+    HOUSTON: [29.76, -95.37], GALV: [29.3, -94.8], BROWNYARD: [29.735, -95.22], POINTCRUZ: [-9.42, 159.88],
+    FFG58: [26.8, 51.9],        // APPROX. mine strike, central Persian Gulf
+    JOHNSTON: [11.85, 126.2],   // APPROX.
+    GAMBIER: [12.05, 126.3] });  // APPROX.
+  // pulsing ring + centre dot in SCREEN space (constant size whatever the zoom)
+  S.sring = (pt, o = {}) => {
+    const t = o.t || 0, r = o.r || 38, c = o.color || S.GOLD, until = o.until != null ? o.until : END + 1;
+    const el = S.label(`<div style="position:relative;width:${2 * r}px;height:${2 * r}px"><div class="p1" style="position:absolute;inset:0;border-radius:50%;border:5px solid ${c};box-shadow:0 0 14px ${c}"></div><div class="p2" style="position:absolute;inset:0;border-radius:50%;border:5px solid ${c};box-shadow:0 0 14px ${c}"></div><div style="position:absolute;left:50%;top:50%;width:${r * 0.5}px;height:${r * 0.5}px;margin:${-r * 0.25}px 0 0 ${-r * 0.25}px;border-radius:50%;background:${c};box-shadow:0 0 14px ${c}"></div></div>`, pt, { t, anchor: "c", size: 20, gap: 0, until: o.until });
+    const rep = Math.max(0, Math.ceil((until - t) / 1.6) - 1);
+    ["p1", "p2"].forEach((k, i) => tl.fromTo(el.querySelector("." + k), { scale: 0.5, opacity: 0.95 }, { scale: 1.7, opacity: 0, duration: 1.6, repeat: rep, ease: "sine.out", immediateRender: false }, t + i * 0.8));
+    return el;
+  };
+  // follower point for a moving thing: at(p) from S.sail / S.route, same ease name and window as the mover
+  S.fpt = (at, t0, dur, easeName = "power1.inOut") => { const e = gsap.parseEase(easeName); return (t) => { const u = Math.min(1, Math.max(0, (t - t0) / dur)); const q = at(e(u)); return [q[0], q[1]]; }; };
+  // dashed rectangle (world px corners), pops in
+  S.dbox = (a, b, o = {}) => {
+    const t = o.t || 0, s = S.scaleAt(t), c = o.color || "#f3eee2";
+    const g = document.createElementNS(NS, "rect");
+    g.setAttribute("x", Math.min(a[0], b[0])); g.setAttribute("y", Math.min(a[1], b[1])); g.setAttribute("width", Math.abs(b[0] - a[0])); g.setAttribute("height", Math.abs(b[1] - a[1]));
+    g.setAttribute("fill", o.fill || "none"); g.setAttribute("stroke", c); g.setAttribute("stroke-width", (o.width || 5) / s); g.setAttribute("stroke-dasharray", `${18 / s} ${12 / s}`);
+    g.style.filter = `drop-shadow(0 0 ${4 / s}px rgba(0,0,0,.9))`; svg.appendChild(g);
+    tl.fromTo(g, { autoAlpha: 0 }, { autoAlpha: 1, duration: o.dur || 0.7, ease: "power2.out", immediateRender: true }, t);
+    if (o.until != null) tl.to(g, { autoAlpha: 0, duration: 0.35 }, o.until);
+    return g;
+  };
+  // count-up number card in map space: text(n) -> html; reaches `to` exactly at time tEnd
+  S.counter = (pt, text, to, t0, tEnd, o = {}) => {
+    const el = S.label(text(0), pt, { t: t0, anchor: o.anchor || "c", size: o.size || 110, box: true, boxColor: o.boxColor || "rgba(150,40,30,.94)", dx: o.dx, dy: o.dy, gap: o.gap });
+    const st = { n: 0 };
+    tl.to(st, { n: to, duration: Math.max(0.2, tEnd - t0), ease: "power1.out", onUpdate: () => { el.innerHTML = text(Math.round(st.n)); }, immediateRender: false }, t0);
+    return el;
+  };
   return S;
 };
