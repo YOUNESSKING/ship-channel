@@ -1,5 +1,5 @@
 {
- "duration": 878.77,
+ "duration": 906.473,
  "fps": 30,
  "chapters": [
   {
@@ -33,45 +33,45 @@
    "key": "c04",
    "title": "The Torpedo Run",
    "start": 257.67,
-   "voice_end": 340.408,
-   "words": 220,
-   "end": 340.858,
-   "duration": 83.188
+   "voice_end": 353.125,
+   "words": 251,
+   "end": 353.575,
+   "duration": 95.905
   },
   {
    "key": "c05",
    "title": "The Duel",
-   "start": 340.858,
-   "voice_end": 514.991,
-   "words": 461,
-   "end": 515.441,
-   "duration": 174.583
+   "start": 353.575,
+   "voice_end": 542.694,
+   "words": 502,
+   "end": 543.144,
+   "duration": 189.569
   },
   {
    "key": "c06",
    "title": "Fifty Hours",
-   "start": 515.441,
-   "voice_end": 600.936,
+   "start": 543.144,
+   "voice_end": 628.639,
    "words": 227,
-   "end": 601.386,
+   "end": 629.089,
    "duration": 85.945
   },
   {
    "key": "c07",
    "title": "The Search",
-   "start": 601.386,
-   "voice_end": 770.001,
+   "start": 629.089,
+   "voice_end": 797.704,
    "words": 429,
-   "end": 770.451,
+   "end": 798.154,
    "duration": 169.065
   },
   {
    "key": "c08",
    "title": "Found",
-   "start": 770.451,
-   "voice_end": 877.77,
+   "start": 798.154,
+   "voice_end": 905.473,
    "words": 308,
-   "end": 878.77,
+   "end": 906.473,
    "duration": 108.319
   }
  ]
