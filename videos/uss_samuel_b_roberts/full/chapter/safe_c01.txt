@@ -1,8 +1,17 @@
 safe_area.js adjusted:
-  size 19->25.4: MOUNT KILIMANJARO ON THE SEA F
+  size 24->25.4: 0
+  size 24->25.4: 4,600
+  size 24->25.4: 9,200
+  size 24->25.4: 13,800
+  size 24->25.4: 18,400
+  size 24->25.4: 23,000
+  size 19->25.4: KILIMANJARO’S SUMMIT, STILL UN
   size 19->25.4: DE-413
+  fit x0.93: FEET DOWN (APPROX.)
   wrap: SAMUEL B. ROBERTS
-  fit x0.82: SUMMIT ≈3,000 FT UNDER WATER
+  wrap: SAMUEL B. ROBERTS (DEPTH)
+  wrap: MT KILIMANJARO (HEIGHT)
+  lift 8px: 0
   lift 50px: nearly twice as deep
   lift 19px: DE-413USS SAMUEL B. ROBERTS
   lift 20px: DE-413USS SAMUEL B. ROBERTS
