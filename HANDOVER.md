@@ -1,4 +1,4 @@
-# Fleet's End: HANDOVER (as of 2026-11-15)
+# Fleet's End: HANDOVER (as of 2026-11-20)
 
 Read in this order: `CLAUDE.md` → this file → `STYLE_LOCK.md` → `reference/battle-maps/HANDOVER.md` and
 `reference/battle-maps/STYLE_LOCK.md` (parent rules) → `PLAN.md` → `research/FIRST_5_VIDEOS.md` →
@@ -33,7 +33,7 @@ Read in this order: `CLAUDE.md` → this file → `STYLE_LOCK.md` → `reference
   next morning. Copy the **USS Ranger** scripts (`videos/uss_ranger/full/build/`, `full/mk/`): they are the newest (see lessons below).
   The 2022 dive footage/stills (Caladan Oceanic / Victor Vescovo) are copyrighted: describe only, never show.
 
-  **Status 2026-11-20:** built overnight (master v1 15:24), record in `videos/uss_samuel_b_roberts/full/BUILD_REPORT_v1.md`.
+  **Status 2026-11-20:** built overnight (master v1 15:24, SOUND LOCK OK, blackdetect 0), record in `videos/uss_samuel_b_roberts/full/BUILD_REPORT_v1.md`. Delivered on Gofile (master + kit PDF + thumbnails, md5 checked): https://gofile.io/d/fxwCBlSe. vidIQ: 30 credits (titles).
 
 ### Lessons from USS Samuel B. Roberts (video 5, read before building video 6)
 1. Copy the SBR `full/build/` (newest): `film_bad.py` (fast white-out / blank-frame scan; make_shotlists cuts those spans like scene cuts),

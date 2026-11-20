@@ -19,3 +19,4 @@ Before publishing: re-search news for a deeper wreck (fact-check C: absence of r
 - **v2 (`make_thumbs_v2.py`)**: the real NH 96011 photo of the Roberts (Oct 1944), whole frame, blue duotone, fading into deep water; white Anton + one red box; bottom-right clear; sidebar strip `sidebar_strip_v2.png`.
   **V1 "22,000 FT DOWN" (main, owner's idea; true as a floor: wreck ≈22,500-22,600 ft)**, V2 "DEEPEST WRECK" and V3 "THEY CHARGED" (real Yamato off Samar + Roberts inset) for Test & Compare, V4 "4 MILES DOWN" spare.
 - vidIQ thumbnail scoring not run: score_thumbnail needs a public image URL; the image library upload returns only an id (V1 is in the vidIQ library, 0 credits).
+- Balance AFTER (2026-11-20 05:00 UTC): **5,275** -> 30 credits used by this session (6 title scores x 5). Owner cap ~400: well within.

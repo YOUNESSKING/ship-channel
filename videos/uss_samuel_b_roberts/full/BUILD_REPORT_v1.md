@@ -62,5 +62,40 @@ thumbnails, Gofile upload of master + upload kit PDF + thumbnails. No other spen
   / sinking cues. Music (Zabriskie, Neptune Flux, CC BY 4.0): 01 (hook-c03) -> 03 (torpedo run) -> 04 (the duel / reversal) -> 02 (survivors)
   -> 01 from 200 s (the search) -> 09 (from the answer).
 
-## 6-8. Checks, packaging, final master
-(filled in below after the final mix)
+## 6. Checks (final master)
+| check | result |
+|---|---|
+| `check_sound_lock.py` static + render | **SOUND LOCK OK**: -14.0 LUFS, TP -1.9 dBTP, LRA 2.2 LU (floor 1.7), music under speech -24.5 dB, 9 big beats >= +1 LU over speech, 92 cues within 3 frames, every cue silent by its shot end, 38 beds on shot cuts |
+| ebur128 on the mp4 (`build/ebur128_v1.txt`) | -14.0 LUFS, peak -1.9 dBFS, LRA 2.2 LU |
+| safe-text (every chapter, 0.5 s) | **PASS** c01-c08 (`chapter/safe_c0*.txt`) |
+| shots over 6 s / numbers on words | 0 / 37 of 37 |
+| clip / photo reuse | clean |
+| blackdetect 0.25 s / 0.06 (`build/blackdetect_v1.txt`) | **0** (a 3.3 s near-black still at 10:48 was found on the first master and replaced; two dark ROV stills too) |
+| first frame | the Western Pacific map |
+| contact sheet `FINAL_SHEET_v1.jpg` (every 10 s) | looked at |
+| not run | `tools/film/check_clips.py --no-cuts` (time); every film segment was checked on `build/SEG_SHEET_film.jpg` instead |
+
+## 7. Packaging
+- Titles scored in vidIQ (30 credits; balance 5,305 -> 5,275): **"This Tiny Warship Charged a Battleship Fleet. Now It's the Deepest Wreck Ever
+  Found" 98** (recommended), "They Found Her 22,000 Feet Down. This Is How She Got There" 97, "The Deepest Shipwreck Ever Found Was a Tiny Ship That
+  Charged Battleships" 93; the working title "The Deepest Shipwreck Ever Found" 83. "...Charged the Yamato..." (97) not used: overclaim.
+- Thumbnails v2 (`thumbnails/make_thumbs_v2.py`, real NH 96011 photo, blue duotone fading into deep water): **V1 "22,000 FT DOWN" (main)**,
+  V2 "DEEPEST WRECK" and V3 "THEY CHARGED" for Test & Compare, V4 "4 MILES DOWN" spare. Not scored in vidIQ (score_thumbnail needs a public image URL).
+  The agent's v1 set (blended cut-outs) was rejected.
+- Description with chapters, sources, credits, tags and pinned comment: `full/YOUTUBE_DESCRIPTION_DRAFT.md`; upload kit
+  `full/upload_kit/USSSamuelBRoberts_YouTube_Upload_Kit.pdf` (6 pages).
+
+## 8. Final master
+- `uss_samuel_b_roberts_full_v1.mp4`, 924.47 s (15:24), 1.05 GB, md5 `eaef6c016fcdfb521b02baef5dde93d8` (`build/master_md5.txt`). 720p preview `uss_samuel_b_roberts_preview_720p.mp4`.
+
+## 9. Open items for the owner
+1. Watch the master; listen to `voice_sample/names_sbr.mp3` (EYOS is read "EYE-ohs": the company's own pronunciation was not found).
+2. Card text uses the template's cream-gold colour (as in the delivered Ranger video); STYLE_LOCK says white + one red accent: say if you want it changed.
+3. A few line cards over smoke still read a little dim but legible (c05 "NO TORPEDO HIT", "≈40 ft"; c08 "YOUR VERDICT").
+4. Before publishing, search the news for a deeper shipwreck (the record stood on 20 Nov 2026).
+5. Thumbnail "22,000 FT DOWN" is a floor (the wreck is ≈22,500-22,600 ft). The video says "almost twenty-three thousand feet".
+6. Space the upload from USS Ranger / USS Nevada (2-3 a week max).
+
+## 10. Delivered (owner pre-approved, 2026-11-20)
+Master v1 (15:24, md5 eaef6c016fcdfb521b02baef5dde93d8) + upload kit PDF + thumbnails V1-V4 in one Gofile folder, every md5 checked against the
+upload reply: **https://gofile.io/d/fxwCBlSe**
