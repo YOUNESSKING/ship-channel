@@ -1,4 +1,4 @@
-# YouTube description draft: USS Samuel B. Roberts full video (uss_samuel_b_roberts_full_v1.mp4)
+# YouTube description draft: USS Samuel B. Roberts full video (uss_samuel_b_roberts_full_v2.mp4)
 
 **Upload settings to tick (do not skip):**
 - **Altered or synthetic content: YES** (AI narration; maps and graphics are made for this channel).

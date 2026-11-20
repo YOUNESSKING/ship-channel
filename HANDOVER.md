@@ -33,7 +33,7 @@ Read in this order: `CLAUDE.md` → this file → `STYLE_LOCK.md` → `reference
   next morning. Copy the **USS Ranger** scripts (`videos/uss_ranger/full/build/`, `full/mk/`): they are the newest (see lessons below).
   The 2022 dive footage/stills (Caladan Oceanic / Victor Vescovo) are copyrighted: describe only, never show.
 
-  **Status 2026-11-20:** built overnight (master v1 15:24, SOUND LOCK OK, blackdetect 0), record in `videos/uss_samuel_b_roberts/full/BUILD_REPORT_v1.md`. Delivered on Gofile (master + kit PDF + thumbnails, md5 checked): https://gofile.io/d/fxwCBlSe. vidIQ: 30 credits (titles).
+  **Status 2026-11-20:** built overnight (master v1 15:24, SOUND LOCK OK, blackdetect 0), record in `videos/uss_samuel_b_roberts/full/BUILD_REPORT_v1.md`. Delivered on Gofile: v1 https://gofile.io/d/fxwCBlSe; **v2 (owner notes: quieter SFX, new hook) + critiques: https://gofile.io/d/ai2odVrH**. vidIQ: 30 credits (titles).
 
 ### Lessons from USS Samuel B. Roberts (video 5, read before building video 6)
 1. Copy the SBR `full/build/` (newest): `film_bad.py` (fast white-out / blank-frame scan; make_shotlists cuts those spans like scene cuts),

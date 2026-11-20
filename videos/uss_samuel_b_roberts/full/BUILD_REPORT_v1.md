@@ -99,3 +99,16 @@ thumbnails, Gofile upload of master + upload kit PDF + thumbnails. No other spen
 ## 10. Delivered (owner pre-approved, 2026-11-20)
 Master v1 (15:24, md5 eaef6c016fcdfb521b02baef5dde93d8) + upload kit PDF + thumbnails V1-V4 in one Gofile folder, every md5 checked against the
 upload reply: **https://gofile.io/d/fxwCBlSe**
+
+## 11. v2 (owner 2026-11-20: "sound effects too loud; hook weak, just photos, irrelevant photos; open on something engaging; upload the critiques")
+- Critiques first: `full/CRITIQUE_SOUND_v1.md` (measured hit/boom/impact/explosion +2 to +5 LU over the voice; explosions clamped 7-9 dB by the
+  limiter) and `full/CRITIQUE_HOOK_v1.md` (static opening map, empty-horizon shot, 13 s of identical sea floor, sister ships under the Roberts'
+  own lines, best battle photos too late). Changes in `full/CHANGES_v2.md`.
+- Sound: per-cue cuts in `build/sfx_full.py` (hit -3, boom -2, impact -3, explosion -4.5 dB + 6 kHz lowpass, pops stacked on big beats dropped);
+  the channel's locked role levels are unchanged.
+- Hook: map dive with a 0 -> 22,600 FT counter landing on "feet", Samar battle photos from 4 s, depth / Titanic / Kilimanjaro gauges instead of
+  sea-floor film, the Roberts herself under her own lines; c01, c02, c03, c08 re-rendered (safe-text PASS), reuse and numbers checks clean (40/40).
+- Master `uss_samuel_b_roberts_full_v2.mp4` 924.47 s, md5 1ed6537da6b274672475a86798038dc0: **SOUND LOCK OK** -14.0 LUFS, TP -1.7 dBTP, LRA 2.2 LU,
+  11 big beats >= +1 LU over speech, 94 cues within 3 frames; blackdetect 0; `FINAL_SHEET_v2.jpg` looked at. (mix_full.py still writes the
+  `_v1` file name: the v2 file is that output renamed.)
+- Delivered: **https://gofile.io/d/ai2odVrH** (master v2 + both critiques + CHANGES_v2 + upload kit PDF + thumbnails V1-V4; every md5 checked).
