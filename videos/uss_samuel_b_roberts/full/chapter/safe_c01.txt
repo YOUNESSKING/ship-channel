@@ -1,0 +1,9 @@
+safe_area.js adjusted:
+  size 19->25.4: MOUNT KILIMANJARO ON THE SEA F
+  size 19->25.4: DE-413
+  wrap: SAMUEL B. ROBERTS
+  fit x0.82: SUMMIT ≈3,000 FT UNDER WATER
+  lift 50px: nearly twice as deep
+  lift 19px: DE-413USS SAMUEL B. ROBERTS
+  lift 20px: DE-413USS SAMUEL B. ROBERTS
+PASS: no text breaks the size / safe-area / font rules (37.8 s checked every 0.5 s)

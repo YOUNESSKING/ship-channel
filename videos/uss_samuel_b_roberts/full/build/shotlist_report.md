@@ -141,10 +141,10 @@
 | c05 | s10 | 380.29 | 4.21 | clip_plain | P:cm_Destroyers_laying_smoke_screen_during_Battle_off | Her torpedoes were gone |
 | c05 | s11 | 384.5 | 5.5 | clip_plain | P:cm_Japanese_cruiser_under_attack_26_October_1944 | Instead, Copeland turned her back |
 | c05 | s12 | 390.0 | 3.85 | clip_plain | P:cm_NH_90783 | For close to an hour |
-| c05 | s13 | 393.85 | 3.9 | text_card | CARD + bg F:cve_deck.mp4 | Her two five-inch guns fired six hundred |
+| c05 | s13 | 393.85 | 3.9 | text_card | CARD + bg P:cm_80_G_214084 | Her two five-inch guns fired six hundred |
 | c05 | s14 | 397.75 | 3.33 | number_clip | P:cm_80_G_287104 | One gun alone fired more than three |
 | c05 | s15 | 401.08 | 2.67 | clip_plain | F:splash_far2.mp4 | And for most of that time, nothing hit her |
-| c05 | s16 | 403.75 | 5.37 | text_card | CARD + bg F:splash_mid.mp4 | Copeland put it down to the providence |
+| c05 | s16 | 403.75 | 5.37 | text_card | CARD + bg P:cm_80_G_364211 | Copeland put it down to the providence |
 | c05 | s17 | 409.12 | 3.02 | text_card | CARD + bg P:cm_80_G_287970 | Then, at eight fifty-one |
 | c05 | s18 | 412.14 | 4.03 | text_card | CARD + bg P:cm_80_G_270511 | Within about fifteen minutes |
 | c05 | s19 | 416.16 | 3.98 | map_clip | M:c05_kongo | At about nine o'clock |
@@ -218,14 +218,14 @@
 | c07 | s12 | 669.15 | 3.14 | clip_plain | P:cm_USN_1097019 | Most research submarines could not |
 | c07 | s13 | 672.29 | 4.66 | clip_plain | P:noaa_28962 | That changed with one man |
 | c07 | s14 | 676.95 | 4.59 | clip_plain | P:noaa_32188 | with a submersible built to dive |
-| c07 | s15 | 681.54 | 2.38 | text_card | CARD + bg F:deep_sponge.mp4 | It was called the Limiting Factor |
+| c07 | s15 | 681.54 | 2.38 | text_card | CARD + bg P:noaa_27577 | It was called the Limiting Factor |
 | c07 | s16 | 683.91 | 5.06 | map_clip | M:c07_johnston | In March, twenty twenty-one |
 | c07 | s17 | 688.97 | 1.79 | clip_plain | P:cm_USS_Johnston_DD_557_refueling_from_USS_Millicoma | another ship from that morning |
 | c07 | s18 | 690.76 | 3.6 | clip_plain | F:deep_coral.mp4 | Two years earlier, an unmanned search |
 | c07 | s19 | 694.36 | 4.03 | clip_plain | F:deep_life.mp4 | had seen wreckage from her |
 | c07 | s20 | 698.39 | 3.14 | clip_plain | F:deep_nod2.mp4 | Vescovo went deeper |
 | c07 | s21 | 701.53 | 5.11 | anim_gauge | A:anim_gauge + bg F:deep_cuke2.mp4 | About twenty-one thousand feet down |
-| c07 | s22 | 706.65 | 4.09 | text_card | CARD + bg F:deep_life2.mp4 | It was a record |
+| c07 | s22 | 706.65 | 4.09 | text_card | CARD + bg P:noaa_28093 | It was a record |
 | c07 | s23 | 710.74 | 3.93 | map_clip | M:c07_search | In June, twenty twenty-two |
 | c07 | s24 | 714.66 | 2.31 | clip_plain | P:noaa_30058 | with the expedition company |
 | c07 | s25 | 716.98 | 2.05 | clip_plain | P:nara_6409895 | to look for the Roberts |
@@ -241,7 +241,7 @@
 | c07 | s35 | 757.92 | 3.76 | clip_plain | P:nara_78682532_p03 | The expedition handed its images |
 | c07 | s36 | 761.68 | 3.15 | clip_plain | F:deep_sponge2.mp4 | and kept the exact position private |
 | c07 | s37 | 764.83 | 5.09 | anim_gauge | A:anim_gauge + bg F:deep_coral2.mp4 | She lies almost six thousand nine hundred |
-| c07 | s38 | 769.92 | 4.1 | text_card | CARD + bg F:anemone.mp4 | Deeper than the Johnston |
+| c07 | s38 | 769.92 | 4.1 | text_card | CARD + bg P:noaa_30028 | Deeper than the Johnston |
 | c07 | s39 | 774.03 | 4.31 | anim_gauge | A:anim_gauge + bg F:deep_sponge3.mp4 | The Titanic lies about twelve thousand |
 | c07 | s40 | 778.34 | 2.98 | text_card | CARD + bg P:noaa_29719 | The Roberts is nearly twice as deep |
 | c07 | s41 | 781.31 | 4.55 | text_card | CARD + bg P:noaa_29771 | Guinness World Records lists her |
