@@ -13,3 +13,9 @@
 | 5 | The Deepest Shipwreck Ever Found (working title) | 83 | true; below the 85 floor |
 | x | This Tiny Warship Charged the Yamato. Now It's the Deepest Wreck Ever Found | 97 | **not used: overclaim** (her torpedo run was at a cruiser column, Chokai; Kongo sank her) |
 Before publishing: re-search news for a deeper wreck (fact-check C: absence of results is not proof).
+
+## Thumbnails (`thumbnails/`)
+- v1 by the thumbnail agent (T1-T4, blended cut-out): rejected (ghosty ship, blue halos).
+- **v2 (`make_thumbs_v2.py`)**: the real NH 96011 photo of the Roberts (Oct 1944), whole frame, blue duotone, fading into deep water; white Anton + one red box; bottom-right clear; sidebar strip `sidebar_strip_v2.png`.
+  **V1 "22,000 FT DOWN" (main, owner's idea; true as a floor: wreck ≈22,500-22,600 ft)**, V2 "DEEPEST WRECK" and V3 "THEY CHARGED" (real Yamato off Samar + Roberts inset) for Test & Compare, V4 "4 MILES DOWN" spare.
+- vidIQ thumbnail scoring not run: score_thumbnail needs a public image URL; the image library upload returns only an id (V1 is in the vidIQ library, 0 credits).

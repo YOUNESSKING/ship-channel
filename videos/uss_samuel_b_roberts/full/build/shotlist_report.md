@@ -4,13 +4,13 @@
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | c01 | 53.3 | 16 | 20 | 59 | 15 | 0 | 6 | 0 | 11 | 9 | 6 | **25** | 4.7 s (s07) | 7.9 |
 | c02 | 107.6 | 32 | 35 | 46 | 19 | 0 | 0 | 0 | 17 | 18 | 0 | **35** | 5.8 s (s15) | 11.2 |
-| c03 | 96.8 | 28 | 44 | 41 | 15 | 0 | 0 | 0 | 25 | 19 | 0 | **44** | 5.2 s (s21) | 6.8 |
+| c03 | 96.8 | 28 | 40 | 44 | 15 | 0 | 0 | 0 | 21 | 19 | 0 | **40** | 5.2 s (s21) | 6.8 |
 | c04 | 95.9 | 28 | 24 | 69 | 7 | 0 | 0 | 0 | 10 | 14 | 0 | **24** | 5.0 s (s14) | 6.3 |
-| c05 | 189.6 | 52 | 40 | 53 | 7 | 0 | 0 | 0 | 16 | 24 | 0 | **40** | 5.7 s (s47) | 7.6 |
+| c05 | 189.6 | 52 | 40 | 53 | 7 | 0 | 0 | 0 | 15 | 25 | 0 | **40** | 5.7 s (s47) | 7.9 |
 | c06 | 85.9 | 23 | 43 | 47 | 10 | 0 | 0 | 0 | 16 | 27 | 0 | **43** | 5.7 s (s14) | 4.9 |
-| c07 | 169.1 | 44 | 53 | 26 | 9 | 0 | 12 | 0 | 32 | 20 | 12 | **65** | 5.9 s (s33) | 6.7 |
+| c07 | 169.1 | 44 | 46 | 33 | 9 | 0 | 12 | 0 | 26 | 20 | 12 | **58** | 5.9 s (s33) | 6.7 |
 | c08 | 126.3 | 27 | 44 | 45 | 11 | 0 | 0 | 0 | 17 | 27 | 0 | **44** | 5.8 s (s25) | 4.3 |
-| **c01-c08** | | | **40** | **47** | **11** | **0** | **3** | **0** | **19** | **21** | **3** | **43** | | |
+| **c01-c08** | | | **38** | **48** | **11** | **0** | **3** | **0** | **17** | **21** | **3** | **41** | | |
 
 ## Pacing flags (shots > 6.0 s or < 1.2 s; end screen excluded)
 
@@ -43,7 +43,7 @@
 | c01 | s16 | 48.97 | 4.33 | map_clip | M:c01_where | And what did the cameras find |
 | c02 | s01 | 53.3 | 3.71 | map_clip | M:c02_samar | Start with the place |
 | c02 | s02 | 57.01 | 2.42 | clip_plain | P:nara_134372706_p02 | an island in the central Philippines |
-| c02 | s03 | 59.43 | 3.71 | text_card | CARD + bg F:tbm_c.mp4 | on the twenty-fifth of October |
+| c02 | s03 | 59.43 | 3.71 | text_card | CARD + bg P:cm_NH_106573 | on the twenty-fifth of October |
 | c02 | s04 | 63.15 | 4.32 | clip_plain | P:cm_USS_Gambier_Bay_CVE_73_and_escorts_making_smoke | Just after dawn, a small American group |
 | c02 | s05 | 67.47 | 3.18 | map_clip | M:c02_taffy | Its radio call sign was Taffy Three |
 | c02 | s06 | 70.65 | 2.1 | number_clip | P:cm_80_G_302258 | Six small escort carriers |
@@ -83,7 +83,7 @@
 | c03 | s08 | 185.68 | 2.92 | clip_plain | P:cm_NH_73090 | They were never meant to face a battleship |
 | c03 | s09 | 188.61 | 4.36 | number_clip | P:cm_BS_70488 | She carried two five-inch guns |
 | c03 | s10 | 192.97 | 2.21 | text_card | CARD + bg F:dd_sea.mp4 | three torpedoes and depth charges |
-| c03 | s11 | 195.17 | 3.38 | number_clip | F:crew_deck.mp4 | And a crew of about two hundred |
+| c03 | s11 | 195.17 | 3.38 | number_clip | P:cm_NH_71529 | And a crew of about two hundred |
 | c03 | s12 | 198.55 | 2.13 | clip_plain | F:convoy_close2.mp4 | Her name came from a young sailor |
 | c03 | s13 | 200.69 | 4.46 | clip_plain | F:lci_smoke2.mp4 | Samuel Booker Roberts was a coxswain |
 | c03 | s14 | 205.15 | 1.63 | clip_plain | P:nara_134372706_p03 | at Guadalcanal |
@@ -105,7 +105,7 @@
 | c04 | s02 | 262.34 | 2.24 | clip_plain | F:cve_attack.mp4 | He turned his carriers away and ran |
 | c04 | s03 | 264.58 | 2.34 | clip_plain | P:cm_80_G_287497 | He launched every plane he had |
 | c04 | s04 | 266.92 | 4.01 | clip_plain | P:cm_80_G_287459 | He ordered his escorts to make smoke |
-| c04 | s05 | 270.93 | 2.47 | clip_plain | F:dd_speed.mp4 | Then he sent his small ships to attack |
+| c04 | s05 | 270.93 | 2.47 | clip_plain | F:dd_fire2.mp4 | Then he sent his small ships to attack |
 | c04 | s06 | 273.4 | 4.84 | clip_plain | P:cm_NH_63434 | Destroyers and destroyer escorts, against |
 | c04 | s07 | 278.24 | 2.28 | clip_plain | P:cm_NH_63495 | The three destroyers went first |
 | c04 | s08 | 280.52 | 2.49 | clip_plain | P:cm_USS_Hoel_DD_533_at_sea_10_August_1944 | The Johnston, the Hoel and the Heermann |
@@ -145,7 +145,7 @@
 | c05 | s14 | 397.75 | 3.33 | number_clip | P:cm_80_G_287104 | One gun alone fired more than three |
 | c05 | s15 | 401.08 | 2.67 | clip_plain | F:splash_far2.mp4 | And for most of that time, nothing hit her |
 | c05 | s16 | 403.75 | 5.37 | text_card | CARD + bg F:splash_mid.mp4 | Copeland put it down to the providence |
-| c05 | s17 | 409.12 | 3.02 | text_card | CARD + bg F:burn_cve.mp4 | Then, at eight fifty-one |
+| c05 | s17 | 409.12 | 3.02 | text_card | CARD + bg P:cm_80_G_287970 | Then, at eight fifty-one |
 | c05 | s18 | 412.14 | 4.03 | text_card | CARD + bg P:cm_80_G_270511 | Within about fifteen minutes |
 | c05 | s19 | 416.16 | 3.98 | map_clip | M:c05_kongo | At about nine o'clock |
 | c05 | s20 | 420.14 | 2.31 | lower_third | P:cm_Kongo_under_attack | They came from the battleship Kongo |
@@ -158,7 +158,7 @@
 | c05 | s27 | 447.95 | 4.1 | text_card | CARD + bg P:cm_80_G_287107 | His Silver Star citation says |
 | c05 | s28 | 452.05 | 2.24 | clip_plain | P:cm_NH_71528 | to load the last shell |
 | c05 | s29 | 454.3 | 1.64 | clip_plain | F:burn_oiler.mp4 | He died there |
-| c05 | s30 | 455.93 | 2.69 | clip_plain | F:crew_deck.mp4 | He came from Checotah, Oklahoma |
+| c05 | s30 | 455.93 | 2.69 | text_card | CARD + bg P:cm_80_G_272915 | He came from Checotah, Oklahoma |
 | c05 | s31 | 458.62 | 5.18 | text_card | CARD + bg P:nara_6439675 | Years later, the Navy named a frigate |
 | c05 | s32 | 463.8 | 3.78 | clip_plain | F:abandon.mp4 | Shortly after nine, the order came |
 | c05 | s33 | 467.59 | 4.26 | text_card | CARD + bg F:deep_iso2.mp4 | At five past ten |
@@ -209,14 +209,14 @@
 | c07 | s03 | 637.29 | 4.11 | text_card | CARD + bg F:deep_cuke.mp4 | For almost seventy-eight years |
 | c07 | s04 | 641.4 | 1.99 | clip_plain | F:glass_squid.mp4 | The problem was the depth |
 | c07 | s05 | 643.38 | 4.3 | clip_plain | F:dumbo.mp4 | Off the coast of Samar, the sea floor |
-| c07 | s06 | 647.68 | 3.27 | clip_plain | F:angler2.mp4 | and most submarines, could never |
+| c07 | s06 | 647.68 | 3.27 | clip_plain | P:noaa_23573 | and most submarines, could never |
 | c07 | s07 | 650.96 | 5.84 | anim_gauge | A:anim_gauge + bg F:deep_iso.mp4 | At that depth, the water presses down |
 | c07 | s08 | 656.8 | 3.09 | text_card | CARD + bg F:deep_field3.mp4 | More than ten thousand pounds |
 | c07 | s09 | 659.89 | 3.36 | clip_plain | F:squid.mp4 | It is completely dark |
 | c07 | s10 | 663.26 | 3.86 | clip_plain | P:cm_NH_96797 | For most of history |
 | c07 | s11 | 667.12 | 2.04 | clip_plain | P:cm_USN_710619 | Divers could never go there |
 | c07 | s12 | 669.15 | 3.14 | clip_plain | P:cm_USN_1097019 | Most research submarines could not |
-| c07 | s13 | 672.29 | 4.66 | clip_plain | F:flapjack.mp4 | That changed with one man |
+| c07 | s13 | 672.29 | 4.66 | clip_plain | P:noaa_28962 | That changed with one man |
 | c07 | s14 | 676.95 | 4.59 | clip_plain | P:noaa_32188 | with a submersible built to dive |
 | c07 | s15 | 681.54 | 2.38 | text_card | CARD + bg F:deep_sponge.mp4 | It was called the Limiting Factor |
 | c07 | s16 | 683.91 | 5.06 | map_clip | M:c07_johnston | In March, twenty twenty-one |
@@ -233,22 +233,22 @@
 | c07 | s27 | 722.33 | 4.74 | clip_plain | P:nara_78682532_p01 | A naval historian on the team |
 | c07 | s28 | 727.07 | 3.0 | clip_plain | P:nara_78682532_p02 | and worked out a better place |
 | c07 | s29 | 730.07 | 5.72 | clip_plain | F:deep_cuke_b.mp4 | A sonar specialist, Jeremie Morizet |
-| c07 | s30 | 735.79 | 2.94 | clip_plain | F:snow.mp4 | Then the submersible went down |
+| c07 | s30 | 735.79 | 2.94 | clip_plain | P:noaa_29806 | Then the submersible went down |
 | c07 | s31 | 738.73 | 2.91 | text_card | CARD + bg F:deep_nod3.mp4 | Over eight days, the team made six dives |
 | c07 | s32 | 741.64 | 4.67 | clip_plain | F:deep_field4.mp4 | Each one was a trip of about four miles |
 | c07 | s33 | 746.3 | 5.9 | text_card | CARD + bg F:deep_isopod16.mp4 | On the twenty-second of June |
 | c07 | s34 | 752.2 | 5.71 | lower_third | P:cm_NH_96011 | The Navy confirmed it |
 | c07 | s35 | 757.92 | 3.76 | clip_plain | P:nara_78682532_p03 | The expedition handed its images |
 | c07 | s36 | 761.68 | 3.15 | clip_plain | F:deep_sponge2.mp4 | and kept the exact position private |
-| c07 | s37 | 764.83 | 5.09 | anim_gauge | A:anim_gauge + bg F:deep_iso2.mp4 | She lies almost six thousand nine hundred |
+| c07 | s37 | 764.83 | 5.09 | anim_gauge | A:anim_gauge + bg F:deep_coral2.mp4 | She lies almost six thousand nine hundred |
 | c07 | s38 | 769.92 | 4.1 | text_card | CARD + bg F:anemone.mp4 | Deeper than the Johnston |
 | c07 | s39 | 774.03 | 4.31 | anim_gauge | A:anim_gauge + bg F:deep_sponge3.mp4 | The Titanic lies about twelve thousand |
 | c07 | s40 | 778.34 | 2.98 | text_card | CARD + bg P:noaa_29719 | The Roberts is nearly twice as deep |
-| c07 | s41 | 781.31 | 4.55 | text_card | CARD + bg F:deep_coral2.mp4 | Guinness World Records lists her |
+| c07 | s41 | 781.31 | 4.55 | text_card | CARD + bg P:noaa_29771 | Guinness World Records lists her |
 | c07 | s42 | 785.87 | 5.16 | clip_plain | F:deep_life3.mp4 | The dives to reach her were the deepest |
 | c07 | s43 | 791.02 | 4.86 | clip_plain | F:deep_isopod16b.mp4 | In June twenty twenty-two, she became |
 | c07 | s44 | 795.88 | 2.27 | map_clip | M:c07_record | And she still holds the record |
-| c08 | s01 | 798.15 | 3.95 | clip_plain | F:angler.mp4 | So what did the cameras see |
+| c08 | s01 | 798.15 | 3.95 | clip_plain | F:dumbo2.mp4 | So what did the cameras see |
 | c08 | s02 | 802.11 | 4.44 | clip_plain | P:cm_John_C_Butler_class_destroyer_escort_outboard_pr | The Roberts lies in two pieces |
 | c08 | s03 | 806.55 | 3.37 | text_card | CARD + bg F:deep_field5.mp4 | Her stern has broken away |
 | c08 | s04 | 809.91 | 3.02 | clip_plain | P:cm_BS_70488 | Her triple torpedo launcher |

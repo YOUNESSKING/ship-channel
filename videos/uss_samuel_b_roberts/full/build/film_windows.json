@@ -17,10 +17,10 @@
   "windows": [
    [
     93.0,
-    103.9
+    103.4
    ],
    [
-    104.25,
+    105.1,
     109.5
    ]
   ],
@@ -57,7 +57,15 @@
   "windows": [
    [
     31.0,
-    54.5
+    40.9
+   ],
+   [
+    43.6,
+    45.4
+   ],
+   [
+    48.1,
+    54.4
    ]
   ],
   "tag": "U.S. NAVY FILM \u00b7 ESCORT CARRIER FLIGHT DECK, LEYTE GULF, OCT 1944",
@@ -67,14 +75,6 @@
   "reel": "nara_77732",
   "clip_in": 0.0,
   "windows": [
-   [
-    176.0,
-    184.72
-   ],
-   [
-    185.12,
-    197.3
-   ],
    [
     197.65,
     201.32
@@ -90,14 +90,6 @@
    [
     208.93,
     211.03
-   ],
-   [
-    211.43,
-    213.42
-   ],
-   [
-    213.83,
-    219.5
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 ESCORT CARRIER BURNING, OCT 1944",
@@ -108,7 +100,7 @@
   "clip_in": 0.0,
   "windows": [
    [
-    220.0,
+    220.1,
     224.82
    ],
    [
@@ -148,16 +140,12 @@
   "clip_in": 0.0,
   "windows": [
    [
-    106.0,
-    108.1
-   ],
-   [
-    108.52,
+    112.0,
     115.15
    ],
    [
     115.5,
-    120.62
+    118.4
    ],
    [
     122.35,
@@ -185,14 +173,26 @@
    ],
    [
     73.85,
-    83.43
-   ],
-   [
-    83.78,
-    94.5
+    77.0
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 A U.S. WARSHIP FIRING, 1944",
+  "slow": null
+ },
+ "dd_fire2.mp4": {
+  "reel": "nara_77716",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    77.5,
+    82.9
+   ],
+   [
+    86.6,
+    94.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 A U.S. WARSHIP AT SPEED, 1944",
   "slow": null
  },
  "dd_sea.mp4": {
@@ -216,10 +216,6 @@
     123.85
    ],
    [
-    124.22,
-    130.03
-   ],
-   [
     130.55,
     133.07
    ],
@@ -229,11 +225,7 @@
    ],
    [
     139.0,
-    151.25
-   ],
-   [
-    151.65,
-    165.5
+    145.0
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 A U.S. DESTROYER AT SEA, 1944",
@@ -304,11 +296,11 @@
   "clip_in": 0.0,
   "windows": [
    [
-    131.0,
+    149.1,
     154.17
    ],
    [
-    154.52,
+    156.6,
     172.68
    ],
    [
@@ -335,24 +327,12 @@
   "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 ABANDONING SHIP, NOV 1944",
   "slow": null
  },
- "crew_deck.mp4": {
-  "reel": "nara_77862",
-  "clip_in": 0.0,
-  "windows": [
-   [
-    206.0,
-    229.5
-   ]
-  ],
-  "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 SAILORS ON DECK, NOV 1944",
-  "slow": null
- },
  "smoke_lay.mp4": {
   "reel": "nara_77677",
   "clip_in": 0.0,
   "windows": [
    [
-    256.0,
+    262.6,
     266.08
    ],
    [
@@ -361,7 +341,7 @@
    ],
    [
     275.93,
-    286.5
+    286.4
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 U.S. NAVY FILM \u00b7 SMOKE SCREEN, LEYTE, OCT 1944",
@@ -372,7 +352,7 @@
   "clip_in": 0.0,
   "windows": [
    [
-    287.0,
+    288.6,
     292.93
    ],
    [
@@ -401,10 +381,10 @@
   "windows": [
    [
     216.0,
-    222.58
+    221.9
    ],
    [
-    222.93,
+    223.1,
     249.5
    ]
   ],
@@ -417,6 +397,10 @@
   "windows": [
    [
     261.0,
+    262.9
+   ],
+   [
+    264.6,
     267.15
    ],
    [
@@ -444,7 +428,7 @@
   "clip_in": 0.0,
   "windows": [
    [
-    9.0,
+    14.0,
     55.7
    ],
    [
@@ -561,15 +545,11 @@
    ],
    [
     97.28,
-    104.13
+    101.4
    ],
    [
-    104.55,
-    125.03
-   ],
-   [
-    125.43,
-    137.37
+    109.1,
+    124.9
    ],
    [
     137.72,
@@ -629,11 +609,7 @@
    ],
    [
     161.73,
-    170.07
-   ],
-   [
-    170.47,
-    174.5
+    169.4
    ]
   ],
   "tag": "U.S. NAVY FILM \u00b7 USS PRINCETON EXPLODES, LEYTE GULF, 24 OCT 1944",
@@ -644,23 +620,31 @@
   "clip_in": 0.0,
   "windows": [
    [
-    176.0,
+    177.6,
+    179.9
+   ],
+   [
+    183.1,
     194.55
    ],
    [
     194.9,
-    202.07
+    201.4
    ],
    [
-    202.42,
+    202.6,
     211.62
    ],
    [
     211.97,
-    219.73
+    214.9
    ],
    [
-    220.13,
+    216.1,
+    217.9
+   ],
+   [
+    222.1,
     224.5
    ]
   ],
@@ -685,10 +669,14 @@
    ],
    [
     28.78,
-    44.0
+    36.4
    ],
    [
-    44.52,
+    37.6,
+    43.4
+   ],
+   [
+    44.6,
     52.47
    ],
    [
@@ -696,7 +684,7 @@
     60.02
    ],
    [
-    61.25,
+    61.6,
     65.2
    ],
    [
@@ -708,16 +696,8 @@
     79.88
    ],
    [
-    81.15,
-    84.68
-   ],
-   [
     85.08,
     88.48
-   ],
-   [
-    90.7,
-    92.9
    ],
    [
     95.03,
@@ -737,14 +717,14 @@
    ],
    [
     13.15,
-    48.5
+    47.9
    ],
    [
     49.63,
-    84.63
+    83.9
    ],
    [
-    85.77,
+    86.1,
     109.5
    ]
   ],
@@ -829,7 +809,7 @@
    ],
    [
     11.25,
-    17.9
+    17.4
    ],
    [
     19.75,
@@ -845,11 +825,11 @@
   "windows": [
    [
     31.0,
-    34.67
+    34.4
    ],
    [
     39.13,
-    47.72
+    47.4
    ]
   ],
   "tag": "U.S. NAVY FILM \u00b7 USS GAMBIER BAY FLIGHT DECK, JUNE 1944",
@@ -860,8 +840,8 @@
   "clip_in": 0.0,
   "windows": [
    [
-    0.5,
-    26.0
+    10.5,
+    29.0
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 ISOPOD ON THE ABYSSAL FLOOR, 2026",
@@ -872,8 +852,8 @@
   "clip_in": 0.0,
   "windows": [
    [
-    26.5,
-    52.5
+    29.5,
+    47.5
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 ISOPOD ON THE ABYSSAL FLOOR, 2026",
@@ -884,8 +864,8 @@
   "clip_in": 0.0,
   "windows": [
    [
-    0.5,
-    49.5
+    10.5,
+    48.0
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
@@ -896,8 +876,8 @@
   "clip_in": 0.0,
   "windows": [
    [
-    50.0,
-    99.5
+    48.5,
+    86.0
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
@@ -908,8 +888,8 @@
   "clip_in": 0.0,
   "windows": [
    [
-    100.0,
-    148.5
+    86.5,
+    124.5
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
@@ -920,8 +900,8 @@
   "clip_in": 0.0,
   "windows": [
    [
-    0.5,
-    43.0
+    49.5,
+    90.0
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
@@ -932,8 +912,8 @@
   "clip_in": 0.0,
   "windows": [
    [
-    43.5,
-    86.0
+    90.5,
+    131.0
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
@@ -944,8 +924,8 @@
   "clip_in": 0.0,
   "windows": [
    [
-    86.5,
-    129.0
+    131.5,
+    173.5
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
@@ -956,8 +936,8 @@
   "clip_in": 0.0,
   "windows": [
    [
-    129.5,
-    172.0
+    183.5,
+    219.5
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
@@ -968,8 +948,8 @@
   "clip_in": 0.0,
   "windows": [
    [
-    172.5,
-    215.0
+    227.5,
+    235.5
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
@@ -980,44 +960,44 @@
   "clip_in": 0.0,
   "windows": [
    [
-    215.5,
-    260.0
+    240.5,
+    253.5
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
   "slow": null
  },
  "deep_life.mp4": {
-  "reel": "noaa_31426",
+  "reel": "noaa_30695",
   "clip_in": 0.0,
   "windows": [
    [
-    0.5,
-    60.0
+    86.5,
+    123.5
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
   "slow": null
  },
  "deep_life2.mp4": {
-  "reel": "noaa_31426",
+  "reel": "noaa_30426",
   "clip_in": 0.0,
   "windows": [
    [
-    60.5,
-    120.0
+    98.5,
+    104.5
    ]
   ],
-  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA CORAL, 2026",
   "slow": null
  },
  "deep_life3.mp4": {
-  "reel": "noaa_31426",
+  "reel": "noaa_30697",
   "clip_in": 0.0,
   "windows": [
    [
-    120.5,
-    181.5
+    56.5,
+    83.5
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
@@ -1028,23 +1008,23 @@
   "clip_in": 0.0,
   "windows": [
    [
-    0.5,
-    45.0
+    10.5,
+    31.5
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
   "slow": null
  },
  "deep_cuke_b.mp4": {
-  "reel": "noaa_30697",
+  "reel": "noaa_13777",
   "clip_in": 0.0,
   "windows": [
    [
-    45.5,
-    90.5
+    10.5,
+    22.0
    ]
   ],
-  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2016",
   "slow": null
  },
  "deep_cuke2.mp4": {
@@ -1052,8 +1032,8 @@
   "clip_in": 0.0,
   "windows": [
    [
-    0.5,
-    65.0
+    10.5,
+    48.0
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
@@ -1064,8 +1044,8 @@
   "clip_in": 0.0,
   "windows": [
    [
-    65.5,
-    130.5
+    48.5,
+    86.0
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
@@ -1076,8 +1056,8 @@
   "clip_in": 0.0,
   "windows": [
    [
-    0.5,
-    65.0
+    10.5,
+    70.0
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA SPONGE, 2026",
@@ -1088,7 +1068,7 @@
   "clip_in": 0.0,
   "windows": [
    [
-    65.5,
+    70.5,
     130.0
    ]
   ],
@@ -1101,7 +1081,7 @@
   "windows": [
    [
     130.5,
-    196.5
+    190.5
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA SPONGE, 2026",
@@ -1112,8 +1092,8 @@
   "clip_in": 0.0,
   "windows": [
    [
-    0.5,
-    68.0
+    10.5,
+    39.0
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA CORAL, 2026",
@@ -1124,23 +1104,11 @@
   "clip_in": 0.0,
   "windows": [
    [
-    68.5,
-    136.5
+    39.5,
+    68.5
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA CORAL, 2026",
-  "slow": null
- },
- "deep_isopod16b.mp4": {
-  "reel": "noaa_13777",
-  "clip_in": 0.0,
-  "windows": [
-   [
-    19.5,
-    38.5
-   ]
-  ],
-  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2016",
   "slow": null
  },
  "deep_isopod16.mp4": {
@@ -1148,11 +1116,23 @@
   "clip_in": 0.0,
   "windows": [
    [
-    0.5,
-    19.0
+    22.5,
+    34.5
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2016",
+  "slow": null
+ },
+ "deep_isopod16b.mp4": {
+  "reel": "noaa_29866",
+  "clip_in": 0.0,
+  "windows": [
+   [
+    10.5,
+    18.5
+   ]
+  ],
+  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA FLOOR, 2026",
   "slow": null
  },
  "squid.mp4": {
@@ -1160,20 +1140,20 @@
   "clip_in": 0.0,
   "windows": [
    [
-    0.5,
-    59.5
+    10.5,
+    33.0
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP WATER",
   "slow": null
  },
  "glass_squid.mp4": {
-  "reel": "noaa_15852",
+  "reel": "noaa_14718",
   "clip_in": 0.0,
   "windows": [
    [
-    0.5,
-    16.5
+    33.5,
+    56.5
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP WATER",
@@ -1196,8 +1176,8 @@
   "clip_in": 0.0,
   "windows": [
    [
-    0.5,
-    47.0
+    10.5,
+    48.0
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA ANEMONE, 2025",
@@ -1208,8 +1188,8 @@
   "clip_in": 0.0,
   "windows": [
    [
-    47.5,
-    94.5
+    48.5,
+    86.5
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP-SEA ANEMONE, 2025",
@@ -1220,60 +1200,20 @@
   "clip_in": 0.0,
   "windows": [
    [
-    0.5,
-    46.5
+    10.5,
+    26.0
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP WATER",
   "slow": null
  },
- "flapjack.mp4": {
-  "reel": "noaa_15175",
+ "dumbo2.mp4": {
+  "reel": "noaa_12253",
   "clip_in": 0.0,
   "windows": [
    [
-    0.5,
-    88.5
-   ]
-  ],
-  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 FLAPJACK OCTOPUS, 2023",
-  "slow": null
- },
- "angler.mp4": {
-  "reel": "noaa_29881",
-  "clip_in": 0.0,
-  "windows": [
-   [
-    0.5,
-    18.77
-   ],
-   [
-    19.12,
-    23.54
-   ],
-   [
-    23.89,
-    31.0
-   ]
-  ],
-  "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP WATER",
-  "slow": null
- },
- "angler2.mp4": {
-  "reel": "noaa_29881",
-  "clip_in": 0.0,
-  "windows": [
-   [
-    32.1,
-    42.36
-   ],
-   [
-    42.71,
-    49.33
-   ],
-   [
-    49.68,
-    62.5
+    26.5,
+    41.5
    ]
   ],
   "tag": "ILLUSTRATIVE \u00b7 NOAA OCEAN EXPLORATION \u00b7 DEEP WATER",

@@ -87,11 +87,10 @@
    "id": "s06",
    "start": "t18.60",
    "sfx": false,
-   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP WATER",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "f_c07_s06.mp4",
+    "file": "p_c07_s06.mp4",
     "push": null
    },
    "params": {}
@@ -191,11 +190,10 @@
    "id": "s13",
    "start": "t43.20",
    "sfx": false,
-   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · FLAPJACK OCTOPUS, 2023",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "f_c07_s13.mp4",
+    "file": "p_c07_s13.mp4",
     "push": null
    },
    "params": {}
@@ -425,7 +423,7 @@
    "id": "s29",
    "start": "t100.98",
    "sfx": false,
-   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP-SEA FLOOR, 2026",
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP-SEA FLOOR, 2016",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
@@ -438,11 +436,10 @@
    "id": "s30",
    "start": "t106.70",
    "sfx": false,
-   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · 'MARINE SNOW' IN THE DARK",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "f_c07_s30.mp4",
+    "file": "p_c07_s30.mp4",
     "push": null
    },
    "params": {}
@@ -544,7 +541,7 @@
    "id": "s37",
    "start": "t135.74",
    "sfx": false,
-   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · ISOPOD ON THE ABYSSAL FLOOR, 2026",
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP-SEA CORAL, 2026",
    "template": "anim_gauge",
    "variant": "meter",
    "params": {
@@ -680,7 +677,7 @@
    "id": "s43",
    "start": "t161.93",
    "sfx": false,
-   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP-SEA FLOOR, 2016",
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP-SEA FLOOR, 2026",
    "template": "clip_plain",
    "variant": "push",
    "clip": {

@@ -104,6 +104,12 @@
    "note": "card: “TRIED, UNASSISTED, TO LOAD AND RAM THE LAST PROJECTILE”"
   },
   {
+   "shot": "s30",
+   "at": "@Checotah",
+   "role": "pop",
+   "note": "card: CHECOTAH, OKLAHOMA"
+  },
+  {
    "shot": "s31",
    "at": "@Carr",
    "role": "pop",
@@ -152,11 +158,9 @@
   "s13",
   "s15",
   "s16",
-  "s17",
   "s22",
   "s24",
   "s29",
-  "s30",
   "s32",
   "s33",
   "s42",

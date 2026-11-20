@@ -442,14 +442,20 @@
    "id": "s30",
    "start": "t102.36",
    "sfx": false,
-   "tag": "ILLUSTRATIVE · U.S. NAVY FILM · SAILORS ON DECK, NOV 1944",
-   "template": "clip_plain",
-   "variant": "push",
+   "template": "text_card",
+   "variant": "line",
+   "card": true,
+   "params": {
+    "kicker": "PAUL H. CARR",
+    "text": "CHECOTAH, OKLAHOMA",
+    "at": "@Checotah",
+    "kicker_at": 0.15
+   },
    "clip": {
-    "file": "f_c05_s30.mp4",
+    "file": "b_c05_s30.mp4",
     "push": null
    },
-   "params": {}
+   "card_bg": true
   },
   {
    "id": "s31",
