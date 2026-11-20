@@ -51,19 +51,40 @@
   },
   {
    "id": "s04",
-   "start": "t8.73",
+   "start": "t7.11",
    "sfx": false,
-   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · ISOPOD ON THE ABYSSAL FLOOR, 2026",
    "template": "clip_plain",
    "variant": "push",
    "clip": {
-    "file": "f_c01_s04.mp4",
+    "file": "p_c01_s04.mp4",
     "push": null
    },
    "params": {}
   },
   {
    "id": "s05",
+   "start": "t8.73",
+   "sfx": false,
+   "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP-SEA FLOOR, 2026",
+   "template": "anim_gauge",
+   "variant": "meter",
+   "params": {
+    "kicker": "Depth of the *wreck*",
+    "value": 22600,
+    "label": "FEET DOWN (APPROX.)",
+    "unit": "ft",
+    "decimals": 0,
+    "max": 23000,
+    "count_at": "@deepest",
+    "dur": 1.0
+   },
+   "bg_clip": {
+    "file": "b_c01_s05.mp4",
+    "show": 0.8
+   }
+  },
+  {
+   "id": "s06",
    "start": "t11.44",
    "sfx": false,
    "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP-SEA FLOOR, 2026",
@@ -76,75 +97,86 @@
     "max": 23000,
     "items": [
      {
-      "label": "TITANIC",
-      "value": 12500,
-      "at": 0.1,
-      "count_at": 0.1,
-      "dur": 0.6
-     },
-     {
       "label": "SAMUEL B. ROBERTS",
       "value": 22600,
-      "at": "@twice",
-      "count_at": "@twice",
-      "dur": 0.9,
+      "at": 0.05,
+      "count_at": 0.05,
+      "dur": 0.3
+     },
+     {
+      "label": "TITANIC",
+      "value": 12500,
+      "at": "@Titanic",
+      "count_at": "@Titanic",
+      "dur": 0.8,
       "hero": true
      }
     ],
     "note": "nearly twice as deep"
    },
    "bg_clip": {
-    "file": "b_c01_s05.mp4",
+    "file": "b_c01_s06.mp4",
     "show": 0.8
    }
   },
   {
-   "id": "s06",
+   "id": "s07",
    "start": "t14.38",
    "sfx": false,
    "tag": "ILLUSTRATIVE · NOAA OCEAN EXPLORATION · DEEP-SEA FLOOR, 2026",
-   "template": "clip_plain",
-   "variant": "push",
-   "clip": {
-    "file": "f_c01_s06.mp4",
-    "push": null
-   },
-   "params": {}
-  },
-  {
-   "id": "s07",
-   "start": "t17.56",
-   "sfx": false,
-   "template": "text_card",
-   "variant": "line",
-   "card": true,
+   "template": "anim_gauge",
+   "variant": "bars",
    "params": {
-    "kicker": "MOUNT KILIMANJARO ON THE SEA FLOOR",
-    "text": "SUMMIT ≈3,000 FT UNDER WATER",
-    "at": "@summit",
-    "kicker_at": 0.15
+    "kicker": "Height vs *depth*",
+    "unit": "ft",
+    "decimals": 0,
+    "max": 23000,
+    "items": [
+     {
+      "label": "SAMUEL B. ROBERTS (DEPTH)",
+      "value": 22600,
+      "at": 0.05,
+      "count_at": 0.05,
+      "dur": 0.3
+     },
+     {
+      "label": "MT KILIMANJARO (HEIGHT)",
+      "value": 19341,
+      "at": "@Kilimanjaro",
+      "count_at": "@Kilimanjaro",
+      "dur": 0.9,
+      "hero": true
+     }
+    ]
    },
-   "clip": {
+   "bg_clip": {
     "file": "b_c01_s07.mp4",
-    "push": null
-   },
-   "card_bg": true
+    "show": 0.8
+   }
   },
   {
    "id": "s08",
-   "start": "t22.24",
+   "start": "t17.56",
    "sfx": false,
-   "template": "clip_plain",
-   "variant": "push",
-   "clip": {
-    "file": "p_c01_s08.mp4",
-    "push": null
+   "template": "text_card",
+   "variant": "number",
+   "card": true,
+   "params": {
+    "dim": "lt",
+    "kicker": "KILIMANJARO'S SUMMIT, STILL UNDER WATER",
+    "number": "≈3,000",
+    "unit": "ft",
+    "number_at": "@three",
+    "kicker_at": 0.15
    },
-   "params": {}
+   "clip": {
+    "file": "b_c01_s08.mp4",
+    "push": null
+   }
   },
   {
    "id": "s09",
-   "start": "t25.07",
+   "start": "t22.24",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -156,7 +188,7 @@
   },
   {
    "id": "s10",
-   "start": "t28.61",
+   "start": "t25.07",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -168,7 +200,7 @@
   },
   {
    "id": "s11",
-   "start": "t31.80",
+   "start": "t28.61",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -180,12 +212,24 @@
   },
   {
    "id": "s12",
+   "start": "t31.80",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s12.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s13",
    "start": "t35.31",
    "sfx": false,
    "template": "lower_third",
    "variant": "kicker_line",
    "clip": {
-    "file": "p_c01_s12.mp4",
+    "file": "p_c01_s13.mp4",
     "push": null
    },
    "params": {
@@ -195,20 +239,8 @@
    }
   },
   {
-   "id": "s13",
-   "start": "t39.28",
-   "sfx": false,
-   "template": "clip_plain",
-   "variant": "push",
-   "clip": {
-    "file": "p_c01_s13.mp4",
-    "push": null
-   },
-   "params": {}
-  },
-  {
    "id": "s14",
-   "start": "t42.53",
+   "start": "t39.28",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -220,7 +252,7 @@
   },
   {
    "id": "s15",
-   "start": "t45.73",
+   "start": "t42.53",
    "sfx": false,
    "template": "clip_plain",
    "variant": "push",
@@ -232,6 +264,18 @@
   },
   {
    "id": "s16",
+   "start": "t45.73",
+   "sfx": false,
+   "template": "clip_plain",
+   "variant": "push",
+   "clip": {
+    "file": "p_c01_s16.mp4",
+    "push": null
+   },
+   "params": {}
+  },
+  {
+   "id": "s17",
    "start": "t48.97",
    "sfx": false,
    "template": "map_clip",

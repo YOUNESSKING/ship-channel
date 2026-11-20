@@ -2,7 +2,7 @@
 
 | chapter | dur s | shots | film % | photo % | map % | hero % | anim % | card % | of which NARA film % | generic US-Gov film % | anim over moving film % | **moving video total %** | longest shot | cues/min |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| c01 | 53.3 | 16 | 20 | 59 | 15 | 0 | 6 | 0 | 11 | 9 | 6 | **25** | 4.7 s (s07) | 7.9 |
+| c01 | 53.3 | 17 | 9 | 59 | 15 | 0 | 17 | 0 | 0 | 9 | 17 | **25** | 4.7 s (s08) | 12.4 |
 | c02 | 107.6 | 32 | 35 | 46 | 19 | 0 | 0 | 0 | 17 | 18 | 0 | **35** | 5.8 s (s15) | 11.2 |
 | c03 | 96.8 | 28 | 40 | 44 | 15 | 0 | 0 | 0 | 21 | 19 | 0 | **40** | 5.2 s (s21) | 6.8 |
 | c04 | 95.9 | 28 | 24 | 69 | 7 | 0 | 0 | 0 | 10 | 14 | 0 | **24** | 5.0 s (s14) | 6.3 |
@@ -10,7 +10,7 @@
 | c06 | 85.9 | 23 | 43 | 47 | 10 | 0 | 0 | 0 | 16 | 27 | 0 | **43** | 5.7 s (s14) | 5.6 |
 | c07 | 169.1 | 44 | 44 | 35 | 9 | 0 | 12 | 0 | 23 | 20 | 12 | **56** | 5.9 s (s33) | 6.7 |
 | c08 | 126.3 | 27 | 41 | 48 | 11 | 0 | 0 | 0 | 14 | 27 | 0 | **41** | 5.8 s (s25) | 4.3 |
-| **c01-c08** | | | **38** | **49** | **11** | **0** | **3** | **0** | **17** | **21** | **3** | **40** | | |
+| **c01-c08** | | | **37** | **49** | **11** | **0** | **3** | **0** | **16** | **21** | **3** | **40** | | |
 
 ## Pacing flags (shots > 6.0 s or < 1.2 s; end screen excluded)
 
@@ -26,21 +26,22 @@
 | ch | shot | start (abs s) | dur | template | source | cut on |
 |---|---|---|---|---|---|---|
 | c01 | s01 | 0.0 | 3.77 | map_clip | M:c01_open | Almost twenty-three thousand feet |
-| c01 | s02 | 3.77 | 1.86 | clip_plain | P:cm_NH_90603 | there is a small American warship |
-| c01 | s03 | 5.63 | 3.1 | clip_plain | P:cm_80_G_46989 | that once charged a fleet |
-| c01 | s04 | 8.73 | 2.7 | clip_plain | F:deep_iso.mp4 | She is the deepest shipwreck |
-| c01 | s05 | 11.44 | 2.95 | anim_gauge | A:anim_gauge + bg F:deep_nod.mp4 | Nearly twice as deep as the Titanic |
-| c01 | s06 | 14.38 | 3.18 | clip_plain | F:deep_field.mp4 | Stand Mount Kilimanjaro |
-| c01 | s07 | 17.56 | 4.68 | text_card | CARD + bg P:noaa_29809 | and its summit would still be |
-| c01 | s08 | 22.24 | 2.83 | clip_plain | P:cm_80_G_288885 | She was one of the smallest warships |
-| c01 | s09 | 25.07 | 3.53 | clip_plain | P:cm_80_G_382868 | A destroyer escort, built for chasing |
-| c01 | s10 | 28.61 | 3.2 | clip_plain | P:cm_80_G_270514 | And on one October morning |
-| c01 | s11 | 31.8 | 3.51 | clip_plain | P:cm_80_G_288886 | she was sent straight at the biggest guns |
-| c01 | s12 | 35.31 | 3.96 | lower_third | P:cm_NH_96011 | This is the USS Samuel B. Roberts |
-| c01 | s13 | 39.28 | 3.25 | clip_plain | P:cm_L45_74_08_01 | Her crew called her the Sammy B |
-| c01 | s14 | 42.53 | 3.2 | clip_plain | P:cm_80_G_270516 | her captain told them not to expect |
-| c01 | s15 | 45.73 | 3.24 | clip_plain | P:cm_80_G_288154 | So how did a ship this small |
-| c01 | s16 | 48.97 | 4.33 | map_clip | M:c01_where | And what did the cameras find |
+| c01 | s02 | 3.77 | 1.86 | clip_plain | P:cm_80_G_288885 | there is a small American warship |
+| c01 | s03 | 5.63 | 1.48 | clip_plain | P:cm_80_G_48888 | that once charged a fleet |
+| c01 | s04 | 7.11 | 1.62 | clip_plain | P:cm_80_G_288881 | of battleships |
+| c01 | s05 | 8.73 | 2.7 | anim_gauge | A:anim_gauge + bg F:deep_nod.mp4 | She is the deepest shipwreck |
+| c01 | s06 | 11.44 | 2.95 | anim_gauge | A:anim_gauge + bg F:deep_field.mp4 | Nearly twice as deep as the Titanic |
+| c01 | s07 | 14.38 | 3.18 | anim_gauge | A:anim_gauge + bg F:deep_field2.mp4 | Stand Mount Kilimanjaro |
+| c01 | s08 | 17.56 | 4.68 | text_card | CARD + bg P:noaa_29809 | and its summit would still be |
+| c01 | s09 | 22.24 | 2.83 | clip_plain | P:cm_80_G_287459 | She was one of the smallest warships |
+| c01 | s10 | 25.07 | 3.53 | clip_plain | P:cm_NH_90603 | A destroyer escort, built for chasing |
+| c01 | s11 | 28.61 | 3.2 | clip_plain | P:cm_80_G_270514 | And on one October morning |
+| c01 | s12 | 31.8 | 3.51 | clip_plain | P:cm_80_G_288886 | she was sent straight at the biggest guns |
+| c01 | s13 | 35.31 | 3.96 | lower_third | P:cm_NH_96011 | This is the USS Samuel B. Roberts |
+| c01 | s14 | 39.28 | 3.25 | clip_plain | P:cm_Launch_of_U_S_Navy_destroyer_escort_USS_Samuel_B | Her crew called her the Sammy B |
+| c01 | s15 | 42.53 | 3.2 | clip_plain | P:cm_80_G_270516 | her captain told them not to expect |
+| c01 | s16 | 45.73 | 3.24 | clip_plain | P:cm_80_G_288154 | So how did a ship this small |
+| c01 | s17 | 48.97 | 4.33 | map_clip | M:c01_where | And what did the cameras find |
 | c02 | s01 | 53.3 | 3.71 | map_clip | M:c02_samar | Start with the place |
 | c02 | s02 | 57.01 | 2.42 | clip_plain | P:nara_134372706_p02 | an island in the central Philippines |
 | c02 | s03 | 59.43 | 3.71 | text_card | CARD + bg P:cm_USS_Kalinin_Bay_CVE_68_underway_at_sea_circa_in | on the twenty-fifth of October |
@@ -61,7 +62,7 @@
 | c02 | s18 | 109.23 | 2.3 | clip_plain | P:cm_80_G_288099 | chasing a Japanese decoy |
 | c02 | s19 | 111.53 | 1.89 | clip_plain | P:cm_80_G_287512 | Nobody stood in the way |
 | c02 | s20 | 113.42 | 2.62 | clip_plain | P:cm_80_G_288149 | Nobody, except Taffy Three |
-| c02 | s21 | 116.04 | 5.63 | lower_third | P:cm_80_G_48888 | At the head of the Japanese line |
+| c02 | s21 | 116.04 | 5.63 | lower_third | P:cm_80_G_378525 | At the head of the Japanese line |
 | c02 | s22 | 121.67 | 2.66 | number_clip | P:cm_L42_09_06_01 | More than eight hundred and sixty feet |
 | c02 | s23 | 124.33 | 2.69 | number_clip | P:cm_Musashi_battleship_in_1942 | with nine guns of eighteen inches |
 | c02 | s24 | 127.02 | 2.64 | clip_plain | F:splash_far.mp4 | Just before seven, she opened fire |
@@ -76,7 +77,7 @@
 | c03 | s01 | 160.86 | 3.75 | clip_plain | F:cve_deck.mp4 | To understand what the Roberts did next |
 | c03 | s02 | 164.61 | 3.08 | map_clip | M:c03_houston | to a shipyard in Houston |
 | c03 | s03 | 167.69 | 3.94 | clip_plain | P:cm_John_C_Butler_class_destroyer_escort_inboard_pro | She was a John C. Butler class |
-| c03 | s04 | 171.63 | 1.82 | clip_plain | P:cm_Launch_of_U_S_Navy_destroyer_escort_USS_Samuel_B | built by Brown Shipbuilding |
+| c03 | s04 | 171.63 | 1.82 | clip_plain | P:cm_80_G_382868 | built by Brown Shipbuilding |
 | c03 | s05 | 173.45 | 4.39 | text_card | CARD + bg P:cm_80_G_364211 | and commissioned on the twenty-eighth |
 | c03 | s06 | 177.84 | 2.98 | clip_plain | P:cm_BS_82279 | Destroyer escorts were the Navy's small |
 | c03 | s07 | 180.83 | 4.86 | clip_plain | P:cm_80_G_295001 | Built fast and in large numbers |
@@ -98,7 +99,7 @@
 | c03 | s23 | 237.14 | 3.39 | clip_plain | F:cve_deck2.mp4 | who had joined the Naval Reserve |
 | c03 | s24 | 240.53 | 2.13 | clip_plain | F:dd_sea2.mp4 | When the war came, he went to sea |
 | c03 | s25 | 242.66 | 5.05 | clip_plain | P:cm_USS_John_C_Butler_DE_339_underway_at_sea_circa_i | Before the Roberts, he had already |
-| c03 | s26 | 247.7 | 2.89 | clip_plain | P:cm_80_G_382868 | Now he had a brand new ship |
+| c03 | s26 | 247.7 | 2.89 | clip_plain | P:cm_L45_74_08_01 | Now he had a brand new ship |
 | c03 | s27 | 250.6 | 3.46 | map_clip | M:c03_to_samar | Six months after she left Houston |
 | c03 | s28 | 254.06 | 3.61 | clip_plain | P:cm_L42_09_06_03 | with the Japanese fleet coming |
 | c04 | s01 | 257.67 | 4.67 | lower_third | P:cm_80_G_371327 | The American admiral, Clifton Sprague |
@@ -258,7 +259,7 @@
 | c08 | s08 | 825.43 | 4.43 | text_card | CARD + bg P:cm_NH_63473 | The wound that sank her |
 | c08 | s09 | 829.85 | 2.15 | clip_plain | P:cm_NH_90603 | So that is what is down there |
 | c08 | s10 | 832.0 | 5.07 | clip_plain | P:cm_L45_74_08_01 | A ship that was never meant |
-| c08 | s11 | 837.07 | 4.02 | clip_plain | P:cm_Launch_of_U_S_Navy_destroyer_escort_USS_Samuel_B | Three hundred feet of steel |
+| c08 | s11 | 837.07 | 4.02 | clip_plain | P:cm_John_C_Butler_class_destroyer_escort_inboard_pro | Three hundred feet of steel |
 | c08 | s12 | 841.09 | 2.7 | clip_plain | P:cm_80_G_295001 | Two small guns, and three torpedoes |
 | c08 | s13 | 843.79 | 4.66 | clip_plain | P:cm_L42_09_06_01 | Sent against the largest battleship |
 | c08 | s14 | 848.45 | 3.58 | clip_plain | F:squid.mp4 | And for almost eighty years |

@@ -2,18 +2,63 @@
  "numbers": [
   {
    "shot": "c01:s05",
-   "what": "SAMUEL B. ROBERTS",
+   "what": "FEET DOWN (APPROX.)",
+   "field": "count_at",
+   "spec": "@deepest",
+   "lands": 9.311,
+   "word_start": 9.311,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    8.73,
+    11.44
+   ],
+   "word": "deepest"
+  },
+  {
+   "shot": "c01:s06",
+   "what": "TITANIC",
    "field": "items.count_at",
-   "spec": "@twice",
-   "lands": 11.875,
-   "word_start": 11.875,
+   "spec": "@Titanic",
+   "lands": 13.455,
+   "word_start": 13.455,
    "offset": 0.0,
    "in_shot": true,
    "shot_span": [
     11.44,
     14.38
    ],
-   "word": "twice"
+   "word": "Titanic."
+  },
+  {
+   "shot": "c01:s07",
+   "what": "MT KILIMANJARO (HEIGHT)",
+   "field": "items.count_at",
+   "spec": "@Kilimanjaro",
+   "lands": 15.103,
+   "word_start": 15.103,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    14.38,
+    17.56
+   ],
+   "word": "Kilimanjaro"
+  },
+  {
+   "shot": "c01:s08",
+   "what": "≈3,000",
+   "field": "number_at",
+   "spec": "@three",
+   "lands": 19.543,
+   "word_start": 19.543,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    17.56,
+    22.24
+   ],
+   "word": "three"
   },
   {
    "shot": "c02:s06",
