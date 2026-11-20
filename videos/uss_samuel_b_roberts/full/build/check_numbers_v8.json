@@ -1,0 +1,561 @@
+{
+ "numbers": [
+  {
+   "shot": "c01:s05",
+   "what": "SAMUEL B. ROBERTS",
+   "field": "items.count_at",
+   "spec": "@twice",
+   "lands": 11.875,
+   "word_start": 11.875,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    11.44,
+    14.38
+   ],
+   "word": "twice"
+  },
+  {
+   "shot": "c02:s06",
+   "what": "6",
+   "field": "number_at",
+   "spec": "@Six",
+   "lands": 70.77,
+   "word_start": 70.77,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    70.65,
+    72.75
+   ],
+   "word": "Six"
+  },
+  {
+   "shot": "c02:s07",
+   "what": "3",
+   "field": "number_at",
+   "spec": "@Three",
+   "lands": 72.873,
+   "word_start": 72.873,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    72.75,
+    74.34
+   ],
+   "word": "Three"
+  },
+  {
+   "shot": "c02:s08",
+   "what": "4",
+   "field": "number_at",
+   "spec": "@Four",
+   "lands": 74.459,
+   "word_start": 74.459,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    74.34,
+    76.35
+   ],
+   "word": "Four"
+  },
+  {
+   "shot": "c02:s22",
+   "what": "860+",
+   "field": "number_at",
+   "spec": "@eight",
+   "lands": 122.23,
+   "word_start": 122.23,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    121.67,
+    124.33
+   ],
+   "word": "eight"
+  },
+  {
+   "shot": "c02:s23",
+   "what": "9 × 18 in",
+   "field": "number_at",
+   "spec": "@nine",
+   "lands": 124.65,
+   "word_start": 124.65,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    124.33,
+    127.02
+   ],
+   "word": "nine"
+  },
+  {
+   "shot": "c02:s26",
+   "what": "≈306",
+   "field": "number_at",
+   "spec": "@three",
+   "lands": 136.79,
+   "word_start": 136.79,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    134.23,
+    138.52
+   ],
+   "word": "three"
+  },
+  {
+   "shot": "c02:s27",
+   "what": "5",
+   "field": "number_at",
+   "spec": "@five",
+   "lands": 139.799,
+   "word_start": 139.799,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    138.52,
+    141.35
+   ],
+   "word": "five"
+  },
+  {
+   "shot": "c02:s28",
+   "what": "18.1",
+   "field": "number_at",
+   "spec": "@three",
+   "lands": 143.251,
+   "word_start": 143.251,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    141.35,
+    144.86
+   ],
+   "word": "three"
+  },
+  {
+   "shot": "c02:s29",
+   "what": "40×",
+   "field": "number_at",
+   "spec": "@forty",
+   "lands": 146.597,
+   "word_start": 146.597,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    144.86,
+    148.57
+   ],
+   "word": "forty"
+  },
+  {
+   "shot": "c03:s09",
+   "what": "2 × 5 in",
+   "field": "number_at",
+   "spec": "@two",
+   "lands": 189.167,
+   "word_start": 189.167,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    188.61,
+    192.97
+   ],
+   "word": "two"
+  },
+  {
+   "shot": "c03:s10",
+   "what": "3",
+   "field": "number_at",
+   "spec": "@three",
+   "lands": 193.087,
+   "word_start": 193.087,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    192.97,
+    195.18
+   ],
+   "word": "three"
+  },
+  {
+   "shot": "c03:s11",
+   "what": "≈220",
+   "field": "number_at",
+   "spec": "@two",
+   "lands": 196.214,
+   "word_start": 196.214,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    195.18,
+    198.55
+   ],
+   "word": "two"
+  },
+  {
+   "shot": "c03:s20",
+   "what": "21",
+   "field": "number_at",
+   "spec": "@twenty",
+   "lands": 223.381,
+   "word_start": 223.381,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    222.92,
+    226.78
+   ],
+   "word": "twenty"
+  },
+  {
+   "shot": "c04:s18",
+   "what": "<1",
+   "field": "number_at",
+   "spec": "@one",
+   "lands": 317.323,
+   "word_start": 317.323,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    315.64,
+    318.91
+   ],
+   "word": "one"
+  },
+  {
+   "shot": "c04:s21",
+   "what": "4,000",
+   "field": "number_at",
+   "spec": "@four",
+   "lands": 327.532,
+   "word_start": 327.532,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    326.37,
+    329.12
+   ],
+   "word": "four"
+  },
+  {
+   "shot": "c05:s13",
+   "what": "608",
+   "field": "number_at",
+   "spec": "@six",
+   "lands": 395.931,
+   "word_start": 395.931,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    393.86,
+    397.75
+   ],
+   "word": "six"
+  },
+  {
+   "shot": "c05:s14",
+   "what": "300+",
+   "field": "number_at",
+   "spec": "@three",
+   "lands": 399.814,
+   "word_start": 399.814,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    397.75,
+    401.07
+   ],
+   "word": "three"
+  },
+  {
+   "shot": "c05:s17",
+   "what": "08:51",
+   "field": "number_at",
+   "spec": "@eight",
+   "lands": 409.775,
+   "word_start": 409.775,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    409.12,
+    412.13
+   ],
+   "word": "eight"
+  },
+  {
+   "shot": "c05:s18",
+   "what": "≈20",
+   "field": "number_at",
+   "spec": "@twenty",
+   "lands": 414.718,
+   "word_start": 414.718,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    412.13,
+    416.16
+   ],
+   "word": "twenty"
+  },
+  {
+   "shot": "c05:s21",
+   "what": "14",
+   "field": "number_at",
+   "spec": "@Fourteen",
+   "lands": 422.565,
+   "word_start": 422.565,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    422.44,
+    425.62
+   ],
+   "word": "Fourteen"
+  },
+  {
+   "shot": "c05:s22",
+   "what": "≈40",
+   "field": "number_at",
+   "spec": "@forty",
+   "lands": 427.473,
+   "word_start": 427.473,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    425.62,
+    430.91
+   ],
+   "word": "forty"
+  },
+  {
+   "shot": "c05:s33",
+   "what": "10:05",
+   "field": "number_at",
+   "spec": "@five",
+   "lands": 467.826,
+   "word_start": 467.826,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    467.58,
+    471.84
+   ],
+   "word": "five"
+  },
+  {
+   "shot": "c05:s38",
+   "what": "≈09:20",
+   "field": "number_at",
+   "spec": "@twenty",
+   "lands": 486.346,
+   "word_start": 486.346,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    485.75,
+    488.96
+   ],
+   "word": "twenty"
+  },
+  {
+   "shot": "c05:s51",
+   "what": "1,000+",
+   "field": "number_at",
+   "spec": "@thousand",
+   "lands": 535.889,
+   "word_start": 535.889,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    535.26,
+    538.8
+   ],
+   "word": "thousand"
+  },
+  {
+   "shot": "c06:s02",
+   "what": "≈120",
+   "field": "number_at",
+   "spec": "@hundred",
+   "lands": 548.971,
+   "word_start": 548.971,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    548.57,
+    551.65
+   ],
+   "word": "hundred"
+  },
+  {
+   "shot": "c06:s09",
+   "what": "≈90",
+   "field": "number_at",
+   "spec": "@ninety",
+   "lands": 575.412,
+   "word_start": 575.412,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    575.01,
+    579.05
+   ],
+   "word": "ninety"
+  },
+  {
+   "shot": "c07:s03",
+   "what": "≈78",
+   "field": "number_at",
+   "spec": "@seventy",
+   "lands": 637.81,
+   "word_start": 637.81,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    637.29,
+    641.4
+   ],
+   "word": "seventy"
+  },
+  {
+   "shot": "c07:s07",
+   "what": "TIMES SURFACE PRESSURE",
+   "field": "count_at",
+   "spec": "@seven",
+   "lands": 654.1,
+   "word_start": 654.1,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    650.96,
+    656.8
+   ],
+   "word": "seven"
+  },
+  {
+   "shot": "c07:s08",
+   "what": "10,000+",
+   "field": "number_at",
+   "spec": "@ten",
+   "lands": 657.341,
+   "word_start": 657.341,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    656.8,
+    659.89
+   ],
+   "word": "ten"
+  },
+  {
+   "shot": "c07:s21",
+   "what": "USS JOHNSTON",
+   "field": "items.count_at",
+   "spec": "@twenty",
+   "lands": 701.913,
+   "word_start": 701.913,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    701.53,
+    706.65
+   ],
+   "word": "twenty"
+  },
+  {
+   "shot": "c07:s22",
+   "what": "≈15",
+   "field": "number_at",
+   "spec": "@fifteen",
+   "lands": 709.18,
+   "word_start": 709.18,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    706.65,
+    710.74
+   ],
+   "word": "fifteen"
+  },
+  {
+   "shot": "c07:s31",
+   "what": "6",
+   "field": "number_at",
+   "spec": "@six",
+   "lands": 740.506,
+   "word_start": 740.506,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    738.73,
+    741.64
+   ],
+   "word": "six"
+  },
+  {
+   "shot": "c07:s37",
+   "what": "METRES DOWN (APPROX.)",
+   "field": "count_at",
+   "spec": "@six",
+   "lands": 765.869,
+   "word_start": 765.869,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    764.83,
+    769.92
+   ],
+   "word": "six"
+  },
+  {
+   "shot": "c07:s38",
+   "what": "400+",
+   "field": "number_at",
+   "spec": "@four",
+   "lands": 772.243,
+   "word_start": 772.243,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    769.92,
+    774.03
+   ],
+   "word": "four"
+  },
+  {
+   "shot": "c07:s39",
+   "what": "TITANIC",
+   "field": "items.count_at",
+   "spec": "@twelve",
+   "lands": 775.966,
+   "word_start": 775.966,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    774.03,
+    778.34
+   ],
+   "word": "twelve"
+  },
+  {
+   "shot": "c07:s40",
+   "what": "≈2×",
+   "field": "number_at",
+   "spec": "@twice",
+   "lands": 779.538,
+   "word_start": 779.538,
+   "offset": 0.0,
+   "in_shot": true,
+   "shot_span": [
+    778.34,
+    781.32
+   ],
+   "word": "twice"
+  }
+ ],
+ "over_6s": [],
+ "fails": []
+}

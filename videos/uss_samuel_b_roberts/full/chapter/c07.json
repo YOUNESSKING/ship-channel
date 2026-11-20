@@ -593,11 +593,11 @@
     "max": 23000,
     "items": [
      {
-      "label": "TITANIC",
-      "value": 12500,
-      "at": "@twelve",
-      "count_at": "@twelve",
-      "dur": 0.7
+      "label": "SAMUEL B. ROBERTS",
+      "value": 22600,
+      "at": 0.1,
+      "count_at": 0.1,
+      "dur": 0.3
      },
      {
       "label": "USS JOHNSTON",
@@ -607,10 +607,10 @@
       "dur": 0.3
      },
      {
-      "label": "SAMUEL B. ROBERTS",
-      "value": 22600,
-      "at": "@twice",
-      "count_at": "@twice",
+      "label": "TITANIC",
+      "value": 12500,
+      "at": "@twelve",
+      "count_at": "@twelve",
       "dur": 0.8,
       "hero": true
      }
