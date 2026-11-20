@@ -1,0 +1,28 @@
+safe_area.js adjusted:
+  size 19->25.4: MANY HISTORIANS NOW
+  size 19->25.4: 5-INCH ROUNDS FIRED
+  size 19->25.4: ONE GUN
+  size 19->25.4: COPELAND’S REPORT
+  size 19->25.4: FIRST HIT
+  size 19->25.4: HITS IN ≈15 MINUTES
+  size 19->25.4: BATTLESHIP
+  size 19->25.4: KONGO’S GUNS
+  size 19->25.4: HOLE IN HER SIDE
+  size 19->25.4: GUNNER’S MATE 3RD CLASS
+  size 19->25.4: SILVER STAR CITATION
+  size 19->25.4: PAUL H. CARR
+  size 19->25.4: NAMED FOR HIM
+  size 19->25.4: SAMUEL B. ROBERTS SINKS
+  size 19->25.4: KURITA TURNS AWAY
+  size 19->25.4: TAFFY 3: KILLED OR MISSING
+  fit x0.95: “THE PROVIDENCE OF GOD”
+  fit x0.41: “TRIED, UNASSISTED, TO LOAD AN
+  wrap: PAUL H. CARR
+  fit x0.98: CHECOTAH, OKLAHOMA
+  lift 19px: BATTLESHIPKONGO
+  lift 19px: GUNNER’S MATE 3RD CLASSPAUL H.
+  wrap: COPELAND’S REPORT
+  wrap: SILVER STAR CITATION
+  lift 20px: BATTLESHIPKONGO
+  lift 20px: GUNNER’S MATE 3RD CLASSPAUL H.
+PASS: no text breaks the size / safe-area / font rules (183.3 s checked every 0.5 s)

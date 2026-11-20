@@ -1,0 +1,18 @@
+safe_area.js adjusted:
+  size 19->25.4: REAR ADMIRAL
+  size 19->25.4: COMMANDER
+  size 19->25.4: COPELAND’S REPORT, 1944
+  size 19->25.4: COPELAND ON HIS CREW
+  size 19->25.4: AVERAGE SERVICE
+  size 19->25.4: RANGE
+  size 19->25.4: THE TARGET
+  fit x0.69: “SURVIVAL COULD NOT BE EXPECTE
+  fit x0.41: “NEWLY INDUCTED · MARRIED · UN
+  lift 19px: REAR ADMIRALCLIFTON SPRAGUE
+  lift 19px: COMMANDERERNEST E. EVANS
+  lift 19px: THE TARGETHEAVY CRUISER CHOKAI
+  wrap: COPELAND ON HIS CREW
+  lift 20px: REAR ADMIRALCLIFTON SPRAGUE
+  lift 20px: COMMANDERERNEST E. EVANS
+  lift 20px: THE TARGETHEAVY CRUISER CHOKAI
+PASS: no text breaks the size / safe-area / font rules (83.7 s checked every 0.5 s)
