@@ -33,6 +33,22 @@ Read in this order: `CLAUDE.md` → this file → `STYLE_LOCK.md` → `reference
   next morning. Copy the **USS Ranger** scripts (`videos/uss_ranger/full/build/`, `full/mk/`): they are the newest (see lessons below).
   The 2022 dive footage/stills (Caladan Oceanic / Victor Vescovo) are copyrighted: describe only, never show.
 
+  **Status 2026-11-20:** built overnight (master v1 15:24), record in `videos/uss_samuel_b_roberts/full/BUILD_REPORT_v1.md`.
+
+### Lessons from USS Samuel B. Roberts (video 5, read before building video 6)
+1. Copy the SBR `full/build/` (newest): `film_bad.py` (fast white-out / blank-frame scan; make_shotlists cuts those spans like scene cuts),
+   `window_sheet_used.py` (frame sheet of the windows the shots actually use), NARA 480i timecode crop and NOAA "keep colour" in `make_segments.py`,
+   `sfx_full.py` drops cues that fall on their own shot's cut (the sound lib crashed on a 0-length cue).
+2. **Card brightness audit before rendering**: measure the luma of every built card background (`b_*.mp4`, see BUILD_REPORT §4); anything under
+   ~90 renders as a dim card. about 25 backgrounds had to be swapped here (NOAA seabed video and night/smoke film read dark once dimmed).
+3. NOAA Ocean Exploration video carries burned-in title cards and species captions: pick caption-free windows (skip the first ~10 s, detect
+   white text per second) and never use 720p clips that need a big crop (the octopus clips came out as blank colour).
+4. The footage agent's window notes can be wrong (a "destroyer at speed" window was a crowd of sailors): check every used window on the sheet.
+5. Two chapter renders can run in parallel only with separate TMPDIRs: `render_all.sh` deletes `/tmp/hyperframes-extract-cache-*` before each
+   render (a second job would wipe the first job's cache). Copy with `rm -rf "$TMPDIR"/...` (see `full/logs/render_all_b.sh`). ~1 h 30 for 15 min.
+6. Primary documents beat press: Copeland's action report was on NARA (catalog id 78682556) and fixed several numbers and the crew quote.
+7. vidIQ thumbnail scoring needs a public image URL (the image library upload returns only an id): titles were scored, thumbnails not.
+
 ### Lessons from USS Ranger (video 4, read before building video 5)
 1. Copy `videos/uss_ranger/full/build/` (not Nevada): it has `film_cuts.py` (scdet cuts; `make_shotlists.py` splits film windows at
    them), `window_sheet.py` (one sheet: start/middle/end of every film window), DVIDS video skipping the ship grade (the grade read a grey

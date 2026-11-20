@@ -250,12 +250,12 @@
 | c07 | s44 | 795.88 | 2.27 | map_clip | M:c07_record | And she still holds the record |
 | c08 | s01 | 798.15 | 3.95 | clip_plain | P:noaa_29717 | So what did the cameras see |
 | c08 | s02 | 802.11 | 4.44 | clip_plain | P:cm_John_C_Butler_class_destroyer_escort_outboard_pr | The Roberts lies in two pieces |
-| c08 | s03 | 806.55 | 3.37 | text_card | CARD + bg F:deep_field5.mp4 | Her stern has broken away |
+| c08 | s03 | 806.55 | 3.37 | text_card | CARD + bg P:cm_80_G_1041331 | Her stern has broken away |
 | c08 | s04 | 809.91 | 3.02 | clip_plain | P:cm_BS_70488 | Her triple torpedo launcher |
 | c08 | s05 | 812.93 | 4.37 | clip_plain | P:cm_NH_73025 | Its torpedoes were fired that October |
-| c08 | s06 | 817.3 | 3.99 | text_card | CARD + bg F:deep_field6.mp4 | One of her gun mounts is there too |
+| c08 | s06 | 817.3 | 3.99 | text_card | CARD + bg P:cm_Bathyscaphe_Trieste_Piccard_Walsh | One of her gun mounts is there too |
 | c08 | s07 | 821.29 | 4.14 | clip_plain | F:deep_field2.mp4 | And in her hull, the team saw |
-| c08 | s08 | 825.43 | 4.43 | text_card | CARD + bg F:deep_cuke2b.mp4 | The wound that sank her |
+| c08 | s08 | 825.43 | 4.43 | text_card | CARD + bg P:cm_NH_63473 | The wound that sank her |
 | c08 | s09 | 829.85 | 2.15 | clip_plain | P:cm_NH_90603 | So that is what is down there |
 | c08 | s10 | 832.0 | 5.07 | clip_plain | P:cm_L45_74_08_01 | A ship that was never meant |
 | c08 | s11 | 837.07 | 4.02 | clip_plain | P:cm_Launch_of_U_S_Navy_destroyer_escort_USS_Samuel_B | Three hundred feet of steel |
@@ -263,8 +263,8 @@
 | c08 | s13 | 843.79 | 4.66 | clip_plain | P:cm_L42_09_06_01 | Sent against the largest battleship |
 | c08 | s14 | 848.45 | 3.58 | clip_plain | F:squid.mp4 | And for almost eighty years |
 | c08 | s15 | 852.02 | 4.59 | clip_plain | P:nara_6410130 | The Navy's director of naval history |
-| c08 | s16 | 856.61 | 4.25 | text_card | CARD + bg P:nara_6406094 | The site of the wreck marks |
-| c08 | s17 | 860.86 | 4.06 | text_card | CARD + bg F:deep_field.mp4 | Under American law, no one may disturb |
+| c08 | s16 | 856.61 | 4.25 | text_card | CARD + bg P:nara_6410152 | The site of the wreck marks |
+| c08 | s17 | 860.86 | 4.06 | text_card | CARD + bg P:cm_USS_St_Lo_Cve63 | Under American law, no one may disturb |
 | c08 | s18 | 864.92 | 3.76 | text_card | CARD + bg F:deep_nod.mp4 | The penalty can reach |
 | c08 | s19 | 868.68 | 3.85 | clip_plain | F:anemone2.mp4 | The cameras came, and went |
 | c08 | s20 | 872.53 | 2.2 | clip_plain | P:nara_6406901 | with the men who never left her |
@@ -273,5 +273,5 @@
 | c08 | s23 | 880.97 | 3.95 | clip_plain | P:cm_USS_Gambier_Bay_CVE_73_and_escorts_making_smoke | Two dives below seven thousand |
 | c08 | s24 | 884.92 | 3.23 | clip_plain | F:deep_sponge.mp4 | If she is ever found |
 | c08 | s25 | 888.15 | 5.83 | clip_plain | P:cm_80_G_288149 | So here is the question |
-| c08 | s26 | 893.98 | 5.33 | text_card | CARD + bg F:deep_life.mp4 | Or should wrecks this deep |
+| c08 | s26 | 893.98 | 5.33 | text_card | CARD + bg P:cm_NH_63435 | Or should wrecks this deep |
 | c08 | s27 | 899.32 | 25.16 | map_clip | M:c08_endscreen | Tell us in the comments |

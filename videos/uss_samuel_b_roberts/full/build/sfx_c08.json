@@ -57,16 +57,11 @@
   }
  ],
  "film_shots": [
-  "s03",
-  "s06",
   "s07",
-  "s08",
   "s14",
-  "s17",
   "s18",
   "s19",
-  "s24",
-  "s26"
+  "s24"
  ],
  "generic_video_shots": [],
  "beds_hint": "projector loop under consecutive NARA film shots only (-27; never under the modern generic_video_shots, which get the bed of their scene: sea/waves for tows and storms, underwater for reef fish/divers, room tone for the lab); waves under sea photos/maps; underwater under hero sinking/cross-sections; drone under the fish-test gauges and the x-ray question blocks (-30)"

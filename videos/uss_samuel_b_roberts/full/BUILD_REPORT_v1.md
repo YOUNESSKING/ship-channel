@@ -54,7 +54,7 @@ thumbnails, Gofile upload of master + upload kit PDF + thumbnails. No other spen
 - 22 map scenes (map agent; `mk/MAPS_SHEET.jpg`) on new deep-ocean basemaps (`bake_sea.py DEEP=1`: wpac, leyte, samar, trench; + gulf_houston,
   solomons, persian). All battle and wreck positions labelled APPROX.
 - Gauges: depth bars (Titanic / Johnston / Roberts), pressure meter (~700x), depth meter (6,900 m).
-- Cards: a brightness audit of every card background (luma of the built background) replaced 16 dark backgrounds with bright photos before the
+- Cards: a brightness audit of every card background (luma of the built background) replaced about 25 dark backgrounds with bright photos (some after a first render) before the
   final renders.
 
 ## 5. Sound
