@@ -28,14 +28,16 @@ def at(phrase):
     for i in range(len(W)):
         if [n(w["w"]) for w in W[i:i + len(toks)]] == toks: return W[i]["start"]
     raise SystemExit("phrase not found: " + phrase)
-SW_ANSWER = round(at("So that is what happened") - 1.0, 3)
+SW_ANSWER = round(at("So what did the cameras see") - 1.0, 3)
 DIP = (0.0, 0.0, 0.0)
 END_LIFT = (CH["c08"]["voice_end"] + 0.9, 8.0)
+# SBR: main theme (hook, Taffy 3, the little ship) -> tension (torpedo run) -> build (the duel, reversal) -> hopeful (the survivors)
+# -> main theme again (the search, from 200 s into the track) -> outro from the answer
 P = [("neptuneflux-01.m4a", "Stories About the World That Once Was", 0.0, 0.0),
      ("neptuneflux-03.m4a", "Your Mother's Daughter", 0.0, CH["c04"]["start"]),
-     ("neptuneflux-01.m4a", "Stories About the World That Once Was", 210.0, CH["c05"]["start"]),
-     ("neptuneflux-04.m4a", "To Hide Their Secrets", 0.0, CH["c06"]["start"]),
-     ("neptuneflux-02.m4a", "That Hopeful Future Is All I've Ever Known", 0.0, CH["c07"]["start"]),
+     ("neptuneflux-04.m4a", "To Hide Their Secrets", 0.0, CH["c05"]["start"]),
+     ("neptuneflux-02.m4a", "That Hopeful Future Is All I've Ever Known", 0.0, CH["c06"]["start"]),
+     ("neptuneflux-01.m4a", "Stories About the World That Once Was", 200.0, CH["c07"]["start"]),
      ("neptuneflux-09.m4a", "I Should Have Been More Human", 0.0, SW_ANSWER)]
 LEN = {"neptuneflux-04.m4a": 200.2, "neptuneflux-01.m4a": 414.6, "neptuneflux-02.m4a": 186.4, "neptuneflux-03.m4a": 214.0, "neptuneflux-09.m4a": 223.5}
 
