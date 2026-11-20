@@ -7,10 +7,10 @@
 | c03 | 96.8 | 28 | 40 | 44 | 15 | 0 | 0 | 0 | 21 | 19 | 0 | **40** | 5.2 s (s21) | 6.8 |
 | c04 | 95.9 | 28 | 24 | 69 | 7 | 0 | 0 | 0 | 10 | 14 | 0 | **24** | 5.0 s (s14) | 6.3 |
 | c05 | 189.6 | 52 | 40 | 53 | 7 | 0 | 0 | 0 | 15 | 25 | 0 | **40** | 5.7 s (s47) | 7.9 |
-| c06 | 85.9 | 23 | 43 | 47 | 10 | 0 | 0 | 0 | 16 | 27 | 0 | **43** | 5.7 s (s14) | 4.9 |
-| c07 | 169.1 | 44 | 46 | 33 | 9 | 0 | 12 | 0 | 26 | 20 | 12 | **58** | 5.9 s (s33) | 6.7 |
-| c08 | 126.3 | 27 | 44 | 45 | 11 | 0 | 0 | 0 | 17 | 27 | 0 | **44** | 5.8 s (s25) | 4.3 |
-| **c01-c08** | | | **38** | **48** | **11** | **0** | **3** | **0** | **17** | **21** | **3** | **41** | | |
+| c06 | 85.9 | 23 | 43 | 47 | 10 | 0 | 0 | 0 | 16 | 27 | 0 | **43** | 5.7 s (s14) | 5.6 |
+| c07 | 169.1 | 44 | 44 | 35 | 9 | 0 | 12 | 0 | 23 | 20 | 12 | **56** | 5.9 s (s33) | 6.7 |
+| c08 | 126.3 | 27 | 41 | 48 | 11 | 0 | 0 | 0 | 14 | 27 | 0 | **41** | 5.8 s (s25) | 4.3 |
+| **c01-c08** | | | **38** | **49** | **11** | **0** | **3** | **0** | **17** | **21** | **3** | **40** | | |
 
 ## Pacing flags (shots > 6.0 s or < 1.2 s; end screen excluded)
 
@@ -203,12 +203,12 @@
 | c06 | s20 | 616.02 | 3.44 | clip_plain | P:cm_Ffg58minedamage2 | Her crew fought the flooding |
 | c06 | s21 | 619.46 | 1.61 | clip_plain | P:cm_MightyServantRoberts19882turned | No one was killed |
 | c06 | s22 | 621.07 | 4.94 | text_card | CARD + bg P:nara_6439678 | Four days later |
-| c06 | s23 | 626.01 | 3.08 | clip_plain | P:cm_USS_Samuel_B_Roberts_FFG_58_underway_in_Chesapea | in an operation called |
+| c06 | s23 | 626.01 | 3.08 | lower_third | P:cm_USS_Samuel_B_Roberts_FFG_58_underway_in_Chesapea | in an operation called |
 | c07 | s01 | 629.09 | 3.93 | clip_plain | P:cm_80_G_288154 | But the first Samuel B. Roberts was gone |
 | c07 | s02 | 633.02 | 4.27 | map_clip | M:c07_deep | Somewhere off Samar |
 | c07 | s03 | 637.29 | 4.11 | text_card | CARD + bg F:deep_cuke.mp4 | For almost seventy-eight years |
 | c07 | s04 | 641.4 | 1.99 | clip_plain | F:glass_squid.mp4 | The problem was the depth |
-| c07 | s05 | 643.38 | 4.3 | clip_plain | F:dumbo.mp4 | Off the coast of Samar, the sea floor |
+| c07 | s05 | 643.38 | 4.3 | clip_plain | P:noaa_29809 | Off the coast of Samar, the sea floor |
 | c07 | s06 | 647.68 | 3.27 | clip_plain | P:noaa_23573 | and most submarines, could never |
 | c07 | s07 | 650.96 | 5.84 | anim_gauge | A:anim_gauge + bg F:deep_iso.mp4 | At that depth, the water presses down |
 | c07 | s08 | 656.8 | 3.09 | text_card | CARD + bg F:deep_field3.mp4 | More than ten thousand pounds |
@@ -248,7 +248,7 @@
 | c07 | s42 | 785.87 | 5.16 | clip_plain | F:deep_life3.mp4 | The dives to reach her were the deepest |
 | c07 | s43 | 791.02 | 4.86 | clip_plain | F:deep_isopod16b.mp4 | In June twenty twenty-two, she became |
 | c07 | s44 | 795.88 | 2.27 | map_clip | M:c07_record | And she still holds the record |
-| c08 | s01 | 798.15 | 3.95 | clip_plain | F:dumbo2.mp4 | So what did the cameras see |
+| c08 | s01 | 798.15 | 3.95 | clip_plain | P:noaa_29717 | So what did the cameras see |
 | c08 | s02 | 802.11 | 4.44 | clip_plain | P:cm_John_C_Butler_class_destroyer_escort_outboard_pr | The Roberts lies in two pieces |
 | c08 | s03 | 806.55 | 3.37 | text_card | CARD + bg F:deep_field5.mp4 | Her stern has broken away |
 | c08 | s04 | 809.91 | 3.02 | clip_plain | P:cm_BS_70488 | Her triple torpedo launcher |

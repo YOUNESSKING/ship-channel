@@ -294,15 +294,15 @@ B["c06"] = [
  E("In nineteen eighty-eight, that frigate", "M:c06_gulf", map="persian: pin 'USS SAMUEL B. ROBERTS (FFG-58) · MINE' in the central Persian Gulf, APPROX.; date card '14 APRIL 1988' on 'eighty'"),
  E("Her crew fought the flooding", "P:cm_Ffg58minedamage2", label="USS SAMUEL B. ROBERTS (FFG-58) AFTER THE MINE, 1988"),
  E("No one was killed", "P:cm_MightyServantRoberts19882turned", label="FFG-58 CARRIED HOME ON A HEAVY-LIFT SHIP, 1988"),
- E("Four days later", "CARD", card=dict(variant="line", kicker="18 APRIL 1988", text="OPERATION PRAYING MANTIS", at="@Praying"), cbg="P:nara_6439678"),
- E("in an operation called", "P:cm_USS_Samuel_B_Roberts_FFG_58_underway_in_Chesapea", label="USS SAMUEL B. ROBERTS (FFG-58), 1995"),
+ E("Four days later", "CARD", card=dict(variant="line", kicker="18 APRIL 1988", text="THE NAVY STRIKES BACK", at="@struck"), cbg="P:nara_6439678"),
+ E("in an operation called", "P:cm_USS_Samuel_B_Roberts_FFG_58_underway_in_Chesapea", lt=dict(kicker="18 APRIL 1988", text="OPERATION PRAYING MANTIS", at="@Praying"), label="USS SAMUEL B. ROBERTS (FFG-58), 1995"),
 ]
 B["c07"] = [
  E("But the first Samuel B. Roberts was gone", "P:cm_80_G_288154", label="OFF SAMAR, 25 OCT 1944"),
  E("Somewhere off Samar", "M:c07_deep", map="trench: camera drifts over the deep water east of Samar; 'SOMEWHERE OFF SAMAR' on 'Samar'; depth labels '4,000 M', '6,000 M' fade in on the contours"),
  E("For almost seventy-eight years", "CARD", card=dict(variant="number", dim="lt", kicker="LOST: 1944 → 2022", number="≈78", unit="years", number_at="@seventy"), cbg="F:deep_cuke.mp4"),
  E("The problem was the depth", "F:glass_squid.mp4"),
- E("Off the coast of Samar, the sea floor", "F:dumbo.mp4"),
+ E("Off the coast of Samar, the sea floor", "P:noaa_29809", label="ILLUSTRATIVE · THE DEEP SEA FLOOR (NOAA, 2026)"),
  E("and most submarines, could never", "P:noaa_23573", label="ILLUSTRATIVE · A RARE DEEP-SEA SQUID (NOAA)"),
  E("At that depth, the water presses down", "A:anim_gauge", params=dict(variant="meter", kicker="Pressure at the *wreck*", value=700, label="TIMES SURFACE PRESSURE", unit="×", decimals=0, max=750, count_at="@seven", dur=1.0), bg="F:deep_iso.mp4"),
  E("More than ten thousand pounds", "CARD", card=dict(variant="number", dim="lt", kicker="ON EVERY SQUARE INCH", number="10,000+", unit="lb", number_at="@ten"), cbg="F:deep_field3.mp4"),
@@ -344,7 +344,7 @@ B["c07"] = [
  E("And she still holds the record", "M:c07_record", map="wpac: pull back from the APPROX. wreck ring east of Samar to the whole Western Pacific; tag 'DEEPEST SHIPWRECK EVER FOUND · SINCE JUNE 2022' on 'record'"),
 ]
 B["c08"] = [
- E("So what did the cameras see", "F:dumbo2.mp4"),
+ E("So what did the cameras see", "P:noaa_29717", label="ILLUSTRATIVE · THE DEEP SEA FLOOR (NOAA, 2026)"),
  E("The Roberts lies in two pieces", "P:cm_John_C_Butler_class_destroyer_escort_outboard_pr", label="BUTLER-CLASS PLAN: THE WRECK LIES IN TWO PIECES (2022 DIVE REPORTS)"),
  E("Her stern has broken away", "CARD", card=dict(variant="line", kicker="2022 DIVES", text="STERN BROKEN AWAY", at="@stern"), cbg="F:deep_field5.mp4"),
  E("Her triple torpedo launcher", "P:cm_BS_70488", label="ILLUSTRATIVE · TORPEDO LAUNCHER AMIDSHIPS ON SISTER SHIP JOHN C. BUTLER, 1944"),

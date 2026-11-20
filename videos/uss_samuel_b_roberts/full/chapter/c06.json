@@ -305,8 +305,8 @@
    "card": true,
    "params": {
     "kicker": "18 APRIL 1988",
-    "text": "OPERATION PRAYING MANTIS",
-    "at": "@Praying",
+    "text": "THE NAVY STRIKES BACK",
+    "at": "@struck",
     "kicker_at": 0.15
    },
    "clip": {
@@ -319,13 +319,17 @@
    "id": "s23",
    "start": "t82.86",
    "sfx": false,
-   "template": "clip_plain",
-   "variant": "push",
+   "template": "lower_third",
+   "variant": "kicker_line",
    "clip": {
     "file": "p_c06_s23.mp4",
     "push": null
    },
-   "params": {}
+   "params": {
+    "kicker": "18 APRIL 1988",
+    "text": "OPERATION PRAYING MANTIS",
+    "at": "@Praying"
+   }
   }
  ]
 }

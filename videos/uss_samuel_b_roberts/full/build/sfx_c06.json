@@ -39,9 +39,15 @@
   },
   {
    "shot": "s22",
-   "at": "@Praying",
+   "at": "@struck",
    "role": "pop",
-   "note": "card: OPERATION PRAYING MANTIS"
+   "note": "card: THE NAVY STRIKES BACK"
+  },
+  {
+   "shot": "s23",
+   "at": "@Praying",
+   "role": "tick",
+   "note": "label: OPERATION PRAYING MANTIS"
   }
  ],
  "film_shots": [

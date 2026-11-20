@@ -60,6 +60,13 @@ for c in CUES:
     if t - last.get(c["role"], -99) < gap: LOG.append((c["shot"].split(":")[0], c["shot"], c["role"], f"dropped: {gap} s min gap ({c['note']})")); continue
     last[c["role"]] = t; keep.append(c)
 CUES = keep
+# SBR: a cue whose event falls on (or after) its own shot's cut has no length left: drop it (the lib cannot shape a 0-sample cue)
+keep = []
+for c in CUES:
+    a_, b_ = ST[c["shot"]][0], ST[c["shot"]][1]
+    if a_ + c["at"] >= b_ - 0.06 and not c.get("lead"): LOG.append((c["shot"].split(":")[0], c["shot"], c["role"], f"dropped: event on/after its shot cut ({c['note']})")); continue
+    keep.append(c)
+CUES = keep
 
 TODAY = re.compile(r"^(p|b)_c0\d_s\d+\.mp4$")
 def bed_of(k, s):
