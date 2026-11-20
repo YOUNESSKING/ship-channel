@@ -1,0 +1,58 @@
+[
+ {
+  "chapter": "c01",
+  "start": 0.0,
+  "frames_rendered": 1599,
+  "frames_wanted": 1599,
+  "source": "/home/user/ship-channel/videos/uss_samuel_b_roberts/full/chapter/render_c01.mp4"
+ },
+ {
+  "chapter": "c02",
+  "start": 53.299,
+  "frames_rendered": 3227,
+  "frames_wanted": 3227,
+  "source": "/home/user/ship-channel/videos/uss_samuel_b_roberts/full/chapter/render_c02.mp4"
+ },
+ {
+  "chapter": "c03",
+  "start": 160.858,
+  "frames_rendered": 2905,
+  "frames_wanted": 2904,
+  "source": "/home/user/ship-channel/videos/uss_samuel_b_roberts/full/chapter/render_c03.mp4"
+ },
+ {
+  "chapter": "c04",
+  "start": 257.67,
+  "frames_rendered": 2878,
+  "frames_wanted": 2877,
+  "source": "/home/user/ship-channel/videos/uss_samuel_b_roberts/full/chapter/render_c04.mp4"
+ },
+ {
+  "chapter": "c05",
+  "start": 353.575,
+  "frames_rendered": 5688,
+  "frames_wanted": 5687,
+  "source": "/home/user/ship-channel/videos/uss_samuel_b_roberts/full/chapter/render_c05.mp4"
+ },
+ {
+  "chapter": "c06",
+  "start": 543.144,
+  "frames_rendered": 2579,
+  "frames_wanted": 2579,
+  "source": "/home/user/ship-channel/videos/uss_samuel_b_roberts/full/chapter/render_c06.mp4"
+ },
+ {
+  "chapter": "c07",
+  "start": 629.089,
+  "frames_rendered": 5072,
+  "frames_wanted": 5072,
+  "source": "/home/user/ship-channel/videos/uss_samuel_b_roberts/full/chapter/render_c07.mp4"
+ },
+ {
+  "chapter": "c08",
+  "start": 798.154,
+  "frames_rendered": 3790,
+  "frames_wanted": 3789,
+  "source": "/home/user/ship-channel/videos/uss_samuel_b_roberts/full/chapter/render_c08.mp4"
+ }
+]

@@ -2582,11 +2582,11 @@
    "role": "underwater",
    "file": "underwater_a__127d88ce.wav",
    "start": 8.73,
-   "end": 22.24,
+   "end": 17.56,
    "level_db": -32,
    "fade": 0.25,
    "shot": "c01:s04",
-   "end_shot": "c01:s07",
+   "end_shot": "c01:s06",
    "note": "underwater bed (depth of the wreck)"
   },
   {
@@ -2631,17 +2631,6 @@
    "fade": 0.25,
    "shot": "c03:s01",
    "end_shot": "c03:s01",
-   "note": "projector loop under archive film"
-  },
-  {
-   "role": "projector",
-   "file": "projector_b__5648e70b.wav",
-   "start": 192.968,
-   "end": 195.178,
-   "level_db": -29,
-   "fade": 0.25,
-   "shot": "c03:s10",
-   "end_shot": "c03:s10",
    "note": "projector loop under archive film"
   },
   {
@@ -2768,34 +2757,12 @@
   {
    "role": "projector",
    "file": "projector_b__5648e70b.wav",
-   "start": 393.855,
-   "end": 397.755,
-   "level_db": -29,
-   "fade": 0.25,
-   "shot": "c05:s13",
-   "end_shot": "c05:s13",
-   "note": "projector loop under archive film"
-  },
-  {
-   "role": "projector",
-   "file": "projector_b__5648e70b.wav",
    "start": 401.075,
-   "end": 409.115,
+   "end": 403.745,
    "level_db": -29,
    "fade": 0.25,
    "shot": "c05:s15",
-   "end_shot": "c05:s16",
-   "note": "projector loop under archive film"
-  },
-  {
-   "role": "projector",
-   "file": "projector_b__5648e70b.wav",
-   "start": 425.615,
-   "end": 430.915,
-   "level_db": -29,
-   "fade": 0.25,
-   "shot": "c05:s22",
-   "end_shot": "c05:s22",
+   "end_shot": "c05:s15",
    "note": "projector loop under archive film"
   },
   {
@@ -2876,17 +2843,6 @@
    "note": "projector loop under archive film"
   },
   {
-   "role": "underwater",
-   "file": "underwater_a__127d88ce.wav",
-   "start": 548.574,
-   "end": 551.654,
-   "level_db": -32,
-   "fade": 0.25,
-   "shot": "c06:s02",
-   "end_shot": "c06:s02",
-   "note": "underwater bed (depth of the wreck)"
-  },
-  {
    "role": "projector",
    "file": "projector_b__5648e70b.wav",
    "start": 561.264,
@@ -2933,23 +2889,12 @@
   {
    "role": "underwater",
    "file": "underwater_a__127d88ce.wav",
-   "start": 681.539,
-   "end": 683.909,
-   "level_db": -32,
-   "fade": 0.25,
-   "shot": "c07:s15",
-   "end_shot": "c07:s15",
-   "note": "underwater bed (depth of the wreck)"
-  },
-  {
-   "role": "underwater",
-   "file": "underwater_a__127d88ce.wav",
    "start": 690.759,
-   "end": 710.739,
+   "end": 706.649,
    "level_db": -32,
    "fade": 0.25,
    "shot": "c07:s18",
-   "end_shot": "c07:s22",
+   "end_shot": "c07:s21",
    "note": "underwater bed (depth of the wreck)"
   },
   {
@@ -2978,10 +2923,21 @@
    "role": "underwater",
    "file": "underwater_a__127d88ce.wav",
    "start": 761.679,
-   "end": 778.339,
+   "end": 769.919,
    "level_db": -32,
    "fade": 0.25,
    "shot": "c07:s36",
+   "end_shot": "c07:s37",
+   "note": "underwater bed (depth of the wreck)"
+  },
+  {
+   "role": "underwater",
+   "file": "underwater_a__127d88ce.wav",
+   "start": 774.029,
+   "end": 778.339,
+   "level_db": -32,
+   "fade": 0.25,
+   "shot": "c07:s39",
    "end_shot": "c07:s39",
    "note": "underwater bed (depth of the wreck)"
   },
@@ -2999,23 +2955,12 @@
   {
    "role": "underwater",
    "file": "underwater_a__127d88ce.wav",
-   "start": 806.544,
-   "end": 809.914,
+   "start": 821.294,
+   "end": 825.424,
    "level_db": -32,
    "fade": 0.25,
-   "shot": "c08:s03",
-   "end_shot": "c08:s03",
-   "note": "underwater bed (depth of the wreck)"
-  },
-  {
-   "role": "underwater",
-   "file": "underwater_a__127d88ce.wav",
-   "start": 817.304,
-   "end": 829.854,
-   "level_db": -32,
-   "fade": 0.25,
-   "shot": "c08:s06",
-   "end_shot": "c08:s08",
+   "shot": "c08:s07",
+   "end_shot": "c08:s07",
    "note": "underwater bed (depth of the wreck)"
   },
   {
@@ -3032,11 +2977,11 @@
   {
    "role": "underwater",
    "file": "underwater_a__127d88ce.wav",
-   "start": 860.864,
+   "start": 864.924,
    "end": 872.534,
    "level_db": -32,
    "fade": 0.25,
-   "shot": "c08:s17",
+   "shot": "c08:s18",
    "end_shot": "c08:s19",
    "note": "underwater bed (depth of the wreck)"
   },
@@ -3049,17 +2994,6 @@
    "fade": 0.25,
    "shot": "c08:s24",
    "end_shot": "c08:s24",
-   "note": "underwater bed (depth of the wreck)"
-  },
-  {
-   "role": "underwater",
-   "file": "underwater_a__127d88ce.wav",
-   "start": 893.984,
-   "end": 899.314,
-   "level_db": -32,
-   "fade": 0.25,
-   "shot": "c08:s26",
-   "end_shot": "c08:s26",
    "note": "underwater bed (depth of the wreck)"
   }
  ],
